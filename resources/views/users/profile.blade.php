@@ -350,7 +350,7 @@
                                     </div>
                                 </div>
                                 <!-- <input class="btn btn-primary" type="submit" value="Save"> -->
-                                    <button type="submit" style="width:75px !important; height:35px !important;" class="btn btn-primary">Save</button>
+                                    <button type="submit" name="submitform" class="btn btn-primary" style="width:75px !important; height:35px !important;" >Save</button>
                             </form>
                         </div>
                     </div>
