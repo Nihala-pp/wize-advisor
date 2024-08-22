@@ -64,7 +64,7 @@
                                             name="password_confirmation" autocomplete="current-password">
                                     </div> -->
                                     <button type="submit" name="submitform" id="submitform"
-                                        class="btn savePassword" style="background-color:#000 !important;color:#fff !important;text-tranform:capitalize;" >{{ __('Save') }}</button>
+                                        class="btn savePassword" style="background-color:#000 !important;color:#fff !important;text-tranform:capitalize !important;" >{{ __('Save') }}</button>
                                 </form>
                             </div>
                         </div>
