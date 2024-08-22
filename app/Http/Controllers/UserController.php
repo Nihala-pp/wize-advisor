@@ -239,17 +239,18 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
     // dd($request->all());
     $user = User::find($request->row_id);
 
-    if (empty($user->metaData->profile_pic)) {
+    // if (empty($user->metaData->profile_pic)) {
+
       $pro_pic = time() . '.' . $request->profile_pic->getClientOriginalExtension();
       $request->profile_pic->move(public_path('assets/img'), $pro_pic);
-    } else {
-      $pro_pic = $user->metaData->profile_pic;
-    }
+    // } else {
+    //   $pro_pic = $user->metaData->profile_pic;
+    // }
 
     //   $credentials = $request->validate([
     //     'password' => [
     //         'required',
-    //         'confirmed', Password::min(8)
+    //         'confirmed', Password::min(8)4
     //             ->letters()
     //             ->mixedCase()
     //             ->numbers()
