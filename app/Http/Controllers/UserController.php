@@ -323,6 +323,7 @@ alert("Profile Updated Successfully!");
       ?>
       <script type="text/javascript">
         alert("Password Doesn't Match!");
+        window.location.href="https://wiseadvizor.com/user/change-password";
       </script>
       <?php
     }
@@ -345,7 +346,7 @@ alert("Profile Updated Successfully!");
   
       ?>
      <script type="text/javascript">
-  alert("Password Updated Successfully!");
+       alert("Password Updated Successfully!");
      </script>
   <?php
     }
