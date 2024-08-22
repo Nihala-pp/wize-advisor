@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+@include('partials.web-header-new')
 
 <head>
-    @include('partials.web-header-new')
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.6.4" id="jquery-core-js">
