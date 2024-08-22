@@ -354,7 +354,7 @@
                                     </div>
                                 </div>
                                 <input type="submit" name="submitform" id="submitform"
-                                    class="btn btn-primary">{{ __('Save') }}</input>
+                                    class="btn btn-primary" value="Save">
                             </form>
                         </div>
                     </div>
