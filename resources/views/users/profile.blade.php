@@ -589,7 +589,7 @@ button.btn.btn-primary {
     /* margin-top: -35px; */
     z-index: 99;
     position: relative;
-    margin-bottom:-50px
+    margin-bottom:-50px !important;
 }
 /***  header ***/
 
