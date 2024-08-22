@@ -338,8 +338,7 @@
                                 </div>
                                 <div class="form-group col-md-12">
                                     <label for="validationCustom06" class="form-label">Timezone</label>
-                                    <select name="timezone" class="form-control timezone" data-live-search="true"
-                                        data-width="100%" id="validationCustom06" required>
+                                    <select name="timezone" class="form-control timezonedropdown" id="validationCustom06" required>
                                         <option value="">Choose Your Timezone</option>
                                         @foreach($timezone as $zone => $time)
                                         <option value="{{ $zone }}"
@@ -377,6 +376,8 @@
         $(document).ready(function() {
 
             $('.js-example-basic-multiple').select2();
+
+            $('.timezonedropdown').select2();
 
         });
     }(jQuery));
