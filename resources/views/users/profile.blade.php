@@ -351,7 +351,7 @@
                                 </div>
                                 <!-- <input class="btn btn-primary" type="submit" value="Save"> -->
                                 <div> 
-                                    <a class="btn btn-primary">Save</a>
+                                    <button type="submit" class="btn btn-primary">Save</button>
                                 </div>
                             </form>
                         </div>
