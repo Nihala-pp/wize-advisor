@@ -92,7 +92,7 @@
         confirm_password.onkeyup = validatePassword;
 
         function validatePassword() {
-            if (confirm_password.value != "" && password.value != confirm_password.value) {
+            if (password.value != confirm_password.value) {
                 document.getElementById("password_validation").innerHTML = "Password Doesn't Match";  
                 // confirm_password.setCustomValidity("Passwords Don't Match");
             }
