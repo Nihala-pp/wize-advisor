@@ -372,7 +372,7 @@
 
             $('.timezonedropdown').select2();
 
-            $('html').css('overflow', 'hidden');
+            $('html').css('overflow-x', 'initial');
 
         });
     }(jQuery));
