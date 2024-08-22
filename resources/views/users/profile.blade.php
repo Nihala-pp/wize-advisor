@@ -350,7 +350,8 @@
                                     </div>
                                 </div>
                                 <!-- <input class="btn btn-primary" type="submit" value="Save"> -->
-                                    <button type="submit" name="submitform" class="btn btn-primary" style="width:75px !important; height:35px !important;" >Save</button>
+                                <button type="submit" name="submitform" class="btn btn-primary"
+                                    style="width:75px !important; height:35px !important;">Save</button>
                             </form>
                         </div>
                     </div>
@@ -370,6 +371,10 @@
             $('.js-example-basic-multiple').select2();
 
             $('.timezonedropdown').select2();
+
+            $('html, body').animate({
+                scrollTop: $(".form-row").offset().top
+            }, 2000);
 
         });
     }(jQuery));
@@ -521,7 +526,7 @@ button.btn.btn-primary {
     background-color: #000;
     padding-right: 18px;
     margin-left: 15px;
-} 
+}
 
 .js-example-basic-multiple {
     background-color: #000 !important;
@@ -588,8 +593,9 @@ button.btn.btn-primary {
     /* margin-top: -35px; */
     z-index: 99;
     position: relative;
-    margin-bottom:-50px !important;
+    margin-bottom: -50px !important;
 }
+
 /***  header ***/
 
 
