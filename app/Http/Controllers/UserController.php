@@ -322,7 +322,7 @@ alert("Profile Updated Successfully!");
     {
       ?>
       <script type="text/javascript">
-        alert("Password Updated Successfully!");
+        alert("Password Doesn't Match!");
       </script>
       <?php
     }
