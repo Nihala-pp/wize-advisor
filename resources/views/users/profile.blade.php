@@ -350,7 +350,7 @@
                                     </div>
                                 </div>
                                 <!-- <input class="btn btn-primary" type="submit" value="Save"> -->
-                                <div> 
+                                <div>
                                     <button type="submit" class="btn btn-primary">Save</button>
                                 </div>
                             </form>
@@ -585,6 +585,24 @@ h3 {
     user-select: none;
     -webkit-user-select: none;
     padding-top: 2px;
+}
+
+button:focus {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
 
 /***  header ***/
@@ -913,4 +931,5 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+
 </html>
