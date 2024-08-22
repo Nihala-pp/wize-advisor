@@ -584,12 +584,14 @@ button#submitform.btn.btn-primary {
 }
 
 .select2-container .select2-selection--single {
+    font-size: 16px;
     box-sizing: border-box;
     cursor: pointer;
     display: block;
     height: 38px;
     user-select: none;
     -webkit-user-select: none;
+    padding-top: 2px;
 }
 
 /***  header ***/
