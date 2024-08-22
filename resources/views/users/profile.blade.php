@@ -351,7 +351,7 @@
                                 </div>
                                 <!-- <input class="btn btn-primary" type="submit" value="Save"> -->
                                 <div>
-                                    <button style="width:50px !imporatantwq" type="submit" class="btn btn-primary">Save</button>
+                                    <button style="width:50px !imporatant" type="submit" class="btn btn-primary">Save</button>
                                 </div>
                             </form>
                         </div>
