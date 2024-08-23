@@ -194,10 +194,10 @@
                                                                                         data-widget_type="heading.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <h1
+                                                                                            <h2
                                                                                                 class="elementor-heading-title elementor-size-default">
                                                                                                 {{ $featured_blog2->title }}
-                                                                                            </h1>
+                                                                                            </h2>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="elementor-element elementor-element-37811c8f elementor-widget elementor-widget-text-editor"
@@ -322,10 +322,10 @@
                                                                                                 font-size: 59px
                                                                                             }
                                                                                             </style>
-                                                                                            <h1
+                                                                                            <h2
                                                                                                 class="elementor-heading-title elementor-size-default">
                                                                                                 {{ $featured_blog3->title }}
-                                                                                            </h1>
+                                                                                            </h2>
                                                                                         </div>
                                                                                     </div>
                                                                                     <div class="elementor-element elementor-element-5fe462db elementor-widget elementor-widget-text-editor"
