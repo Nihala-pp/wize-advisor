@@ -698,6 +698,12 @@ i.fas.fa-bell.fa-2xl {
     width: 25% !important;
 }
 
+.elementor-3007 .elementor-element.elementor-element-cf19fcc > .elementor-container > .elementor-column > .elementor-widget-wrap {
+    margin-bottom: -15px;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+
 @media (max-width: 767px) {
 
     #submitform {
