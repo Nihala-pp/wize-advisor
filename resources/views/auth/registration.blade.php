@@ -17,12 +17,10 @@
     content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
 <meta property="og:image"
     content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
-<meta property="og:url" content="https://wiseadvizor.com">
 <meta property="og:site_name" content="wiseAdvizor" />
 <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
 <meta name="twitter:description"
     content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
-<meta name="twitter:url" content="https://wiseadvizor.com">
 <meta name="twitter:image"
     url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
 <meta name="twitter:card" content="summary_large_image">
@@ -708,8 +706,12 @@ body .is-layout-grid>* {
 <meta name="generator" content="WordPress 6.4.3" />
 @if(!empty($token))
 <link rel="canonical" href="https://wiseadvizor.com/registration/{{$token}}/{{$id}}">
+<meta name="twitter:url" content="https://wiseadvizor.com/registration/{{$token}}/{{$id}}">
+<meta property="og:url" content="https://wiseadvizor.com/registration/{{$token}}/{{$id}}">
 @else
 <link rel="canonical" href="https://wiseadvizor.com/registration">
+<meta name="twitter:url" content="https://wiseadvizor.com/registration">
+<meta property="og:url" content="https://wiseadvizor.com/registration">
 @endif
 <link rel='shortlink' href='https://wiseadvizor.com/?p=5595' />
 <link rel="alternate" type="application/json+oembed"
