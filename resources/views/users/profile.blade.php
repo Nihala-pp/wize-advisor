@@ -698,13 +698,19 @@ i.fas.fa-bell.fa-2xl {
     width: 25% !important;
 }
 
-.elementor-3007 .elementor-element.elementor-element-cf19fcc > .elementor-container > .elementor-column > .elementor-widget-wrap {
+.elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-container>.elementor-column>.elementor-widget-wrap {
     margin-bottom: -15px;
     align-content: flex-start;
     align-items: flex-start;
 }
 
 @media (max-width: 767px) {
+
+    .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-container>.elementor-column>.elementor-widget-wrap {
+        align-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: -15px;
+    }
 
     #submitform {
         margin-left: 100px;
