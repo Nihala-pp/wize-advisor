@@ -261,8 +261,8 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                        {{ $blog->author_name ?? '' }}
-                                                        | {{ $blog->time_to_read ?? '' }} min read
+                                                       <a href="https://wiseadvizor.com"> {{ $blog->author_name ?? '' }} </a>
+                                                        | {{ $blog->time_to_read ?? '' }}  min read
                                                     </p>
                                                 </div>
                                             </div>
