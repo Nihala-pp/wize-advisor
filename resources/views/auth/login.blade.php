@@ -27,10 +27,16 @@
 <meta name="keywords" content="business guidance, building a startup, business coach, Startup mentors">
 @if($id && empty($name))
 <link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}">
+<meta property="og:url" content="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}">
+<meta name="twitter:url" content="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}">
 @elseif($token && $name)
 <link rel="canonical" href="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}/{{ $name }}">
+<meta property="og:url" content="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}/{{ $name }}">
+<meta name="twitter:url" content="https://wiseadvizor.com/login/{{ $token }}/{{ $id }}/{{ $name }}">
 @else
 <link rel="canonical" href="https://wiseadvizor.com/login">
+<meta property="og:url" content="https://wiseadvizor.com/login">
+<meta name="twitter:url" content="https://wiseadvizor.com/login">
 @endif
 <meta property="og:locale" content="en_US" />
 <meta property="og:type" content="website" />
@@ -39,12 +45,10 @@
     content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
 <meta property="og:image"
     content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
-<meta property="og:url" content="https://wiseadvizor.com">
 <meta property="og:site_name" content="wiseAdvizor" />
 <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
 <meta name="twitter:description"
     content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
-<meta name="twitter:url" content="https://wiseadvizor.com">
 <meta name="twitter:image"
     url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
 <meta name="twitter:card" content="summary_large_image">
