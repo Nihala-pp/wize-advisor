@@ -10,6 +10,22 @@
     content="Join wiseAdvizor and gain access to startup mentors offering invaluable entrepreneur advice to navigate the challenges of entrepreneurship.">
 @endif
 <meta name="keywords" content="entrepreneur advice, startup mentors">
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
+<meta property="og:description"
+    content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
+<meta property="og:image"
+    content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+<meta property="og:url" content="https://wiseadvizor.com">
+<meta property="og:site_name" content="wiseAdvizor" />
+<meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
+<meta name="twitter:description"
+    content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
+<meta name="twitter:url" content="https://wiseadvizor.com">
+<meta name="twitter:image"
+    url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+<meta name="twitter:card" content="summary_large_image">
 @include('partials.header')
 <script>
 var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -185,9 +201,6 @@ img.emoji {
     padding: 0 !important;
 }
 </style>
-<!-- <link rel='stylesheet' id='twenty-twenty-one-custom-color-overrides-css'
-    href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/custom-color-overrides.css?ver=2.0'
-    media='all' /> -->
 <style id='classic-theme-styles-inline-css'>
 /*! This file is auto-generated */
 .wp-block-button__link {
@@ -634,9 +647,6 @@ body .is-layout-grid>* {
 <link rel='stylesheet' id='font-awesome-4-shim-css'
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/v4-shims.min.css?ver=3.19.0'
     media='all' />
-<!-- <link rel='stylesheet' id='she-header-style-css'
-    href='https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.css?ver=1.6.10'
-    media='all' /> -->
 <link rel='stylesheet' id='elementor-global-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1706785961' media='all' />
 <link rel='stylesheet' id='elementor-post-5595-css'
@@ -652,17 +662,13 @@ body .is-layout-grid>* {
 <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
     href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.3'
     media='all' />
-<!-- <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
-    href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.3'
-    media='all' /> -->
-    <link rel="preload" id='qi-addons-for-elementor-style-css' href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1">
-    </noscript>
-<!-- <link rel='stylesheet' id='twenty-twenty-one-style-css'
-    href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
-<link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-    href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' /> -->
+<link rel="preload" id='qi-addons-for-elementor-style-css'
+    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1"
+    as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1">
+</noscript>
 <link rel='stylesheet' id='wpforms-admin-bar-css'
     href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.6.4'
     media='all' />
@@ -676,15 +682,16 @@ body .is-layout-grid>* {
 <link rel='stylesheet' id='wpr-text-animations-css-css'
     href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.87'
     media='all' />
-<!-- <link rel='stylesheet' id='wpr-addons-css-css'
-    href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.87'
-    media='all' /> -->
-    <link rel="preload" id='wpr-addons-css-css' href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975">
-    </noscript>
+<link rel="preload" id='wpr-addons-css-css'
+    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975"
+    as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet"
+        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975">
+</noscript>
 <link rel='stylesheet' id='google-fonts-1-css'
-    href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3' async>
+    href='https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.3'
+    async>
 <link rel='stylesheet' id='elementor-icons-shared-0-css'
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
     media='all' />
@@ -695,30 +702,6 @@ body .is-layout-grid>* {
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
     media='all' />
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<!-- <script id="jquery-core-js-extra">
-var tpgb_load = {
-    "ajaxUrl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php"
-};
-var smoothAllowedBrowsers = [];
-</script>
-<script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/js/v4-shims.min.js?ver=3.19.0"
-    id="font-awesome-4-shim-js"></script>
-<script
-    src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.min.js?ver=1.6.10"
-    id="she-header-js"></script>
-<script id="elementor-pro-app-js-before">
-var elementorAppProConfig = {
-    "baseUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/",
-    "site-editor": {
-        "urls": {
-            "legacy_view": "https:\/\/wiseadvizor.com\/wp-admin\/edit.php?post_type=elementor_library&tabs_group=theme"
-        }
-    },
-    "kit-library": [],
-    "onboarding": [],
-    "import-export": []
-};
-</script> -->
 <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
 <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/5595" />
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
@@ -1092,7 +1075,8 @@ html body .animated {
                                                 Networking Opportunities </span>
                                         </div>
                                         <p class="elementor-icon-box-description">
-                                        Connect with professionals, entrepreneurs, startup mentors and industry experts for new opportunities and collaborations. </p>
+                                            Connect with professionals, entrepreneurs, startup mentors and industry
+                                            experts for new opportunities and collaborations. </p>
                                     </div>
                                 </div>
                             </div>
@@ -1190,7 +1174,7 @@ html body .animated {
                                                 pattern="(?=.*[a-z])(?=.*[A-Z]).{8,}"
                                                 title="Must contain atleast one uppercase and lowercase letter, and at least 8 or more characters"
                                                 required>
-                                                <div id="message">
+                                            <div id="message">
                                                 <!-- <h6 style="padding-top:10px;">Password must contain the following:</h6> -->
                                                 <p id="letter" class="invalid">Must include one <b>lowercase</b>
                                                     character</p>
@@ -2220,12 +2204,12 @@ html body .animated {
         // var timezone = tz.name(); 
         var timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
 
-        $('body').find('.timezone').val(timezone);    
-          
-            // alert(tz.name());
+        $('body').find('.timezone').val(timezone);
+
+        // alert(tz.name());
     });
 
-       function validate_pass() {
+    function validate_pass() {
 
         // var myInput = document.getElementById("password");
         var letter = document.getElementById("letter");
@@ -2276,10 +2260,17 @@ html body .animated {
     }
     </script>
 </body>
+
 </html>
 <style>
-
-.input-group.has-validation>.dropdown-toggle:nth-last-child(n+4), .input-group.has-validation>.form-floating:nth-last-child(n+3)>.form-control, .input-group.has-validation>.form-floating:nth-last-child(n+3)>.form-select, .input-group.has-validation>:nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating), .input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-control, .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select, .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
+.input-group.has-validation>.dropdown-toggle:nth-last-child(n+4),
+.input-group.has-validation>.form-floating:nth-last-child(n+3)>.form-control,
+.input-group.has-validation>.form-floating:nth-last-child(n+3)>.form-select,
+.input-group.has-validation>:nth-last-child(n+3):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating),
+.input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3),
+.input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-control,
+.input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select,
+.input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
     margin-bottom: -5px;
     /* margin-top: 10px; */
     border-bottom-right-radius: 0;
@@ -2487,7 +2478,7 @@ html body .animated {
     /* padding: 5px 10px; */
     font-size: 10px;
     margin-bottom: -5px;
-    padding-left:5px;
+    padding-left: 5px;
 }
 
 /* Add a green text color and a checkmark when the requirements are right */

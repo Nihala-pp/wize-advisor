@@ -13,10 +13,12 @@
 <html lang="en">
 @if(!empty($name))
 <title>Connect 1:1 Mentorship - {{$name}}</title>
-<meta name="description" content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
+<meta name="description"
+    content="Get expert mentorship & business guidance for building a startup with wiseAdvizor. Connect with {{$name}} today.">
 @elseif(!empty($token))
 <title>Connect 1:1 Mentorship - {{$token}} with {{$mentor}}</title>
-<meta name="description" content="Get expert mentorship & business guidance from {{ $mentor }} for building a startup with wiseAdvizor. {{$token}} today.">
+<meta name="description"
+    content="Get expert mentorship & business guidance from {{ $mentor }} for building a startup with wiseAdvizor. {{$token}} today.">
 @else
 <title>Your Go-To Business Coach for Building a Successful Startup</title>
 <meta name="description"
@@ -30,6 +32,22 @@
 @else
 <link rel="canonical" href="https://wiseadvizor.com/login">
 @endif
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
+<meta property="og:description"
+    content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
+<meta property="og:image"
+    content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+<meta property="og:url" content="https://wiseadvizor.com">
+<meta property="og:site_name" content="wiseAdvizor" />
+<meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
+<meta name="twitter:description"
+    content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
+<meta name="twitter:url" content="https://wiseadvizor.com">
+<meta name="twitter:image"
+    url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+<meta name="twitter:card" content="summary_large_image">
 @include('partials.header')
 
 <body class="bg-gray-200">
@@ -126,9 +144,11 @@
                                             <a href="{{ route('register', [$token, $id]) }}"
                                                 class="text-primary text-gradient font-weight-bold">
                                                 @if(!empty($name))
-                                                  Register Here!<span class="text">and Schedule call with {{ $name }}</span>
+                                                Register Here!<span class="text">and Schedule call with
+                                                    {{ $name }}</span>
                                                 @elseif(!empty($token))
-                                                  Create Account <span class="text">and Schedule call with {{ $mentor }}</span>
+                                                Create Account <span class="text">and Schedule call with
+                                                    {{ $mentor }}</span>
                                                 @else
                                                 Create New Account
                                                 @endif
@@ -152,11 +172,12 @@
                     <div class="row align-items-center justify-content-lg-between">
                         <div class="col-12 col-md-6 my-auto">
                             <div class="copyright text-center text-sm text-white text-lg-start">
-                               Copyright © <script>
+                                Copyright © <script>
                                 document.write(new Date().getFullYear())
-                                </script> , wiseAdvizor | 
+                                </script> , wiseAdvizor |
                                 Powered by
-                                <a href="https://ivygroupco.com/" class="font-weight-bold text-white" target="_blank">IVY Investment LLC</a>
+                                <a href="https://ivygroupco.com/" class="font-weight-bold text-white"
+                                    target="_blank">IVY Investment LLC</a>
                             </div>
                         </div>
                     </div>
@@ -185,7 +206,7 @@
 </html>
 <style>
 .text {
-  display:none !important;
+    display: none !important;
 }
 
 h1 {

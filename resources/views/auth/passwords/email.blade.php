@@ -5,6 +5,22 @@
     content="Unlock a world of business opportunities with our website, offering valuable entrepreneur advice and inspiring ideas to fuel your start-up journey.">
 <meta name="keywords" content="entrepreneur advice, ideas of business, start your own business">
 <link rel="canonical" href="https://wiseadvizor.com/forgot-password">
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
+<meta property="og:description"
+    content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
+<meta property="og:image"
+    content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+<meta property="og:url" content="https://wiseadvizor.com">
+<meta property="og:site_name" content="wiseAdvizor" />
+<meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
+<meta name="twitter:description"
+    content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
+<meta name="twitter:url" content="https://wiseadvizor.com">
+<meta name="twitter:image"
+    url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+<meta name="twitter:card" content="summary_large_image">
 @include('partials.header')
 
 <body class="bg-gray-200">
@@ -85,7 +101,8 @@
 <style>
 .font-weight-bolder {
     font-weight: 700 !important;
-    font-size: 17px !important;;
+    font-size: 17px !important;
+    ;
 }
 </style>
 
