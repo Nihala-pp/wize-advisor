@@ -239,7 +239,7 @@ class HomeController extends Controller
          $notifications = '';
     }
 
-    if (!empty($filters)) {
+    if ((!empty($filters)) || (!empty($expertise_name))) {w
       return view('browsers', compact('mentors', 'slot', 'price', 'expertise', 'expertise_name', 'filters', 'notifications'));
     } else {
       return view('browse-mentor', compact('mentors', 'slot', 'expertise', 'expertise_name', 'price', 'notifications'));
