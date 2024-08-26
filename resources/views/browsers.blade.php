@@ -18,8 +18,8 @@
     <title>Find a Mentor and Get expert guidance on {{ $expert_coloumn }}</title>
     <meta name="description"
         content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for personalized business tips tailored to your needs.">
-    <meta name="keywords"we
-        content=" Find a mentor, entrepreneur advice, mentorship program, growth mentors, business tips">
+    <meta name="keywords"
+        content="Find a mentor, entrepreneur advice, {{ $expert_coloumn }}, growth mentors, business tips">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
