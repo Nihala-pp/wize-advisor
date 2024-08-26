@@ -1104,10 +1104,12 @@ html body .animated {
                         <div
                             class="col-xl-12 col-lg-12 col-md-12 d-flex flex-column ms-auto me-auto ms-lg-auto me-lg-12">
                             <div class="logo_div bg-gradient-to-t from-gradtwo-from to-gradtwo-to">
-                                <div class="flex justify-center md:justify-start items-center"><img alt="Logo"
-                                        loading="lazy" width="180" height="180" decoding="async" data-nimg="1"
-                                        src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
-                                        style="visibility:hidden;color:transparent;">
+                                <div class="flex justify-center md:justify-start items-center">
+                                    <a href="https://wiseadvizor.com/">
+                                        <img alt="Logo" loading="lazy" width="180" height="180" decoding="async"
+                                            data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
+                                            style="visibility:hidden;color:transparent;">
+                                    </a>
                                 </div>
                             </div>
                             <div class="card mt-0 mb-0">
