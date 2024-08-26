@@ -2218,7 +2218,7 @@ li {
     content: "";
     left: -3px;
     bottom: -2px;
-    background-image: url("../images/msg-arrow.svg");
+    /* background-image: url("../images/msg-arrow.svg"); */
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
