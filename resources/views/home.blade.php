@@ -568,7 +568,7 @@
                                                             height="50">
                                                     </div>
                                                 </div>
-                                                <a href="{{ route('browseMentor', ['Product Market Fit']) }}">
+                                                <a href="{{ route('browseMentor', ['Product Market']) }}">
                                                     <h5 class="qodef-e-title">
                                                         Product Market
                                                     </h5>
