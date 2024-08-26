@@ -31,10 +31,10 @@ var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
 var theplus_nonce = "768edfe145";
 </script>
 <meta name='robots' content='max-image-preview:large' />
-<link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
+<!-- <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
     href="https://wiseadvizor.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-    href="https://wiseadvizor.com/comments/feed/" />
+    href="https://wiseadvizor.com/comments/feed/" /> -->
 <script>
 window._wpemojiSettings = {
     "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
@@ -700,10 +700,10 @@ body .is-layout-grid>* {
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3'
     media='all' />
 <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-<link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" />
-<link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/5595" />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" />
-<meta name="generator" content="WordPress 6.4.3" />
+<!-- <link rel="https://api.w.org/" href="https://wiseadvizor.com/wp-json/" /> -->
+<!-- <link rel="alternate" type="application/json" href="https://wiseadvizor.com/wp-json/wp/v2/pages/5595" /> -->
+<!-- <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://wiseadvizor.com/xmlrpc.php?rsd" /> -->
+<!-- <meta name="generator" content="WordPress 6.4.3" /> -->
 @if(!empty($token))
 <link rel="canonical" href="https://wiseadvizor.com/registration/{{$token}}/{{$id}}">
 <meta name="twitter:url" content="https://wiseadvizor.com/registration/{{$token}}/{{$id}}">
@@ -713,11 +713,11 @@ body .is-layout-grid>* {
 <meta name="twitter:url" content="https://wiseadvizor.com/registration">
 <meta property="og:url" content="https://wiseadvizor.com/registration">
 @endif
-<link rel='shortlink' href='https://wiseadvizor.com/?p=5595' />
-<link rel="alternate" type="application/json+oembed"
+<!-- <link rel='shortlink' href='https://wiseadvizor.com/?p=5595' /> -->
+<!-- <link rel="alternate" type="application/json+oembed"
     href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fsignup%2F" />
 <link rel="alternate" type="text/xml+oembed"
-    href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fsignup%2F&#038;format=xml" />
+    href="https://wiseadvizor.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fweb.wiseadvizor.com%2Fsignup%2F&#038;format=xml" /> -->
 <style>
 #wpadminbar .theplus-purge-clear>.ab-item:before {
     content: '';
