@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     @php
-    $expert_coloumn = $expertise_name ? $expertise_name : NULL;
+    $expert_coloumn = $expertise_name ? $expertise_name : $filters['expertise'];
     @endphp
     @if(!empty($expert_coloumn))
     <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
