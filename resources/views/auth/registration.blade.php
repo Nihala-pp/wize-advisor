@@ -962,9 +962,11 @@ html body .animated {
                                 }
                                 </style>
                                 <div class="image">
-                                    <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
-                                        data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
-                                        style="color:transparent;">
+                                    <a href="https://wiseadvizor.com/">
+                                        <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
+                                            data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
+                                            style="color:transparent;">
+                                    </a>
                                     <!-- <h2 class="ml-6 text-white text-5xl font-bold">Syllaby</h2> -->
                                 </div>
                                 <div class="elementor-heading-title elementor-size-default">Embark on a journey of
