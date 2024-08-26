@@ -17,7 +17,7 @@
     @endif
     <title>Find a Mentor and Get expert guidance on {{ $expert_coloumn }}</title>
     <meta name="description"
-        content="Find a mentor and gain invaluable entrepreneur advice on {{ $expert_coloumn }} at wiseAdvizor's mentorship program. Schedule a call with growth mentors for personalized business.">
+        content="Find a mentor and gain invaluable entrepreneur advice on {{ $expert_coloumn }} at wiseAdvizor's mentorship program. Schedule a call with growth mentors for personalized business tips.">
     <meta name="keywords"
         content="Find a mentor, {{ $expert_coloumn }}, entrepreneur advice">
     <meta property="og:locale" content="en_US" />
