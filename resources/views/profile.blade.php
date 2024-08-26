@@ -129,7 +129,7 @@
 
                                     }
                                     </style>
-                                    <h1 class="elementor-heading-title elementor-size-default elementor-hidden-desktop">Hi! I
+                                    <h1 class="elementor-heading-title elementor-size-default elementor-hidden-desktop elementor-hidden-tablet">Hi! I
                                         {{ strtolower('am') }} {{ $data->name }}
                                     </h1>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
