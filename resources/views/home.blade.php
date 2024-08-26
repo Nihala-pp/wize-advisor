@@ -62,7 +62,7 @@
                             <div class="elementor-widget-container">
                                 <img fetchpriority="high" decoding="async" width="260" height="260"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp"
-                                    class="attachment-full size-full wp-image-8033" alt="define mentorship"
+                                    class="attachment-full size-full wp-image-8033" alt="Startup mentorship platform"
                                     srcset="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp 360w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-300x300.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-150x150.webp 150w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-700x700.webp 700w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-650x650.webp 650w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-1300x1300.webp 1300w"
                                     sizes="(max-width: 360px) 100vw, 360px"
                                     style="width:100%;height:100%;max-width:260px" />
