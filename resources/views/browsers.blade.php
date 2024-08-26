@@ -3,6 +3,18 @@
 
 <head>
     <meta charset="UTF-8">
+    @php
+    $expert_coloumn = $expertise_name ? $expertise_name : NULL;
+    @endphp
+    @if(!empty($expert_coloumn))
+    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
+    <meta property="og:url" content="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
+    <meta name="twitter:url" content="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
+    @else
+    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
+    <meta property="og:url" content="https://wiseadvizor.com/BrowseMentors">
+    <meta name="twitter:url" content="https://wiseadvizor.com/BrowseMentors">
+    @endif
     <title>Find a Mentor and Get expert guidance on {{ $expert_coloumn }}</title>
     <meta name="description"
         content="Find a mentor and gain invaluable entrepreneur advice at wiseAdvizor's mentorship program. Connect with a growth mentor for personalized business tips tailored to your needs.">
@@ -39,18 +51,6 @@
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
-    @php
-    $expert_coloumn = $expertise_name ? $expertise_name : NULL;
-    @endphp
-    @if(!empty($expert_coloumn))
-    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
-    <meta property="og:url" content="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
-    <meta name="twitter:url" content="https://wiseadvizor.com/BrowseMentors/{{$expert_coloumn}}">
-    @else
-    <link rel="canonical" href="https://wiseadvizor.com/BrowseMentors">
-    <meta property="og:url" content="https://wiseadvizor.com/BrowseMentors">
-    <meta name="twitter:url" content="https://wiseadvizor.com/BrowseMentors">
-    @endif
 </head>
 
 <body
