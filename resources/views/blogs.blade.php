@@ -716,6 +716,13 @@
     padding: 15px 0px 15px 0px;
 }
 
+.elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title {
+    font-family: "Poppins", Sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    color: #323338 !important;
+}
+
 .elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title:hover {
     font-family: "Poppins", Sans-serif;
     font-size: 23px;
