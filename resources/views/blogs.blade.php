@@ -709,6 +709,13 @@
     color: #6161ff !important;
 }
 
+.elementor-2650 .elementor-element.elementor-element-1b9ae25  {
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    margin-top: -20px;
+    margin-bottom: -20px;
+    padding: 15px 0px 15px 0px;
+}
+
 /* .elementor-section .elementor-top-section .elementor-element .elementor-element-5d54753 .elementor-section-full_width .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
     margin-top: -20px !important;
 } */
