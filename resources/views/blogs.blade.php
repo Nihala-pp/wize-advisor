@@ -379,7 +379,8 @@
                                                                                             class="elementor-widget-container">
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
-                                                                                                <a href="{{ route('blogDetail', [$featured_blog3->id, Str::slug($featured_blog3->title)]) }}" class="elementor-button elementor-button-link elementor-size-sm">
+                                                                                                <a href="{{ route('blogDetail', [$featured_blog3->id, Str::slug($featured_blog3->title)]) }}"
+                                                                                                    class="elementor-button elementor-button-link elementor-size-sm">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -496,7 +497,8 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-9cbb325 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="9cbb325" data-element_type="section">
                             @foreach ($categories as $category)
-                            <a href="{{ route('blogCategories', [ $category->id , Str::slug($category->name)]) }}" class="badge badge-dark">{{ $category->name }}</a>
+                            <a href="{{ route('blogCategories', [ $category->id , Str::slug($category->name)]) }}"
+                                class="badge badge-dark">{{ $category->name }}</a>
                             @endforeach
                         </section>
                     </div>
@@ -536,7 +538,8 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h6 class="elementor-heading-title elementor-size-default">
-                                                        <a href="{{ route('blogCategories', [$blog->category_id, Str::slug($blog->category->name)]) }}">{{ $blog->category->name ?? '' }}</a>
+                                                        <a
+                                                            href="{{ route('blogCategories', [$blog->category_id, Str::slug($blog->category->name)]) }}">{{ $blog->category->name ?? '' }}</a>
                                                     </h6>
                                                 </div>
                                             </div>
@@ -545,7 +548,8 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <h4 class="elementor-heading-title elementor-size-default">
-                                                        <a href="{{ route('blogDetail', [$blog->id, Str::slug($blog->title)]) }}">{{ $blog->title }}</a>
+                                                        <a
+                                                            href="{{ route('blogDetail', [$blog->id, Str::slug($blog->title)]) }}">{{ $blog->title }}</a>
                                                     </h4>
                                                 </div>
                                             </div>
@@ -683,18 +687,18 @@
 <style>
 .white .sa_hero_slider,
 .black .sa_hero_slider {
-     height: 75vh !important; 
+    height: 75vh !important;
 }
 
 .elementor-section.elementor-inner-section.elementor-element.elementor-element-9cbb325 {
-    margin-left:40px !important;
+    margin-left: 40px !important;
 }
 
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
     color: #6161ff !important;
     font-family: "helvetica", "Sans-serif" !important;
-    font-size: 16px !important;q
-    font-weight: 600 !important;
+    font-size: 16px !important;
+    q font-weight: 600 !important;
 }
 
 .elementor-widget-heading .elementor-heading-title {
@@ -715,6 +719,13 @@
     font-size: 30px;
     font-weight: 600;
     margin-left: 40px !important;
+}
+
+.elementor-widget-text-editor {
+    color: #323338;
+    font-family: var(--e-global-typography-text-font-family), Sans-serif;
+    font-weight: var(--e-global-typography-text-font-weight);
+    font-size: 16px;
 }
 
 .elementor-2650 .elementor-element.elementor-element-b93782d {
