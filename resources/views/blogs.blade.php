@@ -718,7 +718,7 @@
 
 .elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title {
     font-family: "Poppins", Sans-serif;
-    font-size: 23px !importants;
+    font-size: 23px !important;
     font-weight: 600;
     color: #323338 !important;
 }
