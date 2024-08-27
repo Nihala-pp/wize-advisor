@@ -6,6 +6,7 @@
     <title>Blogs | Fuel Your business journey with wiseAdvizor</title>
     <meta name="description"
         content="Discover mentorship to guide your business journey, refine your startup idea, and develop a winning startup strategy for success.">
+
     <meta name="keywords" content="mentorship, business journey, startup idea, startup strategy">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />

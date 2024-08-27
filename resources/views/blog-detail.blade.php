@@ -2,7 +2,7 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    @if(!empty($blog->keywords))
+    @if($blog->keywords)
     <title> {{ $blog->meta_title }}|Mentorship Platform </title>
     <meta name="description" content="{{ $blog->meta_desc }}">
     <meta name="keywords" content="{{ $blog->keywords }}">
