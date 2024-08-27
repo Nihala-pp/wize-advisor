@@ -701,9 +701,9 @@
     q font-weight: 600 !important;
 }
 
-.elementor-widget-heading .elementor-heading-title {
+/* .elementor-widget-heading .elementor-heading-title {
     color: #323338 !important;
-}
+} */
 
 /* .elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title:hover {
     color: #6161ff !important;
