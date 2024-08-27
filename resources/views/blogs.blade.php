@@ -788,6 +788,13 @@
     font-weight: 400 !important;
 }
 
+.elementor-2650 .elementor-element.elementor-element-d68302a  {
+    color: #181B34  !important;
+    font-family: "Poppins", Sans-serif  !important;
+    font-size: 13px !important;
+    font-weight: 400  !important;
+}
+
 /* .elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title:hover {
     color: #6161ff;
 } */
