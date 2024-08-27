@@ -2,10 +2,10 @@
 <html lang="en-US">
 <head>
     <meta charset="UTF-8">
-    @if($blog->keywords)
-    <title> {{$blog->meta_title}}|Mentorship Platform </title>
-    <meta name="description" content="{{ $blog->meta_desc }}">
-    <meta name="keywords" content="{{ $blog->keywords }}">
+    @if($selectedBlog->keywords)
+    <title> {{$selectedBlog->meta_title}}|Mentorship Platform </title>
+    <meta name="description" content="{{ $selectedBlog->meta_desc }}">
+    <meta name="keywords" content="{{ $selectedBlog->keywords }}">
     @else
     <title> {{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->title), 35)  }}|Mentorship Platform </title>
     <meta name="description" content="{{ Illuminate\Support\Str::limit(strip_tags($selectedBlog->description), 120) }}">
