@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     @if($blog->keywords)
-    <title> {{ $blog->meta_title }}|Mentorship Platform </title>
+    <title> {{$blog->meta_title}}|Mentorship Platform </title>
     <meta name="description" content="{{ $blog->meta_desc }}">
     <meta name="keywords" content="{{ $blog->keywords }}">
     @else
