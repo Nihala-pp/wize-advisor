@@ -691,9 +691,9 @@
 }
 
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
-    color: #6161ff;
+    color: #6161ff !important;
     font-family: "helvetica", "Sans-serif" !important;
-    font-size: 16px !important;
+    font-size: 16px !important;q
     font-weight: 600 !important;
 }
 
