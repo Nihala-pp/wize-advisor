@@ -780,9 +780,9 @@ font-family: "Helvetica", Sans-serif !important;
 
 .elementor-2650 .elementor-element.elementor-element-8acd220 .elementor-heading-title {
     color: #6161ff !important;
-    font-family: "poppins", "Sans-serif" !important;
+    font-family: "Helvetica", "Sans-serif" !important;
     font-size: 16px !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
 }
 
 /* .elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title:hover {
