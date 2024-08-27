@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title> Meet {{ $data->name }} for {{ $data->metaData->keyword }} strategies</title>
     <meta name="description"
-        content="Looking for a mentor ? Discover expertise in {{ $data->metaData->keyword }} with {{ $data->name }} on wiseAdvizor.">
+        content="Looking for a mentor ? Discover Tips in {{ $data->metaData->keyword }} with {{ $data->name }} on wiseAdvizor.">
     <meta name="keywords" content="{{ $data->metaData->keyword }}, startup growth, Startup mentor">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
