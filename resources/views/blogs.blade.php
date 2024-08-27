@@ -714,9 +714,9 @@
 } */
 
 .elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
-    color: #323338;
+    color: #323338 !important;
     font-family: "Helvetica", Sans-serif;
-    font-size: 30px;
+    font-size: 30px !important;
     font-weight: 600;
     margin-left: 40px !important;
 }
@@ -818,9 +818,9 @@ i.fas.fa-chevron-down {
 
 
     .elementor-2650 .elementor-element.elementor-element-78d6498 .elementor-heading-title {
-        color: #323338;
+        color: #323338 !important;
         font-family: "Helvetica", Sans-serif;
-        font-size: 30px;
+        font-size: 30px !important;
         font-weight: 600;
         margin-left: -48px;
     }
@@ -925,7 +925,7 @@ i.fas.fa-chevron-down {
     } */
 
     .elementor-7012 .elementor-element.elementor-element-258ff750 .elementor-heading-title {
-        color: #323338;
+        color: #323338 !important;
         font-family: "Helvetica", Sans-serif;
         font-size: 2.5rem;
         font-weight: 600;
@@ -935,7 +935,7 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-7005 .elementor-element.elementor-element-114d5cfa .elementor-heading-title {
-        color: #323338;
+        color: #323338 !important;
         font-family: "Helvetica", Sans-serif;
         font-size: 2.5rem;
         font-weight: 600;
