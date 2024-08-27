@@ -706,7 +706,7 @@
     font-family: "Helvetica", Sans-serif;
     font-size: 30px;
     font-weight: 600;
-    margin-left: 2e0px;
+    margin-left: 50px;
 }
 
 .elementor-2650 .elementor-element.elementor-element-b93782d {
