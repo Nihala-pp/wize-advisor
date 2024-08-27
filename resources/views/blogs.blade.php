@@ -730,10 +730,6 @@
     color: #6161ff !important;
 }
 
-font-family: "Helvetica", Sans-serif !important;
-    font-size: 16px !important;
-    font-weight: 600 !important;
-
 /* .elementor-section .elementor-top-section .elementor-element .elementor-element-5d54753 .elementor-section-full_width .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
     margin-top: -20px !important;
 } */
@@ -783,6 +779,13 @@ font-family: "Helvetica", Sans-serif !important;
     font-family: "Helvetica", "Sans-serif" !important;
     font-size: 16px !important;
     font-weight: 600 !important;
+}
+
+.elementor-2650 .elementor-element.elementor-element-226ee96 .elementor-heading-title {
+    color: #181B34 !important;
+    font-family: "Poppins", Sans-serif !important;
+    font-size: 12px !important;
+    font-weight: 400 !important;
 }
 
 /* .elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title:hover {
