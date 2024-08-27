@@ -686,7 +686,7 @@
      height: 75vh !important; 
 }
 
-.elementor-section .elementor-inner-section .elementor-element .elementor-element-9cbb325 .elementor-section-boxed .elementor-section-height-default .elementor-section-height-default .wpr-particle-no .wpr-jarallax-no .wpr-parallax-no .wpr-sticky-section-no {
+.elementor-section.elementor-inner-section.elementor-element.elementor-element-9cbb325 {
     margin-left:40px !important;
 }
 
