@@ -4002,6 +4002,71 @@ i.fas.fa-chevron-down {
     color: #FFFFFF;
 }
 
+.elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-number-wrapper {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.elementor-counter .elementor-counter-number {
+    flex-grow: var(--counter-number-grow,0);
+}
+
+.elementor-counter .elementor-counter-number-prefix {
+    text-align: end;
+    flex-grow: var(--counter-prefix-grow,1);
+    white-space: pre-wrap;
+}
+
+.elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-title {
+    color: #8190FF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.elementor-counter .elementor-counter-number-suffix {
+    text-align: start;
+    flex-grow: var(--counter-suffix-grow,1);
+    white-space: pre-wrap;
+}
+
+.elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-number-wrapper {
+    text-align: {{VALUE}};
+    --counter-prefix-grow: 1;
+    --counter-suffix-grow: 1;
+    --counter-number-grow: 0;
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
+    color: #8190FF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
+    color: #8190FF;
+    font-family: "Montserrat", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-number-wrapper {
+    color: #FFFFFF;
+    font-family: "Poppins", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
 @media (max-width: 767px) {
 
 
