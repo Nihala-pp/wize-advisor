@@ -21,4 +21,9 @@ class TestController extends Controller
     {
         return view('be-a-mentor-test');
     }
+
+    public function homeTest()
+    {
+       return view('home-test');
+    }
 }

@@ -1226,9 +1226,6 @@ window.location.href = "https://wiseadvizor.com/faq";
 
   public function test_gateway()
   {
-      
-    
-    
        return view('test-gateway');
   }
 }
