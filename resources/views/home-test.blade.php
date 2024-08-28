@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>wiseAdvizor: Startup mentorship platform</title>
@@ -32,12 +31,8 @@
         href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp" crossorigin>
     <link rel="stylesheet" id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" defer>
-    <link rel="stylesheet" id="elementor-post-8-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1724849207" media="all" />
-    <link rel='stylesheet' id='elementor-post-7527-css'
-        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-7527.css?ver=1724847519' media='all' />
     <noscript>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" async>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" async>
     </noscript>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
@@ -506,251 +501,11 @@
                 </div>
             </div>
         </section>
-
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-1426c6b50 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="1426c6b50" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-            <div class="elementor-background-overlay"></div>
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f31effa animated-slow elementor-invisible"
-                    data-id="f31effa" data-element_type="column"
-                    data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-01a2f40 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="01a2f40" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3e76b19"
-                                    data-id="3e76b19" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-8148c97 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                            data-id="8148c97" data-element_type="widget"
-                                            data-widget_type="icon-box.default">
-                                            <div class="elementor-widget-container">
-                                                <link rel="stylesheet"
-                                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
-                                                <div class="elementor-icon-box-wrapper">
-
-                                                    <div class="elementor-icon-box-icon">
-                                                        <span class="elementor-icon elementor-animation-">
-                                                            <i aria-hidden="true" class="fas fa-star"></i> </span>
-                                                    </div>
-
-                                                    <div class="elementor-icon-box-content">
-
-                                                        <h4 class="elementor-icon-box-title">
-                                                            <span>
-                                                                Browse mentors </span>
-                                                        </h4>
-
-                                                        <p class="elementor-icon-box-description">
-                                                            Explore our curated network of mentors to
-                                                            find the perfect match for your specific
-                                                            needs.​ </p>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c8a3b8e"
-                                    data-id="c8a3b8e" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-84c73b9 elementor-view-stacked elementor-position-left elementor-widget__width-initial elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                            data-id="84c73b9" data-element_type="widget"
-                                            data-widget_type="icon-box.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-icon-box-wrapper">
-
-                                                    <div class="elementor-icon-box-icon">
-                                                        <span class="elementor-icon elementor-animation-">
-                                                            <i aria-hidden="true" class="fas fa-star"></i> </span>
-                                                    </div>
-
-                                                    <div class="elementor-icon-box-content">
-
-                                                        <h4 class="elementor-icon-box-title">
-                                                            <span>
-                                                                Schedule your call </span>
-                                                        </h4>
-
-                                                        <p class="elementor-icon-box-description">
-                                                            Once you've found your ideal mentor,
-                                                            schedule a convenient time for your
-                                                            one-on-one call.​ </p>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3b55eae"
-                                    data-id="3b55eae" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-9e71fe4 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                            data-id="9e71fe4" data-element_type="widget"
-                                            data-widget_type="icon-box.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-icon-box-wrapper">
-
-                                                    <div class="elementor-icon-box-icon">
-                                                        <span class="elementor-icon elementor-animation-">
-                                                            <i aria-hidden="true" class="fas fa-star"></i> </span>
-                                                    </div>
-
-                                                    <div class="elementor-icon-box-content">
-
-                                                        <h4 class="elementor-icon-box-title">
-                                                            <span>
-                                                                Meet the Mentor </span>
-                                                        </h4>
-
-                                                        <p class="elementor-icon-box-description">
-                                                            Have your questions ready!
-                                                            Get the guidance you need for your startup
-                                                            growth. </p>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-f27240a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="f27240a" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2bde028"
-                                    data-id="2bde028" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-45cf9d3 elementor-widget elementor-widget-counter"
-                                            data-id="45cf9d3" data-element_type="widget"
-                                            data-widget_type="counter.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                /*! elementor - v3.21.0 - 20-05-2024 */
-                                                .elementor-counter {
-                                                    display: flex;
-                                                    justify-content: center;
-                                                    align-items: stretch;
-                                                    flex-direction: column-reverse
-                                                }
-
-                                                .elementor-counter .elementor-counter-number {
-                                                    flex-grow: var(--counter-number-grow, 0)
-                                                }
-
-                                                .elementor-counter .elementor-counter-number-wrapper {
-                                                    flex: 1;
-                                                    display: flex;
-                                                    font-size: 69px;
-                                                    font-weight: 600;
-                                                    line-height: 1;
-                                                    text-align: center
-                                                }
-
-                                                .elementor-counter .elementor-counter-number-prefix {
-                                                    text-align: end;
-                                                    flex-grow: var(--counter-prefix-grow, 1);
-                                                    white-space: pre-wrap
-                                                }
-
-                                                .elementor-counter .elementor-counter-number-suffix {
-                                                    text-align: start;
-                                                    flex-grow: var(--counter-suffix-grow, 1);
-                                                    white-space: pre-wrap
-                                                }
-
-                                                .elementor-counter .elementor-counter-title {
-                                                    flex: 1;
-                                                    display: flex;
-                                                    justify-content: center;
-                                                    align-items: center;
-                                                    margin: 0;
-                                                    padding: 0;
-                                                    font-size: 19px;
-                                                    font-weight: 400;
-                                                    line-height: 2.5
-                                                }
-                                                </style>
-                                                <div class="elementor-counter">
-                                                    <div class="elementor-counter-title">Expert Mentors
-                                                    </div>
-                                                    <div class="elementor-counter-number-wrapper">
-                                                        <span class="elementor-counter-number-prefix"></span>
-                                                        <span class="elementor-counter-number" data-duration="2000"
-                                                            data-to-value="11" data-from-value="0"
-                                                            data-delimiter=",">0</span>
-                                                        <span class="elementor-counter-number-suffix"></span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fcd4892"
-                                    data-id="fcd4892" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-a017603 elementor-widget elementor-widget-counter"
-                                            data-id="a017603" data-element_type="widget"
-                                            data-widget_type="counter.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-counter">
-                                                    <div class="elementor-counter-title">Minutes of
-                                                        Mentorship</div>
-                                                    <div class="elementor-counter-number-wrapper">
-                                                        <span class="elementor-counter-number-prefix"></span>
-                                                        <span class="elementor-counter-number" data-duration="2000"
-                                                            data-to-value="54" data-from-value="0"
-                                                            data-delimiter=",">0</span>
-                                                        <span class="elementor-counter-number-suffix">+</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b51e35d"
-                                    data-id="b51e35d" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-ed6151f elementor-widget elementor-widget-counter"
-                                            data-id="ed6151f" data-element_type="widget"
-                                            data-widget_type="counter.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-counter">
-                                                    <div class="elementor-counter-title">Community
-                                                        Members</div>
-                                                    <div class="elementor-counter-number-wrapper">
-                                                        <span class="elementor-counter-number-prefix"></span>
-                                                        <span class="elementor-counter-number" data-duration="2000"
-                                                            data-to-value="800" data-from-value="0"
-                                                            data-delimiter=",">0</span>
-                                                        <span class="elementor-counter-number-suffix">+</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-c6fda76 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="c6fda76" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 eleementor-top-column elementor-element elementor-element-9f6496a"
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9f6496a"
                     data-id="9f6496a" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-5a907eb elementor-invisible elementor-widget elementor-widget-heading"
@@ -3880,7 +3635,7 @@ i.fas.fa-chevron-down {
     margin-top: 100px;
 }
 
-/* .elementor-8 .elementor-element.elementor-element-0c4f5bc .elementor-blockquote__content {
+.elementor-8 .elementor-element.elementor-element-0c4f5bc .elementor-blockquote__content {
     color: var(--e-global-color-1e1892c);
     font-family: "Helvetica", Sans-serif;
     font-weight: 400;
@@ -3893,12 +3648,6 @@ i.fas.fa-chevron-down {
     text-align: center;
     color: var(--e-global-color-1e1892c);
     font-family: "Helvetica", Sans-serif;
-} */
-
-.elementor-8 .elementor-element.elementor-element-babd5b5:not(.elementor-motion-effects-element-type-background),
-.elementor-8 .elementor-element.elementor-element-babd5b5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: transparent;
-    background-image: linear-gradient(260deg, #000000 0%, #000000 100%);
 }
 
 @media (max-width: 767px) {
@@ -3909,7 +3658,6 @@ i.fas.fa-chevron-down {
         max-width: 100%;
         overflow-x: hidden;
     }
-
     /* header new */
 
     .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
