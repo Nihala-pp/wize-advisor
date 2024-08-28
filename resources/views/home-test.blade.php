@@ -32,8 +32,8 @@
         href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp" crossorigin>
     <link rel="stylesheet" id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" defer>
-    <link rel='stylesheet' id='elementor-post-8-css'
-        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1724849207' media='all' />
+    <link rel="stylesheet" id="elementor-post-8-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1724849207" media="all" />
     <link rel='stylesheet' id='elementor-post-7527-css'
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-7527.css?ver=1724847519' media='all' />
     <noscript>
