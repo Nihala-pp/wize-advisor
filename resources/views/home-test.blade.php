@@ -3895,6 +3895,12 @@ i.fas.fa-chevron-down {
     font-family: "Helvetica", Sans-serif;
 }
 
+.elementor-8 .elementor-element.elementor-element-babd5b5:not(.elementor-motion-effects-element-type-background),
+.elementor-8 .elementor-element.elementor-element-babd5b5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: linear-gradient(260deg, #000000 0%, #000000 100%);
+}
+
 @media (max-width: 767px) {
 
 
