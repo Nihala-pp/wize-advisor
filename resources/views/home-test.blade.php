@@ -4080,6 +4080,18 @@ i.fas.fa-chevron-down {
     --container-widget-flex-grow: 0;
 }
 
+.elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon {
+    font-size: 18px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0d23f0 .elementor-icon {
+    font-size: 18px;
+}
+
+.elementor-8 .elementor-element.elementor-element-33119b5 .elementor-icon {
+    font-size: 18px;
+}
+
 @media (max-width: 767px) {
 
 
