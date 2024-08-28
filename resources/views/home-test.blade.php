@@ -3880,7 +3880,7 @@ i.fas.fa-chevron-down {
     margin-top: 100px;
 }
 
-.elementor-8 .elementor-element.elementor-element-0c4f5bc .elementor-blockquote__content {
+/* .elementor-8 .elementor-element.elementor-element-0c4f5bc .elementor-blockquote__content {
     color: var(--e-global-color-1e1892c);
     font-family: "Helvetica", Sans-serif;
     font-weight: 400;
@@ -3893,7 +3893,7 @@ i.fas.fa-chevron-down {
     text-align: center;
     color: var(--e-global-color-1e1892c);
     font-family: "Helvetica", Sans-serif;
-}
+} */
 
 .elementor-8 .elementor-element.elementor-element-babd5b5:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-babd5b5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
