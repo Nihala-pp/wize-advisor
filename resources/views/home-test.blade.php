@@ -4066,6 +4066,20 @@ i.fas.fa-chevron-down {
     font-weight: 400;
 }
 
+.elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon-box-title a {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0d23f0 {
+    --icon-box-icon-margin: 15px;
+    width: var( --container-widget-width, 103.038% );
+    max-width: 103.038%;
+    --container-widget-width: 103.038%;
+    --container-widget-flex-grow: 0;
+}
+
 @media (max-width: 767px) {
 
 
