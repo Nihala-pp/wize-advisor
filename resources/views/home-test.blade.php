@@ -32,6 +32,8 @@
         href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp" crossorigin>
     <link rel="stylesheet" id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" defer>
+    <link rel='stylesheet' id='elementor-post-8-css'
+        href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1724849207' media='all' />
     <link rel='stylesheet' id='elementor-post-7527-css'
         href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-7527.css?ver=1724847519' media='all' />
     <noscript>
@@ -506,24 +508,24 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-babd5b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="babd5b5" data-element_type="section"
+            class="elementor-section elementor-top-section elementor-element elementor-element-1426c6b50 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="1426c6b50" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
             <div class="elementor-background-overlay"></div>
             <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7f65a33 animated-slow elementor-invisible"
-                    data-id="7f65a33" data-element_type="column"
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f31effa animated-slow elementor-invisible"
+                    data-id="f31effa" data-element_type="column"
                     data-settings="{&quot;animation&quot;:&quot;fadeIn&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-9a3e2cb elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="9a3e2cb" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-01a2f40 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="01a2f40" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1f9371f"
-                                    data-id="1f9371f" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3e76b19"
+                                    data-id="3e76b19" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-5a43edb elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                            data-id="5a43edb" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-8148c97 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                                            data-id="8148c97" data-element_type="widget"
                                             data-widget_type="icon-box.default">
                                             <div class="elementor-widget-container">
                                                 <link rel="stylesheet"
@@ -543,8 +545,9 @@
                                                         </h4>
 
                                                         <p class="elementor-icon-box-description">
-                                                            Explore our curated network of mentors to find the perfect
-                                                            match for your specific needs.​ </p>
+                                                            Explore our curated network of mentors to
+                                                            find the perfect match for your specific
+                                                            needs.​ </p>
 
                                                     </div>
 
@@ -553,11 +556,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3bbe10f"
-                                    data-id="3bbe10f" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c8a3b8e"
+                                    data-id="c8a3b8e" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-e0d23f0 elementor-view-stacked elementor-position-left elementor-widget__width-initial elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                            data-id="e0d23f0" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-84c73b9 elementor-view-stacked elementor-position-left elementor-widget__width-initial elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                                            data-id="84c73b9" data-element_type="widget"
                                             data-widget_type="icon-box.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-box-wrapper">
@@ -575,8 +578,9 @@
                                                         </h4>
 
                                                         <p class="elementor-icon-box-description">
-                                                            Once you've found your ideal mentor, schedule a convenient
-                                                            time for your one-on-one call.​ </p>
+                                                            Once you've found your ideal mentor,
+                                                            schedule a convenient time for your
+                                                            one-on-one call.​ </p>
 
                                                     </div>
 
@@ -585,11 +589,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-7d67c54"
-                                    data-id="7d67c54" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-3b55eae"
+                                    data-id="3b55eae" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-33119b5 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
-                                            data-id="33119b5" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-9e71fe4 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box"
+                                            data-id="9e71fe4" data-element_type="widget"
                                             data-widget_type="icon-box.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-box-wrapper">
@@ -608,7 +612,8 @@
 
                                                         <p class="elementor-icon-box-description">
                                                             Have your questions ready!
-                                                            Get the guidance you need for your startup growth. </p>
+                                                            Get the guidance you need for your startup
+                                                            growth. </p>
 
                                                     </div>
 
@@ -620,14 +625,14 @@
                             </div>
                         </section>
                         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-c9042b0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="c9042b0" data-element_type="section">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-f27240a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="f27240a" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6176af3"
-                                    data-id="6176af3" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-2bde028"
+                                    data-id="2bde028" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-4faaf3c elementor-widget elementor-widget-counter"
-                                            data-id="4faaf3c" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-45cf9d3 elementor-widget elementor-widget-counter"
+                                            data-id="45cf9d3" data-element_type="widget"
                                             data-widget_type="counter.default">
                                             <div class="elementor-widget-container">
                                                 <style>
@@ -677,7 +682,8 @@
                                                 }
                                                 </style>
                                                 <div class="elementor-counter">
-                                                    <div class="elementor-counter-title">Expert Mentors</div>
+                                                    <div class="elementor-counter-title">Expert Mentors
+                                                    </div>
                                                     <div class="elementor-counter-number-wrapper">
                                                         <span class="elementor-counter-number-prefix"></span>
                                                         <span class="elementor-counter-number" data-duration="2000"
@@ -690,15 +696,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-82f1355"
-                                    data-id="82f1355" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-fcd4892"
+                                    data-id="fcd4892" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-40605d1 elementor-widget elementor-widget-counter"
-                                            data-id="40605d1" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-a017603 elementor-widget elementor-widget-counter"
+                                            data-id="a017603" data-element_type="widget"
                                             data-widget_type="counter.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-counter">
-                                                    <div class="elementor-counter-title">Minutes of Mentorship</div>
+                                                    <div class="elementor-counter-title">Minutes of
+                                                        Mentorship</div>
                                                     <div class="elementor-counter-number-wrapper">
                                                         <span class="elementor-counter-number-prefix"></span>
                                                         <span class="elementor-counter-number" data-duration="2000"
@@ -711,15 +718,16 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-265407c"
-                                    data-id="265407c" data-element_type="column">
+                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-b51e35d"
+                                    data-id="b51e35d" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-18e76af elementor-widget elementor-widget-counter"
-                                            data-id="18e76af" data-element_type="widget"
+                                        <div class="elementor-element elementor-element-ed6151f elementor-widget elementor-widget-counter"
+                                            data-id="ed6151f" data-element_type="widget"
                                             data-widget_type="counter.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-counter">
-                                                    <div class="elementor-counter-title">Community Members</div>
+                                                    <div class="elementor-counter-title">Community
+                                                        Members</div>
                                                     <div class="elementor-counter-number-wrapper">
                                                         <span class="elementor-counter-number-prefix"></span>
                                                         <span class="elementor-counter-number" data-duration="2000"
@@ -738,7 +746,388 @@
                 </div>
             </div>
         </section>
-
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-c6fda76 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="c6fda76" data-element_type="section">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 eleementor-top-column elementor-element elementor-element-9f6496a"
+                    data-id="9f6496a" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-5a907eb elementor-invisible elementor-widget elementor-widget-heading"
+                            data-id="5a907eb" data-element_type="widget"
+                            data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;}"
+                            data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h2 class="elementor-heading-title elementor-size-default">Browse Mentors by Expertise
+                                </h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-a252efb elementor-widget elementor-widget-qi_addons_for_elementor_clients_slider"
+                            data-id="a252efb" data-element_type="widget"
+                            data-widget_type="qi_addons_for_elementor_clients_slider.default">
+                            <div class="elementor-widget-container">
+                                <div class="qodef-shortcode qodef-m  qodef-qi-clients-slider  qodef--hover-roll-horizontal   qodef-qi-grid qodef-qi-swiper-container        "
+                                    data-options="{&quot;direction&quot;:&quot;horizontal&quot;,&quot;slidesPerView&quot;:&quot;8&quot;,&quot;spaceBetween&quot;:10,&quot;spaceBetweenTablet&quot;:30,&quot;spaceBetweenMobile&quot;:30,&quot;effect&quot;:&quot;&quot;,&quot;loop&quot;:true,&quot;autoplay&quot;:true,&quot;centeredSlides&quot;:true,&quot;speed&quot;:&quot;2000&quot;,&quot;speedAnimation&quot;:&quot;&quot;,&quot;outsideNavigation&quot;:&quot;no&quot;,&quot;outsidePagination&quot;:&quot;no&quot;,&quot;unique&quot;:&quot;1&quot;,&quot;partialValue&quot;:0,&quot;disablePartialValue&quot;:&quot;&quot;,&quot;customStages&quot;:true,&quot;slidesPerView1440&quot;:&quot;8&quot;,&quot;slidesPerView1366&quot;:&quot;6&quot;,&quot;slidesPerView1024&quot;:&quot;4&quot;,&quot;slidesPerView768&quot;:&quot;3&quot;,&quot;slidesPerView680&quot;:&quot;2&quot;,&quot;slidesPerView480&quot;:&quot;2&quot;}">
+                                    <div class="swiper-wrapper">
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
+                                                            class="lazyload" alt="online mentoring" width="50"
+                                                            height="50" type="image/webp">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Sales']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Sales
+                                                    </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/validation-final-50x50.png') }}"
+                                                            class="lazyload" alt="business build" width="50" height="50"
+                                                            type="image/webp">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Idea Validation']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Idea Validation
+                                                    </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/product-new.png') }}"
+                                                            class="lazyload" alt="project manager mentor" width="50"
+                                                            height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Product Market']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Product Market
+                                                    </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/marketing-final-50x50.png') }}"
+                                                            class="lazyload" alt="marketing mentor" width="50"
+                                                            height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Marketing']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Marketing
+                                                    </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/leadership-final-50x50.png') }}"
+                                                            class="lazyload" alt="leadership mentoring" width="50"
+                                                            height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Leadership']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Leadership
+                                                    </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-23f47c8 elementor-widget elementor-widget-qi_addons_for_elementor_clients_slider"
+                            data-id="23f47c8" data-element_type="widget"
+                            data-widget_type="qi_addons_for_elementor_clients_slider.default">
+                            <div class="elementor-widget-container">
+                                <div class="qodef-shortcode qodef-m  qodef-qi-clients-slider  qodef--hover-roll-horizontal   qodef-qi-grid qodef-qi-swiper-container        "
+                                    data-options="{&quot;direction&quot;:&quot;horizontal&quot;,&quot;slidesPerView&quot;:&quot;8&quot;,&quot;spaceBetween&quot;:10,&quot;spaceBetweenTablet&quot;:30,&quot;spaceBetweenMobile&quot;:30,&quot;effect&quot;:&quot;&quot;,&quot;loop&quot;:true,&quot;autoplay&quot;:true,&quot;centeredSlides&quot;:true,&quot;speed&quot;:&quot;2000&quot;,&quot;speedAnimation&quot;:&quot;&quot;,&quot;outsideNavigation&quot;:&quot;no&quot;,&quot;outsidePagination&quot;:&quot;no&quot;,&quot;unique&quot;:&quot;2&quot;,&quot;partialValue&quot;:0,&quot;disablePartialValue&quot;:&quot;&quot;,&quot;customStages&quot;:true,&quot;slidesPerView1440&quot;:&quot;8&quot;,&quot;slidesPerView1366&quot;:&quot;6&quot;,&quot;slidesPerView1024&quot;:&quot;4&quot;,&quot;slidesPerView768&quot;:&quot;3&quot;,&quot;slidesPerView680&quot;:&quot;2&quot;,&quot;slidesPerView480&quot;:&quot;2&quot;}">
+                                    <div class="swiper-wrapper">
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/funds-raise-final-50x50.png') }}"
+                                                            class="lazyload" alt="goals for a mentorship" width="50"
+                                                            height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Fund raising']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Fund raising
+                                                    </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/network-final-50x50.png') }}"
+                                                            class="lazyload" alt="mentorship network" width="50"
+                                                            height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Networking']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Networking </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/roadmap-final-50x50.png') }}"
+                                                            class="lazyload" alt="business tips" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Business Strategy']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Business Strategy
+                                                    </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/Price-strategy-final-50x50.png') }}"
+                                                            class="lazyload" alt="cheapest business to start" width="50"
+                                                            height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Pricing Strategy']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Pricing Strategy
+                                                    </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/social-media_-final-50x50.png') }}"
+                                                            class="lazyload" alt="start up business" width="50"
+                                                            height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Social Media']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Social Media
+                                                    </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="elementor-element elementor-element-e496a5a elementor-widget elementor-widget-qi_addons_for_elementor_clients_slider"
+                            data-id="e496a5a" data-element_type="widget"
+                            data-widget_type="qi_addons_for_elementor_clients_slider.default">
+                            <div class="elementor-widget-container">
+                                <div class="qodef-shortcode qodef-m  qodef-qi-clients-slider  qodef--hover-roll-horizontal   qodef-qi-grid qodef-qi-swiper-container        "
+                                    data-options="{&quot;direction&quot;:&quot;horizontal&quot;,&quot;slidesPerView&quot;:&quot;8&quot;,&quot;spaceBetween&quot;:10,&quot;spaceBetweenTablet&quot;:30,&quot;spaceBetweenMobile&quot;:30,&quot;effect&quot;:&quot;&quot;,&quot;loop&quot;:true,&quot;autoplay&quot;:true,&quot;centeredSlides&quot;:true,&quot;speed&quot;:&quot;2000&quot;,&quot;speedAnimation&quot;:&quot;&quot;,&quot;outsideNavigation&quot;:&quot;no&quot;,&quot;outsidePagination&quot;:&quot;no&quot;,&quot;unique&quot;:&quot;3&quot;,&quot;partialValue&quot;:0,&quot;disablePartialValue&quot;:&quot;&quot;,&quot;customStages&quot;:true,&quot;slidesPerView1440&quot;:&quot;8&quot;,&quot;slidesPerView1366&quot;:&quot;6&quot;,&quot;slidesPerView1024&quot;:&quot;4&quot;,&quot;slidesPerView768&quot;:&quot;3&quot;,&quot;slidesPerView680&quot;:&quot;2&quot;,&quot;slidesPerView480&quot;:&quot;2&quot;}">
+                                    <div class="swiper-wrapper">
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/CC-final-50x50.png') }}"
+                                                            alt="marketing mentor" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Content creation']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Content creation </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/seo-final-50x50.png') }}"
+                                                            alt="seo" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['SEO']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        SEO </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/procurement-final-50x50.png') }}"
+                                                            alt="peer mentoring" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Operations and logistics']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Operations </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/risk-final-50x50.png') }}"
+                                                            alt="looking for a mentor" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Risk Management']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Risk Management </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/attraction-final-50x50.png') }}"
+                                                            alt="mentors near me" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Ads Strategy']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Ads Strategy </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-496f21f elementor-widget elementor-widget-qi_addons_for_elementor_clients_slider"
+                            data-id="496f21f" data-element_type="widget"
+                            data-widget_type="qi_addons_for_elementor_clients_slider.default">
+                            <div class="elementor-widget-container">
+                                <div class="qodef-shortcode qodef-m  qodef-qi-clients-slider  qodef--hover-roll-horizontal   qodef-qi-grid qodef-qi-swiper-container        "
+                                    data-options="{&quot;direction&quot;:&quot;horizontal&quot;,&quot;slidesPerView&quot;:&quot;8&quot;,&quot;spaceBetween&quot;:10,&quot;spaceBetweenTablet&quot;:30,&quot;spaceBetweenMobile&quot;:30,&quot;effect&quot;:&quot;&quot;,&quot;loop&quot;:true,&quot;autoplay&quot;:true,&quot;centeredSlides&quot;:true,&quot;speed&quot;:&quot;2000&quot;,&quot;speedAnimation&quot;:&quot;&quot;,&quot;outsideNavigation&quot;:&quot;no&quot;,&quot;outsidePagination&quot;:&quot;no&quot;,&quot;unique&quot;:&quot;4&quot;,&quot;partialValue&quot;:0,&quot;disablePartialValue&quot;:&quot;&quot;,&quot;customStages&quot;:true,&quot;slidesPerView1440&quot;:&quot;8&quot;,&quot;slidesPerView1366&quot;:&quot;6&quot;,&quot;slidesPerView1024&quot;:&quot;4&quot;,&quot;slidesPerView768&quot;:&quot;3&quot;,&quot;slidesPerView680&quot;:&quot;2&quot;,&quot;slidesPerView480&quot;:&quot;2&quot;}">
+                                    <div class="swiper-wrapper">
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/creative-mind-final-50x50.png') }}"
+                                                            alt="looking for a mentor" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Brand Building']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Brand Building </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/team-management-final-50x50.png') }}"
+                                                            alt="tech accelerator" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Technology']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Technology </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/valuation-final-50x50.png') }}"
+                                                            alt="Valuation" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Startup valuation']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Startup Valuation </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/icons8-final-50x50.png') }}"
+                                                            alt="Technology" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Technology']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Technology </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="qodef-e swiper-slide">
+                                            <div class="qodef-e-inner">
+                                                <div class="qodef-e-images-holder">
+                                                    <div class="qodef-e-main-image">
+                                                        <img decoding="async"
+                                                            src="{{ asset('public/wp-content/uploads/2023/06/email-final-50x50.png') }}"
+                                                            alt="good ideas for business" width="50" height="50">
+                                                    </div>
+                                                </div>
+                                                <a href="{{ route('browseMentor', ['Email Marketing']) }}">
+                                                    <h5 class="qodef-e-title">
+                                                        Email marketing </h5>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-3cff520 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="3cff520" data-element_type="section"
