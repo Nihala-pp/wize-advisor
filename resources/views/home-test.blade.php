@@ -3890,6 +3890,103 @@ i.fas.fa-chevron-down {
     background-image: linear-gradient(260deg, #000000 0%, #000000 100%);
 }
 
+.elementor-8 .elementor-element.elementor-element-babd5b5 > .elementor-background-overlay {
+    background-image: url("https://web.wiseadvizor.com/wp-content/uploads/2024/06/cubes.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-8 .elementor-element.elementor-element-9a3e2cb {
+    margin-top: 0px;
+    margin-bottom: -9px;
+}
+
+.elementor-column.elementor-col-33, .elementor-column[data-col="33"] {
+    width: 33.333%;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a43edb {
+    --icon-box-icon-margin: 15px;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a43edb.elementor-view-stacked .elementor-icon {
+    background-color: #8190FF;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon-box-title a {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon-box-description {
+    color: #A7A1A1;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.elementor-8 .elementor-element.elementor-element-3bbe10f {
+    width: 33.544%;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0d23f0 {
+    --icon-box-icon-margin: 15px;
+    width: var( --container-widget-width, 103.038% );
+    max-width: 103.038%;
+    --container-widget-width: 103.038%;
+    --container-widget-flex-grow: 0;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0d23f0.elementor-view-stacked .elementor-icon {
+    background-color: #8190FF;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0d23f0 .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-e0d23f0 .elementor-icon-box-title a {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0d23f0 .elementor-icon-box-description {
+    color: #A7A1A1;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.elementor-8 .elementor-element.elementor-element-7d67c54 {
+    width: 32.755%;
+}
+
+.elementor-8 .elementor-element.elementor-element-33119b5 {
+    --icon-box-icon-margin: 15px;
+}
+
+.elementor-8 .elementor-element.elementor-element-33119b5.elementor-view-stacked .elementor-icon {
+    background-color: #8190FF;
+}
+
+.elementor-8 .elementor-element.elementor-element-33119b5 .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-33119b5 .elementor-icon-box-title a {
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.elementor-8 .elementor-element.elementor-element-33119b5 .elementor-icon-box-description {
+    color: #A7A1A1;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 @media (max-width: 767px) {
 
 
