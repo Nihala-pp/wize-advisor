@@ -3987,6 +3987,21 @@ i.fas.fa-chevron-down {
     font-weight: 400;
 }
 
+.elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon-box-title {
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-e0d23f0 .elementor-icon-box-title {
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-33119b5 .elementor-icon-box-title {
+    margin-bottom: 0px;
+    color: #FFFFFF;
+}
+
 @media (max-width: 767px) {
 
 
