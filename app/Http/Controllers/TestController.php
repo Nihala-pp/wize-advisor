@@ -3,6 +3,10 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\User;
+use App\Models\ScheduledCall;
+use App\Models\Review;
+use Illuminate\Support\Facades\Auth;
 
 class TestController extends Controller
 {
@@ -25,8 +29,8 @@ class TestController extends Controller
     public function homeTest()
     {
     $mentors = User::where('role_id', 2)->whereNull('status')->get();
-    $users = User::where('role_id', 3)->get()->count();
-    $calls = ScheduledCall::where('is_paid', 1)->get()->count();
+    $users =   User::where('role_id', 3)->get()->count();
+    $calls =   ScheduledCall::where('is_paid', 1)->get()->count();
     $reviews = Review::where('id', 7)->first();
     $review1 = Review::where('id', 8)->first();
     $review2 = Review::where('id', 15)->first();
