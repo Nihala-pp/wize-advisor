@@ -4034,7 +4034,6 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-number-wrapper {
-    /* text-align: {{VALUE}}; */
     --counter-prefix-grow: 1;
     --counter-suffix-grow: 1;
     --counter-number-grow: 0;
