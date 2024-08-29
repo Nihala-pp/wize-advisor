@@ -4548,7 +4548,18 @@ i.fas.fa-chevron-down {
     font-family: "Helvetica", Sans-serif;
     font-size: 15px;
     font-weight: 400;
+    color: #fff;
 }
+
+.elementor-8 .elementor-element.elementor-element-c70251b.wpr-button-icon-style-inline .wpr-button:hover .wpr-button-icon {
+    color: #ffffff;
+}
+
+.elementor-8 .elementor-element.elementor-element-c70251b.wpr-button-icon-position-right .wpr-button-icon {
+    margin-left: 12px;
+}
+
+
 @media (max-width: 767px) {
 
 
