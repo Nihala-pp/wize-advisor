@@ -4043,6 +4043,7 @@ i.fas.fa-chevron-down {
     font-family: "Poppins", Sans-serif;
     font-size: 40px;
     font-weight: 400;
+    margin-right: 30px;
 }
 
 .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
@@ -4051,6 +4052,7 @@ i.fas.fa-chevron-down {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
+    margin-right:30px;
 }
 
 .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
