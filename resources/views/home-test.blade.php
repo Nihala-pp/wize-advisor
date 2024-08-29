@@ -4349,9 +4349,9 @@ i.fas.fa-chevron-down {
     font-family: 'Poppins', sans-serif
 }
 
-body {
+/* body {
     background-color: #0ff
-}
+} */
 
 .container {
     background-color: rgb(232, 242, 245);
