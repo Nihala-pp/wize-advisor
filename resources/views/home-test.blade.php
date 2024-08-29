@@ -1846,7 +1846,7 @@
                             <div class="elementor-widget-container">
                                 <!-- start Post Carousel Lite -->
                                 <link id="owl-carousel-css"
-                                    href="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.min.css') }}"
+                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css"
                                     type="text/css" rel="stylesheet">
 
                                 <style type="text/css">
@@ -2952,6 +2952,7 @@
         </script>
         <!-- end Bubble Float -->
     </div>
+    <script src="https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107" id="owl-carousel-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1"
         id="jquery-numerator-js"></script>
