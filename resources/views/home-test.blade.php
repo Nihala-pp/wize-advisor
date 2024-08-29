@@ -2273,10 +2273,6 @@
                 </div>
             </div>
         </section>
-        <div class="container rounded">
-            <div class="d-flex justify-content-center fas fa-heart"></div>
-            <p class="tag">Our customers love</p>
-            <h1 class="text-primary text-center head">What we do</h1>
             <div class="owl-carousel owl-theme">
                 <div class="owl-item">
                     <div class="card d-flex flex-column">
@@ -2379,7 +2375,6 @@
                     </div>
                 </div>
             </div>
-        </div>
 
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-00af63b elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no"
