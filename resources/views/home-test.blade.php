@@ -40,6 +40,8 @@
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">    
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     @include('partials.web-style')
 </head>
@@ -2958,7 +2960,8 @@
         </script>
         <!-- end Bubble Float -->
     </div>
-    <script
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107"
         id="owl-carousel-js"></script>
     <script
@@ -2970,7 +2973,7 @@
         id="jquery-ui-slider-js">
     </script>
     <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.2"
-        id="jquery-ui-draggable-js"></script>
+        id="jquery-ui-draggable-js"></script> -->
     <script type="text/javascript">
     (function($) {
         "use strict";
@@ -3037,6 +3040,10 @@
     /* Post Carousel Lite scripts: */
 
     jQuery(document).ready(function() {
+
+        if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
+            uc_uc_card_post_carousel_elementor_df03b3c_start();
+
         function uc_uc_card_post_carousel_elementor_df03b3c_start() {
 
             var objCarousel = jQuery('#uc_uc_card_post_carousel_elementor_df03b3c .owl-carousel');
@@ -3087,13 +3094,12 @@
 
 
         }
-        if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
-            uc_uc_card_post_carousel_elementor_df03b3c_start();
-        else
-            jQuery(document).on('elementor/popup/show', () => {
-                if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
-                    uc_uc_card_post_carousel_elementor_df03b3c_start();
-            });
+        
+        // else
+        //     jQuery(document).on('elementor/popup/show', () => {
+        //         if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
+        //             uc_uc_card_post_carousel_elementor_df03b3c_start();
+        //     });
     });
     </script>
 
