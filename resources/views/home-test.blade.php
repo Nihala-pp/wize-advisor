@@ -2253,7 +2253,7 @@
                 </div>
             </div>
         </section>
-        <section
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b513049 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
             data-id="b513049" data-element_type="section">
             <div class="elementor-container elementor-column-gap-no">
@@ -2765,7 +2765,10 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+
+        
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-dcb8db5 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="dcb8db5" data-element_type="section"
