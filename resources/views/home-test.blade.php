@@ -2283,7 +2283,8 @@
                         <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
                                 class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
                             <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span> </div>
+                                class="fas fa-star-half-alt active-star"></span>
+                        </div>
                         <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                         <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
                             dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
@@ -2302,7 +2303,8 @@
                         <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
                                 class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
                             <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span> </div>
+                                class="fas fa-star-half-alt active-star"></span>
+                        </div>
                         <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                         <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
                             dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
@@ -2321,7 +2323,8 @@
                         <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
                                 class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
                             <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span> </div>
+                                class="fas fa-star-half-alt active-star"></span>
+                        </div>
                         <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                         <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
                             dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
@@ -2340,7 +2343,8 @@
                         <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
                                 class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
                             <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span> </div>
+                                class="fas fa-star-half-alt active-star"></span>
+                        </div>
                         <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                         <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
                             dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
@@ -2359,7 +2363,8 @@
                         <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
                                 class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
                             <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span> </div>
+                                class="fas fa-star-half-alt active-star"></span>
+                        </div>
                         <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
                         <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
                             dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
@@ -3135,37 +3140,38 @@
                     }
                 }
             });
-        });
 
-        var silder = $(".owl-carousel");
-        silder.owlCarousel({
-            autoPlay: false,
-            items: 1,
-            center: false,
-            nav: true,
-            margin: 40,
-            dots: false,
-            loop: true,
-            navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>",
-                "<i class='fa fa-arrow-right' aria-hidden='true'></i>"
-            ],
-            responsive: {
-                0: {
-                    items: 1,
-                },
-                575: {
-                    items: 1
-                },
-                768: {
-                    items: 2
-                },
-                991: {
-                    items: 3
-                },
-                1200: {
-                    items: 4
+            var silder = $(".owl-carousel");
+            silder.owlCarousel({
+                autoPlay: false,
+                items: 1,
+                center: false,
+                nav: true,
+                margin: 40,
+                dots: false,
+                loop: true,
+                navText: ["<i class='fa fa-arrow-left' aria-hidden='true'></i>",
+                    "<i class='fa fa-arrow-right' aria-hidden='true'></i>"
+                ],
+                responsive: {
+                    0: {
+                        items: 1,
+                    },
+                    575: {
+                        items: 1
+                    },
+                    768: {
+                        items: 2
+                    },
+                    991: {
+                        items: 3
+                    },
+                    1200: {
+                        items: 4
+                    }
                 }
-            }
+            });
+
         });
     }(jQuery));
     </script>
