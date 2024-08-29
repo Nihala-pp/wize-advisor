@@ -530,7 +530,7 @@
 
                                                     <div class="elementor-icon-box-icon">
                                                         <span class="elementor-icon elementor-animation-">
-                                                            <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Browse.png" height="25px;" width="25px;we"></img>
+                                                            <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Browse.png" height="25px;" width="25px;"></img>
                                                             <!-- <i aria-hidden="true" class="fas fa-star"></i>  -->
                                                         </span>
                                                     </div>
