@@ -564,7 +564,7 @@
 
                                                     <div class="elementor-icon-box-icon">
                                                         <span class="elementor-icon elementor-animation-">
-                                                            <i aria-hidden="true" class="fas fa-star"></i> </span>
+                                                        <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Schedule.png" height="30px;" width="30px;" style="border-radius:70px;"></img>                                                        </span>
                                                     </div>
 
                                                     <div class="elementor-icon-box-content">
