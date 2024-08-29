@@ -4458,6 +4458,31 @@ i.fas.fa-chevron-down {
     background-color: #000000;
 }
 
+.elementor-8 .elementor-element.elementor-element-65dddf0 .elementor-image-box-description {
+    color: #FFFFFF !important;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.elementor-widget-image-box .elementor-image-box-content {
+    width: 100%;
+}
+
+.elementor-8 .elementor-element.elementor-element-65dddf0 .elementor-image-box-wrapper {
+    text-align: left;
+}
+
+.elementor-8 .elementor-element.elementor-element-65dddf0 > .elementor-widget-container {
+    background-color: #000000;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.elementor-8 .elementor-element.elementor-element-e4e996d.elementor-column > .elementor-widget-wrap {
+    justify-content: center;
+}
+
 @media (max-width: 767px) {
 
 
