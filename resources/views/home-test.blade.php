@@ -4557,6 +4557,7 @@ i.fas.fa-chevron-down {
 
 .elementor-8 .elementor-element.elementor-element-c70251b.wpr-button-icon-position-right .wpr-button-icon {
     margin-left: 12px;
+    color: #fff !important;
 }
 
 
