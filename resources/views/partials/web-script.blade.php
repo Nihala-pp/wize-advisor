@@ -114,7 +114,7 @@ var qodefQiAddonsGlobal = {
   <script src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
       id="vimeo_player_js-js"></script>
   <script
-      src="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.75') }}"
+      src="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107') }}"
       id="owl-carousel-js"></script>
   <script
       src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/isotope.pkgd.min.js?ver=6.2.2') }}"
