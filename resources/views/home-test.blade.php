@@ -2269,7 +2269,7 @@
                             data-widget_type="testimonial-carousel.default">
                             <div class="elementor-widget-container">
                                 <link rel="stylesheet"
-                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">
+                                    href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">
                                 <div class="elementor-swiper">
                                     <div
                                         class="elementor-main-swiper swiper-container swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
