@@ -4354,7 +4354,7 @@ i.fas.fa-chevron-down {
 } */
 
 .container {
-    background-color: rgb(232, 242, 245);
+    /* background-color: rgb(232, 242, 245); */
     padding: 50px 40px 20px;
     margin-top: 20px;
     margin-bottom: 20px;
