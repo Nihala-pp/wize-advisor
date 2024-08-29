@@ -4026,7 +4026,7 @@ i.fas.fa-chevron-down {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
-    margin-right: 50px;
+    margin-right: 50px !important;
 }
 
 .elementor-counter .elementor-counter-number-suffix {
