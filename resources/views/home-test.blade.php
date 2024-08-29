@@ -4006,7 +4006,7 @@ i.fas.fa-chevron-down {
     color: #FFFFFF;
     font-family: "Sailec", Sans-serif;
     font-size: 40px;
-    font-weight: 400;
+    font-weight: 900;
     margin-right: 75px;
 }
 
