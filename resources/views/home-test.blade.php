@@ -4483,6 +4483,22 @@ i.fas.fa-chevron-down {
     justify-content: center;
 }
 
+.elementor-8 .elementor-element.elementor-element-df3cdf2 .elementor-image-box-description {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.elementor-8 .elementor-element.elementor-element-ce55ef8 .elementor-image-box-description {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+}
+
 @media (max-width: 767px) {
 
 
