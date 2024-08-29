@@ -4454,6 +4454,10 @@ i.fas.fa-chevron-down {
     font-weight: 700;
 }
 
+.elementor-8 .elementor-element.elementor-element-d60240a:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-d60240a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #000000;
+}
+
 @media (max-width: 767px) {
 
 
