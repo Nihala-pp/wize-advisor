@@ -4071,9 +4071,9 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon-box-title a {
-    font-family: "Roboto", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .elementor-8 .elementor-element.elementor-element-e0d23f0 {
@@ -4103,15 +4103,15 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-e0d23f0 .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-e0d23f0 .elementor-icon-box-title a {
-    font-family: "Roboto", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .elementor-8 .elementor-element.elementor-element-33119b5 .elementor-icon-box-title, .elementor-8 .elementor-element.elementor-element-33119b5 .elementor-icon-box-title a {
-    font-family: "Roboto", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 @media (max-width: 767px) {
