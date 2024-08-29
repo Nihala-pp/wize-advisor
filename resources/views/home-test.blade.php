@@ -2957,6 +2957,9 @@
         id="jquery-numerator-js"></script>
     <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
     </script>
+    <script src="https://wiseadvizor.com/public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2"
+        id="jquery-ui-slider-js">
+    </script>
     <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.2"
         id="jquery-ui-draggable-js"></script>
     <script type="text/javascript">
