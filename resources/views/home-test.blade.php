@@ -1845,9 +1845,16 @@
                             data-widget_type="ucaddon_uc_card_post_carousel.default">
                             <div class="elementor-widget-container">
                                 <!-- start Post Carousel Lite -->
-                                <link id="owl-carousel-css"
-                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css"
-                                    type="text/css" rel="stylesheet">
+                                <link id='font-awesome-css'
+                                    href='https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome6/fontawesome-all.min.css'
+                                    type='text/css' rel='stylesheet'>
+                                <link id='font-awesome-4-shim-css'
+                                    href='https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome6/fontawesome-v4-shims.min.css'
+                                    type='text/css' rel='stylesheet'>
+                                <link id='owl-carousel-css'
+                                    href='https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.css'
+                                    type='text/css' rel='stylesheet'>
+
 
                                 <style type="text/css">
                                 /* widget: Post Carousel Lite */
@@ -2952,7 +2959,9 @@
         </script>
         <!-- end Bubble Float -->
     </div>
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107" id="owl-carousel-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107"
+        id="owl-carousel-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1"
         id="jquery-numerator-js"></script>
