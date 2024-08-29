@@ -4499,6 +4499,27 @@ i.fas.fa-chevron-down {
     font-style: normal;
 }
 
+.elementor-8 .elementor-element.elementor-element-c70251b {
+    text-align: center;
+}
+
+.elementor-8 .elementor-element.elementor-element-c70251b > .elementor-widget-container {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button-wrap {
+    max-width: 130px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c70251b.wpr-button-icon-style-inline .wpr-button {
+    padding: 8px 8px 8px 8px;
+}
+
+.elementor-8 .elementor-element.elementor-element-e4e996d.elementor-column > .elementor-widget-wrap {
+    justify-content: center;
+}
+
 @media (max-width: 767px) {
 
 
