@@ -4524,6 +4524,10 @@ i.fas.fa-chevron-down {
     text-align: left;
 }
 
+.elementor-8 .elementor-element.elementor-element-ce55ef8 .elementor-image-box-wrapper {
+    text-align: left;
+}
+
 @media (max-width: 767px) {
 
 
