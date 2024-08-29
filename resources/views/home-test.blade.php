@@ -4520,6 +4520,10 @@ i.fas.fa-chevron-down {
     justify-content: center;
 }
 
+.elementor-8 .elementor-element.elementor-element-df3cdf2 .elementor-image-box-wrapper {
+    text-align: left;
+}
+
 @media (max-width: 767px) {
 
 
