@@ -4004,9 +4004,9 @@ i.fas.fa-chevron-down {
 
 .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-number-wrapper {
     color: #FFFFFF;
-    font-family: "Sailec", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: 500;
     margin-right: 75px;
 }
 
@@ -4026,6 +4026,7 @@ i.fas.fa-chevron-down {
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5em;
+    margin-right: 50px;
 }
 
 .elementor-counter .elementor-counter-number-suffix {
