@@ -2952,7 +2952,9 @@
         </script>
         <!-- end Bubble Float -->
     </div>
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1" id="jquery-numerator-js"></script>
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1"
+        id="jquery-numerator-js"></script>
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
@@ -3077,7 +3079,8 @@
     }(jQuery));
     </script>
 
-    <script type="text/javascript" id="unlimited-elements-scripts">
+    <!--   Unlimited Elements 1.5.107 Scripts -->
+    <script type='text/javascript' id='unlimited-elements-scripts'>
     /* Post Carousel Lite scripts: */
 
     jQuery(document).ready(function() {
@@ -3126,6 +3129,10 @@
                 objCarousel.trigger("refresh.owl.carousel");
 
             });
+
+
+
+
         }
         if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
             uc_uc_card_post_carousel_elementor_df03b3c_start();
