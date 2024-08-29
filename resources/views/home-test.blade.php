@@ -2952,6 +2952,7 @@
         </script>
         <!-- end Bubble Float -->
     </div>
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1" id="jquery-numerator-js"></script>
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
