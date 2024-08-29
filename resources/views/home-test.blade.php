@@ -4544,6 +4544,11 @@ i.fas.fa-chevron-down {
     border-radius: 4px 4px 4px 4px;
 }
 
+.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button-text, .elementor-8 .elementor-element.elementor-element-c70251b .wpr-button::after {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
 @media (max-width: 767px) {
 
 
