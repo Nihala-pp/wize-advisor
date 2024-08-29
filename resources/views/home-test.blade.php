@@ -2285,7 +2285,7 @@
                             data-widget_type="testimonial-carousel.default">
                             <div class="elementor-widget-container">
                                 <link rel="stylesheet"
-                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">
+                                    href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">
                                 <div class="elementor-swiper">
                                     <div
                                         class="elementor-main-swiper swiper-container swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
@@ -2959,7 +2959,7 @@
         <!-- end Bubble Float -->
     </div>
     <script
-        src="https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107"
+        src="https://wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107"
         id="owl-carousel-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1"
