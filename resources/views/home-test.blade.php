@@ -737,7 +737,7 @@
             </div>
         </section>
 
-      
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-c6fda76 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="c6fda76" data-element_type="section">
@@ -1924,7 +1924,7 @@
                 </div>
             </div>
         </section>
-       
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-d60240a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="d60240a" data-element_type="section"
@@ -2256,712 +2256,201 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-dcb8db5 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="dcb8db5" data-element_type="section"
+            class="elementor-section elementor-top-section elementor-element elementor-element-00af63b elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no"
+            data-id="00af63b" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-ff760db"
-                    data-id="ff760db" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-4e4b0af elementor-widget elementor-widget-heading"
-                            data-id="4e4b0af" data-element_type="widget" data-widget_type="heading.default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e5206e"
+                    data-id="6e5206e" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
+                        <div class="elementor-element elementor-element-af7aeb8 elementor-testimonial--align-left elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-pagination-type-bullets elementor-widget elementor-widget-testimonial-carousel e-widget-swiper"
+                            data-id="af7aeb8" data-element_type="widget"
+                            data-settings="{&quot;slides_per_view&quot;:&quot;2&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}"
+                            data-widget_type="testimonial-carousel.default">
                             <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">What Mentees Say
-                                </h2>
+                                <link rel="stylesheet"
+                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">
+                                <div class="elementor-swiper">
+                                    <div
+                                        class="elementor-main-swiper swiper-container swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
+                                        <div class="swiper-wrapper"
+                                            style="cursor: grab; transform: translate3d(-1130px, 0px, 0px); transition-duration: 0ms;"
+                                            id="swiper-wrapper-f592118fa591041210" aria-live="off">
+                                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                                data-swiper-slide-index="1" style="width: 277.5px; margin-right: 5px;"
+                                                role="group" aria-label="2 / 3">
+                                                <div class="elementor-testimonial">
+                                                    <div class="elementor-testimonial__content">
+                                                        <div class="elementor-testimonial__text">
+                                                            Thank you so much for the fantastic guidance in our call!
+                                                            Your clear explanations and approachable teaching style made
+                                                            the call enjoyable to learn. I believe more people will love
+                                                            your guidance as much as I did, thanks to your excellent
+                                                            teaching and guidance </div>
+                                                    </div>
+                                                    <div class="elementor-testimonial__footer">
+                                                        <div class="elementor-testimonial__image">
+                                                            <img decoding="async"
+                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/testimonial-2.jpg"
+                                                                alt="John Doe">
+                                                        </div>
+                                                        <cite class="elementor-testimonial__cite"><span
+                                                                class="elementor-testimonial__name">John Doe</span><span
+                                                                class="elementor-testimonial__title">CEO</span></cite>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active"
+                                                data-swiper-slide-index="2" style="width: 277.5px; margin-right: 5px;"
+                                                role="group" aria-label="3 / 3">
+                                                <div class="elementor-testimonial">
+                                                    <div class="elementor-testimonial__content">
+                                                        <div class="elementor-testimonial__text">
+                                                            It was a great experience to learn so much from Cien and her
+                                                            knowledge will help me definitely in thriving for success
+                                                            for my startup ⭐ </div>
+                                                    </div>
+                                                    <div class="elementor-testimonial__footer">
+                                                        <cite class="elementor-testimonial__cite"><span
+                                                                class="elementor-testimonial__name">John Doe</span><span
+                                                                class="elementor-testimonial__title">CEO</span></cite>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide-duplicate-next"
+                                                data-swiper-slide-index="0" style="width: 277.5px; margin-right: 5px;"
+                                                role="group" aria-label="1 / 3">
+                                                <div class="elementor-testimonial">
+                                                    <div class="elementor-testimonial__content">
+                                                        <div class="elementor-testimonial__text">
+                                                            It was a nice interaction with Cien, gave me a insight of
+                                                            how should we implement a business idea from scratch, and
+                                                            also made me understand from a technical aspects of how can
+                                                            I proceed further... </div>
+                                                    </div>
+                                                    <div class="elementor-testimonial__footer">
+                                                        <div class="elementor-testimonial__image">
+                                                            <img decoding="async"
+                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Team-3-1.jpg"
+                                                                alt="John Doe">
+                                                        </div>
+                                                        <cite class="elementor-testimonial__cite"><span
+                                                                class="elementor-testimonial__name">John Doe</span><span
+                                                                class="elementor-testimonial__title">CEO</span></cite>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide-prev" data-swiper-slide-index="1"
+                                                style="width: 277.5px; margin-right: 5px;" role="group"
+                                                aria-label="2 / 3">
+                                                <div class="elementor-testimonial">
+                                                    <div class="elementor-testimonial__content">
+                                                        <div class="elementor-testimonial__text">
+                                                            Thank you so much for the fantastic guidance in our call!
+                                                            Your clear explanations and approachable teaching style made
+                                                            the call enjoyable to learn. I believe more people will love
+                                                            your guidance as much as I did, thanks to your excellent
+                                                            teaching and guidance </div>
+                                                    </div>
+                                                    <div class="elementor-testimonial__footer">
+                                                        <div class="elementor-testimonial__image">
+                                                            <img decoding="async"
+                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/testimonial-2.jpg"
+                                                                alt="John Doe">
+                                                        </div>
+                                                        <cite class="elementor-testimonial__cite"><span
+                                                                class="elementor-testimonial__name">John Doe</span><span
+                                                                class="elementor-testimonial__title">CEO</span></cite>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="2"
+                                                style="width: 277.5px; margin-right: 5px;" role="group"
+                                                aria-label="3 / 3">
+                                                <div class="elementor-testimonial">
+                                                    <div class="elementor-testimonial__content">
+                                                        <div class="elementor-testimonial__text">
+                                                            It was a great experience to learn so much from Cien and her
+                                                            knowledge will help me definitely in thriving for success
+                                                            for my startup ⭐ </div>
+                                                    </div>
+                                                    <div class="elementor-testimonial__footer">
+                                                        <cite class="elementor-testimonial__cite"><span
+                                                                class="elementor-testimonial__name">John Doe</span><span
+                                                                class="elementor-testimonial__title">CEO</span></cite>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-next"
+                                                data-swiper-slide-index="0" style="width: 277.5px; margin-right: 5px;"
+                                                role="group" aria-label="1 / 3">
+                                                <div class="elementor-testimonial">
+                                                    <div class="elementor-testimonial__content">
+                                                        <div class="elementor-testimonial__text">
+                                                            It was a nice interaction with Cien, gave me a insight of
+                                                            how should we implement a business idea from scratch, and
+                                                            also made me understand from a technical aspects of how can
+                                                            I proceed further... </div>
+                                                    </div>
+                                                    <div class="elementor-testimonial__footer">
+                                                        <div class="elementor-testimonial__image">
+                                                            <img decoding="async"
+                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Team-3-1.jpg"
+                                                                alt="John Doe">
+                                                        </div>
+                                                        <cite class="elementor-testimonial__cite"><span
+                                                                class="elementor-testimonial__name">John Doe</span><span
+                                                                class="elementor-testimonial__title">CEO</span></cite>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-prev"
+                                                data-swiper-slide-index="1" role="group" aria-label="2 / 3"
+                                                style="width: 277.5px; margin-right: 5px;">
+                                                <div class="elementor-testimonial">
+                                                    <div class="elementor-testimonial__content">
+                                                        <div class="elementor-testimonial__text">
+                                                            Thank you so much for the fantastic guidance in our call!
+                                                            Your clear explanations and approachable teaching style made
+                                                            the call enjoyable to learn. I believe more people will love
+                                                            your guidance as much as I did, thanks to your excellent
+                                                            teaching and guidance </div>
+                                                    </div>
+                                                    <div class="elementor-testimonial__footer">
+                                                        <div class="elementor-testimonial__image">
+                                                            <img decoding="async"
+                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/testimonial-2.jpg"
+                                                                alt="John Doe">
+                                                        </div>
+                                                        <cite class="elementor-testimonial__cite"><span
+                                                                class="elementor-testimonial__name">John Doe</span><span
+                                                                class="elementor-testimonial__title">CEO</span></cite>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
+                                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
+                                                aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet"
+                                                tabindex="0" role="button" aria-label="Go to slide 2"></span><span
+                                                class="swiper-pagination-bullet swiper-pagination-bullet-active"
+                                                tabindex="0" role="button" aria-label="Go to slide 3"
+                                                aria-current="true"></span></div>
+                                        <span class="swiper-notification" aria-live="assertive"
+                                            aria-atomic="true"></span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-0deeba2 elementor-widget elementor-widget-heading"
-                            data-id="0deeba2" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">
-                                    {{ Str::of($reviews->review)->limit(50) }}
-                                </p><br />
-                                <footer>
-                                    <cite class="elementor-blockquote__author">___
-                                        {{ $reviews->user->name }}</cite>
-                                </footer>
-                            </div>
-                        </div>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-b303a45 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="b303a45" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-adc7191"
-                                    data-id="adc7191" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-405616b elementor-widget-mobile__width-initial elementor-widget elementor-widget-image"
-                                            data-id="405616b" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if ($reviews->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="looking for a mentor" srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData->profile_pic ? $reviews->user->metaData->profile_pic : '' }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px" type="image/webp">
-                                                <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                    class="rounded-circle" height="8" width="37"
-                                                    alt="Black and White Portrait of a Man" loading="lazy" /> -->
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="mentorship portal" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px" type="image/webp">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-7b394ae elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                            data-id="7b394ae" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-2007f34 elementor-widget elementor-widget-heading"
-                                            data-id="2007f34" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->user->metaData->designation }}
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-be768bc elementor-widget elementor-widget-heading"
-                                            data-id="be768bc" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{ Str::of($reviews->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-78b6efc"
-                                    data-id="78b6efc" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-74bcc36"
-                                    data-id="74bcc36" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-6bc782c elementor-widget-mobile__width-initial elementor-widget elementor-widget-image"
-                                            data-id="6bc782c" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if($review1->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $review1->user->metaData->profile_pic ? $review1->user->metaData->profile_pic : '' }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="best mentorship platform"
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review1->user->metaData->profile_pic ? $review1->user->metaData->profile_pic : '' }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                    class="rounded-circle" height="8" width="37"
-                                                    alt="Black and White Portrait of a Man" loading="lazy" /> -->
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-8290913 elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                            data-id="8290913" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review1->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-0ab35dc elementor-widget elementor-widget-heading"
-                                            data-id="0ab35dc" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review1->user->metaData->designation }}
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-0ab1bd0 elementor-widget elementor-widget-heading"
-                                            data-id="0ab1bd0" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{ Str::of($review1->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <!-- <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-f8de82a elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="f8de82a" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-283cc6e"
-                                    data-id="283cc6e" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-31137f4 elementor-widget-mobile__width-initial elementor-widget elementor-widget-image"
-                                            data-id="31137f4" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601" alt=""
-                                                    srcset="{{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 300w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}wp-content/uploads/2023/06/elementor/thumbs/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-q7ygj334537ed9shujtxi1a7bnczcz4sjw0nxb5fn4.webp 600w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }} 500w, {{ asset('public/wp-content/uploads/2023/06/depositphotos_97431594-stock-photo-businessman-smiling-confidently-at-camera-150x150.webp') }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-ccd0b5a elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                            data-id="ccd0b5a" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">Alen</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-c3f8de7 elementor-widget elementor-widget-heading"
-                                            data-id="c3f8de7" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Marketing
-                                                    pro
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-d2aa41b elementor-widget elementor-widget-heading"
-                                            data-id="d2aa41b" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Lorem
-                                                    ipsum
-                                                    dolor sit amet dsdfsf sdfdf sdfsfd</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section> -->
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-dd8dac8 elementor-hidden-desktop elementor-hidden-tablet elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="dd8dac8" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1d68055"
-                                    data-id="1d68055" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-c86512d elementor-widget-mobile__width-initial elementor-widget elementor-widget-image"
-                                            data-id="c86512d" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if ($review2->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="i need a mentor for my career"
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}">
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/') }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-a8c414f elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                            data-id="a8c414f" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review2->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-64263e0 elementor-widget elementor-widget-heading"
-                                            data-id="64263e0" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review2->user->metaData->designation }}
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-f9164c6 elementor-widget elementor-widget-heading"
-                                            data-id="f9164c6" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{  Str::of($review2->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-9aae013"
-                                    data-id="9aae013" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-aa43f1f"
-                                    data-id="aa43f1f" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-9e2f95c elementor-widget-mobile__width-initial elementor-widget elementor-widget-image"
-                                            data-id="9e2f95c" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if ($review3->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData->profile_pic ? $review3->user->metaData->profile_pic : '' }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="starting a business"
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData->profile_pic ? $review3->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-cd8caff elementor-widget-mobile__width-initial elementor-widget elementor-widget-heading"
-                                            data-id="cd8caff" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review3->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-3be270d elementor-widget elementor-widget-heading"
-                                            data-id="3be270d" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review3->user->metaData->designation }}
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-c6c5de6 elementor-widget elementor-widget-heading"
-                                            data-id="c6c5de6" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{ Str::of($review3->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-c596b79"
-                    data-id="c596b79" data-element_type="column"
-                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-0cd4b9f elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="0cd4b9f" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-0144146"
-                                    data-id="0144146" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-d5fadc5 elementor-widget elementor-widget-image"
-                                            data-id="d5fadc5" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if ($review4->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $review4->user->metaData->profile_pic ? $review4->user->metaData->profile_pic : '' }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="start up"
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review4->user->metaData->profile_pic ? $review4->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review4->user->metaData ? $review4->user->metaData->profile_pic : '' }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-cf2c223 elementor-widget elementor-widget-heading"
-                                            data-id="cf2c223" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review4->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-b5effb5 elementor-widget elementor-widget-heading"
-                                            data-id="b5effb5" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review4->user->metaData->designation }} </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-62e39a3 elementor-widget elementor-widget-heading"
-                                            data-id="62e39a3" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{ Str::of($review4->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-c8da375"
-                                    data-id="c8da375" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-12d68ca"
-                                    data-id="12d68ca" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-1e158b0 elementor-widget__width-initial elementor-widget elementor-widget-image"
-                                            data-id="1e158b0" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if ($review5->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/') }}/{{ $review5->user->metaData->profile_pic ? $review5->user->metaData->profile_pic : '' }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="business tips"
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review5->user->metaData->profile_pic ? $review5->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review5->user->metaData ? $review5->user->metaData->profile_pic : '' }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-441c424 elementor-widget elementor-widget-heading"
-                                            data-id="441c424" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review5->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-a185d6f elementor-widget elementor-widget-heading"
-                                            data-id="a185d6f" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review5->user->metaData->designation }}
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-79dba7e elementor-widget elementor-widget-heading"
-                                            data-id="79dba7e" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{ Str::of($review5->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-d356d3f elementor-hidden-mobile elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="d356d3f" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-d22268a"
-                                    data-id="d22268a" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-6d758cd elementor-widget__width-initial elementor-widget elementor-widget-image"
-                                            data-id="6d758cd" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if ($review2->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="best business to start"
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review2->user->metaData->profile_pic ? $review2->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review2->user->metaData ? $review2->user->metaData->profile_pic : '' }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-5620f48 elementor-widget elementor-widget-heading"
-                                            data-id="5620f48" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review2->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-d9e1cb7 elementor-widget elementor-widget-heading"
-                                            data-id="d9e1cb7" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review5->user->metaData->designation }}
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-14913d3 elementor-widget elementor-widget-heading"
-                                            data-id="14913d3" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{ Str::of($review2->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-dc1b235"
-                                    data-id="dc1b235" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-8a174d4"
-                                    data-id="8a174d4" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-b4be166 elementor-widget__width-initial elementor-widget elementor-widget-image"
-                                            data-id="b4be166" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if ($review3->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData->profile_pic ? $review3->user->metaData->profile_pic : '' }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="easy businesses to start"
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $review3->user->metaData->profile_pic ? $review3->user->metaData->profile_pic : '' }}, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 300w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 600w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }} 500w, {{ asset('public/assets/img/') }}/{{ $review3->user->metaData ? $review3->user->metaData->profile_pic : '' }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar" srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}
-                                                    450w" sizes="(max-width: 150px) 100vw, 150px">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-4c4fadf elementor-widget elementor-widget-heading"
-                                            data-id="4c4fadf" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review3->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-8317b5a elementor-widget elementor-widget-heading"
-                                            data-id="8317b5a" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review3->user->metaData->designation }}
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-bc8b441 elementor-widget elementor-widget-heading"
-                                            data-id="bc8b441" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{ Str::of($review3->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-e1678f8 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="e1678f8" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-df7830d"
-                                    data-id="df7830d" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-92ef909"
-                                    data-id="92ef909" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-532fd2e elementor-widget__width-initial elementor-widget elementor-widget-image"
-                                            data-id="532fd2e" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if ($reviews->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
-                                                    class="attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="easy start up companies"
-                                                    srcset="{{ asset('public/assets/img/') }}/{{ $reviews->user->metaData ? $reviews->user->metaData->profile_pic : '' }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                <!-- <img src="{{ asset('public/assets/img/') }}/{{ Auth::user() ? Auth::user()->metaData->profile_pic : '' }}"
-                                                    class="rounded-circle" height="8" width="37"
-                                                    alt="Black and White Portrait of a Man" loading="lazy" /> -->
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar"
-                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-379903e elementor-widget elementor-widget-heading"
-                                            data-id="379903e" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-e6de0f0 elementor-widget elementor-widget-heading"
-                                            data-id="e6de0f0" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $reviews->user->metaData->designation }}
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-ca1a343 elementor-widget elementor-widget-heading"
-                                            data-id="ca1a343" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{ Str::of($reviews->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6e21d40"
-                                    data-id="6e21d40" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-50b16a3 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-                            data-id="50b16a3" data-element_type="section">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-bcb114d"
-                                    data-id="bcb114d" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e84c9ef"
-                                    data-id="e84c9ef" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-e10f42e elementor-widget elementor-widget-image"
-                                            data-id="e10f42e" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                @if ($review1->user->metaData->profile_pic)
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img') }}/{{ $review1->user->metaData->profile_pic }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="good starting business"
-                                                    srcset="{{ asset('public/assets/img') }}/{{ $review1->user->metaData->profile_pic }}, {{ asset('public/assets/img') }}/{{ $review1->user->metaData->profile_pic }} 300w, {{ asset('public/assets/img') }}/{{ $review1->user->metaData->profile_pic }} 600w, {{ asset('public/assets/img') }}/{{ $review1->user->metaData->profile_pic }} 500w, {{ asset('public/assets/img') }}/{{ $review1->user->metaData->profile_pic }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                @else
-                                                <img decoding="async" width="150" height="150"
-                                                    data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    class="lazyload attachment-thumbnail size-thumbnail wp-image-601"
-                                                    alt="user-avatar"
-                                                    srcset="{{ asset('public/assets/img/blank-profile-picture.webp') }}, {{ asset('public/assets/img/blank-profile-picture.webp') }} 300w, {{ asset('public/assets/img/blank-profile-picture.webp') }} {{ asset('public/assets/img/blank-profile-picture.webp') }} 600w, {{ asset('public/assets/img/blank-profile-picture.webp') }} 500w, {{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                                    450w sizes="(max-width: 150px) 100vw, 150px">
-                                                @endif
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-d949cfa elementor-widget elementor-widget-heading"
-                                            data-id="d949cfa" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review1->user->name }}</h4>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-de21adc elementor-hidden-mobile elementor-widget elementor-widget-heading"
-                                            data-id="de21adc" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    {{ $review1->user->metaData->designation }}
-                                                </h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-1e9a843 elementor-widget elementor-widget-heading"
-                                            data-id="1e9a843" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">
-                                                    {{ Str::of($review1->review)->limit(50) }}</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-1029991"
-                                    data-id="1029991" data-element_type="column">
-                                    <div class="elementor-widget-wrap">
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- <section
-                    class="elementor-section elementor-top-section elementor-element elementor-element-45cfea3 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                    data-id="45cfea3" data-element_type="section"
-                    data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https:\/\/wiseadvizor.com\/wp-content\/uploads\/2023\/07\/Orange abstract circle orange fire time tunnel _ 4K free animated motion background.mp4&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
-                    <div class="elementor-background-video-container">
-                        <video class="elementor-background-video-hosted elementor-html5-video" autoplay="" muted=""
-                            playsinline="" loop=""
-                            src="https://wiseadvizor.com/wp-content/uploads/2023/07/Orange abstract circle orange fire time tunnel _ 4K free animated motion background.mp4"
-                            style="width: 547.556px; height: 308px;"></video>
-                    </div>
-                    <div class="elementor-container elementor-column-gap-default">
-                        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-f680691"
-                            data-id="f680691" data-element_type="column">
-                            <div class="elementor-widget-wrap elementor-element-populated">
-                                <div class="elementor-element elementor-element-4085f5e elementor-widget elementor-widget-heading"
-                                    data-id="4085f5e" data-element_type="widget" data-widget_type="heading.default">
-                                    <div class="elementor-widget-container">
-                                        <p class="elementor-heading-title elementor-size-default">Join our mentor
-                                            community, share your expertise, and empower the next generation of
-                                            entrepreneurs. Together, let's shape the future of entrepreneurship.</p>
-                                    </div>
-                                </div>
-                                <div class="elementor-element elementor-element-f719128 elementor-align-center elementor-widget elementor-widget-button"
-                                    data-id="f719128" data-element_type="widget" data-widget_type="button.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="elementor-button-wrapper">
-                                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                href="#">
-                                                <span class="elementor-button-content-wrapper">
-                                                    <span class="elementor-button-text">Be a Mentor</span>
-                                                </span>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section> -->
+
+
+
+        
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="b2c5733" data-element_type="section" style="background-color:#000">
@@ -3943,7 +3432,8 @@ i.fas.fa-chevron-down {
     font-weight: 700;
 }
 
-.elementor-8 .elementor-element.elementor-element-d60240a:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-d60240a > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-8 .elementor-element.elementor-element-d60240a:not(.elementor-motion-effects-element-type-background),
+.elementor-8 .elementor-element.elementor-element-d60240a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000000;
 }
 
@@ -3963,12 +3453,12 @@ i.fas.fa-chevron-down {
     text-align: left;
 }
 
-.elementor-8 .elementor-element.elementor-element-65dddf0 > .elementor-widget-container {
+.elementor-8 .elementor-element.elementor-element-65dddf0>.elementor-widget-container {
     background-color: #000000;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-.elementor-8 .elementor-element.elementor-element-e4e996d.elementor-column > .elementor-widget-wrap {
+.elementor-8 .elementor-element.elementor-element-e4e996d.elementor-column>.elementor-widget-wrap {
     justify-content: center;
 }
 
@@ -3992,7 +3482,7 @@ i.fas.fa-chevron-down {
     text-align: center;
 }
 
-.elementor-8 .elementor-element.elementor-element-c70251b > .elementor-widget-container {
+.elementor-8 .elementor-element.elementor-element-c70251b>.elementor-widget-container {
     margin: 0px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
 }
@@ -4005,7 +3495,7 @@ i.fas.fa-chevron-down {
     padding: 8px 8px 8px 8px;
 }
 
-.elementor-8 .elementor-element.elementor-element-e4e996d.elementor-column > .elementor-widget-wrap {
+.elementor-8 .elementor-element.elementor-element-e4e996d.elementor-column>.elementor-widget-wrap {
     justify-content: center;
 }
 
@@ -4033,7 +3523,8 @@ i.fas.fa-chevron-down {
     border-radius: 4px 4px 4px 4px;
 }
 
-.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button-text, .elementor-8 .elementor-element.elementor-element-c70251b .wpr-button::after {
+.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button-text,
+.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button::after {
     font-family: "Helvetica", Sans-serif;
     font-size: 15px;
     font-weight: 400;
