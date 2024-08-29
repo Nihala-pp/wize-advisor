@@ -2436,7 +2436,8 @@
                                                 tabindex="0" role="button" aria-label="Go to slide 2"></span><span
                                                 class="swiper-pagination-bullet swiper-pagination-bullet-active"
                                                 tabindex="0" role="button" aria-label="Go to slide 3"
-                                                aria-current="true"></span></div>
+                                                aria-current="true"></span>
+                                        </div>
                                         <span class="swiper-notification" aria-live="assertive"
                                             aria-atomic="true"></span>
                                     </div>
@@ -2450,7 +2451,7 @@
 
 
 
-        
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="b2c5733" data-element_type="section" style="background-color:#000">
@@ -3065,6 +3066,66 @@
         });
     }(jQuery));
     </script>
+
+    <script type="text/javascript" id="unlimited-elements-scripts">
+    /* Post Carousel Lite scripts: */
+
+    jQuery(document).ready(function() {
+        function uc_uc_card_post_carousel_elementor_df03b3c_start() {
+
+            var objCarousel = jQuery('#uc_uc_card_post_carousel_elementor_df03b3c .owl-carousel');
+            var objWrapper = jQuery('#uc_uc_card_post_carousel_elementor_df03b3c');
+
+            objCarousel.owlCarousel({
+                loop: true,
+                navText: ["<i class='fas fa-arrow-left'></i>", "<i class='fas fa-arrow-right'></i>"],
+                nav: true,
+                dots: true,
+                autoplay: true,
+                rtl: false,
+                paddingType: "none",
+                autoplayTimeout: 4000,
+                autoplayHoverPause: true,
+                smartSpeed: 1000,
+                margin: 30,
+                responsive: {
+                    0: {
+                        items: 1,
+                        slideBy: 1,
+
+
+                    },
+                    768: {
+                        items: 2,
+                        slideBy: 1,
+
+
+                    },
+                    980: {
+                        items: 3,
+                        slideBy: 1,
+
+
+                    }
+                }
+            });
+
+            objWrapper.on("uc_ajax_sethtml", function(event, htmlItems, isAppend) {
+
+                objCarousel.trigger("replace.owl.carousel", htmlItems);
+                objCarousel.trigger("refresh.owl.carousel");
+
+            });
+        }
+        if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
+            uc_uc_card_post_carousel_elementor_df03b3c_start();
+        else
+            jQuery(document).on('elementor/popup/show', () => {
+                if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
+                    uc_uc_card_post_carousel_elementor_df03b3c_start();
+            });
+    });
+    </script>
 </body>
 
 </html>
@@ -3540,11 +3601,12 @@ i.fas.fa-chevron-down {
     color: #fff !important;
 }
 
-.elementor-8 .elementor-element.elementor-element-00af63b:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-00af63b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-8 .elementor-element.elementor-element-00af63b:not(.elementor-motion-effects-element-type-background),
+.elementor-8 .elementor-element.elementor-element-00af63b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000000;
 }
 
-.elementor-section.elementor-section-boxed > .elementor-container {
+.elementor-section.elementor-section-boxed>.elementor-container {
     max-width: 1140px;
 }
 
