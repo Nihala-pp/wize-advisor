@@ -3540,6 +3540,48 @@ i.fas.fa-chevron-down {
     color: #fff !important;
 }
 
+.elementor-8 .elementor-element.elementor-element-00af63b:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-00af63b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #000000;
+}
+
+.elementor-section.elementor-section-boxed > .elementor-container {
+    max-width: 1140px;
+}
+
+.elementor-8 .elementor-element.elementor-element-af7aeb8 .elementor-main-swiper {
+    width: 50%;
+}
+
+.elementor-8 .elementor-element.elementor-element-af7aeb8 .elementor-main-swiper .swiper-slide {
+    background-color: #000000;
+    border-width: 1px 0.1px 1px 1px;
+    border-radius: 30px;
+    border-color: #878787;
+}
+
+.elementor-8 .elementor-element.elementor-element-af7aeb8 .elementor-testimonial__text {
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.elementor-8 .elementor-element.elementor-element-af7aeb8 .elementor-testimonial__name {
+    font-family: "Roboto", Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.elementor-8 .elementor-element.elementor-element-af7aeb8 .elementor-testimonial__title {
+    color: #FFFFFF;
+}
+
+.elementor-8 .elementor-element.elementor-element-af7aeb8 .elementor-testimonial__text {
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
 
 @media (max-width: 767px) {
 
