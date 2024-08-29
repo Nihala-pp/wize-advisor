@@ -2960,69 +2960,6 @@
     <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.2"
         id="jquery-ui-draggable-js"></script>
     <script type="text/javascript">
-    jQuery(document).ready(function() {
-
-        function ucBackgroundOverlayPutStart() {
-
-            var objBG = jQuery(".unlimited-elements-background-overlay");
-
-            if (objBG.length == 0)
-                return (false);
-
-            objBG.each(function(index, bgElement) {
-
-                var objBgElement = jQuery(bgElement);
-
-                var targetID = objBgElement.data("forid");
-
-                var location = objBgElement.data("location");
-
-                switch (location) {
-                    case "body":
-                    case "body_front":
-                        var objTarget = jQuery("body");
-                        break;
-                    case "layout":
-                    case "layout_front":
-                        var objLayout = jQuery("*[data-id=\"" + targetID + "\"]");
-                        var objTarget = objLayout.parents(".elementor");
-                        if (objTarget.length > 1)
-                            objTarget = jQuery(objTarget[0]);
-                        break;
-                    default:
-                        var objTarget = jQuery("*[data-id=\"" + targetID + "\"]");
-                        break;
-                }
-
-                if (objTarget.length == 0)
-                    return (true);
-
-                var objVideoContainer = objTarget.children(
-                    ".elementor-background-video-container");
-
-                if (objVideoContainer.length == 1)
-                    objBgElement.detach().insertAfter(objVideoContainer).show();
-                else
-                    objBgElement.detach().prependTo(objTarget).show();
-
-                objBgElement.trigger("bg_attached");
-                objBgElement.addClass("uc-bg-attached");
-
-            });
-        }
-
-        ucBackgroundOverlayPutStart();
-
-        jQuery(document).on('elementor/popup/show', () => {
-
-            if (jQuery(".unlimited-elements-background-overlay").not(".uc-bg-attached")
-                .length)
-                ucBackgroundOverlayPutStart();
-
-        });
-    });
-    </script>
-    <script type="text/javascript">
     (function($) {
         "use strict";
         $(document).ready(function() {
@@ -3145,6 +3082,92 @@
                 if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
                     uc_uc_card_post_carousel_elementor_df03b3c_start();
             });
+    });
+    </script>
+
+    <style>
+    .unlimited-elements-background-overlay {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+    }
+
+    .unlimited-elements-background-overlay.uc-bg-front {
+        z-index: 999;
+    }
+    </style>
+
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+
+        function ucBackgroundOverlayPutStart() {
+
+            var objBG = jQuery(".unlimited-elements-background-overlay").not(".uc-bg-attached");
+
+            if (objBG.length == 0)
+                return (false);
+
+            objBG.each(function(index, bgElement) {
+
+                var objBgElement = jQuery(bgElement);
+
+                var targetID = objBgElement.data("forid");
+
+                var location = objBgElement.data("location");
+
+                switch (location) {
+                    case "body":
+                    case "body_front":
+                        var objTarget = jQuery("body");
+                        break;
+                    case "layout":
+                    case "layout_front":
+                        var objLayout = jQuery("*[data-id=\"" + targetID + "\"]");
+                        var objTarget = objLayout.parents(".elementor");
+                        if (objTarget.length > 1)
+                            objTarget = jQuery(objTarget[0]);
+                        break;
+                    default:
+                        var objTarget = jQuery("*[data-id=\"" + targetID + "\"]");
+                        break;
+                }
+
+
+                if (objTarget.length == 0)
+                    return (true);
+
+                var objVideoContainer = objTarget.children(".elementor-background-video-container");
+
+                if (objVideoContainer.length == 1)
+                    objBgElement.detach().insertAfter(objVideoContainer).show();
+                else
+                    objBgElement.detach().prependTo(objTarget).show();
+
+
+                var objTemplate = objBgElement.children("template");
+
+                if (objTemplate.length) {
+
+                    var clonedContent = objTemplate[0].content.cloneNode(true);
+                    objBgElement.append(clonedContent);
+
+                    objTemplate.remove();
+                }
+
+                objBgElement.trigger("bg_attached");
+                objBgElement.addClass("uc-bg-attached");
+
+            });
+        }
+
+        ucBackgroundOverlayPutStart();
+
+        jQuery(document).on('elementor/popup/show', ucBackgroundOverlayPutStart);
+        jQuery("body").on('uc_dom_updated', ucBackgroundOverlayPutStart);
+
     });
     </script>
 </body>
