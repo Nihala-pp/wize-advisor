@@ -1846,7 +1846,7 @@
                             <div class="elementor-widget-container">
                                 <!-- start Post Carousel Lite -->
                                 <link id='font-awesome-css'
-                                    href='https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome6/fontawesome-all.min.css'
+                                    href='https://wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome6/fontawesome-all.min.css'
                                     type='text/css' rel='stylesheet'>
                                 <link id='font-awesome-4-shim-css'
                                     href='https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome6/fontawesome-v4-shims.min.css'
