@@ -2955,6 +2955,10 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/jquery-numerator/jquery-numerator.min.js?ver=0.2.1"
         id="jquery-numerator-js"></script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" id="jquery-ui-mouse-js">
+    </script>
+    <script src="https://web.wiseadvizor.com/wp-includes/js/jquery/ui/draggable.min.js?ver=1.13.2"
+        id="jquery-ui-draggable-js"></script>
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
