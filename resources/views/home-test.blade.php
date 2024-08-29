@@ -4529,7 +4529,7 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-c70251b .wpr-button:hover .wpr-button-text {
-    color: #ffffff;
+    color: #ffffff !important;
 }
 
 .elementor-8 .elementor-element.elementor-element-c70251b .wpr-button {
