@@ -4528,6 +4528,22 @@ i.fas.fa-chevron-down {
     text-align: left;
 }
 
+.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button:hover .wpr-button-text {
+    color: #ffffff;
+}
+
+.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    background-color: transparent;
+    background-image: linear-gradient(253deg, #3D73FF 0%, #608DFF 100%);
+    border-color: #E8E8E8;
+    border-style: none;
+    border-radius: 4px 4px 4px 4px;
+}
+
 @media (max-width: 767px) {
 
 
