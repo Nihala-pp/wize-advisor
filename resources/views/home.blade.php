@@ -1720,7 +1720,7 @@
                             @foreach ($reviews as $review)
                             <div class="owl-item testimonial-car">
                                 <div class="card d-flex flex-column">
-                                    <div class="testimonial"> {{ Str::limit($review->review, 280, '....') }}
+                                    <div class="testimonial"> {{ Str::limit($review->review, 260, '....') }}
                                     </div>
                                     <div class="d-flex flex-row profile pt-4 mt-auto">
                                         @if($review->user->metaData->profile_pic)
