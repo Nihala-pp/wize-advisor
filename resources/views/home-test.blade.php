@@ -2897,6 +2897,12 @@ i.fas.fa-chevron-down {
         padding-left: 10px;
         text-align: left;
     }
+
+    .elementor-8 .elementor-element.elementor-element-6e5206e .elementor-heading-title {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        margin-left: 30px;
+    }
 }
 
 @media (max-width: 320px) {
