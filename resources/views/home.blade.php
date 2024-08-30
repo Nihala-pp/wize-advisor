@@ -738,7 +738,7 @@
                                                         <span class="elementor-counter-number-prefix"></span>
                                                         <span class="elementor-counter-number" data-duration="2000"
                                                             data-to-value="800" data-from-value="0"
-                                                            data-delimiter=",">800</span>
+                                                            data-delimiter=",">{{ $users }}</span>
                                                         <span class="elementor-counter-number-suffix">+</span>
                                                     </div>
                                                 </div>
