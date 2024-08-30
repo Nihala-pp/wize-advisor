@@ -1710,7 +1710,7 @@
                     data-id="6e5206e" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
                         <div class="elementor-widget-container">
-                            <h2 class="elementor-heading-title elementor-size-default">>What Mentees Say</h2>
+                            <h2 class="elementor-heading-title elementor-size-default">What Mentees Say</h2>
                         </div>
                         <div class="owl-carousel owl-theme owl-test">
                             @foreach ($reviews as $review)
