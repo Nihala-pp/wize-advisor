@@ -2839,7 +2839,7 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-inner-column .elementor-element .elementor-element-6176af3 {
-        width: 33%;
+        width: 20%;
     }
 
     .elementor-inner-column .elementor-element .elementor-element-82f1355 {
