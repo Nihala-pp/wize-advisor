@@ -2273,109 +2273,6 @@
                 </div>
             </div>
         </section>
-            <div class="owl-carousel owl-theme">
-                <div class="owl-item">
-                    <div class="card d-flex flex-column">
-                        <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
-                            <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span>
-                        </div>
-                        <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                        <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                            dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                        <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                                alt="" class="rounded-circle">
-                            <div class="d-flex flex-column pl-2">
-                                <div class="name">Megan</div>
-                                <p class="text-muted designation">CEO of My Company</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item">
-                    <div class="card d-flex flex-column">
-                        <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
-                            <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span>
-                        </div>
-                        <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                        <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                            dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                        <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                                alt="" class="rounded-circle">
-                            <div class="d-flex flex-column pl-2">
-                                <div class="name">Megan</div>
-                                <p class="text-muted designation">CEO of My Company</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item">
-                    <div class="card d-flex flex-column">
-                        <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
-                            <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span>
-                        </div>
-                        <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                        <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                            dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                        <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                                alt="" class="rounded-circle">
-                            <div class="d-flex flex-column pl-2">
-                                <div class="name">Megan</div>
-                                <p class="text-muted designation">CEO of My Company</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item">
-                    <div class="card d-flex flex-column">
-                        <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
-                            <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span>
-                        </div>
-                        <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                        <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                            dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                        <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                                alt="" class="rounded-circle">
-                            <div class="d-flex flex-column pl-2">
-                                <div class="name">Megan</div>
-                                <p class="text-muted designation">CEO of My Company</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="owl-item">
-                    <div class="card d-flex flex-column">
-                        <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star active-star"></span> <span class="fas fa-star active-star"></span>
-                            <span class="fas fa-star active-star"></span> <span
-                                class="fas fa-star-half-alt active-star"></span>
-                        </div>
-                        <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
-                        <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magni
-                            dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id. </div>
-                        <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-                                alt="" class="rounded-circle">
-                            <div class="d-flex flex-column pl-2">
-                                <div class="name">Megan</div>
-                                <p class="text-muted designation">CEO of My Company</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-00af63b elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no"
             data-id="00af63b" data-element_type="section"
@@ -2384,183 +2281,119 @@
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e5206e"
                     data-id="6e5206e" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
-                        <div class="elementor-element elementor-element-af7aeb8 elementor-testimonial--align-left elementor-testimonial--skin-default elementor-testimonial--layout-image_inline elementor-pagination-type-bullets elementor-widget elementor-widget-testimonial-carousel e-widget-swiper"
-                            data-id="af7aeb8" data-element_type="widget"
-                            data-settings="{&quot;slides_per_view&quot;:&quot;2&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:5,&quot;sizes&quot;:[]},&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}"
-                            data-widget_type="testimonial-carousel.default">
-                            <div class="elementor-widget-container">
-                                <link rel="stylesheet"
-                                    href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">
-                                <div class="elementor-swiper">
-                                    <div
-                                        class="elementor-main-swiper swiper-container swiper-initialized swiper-horizontal swiper-pointer-events swiper-backface-hidden">
-                                        <div class="swiper-wrapper"
-                                            style="cursor: grab; transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;"
-                                            id="swiper-wrapper-f592118fa591041210" aria-live="off">
-                                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-active"
-                                                data-swiper-slide-index="1" style="width: 277.5px; margin-right: 5px;"
-                                                role="group" aria-label="2 / 3">
-                                                <div class="elementor-testimonial">
-                                                    <div class="elementor-testimonial__content">
-                                                        <div class="elementor-testimonial__text">
-                                                            Thank you so much for the fantastic guidance in our call!
-                                                            Your clear explanations and approachable teaching style made
-                                                            the call enjoyable to learn. I believe more people will love
-                                                            your guidance as much as I did, thanks to your excellent
-                                                            teaching and guidance </div>
-                                                    </div>
-                                                    <div class="elementor-testimonial__footer">
-                                                        <div class="elementor-testimonial__image">
-                                                            <img decoding="async"
-                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/testimonial-2.jpg"
-                                                                alt="John Doe">
-                                                        </div>
-                                                        <cite class="elementor-testimonial__cite"><span
-                                                                class="elementor-testimonial__name">John Doe</span><span
-                                                                class="elementor-testimonial__title">CEO</span></cite>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-next"
-                                                data-swiper-slide-index="2" style="width: 277.5px; margin-right: 5px;"
-                                                role="group" aria-label="3 / 3">
-                                                <div class="elementor-testimonial">
-                                                    <div class="elementor-testimonial__content">
-                                                        <div class="elementor-testimonial__text">
-                                                            It was a great experience to learn so much from Cien and her
-                                                            knowledge will help me definitely in thriving for success
-                                                            for my startup ⭐ </div>
-                                                    </div>
-                                                    <div class="elementor-testimonial__footer">
-                                                        <cite class="elementor-testimonial__cite"><span
-                                                                class="elementor-testimonial__name">John Doe</span><span
-                                                                class="elementor-testimonial__title">CEO</span></cite>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide" data-swiper-slide-index="0"
-                                                style="width: 277.5px; margin-right: 5px;" role="group"
-                                                aria-label="1 / 3">
-                                                <div class="elementor-testimonial">
-                                                    <div class="elementor-testimonial__content">
-                                                        <div class="elementor-testimonial__text">
-                                                            It was a nice interaction with Cien, gave me a insight of
-                                                            how should we implement a business idea from scratch, and
-                                                            also made me understand from a technical aspects of how can
-                                                            I proceed further... </div>
-                                                    </div>
-                                                    <div class="elementor-testimonial__footer">
-                                                        <div class="elementor-testimonial__image">
-                                                            <img decoding="async"
-                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Team-3-1.jpg"
-                                                                alt="John Doe">
-                                                        </div>
-                                                        <cite class="elementor-testimonial__cite"><span
-                                                                class="elementor-testimonial__name">John Doe</span><span
-                                                                class="elementor-testimonial__title">CEO</span></cite>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide swiper-slide-duplicate-active swiper-slide-duplicate-prev"
-                                                data-swiper-slide-index="1" style="width: 277.5px; margin-right: 5px;"
-                                                role="group" aria-label="2 / 3">
-                                                <div class="elementor-testimonial">
-                                                    <div class="elementor-testimonial__content">
-                                                        <div class="elementor-testimonial__text">
-                                                            Thank you so much for the fantastic guidance in our call!
-                                                            Your clear explanations and approachable teaching style made
-                                                            the call enjoyable to learn. I believe more people will love
-                                                            your guidance as much as I did, thanks to your excellent
-                                                            teaching and guidance </div>
-                                                    </div>
-                                                    <div class="elementor-testimonial__footer">
-                                                        <div class="elementor-testimonial__image">
-                                                            <img decoding="async"
-                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/testimonial-2.jpg"
-                                                                alt="John Doe">
-                                                        </div>
-                                                        <cite class="elementor-testimonial__cite"><span
-                                                                class="elementor-testimonial__name">John Doe</span><span
-                                                                class="elementor-testimonial__title">CEO</span></cite>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide swiper-slide-duplicate-next"
-                                                data-swiper-slide-index="2" style="width: 277.5px; margin-right: 5px;"
-                                                role="group" aria-label="3 / 3">
-                                                <div class="elementor-testimonial">
-                                                    <div class="elementor-testimonial__content">
-                                                        <div class="elementor-testimonial__text">
-                                                            It was a great experience to learn so much from Cien and her
-                                                            knowledge will help me definitely in thriving for success
-                                                            for my startup ⭐ </div>
-                                                    </div>
-                                                    <div class="elementor-testimonial__footer">
-                                                        <cite class="elementor-testimonial__cite"><span
-                                                                class="elementor-testimonial__name">John Doe</span><span
-                                                                class="elementor-testimonial__title">CEO</span></cite>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide swiper-slide-duplicate" data-swiper-slide-index="0"
-                                                style="width: 277.5px; margin-right: 5px;" role="group"
-                                                aria-label="1 / 3">
-                                                <div class="elementor-testimonial">
-                                                    <div class="elementor-testimonial__content">
-                                                        <div class="elementor-testimonial__text">
-                                                            It was a nice interaction with Cien, gave me a insight of
-                                                            how should we implement a business idea from scratch, and
-                                                            also made me understand from a technical aspects of how can
-                                                            I proceed further... </div>
-                                                    </div>
-                                                    <div class="elementor-testimonial__footer">
-                                                        <div class="elementor-testimonial__image">
-                                                            <img decoding="async"
-                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/Team-3-1.jpg"
-                                                                alt="John Doe">
-                                                        </div>
-                                                        <cite class="elementor-testimonial__cite"><span
-                                                                class="elementor-testimonial__name">John Doe</span><span
-                                                                class="elementor-testimonial__title">CEO</span></cite>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev"
-                                                data-swiper-slide-index="1" role="group" aria-label="2 / 3"
-                                                style="width: 277.5px; margin-right: 5px;">
-                                                <div class="elementor-testimonial">
-                                                    <div class="elementor-testimonial__content">
-                                                        <div class="elementor-testimonial__text">
-                                                            Thank you so much for the fantastic guidance in our call!
-                                                            Your clear explanations and approachable teaching style made
-                                                            the call enjoyable to learn. I believe more people will love
-                                                            your guidance as much as I did, thanks to your excellent
-                                                            teaching and guidance </div>
-                                                    </div>
-                                                    <div class="elementor-testimonial__footer">
-                                                        <div class="elementor-testimonial__image">
-                                                            <img decoding="async"
-                                                                src="https://web.wiseadvizor.com/wp-content/uploads/2024/06/testimonial-2.jpg"
-                                                                alt="John Doe">
-                                                        </div>
-                                                        <cite class="elementor-testimonial__cite"><span
-                                                                class="elementor-testimonial__name">John Doe</span><span
-                                                                class="elementor-testimonial__title">CEO</span></cite>
-                                                    </div>
-                                                </div>
-                                            </div>
+                        <div class="owl-carousel owl-theme">
+                            <div class="owl-item">
+                                <div class="card d-flex flex-column">
+                                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span>
+                                        <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star-half-alt active-star"></span>
+                                    </div>
+                                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Magni
+                                        dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id.
+                                    </div>
+                                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                            alt="" class="rounded-circle">
+                                        <div class="d-flex flex-column pl-2">
+                                            <div class="name">Megan</div>
+                                            <p class="text-muted designation">CEO of My Company</p>
                                         </div>
-                                        <div
-                                            class="swiper-pagination swiper-pagination-clickable swiper-pagination-bullets swiper-pagination-horizontal">
-                                            <span class="swiper-pagination-bullet" tabindex="0" role="button"
-                                                aria-label="Go to slide 1"></span><span
-                                                class="swiper-pagination-bullet swiper-pagination-bullet-active"
-                                                tabindex="0" role="button" aria-label="Go to slide 2"
-                                                aria-current="true"></span><span class="swiper-pagination-bullet"
-                                                tabindex="0" role="button" aria-label="Go to slide 3"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="card d-flex flex-column">
+                                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span>
+                                        <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star-half-alt active-star"></span>
+                                    </div>
+                                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Magni
+                                        dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id.
+                                    </div>
+                                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                            alt="" class="rounded-circle">
+                                        <div class="d-flex flex-column pl-2">
+                                            <div class="name">Megan</div>
+                                            <p class="text-muted designation">CEO of My Company</p>
                                         </div>
-                                        <span class="swiper-notification" aria-live="assertive"
-                                            aria-atomic="true"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="card d-flex flex-column">
+                                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span>
+                                        <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star-half-alt active-star"></span>
+                                    </div>
+                                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Magni
+                                        dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id.
+                                    </div>
+                                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                            alt="" class="rounded-circle">
+                                        <div class="d-flex flex-column pl-2">
+                                            <div class="name">Megan</div>
+                                            <p class="text-muted designation">CEO of My Company</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="card d-flex flex-column">
+                                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span>
+                                        <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star-half-alt active-star"></span>
+                                    </div>
+                                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Magni
+                                        dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id.
+                                    </div>
+                                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                            alt="" class="rounded-circle">
+                                        <div class="d-flex flex-column pl-2">
+                                            <div class="name">Megan</div>
+                                            <p class="text-muted designation">CEO of My Company</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="owl-item">
+                                <div class="card d-flex flex-column">
+                                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star active-star"></span>
+                                        <span class="fas fa-star active-star"></span> <span
+                                            class="fas fa-star-half-alt active-star"></span>
+                                    </div>
+                                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                                    <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                                        Magni
+                                        dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id.
+                                    </div>
+                                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
+                                            src="https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+                                            alt="" class="rounded-circle">
+                                        <div class="d-flex flex-column pl-2">
+                                            <div class="name">Megan</div>
+                                            <p class="text-muted designation">CEO of My Company</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -2569,9 +2402,6 @@
                 </div>
             </div>
         </section>
-
-
-
 
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
@@ -2613,281 +2443,6 @@
                 </div>
             </div>
         </section>
-        <!-- <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-b513049 elementor-section-full_width elementor-section-height-default elementor-section-height-default"
-            data-id="b513049" data-element_type="section">
-            <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-760199c"
-                    data-id="760199c" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-0c4f5bc elementor-blockquote--skin-quotation elementor-blockquote--align-center elementor-blockquote--button-color-official elementor-widget elementor-widget-blockquote"
-                            data-id="0c4f5bc" data-element_type="widget" data-widget_type="blockquote.default">
-                            <div class="elementor-widget-container">
-                                <style>
-                                /*! elementor-pro - v3.5.0 - 01-11-2021 */
-                                @charset "UTF-8";
-
-                                .entry-content blockquote.elementor-blockquote:not(.alignright):not(.alignleft),
-                                .entry-summary blockquote.elementor-blockquote {
-                                    margin-right: 0;
-                                    margin-left: 0
-                                }
-
-                                .elementor-widget-blockquote blockquote {
-                                    margin: 0;
-                                    padding: 0;
-                                    outline: 0;
-                                    font-size: 100%;
-                                    vertical-align: baseline;
-                                    background: transparent;
-                                    quotes: none;
-                                    border: 0;
-                                    font-style: normal;
-                                    color: #55595c
-                                }
-
-                                .elementor-widget-blockquote blockquote:after,
-                                .elementor-widget-blockquote blockquote:before,
-                                .elementor-widget-blockquote blockquote cite:after,
-                                .elementor-widget-blockquote blockquote cite:before,
-                                .elementor-widget-blockquote blockquote footer:after,
-                                .elementor-widget-blockquote blockquote footer:before {
-                                    content: "";
-                                    content: none
-                                }
-
-                                .elementor-blockquote {
-                                    -webkit-transition: .3s;
-                                    -o-transition: .3s;
-                                    transition: .3s
-                                }
-
-                                .elementor-blockquote__author,
-                                .elementor-blockquote__content {
-                                    margin-bottom: 0;
-                                    font-style: normal
-                                }
-
-                                .elementor-blockquote__author {
-                                    font-weight: 700
-                                }
-
-                                .elementor-blockquote footer {
-                                    margin-top: 12px;
-                                    display: -webkit-box;
-                                    display: -ms-flexbox;
-                                    display: flex;
-                                    -webkit-box-pack: justify;
-                                    -ms-flex-pack: justify;
-                                    justify-content: space-between
-                                }
-
-                                .elementor-blockquote__tweet-button {
-                                    display: -webkit-box;
-                                    display: -ms-flexbox;
-                                    display: flex;
-                                    -webkit-transition: .3s;
-                                    -o-transition: .3s;
-                                    transition: .3s;
-                                    color: #1da1f2;
-                                    -ms-flex-item-align: end;
-                                    align-self: flex-end;
-                                    line-height: 1;
-                                    position: relative;
-                                    width: -webkit-max-content;
-                                    width: -moz-max-content;
-                                    width: max-content
-                                }
-
-                                .elementor-blockquote__tweet-button:hover {
-                                    color: #0967a0
-                                }
-
-                                .elementor-blockquote__tweet-button span {
-                                    font-weight: 600
-                                }
-
-                                .elementor-blockquote__tweet-button i,
-                                .elementor-blockquote__tweet-button span {
-                                    vertical-align: middle
-                                }
-
-                                .elementor-blockquote__tweet-button i+span,
-                                .elementor-blockquote__tweet-button svg+span {
-                                    margin-left: .5em
-                                }
-
-                                .elementor-blockquote__tweet-button svg {
-                                    fill: #1da1f2;
-                                    height: 1em;
-                                    width: 1em
-                                }
-
-                                .elementor-blockquote__tweet-label {
-                                    white-space: pre-wrap
-                                }
-
-                                .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button,
-                                .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button {
-                                    padding: .7em 1.2em;
-                                    border-radius: 100em;
-                                    background-color: #1da1f2;
-                                    color: #fff;
-                                    font-size: 15px
-                                }
-
-                                .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button:hover,
-                                .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button:hover {
-                                    background-color: #0967a0;
-                                    color: #fff
-                                }
-
-                                .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button:hover:before,
-                                .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button:hover:before {
-                                    border-right-color: #0967a0
-                                }
-
-                                .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button svg,
-                                .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button svg {
-                                    fill: #fff;
-                                    height: 1em;
-                                    width: 1em
-                                }
-
-                                .elementor-blockquote--button-skin-bubble.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button,
-                                .elementor-blockquote--button-skin-classic.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button {
-                                    padding: 0;
-                                    width: 2em;
-                                    height: 2em
-                                }
-
-                                .elementor-blockquote--button-skin-bubble.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button i,
-                                .elementor-blockquote--button-skin-classic.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button i {
-                                    position: absolute;
-                                    left: 50%;
-                                    top: 50%;
-                                    -webkit-transform: translate(-50%, -50%);
-                                    -ms-transform: translate(-50%, -50%);
-                                    transform: translate(-50%, -50%)
-                                }
-
-                                .elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button:before {
-                                    content: "";
-                                    border: .5em solid transparent;
-                                    border-right-color: #1da1f2;
-                                    position: absolute;
-                                    left: -.8em;
-                                    top: 50%;
-                                    -webkit-transform: translateY(-50%) scaleY(.65);
-                                    -ms-transform: translateY(-50%) scaleY(.65);
-                                    transform: translateY(-50%) scaleY(.65);
-                                    -webkit-transition: .3s;
-                                    -o-transition: .3s;
-                                    transition: .3s
-                                }
-
-                                .elementor-blockquote--button-skin-bubble.elementor-blockquote--align-left .elementor-blockquote__tweet-button:before {
-                                    right: auto;
-                                    left: -.8em;
-                                    border-right-color: #1da1f2;
-                                    border-left-color: transparent
-                                }
-
-                                .elementor-blockquote--button-skin-bubble.elementor-blockquote--align-left .elementor-blockquote__tweet-button:hover:before {
-                                    border-right-color: #0967a0
-                                }
-
-                                .elementor-blockquote--button-skin-bubble.elementor-blockquote--align-right .elementor-blockquote__tweet-button:before {
-                                    left: auto;
-                                    right: -.8em;
-                                    border-right-color: transparent;
-                                    border-left-color: #1da1f2
-                                }
-
-                                .elementor-blockquote--button-skin-bubble.elementor-blockquote--align-right .elementor-blockquote__tweet-button:hover:before {
-                                    border-left-color: #0967a0
-                                }
-
-                                .elementor-blockquote--skin-boxed .elementor-blockquote {
-                                    background-color: #e6e9ec;
-                                    padding: 30px
-                                }
-
-                                .elementor-blockquote--skin-border .elementor-blockquote {
-                                    border-color: #e6e9ec;
-                                    border-left: 7px #e6e9ec;
-                                    border-style: solid;
-                                    padding-left: 20px
-                                }
-
-                                .elementor-blockquote--skin-quotation .elementor-blockquote:before {
-                                    content: "Рђю";
-                                    font-size: 100px;
-                                    color: #e6e9ec;
-                                    font-family: Times New Roman, Times, serif;
-                                    font-weight: 900;
-                                    line-height: 1;
-                                    display: block;
-                                    height: .6em
-                                }
-
-                                .elementor-blockquote--skin-quotation .elementor-blockquote__content {
-                                    margin-top: 15px
-                                }
-
-                                .elementor-blockquote--align-left .elementor-blockquote__content {
-                                    text-align: left
-                                }
-
-                                .elementor-blockquote--align-left .elementor-blockquote footer {
-                                    -webkit-box-orient: horizontal;
-                                    -webkit-box-direction: normal;
-                                    -ms-flex-direction: row;
-                                    flex-direction: row
-                                }
-
-                                .elementor-blockquote--align-right .elementor-blockquote__content {
-                                    text-align: right
-                                }
-
-                                .elementor-blockquote--align-right .elementor-blockquote footer {
-                                    -webkit-box-orient: horizontal;
-                                    -webkit-box-direction: reverse;
-                                    -ms-flex-direction: row-reverse;
-                                    flex-direction: row-reverse
-                                }
-
-                                .elementor-blockquote--align-center .elementor-blockquote {
-                                    text-align: center
-                                }
-
-                                .elementor-blockquote--align-center .elementor-blockquote__author,
-                                .elementor-blockquote--align-center .elementor-blockquote footer {
-                                    display: block
-                                }
-
-                                .elementor-blockquote--align-center .elementor-blockquote__tweet-button {
-                                    margin-right: auto;
-                                    margin-left: auto
-                                }
-                                </style>
-                                <p class="elementor-blockquote__content">
-                                    Mentoring is vital for startups as it provides expert guidance,
-                                    networking
-                                    opportunities, and experience-based learning, empowering them to
-                                    navigate
-                                    challenges and thrive in the competitive business landscape.
-                                </p>
-                                <footer>
-                                    <cite class="elementor-blockquote__author">Deep Shikha </br>
-                                        Managing Director</cite>
-                                </footer>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <div class="modal" tabindex="-1" role="dialog" id="offer_modal" style="display:none">
             <div class="modal-dialog" role="document">
@@ -2909,7 +2464,6 @@
                             style="align:center;background-color:#001E64;color:#fff;"><a href="{{ route('login') }}"
                                 style="color:#fff;">Get
                                 Started</a></button>
-                        <!-- <button type="button" class="btn btn-secondary" style="background-color:#001E64;color:#fff;" data-dismiss="modal">Close</button> -->
                     </div>
                 </div>
             </div>
