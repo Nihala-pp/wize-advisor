@@ -1681,22 +1681,14 @@
                             data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:300}"
                             data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
-
-
-
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link">
-
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="#link" style="background-color:#001E64;">
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Get Started</span>
-
                                             <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
                                         </span>
                                     </a>
-
                                 </div>
-
-
                             </div>
                         </div>
                     </div>
