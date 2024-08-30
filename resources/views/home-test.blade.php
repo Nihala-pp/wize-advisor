@@ -2330,13 +2330,13 @@
                             </div>
                             <div class="owl-item">
                                 <div class="card d-flex flex-column">
-                                    <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
+                                    <!-- <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
                                             class="fas fa-star active-star"></span> <span
                                             class="fas fa-star active-star"></span>
                                         <span class="fas fa-star active-star"></span> <span
                                             class="fas fa-star-half-alt active-star"></span>
                                     </div>
-                                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div>
+                                    <div class="main font-weight-bold pb-2 pt-1">Great Service</div> -->
                                     <div class="testimonial"> Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                                         Magni
                                         dolores molestias veniam inventore itaque eius iure omnis, temporibus culpa id.
