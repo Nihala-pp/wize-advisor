@@ -231,6 +231,7 @@
                 </div>
             </div>
         </section>
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-a9a15f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="a9a15f2" data-element_type="section">
@@ -391,6 +392,7 @@
                 </div>
             </div>
         </section>
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-4128fae elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             id="how_it_works" data-id="4128fae" data-element_type="section"
@@ -749,7 +751,6 @@
             </div>
         </section>
 
-
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-c6fda76 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="c6fda76" data-element_type="section">
@@ -960,6 +961,7 @@
                 </div>
             </div>
         </section>
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-3cff520 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="3cff520" data-element_type="section"
@@ -1699,6 +1701,7 @@
                 </div>
             </div>
         </section>
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-00af63b elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no"
             data-id="00af63b" data-element_type="section" style="background-color:#fff;">
@@ -1707,7 +1710,7 @@
                     data-id="6e5206e" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
                         <div class="owl-carousel owl-theme">
-                            <div class="owl-item">
+                            <div class="owl-item testimonial-car">
                                 <div class="card d-flex flex-column">
                                     <!-- <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
                                             class="fas fa-star active-star"></span> <span
@@ -3150,13 +3153,12 @@ i.fas.fa-chevron-down {
     padding-left: 15px;
 }
 
-.owl-carousel {
+/* .owl-carousel {
     margin-bottom: 15px
-}
+} */
 
-.owl-carousel .owl-stage-outer {
+.uc-items-wrapper .testimonial-car {
     padding: 40px 10px;
-    height: 380px
 }
 
 .owl-carousel .owl-item img {
