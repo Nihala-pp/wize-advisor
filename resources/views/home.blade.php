@@ -696,7 +696,7 @@
                                                         <span class="elementor-counter-number-prefix"></span>
                                                         <span class="elementor-counter-number" data-duration="2000"
                                                             data-to-value="11" data-from-value="0"
-                                                            data-delimiter=",">11</span>
+                                                            data-delimiter=",">{{ $mentors->count() }}</span>
                                                         <span class="elementor-counter-number-suffix"></span>
                                                     </div>
                                                 </div>
