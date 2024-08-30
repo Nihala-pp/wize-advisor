@@ -2892,6 +2892,10 @@ i.fas.fa-chevron-down {
     .elementor-8 .elementor-element.elementor-element-ce55ef8 .elementor-image-box-description {
         padding-left: 10px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-c70251b {
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 320px) {
