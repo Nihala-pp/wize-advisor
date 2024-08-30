@@ -1682,7 +1682,8 @@
                             data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go" href="{{ route('register') }}" style="background-color:#001E64 !important;">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="{{ route('register') }}" style="background-color:#001E64 !important;">
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Get Started</span>
                                             <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
@@ -2510,6 +2511,17 @@ i.fas.fa-chevron-down {
     font-family: "Helvetica", Sans-serif;
     color: #fff !important;
     padding-left: 9px;
+}
+
+.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button {
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+    background-color: transparent;
+    border-color: #E8E8E8;
+    border-style: none;
+    border-radius: 4px 4px 4px 4px;
 }
 
 @media (max-width: 767px) {
