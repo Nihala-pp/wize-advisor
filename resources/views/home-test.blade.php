@@ -3089,6 +3089,7 @@ i.fas.fa-chevron-down {
     font-weight: 600;
     font-size: 40px;
     margin-top:20px;
+    margin-bottom:10px;
 }
 
 /* .owl-theme .owl-nav [class*='owl-'] {
