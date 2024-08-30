@@ -1681,7 +1681,16 @@
                             data-settings="{&quot;_animation&quot;:&quot;none&quot;,&quot;_animation_delay&quot;:300}"
                             data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
-                                <div class="wpr-button-wrap elementor-clearfix">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('register') }}">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Get
+                                                Started</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <!-- <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="elementor-button elementor-button-link elementor-size-sm" data-text="Go"
                                         href="{{ route('register') }}" style="background-color:#001E64 !important;">
                                         <span class="wpr-button-content">
@@ -1689,7 +1698,7 @@
                                             <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
                                         </span>
                                     </a>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -2518,7 +2527,7 @@ i.fas.fa-chevron-down {
     border-color: #E8E8E8;
     border-style: none;
     border-radius: 4px 4px 4px 4px;
-} 
+}
 
 .elementor-8 .elementor-element.elementor-element-c70251b a {
     background-color: #001E64 !important;
