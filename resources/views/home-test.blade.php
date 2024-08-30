@@ -2498,6 +2498,12 @@ i.fas.fa-chevron-down {
     border-width: 1px !important;
 }
 
+.elementor-8 .elementor-element.elementor-element-d4a4fce  {
+    border: solid !important;
+    border-color: #2C2828 !important;
+    border-width: 1px !important;
+}
+
 
 @media (max-width: 767px) {
 
