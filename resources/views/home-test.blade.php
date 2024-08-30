@@ -3163,7 +3163,7 @@ i.fas.fa-chevron-down {
     /* height: 380px */
 }
 
-.owl-carousel .owl-item img {
+.owl-test .testimonial-car img {
     width: 45px !important;
     height: 45px;
     border-radius: 50%;
