@@ -2828,12 +2828,16 @@ i.fas.fa-chevron-down {
         width: 100%;
     }
 
-    .elementor-element .elementor-element-6176af3 {
-        width: 30%;
+    .elementor-inner-column .elementor-element .elementor-element-6176af3 {
+        width: 33%;
     }
 
-    .elementor-element .elementor-element-82f1355 {
-        width: 30%;
+    .elementor-inner-column .elementor-element .elementor-element-82f1355 {
+        width: 33%;
+    }
+
+    .elementor-inner-column .elementor-element .elementor-element-265407c {
+        width: 33%;
     }
 }
 
