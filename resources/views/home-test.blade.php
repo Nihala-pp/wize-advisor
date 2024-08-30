@@ -1718,10 +1718,14 @@
                                 <div class="card d-flex flex-column">
                                     <div class="testimonial"> {{ Str::limit($review->review, 75, '...') }}
                                     </div>
-                                    <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                            src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
-                                            ?: "{{ asset('public/assets/img/blank-profile-picture.webp') }}" alt=""
+                                    <div class="d-flex flex-row profile pt-4 mt-auto">
+                                        @if($review->user->metaData->profile_pic)
+                                        <img src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
+                                            alt="" class="rounded-circle">
+                                        @else
+                                        <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}" alt=""
                                             class="rounded-circle">
+                                        @endif
                                         <div class="d-flex flex-column pl-2">
                                             <div class="name">{{ $review->user->name ?: '' }}</div>
                                             <p class="text-muted designation">
