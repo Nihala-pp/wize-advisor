@@ -1706,11 +1706,12 @@
             class="elementor-section elementor-top-section elementor-element elementor-element-00af63b elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no"
             data-id="00af63b" data-element_type="section" style="background-color:#fff;">
             <div class="elementor-container elementor-column-gap-default">
-            <h2 class="elementor-heading-title elementor-size-default">What Mentees Say
-            </h2>
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e5206e"
                     data-id="6e5206e" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">>What Mentees Say</h2>
+                        </div>
                         <div class="owl-carousel owl-theme owl-test">
                             @foreach ($reviews as $review)
                             <div class="owl-item testimonial-car">
@@ -1718,8 +1719,9 @@
                                     <div class="testimonial"> {{ Str::words($review->review, '25') }}
                                     </div>
                                     <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                            src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}" ?: {{ asset('public/assets/img/blank-profile-picture.webp') }}
-                                            alt="" class="rounded-circle">
+                                            src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
+                                            ?: "{{ asset('public/assets/img/blank-profile-picture.webp') }}" alt=""
+                                            class="rounded-circle">
                                         <div class="d-flex flex-column pl-2">
                                             <div class="name">{{ $review->user->name ?: '' }}</div>
                                             <p class="text-muted designation">
