@@ -2148,8 +2148,8 @@ i.fas.fa-chevron-down {
 
 .elementor-8 .elementor-element.elementor-element-5a43edb .elementor-icon-box-description {
     color: #A7A1A1;
-    font-family: "Roboto", Sans-serif;
-    font-size: 12px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -2178,8 +2178,8 @@ i.fas.fa-chevron-down {
 
 .elementor-8 .elementor-element.elementor-element-e0d23f0 .elementor-icon-box-description {
     color: #A7A1A1;
-    font-family: "Roboto", Sans-serif;
-    font-size: 12px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 14px;
     font-weight: 400;
 }
 
@@ -2204,8 +2204,8 @@ i.fas.fa-chevron-down {
 
 .elementor-8 .elementor-element.elementor-element-33119b5 .elementor-icon-box-description {
     color: #A7A1A1;
-    font-family: "Roboto", Sans-serif;
-    font-size: 12px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 14px;
     font-weight: 400;
 }
 
