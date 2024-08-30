@@ -1704,7 +1704,7 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-00af63b elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no"
+            class="elementor-section elementor-top-section elementor-element elementor-element-00af63c elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no"
             data-id="00af63b" data-element_type="section" style="background-color:#fff;">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e5206e"
@@ -2504,6 +2504,11 @@ i.fas.fa-chevron-down {
     border: solid !important;
     border-color: #2C2828 !important;
     border-width: 1px !important;
+}
+
+.elementor-8 .elementor-element.elementor-element-00af63c:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-00af63b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 
