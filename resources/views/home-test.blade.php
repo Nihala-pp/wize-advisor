@@ -3138,12 +3138,16 @@ i.fas.fa-chevron-down {
 }
 
 .name {
-    font-weight: 700
+    color: #fff;
+    font-weight: 700;
+    padding-left: 15px;
 }
 
 .designation {
+    color: #fff !important;
     font-size: 0.84rem;
-    font-weight: 600
+    font-weight: 600;
+    padding-left: 15px;
 }
 
 .owl-carousel {
