@@ -3051,6 +3051,7 @@ i.fas.fa-chevron-down {
     color: #fff;
     font-weight: 700;
     padding-left: 15px;
+    font-size: 15px;
 }
 
 .designation {
@@ -3058,6 +3059,7 @@ i.fas.fa-chevron-down {
     font-size: 0.84rem;
     font-weight: 600;
     padding-left: 15px;
+    font-size: 12px;
 }
 
 .owl-test {
