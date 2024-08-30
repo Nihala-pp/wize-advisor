@@ -2492,11 +2492,10 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-30f8116 {
-    --divider-border-style: solid;
-    --divider-color: #2C2828;
-    --divider-border-width: 1px;
+    border: solid !important;
+    border-color: #2C2828 !important;
+    border-width: 1px !important;
 }
-
 
 
 @media (max-width: 767px) {
