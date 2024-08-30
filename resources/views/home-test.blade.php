@@ -634,7 +634,7 @@
                         </section>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-c9042b0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="c9042b0" data-element_type="section" style="border-color: #A7A1A1;border-top-width: 0.1px;">
+                            data-id="c9042b0" data-element_type="section" style="border-color: #A7A1A1;border-top-width: 0.1px;margin-top: 20px;">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6176af3"
                                     data-id="6176af3" data-element_type="column">
