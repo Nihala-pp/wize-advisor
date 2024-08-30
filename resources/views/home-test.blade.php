@@ -2491,6 +2491,12 @@ i.fas.fa-chevron-down {
     font-weight: 400;
 }
 
+.elementor-8030 .elementor-element.elementor-element-b2e0d53 {
+    --divider-border-style: solid;
+    --divider-color: #2C2828;
+    --divider-border-width: 1px;
+}
+
 
 
 @media (max-width: 767px) {
