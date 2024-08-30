@@ -3090,6 +3090,7 @@ i.fas.fa-chevron-down {
     font-size: 40px;
     margin-top:20px;
     margin-bottom:10px;
+    margin-left:375px;
 }
 
 /* .owl-theme .owl-nav [class*='owl-'] {
