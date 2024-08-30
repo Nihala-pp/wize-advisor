@@ -3102,10 +3102,10 @@ i.fas.fa-chevron-down {
     font-size: 1.1rem
 }
 
-.fa-heart {
+/* .fa-heart {
     color: rgba(255, 230, 0, 0.959);
     font-size: 30px
-}
+} */
 
 .card {
     background: linear-gradient(to right, #434343, #000000);
@@ -3116,12 +3116,14 @@ i.fas.fa-chevron-down {
 }
 
 .testimonial {
+    color: #fff;
     font-size: 0.9rem;
     line-height: 1.4rem;
-    font-weight: 500
+    font-weight: 500;
+    font-family: "Helvetica";
 }
 
-.active-star {
+/* .active-star {
     color: #FBC02D;
     margin-bottom: 8px
 }
@@ -3129,7 +3131,7 @@ i.fas.fa-chevron-down {
 .active-star:hover {
     color: #F9A825;
     cursor: pointer
-}
+} */
 
 .profile {
     padding-top: 10px
