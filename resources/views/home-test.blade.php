@@ -2344,6 +2344,7 @@ i.fas.fa-chevron-down {
 .elementor-8 .elementor-element.elementor-element-d60240a:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-d60240a>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000000;
+    padding-bottom: 30px;
 }
 
 .elementor-8 .elementor-element.elementor-element-65dddf0 .elementor-image-box-description {
