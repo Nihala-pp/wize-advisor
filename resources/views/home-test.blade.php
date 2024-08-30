@@ -2853,6 +2853,20 @@ i.fas.fa-chevron-down {
         /* margin-left: 20px; */
         margin-right: 25px !important;
     }
+
+    .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-title {
+        font-size: 11.5px;
+        margin-right: 25px !important;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
+        font-size: 11.5px;
+        /* padding-right: 0px !important; */
+    }
+
+    .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
+        font-size: 11.5px;
+    }
 }
 
 @media (max-width: 320px) {
