@@ -2843,6 +2843,16 @@ i.fas.fa-chevron-down {
     .elementor-inner-column .elementor-element .elementor-element-265407c {
         width: 33%;
     }
+
+    .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-title {
+        color: #8190FF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1.5em;
+        /* margin-left: 20px; */
+        margin-right: 25px !important;
+    }
 }
 
 @media (max-width: 320px) {
