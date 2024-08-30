@@ -2518,6 +2518,10 @@ i.fas.fa-chevron-down {
     border-color: #E8E8E8;
     border-style: none;
     border-radius: 4px 4px 4px 4px;
+} 
+
+.elementor-8 .elementor-element.elementor-element-c70251b a {
+    background-color: #001E64 !important;
 }
 
 @media (max-width: 767px) {
