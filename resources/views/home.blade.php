@@ -1682,7 +1682,7 @@
                             data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" data-text="Go"
                                         href="{{ route('register') }}" style="background-color:#001E64 !important;">
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Get Started</span>
