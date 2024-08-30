@@ -3170,7 +3170,7 @@ i.fas.fa-chevron-down {
     object-fit: cover
 }
 
-.owl-theme .owl-nav [class*='owl-'] {
+/* .owl-theme .owl-nav [class*='owl-'] {
     border-radius: 50% !important;
     background: inherit !important;
     border: 3px solid #bbb;
@@ -3180,7 +3180,7 @@ i.fas.fa-chevron-down {
 .owl-theme .owl-nav [class*='owl-']:hover {
     border: 3px solid #1010ca;
     color: #1010ca !important
-}
+} */
 
 @media(max-width: 575.5px) {
     .container {
