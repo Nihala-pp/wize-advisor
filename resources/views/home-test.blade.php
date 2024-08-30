@@ -2815,8 +2815,12 @@ i.fas.fa-chevron-down {
         padding: 0px 20px 10px 100px;
     }
 
-    .elementor-column.elementor-col-33,
+    /* .elementor-column.elementor-col-33,
     .elementor-column[data-col="33"] {
+        width: 100%;
+    } */
+
+    .elementor-8 .elementor-element.elementor-element-1f9371f {
         width: 100%;
     }
 
