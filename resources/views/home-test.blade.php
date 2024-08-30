@@ -511,7 +511,8 @@
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-babd5b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="babd5b5" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}" style="padding-top:35px;padding-bottom:30px;">
+            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}"
+            style="padding-top:35px;padding-bottom:30px;">
             <div class="elementor-background-overlay"></div>
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7f65a33 animated-slow animated fadeIn"
@@ -633,7 +634,7 @@
                         </section>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-c9042b0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="c9042b0" data-element_type="section">
+                            data-id="c9042b0" data-element_type="section" style="border-color: #A7A1A1;border-top-width: 0.1px;border-outset: solid;">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6176af3"
                                     data-id="6176af3" data-element_type="column">
@@ -3088,9 +3089,9 @@ i.fas.fa-chevron-down {
     font-family: "Helvetica", Sans-serif;
     font-weight: 600;
     font-size: 40px;
-    margin-top:20px;
-    margin-bottom:10px;
-    margin-left:375px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 375px;
 }
 
 /* .owl-theme .owl-nav [class*='owl-'] {
