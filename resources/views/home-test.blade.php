@@ -3090,12 +3090,12 @@ i.fas.fa-chevron-down {
 
 /* .container {
     /* background-color: rgb(232, 242, 245); */
-    padding: 50px 40px 20px;
-    margin-top: 20px;
+    /* padding: 50px 40px 20px;
+    margin-top: 20px; */
     /* margin-bottom: 20px; */
-    overflow: hidden;
-    box-shadow: 5px 5px 25px #a7a7a7
-} */
+    /* overflow: hidden;
+    box-shadow: 5px 5px 25px #a7a7a7 */
+/* } */ 
 
 .tag {
     text-align: center;
