@@ -2640,7 +2640,6 @@
     }(jQuery));
     </script>
 </body>
-
 </html>
 <style>
 .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
@@ -3657,12 +3656,12 @@ i.fas.fa-chevron-down {
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif
-}
+} */
 
 /* body {
     background-color: #0ff
