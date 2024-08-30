@@ -511,7 +511,7 @@
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-babd5b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="babd5b5" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}" style="padding-top:35px;padding-bottom:30spx;">
+            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}" style="padding-top:35px;padding-bottom:30px;">
             <div class="elementor-background-overlay"></div>
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-7f65a33 animated-slow animated fadeIn"
