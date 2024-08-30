@@ -2901,7 +2901,7 @@ i.fas.fa-chevron-down {
     .elementor-8 .elementor-element.elementor-element-6e5206e .elementor-heading-title {
         margin-top: 20px;
         margin-bottom: 0px;
-        margin-left: 30px;
+        margin-left: 30px !important;
     }
 }
 
