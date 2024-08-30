@@ -71,6 +71,8 @@ class HomeController extends Controller
     $users = User::where('role_id', 3)->get()->count();
     $calls = ScheduledCall::where('is_paid', 1)->get()->count();
     $reviews = Review::where('is_approved', 0)->get();
+    $completed_sessions = ScheduledCall::where('status', 'Approved')->where('is_paid', 1)->get()->count() * 30;
+
   
     if (Auth::id() && auth()->user()->role_id == 3) {
       if (Auth::user()->metaData) {
@@ -79,7 +81,7 @@ class HomeController extends Controller
         return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
       }
     } else {
-      return view('home', compact('mentors', 'users', 'calls', 'reviews'));
+      return view('home', compact('mentors', 'users', 'calls', 'reviews', 'completed_sessions'));
     }
   }
 

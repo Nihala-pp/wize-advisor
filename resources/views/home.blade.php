@@ -717,7 +717,7 @@
                                                         <span class="elementor-counter-number-prefix"></span>
                                                         <span class="elementor-counter-number" data-duration="2000"
                                                             data-to-value="54" data-from-value="0"
-                                                            data-delimiter=",">54</span>
+                                                            data-delimiter=",">{{ $completed_sessions }}</span>
                                                         <span class="elementor-counter-number-suffix">+</span>
                                                     </div>
                                                 </div>
