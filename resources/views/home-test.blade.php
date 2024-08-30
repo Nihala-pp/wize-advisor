@@ -634,7 +634,8 @@
                         </section>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-c9042b0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="c9042b0" data-element_type="section" style="border-color: #2C2828;border-top-width: 1px;margin-top: 20px;">
+                            data-id="c9042b0" data-element_type="section"
+                            style="border-color: #2C2828;border-top-width: 1px;margin-top: 20px;">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-6176af3"
                                     data-id="6176af3" data-element_type="column">
@@ -2500,13 +2501,14 @@ i.fas.fa-chevron-down {
     border-width: 1px !important;
 }
 
-.elementor-8 .elementor-element.elementor-element-d4a4fce  {
+.elementor-8 .elementor-element.elementor-element-d4a4fce {
     border: solid !important;
     border-color: #2C2828 !important;
     border-width: 1px !important;
 }
 
-.elementor-8 .elementor-element.elementor-element-00af63c:not(.elementor-motion-effects-element-type-background), .elementor-8 .elementor-element.elementor-element-00af63b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+.elementor-8 .elementor-element.elementor-element-00af63c:not(.elementor-motion-effects-element-type-background),
+.elementor-8 .elementor-element.elementor-element-00af63b>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     padding-top: 10px;
     padding-bottom: 20px;
 }
@@ -2811,6 +2813,19 @@ i.fas.fa-chevron-down {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
+    }
+
+    .elementor-column.elementor-col-33,
+    .elementor-column[data-col="33"] {
+        width: 100%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-3bbe10f {
+        width: 100%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-7d67c54 {
+        width: 100%;
     }
 }
 
