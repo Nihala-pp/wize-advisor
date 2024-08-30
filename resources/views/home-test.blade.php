@@ -1718,7 +1718,7 @@
                                     <div class="testimonial"> {{ Str::words($review->review, '25') }}
                                     </div>
                                     <div class="d-flex flex-row profile pt-4 mt-auto"> <img
-                                            src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }} ?: {{ asset('public/assets/img/blank-profile-picture.webp') }}"
+                                            src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}" ?: {{ asset('public/assets/img/blank-profile-picture.webp') }}
                                             alt="" class="rounded-circle">
                                         <div class="d-flex flex-column pl-2">
                                             <div class="name">{{ $review->user->name ?: '' }}</div>
