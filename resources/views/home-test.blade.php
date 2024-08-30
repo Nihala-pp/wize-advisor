@@ -2895,6 +2895,7 @@ i.fas.fa-chevron-down {
 
     .elementor-8 .elementor-element.elementor-element-c70251b {
         padding-left: 10px;
+        text-align: left;
     }
 }
 
