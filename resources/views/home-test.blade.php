@@ -1709,7 +1709,7 @@
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e5206e"
                     data-id="6e5206e" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
-                        <div class="owl-carousel owl-theme">
+                        <div class="owl-carousel owl-theme owl-test">
                             <div class="owl-item testimonial-car">
                                 <div class="card d-flex flex-column">
                                     <!-- <div class="mt-2"> <span class="fas fa-star active-star"></span> <span
@@ -3153,12 +3153,13 @@ i.fas.fa-chevron-down {
     padding-left: 15px;
 }
 
-/* .owl-carousel {
+.owl-test {
     margin-bottom: 15px
-} */
+} 
 
 .uc-items-wrapper .testimonial-car {
     padding: 40px 10px;
+    /* height: 380px */
 }
 
 .owl-carousel .owl-item img {
