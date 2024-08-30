@@ -2514,11 +2514,7 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-c70251b .wpr-button {
-    -webkit-transition-duration: 0.4s;
-    transition-duration: 0.4s;
-    -webkit-animation-duration: 0.4s;
-    animation-duration: 0.4s;
-    background-color: transparent;
+    background-color: #001E64;
     border-color: #E8E8E8;
     border-style: none;
     border-radius: 4px 4px 4px 4px;
