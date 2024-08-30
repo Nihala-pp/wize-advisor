@@ -2377,6 +2377,7 @@ i.fas.fa-chevron-down {
     font-size: 15px;
     font-weight: 300;
     font-style: normal;
+    margin-top: -20px;
 }
 
 .elementor-8 .elementor-element.elementor-element-ce55ef8 .elementor-image-box-description {
