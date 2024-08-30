@@ -3083,6 +3083,13 @@ i.fas.fa-chevron-down {
     object-fit: cover
 }
 
+.elementor-8 .elementor-element.elementor-element-6e5206e .elementor-heading-title {
+    color: #330252;
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+
 /* .owl-theme .owl-nav [class*='owl-'] {
     border-radius: 50% !important;
     background: inherit !important;
