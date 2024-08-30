@@ -2876,6 +2876,14 @@ i.fas.fa-chevron-down {
     .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-number-wrapper {
         margin-right: 0px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-65dddf0 .elementor-image-box-description {
+        padding-top: 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-65dddf0 .elementor-image-box-description {
+        padding-left: 10px;
+    }
 }
 
 @media (max-width: 320px) {
