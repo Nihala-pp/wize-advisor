@@ -2867,6 +2867,15 @@ i.fas.fa-chevron-down {
     .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
         font-size: 11.5px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-number-wrapper {
+        color: #FFF;
+        margin-right: 40px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-number-wrapper {
+        margin-right: 0px;
+    }
 }
 
 @media (max-width: 320px) {
