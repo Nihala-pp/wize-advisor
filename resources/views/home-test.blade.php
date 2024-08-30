@@ -2513,6 +2513,12 @@ i.fas.fa-chevron-down {
     padding-bottom: 20px;
 }
 
+.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button-text,
+.elementor-8 .elementor-element.elementor-element-c70251b .wpr-button::after {
+    font-family: "Helvetica", Sans-serif;
+    color: #fff !important;
+    padding-left: 9px;
+}
 
 @media (max-width: 767px) {
 
@@ -2897,16 +2903,23 @@ i.fas.fa-chevron-down {
         margin-left: 30px !important;
     }
 
-    .elementor-8  .elementor-element.elementor-element-742d26e {
-        width:100%;
+    .elementor-8 .elementor-element.elementor-element-742d26e {
+        width: 100%;
     }
 
     .elementor-8 .elementor-element.elementor-element-6c45e41 {
-        width:100%;
+        width: 100%;
     }
 
-    .elementor-8  .elementor-element.elementor-element-15eee10 {
-        width:100%; 
+    .elementor-8 .elementor-element.elementor-element-15eee10 {
+        width: 100%;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-c70251b .wpr-button-text,
+    .elementor-8 .elementor-element.elementor-element-c70251b .wpr-button::after {
+        font-family: "Helvetica", Sans-serif;
+        color: #fff !important;
+        padding-left: 9px;
     }
 }
 
