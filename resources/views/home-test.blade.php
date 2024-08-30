@@ -2861,7 +2861,7 @@ i.fas.fa-chevron-down {
 
     .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
         font-size: 11.5px;
-        /* padding-right: 0px !important; */
+        margin-right: 0px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
