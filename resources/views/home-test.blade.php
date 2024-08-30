@@ -3109,7 +3109,7 @@ i.fas.fa-chevron-down {
 
 .card {
     height: 320px;
-    padding: 10px 20px;
+    padding: 10px 0px;
     border: none;
     box-shadow: -1px 3px 5px #a7a7a7
 }
