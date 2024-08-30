@@ -3088,6 +3088,7 @@ i.fas.fa-chevron-down {
     font-family: "Helvetica", Sans-serif;
     font-weight: 600;
     font-size: 40px;
+    margin-top:20px;
 }
 
 /* .owl-theme .owl-nav [class*='owl-'] {
