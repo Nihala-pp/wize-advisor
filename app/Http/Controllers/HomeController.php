@@ -79,7 +79,7 @@ class HomeController extends Controller
         return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
       }
     } else {
-      return view('home-test', compact('mentors', 'users', 'calls', 'reviews'));
+      return view('home', compact('mentors', 'users', 'calls', 'reviews'));
     }
   }
 
