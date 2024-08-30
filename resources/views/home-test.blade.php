@@ -1708,9 +1708,11 @@
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e5206e"
                     data-id="6e5206e" data-element_type="column">
+                    <h2 class="elementor-heading-title elementor-size-default">What Mentees Say
+                    </h2>
                     <div class="elementor-widget-wrap elementor-element-populated e-swiper-container">
                         <div class="owl-carousel owl-theme owl-test">
-                          @foreach ($reviews as $review)
+                            @foreach ($reviews as $review)
                             <div class="owl-item testimonial-car">
                                 <div class="card d-flex flex-column">
                                     <div class="testimonial"> {{ $review->review}}
@@ -1720,12 +1722,13 @@
                                             alt="" class="rounded-circle">
                                         <div class="d-flex flex-column pl-2">
                                             <div class="name">{{ $review->user->name ?: '' }}</div>
-                                            <p class="text-muted designation">{{ $review->user->metaData->designation ?: '' }}</p>
+                                            <p class="text-muted designation">
+                                                {{ $review->user->metaData->designation ?: '' }}</p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                          @endforeach
+                            @endforeach
                         </div>
                     </div>
                 </div>
@@ -1938,7 +1941,8 @@
                 margin: 40,
                 dots: false,
                 loop: true,
-                navText: ["<i class='fa fa-arrow-left' aria-hidden='true' style='background-color: #fff;color:#fff;'></i>",
+                navText: [
+                    "<i class='fa fa-arrow-left' aria-hidden='true' style='background-color: #fff;color:#fff;'></i>",
                     "<i class='fa fa-arrow-right' aria-hidden='true' style='background-color: #fff;color:#fff;'></i>"
                 ],
                 responsive: {
@@ -2994,12 +2998,12 @@ i.fas.fa-chevron-down {
 
 /* .container {
     /* background-color: rgb(232, 242, 245); */
-    /* padding: 50px 40px 20px;
+/* padding: 50px 40px 20px;
     margin-top: 20px; */
-    /* margin-bottom: 20px; */
-    /* overflow: hidden;
+/* margin-bottom: 20px; */
+/* overflow: hidden;
     box-shadow: 5px 5px 25px #a7a7a7 */
-/* } */ 
+/* } */
 
 .tag {
     text-align: center;
@@ -3055,9 +3059,9 @@ i.fas.fa-chevron-down {
 }
 
 .owl-test {
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 15px
-} 
+}
 
 .uc-items-wrapper .testimonial-car {
     padding: 40px 10px;
