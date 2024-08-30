@@ -2352,6 +2352,7 @@ i.fas.fa-chevron-down {
     font-size: 15px;
     font-weight: 300;
     font-style: normal;
+    padding-top: 25PX;
 }
 
 .elementor-widget-image-box .elementor-image-box-content {
