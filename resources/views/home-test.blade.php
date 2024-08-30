@@ -1456,17 +1456,9 @@
                             data-widget_type="ucaddon_uc_card_post_carousel.default">
                             <div class="elementor-widget-container">
                                 <!-- start Post Carousel Lite -->
-                                <link id='font-awesome-css'
-                                    href='https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome6/fontawesome-all.min.css'
-                                    type='text/css' rel='stylesheet'>
-                                <link id='font-awesome-4-shim-css'
-                                    href='https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/font-awesome6/fontawesome-v4-shims.min.css'
-                                    type='text/css' rel='stylesheet'>
-                                <link id='owl-carousel-css'
-                                    href='https://web.wiseadvizor.com/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.css'
-                                    type='text/css' rel='stylesheet'>
-
-
+                                <link id="owl-carousel-css"
+                                    href="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.min.css') }}"
+                                    type="text/css" rel="stylesheet">
                                 <style type="text/css">
                                 /* widget: Post Carousel Lite */
 
@@ -1534,13 +1526,11 @@
                                     display: inline-block;
                                 }
                                 </style>
-
                                 <div class="uc_overlay_image_carousel" id="uc_uc_card_post_carousel_elementor_df03b3c"
                                     data-custom-sethtml="true">
                                     <div class="uc_carousel owl-carousel owl-theme uc-items-wrapper">
                                     </div>
                                 </div>
-
                                 <!-- --->
                                 <!-- --->
                                 <!-- --->
