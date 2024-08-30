@@ -2827,6 +2827,10 @@ i.fas.fa-chevron-down {
     .elementor-8 .elementor-element.elementor-element-7d67c54 {
         width: 100%;
     }
+
+    .elementor-element .elementor-element-6176af3 {
+        width: 30%;
+    }
 }
 
 @media (max-width: 320px) {
