@@ -2845,26 +2845,19 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-title {
-        color: #8190FF;
-        font-family: "Helvetica", Sans-serif;
-        font-size: 13px;
-        font-weight: 400;
-        line-height: 1.5em;
-        /* margin-left: 20px; */
-        margin-right: 25px !important;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-title {
+        color: #8190FF !important;
         font-size: 11.5px;
         margin-right: 25px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
+        color: #8190FF !important;
         font-size: 11.5px;
         margin-right: 0px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
+        color: #8190FF !important;
         font-size: 11.5px;
     }
 
