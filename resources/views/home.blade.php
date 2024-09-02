@@ -1727,7 +1727,7 @@
                                         <img src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
                                             alt="" class="rounded-circle">
                                         @else
-                                        <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}" alt="startup Success"
+                                        <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}" alt="Startup Success"
                                             class="rounded-circle">
                                         @endif
                                         <div class="d-flex flex-column pl-2">
