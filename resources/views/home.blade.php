@@ -889,7 +889,7 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <div class="qodef-e swiper-slide">
+                                        <!-- <div class="qodef-e swiper-slide">
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
@@ -904,7 +904,7 @@
                                                         Networking </h5>
                                                 </a>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="qodef-e swiper-slide">
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
