@@ -218,7 +218,7 @@ class HomeController extends Controller
 
     $price = User::where('role_id', 2)->whereNull('status')->get();
     $slot = AvailableSchedule::where('date', '>=', now())->get();
-    $expertise = ExpertiseList::get();
+    $expertise = ExpertiseList::where('is_active', 0)->get();
 
      if (Auth::id() && auth()->user()->role_id == 3) {    
          $notifications = auth()->user()->unreadNotifications;
