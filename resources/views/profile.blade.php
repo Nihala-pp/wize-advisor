@@ -129,9 +129,9 @@
 
                                     }
                                     </style>
-                                    <h1 class="elementor-heading-title elementor-size-default elementor-hidden-desktop elementor-hidden-tablet">Hi! I
+                                    <h2 class="elementor-heading-title elementor-size-default elementor-hidden-desktop elementor-hidden-tablet">Hi! I
                                         {{ strtolower('am') }} {{ $data->name }}
-                                    </h1>
+                                    </h2>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt="ideas of business"
