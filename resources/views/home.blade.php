@@ -1725,7 +1725,7 @@
                                     <div class="d-flex flex-row profile pt-4 mt-auto">
                                         @if($review->user->metaData->profile_pic)
                                         <img src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
-                                            alt="" class="rounded-circle">
+                                            alt="startup mentor" class="rounded-circle">
                                         @else
                                         <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}" alt="Startup Success"
                                             class="rounded-circle">
