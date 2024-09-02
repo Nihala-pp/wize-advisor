@@ -538,7 +538,7 @@
                                                         <span class="elementor-icon elementor-animation-">
                                                             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Browse.png"
                                                                 height="30px;" width="30px;"
-                                                                style="border-radius:70px;"></img>
+                                                                style="border-radius:70px;" alt="mentorship"></img>
                                                             <!-- <i aria-hidden="true" class="fas fa-star"></i>  -->
                                                         </span>
                                                     </div>
@@ -574,7 +574,7 @@
                                                         <span class="elementor-icon elementor-animation-">
                                                             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Schedule.png"
                                                                 height="30px;" width="30px;"
-                                                                style="border-radius:70px;"></img> </span>
+                                                                style="border-radius:70px;" alt="startup mentorship platform"></img> </span>
                                                     </div>
 
                                                     <div class="elementor-icon-box-content">
@@ -608,7 +608,7 @@
                                                         <span class="elementor-icon elementor-animation-">
                                                             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Meet-the-mentor.png"
                                                                 height="30px;" width="30px;"
-                                                                style="border-radius:70px;"></img> </span>
+                                                                style="border-radius:70px;" alt="growth mentor"></img> </span>
                                                         </span>
                                                     </div>
 
