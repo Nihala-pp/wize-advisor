@@ -1956,9 +1956,6 @@
 
                     $('#offer_modal').modal('hide');
 
-                    $('body').removeClass('modal-open');
-                    $('.modal-backdrop').remove();
-
                 });
             }
 
@@ -2044,6 +2041,10 @@
 
 </html>
 <style>
+.modal-backdrop {
+    display: none !important;
+}
+
 .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
 .elementor-3007 .elementor-element.elementor-element-cf19fcc>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: transparent !important;
