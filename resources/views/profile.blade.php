@@ -142,9 +142,9 @@
                             <div class="elementor-element elementor-element-c8cd16f elementor-hidden-mobile elementor-widget elementor-widget-heading"
                                 data-id="c8cd16f" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h2 class="elementor-heading-title elementor-size-default ">Hi! I
+                                    <h1 class="elementor-heading-title elementor-size-default ">Hi! I
                                         {{ strtolower('am') }} {{ $data->name }}
-                                    </h2>
+                                    </h1>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-b0cfee1 elementor-widget elementor-widget-heading"
