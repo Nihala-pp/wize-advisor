@@ -31,10 +31,6 @@ var theplus_ajax_post_url = "https://wiseadvizor.com/wp-admin/admin-post.php";
 var theplus_nonce = "768edfe145";
 </script>
 <meta name='robots' content='max-image-preview:large' />
-<!-- <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
-    href="https://wiseadvizor.com/feed/" />
-<link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-    href="https://wiseadvizor.com/comments/feed/" /> -->
 <script>
 window._wpemojiSettings = {
     "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
