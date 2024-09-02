@@ -42,10 +42,10 @@
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
+    <!-- <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/">
+        href="https://wiseadvizor.com/comments/feed/"> -->
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">

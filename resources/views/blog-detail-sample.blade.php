@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <title>Blog-detail &#8211; WISE ADVIZOR</title>
     <meta name='robots' content='max-image-preview:large' />
-    <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
+    <!-- <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed"
         href="https://wiseadvizor.com/feed/" />
     <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/" />
+        href="https://wiseadvizor.com/comments/feed/" /> -->
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",

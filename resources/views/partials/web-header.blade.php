@@ -9,10 +9,10 @@
     </script>
     <meta name="robots" content="max-image-preview:large">
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
-    <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
+    <!-- <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Feed"
         href="https://wiseadvizor.com/feed/">
     <link rel="alternate" type="application/rss+xml" title="wiseAdvizor &raquo; Comments Feed"
-        href="https://wiseadvizor.com/comments/feed/">
+        href="https://wiseadvizor.com/comments/feed/"> -->
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome Icons -->
