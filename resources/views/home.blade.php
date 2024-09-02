@@ -1391,7 +1391,7 @@
                                     <video class="elementor-video"
                                         src="https://web.wiseadvizor.com/wp-content/uploads/2024/08/How-can-I-acquire-customers-while-developing.mp4"
                                         autoplay="" loop="" muted="muted" playsinline=""
-                                        controlslist="nodownload"></video>
+                                        controlslist="nodownload" alt="How-can-I-acquire-customers-while-developing"></video>
                                 </div>
                             </div>
                         </div>
