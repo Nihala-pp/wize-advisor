@@ -1808,6 +1808,7 @@
     @include('partials.footer-web')
 
     @include('partials.web-script')
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
     <style>
     .elementor-8 .elementor-element.elementor-element-44e602b .elementor-heading-title {
         color: #330252;
@@ -1946,7 +1947,6 @@
         });
     });
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
     <script type="text/javascript">
     (function($) {
         "use strict";
