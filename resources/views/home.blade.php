@@ -35,16 +35,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
-    <noscript>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" async>
-    </noscript>
+    @include('partials.web-style')
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    @include('partials.web-style')
 </head>
 
 <body
@@ -537,8 +534,8 @@
                                                     <div class="elementor-icon-box-icon">
                                                         <span class="elementor-icon elementor-animation-">
                                                             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Browse.png"
-                                                                height="30px;" width="30px;"
-                                                                style="border-radius:70px;" alt="mentorship"></img>
+                                                                height="30px;" width="30px;" style="border-radius:70px;"
+                                                                alt="mentorship"></img>
                                                             <!-- <i aria-hidden="true" class="fas fa-star"></i>  -->
                                                         </span>
                                                     </div>
@@ -573,8 +570,8 @@
                                                     <div class="elementor-icon-box-icon">
                                                         <span class="elementor-icon elementor-animation-">
                                                             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Schedule.png"
-                                                                height="30px;" width="30px;"
-                                                                style="border-radius:70px;" alt="startup mentorship platform"></img> </span>
+                                                                height="30px;" width="30px;" style="border-radius:70px;"
+                                                                alt="startup mentorship platform"></img> </span>
                                                     </div>
 
                                                     <div class="elementor-icon-box-content">
@@ -607,8 +604,8 @@
                                                     <div class="elementor-icon-box-icon">
                                                         <span class="elementor-icon elementor-animation-">
                                                             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Meet-the-mentor.png"
-                                                                height="30px;" width="30px;"
-                                                                style="border-radius:70px;" alt="growth mentor"></img> </span>
+                                                                height="30px;" width="30px;" style="border-radius:70px;"
+                                                                alt="growth mentor"></img> </span>
                                                         </span>
                                                     </div>
 
@@ -1390,8 +1387,8 @@
                                 <div class="e-hosted-video elementor-wrapper elementor-open-inline">
                                     <video class="elementor-video"
                                         src="https://web.wiseadvizor.com/wp-content/uploads/2024/08/How-can-I-acquire-customers-while-developing.mp4"
-                                        autoplay="" loop="" muted="muted" playsinline=""
-                                        controlslist="nodownload" alt="How-can-I-acquire-customers-while-developing"></video>
+                                        autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"
+                                        alt="How-can-I-acquire-customers-while-developing"></video>
                                 </div>
                             </div>
                         </div>
@@ -1727,8 +1724,8 @@
                                         <img src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
                                             alt="startup mentor" class="rounded-circle">
                                         @else
-                                        <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}" alt="Startup Success"
-                                            class="rounded-circle">
+                                        <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
+                                            alt="Startup Success" class="rounded-circle">
                                         @endif
                                         <div class="d-flex flex-column pl-2">
                                             <div class="name">{{ $review->user->name ?: '' }}</div>
@@ -1884,7 +1881,7 @@
         margin-right: 20px;
     }
     </style>
-      <script type="text/javascript">
+    <script type="text/javascript">
     jQuery(document).ready(function() {
 
         function ucBackgroundOverlayPutStart() {
