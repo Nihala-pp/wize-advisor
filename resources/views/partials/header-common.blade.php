@@ -153,16 +153,6 @@
                                                     <a class="dropdown-item" href="#">There are no new
                                                         notifications</a>
                                                 </li>
-                                                <!-- <div class="alert alert-info notification">
-                                                        <span><b> There are no new notifications </b>
-                                                        </span>sd
-                                                    </div> -->
-                                                <!-- <li>
-                                                        <a class="dropdown-item" href="#">Another news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li> -->
                                                 @endforelse
                                             </ul>
                                         </div>
@@ -438,16 +428,6 @@
                                                                 <a class="dropdown-item" href="#">There are no new
                                                                     notifications</a>
                                                             </li>
-                                                            <!-- <div class="alert alert-info notification">
-                                                        <span><b> There are no new notifications </b>
-                                                        </span>sd
-                                                    </div> -->
-                                                            <!-- <li>
-                                                        <a class="dropdown-item" href="#">Another news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li> -->
                                                             @endforelse
                                                         </ul>
                                                     </div>
@@ -662,16 +642,6 @@
                                                     <a class="dropdown-item" href="#">There are no new
                                                         notifications</a>
                                                 </li>
-                                                <!-- <div class="alert alert-info notification">
-                                                        <span><b> There are no new notifications </b>
-                                                        </span>sd
-                                                    </div> -->
-                                                <!-- <li>
-                                                        <a class="dropdown-item" href="#">Another news</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class="dropdown-item" href="#">Something else here</a>
-                                                    </li> -->
                                                 @endforelse
                                             </ul>
                                         </div>
