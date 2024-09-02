@@ -1945,7 +1945,7 @@
 
         });
     });
-    </script>sa
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
     <script type="text/javascript">
     (function($) {
