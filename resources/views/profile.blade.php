@@ -154,7 +154,7 @@
                                         {{ $data->metaData->designation }}, {{ $data->metaData->company }}</h6>
                                 </div>
                             </div>
-                            <div class="elementoqr-element elementor-element-24ce783 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-rating"
+                            <div class="elementor-element elementor-element-24ce783 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-rating"
                                 data-id="24ce783" data-element_type="widget" data-widget_type="rating.default">
                                 <div class="elementor-widget-container">
                                     <style>
