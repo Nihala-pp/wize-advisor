@@ -14,7 +14,7 @@
         content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
     <meta property="og:image"
         content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
-    <meta property="og:url" content="https://wiseadvizor.com">
+    <meta property="og:url" content="https://wiseadvizor.com/faq">
     <meta property="og:site_name" content="wiseAdvizor" />
     <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
     <meta name="twitter:description"
