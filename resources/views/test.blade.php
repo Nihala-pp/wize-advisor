@@ -1753,6 +1753,7 @@
                         </div>
                     </div>
                 </div>
+        </section>
 
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-d60240a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
@@ -1850,6 +1851,7 @@
                 </div>
             </div>
         </section>
+
 
         <div class="modal" role="dialog" id="offer_modal" style="display:none">
             <div class="modal-dialog" role="document">
