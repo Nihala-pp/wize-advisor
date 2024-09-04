@@ -2019,7 +2019,7 @@
 
 </html>
 <style>
-/* .vedio-container { */
+.vedio-container { 
 /* position: relative;
     overflow: hidden; */
 
@@ -2028,19 +2028,18 @@
 /* 
 
     /* height: 300px;
-    width: 300px;
-} 
- */
-.vedio-container video {
-    object-fit: cover;
+    /* width: 300px; */
+}
+
+/* .vedio-container video { */
     /* min-width: 100%;
     min-height: 100%; */
-    position: absolute;
+    /* position: absolute;
     top: 50%;
     left: 50%;
     height: auto;
-    transform: translateX(-50%) translateY(-50%);
-}
+    transform: translateX(-50%) translateY(-50%); */
+/* } */
 
 /* Just styling the content of the div, the *magic* in the previous rules */
 /* .vedio-container .caption {
