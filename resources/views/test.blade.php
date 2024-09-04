@@ -55,7 +55,114 @@
             data-id="9a6781f" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
             <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-a037b03"
+                <div class="elementor-column elementor-col-55 elementor-top-column elementor-element elementor-element-a037b03"
+                    data-id="a037b03" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
+                            data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img fetchpriority="high" decoding="async" width="260" height="260"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp"
+                                    class="attachment-full size-full wp-image-8033" alt="Startup mentorship platform"
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp 360w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-300x300.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-150x150.webp 150w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-700x700.webp 700w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-650x650.webp 650w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-1300x1300.webp 1300w"
+                                    sizes="(max-width: 360px) 100vw, 360px"
+                                    style="width:100%;height:100%;max-width:260px" />
+                                <!-- <img srcset="" rel="preload" fetchpriority="high" as="image" width="360" height="360"
+                                    src="{{ asset('public/wp-content/uploads/2023/06/ain-14-unscreen.webp') }}"
+                                    class="attachment-full size-full wp-image-2588" alt="define mentorship"
+                                    type="image/webp"> -->
+                            </div>
+                        </div>
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-db6ff7f elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            data-id="db6ff7f" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-c158ab6"
+                                    data-id="c158ab6" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-daa9944 animated-fast elementor-invisible elementor-widget elementor-widget-heading"
+                                            data-id="daa9944" data-element_type="widget"
+                                            data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;2&quot;}"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <style>
+                                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                                .elementor-heading-title {
+                                                    padding: 0;
+                                                    margin: 0;
+                                                    line-height: 1
+                                                }
+
+                                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                                    color: inherit;
+                                                    font-size: inherit;
+                                                    line-height: inherit
+                                                }
+
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                                    font-size: 15px
+                                                }
+
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                                    font-size: 19px
+                                                }
+
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                                    font-size: 29px
+                                                }
+
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                                    font-size: 39px
+                                                }
+
+                                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                                    font-size: 59px
+                                                }
+                                                </style>
+                                                <h1 class="elementor-heading-title elementor-size-default">
+                                                    Fast Track Your Startup Success</h1>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-ca8bffa elementor-widget elementor-widget-heading"
+                                            data-id="ca8bffa" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h2 class="elementor-heading-title elementor-size-default">#with
+                                                    wiseAdvizor</h2>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-9ecb7fe elementor-widget elementor-widget-heading"
+                                            data-id="9ecb7fe" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    Book a 1:1 call with a proven startup mentor and get the guidance
+                                                    you need to achieve explosive growth, overcome critical hurdles, and
+                                                    build a thriving business. </p>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
+                                            data-id="62d1cd5" data-element_type="widget"
+                                            data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                        href="{{ route('register') }}">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Get
+                                                                Started</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="elementor-column elementor-col-45 elementor-top-column elementor-element elementor-element-a037b04"
                     data-id="a037b03" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
