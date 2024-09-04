@@ -54,7 +54,7 @@
             class="elementor-section elementor-top-section elementor-element elementor-element-9a6781f elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="9a6781f" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-            <div class="elementor-container elementor-column-gap-no">
+            <div class="elementor-container elementor-column-gap-no" style="width:1500px;">
                 <div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-a037b03"
                     data-id="a037b03" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
