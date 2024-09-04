@@ -2020,12 +2020,12 @@
 </html>
 <style>
 /* .vedio-container { */
-    /* position: relative;
+/* position: relative;
     overflow: hidden; */
 
-    /* object-fit: cover; */
-    /* position: relative; */
-    /* 
+/* object-fit: cover; */
+/* position: relative; */
+/* 
 
     /* height: 300px;
     width: 300px;
@@ -2037,8 +2037,9 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%); 
-} 
+    height: auto;
+    transform: translateX(-50%) translateY(-50%);
+}
 
 /* Just styling the content of the div, the *magic* in the previous rules */
 /* .vedio-container .caption {
