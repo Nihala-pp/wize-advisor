@@ -105,9 +105,9 @@
                             data-id="9ecb7fe" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <p class="elementor-heading-title elementor-size-default">
-                                    Book a 1:1 call with a proven startup mentor and get the guidance
-                                    you need to achieve explosive growth, overcome critical hurdles, and
-                                    build a thriving business. </p>
+                                    Accelerate your growth by connecting 1:1 with successful founders and industry
+                                    leaders. Learn proven strategies, avoid costly mistakes and scale faster.
+                                </p>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
@@ -2040,7 +2040,7 @@
 
 .elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    margin-top: 0px !important;    
+    margin-top: 0px !important;
     /* padding-top: 20px; */
     /* background: linear-gradient(to right, #434343, #000000) !important; */
     background: #000 !important;
