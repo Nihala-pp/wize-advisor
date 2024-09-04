@@ -126,12 +126,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04"
-                    data-id="a037b04" data-element_type="column">
+                <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
+                    data-id="a037b04" data-element_type="section">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
                             data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container vedio-container">
+                            <div class="elementor-widget-container">
                                 <video autoplay muted loop>
                                     <source src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
                                         type="video/mp4">
