@@ -1659,7 +1659,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('register') }}" style="background-color:#4285f4;">
+                                        href="{{ route('register') }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Get
                                                 Started</span>
@@ -2020,6 +2020,18 @@
 
 </html>
 <style>
+
+.elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
+    font-family: "Sailec", Sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #4285f4;
+    border-radius: 7px 7px 7px 7px;
+}
+
 .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
     color: #fff;
     /* color: var( --e-global-color-1e1892c ); */
