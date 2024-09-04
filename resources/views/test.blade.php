@@ -2032,6 +2032,7 @@
 } 
  */
 .vedio-container video {
+    object-fit: cover;
     /* min-width: 100%;
     min-height: 100%; */
     position: absolute;
