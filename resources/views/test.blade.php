@@ -97,7 +97,7 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">
+                                <h1 class="elementor-heading-title elementor-size-default mobile">
                                     Get guidance from world's top</h1><br />
                                 <h2 class="elementor-heading-title elementor-size-default"> startup mentors </h2>
                             </div>
@@ -2630,6 +2630,10 @@ i.fas.fa-chevron-down {
     body {
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    .mobile {
+        padding-top: 30px;
     }
 
     .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
