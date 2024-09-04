@@ -2023,7 +2023,7 @@
 /* position: relative;
     overflow: hidden; */
 
-/* object-fit: cover; */
+object-fit: cover;
 /* position: relative; */
 /* 
 
