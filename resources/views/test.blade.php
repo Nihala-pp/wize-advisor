@@ -2037,7 +2037,7 @@
     /* color: var( --e-global-color-1e1892c ); */
     font-family: "Helvetica", Sans-serif;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     line-height: 2rem;
 }
@@ -2056,7 +2056,7 @@
     /* color: var( --e-global-color-1e1892c ); */
     font-family: "Helvetica", Sans-serif;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     line-height: 2rem;
 }
