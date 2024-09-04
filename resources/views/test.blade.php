@@ -135,7 +135,7 @@
                                 <video autoplay muted loop>
                                     <source
                                         src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
-                                        type="video/mp4" />
+                                        type="video/mp4">
                                 </video>
                             </div>
                         </div>
