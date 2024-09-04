@@ -2054,9 +2054,9 @@
 .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
     color: #fff;
     /* color: var( --e-global-color-1e1892c ); */
-    font-family: "Sailec", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
     line-height: 2rem;
 }
