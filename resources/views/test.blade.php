@@ -2636,6 +2636,10 @@ i.fas.fa-chevron-down {
         padding-top: 30px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-9ecb7fe {
+        text-align: center;
+    }
+
     .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
         /* margin-top: 30px; */
         color: #fff;
