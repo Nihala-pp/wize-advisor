@@ -2049,7 +2049,7 @@
     margin-top: -90px;
     padding-top: 100px;
     /* background: linear-gradient(to right, #434343, #000000) !important; */
-    background-color: #000;
+    background-color: #000 !important;
     /* background-image: linear-gradient(90deg, #000 0%, #111111 100%) !important; */
 }
 
