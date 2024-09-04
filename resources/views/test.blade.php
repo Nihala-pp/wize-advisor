@@ -2021,7 +2021,7 @@
 <style>
 .vedio-container {
 
-    object-fit: zoom-out;
+    object-fit: cover;
     position: relative;
     /* height: 300px;
     width: 300px;
