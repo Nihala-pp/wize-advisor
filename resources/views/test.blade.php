@@ -59,18 +59,12 @@
                     data-id="a037b03" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
-                            data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
+                            data-id="bcb7070" data-element_type="widget" data-widget_type="widget"
+                            data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;2&quot;}"
+                            data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="260" height="260"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp"
-                                    class="attachment-full size-full wp-image-8033" alt="Startup mentorship platform"
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp 360w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-300x300.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-150x150.webp 150w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-700x700.webp 700w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-650x650.webp 650w, https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2-1300x1300.webp 1300w"
-                                    sizes="(max-width: 360px) 100vw, 360px"
-                                    style="width:100%;height:100%;max-width:260px" />
-                                <!-- <img srcset="" rel="preload" fetchpriority="high" as="image" width="360" height="360"
-                                    src="{{ asset('public/wp-content/uploads/2023/06/ain-14-unscreen.webp') }}"
-                                    class="attachment-full size-full wp-image-2588" alt="define mentorship"
-                                    type="image/webp"> -->
+                                <h1 class="elementor-heading-title elementor-size-default">
+                                    Get guidance from world's top startup mentors</h1>
                             </div>
                         </div>
                         <section
