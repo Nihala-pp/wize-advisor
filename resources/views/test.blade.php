@@ -2044,9 +2044,9 @@
 
 .elementor-8 .elementor-element.elementor-element-9ecb7fe .elementor-heading-title {
     color: #fff;
-    font-family: "Helvetica", Sans-serif;
+    font-family: "Sailec", Sans-serif;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 600;
     line-height: 1.4rem;
     letter-spacing: 1px;
 }
@@ -2658,7 +2658,7 @@ i.fas.fa-chevron-down {
         /* color: var( --e-global-color-1e1892c ); */
         font-family: "Sailec", Sans-serif;
         font-size: 1.5rem;
-        font-weight: 600;
+        font-weight: 700;
         font-style: normal;
         line-height: 0.5rem;
     }
