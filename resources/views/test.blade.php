@@ -2036,13 +2036,13 @@
 }
 
 /* Just styling the content of the div, the *magic* in the previous rules */
-.vedio-container .caption {
+/* .vedio-container .caption {
     z-index: 1;
     position: relative;
     text-align: center;
     color: #dc0000;
     padding: 10px;
-}
+} */
 
 .elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
