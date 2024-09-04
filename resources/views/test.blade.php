@@ -2020,6 +2020,7 @@
 </html>
 <style>
 .vedio-container {
+    position: relative;
 
     /* object-fit: cover; */
     /* position: relative; */
@@ -2027,14 +2028,13 @@
 
     /* height: 300px;
     width: 300px;
-    position: relative; */
 } 
 
 .vedio-container video {
     /* min-width: 100%;
     min-height: 100%; */
-    /* position: absolute; */
-    /* top: 50%;
+    position: absolute;
+    top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%); */
 } 
