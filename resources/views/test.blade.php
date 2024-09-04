@@ -2055,12 +2055,12 @@
     /* background-image: linear-gradient(90deg, #000 0%, #111111 100%) !important; */
 }
 
-.elementor-column .elementor-col-60 .elementor-top-column .elementor-element .elementor-element-a037b03 {
-    width: 50%;
+.elementor-column .elementor-col-50 .elementor-top-column .elementor-element .elementor-element-a037b03 {
+    width: 50% !important;
 }
 
-.elementor-column .elementor-col-40 .elementor-top-column .elementor-element .elementor-element-a037b04 {
-    width: 50%;
+.elementor-column .elementor-col-50 .elementor-top-column .elementor-element .elementor-element-a037b04 {
+    width: 50% !important;
 }
 
 .modal-backdrop {
