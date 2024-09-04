@@ -2026,14 +2026,14 @@
     position: relative;
 } */
 
-.vedio-container video {
+/* .vedio-container video {
     min-width: 100%;
     min-height: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
-}
+} */
 
 /* Just styling the content of the div, the *magic* in the previous rules */
 /* .vedio-container .caption {
