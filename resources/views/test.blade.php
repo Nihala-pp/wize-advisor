@@ -2019,12 +2019,14 @@
 
 </html>
 <style>
-/* .vedio-container {
-    height: 300px;
+.vedio-container {
+
+    object-fit: cover;
+    /* height: 300px;
     width: 300px;
     overflow: hidden;
-    position: relative;
-} */
+    position: relative; */
+} 
 
 /* .vedio-container video {
     min-width: 100%;
