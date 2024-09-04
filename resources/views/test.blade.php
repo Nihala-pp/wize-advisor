@@ -2038,45 +2038,6 @@
     line-height: 4rem;
 }
 
-.vedio-container {
-    /* position: relative;
-    overflow: hidden; */
-
-    object-fit: cover;
-    /* position: relative; */
-    /* 
-
-    /* height: 300px;
-    /* width: 300px; */
-}
-
-/* .vedio-container video { */
-/* min-width: 100%;
-    min-height: 100%; */
-/* position: absolute;
-    top: 50%;
-    left: 50%;
-    height: auto;
-    transform: translateX(-50%) translateY(-50%); */
-/* } */
-
-/* Just styling the content of the div, the *magic* in the previous rules */
-/* .vedio-container .caption {
-    z-index: 1;
-    position: relative;
-    text-align: center;
-    color: #dc0000;
-    padding: 10px;
-} */
-
-/* .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item, .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item {
-    color: #fff !important;
-}
-
-.elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item:hover, .elementor-3007 .elementor-element.elementor-element-359f243 .sub-menu a.hfe-sub-menu-item:hover, .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item, .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item.highlighted, .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item:focus {
-    color: #fff !important;
-} */
-
 .elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     margin-top: 0px !important;    
