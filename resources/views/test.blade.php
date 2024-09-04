@@ -2022,7 +2022,7 @@
 .vedio-container {
 
     /* object-fit: cover; */
-    position: relative;
+    /* position: relative; */
     /* overflow: hidden; */
 
     /* height: 300px;
@@ -2033,7 +2033,7 @@
 .vedio-container video {
     /* min-width: 100%;
     min-height: 100%; */
-    position: absolute;
+    /* position: absolute; */
     /* top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%); */
