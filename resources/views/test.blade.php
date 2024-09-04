@@ -2643,6 +2643,15 @@ i.fas.fa-chevron-down {
         line-height: 0.5rem;
     }
 
+    .elementor-8 .elementor-element.elementor-element-9ecb7fe .elementor-heading-title {
+        color: #fff;
+        font-family: "Sailec", Sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1.5rem;
+        /* letter-spacing: 1px; */
+    }
+
     /* header new */
 
     .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
