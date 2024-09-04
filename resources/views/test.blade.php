@@ -131,10 +131,9 @@
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
                             data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
-                            <div class="elementor-widget-container">
+                            <div class="elementor-widget-container vedio-container">
                                 <video autoplay muted loop>
-                                    <source
-                                        src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
+                                    <source src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
                                         type="video/mp4">
                                 </video>
                             </div>
@@ -2020,6 +2019,31 @@
 
 </html>
 <style>
+.vedio-container {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+.vedio-container video {
+    min-width: 100%;
+    min-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+/* Just styling the content of the div, the *magic* in the previous rules */
+.vedio-container .caption {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: #dc0000;
+    padding: 10px;
+}
+
 .elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     margin-top: -90px;
