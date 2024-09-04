@@ -58,13 +58,70 @@
                 <div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-a037b03"
                     data-id="a037b03" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
-                            data-id="bcb7070" data-element_type="widget" data-widget_type="widget"
+                        <div class="elementor-element elementor-element-daa9944 animated-fast elementor-invisible elementor-widget elementor-widget-heading"
+                            data-id="daa9944" data-element_type="widget" data-widget_type="widget"
                             data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;2&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                .elementor-heading-title {
+                                    padding: 0;
+                                    margin: 0;
+                                    line-height: 1
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                    color: inherit;
+                                    font-size: inherit;
+                                    line-height: inherit
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                    font-size: 15px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                    font-size: 19px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                    font-size: 29px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                    font-size: 39px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                    font-size: 59px
+                                }
+                                </style>
                                 <h1 class="elementor-heading-title elementor-size-default">
                                     Get guidance from world's top startup mentors</h1>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-9ecb7fe elementor-widget elementor-widget-heading"
+                            data-id="9ecb7fe" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <p class="elementor-heading-title elementor-size-default">
+                                    Book a 1:1 call with a proven startup mentor and get the guidance
+                                    you need to achieve explosive growth, overcome critical hurdles, and
+                                    build a thriving business. </p>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
+                            data-id="DAA" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('register') }}">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Get
+                                                Started</span>
+                                        </span>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                         <section
