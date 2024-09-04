@@ -2054,11 +2054,11 @@
 }
 
 .elementor-column .elementor-col-60 .elementor-top-column .elementor-element .elementor-element-a037b03 {
-    width: 55%;
+    width: 50%;
 }
 
 .elementor-column .elementor-col-40 .elementor-top-column .elementor-element .elementor-element-a037b04 {
-    width: 45%;
+    width: 50%;
 }
 
 .modal-backdrop {
