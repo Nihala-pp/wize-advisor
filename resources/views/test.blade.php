@@ -2656,9 +2656,9 @@ i.fas.fa-chevron-down {
         /* margin-top: 30px; */
         color: #fff;
         /* color: var( --e-global-color-1e1892c ); */
-        font-family: "Sailec", Sans-serif;
+        font-family: "Helvetica", Sans-serif;
         font-size: 1.5rem;
-        font-weight: 700;
+        font-weight: 600;
         font-style: normal;
         line-height: 0.5rem;
     }
