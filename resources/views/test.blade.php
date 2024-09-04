@@ -2021,9 +2021,9 @@
 <style>
 .vedio-container {
 
-    object-fit: cover;
+    /* object-fit: cover; */
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
 
     /* height: 300px;
     width: 300px;
