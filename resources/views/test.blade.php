@@ -2041,7 +2041,7 @@
 .elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     margin-top: 0px !important;    
-    padding-top: 20px;
+    /* padding-top: 20px; */
     /* background: linear-gradient(to right, #434343, #000000) !important; */
     background: #000 !important;
     /* background-image: linear-gradient(90deg, #000 0%, #111111 100%) !important; */
