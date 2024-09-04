@@ -2020,10 +2020,20 @@
 
 </html>
 <style>
+.elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
+    color: #fff;
+    /* color: var( --e-global-color-1e1892c ); */
+    font-family: "Sailec", Sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 2rem;
+}
+
 .elementor-8 .elementor-element.elementor-element-9ecb7fe .elementor-heading-title {
     color: #fff;
     font-family: "Sailec", Sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 600;
     line-height: 1.4rem;
     letter-spacing: 1px;
