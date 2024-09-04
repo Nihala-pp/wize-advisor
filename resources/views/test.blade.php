@@ -163,7 +163,7 @@
                     </div>
                 </div>
                 <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04"
-                    data-id="a037b03" data-element_type="column">
+                    data-id="a037b04" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
                             data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
@@ -2148,6 +2148,14 @@
 
 </html>
 <style>
+.elementor-column .elementor-col-60 .elementor-top-column .elementor-element .elementor-element-a037b03 {
+    width:60%;
+}
+
+.elementor-column .elementor-col-40 .elementor-top-column .elementor-element .elementor-element-a037b04 {
+    width:40%;
+}
+
 .modal-backdrop {
     display: none !important;
 }
