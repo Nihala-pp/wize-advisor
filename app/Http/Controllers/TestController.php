@@ -40,7 +40,7 @@ class TestController extends Controller
              return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
           }
     } else {
-        return view('home-test', compact('mentors', 'users', 'calls', 'reviews'));
+        return view('test', compact('mentors', 'users', 'calls', 'reviews'));
     }
   }
 }
