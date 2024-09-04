@@ -55,7 +55,7 @@
             data-id="9a6781f" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
             <div class="elementor-container elementor-column-gap-no" style="max-width:1500px;">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a037b03"
+                <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b03"
                     data-id="a037b03" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-daa9944 animated-fast elementor-invisible elementor-widget elementor-widget-heading"
@@ -126,7 +126,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
+                <div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
                     data-id="a037b04" data-element_type="section">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
