@@ -2037,7 +2037,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%); */
+    transform: translateX(-50%) translateY(-50%); 
 } 
 
 /* Just styling the content of the div, the *magic* in the previous rules */
