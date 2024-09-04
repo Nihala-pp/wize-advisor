@@ -2046,7 +2046,7 @@
     font-size: 3rem;
     font-weight: 600;
     font-style: normal;
-    line-height: 4rem;
+    line-height: 2rem;
 }
 
 .elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
