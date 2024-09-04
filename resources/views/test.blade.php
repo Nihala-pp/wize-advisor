@@ -2632,6 +2632,17 @@ i.fas.fa-chevron-down {
         overflow-x: hidden;
     }
 
+    .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
+        /* margin-top: 30px; */
+        color: #fff;
+        /* color: var( --e-global-color-1e1892c ); */
+        font-family: "Sailec", Sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600;
+        font-style: normal;
+        line-height: 0.5rem;
+    }
+
     /* header new */
 
     .elementor-3007 .elementor-element.elementor-element-cf19fcc:not(.elementor-motion-effects-element-type-background),
