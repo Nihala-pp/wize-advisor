@@ -2115,8 +2115,9 @@
 .elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     margin-top: -90px;
+    background: linear-gradient(to right, #434343, #000000) !important;
     background-color: transparent !important;
-    background-image: linear-gradient(90deg, #000 0%, #111111 100%) !important;
+    /* background-image: linear-gradient(90deg, #000 0%, #111111 100%) !important; */
 }
 
 .elementor-column .elementor-col-60 .elementor-top-column .elementor-element .elementor-element-a037b03 {
