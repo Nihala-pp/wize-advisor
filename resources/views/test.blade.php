@@ -2148,12 +2148,19 @@
 
 </html>
 <style>
+.elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
+.elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    margin-top: -90px;
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #000 0%, #111111 100%);
+}
+
 .elementor-column .elementor-col-60 .elementor-top-column .elementor-element .elementor-element-a037b03 {
-    width:60%;
+    width: 60%;
 }
 
 .elementor-column .elementor-col-40 .elementor-top-column .elementor-element .elementor-element-a037b04 {
-    width:40%;
+    width: 40%;
 }
 
 .modal-backdrop {
