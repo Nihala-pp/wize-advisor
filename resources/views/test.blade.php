@@ -1765,12 +1765,13 @@
                 <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0635afd"
                     data-id="0635afd" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-ba7688d elementor-widget elementor-widget-video"
-                            data-id="ba7688d" data-element_type="widget"
-                            data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
-                            data-widget_type="video.default">
+                        <div class="elementor-element elementor-element-ba7688d elementor-widget elementor-widget-heading"
+                            data-id="ba7688d" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                               
+                                <p class="elementor-heading-title elementor-size-default">
+                                    Accelerate your growth by connecting 1:1 with successful founders and industry
+                                    leaders. Learn proven strategies, avoid costly mistakes and scale faster.
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -1779,8 +1780,9 @@
                     data-id="e4e996d" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-65dddf0 elementor-widget elementor-widget-image-box"
-                            data-id="65dddf0" data-element_type="widget" data-widget_type="image-box.default">
+                            data-id="65dddf0" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
+
                                 <style>
                                 /*! elementor - v3.21.0 - 20-05-2024 */
                                 .elementor-widget-image-box .elementor-image-box-content {
@@ -1845,9 +1847,6 @@
                                     margin: 0
                                 }
                                 </style>
-                                <div class="elementor-image-box-wrapper">
-                                   
-                                </div>
                             </div>
                         </div>
                     </div>
