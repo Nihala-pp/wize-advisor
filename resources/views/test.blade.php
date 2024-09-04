@@ -2069,6 +2069,14 @@
     padding: 10px;
 } */
 
+/* .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item, .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item {
+    color: #fff !important;
+}
+
+.elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item:hover, .elementor-3007 .elementor-element.elementor-element-359f243 .sub-menu a.hfe-sub-menu-item:hover, .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item, .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item.highlighted, .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item a.hfe-menu-item:focus {
+    color: #fff !important;
+} */
+
 .elementor-8 .elementor-element.elementor-element-9a6781f:not(.elementor-motion-effects-element-type-background),
 .elementor-8 .elementor-element.elementor-element-9a6781f>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     margin-top: -90px;
