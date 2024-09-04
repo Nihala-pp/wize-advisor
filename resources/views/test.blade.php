@@ -2019,22 +2019,32 @@
 
 </html>
 <style>
-.vedio-container { 
-/* position: relative;
+.elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
+    color: #fff;
+    /* color: var( --e-global-color-1e1892c ); */
+    font-family: "Sailec", Sans-serif;
+    font-size: 3rem;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 4rem;
+}
+
+.vedio-container {
+    /* position: relative;
     overflow: hidden; */
 
-object-fit: cover;
-/* position: relative; */
-/* 
+    object-fit: cover;
+    /* position: relative; */
+    /* 
 
     /* height: 300px;
     /* width: 300px; */
 }
 
 /* .vedio-container video { */
-    /* min-width: 100%;
+/* min-width: 100%;
     min-height: 100%; */
-    /* position: absolute;
+/* position: absolute;
     top: 50%;
     left: 50%;
     height: auto;
