@@ -98,8 +98,8 @@
                                 }
                                 </style>
                                 <h1 class="elementor-heading-title elementor-size-default">
-                                    Get guidance from world's top</h1><br/>
-                                    <h2> startup mentors </h2>
+                                    Get guidance from world's top</h1><br />
+                                <h2 class="elementor-heading-title elementor-size-default"> startup mentors </h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-9ecb7fe elementor-widget elementor-widget-heading"
