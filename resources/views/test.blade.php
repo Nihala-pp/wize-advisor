@@ -99,7 +99,7 @@
                                 </style>
                                 <h1 class="elementor-heading-title elementor-size-default mobile">
                                     Get guidance from world's top</h1><br />
-                                <h2 class="elementor-heading-title elementor-size-default" style="color:#f7ab38 !important;"> startup mentors </h2>
+                                <h2 class="elementor-heading-title elementor-size-default" style="color:#f7ab38 !important;padding-bottom:5px;"> startup mentors </h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-9ecb7fe elementor-widget elementor-widget-heading"
