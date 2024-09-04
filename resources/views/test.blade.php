@@ -2020,8 +2020,8 @@
 </html>
 <style>
 .vedio-container {
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     overflow: hidden;
     position: relative;
 }
