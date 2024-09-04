@@ -2022,20 +2022,21 @@
 .vedio-container {
 
     object-fit: zoom-out;
+    position: relative;
     /* height: 300px;
     width: 300px;
     overflow: hidden;
     position: relative; */
 } 
 
-/* .vedio-container video {
-    min-width: 100%;
-    min-height: 100%;
+.vedio-container video {
+    /* min-width: 100%;
+    min-height: 100%; */
     position: absolute;
-    top: 50%;
+    /* top: 50%;
     left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-} */
+    transform: translateX(-50%) translateY(-50%); */
+} 
 
 /* Just styling the content of the div, the *magic* in the previous rules */
 /* .vedio-container .caption {
