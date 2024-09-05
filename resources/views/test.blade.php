@@ -2188,7 +2188,7 @@
     color: #FFFFFF;
     font-family: "Helvetica", Sans-serif;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 15px !important;
 }
 
 .elementor-8 .elementor-element.elementor-element-085e562 > .elementor-widget-container {
@@ -2199,7 +2199,7 @@
     color: #FFFFFF;
     font-family: "Helvetica", Sans-serif;
     font-weight: 400;
-    font-size: 11px;
+    font-size: 11px !important;
 }
 
 .elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
