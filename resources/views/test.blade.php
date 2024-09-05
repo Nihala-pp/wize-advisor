@@ -1817,9 +1817,9 @@
                             data-id="a212a53" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img loading="lazy" decoding="async" width="750" height="750"
-                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-768x768.png"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png"
                                     class="attachment-medium_large size-medium_large wp-image-8244" alt=""
-                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-768x768.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-1024x1024.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-1536x1536.png 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-2048x2048.png 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-1568x1568.png 1568w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-1300x1300.png 1300w"
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png 1300w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:100%;max-width:3375px">
                             </div>
