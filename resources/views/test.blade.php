@@ -2890,7 +2890,7 @@ i.fas.fa-chevron-down {
         max-width: 100%;
         height: 350px !important;
         object-fit: contain !important;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
 
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
