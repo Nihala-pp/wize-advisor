@@ -126,17 +126,66 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-d7ea8e1 elementor-widget elementor-widget-image"
-                            data-id="d7ea8e1" data-element_type="widget" data-widget_type="image.default" style="MARGIN-TOP: -115PX;">
-                            <div class="elementor-widget-container">
-                                <img loading="lazy" decoding="async" width="200" height="150"
-                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png"
-                                    class="attachment-medium_large size-medium_large wp-image-8245" alt=""
-                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1024x1024.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106.png 1080w"
-                                    sizes="(max-width: 200px) 50vw, 200px"
-                                    style="width:100%;height:100%;max-width:200px">
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-6a97277 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="6a97277" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-57512b1"
+                                    data-id="57512b1" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+
+                                        <div class="elementor-element elementor-element-d7ea8e1 elementor-widget elementor-widget-image"
+                                            data-id="d7ea8e1" data-element_type="widget"
+                                            data-widget_type="image.default" style="MARGIN-TOP: -115PX;">
+                                            <div class="elementor-widget-container">
+                                                <img loading="lazy" decoding="async" width="200" height="150"
+                                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png"
+                                                    class="attachment-medium_large size-medium_large wp-image-8245"
+                                                    alt=""
+                                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1024x1024.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106.png 1080w"
+                                                    sizes="(max-width: 200px) 50vw, 200px"
+                                                    style="width:100%;height:100%;max-width:200px">
+                                            </div>
+                                        </div>
+
+                                        <!-- <div class="elementor-element elementor-element-d7ea8e1 elementor-widget elementor-widget-image"
+                                            data-id="d7ea8e1" data-element_type="widget"
+                                            data-widget_type="image.default">
+                                            <div class="elementor-widget-container">
+                                                <img loading="lazy" decoding="async" width="750" height="750"
+                                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png"
+                                                    class="attachment-medium_large size-medium_large wp-image-8245"
+                                                    alt=""
+                                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1024x1024.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106.png 1080w"
+                                                    sizes="(max-width: 750px) 100vw, 750px"
+                                                    style="width:100%;height:100%;max-width:1080px">
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                </div>
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-61aca54"
+                                    data-id="61aca54" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-a57db21 elementor-widget elementor-widget-heading"
+                                            data-id="a57db21" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h4 class="elementor-heading-title elementor-size-default">654 Founders
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-085e562 elementor-widget elementor-widget-heading"
+                                            data-id="085e562" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <p class="elementor-heading-title elementor-size-default">Joined in the
+                                                    last week</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
                 <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
