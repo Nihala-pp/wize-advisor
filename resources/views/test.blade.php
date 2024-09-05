@@ -1802,8 +1802,8 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default mobile">
-                                    Get guidance from world's top</h1>
+                                <h2 class="elementor-heading-title elementor-size-default">
+                                    Get guidance from world's top</h2>
                                 <!-- <h2 class="elementor-heading-title elementor-size-default"
                                     style="color:#f7ab38 !important;padding-bottom:5px;"> startup mentors </h2> -->
                             </div>
