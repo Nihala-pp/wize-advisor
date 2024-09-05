@@ -1733,7 +1733,7 @@
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">This is how ambitious
                                     founders navigate their startup journey
-                                    With <a href="">wiseAdvizor.com</a></h2>
+                                    With <a href="https://wiseadvizor.com">wiseAdvizor.com</a></h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-996ad43 elementor-align-center elementor-widget elementor-widget-button"
