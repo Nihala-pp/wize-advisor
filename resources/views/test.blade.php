@@ -2862,7 +2862,7 @@ i.fas.fa-chevron-down {
         /* width: 100%; */
         /* height: 100%; */
         /* max-width: 250px; */
-        margin-top: -100px;
+        margin-top: -120px !important
         margin-left: -290px !important;
     }
 
