@@ -139,7 +139,7 @@
                                             data-widget_type="image.default"
                                             style="MARGIN-TOP: -115PX;margin-left: 220px;">
                                             <div class="elementor-widget-container">
-                                                <img loading="lazy" decoding="async" width="200" height="150"
+                                                <img loading="lazy" decoding="async" width="500" height="150"
                                                     src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png"
                                                     class="attachment-medium_large size-medium_large wp-image-8245"
                                                     alt=""
