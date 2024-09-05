@@ -1895,10 +1895,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
     <style>
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
+
+
         width: 100%;
+    height: 100%;
+    max-width: 250px;
+    margin-top: -160px;
+
+        /* width: 100%;
         max-width: 100%;
         height: 500px;
-        object-fit: cover;
+        object-fit: cover; */
     }
 
     .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
