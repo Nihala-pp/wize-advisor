@@ -1992,7 +1992,7 @@
         max-width: 100%;
     }
 
-    @media (min-width: 1024px)  and (max-width:1280px) {
+    @media (min-width: 1024px) and (max-width:1280px) {
         .elementor-8 .elementor-element.elementor-element-daa9944>.elementor-widget-container {
             padding: 80px 0px 0px 0px;
         }
@@ -2856,6 +2856,13 @@ i.fas.fa-chevron-down {
 
     .elementor-8 .elementor-element.elementor-element-9ecb7fe {
         text-align: center;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
+        /* width: 100%; */
+        /* height: 100%; */
+        /* max-width: 250px; */
+        margin-top: -125px;
     }
 
     .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
