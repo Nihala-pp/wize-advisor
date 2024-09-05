@@ -1945,7 +1945,7 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-d07a702 {
-        text-align: center;
+        text-align: left;
     }
 
     .elementor-8 .elementor-element.elementor-element-2cf99e1>.elementor-element-populated {
