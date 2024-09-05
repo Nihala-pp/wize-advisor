@@ -192,7 +192,8 @@
                     data-id="a037b04" data-element_type="section">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
-                            data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
+                            data-id="bcb7070"  data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
+                            data-widget_type="video.default" data-element_type="widget">
                             <div class="elementor-widget-container">
                                 <video autoplay muted loop>
                                     <source src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
