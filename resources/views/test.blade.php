@@ -1898,7 +1898,7 @@
         width: 100%;
         max-width: 100%;
         height: 500px;
-        object-fit: contain;
+        object-fit: cover;
     }
 
     .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
