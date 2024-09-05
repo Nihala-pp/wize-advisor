@@ -178,7 +178,8 @@
                                             data-id="085e562" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Trusted by {{ $users }}+ startup founders. </p>
+                                                <p class="elementor-heading-title elementor-size-default">Trusted by
+                                                    {{ $users }}+ startup founders. </p>
                                             </div>
                                         </div>
                                     </div>
@@ -1897,9 +1898,9 @@
 
 
         width: 100%;
-    height: 100%;
-    max-width: 250px;
-    margin-top: -160px;
+        height: 100%;
+        max-width: 250px;
+        margin-top: -160px;
 
         /* width: 100%;
         max-width: 100%;
@@ -1989,6 +1990,20 @@
 
     img {
         max-width: 100%;
+    }
+
+    @media screen and (max-width:1280px) {
+        .elementor-8 .elementor-element.elementor-element-daa9944>.elementor-widget-container {
+            padding: 80px 0px 0px 0px;
+        }
+
+        .elementor-8 .elementor-element.elementor-element-d07a702 .elementor-heading-title {
+            color: #FFFFFF;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 39px;
+        }
     }
 
     @media screen and (max-width:480px) {
