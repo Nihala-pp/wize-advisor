@@ -2852,8 +2852,33 @@ i.fas.fa-chevron-down {
         padding-top: 30px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-d07a702>.elementor-widget-container {
+        margin: 50px 10px 0px 15px;
+    }
+
     .elementor-8 .elementor-element.elementor-element-9ecb7fe {
         text-align: center;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-d07a702 {
+        text-align: left;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 500;
+        background-color: #4285F4;
+        border-radius: 7px 7px 7px 7px;
+        margin-right: 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-a212a53 img {
+        margin-top: 30px;
+        width: 100%;
+        max-width: 100%;
+        height: 350px !important;
+        object-fit: cover !important;
+        margin-bottom: 50px;
     }
 
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
