@@ -1856,8 +1856,8 @@
     .elementor-8 .elementor-element.elementor-element-a212a53 img {
         width: 100%;
         max-width: 100%;
-        height: 300px;
-        object-fit: contain;
+        height: 300px !important;
+        object-fit: contain !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-d07a702>.elementor-widget-container {
