@@ -2823,6 +2823,7 @@ i.fas.fa-chevron-down {
 .elementor-8 .elementor-element.elementor-element-c70251b a {
     background-color: #001E64 !important;
     font-family: "Helvetica", sans-serif;
+    border-radius: 7px 7px 7px 7px;
 }
 
 @media (max-width: 767px) {
