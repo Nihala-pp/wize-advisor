@@ -2885,7 +2885,7 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-8 .elementor-element.elementor-element-a212a53 img {
-        /* margin-top: 30px; */
+        margin-top: -20px;
         width: 100%;
         max-width: 100%;
         height: 350px !important;
