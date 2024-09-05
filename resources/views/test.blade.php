@@ -1720,41 +1720,6 @@
                 </div>
             </div>
         </section>
-
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
-            data-id="b2c5733" data-element_type="section" style="background-color:#000">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c429127"
-                    data-id="c429127" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-5fe437d elementor-widget elementor-widget-heading"
-                            data-id="5fe437d" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">Join our
-                                    mentor
-                                    community, share your expertise, and empower the next generation of
-                                    entrepreneurs. Together, let's shape the future of entrepreneurship.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-f82bbec elementor-align-center elementor-widget elementor-widget-button"
-                            data-id="f82bbec" data-element_type="widget" data-widget_type="button.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('be-a-mentor') }}">
-                                        <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Be a Mentor</span>
-                                        </span>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-        </section>
-
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-9a6781g elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="9a6781g" data-element_type="section"
@@ -1836,6 +1801,41 @@
                 </div>
             </div>
         </section>
+
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            data-id="b2c5733" data-element_type="section" style="background-color:#fff">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c429127"
+                    data-id="c429127" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-5fe437d elementor-widget elementor-widget-heading"
+                            data-id="5fe437d" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <p class="elementor-heading-title elementor-size-default">Join our
+                                    mentor
+                                    community, share your expertise, and empower the next generation of
+                                    entrepreneurs. Together, let's shape the future of entrepreneurship.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-f82bbec elementor-align-center elementor-widget elementor-widget-button"
+                            data-id="f82bbec" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('be-a-mentor') }}">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Be a Mentor</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+
 
         <div class="modal" role="dialog" id="offer_modal" style="display:none">
             <div class="modal-dialog" role="document">
