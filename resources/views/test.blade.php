@@ -1756,15 +1756,60 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-d60240a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="d60240a" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0635afd"
-                    data-id="0635afd" data-element_type="column">
+            class="elementor-section elementor-top-section elementor-element elementor-element-9a6781f elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
+            data-id="9a6781f" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
+            <div class="elementor-container elementor-column-gap-no" style="max-width:1500px;">
+                <div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-a037b03"
+                    data-id="a037b03" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-ba7688d elementor-widget elementor-widget-heading"
-                            data-id="ba7688d" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-daa9944 animated-fast elementor-invisible elementor-widget elementor-widget-heading"
+                            data-id="daa9944" data-element_type="widget" data-widget_type="widget"
+                            data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;2&quot;}"
+                            data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.14.0 - 26-06-2023 */
+                                .elementor-heading-title {
+                                    padding: 0;
+                                    margin: 0;
+                                    line-height: 1
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
+                                    color: inherit;
+                                    font-size: inherit;
+                                    line-height: inherit
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
+                                    font-size: 15px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+                                    font-size: 19px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
+                                    font-size: 29px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+                                    font-size: 39px
+                                }
+
+                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+                                    font-size: 59px
+                                }
+                                </style>
+                                <h1 class="elementor-heading-title elementor-size-default mobile">
+                                    Get guidance from world's top</h1><br />
+                                <h2 class="elementor-heading-title elementor-size-default"
+                                    style="color:#f7ab38 !important;padding-bottom:5px;"> startup mentors </h2>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-9ecb7fe elementor-widget elementor-widget-heading"
+                            data-id="9ecb7fe" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <p class="elementor-heading-title elementor-size-default">
                                     Accelerate your growth by connecting 1:1 with successful founders and industry
@@ -1772,86 +1817,35 @@
                                 </p>
                             </div>
                         </div>
+                        <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
+                            data-id="DAA" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('register') }}">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Get
+                                                Started</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-e4e996d"
-                    data-id="e4e996d" data-element_type="column">
+                <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
+                    data-id="a037b04" data-element_type="section">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-65dddf0 elementor-widget elementor-widget-image-box"
-                            data-id="65dddf0" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
+                            data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-
-                                <style>
-                                /*! elementor - v3.21.0 - 20-05-2024 */
-                                .elementor-widget-image-box .elementor-image-box-content {
-                                    width: 100%
-                                }
-
-                                @media (min-width:768px) {
-
-                                    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,
-                                    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
-                                        display: flex
-                                    }
-
-                                    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
-                                        text-align: end;
-                                        flex-direction: row-reverse
-                                    }
-
-                                    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
-                                        text-align: start;
-                                        flex-direction: row
-                                    }
-
-                                    .elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
-                                        margin: auto
-                                    }
-
-                                    .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
-                                        align-items: flex-start
-                                    }
-
-                                    .elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
-                                        align-items: center
-                                    }
-
-                                    .elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
-                                        align-items: flex-end
-                                    }
-                                }
-
-                                @media (max-width:767px) {
-                                    .elementor-widget-image-box .elementor-image-box-img {
-                                        margin-left: auto !important;
-                                        margin-right: auto !important;
-                                        margin-bottom: 15px
-                                    }
-                                }
-
-                                .elementor-widget-image-box .elementor-image-box-img {
-                                    display: inline-block
-                                }
-
-                                .elementor-widget-image-box .elementor-image-box-title a {
-                                    color: inherit
-                                }
-
-                                .elementor-widget-image-box .elementor-image-box-wrapper {
-                                    text-align: center
-                                }
-
-                                .elementor-widget-image-box .elementor-image-box-description {
-                                    margin: 0
-                                }
-                                </style>
+                               
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
 
         <div class="modal" role="dialog" id="offer_modal" style="display:none">
             <div class="modal-dialog" role="document">
