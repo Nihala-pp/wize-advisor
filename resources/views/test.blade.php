@@ -128,7 +128,7 @@
                         </div>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-6a97277 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="6a97277" data-element_type="section">
+                            data-id="6a97277" data-element_type="section" style="margin-left: 140px;margin-top: 10px;">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-57512b1"
                                     data-id="57512b1" data-element_type="column">
@@ -136,7 +136,8 @@
 
                                         <div class="elementor-element elementor-element-d7ea8e1 elementor-widget elementor-widget-image"
                                             data-id="d7ea8e1" data-element_type="widget"
-                                            data-widget_type="image.default" style="MARGIN-TOP: -115PX;margin-left: 220px;">
+                                            data-widget_type="image.default"
+                                            style="MARGIN-TOP: -115PX;margin-left: 220px;">
                                             <div class="elementor-widget-container">
                                                 <img loading="lazy" decoding="async" width="200" height="150"
                                                     src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png"
