@@ -1833,6 +1833,45 @@
     @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
     <style>
+    .elementor-8 .elementor-element.elementor-element-ba90b25:not(.elementor-motion-effects-element-type-background),
+    .elementor-8 .elementor-element.elementor-element-ba90b25>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #000000;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-d07a702 .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 39px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 600;
+        background-color: #4285F4;
+        border-radius: 5px 5px 5px 5px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-a212a53 img {
+        width: 100%;
+        max-width: 100%;
+        height: 300px;
+        object-fit: contain;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-d07a702>.elementor-widget-container {
+        margin: 65px 0px 0px 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-d07a702 {
+        text-align: center;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-2cf99e1>.elementor-element-populated {
+        padding: 0px 30px 40px 50px;
+    }
+
     .elementor-8 .elementor-element.elementor-element-44e602b .elementor-heading-title {
         color: #330252;
         font-family: "Helvetica", Sans-serif;
