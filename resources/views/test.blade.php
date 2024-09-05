@@ -1803,18 +1803,9 @@
                                 }
                                 </style>
                                 <h1 class="elementor-heading-title elementor-size-default mobile">
-                                    Get guidance from world's top</h1><br />
-                                <h2 class="elementor-heading-title elementor-size-default"
-                                    style="color:#f7ab38 !important;padding-bottom:5px;"> startup mentors </h2>
-                            </div>
-                        </div>
-                        <div class="elementor-element elementor-element-9ecb7fe elementor-widget elementor-widget-heading"
-                            data-id="9ecb7fe" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">
-                                    Accelerate your growth by connecting 1:1 with successful founders and industry
-                                    leaders. Learn proven strategies, avoid costly mistakes and scale faster.
-                                </p>
+                                    Get guidance from world's top</h1>
+                                <!-- <h2 class="elementor-heading-title elementor-size-default"
+                                    style="color:#f7ab38 !important;padding-bottom:5px;"> startup mentors </h2> -->
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
