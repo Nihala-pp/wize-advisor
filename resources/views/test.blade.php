@@ -1779,8 +1779,8 @@
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                         href="{{ route('register') }}">
                                         <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Get
-                                                Started</span>
+                                            <span class="elementor-button-text">Start
+                                                Now</span>
                                         </span>
                                     </a>
                                 </div>
@@ -1795,9 +1795,9 @@
                             data-id="bcb7072" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img fetchpriority="high" decoding="async" width="967" height="384"
-                                    src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }}"
-                                    class="attachment-full size-full wp-image-6396" alt="{{ $selectedBlog->title }}"
-                                    srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 967w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 1300w"
+                                    src="{{ asset('public/wp-content/uploads/2024/06/start-now.png') }}"
+                                    class="attachment-full size-full wp-image-6396" alt="startup mentor"
+                                    srcset="{{ asset('public/wp-content/uploads/2024/06/start-now.png') }} 967w, {{ asset('public/wp-content/uploads/2024/06/start-now.png') }} 300w, {{ asset('public/wp-content/uploads/2024/06/start-now.png') }} 1300w"
                                     sizes="(max-width: 967px) 100vw, 967px"
                                     style="width:100%;height:50.07%;max-width:967px" />
                             </div>
