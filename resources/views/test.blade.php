@@ -2861,8 +2861,9 @@ i.fas.fa-chevron-down {
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
         /* width: 100%; */
         /* height: 100%; */
-        max-width: 200px !important;
-        margin-top: -125px;
+        /* max-width: 250px; */
+        margin-top: -100px;
+        margin-left: -325px;
     }
 
     .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
