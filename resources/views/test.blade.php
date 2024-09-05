@@ -2200,6 +2200,7 @@
     font-family: "Helvetica", Sans-serif;
     font-weight: 400;
     font-size: 11px !important;
+    padding-top: 15px;
 }
 
 .elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
