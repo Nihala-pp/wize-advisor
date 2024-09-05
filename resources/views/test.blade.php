@@ -126,6 +126,17 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
+                            data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img loading="lazy" decoding="async" width="750" height="750"
+                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/bubble-circles.png"
+                                    class="attachment-medium_large size-medium_large wp-image-8244" alt=""
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 768w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 1024w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 150w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 1536w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 2048w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 700w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 1568w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 650w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 1300w"
+                                    sizes="(max-width: 750px) 100vw, 750px"
+                                    style="width:100%;height:100%;max-width:3375px">
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
@@ -1740,7 +1751,8 @@
                             data-id="996ad43" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="https://wiseadvizor.com/registration">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="https://wiseadvizor.com/registration">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Start Now</span>
                                         </span>
