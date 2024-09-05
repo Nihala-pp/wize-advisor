@@ -136,8 +136,7 @@
 
                                         <div class="elementor-element elementor-element-d7ea8e1 elementor-widget elementor-widget-image"
                                             data-id="d7ea8e1" data-element_type="widget"
-                                            data-widget_type="image.default"
-                                            style="MARGIN-TOP: -115PX;margin-left: 220px;">
+                                            data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img loading="lazy" decoding="async" width="500" height="500"
                                                     src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png"
