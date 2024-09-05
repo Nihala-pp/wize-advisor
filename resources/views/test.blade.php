@@ -1992,7 +1992,7 @@
         max-width: 100%;
     }
 
-    @media screen and (max-width:1280px) {
+    @media (min-width: 1024px)  and (max-width:1280px) {
         .elementor-8 .elementor-element.elementor-element-daa9944>.elementor-widget-container {
             padding: 80px 0px 0px 0px;
         }
