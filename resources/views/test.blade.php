@@ -1928,9 +1928,9 @@
 
     .elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
         font-family: "Helvetica", Sans-serif;
-        font-weight: 600;
+        font-weight: 500;
         background-color: #4285F4;
-        border-radius: 5px 5px 5px 5px;
+        border-radius: 7px 7px 7px 7px;
         margin-right: 85px;
     }
 
