@@ -1311,7 +1311,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('browseMentor') }}" style="background-color:#4285f4;">
+                                        href="{{ route('browseMentor') }}" style="background-color:#4285f4; !important">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">View More</span>
                                         </span>
@@ -1719,7 +1719,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('register') }}" style="background-color:#4285f4">
+                                        href="{{ route('register') }}" style="background-color:#4285f4 !important">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Get
                                                 Started</span>
@@ -1850,7 +1850,7 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('be-a-mentor') }}" style="background-color:#4285f4">
+                                        href="{{ route('be-a-mentor') }}" style="background-color:#4285f4 !important">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Be a Mentor</span>
                                         </span>
