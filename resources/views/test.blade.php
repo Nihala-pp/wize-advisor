@@ -1721,66 +1721,28 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-9a6781g elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
-            data-id="9a6781g" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
-            <div class="elementor-container elementor-column-gap-no" style="max-width:1500px;">
-                <div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-a037b04"
-                    data-id="a037b04" data-element_type="column"  style="background-color:#000;">
+            class="elementor-section elementor-top-section elementor-element elementor-element-ba90b25 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="ba90b25" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2cf99e1"
+                    data-id="2cf99e1" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-daa9945 animated-fast elementor-invisible elementor-widget elementor-widget-heading"
-                            data-id="daa9945" data-element_type="widget" data-widget_type="widget"
-                            data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;2&quot;}"
-                            data-widget_type="heading.default">
+                        <div class="elementor-element elementor-element-d07a702 elementor-widget elementor-widget-heading"
+                            data-id="d07a702" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <style>
-                                /*! elementor - v3.14.0 - 26-06-2023 */
-                                .elementor-heading-title {
-                                    padding: 0;
-                                    margin: 0;
-                                    line-height: 1
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title[class*=elementor-size-]>a {
-                                    color: inherit;
-                                    font-size: inherit;
-                                    line-height: inherit
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-small {
-                                    font-size: 15px
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-medium {
-                                    font-size: 19px
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-large {
-                                    font-size: 29px
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-xl {
-                                    font-size: 39px
-                                }
-
-                                .elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
-                                    font-size: 59px
-                                }
-                                </style>
-                                <h2 class="elementor-heading-title elementor-size-default">
-                                    This is how ambitious founders navigate their startup journey
+                                <h2 class="elementor-heading-title elementor-size-default">This is how ambitious
+                                    founders navigate their startup journey
                                     With wiseAdvizor.com</h2>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
-                            data-id="62d1cd5" data-element_type="widget" data-widget_type="button.default">
+                        <div class="elementor-element elementor-element-996ad43 elementor-align-center elementor-widget elementor-widget-button"
+                            data-id="996ad43" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('register') }}">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm" href="#">
                                         <span class="elementor-button-content-wrapper">
-                                            <span class="elementor-button-text">Start
-                                                Now</span>
+                                            <span class="elementor-button-text">Start Now</span>
                                         </span>
                                     </a>
                                 </div>
@@ -1788,25 +1750,24 @@
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b05 vedio-container"
-                    data-id="a037b05" data-element_type="section">
+                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-1130a96"
+                    data-id="1130a96" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-bcb7072 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
-                            data-id="bcb7072" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-element elementor-element-a212a53 elementor-widget elementor-widget-image"
+                            data-id="a212a53" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="500" height="500"
-                                    src="{{ asset('public/wp-content/uploads/2024/06/start-now.png') }}"
-                                    class="attachment-full size-full wp-image-6396" alt="startup mentor"
-                                    srcset="{{ asset('public/wp-content/uploads/2024/06/start-now.png') }} 967w, {{ asset('public/wp-content/uploads/2024/06/start-now.png') }} 300w, {{ asset('public/wp-content/uploads/2024/06/start-now.png') }} 1300w"
-                                    sizes="(max-width: 967px) 100vw, 967px"
-                                    style="width:100%;height:50.07%;max-width:967px" />
+                                <img loading="lazy" decoding="async" width="750" height="750"
+                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-768x768.png"
+                                    class="attachment-medium_large size-medium_large wp-image-8244" alt=""
+                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-768x768.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-1024x1024.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-1536x1536.png 1536w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-2048x2048.png 2048w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-1568x1568.png 1568w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-05T104426.528-1300x1300.png 1300w"
+                                    sizes="(max-width: 750px) 100vw, 750px"
+                                    style="width:100%;height:100%;max-width:3375px">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
             data-id="b2c5733" data-element_type="section" style="background-color:#fff">
