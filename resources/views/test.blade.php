@@ -1784,7 +1784,7 @@
             data-id="ba90b25" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2cf99e1"
+                <div class="elementor-column elementor-col-65 elementor-top-column elementor-element elementor-element-2cf99e1"
                     data-id="2cf99e1" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-d07a702 elementor-widget elementor-widget-heading"
@@ -1921,7 +1921,7 @@
     .elementor-8 .elementor-element.elementor-element-d07a702 .elementor-heading-title {
         color: #FFFFFF;
         font-family: "Helvetica", Sans-serif;
-        font-size: 28px;
+        font-size: 30px;
         font-weight: 600;
         line-height: 39px;
     }
