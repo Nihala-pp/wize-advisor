@@ -1733,7 +1733,7 @@
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">This is how ambitious
                                     founders navigate their startup journey
-                                    With wiseAdvizor.com</h2>
+                                    With <a href="">wiseAdvizor.com</a></h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-996ad43 elementor-align-center elementor-widget elementor-widget-button"
@@ -1861,7 +1861,7 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-d07a702>.elementor-widget-container {
-        margin: 85px 0px 0px 0px;
+        margin: 90px 0px 0px 0px;
     }
 
     .elementor-8 .elementor-element.elementor-element-d07a702 {
