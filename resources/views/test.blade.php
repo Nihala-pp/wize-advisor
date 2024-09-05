@@ -1895,8 +1895,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
     <style>
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
-
-
         width: 100%;
         height: 100%;
         max-width: 250px;
@@ -2862,7 +2860,7 @@ i.fas.fa-chevron-down {
         /* width: 100%; */
         /* height: 100%; */
         /* max-width: 250px; */
-        margin-top: -120px !important
+        margin-top: -120px !important;
         margin-left: -290px !important;
     }
 
