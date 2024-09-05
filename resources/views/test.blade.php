@@ -1931,6 +1931,7 @@
         font-weight: 600;
         background-color: #4285F4;
         border-radius: 5px 5px 5px 5px;
+        margin-right: 85px;
     }
 
     .elementor-8 .elementor-element.elementor-element-a212a53 img {
