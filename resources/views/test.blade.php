@@ -1833,6 +1833,12 @@
     @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.js"></script>
     <style>
+    .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+    .elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #000;
+        /* background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%); */
+    }
+
     .elementor-8 .elementor-element.elementor-element-ba90b25:not(.elementor-motion-effects-element-type-background),
     .elementor-8 .elementor-element.elementor-element-ba90b25>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: #000000;
