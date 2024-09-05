@@ -1794,7 +1794,7 @@
                         <div class="elementor-element elementor-element-bcb7072 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
                             data-id="bcb7072" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="967" height="384"
+                                <img fetchpriority="high" decoding="async" width="500" height="384"
                                     src="{{ asset('public/wp-content/uploads/2024/06/start-now.png') }}"
                                     class="attachment-full size-full wp-image-6396" alt="startup mentor"
                                     srcset="{{ asset('public/wp-content/uploads/2024/06/start-now.png') }} 967w, {{ asset('public/wp-content/uploads/2024/06/start-now.png') }} 300w, {{ asset('public/wp-content/uploads/2024/06/start-now.png') }} 1300w"
