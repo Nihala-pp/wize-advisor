@@ -2553,7 +2553,7 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-title {
-    color: #8190FF;
+    color: #c7cacb;
     font-family: "Helvetica", Sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -2579,7 +2579,7 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
-    color: #8190FF;
+    color: #c7cacb;
     font-family: "Helvetica", Sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -2588,7 +2588,7 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
-    color: #8190FF;
+    color: #c7cacb;
     font-family: "Helvetica", Sans-serif;
     font-size: 16px;
     font-weight: 400;
