@@ -2863,7 +2863,7 @@ i.fas.fa-chevron-down {
         /* height: 100%; */
         /* max-width: 250px; */
         margin-top: -100px;
-        margin-left: -325px;
+        margin-left: -290px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
