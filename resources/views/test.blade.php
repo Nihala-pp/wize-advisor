@@ -1760,11 +1760,11 @@
             data-id="9a6781g" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}">
             <div class="elementor-container elementor-column-gap-no" style="max-width:1500px;">
-                <div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-a037b03"
-                    data-id="a037b03" data-element_type="column">
+                <div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-a037b04"
+                    data-id="a037b04" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-daa9944 animated-fast elementor-invisible elementor-widget elementor-widget-heading"
-                            data-id="daa9944" data-element_type="widget" data-widget_type="widget"
+                        <div class="elementor-element elementor-element-daa9945 animated-fast elementor-invisible elementor-widget elementor-widget-heading"
+                            data-id="daa9945" data-element_type="widget" data-widget_type="widget"
                             data-settings="{&quot;_animation&quot;:&quot;fadeInRight&quot;,&quot;_animation_delay&quot;:&quot;2&quot;}"
                             data-widget_type="heading.default">
                             <div class="elementor-widget-container">
@@ -1807,8 +1807,8 @@
                                     With wiseAdvizor.com</h2>
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
-                            data-id="DAA" data-element_type="widget" data-widget_type="button.default">
+                        <div class="elementor-element elementor-element-62d1cd6 elementor-align-center elementor-widget elementor-widget-button"
+                            data-id="62d1cd6" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
                                     <a class="elementor-button elementor-button-link elementor-size-sm"
@@ -1823,11 +1823,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
-                    data-id="a037b04" data-element_type="section">
+                <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b05 vedio-container"
+                    data-id="a037b05" data-element_type="section">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
-                            data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
+                        <div class="elementor-element elementor-element-bcb7072 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
+                            data-id="bcb7072" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
 
                             </div>
