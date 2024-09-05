@@ -2864,6 +2864,10 @@ i.fas.fa-chevron-down {
         margin: 50px 10px 0px 15px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-2cf99e1>.elementor-element-populated {
+        padding: 0px 10px 40px 10px;
+    }
+
     .elementor-8 .elementor-element.elementor-element-9ecb7fe {
         text-align: center;
     }
