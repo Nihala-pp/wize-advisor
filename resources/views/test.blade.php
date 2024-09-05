@@ -1880,7 +1880,7 @@
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary"
-                            style="align:center;background-color:#001E64;color:#fff;"><a href="{{ route('login') }}"
+                            style="align:center;background-color:#4285f4;color:#fff;"><a href="{{ route('login') }}"
                                 style="color:#fff;">Get
                                 Started</a></button>
                     </div>
