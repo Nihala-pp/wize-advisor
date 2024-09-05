@@ -2852,6 +2852,14 @@ i.fas.fa-chevron-down {
         padding-top: 30px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-d07a702 .elementor-heading-title {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 13px;
+        font-weight: 600;
+        line-height: 30px;
+    }
+
     .elementor-8 .elementor-element.elementor-element-d07a702>.elementor-widget-container {
         margin: 50px 10px 0px 15px;
     }
