@@ -3225,19 +3225,19 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-title {
-        color: #8190FF !important;
+        color: #c7cacb !important;
         font-size: 11.5px;
         margin-right: 25px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
-        color: #8190FF !important;
+        color: #c7cacb !important;
         font-size: 11.5px;
         margin-right: 0px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
-        color: #8190FF !important;
+        color: #c7cacb !important;
         font-size: 11.5px;
     }
 
