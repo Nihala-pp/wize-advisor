@@ -1803,9 +1803,8 @@
                                 }
                                 </style>
                                 <h2 class="elementor-heading-title elementor-size-default">
-                                    Get guidance from world's top</h2>
-                                <!-- <h2 class="elementor-heading-title elementor-size-default"
-                                    style="color:#f7ab38 !important;padding-bottom:5px;"> startup mentors </h2> -->
+                                    This is how ambitious founders navigate their startup journey
+                                    With wiseAdvizor.com</h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
@@ -1830,7 +1829,7 @@
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
                             data-id="bcb7070" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                               
+
                             </div>
                         </div>
                     </div>
