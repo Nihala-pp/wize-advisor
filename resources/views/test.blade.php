@@ -2889,7 +2889,7 @@ i.fas.fa-chevron-down {
         width: 100%;
         max-width: 100%;
         height: 350px !important;
-        object-fit: cover !important;
+        object-fit: contain !important;
         margin-bottom: 50px;
     }
 
