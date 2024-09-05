@@ -1861,7 +1861,7 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-d07a702>.elementor-widget-container {
-        margin: 65px 0px 0px 0px;
+        margin: 85px 0px 0px 0px;
     }
 
     .elementor-8 .elementor-element.elementor-element-d07a702 {
