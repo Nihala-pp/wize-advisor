@@ -2855,7 +2855,7 @@ i.fas.fa-chevron-down {
     .elementor-8 .elementor-element.elementor-element-d07a702 .elementor-heading-title {
         color: #FFFFFF;
         font-family: "Helvetica", Sans-serif;
-        font-size: 13px;
+        font-size: 24px;
         font-weight: 600;
         line-height: 30px;
     }
@@ -2873,7 +2873,7 @@ i.fas.fa-chevron-down {
     }
 
     .elementor-8 .elementor-element.elementor-element-d07a702 {
-        text-align: left;
+        text-align: center;
     }
 
     .elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
