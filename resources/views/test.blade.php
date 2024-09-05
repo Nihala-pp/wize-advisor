@@ -2180,6 +2180,26 @@
 
 </html>
 <style>
+.elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
+    padding: 0px 0px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-a57db21 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 600;
+}
+
+.elementor-8 .elementor-element.elementor-element-085e562 > .elementor-widget-container {
+    margin: -10px 0px 0px 0px;
+}
+
+.elementor-8 .elementor-element.elementor-element-085e562 .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 400;
+}
+
 .elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
     font-family: "Sailec", Sans-serif;
     font-size: 0.9rem;
