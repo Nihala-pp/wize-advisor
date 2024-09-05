@@ -2205,8 +2205,9 @@
     color: #FFFFFF;
     font-family: "Helvetica", Sans-serif;
     font-weight: 400;
-    font-size: 11px !important;
-    padding-top: 15px;
+    font-size: 15px !important;
+    padding-top: 25px;
+    margin-left: -70px;
 }
 
 .elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
