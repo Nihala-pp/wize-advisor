@@ -165,7 +165,7 @@
                                     </div>
                                 </div>
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-61aca54"
-                                    data-id="61aca54" data-element_type="column" style="margin-top: -20px;">
+                                    data-id="61aca54" data-element_type="column" style="margin-top: -45px;">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-a57db21 elementor-widget elementor-widget-heading"
                                             data-id="a57db21" data-element_type="widget"
