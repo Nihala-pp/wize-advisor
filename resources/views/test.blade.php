@@ -178,7 +178,7 @@
                                             data-id="085e562" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Trusted by 200+ startup founders. </p>
+                                                <p class="elementor-heading-title elementor-size-default">Trusted by {{ $users }}+ startup founders. </p>
                                             </div>
                                         </div>
                                     </div>
