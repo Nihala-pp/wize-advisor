@@ -2864,6 +2864,16 @@ i.fas.fa-chevron-down {
         margin-left: -290px !important;
     }
 
+    .elementor-8 .elementor-element.elementor-element-085e562 .elementor-heading-title {
+        color: #c7cacb;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 400;
+        font-size: 12px !important;
+        margin-top: -95px;
+        margin-left: 90px;
+        /* margin-right: 20px; */
+    }
+
     .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
         /* margin-top: 30px; */
         color: #fff;
