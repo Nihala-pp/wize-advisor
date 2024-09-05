@@ -133,8 +133,8 @@
                                     src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/bubble-circles.png"
                                     class="attachment-medium_large size-medium_large wp-image-8244" alt=""
                                     srcset="https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 768w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 300w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 1024w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 150w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 1536w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 2048w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 700w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 1568w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 650w, https://wiseadvizor.com/wp-content/uploads/2023/07/bubble-circles.png 1300w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:100%;max-width:3375px">
+                                    sizes="(max-width: 200px) 100vw, 200px"
+                                    style="width:100%;height:100%;max-width:100%">
                             </div>
                         </div>
                     </div>
