@@ -167,20 +167,19 @@
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-61aca54"
                                     data-id="61aca54" data-element_type="column" style="margin-top: -45px;">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-a57db21 elementor-widget elementor-widget-heading"
+                                        <!-- <div class="elementor-element elementor-element-a57db21 elementor-widget elementor-widget-heading"
                                             data-id="a57db21" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h4 class="elementor-heading-title elementor-size-default">654 Founders
                                                 </h4>
                                             </div>
-                                        </div>
+                                        </div> -->
                                         <div class="elementor-element elementor-element-085e562 elementor-widget elementor-widget-heading"
                                             data-id="085e562" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default">Joined in the
-                                                    last week</p>
+                                                <p class="elementor-heading-title elementor-size-default">Trusted by 200+ startup founders. </p>
                                             </div>
                                         </div>
                                     </div>
