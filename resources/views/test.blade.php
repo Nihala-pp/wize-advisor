@@ -2864,16 +2864,21 @@ i.fas.fa-chevron-down {
         margin-left: -290px !important;
     }
 
-    .elementor-8  .elementor-element.elementor-element-a037b04 .vedio-container {
-        margin-top: -100px;
+    .elementor-8 .elementor-element.elementor-element-bcb7070 {
+        width: var(--container-widget-width, 807.2px);
+        max-width: 807.2px;
+        --container-widget-width: 807.2px;
+        --container-widget-flex-grow: 0;
+        margin-top: -90px;
     }
+
 
     .elementor-8 .elementor-element.elementor-element-085e562 .elementor-heading-title {
         color: #c7cacb;
         font-family: "Helvetica", Sans-serif;
         font-weight: 400;
         font-size: 12px !important;
-        margin-top: -120px;       
+        margin-top: -120px;
         margin-left: 90px;
         /* margin-right: 20px; */
     }
