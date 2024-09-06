@@ -191,14 +191,38 @@
                 <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
                     data-id="a037b04" data-element_type="section">
                     <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-bcb7070 elementor-widget-tablet__width-initial elementor-widget elementor-widget-image"
-                            data-id="bcb7070"  data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
+
+                        <!-- <div class="elementor-element elementor-element-ba7688d elementor-widget elementor-widget-video"
+                            data-id="ba7688d" data-element_type="widget"
+                            data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
+                            data-widget_type="video.default">
+                            <div class="elementor-widget-container">
+                                <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                                    <video class="elementor-video"
+                                        src="https://web.wiseadvizor.com/wp-content/uploads/2024/08/How-can-I-acquire-customers-while-developing.mp4"
+                                        autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"
+                                        alt="How-can-I-acquire-customers-while-developing"></video>
+                                </div>
+                            </div>
+                        </div> -->
+
+
+                        <div class="elementor-element elementor-element-bcb7070 elementor-widget elementor-widget-video"
+                            data-id="bcb7070"
+                            data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
                             data-widget_type="video.default" data-element_type="widget">
                             <div class="elementor-widget-container">
-                                <video autoplay muted loop>
+                                <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                                    <video class="elementor-video"
+                                        src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
+                                        autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"
+                                        alt="Find a mentor"></video>
+                                </div>
+
+                                <!-- <video autoplay muted loop>
                                     <source src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
                                         type="video/mp4">
-                                </video>
+                                </video> -->
                             </div>
                         </div>
                     </div>
@@ -1794,7 +1818,8 @@
                             <div class="elementor-widget-container">
                                 <h2 class="elementor-heading-title elementor-size-default">This is how ambitious
                                     founders navigate their startup journey
-                                    With <a href="https://wiseadvizor.com" style="color:#f7ab38;">wiseAdvizor.com</a></h2>
+                                    With <a href="https://wiseadvizor.com" style="color:#f7ab38;">wiseAdvizor.com</a>
+                                </h2>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-996ad43 elementor-align-center elementor-widget elementor-widget-button"
