@@ -600,7 +600,8 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                       <a href="https://wiseadvizor.com/"> {{ $blog->author_name ?? '' }} </a> 
+                                                        <a href="https://wiseadvizor.com/">
+                                                            {{ $blog->author_name ?? '' }} </a>
                                                         | {{ $blog->time_to_read ?? '' }} min read
                                                     </p>
                                                 </div>
@@ -686,6 +687,12 @@
 
 </html>
 <style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
 .white .sa_hero_slider,
 .black .sa_hero_slider {
     height: 75vh !important;
@@ -710,8 +717,8 @@
     color: #6161ff !important;
 } */
 
-.elementor-2650 .elementor-element.elementor-element-1b9ae25  {
-    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+.elementor-2650 .elementor-element.elementor-element-1b9ae25 {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
     margin-top: -20px;
     margin-bottom: -20px;
     padding: 15px 0px 15px 0px;
@@ -789,11 +796,11 @@
     font-weight: 400 !important;
 }
 
-.elementor-2650 .elementor-element.elementor-element-d68302a  {
-    color: #181B34  !important;
-    font-family: "Poppins", Sans-serif  !important;
+.elementor-2650 .elementor-element.elementor-element-d68302a {
+    color: #181B34 !important;
+    font-family: "Poppins", Sans-serif !important;
     font-size: 13px !important;
-    font-weight: 400  !important;
+    font-weight: 400 !important;
 }
 
 /* .elementor-2650 .elementor-element.elementor-element-b12b619 .elementor-heading-title:hover {
