@@ -136,18 +136,22 @@
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <!-- <label>Select with Button Class</label> --> <select id="expertise"
                                     class="selectpicker" data-style="btn-info" name="filters[expertise]">
-                                    <option value="">Expertise</option> @foreach($expertise as $expert) <option
-                                        value="{{ $expert->name }}"
+                                    <option value="">Expertise</option> 
+                                    @foreach($expertise as $expert) 
+                                    <option value="{{ $expert->name }}"
                                         {{ ($expertise_name == $expert->name) ? 'selected' : '' }}> {{ $expert->name }}
-                                    </option> @endforeach
+                                    </option> 
+                                    @endforeach
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter"> <input
                                     type="date" class="form-control selectpicker" id="date" name="filters[date]"> </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 filters name"> <select id="name"
                                     class="selectpicker" data-style="btn-info" name="filters[name]">
-                                    <option value="">Search by name</option> @foreach($price as $pr) <option
-                                        value="{{ $pr->name }}">{{ $pr->name }}</option> @endforeach
+                                    <option value="">Search by name</option> 
+                                    @foreach($price as $pr) 
+                                    <option value="{{ $pr->name }}">{{ $pr->name }}</option> 
+                                    @endforeach
                                 </select> </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters"> <select id="sort"
                                     class="selectpicker" data-style="btn-info" name="filters[sort_by]">
@@ -319,7 +323,9 @@
             }
             </style>
             <div class="elementor-container elementor-column-gap-no">
-                <div class="row elementor-hidden-mobile filter_result"> @foreach($mentors as $mentor) <div
+                <div class="row elementor-hidden-mobile filter_result"> 
+                    @foreach($mentors as $mentor) 
+                    <div
                         class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                         data-id="6a69efe" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -342,14 +348,18 @@
                                                             style="color: #000000">{{ $mentor->name }}</span></h5>
                                                     <p><span style="font-size:14px;color: #000000">{{ $mentor->metaData->designation }},
                                                             {{ $mentor->metaData->company }}</span><br /> <span
-                                                            style="font-size:14px;color: #000000"> @php $totalReviews =
-                                                            \App\Models\Review::where('mentor_id',
-                                                            $mentor->id)->get()->count(); $totalSessions =
-                                                            \App\Models\ScheduledCall::where('mentor_id',
-                                                            $mentor->id)->where('status', 'Approved')->where('is_paid',
-                                                            1)->get()->count(); echo $totalReviews; if($totalReviews >
-                                                            1) { echo " Reviews / ".$totalSessions. " Sessions"; } else
-                                                            { echo " Review / ".$totalSessions. " Sessions"; } @endphp
+                                                            style="font-size:14px;color: #000000"> 
+                                                            @php 
+                                                            $totalReviews = \App\Models\Review::where('mentor_id',$mentor->id)->get()->count(); 
+                                                            $totalSessions =\App\Models\ScheduledCall::where('mentor_id',$mentor->id)->where('status', 'Approved')->where('is_paid',1)->get()->count();
+                                                            echo $totalReviews; 
+                                                            if($totalReviews > 1) 
+                                                            { echo " Reviews / ".$totalSessions. " Sessions"; } 
+                                                            else
+                                                            { 
+                                                            echo " Review / ".$totalSessions. " Sessions"; 
+                                                            } 
+                                                            @endphp
                                                         </span> </p>
                                                     <div class="elementor-star-rating" title="5/5"
                                                         itemtype="http://schema.org/Rating" itemscope=""
@@ -363,11 +373,17 @@
                                                             class="elementor-screen-only">5/5</span> </div>
                                                     <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
                                                     <p><span class="exp" style="color: #000000">Expertise:</span> </p>
-                                                    <ul> @php $expertise = \App\Models\Expertise::where('mentor_id',
-                                                        $mentor->id)->take(4)->get(); @endphp @foreach($expertise as
-                                                        $expert) <li class="expertise"><span
+                                                    <ul> 
+                                                    @php 
+                                                    $expertise = \App\Models\Expertise::where('mentor_id',
+                                                        $mentor->id)->take(4)->get(); 
+                                                        @endphp 
+                                                        @foreach($expertise as $expert)
+                                                         <li class="expertise"><span
                                                                 style="color: #000000">{{ $expert->expertise }}</span>
-                                                        </li> @endforeach </ul>
+                                                        </li> 
+                                                        @endforeach 
+                                                    </ul>
                                                     <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                                         data-id="0e640ef" data-element_type="widget"
                                                         data-widget_type="text-editor.default">
@@ -383,14 +399,16 @@
                                                                 <div class="elementor-widget-container" style=""> <span
                                                                         class="slot"
                                                                         style="font-size:14px;color: #000000"> Next Slot
-                                                                        - @php $nextAvailability =
-                                                                        \App\Models\AvailableSchedule::where('mentor_id',
+                                                                        - @php 
+                                                                        $nextAvailability =  \App\Models\AvailableSchedule::where('mentor_id',
                                                                         $mentor->id) ->whereDate('date', '>', now())
                                                                         ->where('is_booked', 0) ->orderBy('date', 'asc')
-                                                                        ->first(); @endphp
+                                                                        ->first();
+                                                                        @endphp
                                                                         @if(!empty($nextAvailability))
                                                                         {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
-                                                                        @endif </span> <span class="charge"
+                                                                        @endif 
+                                                                       </span> <span class="charge"
                                                                         style="font-size:14px;float:right;color: #000000">
                                                                         $
                                                                         {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
@@ -400,16 +418,21 @@
                                                                         href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;background-color:#001E64;">View
-                                                                        Profile</a> @if(Auth::id() &&
-                                                                    auth()->user()->role_id == 3) <a
+                                                                        Profile</a> 
+                                                                        @if(Auth::id() && auth()->user()->role_id == 3)
+                                                                      <a
                                                                         href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                        Call</a> @else <a
+                                                                        Call</a> 
+                                                                        @else 
+                                                                        <a
                                                                         href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                        Call</a> @endif </div>
+                                                                        Call</a> 
+                                                                        @endif 
+                                                                    </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -420,9 +443,12 @@
                                 </div>
                             </div>
                         </div>
-                    </div> @endforeach </div>
-                <div class="row elementor-hidden-desktop elementor-hidden-tablet filter_result"> @foreach($mentors as
-                    $mentor) <div
+                    </div> 
+                    @endforeach 
+                </div>
+                <div class="row elementor-hidden-desktop elementor-hidden-tablet filter_result"> 
+                    @foreach($mentors as $mentor)
+                     <div
                         class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-6a69efe"
                         data-id="6a69efe" data-element_type="column">
                         <div class="elementor-widget-wrap elementor-element-populated">
@@ -452,17 +478,23 @@
                                                             <p><span style="color: #000000"><abbr
                                                                         title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>,
                                                                     {{ $mentor->metaData->company }}</span><br /> <span
-                                                                    style="font-size:10px;color: #000000"> @php
+                                                                    style="font-size:10px;color: #000000"> 
+                                                                    @php
                                                                     $totalReviews =
                                                                     \App\Models\Review::where('mentor_id',
                                                                     $mentor->id)->get()->count(); $totalSessions =
                                                                     \App\Models\ScheduledCall::where('mentor_id',
                                                                     $mentor->id)->where('status',
                                                                     'Approved')->where('is_paid', 1)->get()->count();
-                                                                    echo $totalReviews; if($totalReviews > 1) { echo "
-                                                                    Reviews / ".$totalSessions. " Sessions"; } else {
-                                                                    echo " Review / ".$totalSessions. " Sessions"; }
-                                                                    @endphp </span> </p>
+                                                                    echo $totalReviews; 
+                                                                    if($totalReviews > 1) { 
+                                                                    echo " Reviews / ".$totalSessions. " Sessions";
+                                                                    }
+                                                                    else {
+                                                                    echo " Review / ".$totalSessions. " Sessions"; 
+                                                                    }
+                                                                    @endphp 
+                                                                    </span> </p>
                                                             <div class="elementor-star-rating" title="5/5"
                                                                 itemtype="http://schema.org/Rating" itemscope=""
                                                                 itemprop="reviewRating"> <i
@@ -480,10 +512,13 @@
                                                             <ul class="list-expert"> @php $expertise =
                                                                 \App\Models\Expertise::where('mentor_id',
                                                                 $mentor->id)->take(4)->get(); @endphp
-                                                                @foreach($expertise as $expert) <li class="expertise">
+                                                                @foreach($expertise as $expert) 
+                                                                <li class="expertise">
                                                                     <span
                                                                         style="color: #000000">{{ $expert->expertise }}</span>
-                                                                </li> @endforeach </ul>
+                                                                </li> 
+                                                                @endforeach 
+                                                            </ul>
                                                         </div>
                                                     </div>
                                                     <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
@@ -501,14 +536,18 @@
                                                                 <div class="elementor-widget-container" style=""> <span
                                                                         class="slot"
                                                                         style="font-size:11px;color: #000000"><strong>
-                                                                            Next Slot - @php $nextAvailability =
+                                                                            Next Slot - 
+                                                                            @php 
+                                                                            $nextAvailability =
                                                                             \App\Models\AvailableSchedule::where('mentor_id',
                                                                             $mentor->id) ->whereDate('date', '>', now())
                                                                             ->where('is_booked', 0) ->orderBy('date',
-                                                                            'asc') ->first(); @endphp
+                                                                            'asc') ->first(); 
+                                                                            @endphp
                                                                             @if(!empty($nextAvailability))
                                                                             {{ Carbon\Carbon::parse($nextAvailability->date)->format('jS M, Y') }}
-                                                                            @endif </strong></span> <span class="charge"
+                                                                            @endif 
+                                                                        </strong></span> <span class="charge"
                                                                         style="font-size:11px;float:right;color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
@@ -518,16 +557,21 @@
                                                                         href="{{ route('profile', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary view_profile"
                                                                         style="margin-top:5px;background-color:#001E64;font-size:11px;">View
-                                                                        Profile</a> @if(Auth::id() &&
+                                                                        Profile</a> 
+                                                                        @if(Auth::id() &&
                                                                     auth()->user()->role_id == 3) <a
                                                                         href="{{ route('schedule-call', [$mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                        Call</a> @else <a
+                                                                        Call</a> 
+                                                                        @else 
+                                                                        <a
                                                                         href="{{ route('login', ['schedule-call', $mentor->id, ucfirst(Str::slug($mentor->name))]) }}"
                                                                         class="btn btn-primary"
                                                                         style="margin-top:5px;float: right;background-color:#001E64;">Schedule
-                                                                        Call</a> @endif </div>
+                                                                        Call</a> 
+                                                                        @endif 
+                                                                    </div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -538,7 +582,9 @@
                                 </div>
                             </div>
                         </div>
-                    </div> @endforeach </div>
+                    </div> 
+                    @endforeach 
+                </div>
             </div>
         </section>
     </div>
