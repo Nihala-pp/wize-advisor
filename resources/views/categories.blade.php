@@ -14,12 +14,14 @@
         content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
     <meta property="og:image"
         content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
-    <meta property="og:url" content="https://wiseadvizor.com/categories/{{ $category->id }}/{{ Str::slug($category->name) }}">
+    <meta property="og:url"
+        content="https://wiseadvizor.com/categories/{{ $category->id }}/{{ Str::slug($category->name) }}">
     <meta property="og:site_name" content="wiseAdvizor" />
     <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
     <meta name="twitter:description"
         content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
-    <meta name="twitter:url" content="https://wiseadvizor.com/categories/{{ $category->id }}/{{ Str::slug($category->name) }}">
+    <meta name="twitter:url"
+        content="https://wiseadvizor.com/categories/{{ $category->id }}/{{ Str::slug($category->name) }}">
     <meta name="twitter:image"
         url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta name="twitter:card" content="summary_large_image">
@@ -261,8 +263,9 @@
                                                 data-widget_type="heading.default">
                                                 <div class="elementor-widget-container">
                                                     <p class="elementor-heading-title elementor-size-default">
-                                                       <a href="https://wiseadvizor.com"> {{ $blog->author_name ?? '' }} </a>
-                                                        | {{ $blog->time_to_read ?? '' }}  min read
+                                                        <a href="https://wiseadvizor.com">
+                                                            {{ $blog->author_name ?? '' }} </a>
+                                                        | {{ $blog->time_to_read ?? '' }} min read
                                                     </p>
                                                 </div>
                                             </div>
@@ -290,8 +293,15 @@
     });
     </script>
 </body>
+
 </html>
 <style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
 .elementor-6547 .elementor-element.elementor-element-d406f39 img {
     border-radius: 5px 5px 0px 0px;
     margin-top: 20px;
