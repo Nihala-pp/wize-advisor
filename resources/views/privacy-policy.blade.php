@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Protecting Your Privacy on wiseAdvizor | Mentorship Program</title>
@@ -35,6 +36,7 @@
     <link rel="canonical" href="https://wiseadvizor.com/privacy-policy">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-2917 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2917">
 
@@ -243,6 +245,12 @@
 
 </body>
 <style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
@@ -428,4 +436,5 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+
 </html>

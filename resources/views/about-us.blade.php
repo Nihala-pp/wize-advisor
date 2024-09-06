@@ -477,6 +477,12 @@
 
 </body>
 <style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
 .elementor-7317 .elementor-element.elementor-element-f9febf9 .wpr-anim-text {
     color: #FFFFFF;
     margin-top: -60px;

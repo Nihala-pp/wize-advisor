@@ -14,12 +14,14 @@
         content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
     <meta property="og:image"
         content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
-    <meta property="og:url" content="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
+    <meta property="og:url"
+        content="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
     <meta property="og:site_name" content="wiseAdvizor" />
     <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
     <meta name="twitter:description"
         content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
-    <meta name="twitter:url" content="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
+    <meta name="twitter:url"
+        content="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
     <meta name="twitter:image"
         url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta name="twitter:card" content="summary_large_image">
@@ -129,7 +131,9 @@
 
                                     }
                                     </style>
-                                    <h2 class="elementor-heading-title elementor-size-default elementor-hidden-desktop elementor-hidden-tablet">Hi! I
+                                    <h2
+                                        class="elementor-heading-title elementor-size-default elementor-hidden-desktop elementor-hidden-tablet">
+                                        Hi! I
                                         {{ strtolower('am') }} {{ $data->name }}
                                     </h2>
                                     <img fetchpriority="high" decoding="async" width="241" height="300"
@@ -1733,6 +1737,12 @@
 
 </html>
 <style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
 .elementor-3007 .elementor-element.elementor-element-78270f3>.elementor-widget-container {
     padding: 15px 0px 0px 0px;
 }

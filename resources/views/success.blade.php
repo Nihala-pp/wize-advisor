@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="utf-8">
     <title>Successfully Scheduled Call with{{ $mentor->name }}</title>
@@ -36,7 +37,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel="stylesheet" id="elementor-post-2772-css"
-    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
     <!-- Hotjar Tracking Code for https://wiseadvizor.com -->
     <style type="text/css">
     .current {
@@ -48,17 +49,18 @@
     <script src="https://wiseadvizor.com/wp-includes/js/" id="jquery-core-js"></script>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.7.1" id="jquery-migrate-js">
     </script>
-    <link rel="canonical" href="https://wiseadvizor.com/success/".{{ $call_id }}>
+    <link rel="canonical" href="https://wiseadvizor.com/success/" .{{ $call_id }}>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-13 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-13">
-    
+
     @include('partials.header-common')
-    
+
     <div class="card text-center mt-5">
         <div class="card-header mt-5 scheduled">
-           <h1> Successfully Scheduled </h1>
+            <h1> Successfully Scheduled </h1>
         </div>
         <div class="card-body">
             <div class="rounded-circle mt-3">
@@ -81,6 +83,12 @@
     </script>
 </body>
 <style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
 h1 {
     font-size: 17px;
     font-family: "Helvetica", Sans-serif !important;
@@ -193,6 +201,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media(max-width:767px) {
+
     html,
     body {
         max-width: 100%;
@@ -599,4 +608,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 1280) {}
 </style>
+
 </html>

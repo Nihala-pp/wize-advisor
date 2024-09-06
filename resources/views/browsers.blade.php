@@ -18,8 +18,7 @@
     <title>Find a Mentor and Get expert guidance on {{ $expert_coloumn }}</title>
     <meta name="description"
         content="Find a mentor and gain invaluable entrepreneur advice on {{ $expert_coloumn }} at wiseAdvizor's mentorship program. Schedule a 1:1 call.">
-    <meta name="keywords"
-        content="Find a mentor, {{ $expert_coloumn }}, entrepreneur advice">
+    <meta name="keywords" content="Find a mentor, {{ $expert_coloumn }}, entrepreneur advice">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
@@ -678,6 +677,12 @@
     </script>
 </body>
 <style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
 h1 {
     font-size: 45px !important;
 }
@@ -1631,4 +1636,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
+
 </html>
