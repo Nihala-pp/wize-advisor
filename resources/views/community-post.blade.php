@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description"
-    content="Unlock valuable entrepreneur advice & discover the best business to start by setting clear goals & finding the perfect mentor.">
+        content="Unlock valuable entrepreneur advice & discover the best business to start by setting clear goals & finding the perfect mentor.">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
@@ -63,6 +63,12 @@
     @include('partials.web-script')
 </body>
 <style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: transparent;
+    background-image: linear-gradient(90deg, #FFDE59 0%, #FF66C4 100%);
+}
+
 i.fas.fa-chevron-down {
     margin-top: -15px !important;
     padding-left: 10px !important;
