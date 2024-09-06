@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>FAQ | Get Answers to Your Startup Growth Questions</title>
@@ -27,7 +28,7 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel="stylesheet" id="elementor-post-18-css"
-    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-18.css?ver=1699364612" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-18.css?ver=1699364612" media="all">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     @include('partials.web-style')
@@ -38,6 +39,7 @@
     <link rel="canonical" href="https://wiseadvizor.com/faq">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-18 page-parent wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-18">
 
@@ -915,6 +917,12 @@ i.fas.fa-bell.fa-2xl {
     background-color: #001E64;
 }
 
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
 @media(max-width:480px) {
 
     .elementor-field-group-last_name {
@@ -965,6 +973,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media (max-width: 767px) {
+
     html,
     body {
         max-width: 100%;
@@ -1133,4 +1142,5 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+
 </html>
