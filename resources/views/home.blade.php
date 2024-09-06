@@ -53,7 +53,8 @@
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-9a6781f elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="9a6781f" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}" style="background-color:#000 !importantas;">
+            data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}"
+            style="background-color:#000 !importantas;">
             <div class="elementor-container elementor-column-gap-no" style="max-width:1500px;">
                 <div class="elementor-column elementor-col-60 elementor-top-column elementor-element elementor-element-a037b03"
                     data-id="a037b03" data-element_type="column">
@@ -1952,12 +1953,16 @@
     }
 
     .elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
-        font-family: "Helvetica", Sans-serif;
-        font-weight: 500;
+        font-family: "Sailec", Sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
         background-color: #4285F4;
         border-radius: 7px 7px 7px 7px;
         margin-right: 85px;
-    }
+    }as
 
     .elementor-8 .elementor-element.elementor-element-a212a53 img {
         width: 100%;
@@ -2860,9 +2865,15 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-c70251b a {
-    background-color: #001E64 !important;
-    font-family: "Helvetica", sans-serif;
+    background-color: #4285f4 !important;
+    font-family: "Sailec", sans-serif;
     border-radius: 7px 7px 7px 7px;
+    font-family: "Sailec", Sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    fill: #FFFFFF;
+    color: #FFFFFF;
 }
 
 @media (max-width: 767px) {
