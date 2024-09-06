@@ -3381,6 +3381,22 @@ i.fas.fa-chevron-down {
         margin-left: 50px;
         margin-right: 20px;
     }
+
+    .elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
+        font-family: "Sailec", Sans-serif;
+        font-size: 0.9rem;
+        font-weight: 600;
+        letter-spacing: 1.2px;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #4285f4;
+        border-radius: 7px 7px 7px 7px;
+        margin-bottom: 10px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-62d1cd5>.elementor-widget-container {
+        padding: 0px 10px 10px 10px;
+    }
 }
 
 @media (max-width: 320px) {
