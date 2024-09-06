@@ -3422,7 +3422,7 @@ i.fas.fa-chevron-down {
         --counter-number-grow: 0;
         color: #FFFFFF;
         font-family: "Poppins", Sans-serif;
-        font-size: 25px;
+        font-size: 23px;
         font-weight: 400;
         margin-right: 30px;
     }
@@ -3439,6 +3439,17 @@ i.fas.fa-chevron-down {
         font-size: 9px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-title {
+        color: #c7cacb !important;
+        font-size: 9px;
+        margin-right: 25px !important;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
+        color: #c7cacb !important;
+        font-size: 9px;
+        margin-right: 0px !important;
+    }
 }
 
 @media (min-width: 361px) and (max-width:412px) {
