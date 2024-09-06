@@ -31,6 +31,12 @@
     </div>
 </footer>
 <style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+  background-color: #000 !important;
+  background-image: linear-gradient(90deg, #000 0%, #000 100%) !important;
+}
+
 .elementor-3007 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
 .elementor-3007 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000 !important;
