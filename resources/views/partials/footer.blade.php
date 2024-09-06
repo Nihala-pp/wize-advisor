@@ -1,15 +1,15 @@
 <footer class="footer py-4">
-        <div class="container-fluid">
-          <div class="row align-items-center justify-content-lg-between">
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6 mb-lg-0 mb-4">
-              <div class="copyright text-center text-sm text-muted text-lg-start">
-                © <script>
-                  document.write(new Date().getFullYear())
-                </script>,
-                made with <i class="fa fa-heart"></i> by
-                <a href="" class="font-weight-bold" target="_blank">IVY Investment LLC</a>
-                for a better web.
-              </div>
+                <div class="copyright text-center text-sm text-muted text-lg-start">
+                    © <script>
+                    document.write(new Date().getFullYear())
+                    </script>,
+                    made with <i class="fa fa-heart"></i> by
+                    <a href="" class="font-weight-bold" target="_blank">IVY Investment LLC</a>
+                    for a better web.
+                </div>
             </div>
             <!-- <div class="col-lg-6">
               <ul class="nav nav-footer justify-content-center justify-content-lg-end">
@@ -27,6 +27,13 @@
                 </li>
               </ul>
             </div> -->
-          </div>
         </div>
-      </footer>
+    </div>
+</footer>
+<style>
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000 !important;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+</style>
