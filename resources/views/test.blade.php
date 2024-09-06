@@ -2878,6 +2878,8 @@ i.fas.fa-chevron-down {
         padding-top: 30px;
     }
 
+
+
     .elementor-8 .elementor-element.elementor-element-d07a702 .elementor-heading-title {
         color: #FFFFFF;
         font-family: "Helvetica", Sans-serif;
@@ -3357,6 +3359,27 @@ i.fas.fa-chevron-down {
         font-family: "Helvetica", Sans-serif;
         color: #fff !important;
         padding-left: 9px;
+    }
+}
+
+@media (max-width: 360px) {
+    .elementor-8 .elementor-element.elementor-element-9ecb7fe .elementor-heading-title {
+        color: #fff;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 1.5rem;
+        letter-spacing: 0px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-085e562 .elementor-heading-title {
+        color: #c7cacb;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 400;
+        font-size: 12px !important;
+        margin-top: -100px;
+        margin-left: 50px;
+        margin-right: 20px;
     }
 }
 
