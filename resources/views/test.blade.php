@@ -3419,10 +3419,25 @@ i.fas.fa-chevron-down {
         color: #FFFFFF;
         background-color: #4285f4;
         border-radius: 7px 7px 7px 7px;
-        margin-bottom: 0px; a
+        margin-bottom: 0px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
+        color: #c7cacb !important;
+        font-size: 11px;
+        margin-right: 0px !important;
+    }
 
+    .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-title {
+        color: #c7cacb !important;
+        font-size: 11px;
+        margin-right: 25px !important;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
+        color: #c7cacb !important;
+        font-size: 11px;
+    }
 }
 
 @media (max-width: 320px) {
