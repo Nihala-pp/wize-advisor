@@ -3407,6 +3407,38 @@ i.fas.fa-chevron-down {
         margin-left: 40px !important;
         /* margin-right: 20px; */
     }
+
+    .elementor-8 .elementor-element.elementor-element-4faaf3c .elementor-counter-number-wrapper {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 22px;
+        font-weight: 500;
+        margin-right: 75px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-number-wrapper {
+        --counter-prefix-grow: 1;
+        --counter-suffix-grow: 1;
+        --counter-number-grow: 0;
+        color: #FFFFFF;
+        font-family: "Poppins", Sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+        margin-right: 30px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-number-wrapper {
+        color: #FFFFFF;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-18e76af .elementor-counter-title {
+        color: #c7cacb !important;
+        font-size: 9px;
+    }
+
 }
 
 @media (min-width: 361px) and (max-width:412px) {
