@@ -706,7 +706,7 @@
     color: #6161ff !important;
     font-family: "helvetica", "Sans-serif" !important;
     font-size: 16px !important;
-    q font-weight: 600 !important;
+    font-weight: 600 !important;
 }
 
 /* .elementor-widget-heading .elementor-heading-title {
