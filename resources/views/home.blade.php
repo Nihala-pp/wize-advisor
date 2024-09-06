@@ -1962,7 +1962,7 @@
         background-color: #4285F4;
         border-radius: 7px 7px 7px 7px;
         margin-right: 85px;
-    }as
+    }
 
     .elementor-8 .elementor-element.elementor-element-a212a53 img {
         width: 100%;
