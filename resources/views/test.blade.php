@@ -3372,15 +3372,15 @@ i.fas.fa-chevron-down {
         letter-spacing: 0px;
     }
 
-    .elementor-8 .elementor-element.elementor-element-085e562 .elementor-heading-title {
+    /* .elementor-8 .elementor-element.elementor-element-085e562 .elementor-heading-title {
         color: #c7cacb;
         font-family: "Helvetica", Sans-serif;
         font-weight: 400;
         font-size: 12px !important;
-        margin-top: -100px;
-        margin-left: 50px;
+        margin-top: -105px;
+        margin-left: 40px;
         margin-right: 20px;
-    }
+    } */
 
     .elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
         font-family: "Sailec", Sans-serif;
@@ -3396,6 +3396,16 @@ i.fas.fa-chevron-down {
 
     .elementor-8 .elementor-element.elementor-element-62d1cd5>.elementor-widget-container {
         padding: 0px 10px 10px 10px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-085e562 .elementor-heading-title {
+        color: #c7cacb;
+        font-family: "Helvetica", Sans-serif;
+        font-weight: 400;
+        font-size: 12px !important;
+        margin-top: -105px !important;
+        margin-left: 40px !important;
+        /* margin-right: 20px; */
     }
 }
 
