@@ -961,11 +961,12 @@
                                                             data-id="0919c49" data-element_type="widget"
                                                             data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
-                                                                <input class="form-control"
-                                                                    name="referral_link" value="{{ $referral_link }}" disabled>
-                                                                <button class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    id="referral_link" aria-label="Search"
-                                                                    type="submit">
+                                                                <input class="form-control" name="referral_link"
+                                                                    value="{{ $referral_link }}" id="referral_link"
+                                                                    disabled>
+                                                                <button
+                                                                    class="elementor-button elementor-button-link elementor-size-sm"
+                                                                    id="copy_link" aria-label="Search" type="submit">
                                                                     <i class="fas fa-copy"></i>
                                                                     Copy referral
                                                                 </button>
@@ -1565,17 +1566,23 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-<!-- <script type="text/javascript">
+<script type="text/javascript">
 (function($) {
     $(document).ready(function() {
-        $('.search').on('click', function() {
-            var expertise = $('.expertise').val();
+        $('#copy_link').on('click', function() {
+            // Get the text field
+            var copyText = document.getElementById("referral_link");
 
-            return $.ajax({
-                type: 'GET',
-                url: "https://wiseadvizor.com/BrowseMentors/" + expertise,
-            });
+            // Select the text field
+            copyText.select();
+            copyText.setSelectionRange(0, 99999); // For mobile devices
+
+            // Copy the text inside the text field
+            navigator.clipboard.writeText(copyText.value);
+
+            // Alert the copied text
+            alert("Copied the text: " + copyText.value);
         });
     });
 }(jQuery));
-</script> -->
+</script>
