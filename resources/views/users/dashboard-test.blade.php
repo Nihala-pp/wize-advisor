@@ -1311,7 +1311,7 @@
     font-size: 12px;
     font-weight: 400;
     font-style: normal;
-    line-height: 1px;
+    line-height: 15px;
     letter-spacing: 0px;
     word-spacing: 0px;
     text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
