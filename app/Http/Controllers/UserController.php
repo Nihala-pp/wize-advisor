@@ -21,6 +21,7 @@ use App\Mail\ScheduleCallRequest;
 use App\Mail\ScheduleCallRequestUser;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Validation\Rules\Password;
+
 use Hash;
 
 class UserController extends Controller
@@ -168,30 +169,8 @@ window.location.href = "https://wiseadvizor.com/user/dashboard";
 
   public function profile($id)
   {
-    $expertise = [
-      '1' => 'Sales',
-      '2' => 'Marketing',
-      '3' => 'Technology',
-      '4' => 'Idea Validation',
-      '5' => 'Product Market Fit',
-      '6' => 'Team Management',
-      '7' => 'Content creation',
-      '8' => 'Leadership',
-      '9' => 'Fund raising',
-      '10' => 'Networking',
-      '11' => 'Social Media',
-      '12' => 'Pricing Strategy',
-      '13' => 'Startup valuation',
-      '14' => 'Business Strategy',
-      '15' => 'Email Marketing',
-      '16' => 'Brand Building ',
-      '17' => 'SEO',
-      '18' => 'Operations and logistics',
-      '19' => 'Risk Management',
-      '20' => 'Ads Strategy',
-      '21' => 'Go to Market Strategy',
-      '22' => 'Growth Strategy'
-    ];
+    $expertise = ExpertiseList::where('is_active', 0)->get();
+
 
     $timezone = AvailableSchedule::timezones();
     $id = Auth::id();
