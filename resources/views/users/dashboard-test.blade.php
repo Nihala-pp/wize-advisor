@@ -610,22 +610,62 @@
                                                             aria-selected="false" data-tab="2" role="tab" tabindex="-1"
                                                             aria-controls="elementor-tab-content-6222"
                                                             aria-expanded="false">Requested Sessions</div>
+                                                        @foreach($requested_sessions as $requested_session)
                                                         <div id="elementor-tab-content-6222"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="2" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6222" tabindex="0"
-                                                            hidden="hidden">Lorem ipsum dolor sit amet, consectetur
-                                                            adipiscing elit. Ut elit tellus, luctus nec ullamcorper
-                                                            mattis, pulvinar dapibus leo.</div>
+                                                            hidden="hidden">
+                                                            <p>Session with
+                                                                {{ $requested_session->mentor->name }}<br />Date &amp;
+                                                                Time :
+                                                                {{ Carbon\Carbon::parse($requested_session->date)->format('jS F\\, Y') }},
+                                                                {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }}
+                                                                <span
+                                                                    style="letter-spacing: 0px;">{{ $requested_session->utc }}<br /><br /></span>
+                                                            </p>
+                                                            <p>Description
+                                                                :<br />{{ $requested_session->description }}<br /><br />
+                                                            </p>
+                                                            <p><span style="color: #3366ff;"><em><a
+                                                                            href="{{ $requested_session->call_link ?: '' }}"
+                                                                            class="link" data-bs-toggle="tooltip"
+                                                                            data-bs-placement="bottom"
+                                                                            title="Join Session">
+                                                                        </a>Join
+                                                                        Session</em></span></p>
+                                                        </div>
+                                                        @endforeach
                                                         <div class="elementor-tab-title elementor-tab-mobile-title"
                                                             aria-selected="false" data-tab="3" role="tab" tabindex="-1"
                                                             aria-controls="elementor-tab-content-6223"
                                                             aria-expanded="false">Completed Sessions</div>
+                                                        @foreach($completed_sessions as $completed_session)
                                                         <div id="elementor-tab-content-6223"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="3" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6223" tabindex="0"
-                                                            hidden="hidden">Tab Content</div>
+                                                            hidden="hidden">
+                                                            <p>Session with
+                                                                {{ $completed_session->mentor->name }}<br />Date &amp;
+                                                                Time :
+                                                                {{ Carbon\Carbon::parse($completed_session->date)->format('jS F\\, Y') }},
+                                                                {{ Illuminate\Support\Carbon::parse($completed_session->start_time)->format('h:i A') }}
+                                                                <span
+                                                                    style="letter-spacing: 0px;">{{ $completed_session->utc }}<br /><br /></span>
+                                                            </p>
+                                                            <p>Description
+                                                                :<br />{{ $completed_session->description }}<br /><br />
+                                                            </p>
+                                                            <p><span style="color: #3366ff;"><em><a
+                                                                            href="{{ $completed_session->call_link ?: '' }}"
+                                                                            class="link" data-bs-toggle="tooltip"
+                                                                            data-bs-placement="bottom"
+                                                                            title="Join Session">
+                                                                        </a>Join
+                                                                        Session</em></span></p>
+                                                        </div>
+                                                        @endforeach
                                                     </div>
                                                 </div>
                                             </div>
