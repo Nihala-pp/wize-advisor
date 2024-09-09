@@ -11,14 +11,13 @@
         <link rel='stylesheet' id='dashicons-css'
             href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
     </noscript>
-    <link rel='stylesheet' id='admin-bar-css'
-        href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3' media='all' />
+    <link rel='stylesheet' id='admin-bar-css' href='https://wiseadvizor.com/wp-includes/css/admin-bar.min.css?ver=6.4.3'
+        media='all' />
     <link rel='stylesheet' id='elementor-icons-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.29.0'
         media='all' />
     <link rel='stylesheet' id='elementor-common-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6'
-        media='all' />
+        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.21.6' media='all' />
     <link rel='stylesheet' id='e-theme-ui-light-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.21.6'
         media='all' />
@@ -28,6 +27,10 @@
     <link rel='stylesheet' id='hfe-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.css?ver=1.6.33'
         media='all' />
+    <link rel="stylesheet" id="elementor-post-3007-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
+    <link rel="stylesheet" id="elementor-post-32-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1688661608" media="all">
     <link rel='stylesheet' id='elementor-frontend-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.21.6'
         media='all' />
@@ -63,8 +66,7 @@
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
-        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
-        media='print' />
+        href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
     <!-- <link rel='stylesheet' id='wpforms-admin-bar-css'
         href='https://wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
         media='all' /> -->
@@ -2213,8 +2215,7 @@
                 id="wp-escape-html-js"></script>
             <script src="https://wiseadvizor.com/wp-includes/js/dist/element.min.js?ver=ed1c7604880e8b574b40"
                 id="wp-element-js"></script>
-            <script
-                src="https://wiseadvizor.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee"
+            <script src="https://wiseadvizor.com/wp-includes/js/dist/is-shallow-equal.min.js?ver=20c2b06ecf04afb14fee"
                 id="wp-is-shallow-equal-js"></script>
             <script src="https://wiseadvizor.com/wp-includes/js/dist/keycodes.min.js?ver=3460bd0fac9859d6886c"
                 id="wp-keycodes-js"></script>
@@ -2222,8 +2223,8 @@
                 id="wp-priority-queue-js"></script>
             <script src="https://wiseadvizor.com/wp-includes/js/dist/compose.min.js?ver=3189b344ff39fef940b7"
                 id="wp-compose-js"></script>
-            <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4"
-                id="moment-js"></script>
+            <script src="https://wiseadvizor.com/wp-includes/js/dist/vendor/moment.min.js?ver=2.29.4" id="moment-js">
+            </script>
             <script id="moment-js-after">
             moment.updateLocale('en_US', {
                 "months": ["January", "February", "March", "April", "May", "June", "July", "August",
@@ -2391,8 +2392,7 @@
             </script>
             <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/web-cli.min.js?ver=3.21.6"
                 id="elementor-web-cli-js"></script>
-            <script
-                src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
+            <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/dialog/dialog.min.js?ver=4.9.0"
                 id="elementor-dialog-js"></script>
             <script id="wp-api-request-js-extra">
             var wpApiSettings = {
@@ -2401,8 +2401,8 @@
                 "versionString": "wp\/v2\/"
             };
             </script>
-            <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3"
-                id="wp-api-request-js"></script>
+            <script src="https://wiseadvizor.com/wp-includes/js/api-request.min.js?ver=6.4.3" id="wp-api-request-js">
+            </script>
             <script id="elementor-dev-tools-js-before">
             var elementorDevToolsConfig = {
                 "isDebug": true,
@@ -2888,8 +2888,7 @@
                 "onboarding": []
             };
             </script>
-            <script
-                src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
+            <script src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/app-loader.min.js?ver=3.21.6"
                 id="elementor-app-loader-js"></script>
             <script id="tpgb-admin-bar-js-before">
             var TpgbAdminbar = {
@@ -3126,8 +3125,7 @@
                 }
             };
             </script>
-            <script
-                src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
+            <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.8.2"
                 id="elementor-pro-frontend-js"></script>
             <script
                 src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
@@ -3178,8 +3176,8 @@
             <script
                 src="https://wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
                 id="elementor-admin-bar-js"></script>
-            <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
-                id="hoverintent-js-js"></script>
+            <script src="https://wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1" id="hoverintent-js-js">
+            </script>
             <script src="https://wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
             </script>
 </body>
