@@ -242,4 +242,4 @@ Route::controller(UserController::class)
 // Route::get('home-test', [TestController::class, 'homeTest'])->name('home-test');
 //    Route::get('contactus-test', [TestController::class, 'contactuspage'])->name('contact-test');
 
-Route::get('test', [TestController::class, 'homeTest'])->name('test');
+Route::get('test', [TestController::class, 'test'])->name('test');
