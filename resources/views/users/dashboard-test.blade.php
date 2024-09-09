@@ -706,6 +706,7 @@
                                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3297377"
                                     data-id="3297377" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
+                                    @foreach($suggested_mentors as $suggested_mentor)
                                         <div class="elementor-element elementor-element-89a31e1 elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box"
                                             data-id="89a31e1" data-element_type="widget"
                                             data-widget_type="image-box.default">
@@ -774,7 +775,6 @@
                                                     margin: 0
                                                 }
                                                 </style>
-                                                @foreach($suggested_mentors as $suggested_mentor)
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img"><img fetchpriority="high"
                                                             decoding="async" width="400" height="400"
