@@ -236,6 +236,7 @@ Route::controller(UserController::class)
         Route::get('/my-reviews', 'listReviews')->name('reviews.list');
         Route::get('/profileTest', 'profileTest')->name('profileTest');
         Route::get('/test', 'test')->name('test');
+        Route::get('BrowseMentors/{expertise_name?}','searchExpertise')->name('searchExpertise');
     });
 
    //***             Test Routes               ****///

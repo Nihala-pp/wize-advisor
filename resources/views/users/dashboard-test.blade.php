@@ -330,27 +330,23 @@
                                             data-widget_type="wpr-search.default">
                                             <div class="elementor-widget-container">
 
-                                                <form role="search" method="get" class="wpr-search-form"
-                                                    action="https://wiseadvizor.com">
-
+                                                <form name="searchForm" role="search" method="get"
+                                                    class="wpr-search-form" action="{{ route('searchExpertise') }}">
                                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
                                                         <input class="wpr-search-form-input"
                                                             placeholder="e.g. Idea validation, Fund raising"
-                                                            aria-label="Search" type="search" name="s" title="Search"
+                                                            aria-label="Search" type="search" name="search_term" title="Search"
                                                             value="" wpr-query-type="all" wpr-taxonomy-type=""
                                                             number-of-results="2" ajax-search="" show-description="yes"
                                                             number-of-words="30" show-ajax-thumbnails=""
                                                             show-view-result-btn="" view-result-text="View Results"
                                                             no-results="No Results Found" exclude-without-thumb=""
                                                             link-target="_self">
-
                                                         <button class="wpr-search-form-submit" aria-label="Search"
                                                             type="submit">
                                                             <i class="fas fa-search"></i>
                                                         </button>
-
                                                     </div>
-
                                                 </form>
                                                 <div class="wpr-data-fetch">
                                                     <span class="wpr-close-search"></span>
@@ -359,7 +355,6 @@
                                                         in the PRO version (This notice is only visible to admin users)
                                                     </p>
                                                 </div>
-
                                             </div>
                                         </div>
                                     </div>
@@ -370,7 +365,7 @@
                             class="elementor-section elementor-top-section elementor-element elementor-element-eec6221 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="eec6221" data-element_type="section"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-default">
+                                 <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-af40b3d"
                                     data-id="af40b3d" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -797,7 +792,8 @@
                                             <div class="elementor-widget-container">
                                                 <div class="wpr-button-wrap elementor-clearfix">
                                                     <a class="wpr-button wpr-button-effect wpr-button-none"
-                                                        data-text="Go" href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}">
+                                                        data-text="Go"
+                                                        href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}">
                                                         <span class="wpr-button-content">
                                                             <span class="wpr-button-text">Book session</span>
                                                         </span>
@@ -1560,3 +1556,22 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
+<script type="text/javascript">
+(function($) {
+    $(document).ready(function() {
+        $('.apply_filters').on('click', function() {
+            var form = $('.filterForm').serialize();
+
+            return $.ajax({
+                type: 'GET',
+                url: "{{ Str::slug(route('browseMentor')) }}",
+                data: {
+                    form,
+                    "_token": "{{ csrf_token() }}",
+                },
+                success: function(response) {}
+            });
+        });
+    });
+}(jQuery));
+</script>

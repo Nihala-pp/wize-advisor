@@ -423,4 +423,9 @@ alert("Password Updated Successfully!");
        return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications', 'suggested_mentors'));
     } 
   }
+
+  public function searchExpertise()
+  {
+      
+  }
 }
