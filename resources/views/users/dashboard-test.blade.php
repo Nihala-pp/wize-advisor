@@ -277,6 +277,7 @@
 
 <body
     class="page-template page-template-elementor_header_footer page page-id-7754 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7754">
+    @include('partials.header-common')
     <div id="page" class="site">
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
