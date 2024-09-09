@@ -386,6 +386,7 @@ alert("Password Updated Successfully!");
 
     $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
 
+    if(!empty($expertise)) {
       foreach($expertise as $expert) {
        $suggested_mentors = User::with(['expertise'])
        ->where('role_id', 2)
@@ -397,6 +398,12 @@ alert("Password Updated Successfully!");
        })
        ->take(3)->get();
      }
+    }
+    else {
+      $suggested_mentors = User::where('role_id', 2)
+      ->WhereNull('status')
+      ->take(3)->get();
+    }
     
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
        return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications', 'suggested_mentors'));
