@@ -2628,4 +2628,16 @@
     background-color: #000;
     background-image: linear-gradient(90deg, #000 0%, #000 100%);
 }
+
+i.fas.fa-chevron-down {
+    margin-top: -15px !important;
+    padding-left: 10px !important;
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
+
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
+}
 </style>
