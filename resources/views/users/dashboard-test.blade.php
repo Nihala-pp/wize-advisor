@@ -962,8 +962,10 @@
                                                             data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-button-wrapper">
-                                                                <input type="text" class="form-control" value="" name="referral_link" disabled>
-                                                                    <a id="referral_link" class="elementor-button elementor-button-link elementor-size-sm"
+                                                                    <input type="text" class="form-control" value=""
+                                                                        name="referral_link" disabled>
+                                                                    <a id="referral_link"
+                                                                        class="elementor-button elementor-button-link elementor-size-sm"
                                                                         href="#">Copy referral
                                                                     </a>
                                                                 </div>
