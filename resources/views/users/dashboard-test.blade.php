@@ -2620,7 +2620,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .site-main>* {
-    /* margin-top: calc(3 * var(--global--spacing-vertical)); */
-    /* margin-bottom: calc(3 * var(--global--spacing-vertical)); */
+     margin-top: 0px; 
+    margin-bottom: 0px;
 }
 </style>
