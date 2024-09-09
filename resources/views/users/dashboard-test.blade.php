@@ -331,19 +331,20 @@
                                             <div class="elementor-widget-container">
 
                                                 <form name="searchForm" role="search" method="get"
-                                                    class="wpr-search-form" action="{{ route('browseMentor') }}">
+                                                    class="wpr-search-form">
                                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
-                                                        <input class="wpr-search-form-input"
+                                                        <input class="wpr-search-form-input expertise"
                                                             placeholder="e.g. Idea validation, Fund raising"
-                                                            aria-label="Search" type="search" name="filters[expertise]" title="Search"
-                                                            value="" wpr-query-type="all" wpr-taxonomy-type=""
-                                                            number-of-results="2" ajax-search="" show-description="yes"
-                                                            number-of-words="30" show-ajax-thumbnails=""
-                                                            show-view-result-btn="" view-result-text="View Results"
+                                                            aria-label="Search" type="search" name="expertise"
+                                                            title="Search" value="" wpr-query-type="all"
+                                                            wpr-taxonomy-type="" number-of-results="2" ajax-search=""
+                                                            show-description="yes" number-of-words="30"
+                                                            show-ajax-thumbnails="" show-view-result-btn=""
+                                                            view-result-text="View Results"
                                                             no-results="No Results Found" exclude-without-thumb=""
                                                             link-target="_self">
-                                                        <button class="wpr-search-form-submit" aria-label="Search"
-                                                            type="submit">
+                                                        <button class="wpr-search-form-submit search"
+                                                            aria-label="Search" type="submit">
                                                             <i class="fas fa-search"></i>
                                                         </button>
                                                     </div>
@@ -365,7 +366,7 @@
                             class="elementor-section elementor-top-section elementor-element elementor-element-eec6221 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="eec6221" data-element_type="section"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                 <div class="elementor-container elementor-column-gap-default">
+                            <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-af40b3d"
                                     data-id="af40b3d" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -1559,17 +1560,12 @@ i.fas.fa-bell.fa-2xl {
 <script type="text/javascript">
 (function($) {
     $(document).ready(function() {
-        $('.apply_filters').on('click', function() {
-            var form = $('.filterForm').serialize();
+        $('.search').on('click', function() {
+            var expertise = $('.expertise').val();
 
             return $.ajax({
                 type: 'GET',
-                url: "{{ Str::slug(route('browseMentor')) }}",
-                data: {
-                    form,
-                    "_token": "{{ csrf_token() }}",
-                },
-                success: function(response) {}
+                url: "https://wiseadvizor.com/BrowseMentors/" + expertise,
             });
         });
     });
