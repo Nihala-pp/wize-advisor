@@ -405,6 +405,19 @@ alert("Password Updated Successfully!");
     
     $notifications = auth()->user()->unreadNotifications;
 
+    $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
+
+      foreach($expertise as $expert) {
+       $suggested_mentors = User::with(['expertise', 'availability'])
+       ->where('role_id', 2)
+       ->WhereNull('status')
+       ->whereHas('expertise', function ($query) use ($expert) {
+        /** @var Builder $query */
+        if ($expert)
+          $query->where('expertise', 'LIKE', '%' . $expert . '%');
+       })
+       ->get();
+     }
     
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
        return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications'));
