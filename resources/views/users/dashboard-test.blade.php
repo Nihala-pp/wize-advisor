@@ -3174,71 +3174,12 @@
             <script
                 src="https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.8.3"
                 id="wpforms-elementor-js"></script>
-            <script id="elementor-admin-bar-js-before">
-            var elementorAdminBarConfig = {
-                "elementor_edit_page": {
-                    "id": "elementor_edit_page",
-                    "title": "Edit with Elementor",
-                    "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=7754&action=elementor",
-                    "children": {
-                        "32": {
-                            "id": "elementor_edit_doc_32",
-                            "title": "Footer",
-                            "sub_title": "Post",
-                            "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=32&action=elementor"
-                        },
-                        "33": {
-                            "id": "elementor_site_settings",
-                            "title": "Site Settings",
-                            "sub_title": "Site",
-                            "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/post.php?post=7754&action=elementor&active-document=5",
-                            "class": "elementor-site-settings",
-                            "parent_class": "elementor-second-section"
-                        },
-                        "34": {
-                            "id": "elementor_app_site_editor",
-                            "title": "Theme Builder",
-                            "sub_title": "Site",
-                            "href": "https:\/\/web.wiseadvizor.com\/wp-admin\/admin.php?page=elementor-app&ver=3.21.6#\/site-editor",
-                            "class": "elementor-app-link",
-                            "parent_class": "elementor-second-section"
-                        }
-                    }
-                }
-            };
-            </script>
             <script
                 src="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/js/elementor-admin-bar.min.js?ver=3.21.6"
                 id="elementor-admin-bar-js"></script>
             <script src="https://web.wiseadvizor.com/wp-includes/js/hoverintent-js.min.js?ver=2.2.1"
                 id="hoverintent-js-js"></script>
-            <script id="admin-bar-js-before">
-            (function() {
-                function wpforms_admin_bar_menu_init() {
-                    var template = document.getElementById('tmpl-wpforms-admin-menubar-data'),
-                        notifications = document.getElementById('wp-admin-bar-wpforms-notifications');
-
-                    if (!template) {
-                        return;
-                    }
-
-                    if (!notifications) {
-                        var menu = document.getElementById('wp-admin-bar-wpforms-menu-default');
-
-                        if (!menu) {
-                            return;
-                        }
-
-                        menu.insertAdjacentHTML('afterBegin', template.innerHTML);
-                    } else {
-                        notifications.insertAdjacentHTML('afterend', template.innerHTML);
-                    }
-                };
-                document.addEventListener('DOMContentLoaded', wpforms_admin_bar_menu_init);
-            }());
-            </script>
             <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
             </script>
 </body>
-
 </html>
