@@ -44,7 +44,7 @@ class AuthController extends Controller
      *
      * @return response()
      */
-    public function registration($token = Null, $id = Null)
+    public function registration($token = Null, $id = Null, $keyword = Null)
     {
 
         if (!empty($id)) {
