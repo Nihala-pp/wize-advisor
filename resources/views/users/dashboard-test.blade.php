@@ -587,8 +587,8 @@
                                                             aria-labelledby="elementor-tab-title-6221" tabindex="0"
                                                             hidden="false">
                                                             <p>Session with {{ $upcoming_session->mentor->name }}<br />Date &amp; Time :
-                                                            {{ $upcoming_session->date }}, {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }} <span
-                                                                    style="letter-spacing: 0px;">Asia/Dubai<br /><br /></span>
+                                                            {{ Carbon\Carbon::parse($upcoming_session->date)->format('jS F\\, Y') }}, {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }} <span
+                                                                    style="letter-spacing: 0px;">{{ $upcoming_session->utc }}<br /><br /></span>
                                                             </p>
                                                             <p>Description :<br />We have a startup mentorship platform
                                                                 where you can schedule 1:1 calls with world top mentors
