@@ -407,7 +407,9 @@ alert("Password Updated Successfully!");
       ->take(3)->get();
     }
 
-    $referral_link = "https://wiseadvizor.com/registration/".auth()->user()->id."/"."Mentor35"."/"."Startup-mentorship-platform";
+    $discount_code = $this->discount_code_generator($length = 20);
+
+    $referral_link = "https://wiseadvizor.com/registration/".auth()->user()->id."/".$discount_code."/"."Startup-mentorship-platform";
     
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
        return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications', 'suggested_mentors', 'referral_link'));
@@ -420,5 +422,16 @@ alert("Password Updated Successfully!");
       $expertise = $request->expertise;
 
       return redirect()->route('browseMentor', [$expertise]);  
+  }
+
+  public function discount_code_generator($length = 20)
+  {
+    $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
+        $charactersLength = strlen($characters);
+        $randomString = '';
+        for ($i = 0; $i < $length; $i++) {
+            $randomString .= $characters[rand(0, $charactersLength - 1)];
+        }
+        return $randomString;
   }
 }
