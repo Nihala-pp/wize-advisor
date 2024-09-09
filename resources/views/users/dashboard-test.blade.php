@@ -961,7 +961,7 @@
                                                             data-id="0919c49" data-element_type="widget"
                                                             data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
-                                                                <input class="wpr-search-form-input form-control"
+                                                                <input class="form-control"
                                                                     name="referral_link" value="" disabled>
                                                                 <button class="elementor-button elementor-button-link elementor-size-sm"
                                                                     id="referral_link" aria-label="Search"
