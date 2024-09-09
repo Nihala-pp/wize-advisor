@@ -581,14 +581,14 @@
                                                             aria-controls="elementor-tab-content-6221"
                                                             aria-expanded="false">Upcoming Sessions</div>
                                                         @foreach($upcoming_sessions as $upcoming_session)
-                                                        <div id="elementor-tab-content-6221"
+                                                         <div id="elementor-tab-content-6221"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="1" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6221" tabindex="0"
                                                             hidden="false">
-                                                            <p>Session with Svetlana Zuravela<br />Date &amp; Time :
-                                                                30th June 2024, 10:00 AM A<span
-                                                                    style="letter-spacing: 0px;">sia/Dubai<br /><br /></span>
+                                                            <p>Session with {{ $upcoming_session->mentor->name }}<br />Date &amp; Time :
+                                                            {{ $upcoming_session->date }}, {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }} <span
+                                                                    style="letter-spacing: 0px;">Asia/Dubai<br /><br /></span>
                                                             </p>
                                                             <p>Description :<br />We have a startup mentorship platform
                                                                 where you can schedule 1:1 calls with world top mentors
@@ -597,7 +597,7 @@
                                                                 feature.<br /><br /></p>
                                                             <p><span style="color: #3366ff;"><em>Join
                                                                         Session</em></span></p>
-                                                        </div>
+                                                         </div>
                                                         @endforeach
                                                         <div class="elementor-tab-title elementor-tab-mobile-title"
                                                             aria-selected="false" data-tab="2" role="tab" tabindex="-1"
