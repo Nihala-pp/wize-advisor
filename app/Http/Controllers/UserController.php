@@ -426,6 +426,10 @@ alert("Password Updated Successfully!");
 
   public function searchExpertise(Request $request)
   {
+
+      $expertise = $request->expertise;
+
+      return redirect()->route('browseMentor', [$expertise]);
       
   }
 }

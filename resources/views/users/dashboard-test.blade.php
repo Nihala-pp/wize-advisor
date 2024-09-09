@@ -331,7 +331,7 @@
                                             <div class="elementor-widget-container">
 
                                                 <form name="searchForm" role="search" method="get"
-                                                    class="wpr-search-form">
+                                                    class="wpr-search-form" action="{{ route('searchExpertise') }}">
                                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
                                                         <input class="wpr-search-form-input expertise"
                                                             placeholder="e.g. Idea validation, Fund raising"
@@ -1557,7 +1557,7 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 </style>
-<script type="text/javascript">
+<!-- <script type="text/javascript">
 (function($) {
     $(document).ready(function() {
         $('.search').on('click', function() {
@@ -1570,4 +1570,4 @@ i.fas.fa-bell.fa-2xl {
         });
     });
 }(jQuery));
-</script>
+</script> -->
