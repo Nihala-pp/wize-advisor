@@ -323,11 +323,11 @@ alert("Profile Updated Successfully!");
         // dd($request->password_confirmation);
 
          ?>
-         <script type="text/javascript">
-          alert("Password Doesn't Match!");
-           window.location.href="https://wiseadvizor.com/user/change-password";
-        </script>
-      <?php
+<script type="text/javascript">
+alert("Password Doesn't Match!");
+window.location.href = "https://wiseadvizor.com/user/change-password";
+</script>
+<?php
     }
     else {
       $data = [
@@ -347,10 +347,10 @@ alert("Profile Updated Successfully!");
       );
   
       ?>
-     <script type="text/javascript">
-       alert("Password Updated Successfully!");
-     </script>
-       <?php
+<script type="text/javascript">
+alert("Password Updated Successfully!");
+</script>
+<?php
     }
 
     return redirect()->route('user.change-password')->with($notification, 'Password Updated Successfully!');
@@ -394,5 +394,12 @@ alert("Profile Updated Successfully!");
     ];
 
     return view('users.profile-test', compact('data', 'expertise', 'timezone'));
+  }
+
+  public function test()
+  {
+     
+     return view('users.dashboard-test');
+     
   }
 }
