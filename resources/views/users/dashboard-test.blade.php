@@ -783,7 +783,7 @@
                                                             style="width:100%;height:100%;max-width:400px" /></figure>
                                                     <div class="elementor-image-box-content">
                                                         <h6 class="elementor-image-box-title">
-                                                            {{ $suggested_mentor->namne }}</h6>
+                                                            {{ $suggested_mentor->name }}</h6>
                                                         <p class="elementor-image-box-description">
                                                             {{ $suggested_mentor->metaData->designation }}
                                                         </p>
@@ -795,22 +795,14 @@
                                             data-id="00747b5" data-element_type="widget"
                                             data-widget_type="wpr-button.default">
                                             <div class="elementor-widget-container">
-
-
-
                                                 <div class="wpr-button-wrap elementor-clearfix">
                                                     <a class="wpr-button wpr-button-effect wpr-button-none"
-                                                        data-text="Go" href="#link">
-
+                                                        data-text="Go" href="{{ route('schedule-call', [$data->id, ucfirst(Str::slug($data->name))]) }}">
                                                         <span class="wpr-button-content">
                                                             <span class="wpr-button-text">Book session</span>
-
                                                         </span>
                                                     </a>
-
                                                 </div>
-
-
                                             </div>
                                         </div>
                                     </div>
