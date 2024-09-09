@@ -703,7 +703,6 @@
                             data-id="7f40e2c" data-element_type="section"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                             <div class="elementor-container elementor-column-gap-default">
-                            @foreach($suggested_mentors as $suggested_mentor)
                                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3297377"
                                     data-id="3297377" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">

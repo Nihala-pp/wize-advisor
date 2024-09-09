@@ -416,7 +416,7 @@ alert("Password Updated Successfully!");
         if ($expert)
           $query->where('expertise', 'LIKE', '%' . $expert . '%');
        })
-       ->get();
+       ->get()->limit(3);
      }
     
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
