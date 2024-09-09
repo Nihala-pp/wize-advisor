@@ -628,12 +628,11 @@
                                                                 :<br />{{ $requested_session->description }}<br /><br />
                                                             </p>
                                                             <p><span style="color: #3366ff;"><em><a
-                                                                            href="{{ $requested_session->call_link ?: '' }}"
-                                                                            class="link" data-bs-toggle="tooltip"
+                                                                            href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}"
+                                                                            class="" data-bs-toggle="tooltip"
                                                                             data-bs-placement="bottom"
-                                                                            title="Join Session">
-                                                                        </a>Join
-                                                                        Session</em></span></p>
+                                                                            title="update Session">Update
+                                                                            Session</em></span></p>
                                                         </div>
                                                         @endforeach
                                                         <div class="elementor-tab-title elementor-tab-mobile-title"
