@@ -778,7 +778,7 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img"><img fetchpriority="high"
                                                             decoding="async" width="400" height="400"
-                                                            src="{{ asset('public/assets/img') }}/{{ $suggested_mentor->metaData->profile_pic }}"
+                                                            src="{{ asset('public/assets/img') }}/{{ $suggested_mentor->metaData->pro_pic_1 }}"
                                                             class="attachment-full size-full wp-image-7552" alt=""
                                                             style="width:100%;height:100%;max-width:400px" /></figure>
                                                     <div class="elementor-image-box-content">
@@ -827,8 +827,6 @@
                                     </div>
                                 </div> -->
                             </div>
-
-
                         </section>
                         <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-0d73bf6 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
