@@ -632,7 +632,7 @@
                                                                             class="" data-bs-toggle="tooltip"
                                                                             data-bs-placement="bottom"
                                                                             title="update Session">Update
-                                                                            Session</em></span></p>
+                                                                            Session</a></em></span></p>
                                                         </div>
                                                         @endforeach
                                                         <div class="elementor-tab-title elementor-tab-mobile-title"
