@@ -322,9 +322,9 @@
                                         @endforeach
                                         @endforeach
                                         @else
-                                        @foreach($expertise as $key => $expert)
-                                        <option value="{{ $expert }}">
-                                            {{ $expert }}
+                                        @foreach($expertise as $expert)
+                                        <option value="{{$expert->expertise }}">
+                                            {{ $expert->expertise }}
                                         </option>
                                         @endforeach
                                         @endif
