@@ -18,7 +18,7 @@
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
-    <link rel="canonical" href="https://wiseadvizor.com/user-dashboard-new/" />
+    <link rel="canonical" href="https://wiseadvizor.com/user-dashboard-new">
     <meta name="generator"
         content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 </head>
@@ -76,14 +76,14 @@
                                                     display: inline-block
                                                 }
                                                 </style>
-                                                <h6>Welome, Ankur Sharma</h6>
+                                                <h6>Welome, {{ auth()->user()->name }}</h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-67c6c66 elementor-widget elementor-widget-text-editor"
                                             data-id="67c6c66" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <h6><span style="font-weight: normal;">You have 1 upcoming
+                                                <h6><span style="font-weight: normal;">You have {{ $upcoming_sessions->count() }} upcoming
                                                         session</span></h6>
                                             </div>
                                         </div>
@@ -1302,7 +1302,6 @@
                 async>
             </script>
 </body>
-
 </html>
 <style>
 .elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-content {

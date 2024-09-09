@@ -398,8 +398,16 @@ alert("Password Updated Successfully!");
 
   public function test()
   {
-     
-     return view('users.dashboard-test');
-     
+
+    $upcoming_sessions =  ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
+    $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '<', Carbon::now())->get();
+    $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
+    
+    $notifications = auth()->user()->unreadNotifications;
+
+    
+    if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
+       return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications'));
+    } 
   }
 }
