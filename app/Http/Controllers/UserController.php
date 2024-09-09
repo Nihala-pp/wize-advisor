@@ -408,7 +408,6 @@ alert("Password Updated Successfully!");
 
       $expertise = $request->expertise;
 
-      return redirect()->route('browseMentor', [$expertise]);
-      
+      return redirect()->route('browseMentor', [$expertise]);  
   }
 }
