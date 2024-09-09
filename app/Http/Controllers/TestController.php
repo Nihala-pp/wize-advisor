@@ -45,4 +45,11 @@ class TestController extends Controller
         return view('test', compact('mentors', 'users', 'calls', 'reviews', 'completed_sessions'));
     }
   }
+
+  public function test()
+  {
+     
+
+     return view('users.dashboard-test');
+  }
 }
