@@ -316,15 +316,15 @@
                                         @if(!empty($expt))
                                         @foreach($expt as $exp)
                                         @foreach($expertise as $expert)
-                                        <option value="{{ $expert->expertise }}" {{ $expert->expertise == $exp ? 'selected' : '' }}>
-                                            {{ $expert->expertise }}
+                                        <option value="{{ $expert->name }}" {{ $expert->name == $exp ? 'selected' : '' }}>
+                                            {{ $expert->name }}
                                         </option>
                                         @endforeach
                                         @endforeach
                                         @else
                                         @foreach($expertise as $expert)
-                                        <option value="{{$expert->expertise }}">
-                                            {{ $expert->expertise }}
+                                        <option value="{{$expert->name }}">
+                                            {{ $expert->name }}
                                         </option>
                                         @endforeach
                                         @endif
