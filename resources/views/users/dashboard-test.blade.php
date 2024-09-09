@@ -619,7 +619,7 @@
                                                             <p>Session with
                                                                 {{ $requested_session->mentor->name }}<br />Date &amp;
                                                                 Time :
-                                                                {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }}, 
+                                                                {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }},
                                                                 {{ Carbon\Carbon::parse($requested_session->date)->format('jS F\\, Y') }},
                                                                 <span
                                                                     style="letter-spacing: 0px;">{{ $requested_session->utc }}<br /><br /></span>
@@ -774,18 +774,22 @@
                                                     margin: 0
                                                 }
                                                 </style>
+                                                @foreach($suggested_mentors as $suggested_mentor)
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img"><img fetchpriority="high"
                                                             decoding="async" width="400" height="400"
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/06/testimonial-2.jpg"
+                                                            src="{{ asset('public/assets/img') }}/{{ $suggested_mentor->metaData->profile_pic }}"
                                                             class="attachment-full size-full wp-image-7552" alt=""
                                                             style="width:100%;height:100%;max-width:400px" /></figure>
                                                     <div class="elementor-image-box-content">
-                                                        <h6 class="elementor-image-box-title">Svetalana Zauravela</h6>
-                                                        <p class="elementor-image-box-description">Marketing Strategist
+                                                        <h6 class="elementor-image-box-title">
+                                                            {{ $suggested_mentor->namne }}</h6>
+                                                        <p class="elementor-image-box-description">
+                                                            {{ $suggested_mentor->metaData->designation }}
                                                         </p>
                                                     </div>
                                                 </div>
+                                                @endforeach
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-00747b5 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
