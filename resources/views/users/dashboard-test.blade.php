@@ -778,7 +778,7 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img"><img fetchpriority="high"
                                                             decoding="async" width="400" height="400"
-                                                            src="{{ asset('public/assets/img') }}/{{ $suggested_mentor->metaData->pro_pic_1 }}"
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $suggested_mentor->metaData->pro_pic_1 }}"
                                                             class="attachment-full size-full wp-image-7552" alt=""
                                                             style="width:100%;height:100%;max-width:400px" /></figure>
                                                     <div class="elementor-image-box-content">
