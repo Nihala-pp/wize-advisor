@@ -622,7 +622,7 @@
                                                                 {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }}
                                                                 {{ Carbon\Carbon::parse($requested_session->date)->format('jS F\\, Y') }},
                                                                 <span
-                                                                    style="letter-spacing: 0px;">{{ .' '.$requested_session->utc }}<br /><br /></span>
+                                                                    style="letter-spacing: 0px;">{{ $requested_session->utc }}<br /><br /></span>
                                                             </p>
                                                             <p>Description
                                                                 :<br />{{ $requested_session->description }}<br /><br />
