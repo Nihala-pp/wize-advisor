@@ -331,7 +331,8 @@
                                             <div class="elementor-widget-container">
 
                                                 <form name="searchForm" role="search" method="get"
-                                                    class="wpr-search-form" action="{{ route('user.searchExpertise') }}">
+                                                    class="wpr-search-form"
+                                                    action="{{ route('user.searchExpertise') }}">
                                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
                                                         <input class="wpr-search-form-input expertise"
                                                             placeholder="e.g. Idea validation, Fund raising"
@@ -961,6 +962,7 @@
                                                             data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-button-wrapper">
+                                                                <input type="text" class="form-control" value="" name="referral_link" disabled>
                                                                     <a class="elementor-button elementor-button-link elementor-size-sm"
                                                                         href="#">
                                                                         <span class="elementor-button-content-wrapper">
