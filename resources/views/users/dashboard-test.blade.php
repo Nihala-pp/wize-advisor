@@ -961,9 +961,9 @@
                                                             data-id="0919c49" data-element_type="widget"
                                                             data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
-                                                                <input class="wpr-search-form-input"
+                                                                <input class="wpr-search-form-input form-control"
                                                                     name="referral_link" value="" disabled>
-                                                                <button class="wpr-search-form-submit search"
+                                                                <button class="elementor-button elementor-button-link elementor-size-sm"
                                                                     id="referral_link" aria-label="Search"
                                                                     type="submit">
                                                                     <i class="fas fa-copy"></i>
