@@ -83,7 +83,8 @@
                                             data-id="67c6c66" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <h6><span style="font-weight: normal;">You have {{ $upcoming_sessions->count() }} upcoming
+                                                <h6><span style="font-weight: normal;">You have
+                                                        {{ $upcoming_sessions->count() }} upcoming
                                                         session</span></h6>
                                             </div>
                                         </div>
@@ -579,6 +580,7 @@
                                                             aria-selected="true" data-tab="1" role="tab" tabindex="0"
                                                             aria-controls="elementor-tab-content-6221"
                                                             aria-expanded="false">Upcoming Sessions</div>
+                                                        @foreach($upcoming_sessions as $upcoming_session)
                                                         <div id="elementor-tab-content-6221"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="1" role="tabpanel"
@@ -596,6 +598,7 @@
                                                             <p><span style="color: #3366ff;"><em>Join
                                                                         Session</em></span></p>
                                                         </div>
+                                                        @endforeach
                                                         <div class="elementor-tab-title elementor-tab-mobile-title"
                                                             aria-selected="false" data-tab="2" role="tab" tabindex="-1"
                                                             aria-controls="elementor-tab-content-6222"
@@ -1302,6 +1305,7 @@
                 async>
             </script>
 </body>
+
 </html>
 <style>
 .elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-content {
