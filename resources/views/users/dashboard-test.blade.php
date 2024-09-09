@@ -797,7 +797,7 @@
                                             <div class="elementor-widget-container">
                                                 <div class="wpr-button-wrap elementor-clearfix">
                                                     <a class="wpr-button wpr-button-effect wpr-button-none"
-                                                        data-text="Go" href="{{ route('schedule-call', [$data->id, ucfirst(Str::slug($data->name))]) }}">
+                                                        data-text="Go" href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}">
                                                         <span class="wpr-button-content">
                                                             <span class="wpr-button-text">Book session</span>
                                                         </span>
