@@ -2588,6 +2588,7 @@
                 async>
             </script>
 </body>
+
 </html>
 <style>
 .site-header,
@@ -2616,5 +2617,10 @@ i.fas.fa-chevron-down {
 
 i.fas.fa-bell.fa-2xl {
     font-size: 32px !important;
+}
+
+.site-main>* {
+    /* margin-top: calc(3 * var(--global--spacing-vertical)); */
+    /* margin-bottom: calc(3 * var(--global--spacing-vertical)); */
 }
 </style>
