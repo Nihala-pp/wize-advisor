@@ -3182,6 +3182,7 @@
             <script src="https://web.wiseadvizor.com/wp-includes/js/admin-bar.min.js?ver=6.4.3" id="admin-bar-js">
             </script>
 </body>
+
 </html>
 <style>
 .site-header,
@@ -3189,8 +3190,14 @@
 .widget-area,
 .site-footer {
     padding-top: 0px;
-    padding-bottom:  0px;
+    padding-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
 }
 </style>
