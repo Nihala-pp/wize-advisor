@@ -76,7 +76,7 @@
                                                     display: inline-block
                                                 }
                                                 </style>
-                                                <h6>Welome, {{ auth()->user()->name }}</h6>
+                                                <h6>Welcome, {{ auth()->user()->name }}</h6>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-67c6c66 elementor-widget elementor-widget-text-editor"
