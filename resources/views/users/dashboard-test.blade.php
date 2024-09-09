@@ -581,23 +581,30 @@
                                                             aria-controls="elementor-tab-content-6221"
                                                             aria-expanded="false">Upcoming Sessions</div>
                                                         @foreach($upcoming_sessions as $upcoming_session)
-                                                         <div id="elementor-tab-content-6221"
+                                                        <div id="elementor-tab-content-6221"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="1" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6221" tabindex="0"
                                                             hidden="false">
-                                                            <p>Session with {{ $upcoming_session->mentor->name }}<br />Date &amp; Time :
-                                                            {{ Carbon\Carbon::parse($upcoming_session->date)->format('jS F\\, Y') }}, {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }} <span
+                                                            <p>Session with
+                                                                {{ $upcoming_session->mentor->name }}<br />Date &amp;
+                                                                Time :
+                                                                {{ Carbon\Carbon::parse($upcoming_session->date)->format('jS F\\, Y') }},
+                                                                {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }}
+                                                                <span
                                                                     style="letter-spacing: 0px;">{{ $upcoming_session->utc }}<br /><br /></span>
                                                             </p>
-                                                            <p>Description :<br />We have a startup mentorship platform
-                                                                where you can schedule 1:1 calls with world top mentors
-                                                                to discuss challenges, take guidance and I need to
-                                                                discuss some strategies for marketing and new
-                                                                feature.<br /><br /></p>
-                                                            <p><span style="color: #3366ff;"><em>Join
+                                                            <p>Description
+                                                                :<br />{{ $upcoming_session->description }}<br /><br />
+                                                            </p>
+                                                            <p><span style="color: #3366ff;"><em><a
+                                                                            href="{{ $upcoming_session->call_link ?: '' }}"
+                                                                            class="link" data-bs-toggle="tooltip"
+                                                                            data-bs-placement="bottom"
+                                                                            title="Join Session">
+                                                                        </a>Join
                                                                         Session</em></span></p>
-                                                         </div>
+                                                        </div>
                                                         @endforeach
                                                         <div class="elementor-tab-title elementor-tab-mobile-title"
                                                             aria-selected="false" data-tab="2" role="tab" tabindex="-1"
