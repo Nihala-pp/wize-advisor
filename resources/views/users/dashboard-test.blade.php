@@ -34,6 +34,8 @@
     <link rel='stylesheet' id='elementor-frontend-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.21.6'
         media='all' />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
+
     <link rel='stylesheet' id='swiper-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
         media='all' />
