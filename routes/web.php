@@ -235,11 +235,10 @@ Route::controller(UserController::class)
         Route::post('/save-password', 'savePassword')->name('password.save');
         Route::get('/my-reviews', 'listReviews')->name('reviews.list');
         Route::get('/profileTest', 'profileTest')->name('profileTest');
+        Route::get('test', [TestController::class, 'test'])->name('test');
     });
 
    //***             Test Routes               ****///
 
 // Route::get('home-test', [TestController::class, 'homeTest'])->name('home-test');
 //    Route::get('contactus-test', [TestController::class, 'contactuspage'])->name('contact-test');
-
-Route::get('test', [TestController::class, 'test'])->name('test');
