@@ -1305,6 +1305,26 @@
 
 </html>
 <style>
+.elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-content {
+    color: #C6C6C6;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1px;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.3);
+}
+
+.elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-title,
+.elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-title:before,
+.elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-title:after,
+.elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-content,
+.elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tabs-content-wrapper {
+    border-width: 1px;
+}
+
 .elementor-7754 .elementor-element.elementor-element-67c6c66>.elementor-widget-container {
     margin: -18px 0px 0px 0px;
     padding: 0px 0px 0px 0px;
