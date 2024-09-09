@@ -404,9 +404,11 @@ alert("Password Updated Successfully!");
       ->WhereNull('status')
       ->take(3)->get();
     }
+
+    $referral_link = "https://wiseadvizor.com/registration/".[auth()->user()->name]."/".["Discount35"]."/".["Startup-mentorship-platform"];
     
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
-       return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications', 'suggested_mentors'));
+       return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications', 'suggested_mentors', 'referral_link'));
     } 
   }
 

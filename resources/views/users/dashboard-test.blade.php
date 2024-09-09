@@ -962,7 +962,7 @@
                                                             data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
                                                                 <input class="form-control"
-                                                                    name="referral_link" value="" disabled>
+                                                                    name="referral_link" value="{{ $referral_link }}" disabled>
                                                                 <button class="elementor-button elementor-button-link elementor-size-sm"
                                                                     id="referral_link" aria-label="Search"
                                                                     type="submit">
