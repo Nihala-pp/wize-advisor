@@ -407,7 +407,7 @@ alert("Password Updated Successfully!");
       ->take(3)->get();
     }
 
-    $discount_code = $this->discount_code_generator($length = 20);
+    $discount_code = $this->discount_code_generator($length = 6);
 
     $referral_link = "https://wiseadvizor.com/registration/".auth()->user()->id."/".$discount_code."/"."Startup-mentorship-platform";
     
@@ -424,7 +424,7 @@ alert("Password Updated Successfully!");
       return redirect()->route('browseMentor', [$expertise]);  
   }
 
-  public function discount_code_generator($length = 20)
+  public function discount_code_generator($length = 6)
   {
     $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
         $charactersLength = strlen($characters);
