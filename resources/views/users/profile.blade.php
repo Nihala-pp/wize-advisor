@@ -317,7 +317,7 @@
                                         @foreach($expt as $exp)
                                         @foreach($expertise as $expert)
                                         <option value="{{ $expert->expertise }}" {{ $expert->expertise == $exp ? 'selected' : '' }}>
-                                            {{ $expert }}
+                                            {{ $expert->expertise }}
                                         </option>
                                         @endforeach
                                         @endforeach
