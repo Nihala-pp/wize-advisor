@@ -653,11 +653,10 @@
                                                             <p>Description
                                                                 :<br />{{ $completed_session->description }}<br /><br />
                                                             </p>
-                                                            <p><span style="color: #3366ff;"><em><a
-                                                                            href="{{ $completed_session->call_link ?: '' }}"
-                                                                            class="link" data-bs-toggle="tooltip"
-                                                                            data-bs-placement="bottom"
-                                                                            title="Join Session">
+                                                            <p><span style="color: #3366ff;"><em> <a
+                                                                            href="{{ route('user.review', [$completed_session->mentor_id]) }}"
+                                                                            target="_blank">
+                                                                            Write Review
                                                                         </a>Join
                                                                         Session</em></span></p>
                                                         </div>
