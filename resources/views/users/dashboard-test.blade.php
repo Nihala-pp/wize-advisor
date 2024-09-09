@@ -789,7 +789,6 @@
                                                         </p>
                                                     </div>
                                                 </div>
-                                                @endforeach
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-00747b5 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
@@ -827,6 +826,7 @@
                                     </div>
                                 </div>
                             </div>
+                            @endforeach
                         </section>
                         <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-0d73bf6 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
