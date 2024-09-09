@@ -331,11 +331,11 @@
                                             <div class="elementor-widget-container">
 
                                                 <form name="searchForm" role="search" method="get"
-                                                    class="wpr-search-form" action="{{ route('searchExpertise') }}">
+                                                    class="wpr-search-form" action="{{ route('browseMentor') }}">
                                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
                                                         <input class="wpr-search-form-input"
                                                             placeholder="e.g. Idea validation, Fund raising"
-                                                            aria-label="Search" type="search" name="search_term" title="Search"
+                                                            aria-label="Search" type="search" name="filters[expertise]" title="Search"
                                                             value="" wpr-query-type="all" wpr-taxonomy-type=""
                                                             number-of-results="2" ajax-search="" show-description="yes"
                                                             number-of-words="30" show-ajax-thumbnails=""

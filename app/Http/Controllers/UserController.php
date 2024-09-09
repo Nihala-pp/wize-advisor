@@ -424,7 +424,7 @@ alert("Password Updated Successfully!");
     } 
   }
 
-  public function searchExpertise()
+  public function searchExpertise(Request $request)
   {
       
   }
