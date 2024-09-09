@@ -21,7 +21,7 @@ use App\Mail\ScheduleCallRequest;
 use App\Mail\ScheduleCallRequestUser;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Validation\Rules\Password;
-
+use App\Models\ExpertiseList;
 use Hash;
 
 class UserController extends Controller
