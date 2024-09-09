@@ -961,14 +961,22 @@
                                                             data-id="0919c49" data-element_type="widget"
                                                             data-widget_type="button.default">
                                                             <div class="elementor-widget-container">
-                                                                <div class="elementor-button-wrapper">
+                                                                <input class="wpr-search-form-input"
+                                                                    name="referral_link" value="" disabled>
+                                                                <button class="wpr-search-form-submit search"
+                                                                    id="referral_link" aria-label="Search"
+                                                                    type="submit">
+                                                                    <i class="fas fa-copy"></i>
+                                                                    Copy referral
+                                                                </button>
+                                                                <!-- <div class="elementor-button-wrapper">
                                                                     <input type="text" class="form-control" value=""
                                                                         name="referral_link" disabled>
                                                                     <a id="referral_link"
                                                                         class="elementor-button elementor-button-link elementor-size-sm"
                                                                         href="#">Copy referral
                                                                     </a>
-                                                                </div>
+                                                                </div> -->
                                                             </div>
                                                         </div>
                                                         <div class="elementor-element elementor-element-4df1d2f e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
