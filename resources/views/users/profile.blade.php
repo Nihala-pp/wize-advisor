@@ -315,8 +315,8 @@
                                         @endphp
                                         @if(!empty($expt))
                                         @foreach($expt as $exp)
-                                        @foreach($expertise as $key => $expert)
-                                        <option value="{{ $expert }}" {{ $expert == $exp ? 'selected' : '' }}>
+                                        @foreach($expertise as $expert)
+                                        <option value="{{ $expert->expertise }}" {{ $expert->expertise == $exp ? 'selected' : '' }}>
                                             {{ $expert }}
                                         </option>
                                         @endforeach
