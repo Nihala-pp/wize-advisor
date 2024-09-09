@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -65,9 +64,9 @@
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
         href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
         media='print' />
-    <link rel='stylesheet' id='wpforms-admin-bar-css'
+    <!-- <link rel='stylesheet' id='wpforms-admin-bar-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3'
-        media='all' />
+        media='all' /> -->
     <link rel='stylesheet' id='wpr-text-animations-css-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.975'
         media='all' />
