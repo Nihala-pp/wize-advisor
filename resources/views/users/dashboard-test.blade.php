@@ -628,10 +628,7 @@
                                                                 :<br />{{ $requested_session->description }}<br /><br />
                                                             </p>
                                                             <p><span style="color: #3366ff;"><em><a
-                                                                            href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}"
-                                                                            class="" data-bs-toggle="tooltip"
-                                                                            data-bs-placement="bottom"
-                                                                            title="update Session">Update
+                                                                            href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}">Update
                                                                             Session</a></em></span></p>
                                                         </div>
                                                         @endforeach
