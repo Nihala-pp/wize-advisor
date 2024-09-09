@@ -963,12 +963,8 @@
                                                             <div class="elementor-widget-container">
                                                                 <div class="elementor-button-wrapper">
                                                                 <input type="text" class="form-control" value="" name="referral_link" disabled>
-                                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                        href="#">
-                                                                        <span class="elementor-button-content-wrapper">
-                                                                            <span class="elementor-button-text">Copy
-                                                                                referral</span>
-                                                                        </span>
+                                                                    <a id="referral_link" class="elementor-button elementor-button-link elementor-size-sm"
+                                                                        href="#">Copy referral
                                                                     </a>
                                                                 </div>
                                                             </div>
