@@ -1302,8 +1302,17 @@
                 async>
             </script>
 </body>
+
 </html>
 <style>
+h6 {
+    font-family: "Helvetica", sans-serif;
+    font-size: medium;
+    font-weight: 400;
+    /* line-height: var(--wp--custom--typography--line-height--normal); */
+    text-transform: capitalize;
+}
+
 .site-header,
 .site-main,
 .widget-area,
