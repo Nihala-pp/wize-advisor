@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -3182,3 +3183,14 @@
             </script>
 </body>
 </html>
+<style>
+.site-header,
+.site-main,
+.widget-area,
+.site-footer {
+    padding-top: 0px;
+    padding-bottom:  0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+</style>
