@@ -280,7 +280,7 @@
 </head>
 
 <body
-    class="page-template page-template-elementor_header_footer page page-id-7754 no-customize-support wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7754">
+    class="page-template page-template-elementor_canvas page page-id-7754 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.7.1 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-7754">
     @include('partials.header-common')
     <div id="page" class="site">
         <div id="content" class="site-content">
