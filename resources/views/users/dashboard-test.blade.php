@@ -702,8 +702,8 @@
                             class="elementor-section elementor-top-section elementor-element elementor-element-7f40e2c elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="7f40e2c" data-element_type="section"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            @foreach($suggested_mentors as $suggested_mentor)
                             <div class="elementor-container elementor-column-gap-default">
+                                @foreach($suggested_mentors as $suggested_mentor)
                                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3297377"
                                     data-id="3297377" data-element_type="row">
                                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -815,7 +815,8 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-cc9980c"
+                                @endforeach
+                                <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-cc9980c"
                                     data-id="cc9980c" data-element_type="column">
                                     <div class="elementor-widget-wrap">
                                     </div>
@@ -824,9 +825,10 @@
                                     data-id="3b585d6" data-element_type="column">
                                     <div class="elementor-widget-wrap">
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
-                            @endforeach
+
+
                         </section>
                         <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-0d73bf6 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
