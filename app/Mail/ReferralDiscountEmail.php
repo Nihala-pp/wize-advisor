@@ -13,6 +13,8 @@ class ReferralDiscountEmail extends Mailable
 {
     use Queueable, SerializesModels;
 
+    public $details;
+
     /**
      * Create a new message instance.
      */
@@ -28,6 +30,7 @@ class ReferralDiscountEmail extends Mailable
     {
         return new Envelope(
             subject: 'Your wiseAdvizor Referral Code Was Used! Here’s Your 35% Discount Code',
+            bcc: ['nihala-pp@wiseadvizor.com', 'info@wiseadvizor.com']
         );
     }
 
