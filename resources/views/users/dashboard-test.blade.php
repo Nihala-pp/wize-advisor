@@ -1520,6 +1520,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-submit {
+        margin-right: 0px;qwqewq
         margin-top: 19px;
         color: #ffffff;
         background-color: #605BE5;
