@@ -1523,6 +1523,10 @@ i.fas.fa-bell.fa-2xl {
         margin-left: -20px;
     }
 
+    .elementor-7754 .elementor-element.elementor-element-19cb69240 {
+        padding: 25px 20px 50px 20px;
+    }
+
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-submit {
         margin-right: 0px;
         margin-top: 19px;
