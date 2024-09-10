@@ -83,7 +83,8 @@
                                             data-id="67c6c66" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <h6 style="margin-top:-25px !important;"><span style="font-weight: normal;">You have
+                                                <h6 style="margin-top:-25px !important;"><span
+                                                        style="font-weight: normal;">You have
                                                         {{ $upcoming_sessions->count() }} upcoming
                                                         session</span></h6>
                                             </div>
@@ -1424,6 +1425,13 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-7754 .elementor-element.elementor-element-67c6c66 {
     color: #c7cacb;
+}
+
+.elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input,
+.elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-category-select-wrap,
+.elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-category-select {
+    font-family: "Helvetica", sans-serif;
+    font-size: 15px;
 }
 
 @media (max-width: 767px) {
