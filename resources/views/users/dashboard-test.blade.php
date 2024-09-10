@@ -1494,7 +1494,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .elementor-7754 .elementor-element.elementor-element-39162d4 {
-    padding-left: 10px;
+    padding-left: 8px;
     color: #FFFFFF;
 }
 
