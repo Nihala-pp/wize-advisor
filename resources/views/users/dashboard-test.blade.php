@@ -970,7 +970,7 @@
                                                                     class="elementor-button elementor-button-link elementor-size-sm"
                                                                     id="copy_link" aria-label="Search" type="submit">
                                                                     <i class="fas fa-copy"></i>
-                                                                    Copy referral
+                                                                    Copy Referral
                                                                 </button>
                                                                 <!-- <div class="elementor-button-wrapper">
                                                                     <input type="text" class="form-control" value=""
