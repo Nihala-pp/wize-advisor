@@ -625,7 +625,7 @@
                                                             <p>Description
                                                                 :<br />{{ $requested_session->description }}<br /><br />
                                                             </p>
-                                                            <p><span style="color: #3366ff;"><em><a
+                                                            <p><span style="color:#3366ff !important;"><em><a
                                                                             href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}">Update
                                                                             Session</a></em></span></p>
                                                         </div>
@@ -651,12 +651,11 @@
                                                             <p>Description
                                                                 :<br />{{ $completed_session->description }}<br /><br />
                                                             </p>
-                                                            <p><span style="color: #3366ff;"><em> <a
+                                                            <p><span style="color: #3366ff !important;"><em> <a
                                                                             href="{{ route('user.review', [$completed_session->mentor_id]) }}"
                                                                             target="_blank">
                                                                             Write Review
-                                                                        </a>Join
-                                                                        Session</em></span></p>
+                                                                        </a></em></span></p>
                                                         </div>
                                                         @endforeach
                                                     </div>
