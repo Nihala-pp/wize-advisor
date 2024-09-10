@@ -392,7 +392,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       'timezone' => 'required',
     ]);
 
-    if(!empty($data['discount_code'])) {
+    $referral_code_used = UserMeta::where('user_id', Auth::id())->first()->referral_code_used;
+
+    if(empty($referral_code_used) && !empty(4$data['discount_code'])) {
        $validator->after(function ($validator) use($voucher) {
           if(!$voucher)
           {
@@ -431,8 +433,6 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     $mentor_finish_time = Carbon::parse($user_timezone->format('H:i:s'))->addMinutes($data['duration']);
 
     $mentor = User::find($data['mentor']);
-
-    $referral_code_used = UserMeta::where('user_id', Auth::id())->first()->referral_code_used;
 
     $call = ScheduledCall::create([
       'user_id' => Auth::id(),
