@@ -593,7 +593,7 @@
                                                                     style="letter-spacing: 0px;">{{ $upcoming_session->utc }}<br /><br /></span>
                                                             </p>
                                                             <p>Description
-                                                                :<br />{{ $upcoming_session->description }}<br /><br />
+                                                                :{{ $upcoming_session->description }}<br /><br />
                                                             </p>
                                                             <p><span><em><a
                                                                             href="{{ $upcoming_session->call_link ?: '' }}"
