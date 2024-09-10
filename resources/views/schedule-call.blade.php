@@ -1325,8 +1325,16 @@
                         <label class="form-label" style="color:black;">Upload Document (if any)</label>
                         <input type="file" name="doc" class="form-control" id="customFile">
                         <label class="form-label" style="color:black;">Discount Code</label>
+                        @php
+                         if(!empty($referral_code_used)) {
+                            $field = 'disabled';
+                         }
+                         else {
+                            $field = ' ';
+                         }
+                        @endphp
                         <input type="text" name="discount_code" class="form-control" id="discount_code"
-                            placeholder="Use code 'MENTOR25' for 25% off" value="{{ $referral_code_used ?? '' }}">
+                            placeholder="Use code 'MENTOR25' for 25% off" value="{{ $referral_code_used ?? '' }}" {{ $field }}>
                 </div>
             </div>
         </div>
