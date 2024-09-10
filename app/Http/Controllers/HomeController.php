@@ -353,6 +353,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
          $notifications = '';
     }
 
+    
 
     // $user = User::find($email);
 

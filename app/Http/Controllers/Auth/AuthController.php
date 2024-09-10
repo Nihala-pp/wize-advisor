@@ -53,6 +53,15 @@ class AuthController extends Controller
             $name = Null;
         }
 
+         $referral_code = User::where('referral_code', $token)->exists();
+
+        if($referral_code) {
+           $is_referral = 1;
+        }
+        else {
+            $is_referral = 0;
+        }
+
         $expertise = [
             '1' => 'Sales',
             '2' => 'Marketing',
@@ -80,7 +89,7 @@ class AuthController extends Controller
 
         $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
 
-        return view('auth.registration', compact('expertise', 'token', 'id', 'timezone', 'name'));
+        return view('auth.registration', compact('expertise', 'token', 'id', 'timezone', 'name', 'is_referral'));
     }
 
     /**
