@@ -1473,6 +1473,12 @@ i.fas.fa-bell.fa-2xl {
     color: #FFFFFF;
 }
 
+.elementor-7754 .elementor-element.elementor-element-09f8429 {
+    padding-left: 15px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
