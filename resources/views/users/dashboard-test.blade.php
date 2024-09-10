@@ -1520,6 +1520,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-submit {
+        margin-top: 19px;
         color: #ffffff;
         background-color: #605BE5;
         border-color: #E8E8E8;
@@ -1529,6 +1530,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input {
+        margin-top: 20px;
         color: #333333;
         background-color: #ffffff;
         border-color: #E8E8E8;
