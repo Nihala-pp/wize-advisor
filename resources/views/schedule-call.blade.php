@@ -1327,7 +1327,7 @@
                         <label class="form-label" style="color:black;">Discount Code</label>
                         @php
                          if(!empty($referral_code_used)) {
-                            $field = 'disabled';
+                            $field = "readonly='true'" ;
                          }
                          else {
                             $field = ' ';
