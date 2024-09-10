@@ -1534,7 +1534,7 @@ i.fas.fa-bell.fa-2xl {
         border-color: #E8E8E8;
         text-align: left;
         border-width: 1px 1px 1px 1px;
-        /* border-radius: 5px 5px 5px 5px !important; */
+        border-radius: 0px 0px 0px 0px !important;
         padding: 15px 0px 15px 10px;
     }
 
