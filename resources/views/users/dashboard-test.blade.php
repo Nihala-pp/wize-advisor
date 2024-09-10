@@ -1479,6 +1479,19 @@ i.fas.fa-bell.fa-2xl {
     padding-top: 20px;
 }
 
+.elementor-7754 .elementor-element.elementor-element-bbf9616 .elementor-heading-title {
+    padding-top: 30px;
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    /* padding-bottom: 20px; */
+}
+
+.elementor-7754 .elementor-element.elementor-element-3fbf146>.elementor-widget-container {
+    margin: -32px 0px 35px 0px;
+}
+
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
