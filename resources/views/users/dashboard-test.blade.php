@@ -595,11 +595,11 @@
                                                             <p>Description
                                                                 : {{ $upcoming_session->description }}<br />
                                                             </p>
-                                                            <p><span><em><a
-                                                                            href="{{ $upcoming_session->call_link ?: '' }}"
+                                                            <p><span><em><a href="{{ $upcoming_session->call_link ?: '' }}"
                                                                             class="link" data-bs-toggle="tooltip"
                                                                             data-bs-placement="bottom"
-                                                                            title="Join Session" style="color: #3366ff !important;">
+                                                                            title="Join Session"
+                                                                            style="color: #3366ff !important;">
                                                                         </a>Join
                                                                         Session</em></span></p>
                                                         </div>
@@ -625,8 +625,9 @@
                                                             <p>Description
                                                                 : {{ $requested_session->description }}<br />
                                                             </p>
-                                                            <p><span><em><a
-                                                                            href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}" target="_blank" style="color:#3366ff !important;">Update
+                                                            <p><span><em><a href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}"
+                                                                            target="_blank"
+                                                                            style="color:#3366ff !important;">Update
                                                                             Session</a></em></span></p>
                                                         </div>
                                                         @endforeach
@@ -651,9 +652,9 @@
                                                             <p>Description
                                                                 : {{ $completed_session->description }}<br />
                                                             </p>
-                                                            <p><span><em> <a
-                                                                            href="{{ route('user.review', [$completed_session->mentor_id]) }}"
-                                                                            target="_blank" style="color:#3366ff !important;">
+                                                            <p><span><em> <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
+                                                                            target="_blank"
+                                                                            style="color:#3366ff !important;">
                                                                             Write Review
                                                                         </a></em></span></p>
                                                         </div>
@@ -797,7 +798,8 @@
                                                         data-text="Go"
                                                         href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}">
                                                         <span class="wpr-button-content">
-                                                            <span class="wpr-button-text" style="padding-top:5px">Book session</span>
+                                                            <span class="wpr-button-text" style="padding-top:5px">Book
+                                                                session</span>
                                                         </span>
                                                     </a>
                                                 </div>
@@ -1444,6 +1446,13 @@ i.fas.fa-bell.fa-2xl {
     font-size: 11px;
     font-weight: 400;
     padding-bottom: 10px;
+}
+
+.elementor-7754 .elementor-element.elementor-element-0919c49 .elementor-button {
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+    background-color: #6166CE;
+    margin-top: 10px;
 }
 
 @media (max-width: 767px) {
