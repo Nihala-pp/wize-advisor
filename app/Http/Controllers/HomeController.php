@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Mail\askQuestionMail;
+use App\Mail\ReferralDiscountEmail;
 use App\Mail\RejectedCallMail;
 use App\Mail\RejectedCallUserMail;
 use App\Mail\updateSessionMail;
@@ -645,6 +646,19 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
       Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
       Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
+
+      $referral_code_used = $user->metaData->referral_code_used ?:'';
+      if(!empty($referral_code_used)) {
+           $referred_user = UserMeta::where('referral_code', $referral_code_used)->first();
+           $referred_user_data = User::find( $referred_user->user_id);
+           $details = [
+            'name' => $referred_user_data->name,
+            'discount_code' => $referral_code_used
+           ];
+
+           Mail::to($referred_user_data->email)->send(new ReferralDiscountEmail($details));
+      }
+
 
       $admin = User::where('role_id', 1)->first();
 
