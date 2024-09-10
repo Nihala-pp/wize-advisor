@@ -626,7 +626,7 @@
                                                                 : {{ $requested_session->description }}<br />
                                                             </p>
                                                             <p><span><em><a
-                                                                            href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}" style="color:#3366ff !important;">Update
+                                                                            href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}" target="_blank" style="color:#3366ff !important;">Update
                                                                             Session</a></em></span></p>
                                                         </div>
                                                         @endforeach
