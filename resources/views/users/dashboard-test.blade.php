@@ -1380,7 +1380,7 @@
 }
 
 .elementor-7754 .elementor-element.elementor-element-b156db7>.elementor-widget-container {
-    padding: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 40px;
 }
 
 h6 {
@@ -1465,6 +1465,7 @@ i.fas.fa-bell.fa-2xl {
     font-family: "Roboto", Sans-serif;
     font-weight: 400;
     padding-top: 10px;
+    padding-left: 10px;
 }
 
 .elementor-7754 .elementor-element.elementor-element-39fa23d {
