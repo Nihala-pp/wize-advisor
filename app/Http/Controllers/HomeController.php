@@ -432,6 +432,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $mentor = User::find($data['mentor']);
 
+    $referral_code_used = auth()->user()->referral_code_used;
+
+
     $call = ScheduledCall::create([
       'user_id' => Auth::id(),
       'mentor_id' => $data['mentor'],
@@ -469,6 +472,13 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
             'duration' => 'once',
           ]);
         // }
+      }
+      elseif($data['discount_code'] == $referral_code_used) {
+          $discount_value = User::where('referral_code', $referral_code_used)->first()->referral_discount_value;
+          $coupon =  $stripe->coupons->create([
+            'percent_off' => $discount_value,
+            'duration' => 'once',
+          ]);
       }
        else {
          $discount_value = 0;
