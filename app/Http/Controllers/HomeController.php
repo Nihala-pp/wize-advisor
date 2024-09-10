@@ -335,6 +335,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     } else {
       $call = '';
     }
+    
+    $referral_code_used = auth()->user()->referral_code_used;
 
     $mentor = User::find($request->id);
     $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
@@ -353,12 +355,12 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
          $notifications = '';
     }
 
-    
+
 
     // $user = User::find($email);
 
     // if ($user->role_id == 3 && $user->metaData) {
-    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call', 'client_id', 'notifications'));
+    return view('schedule-call', compact('mentor', 'timezone', 'nextAvailability', 'call', 'client_id', 'notifications', 'referral_code_used'));
     // } 
   }
 

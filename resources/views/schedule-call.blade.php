@@ -1326,7 +1326,7 @@
                         <input type="file" name="doc" class="form-control" id="customFile">
                         <label class="form-label" style="color:black;">Discount Code</label>
                         <input type="text" name="discount_code" class="form-control" id="discount_code"
-                            placeholder="Use code 'MENTOR25' for 25% off">
+                            placeholder="Use code 'MENTOR25' for 25% off" value="{{ $referral_code_used ?? '' }}">
                 </div>
             </div>
         </div>
