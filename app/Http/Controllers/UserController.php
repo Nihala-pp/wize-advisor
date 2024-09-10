@@ -407,7 +407,7 @@ alert("Password Updated Successfully!");
       ->take(3)->get();
     }
 
-    $name =  (explode(" ",auth()->user()->name));
+    $name =  explode(" ",auth()->user()->name);
     $discount_code = $name[1].auth()->user()->id;
 
     // $discount_code = $this->discount_code_generator($length = 6);
