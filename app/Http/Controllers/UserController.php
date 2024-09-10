@@ -418,7 +418,7 @@ alert("Password Updated Successfully!");
 
     // $discount_code = $this->discount_code_generator($length = 6);
 
-    $referral_link = "https://wiseadvizor.com/registration/".$discount_code."/".auth()->user()->id."/"."Startup-mentorship-platform";
+    $referral_link = "https://wiseadvizor.com/registration/".$discount_code."/"."Startup-mentorship-platform";
     
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
        return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications', 'suggested_mentors', 'referral_link'));
