@@ -1500,6 +1500,29 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
+    .elementor-7754 .elementor-element.elementor-element-67c6c66>.elementor-widget-container {
+        margin: -18px 0px 0px 0px;
+        /* padding: 0px 0px 0px 10px; */
+        text-align: center;
+    }
+
+    .elementor-7754 .elementor-element.elementor-element-39162d4 {
+        text-align: center;
+        /* padding-left: 8px; */
+        color: #FFFFFF;
+    }
+
+
+    .elementor-7754 .elementor-element.elementor-element-49e1889:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+    .elementor-7754 .elementor-element.elementor-element-49e1889>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        margin-left: 3px;
+        background-color: #4424E9;
+    }
+
+    .elementor-7754 .elementor-element.elementor-element-b156db7>.elementor-widget-container {
+        padding: 10px 10px 0px 30px;
+    }
+
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
     }
