@@ -1519,6 +1519,10 @@ i.fas.fa-bell.fa-2xl {
         font-size: 8.5px;
     }
 
+    .wpr-search-form-input-wrap .elementor-clearfix {
+        margin-left: -20px;
+    }
+
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-submit {
         margin-right: 0px;
         margin-top: 19px;
