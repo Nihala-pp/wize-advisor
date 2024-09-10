@@ -1376,7 +1376,7 @@
 
 .elementor-7754 .elementor-element.elementor-element-67c6c66>.elementor-widget-container {
     margin: -18px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 10px;
 }
 
 .elementor-7754 .elementor-element.elementor-element-b156db7>.elementor-widget-container {
@@ -1491,6 +1491,11 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-7754 .elementor-element.elementor-element-3fbf146>.elementor-widget-container {
     margin: -32px 0px 35px 0px;
+}
+
+.elementor-7754 .elementor-element.elementor-element-39162d4 {
+    padding-left: 10px;
+    color: #FFFFFF;
 }
 
 @media (max-width: 767px) {
