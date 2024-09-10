@@ -1507,6 +1507,10 @@ i.fas.fa-bell.fa-2xl {
         margin-top: 20px;
     }
 
+    .elementor-column.elementor-col-33.elementor-top-column.elementor-element.elementor-element-3297377 {
+        margin-left: 30px;
+    }
+
     .elementor-7754 .elementor-element.elementor-element-67c6c66>.elementor-widget-container {
         margin: -18px 0px 0px 0px;
         /* padding: 0px 0px 0px 10px; */
