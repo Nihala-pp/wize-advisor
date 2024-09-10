@@ -83,7 +83,7 @@
                                             data-id="67c6c66" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <h6><span style="font-weight: normal;">You have
+                                                <h6><span style="font-weight: normal;margin-top:-25px !important;">You have
                                                         {{ $upcoming_sessions->count() }} upcoming
                                                         session</span></h6>
                                             </div>
@@ -95,7 +95,7 @@
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <section
                                             class="elementor-section elementor-inner-section elementor-element elementor-element-80a8f9a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                                            data-id="80a8f9a" data-element_type="section">
+                                            data-id="80a8f9a" data-element_type="section" style="margin-top:10px;">
                                             <div class="elementor-container elementor-column-gap-default">
                                                 <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-49e1889"
                                                     data-id="49e1889" data-element_type="column"
