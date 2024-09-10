@@ -1626,6 +1626,14 @@ i.fas.fa-bell.fa-2xl {
         background-color: #fff;
         color: #001E64 !important;
     }
+
+    .elementor-7754 .elementor-element.elementor-element-28edc46 .elementor-heading-title {
+        padding-right: 10px;
+        padding-left: 10px;
+        line-height: 25px;
+        padding-top: 0px;
+        color: #FFFFFF;
+    }
 }
 
 @media (max-width: 320px) {}
