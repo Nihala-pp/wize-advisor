@@ -1512,6 +1512,10 @@ i.fas.fa-bell.fa-2xl {
         color: #FFFFFF;
     }
 
+    .elementor-7754 .elementor-element.elementor-element-4df1d2f>.elementor-widget-container {
+        margin: 0px 0px 0px;
+    }
+
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input,
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-category-select-wrap,
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-category-select {
