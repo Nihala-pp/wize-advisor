@@ -53,9 +53,9 @@ class AuthController extends Controller
             $name = Null;
         }
 
-         $referral_code = User::where('referral_code', $token)->exists();
+         $referral_code = User::where('referral_code', $token)->first();
 
-        if($referral_code) {
+        if(!empty($referral_code)) {
            $is_referral = 1;
            $referral_code_used = $token;
         }
