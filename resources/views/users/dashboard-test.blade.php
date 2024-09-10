@@ -1523,6 +1523,14 @@ i.fas.fa-bell.fa-2xl {
         margin: -15px 0px 0px;
     }
 
+    .elementor-7754 .elementor-element.elementor-element-00747b5>.elementor-widget-container {
+        margin: -10px 0px 25px -38px;
+    }
+
+    .elementor-7754 .elementor-element.elementor-element-89a31e1 .elementor-image-box-wrapper .elementor-image-box-img {
+        width: 100%;
+    }
+
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input,
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-category-select-wrap,
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-category-select {
