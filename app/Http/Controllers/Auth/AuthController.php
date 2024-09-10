@@ -202,7 +202,7 @@ class AuthController extends Controller
             'password' => Hash::make($data['password']),
             'role_id' => 3,
             'is_referral' => $data['is_referral'],
-            'referral_code_used' => 
+            'referral_code_used' => $data['referral_code_used']
         ]);
 
         UserMeta::create([
