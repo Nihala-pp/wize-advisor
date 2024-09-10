@@ -336,7 +336,7 @@
                                                     action="{{ route('user.searchExpertise') }}">
                                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
                                                         <input class="wpr-search-form-input expertise"
-                                                            placeholder="e.g. Idea validation, Fund raising"
+                                                            placeholder="e.g. Idea Validation, Fund Raising"
                                                             aria-label="Search" type="search" name="expertise"
                                                             title="Search" value="" wpr-query-type="all"
                                                             wpr-taxonomy-type="" number-of-results="2" ajax-search=""
