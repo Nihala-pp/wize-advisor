@@ -1513,7 +1513,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-7754 .elementor-element.elementor-element-4df1d2f>.elementor-widget-container {
-        margin: 0px 0px 0px;
+        margin: -10px 0px 0px;
     }
 
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input,
