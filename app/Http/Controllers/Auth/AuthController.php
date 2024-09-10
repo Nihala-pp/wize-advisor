@@ -188,6 +188,7 @@ class AuthController extends Controller
      */
     public function create(array $data)
     {
+        dd($data);
         if($data['timezone'] == "Asia/Calcutta") {
           $timezone = "Asia/Kolkata";
         }
