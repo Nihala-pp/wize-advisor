@@ -1517,6 +1517,8 @@ i.fas.fa-bell.fa-2xl {
     .elementor-7754 .elementor-element.elementor-element-49e1889>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         margin-left: 3px;
         background-color: #4424E9;
+        margin-bottom: 15px;
+        margin-top: -20px;
     }
 
     .elementor-7754 .elementor-element.elementor-element-b156db7>.elementor-widget-container {
