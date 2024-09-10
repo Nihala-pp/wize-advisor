@@ -1519,7 +1519,7 @@ i.fas.fa-bell.fa-2xl {
         font-size: 8.5px;
     }
 
-    .wpr-search-form-input-wrap .elementor-clearfix {
+    .wpr-search-form-input-wrap.elementor-clearfix {
         margin-left: -20px;
     }
 
