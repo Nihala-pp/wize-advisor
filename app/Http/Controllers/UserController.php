@@ -407,7 +407,10 @@ alert("Password Updated Successfully!");
       ->take(3)->get();
     }
 
-    $discount_code = $this->discount_code_generator($length = 6);
+    $name =  (explode(" ",auth()->user()->name));
+    $discount_code = $name[1].auth()->user()->id;
+
+    // $discount_code = $this->discount_code_generator($length = 6);
 
     $referral_link = "https://wiseadvizor.com/registration/".$discount_code."/".auth()->user()->id."/"."Startup-mentorship-platform";
     
