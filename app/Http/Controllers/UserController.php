@@ -409,8 +409,9 @@ alert("Password Updated Successfully!");
 
     $name =  explode(" ",auth()->user()->name);
     $discount_code = $name[1].auth()->user()->id;
+    $user = auth()->user();
 
-    User::find(Auth::id())->update([
+    $user->update([      
       'referral_code' => $discount_code,
       'referral_discount_value' => 35
     ]);
