@@ -410,6 +410,11 @@ alert("Password Updated Successfully!");
     $name =  explode(" ",auth()->user()->name);
     $discount_code = $name[1].auth()->user()->id;
 
+    User::find(auth()->user()->id)->update([
+      'referral_code' => $discount_code,
+      'referral_discount_value' => 35
+    ]);
+
     // $discount_code = $this->discount_code_generator($length = 6);
 
     $referral_link = "https://wiseadvizor.com/registration/".$discount_code."/".auth()->user()->id."/"."Startup-mentorship-platform";
