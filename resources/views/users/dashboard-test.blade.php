@@ -83,7 +83,7 @@
                                             data-id="67c6c66" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <h6><span style="font-weight: normal;margin-top:-25px !important;">You have
+                                                <h6 style="margin-top:-25px !important;"><span style="font-weight: normal;">You have
                                                         {{ $upcoming_sessions->count() }} upcoming
                                                         session</span></h6>
                                             </div>
