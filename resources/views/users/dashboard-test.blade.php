@@ -623,7 +623,7 @@
                                                                     style="letter-spacing: 0px;">{{ $requested_session->utc }}<br /><br /></span>
                                                             </p>
                                                             <p>Description
-                                                                :<br />{{ $requested_session->description }}<br /><br />
+                                                                : {{ $requested_session->description }}<br /><br />
                                                             </p>
                                                             <p><span><em><a
                                                                             href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}" style="color:#3366ff !important;">Update
