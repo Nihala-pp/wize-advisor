@@ -413,7 +413,7 @@ alert("Password Updated Successfully!");
 
     $user->update([      
       'referral_code' => $discount_code,
-      'referral_discount_value' => 35
+      'referral_discount_value' => 45
     ]);
 
     // $discount_code = $this->discount_code_generator($length = 6);
