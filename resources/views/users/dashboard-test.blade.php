@@ -593,7 +593,7 @@
                                                                     style="letter-spacing: 0px;">{{ $upcoming_session->utc }}<br /><br /></span>
                                                             </p>
                                                             <p>Description
-                                                                :{{ $upcoming_session->description }}<br /><br />
+                                                                : {{ $upcoming_session->description }}<br />
                                                             </p>
                                                             <p><span><em><a
                                                                             href="{{ $upcoming_session->call_link ?: '' }}"
@@ -623,7 +623,7 @@
                                                                     style="letter-spacing: 0px;">{{ $requested_session->utc }}<br /><br /></span>
                                                             </p>
                                                             <p>Description
-                                                                : {{ $requested_session->description }}<br /><br />
+                                                                : {{ $requested_session->description }}<br />
                                                             </p>
                                                             <p><span><em><a
                                                                             href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}" style="color:#3366ff !important;">Update
@@ -649,7 +649,7 @@
                                                                     style="letter-spacing: 0px;">{{ $completed_session->utc }}<br /><br /></span>
                                                             </p>
                                                             <p>Description
-                                                                :<br />{{ $completed_session->description }}<br /><br />
+                                                                : {{ $completed_session->description }}<br />
                                                             </p>
                                                             <p><span><em> <a
                                                                             href="{{ route('user.review', [$completed_session->mentor_id]) }}"
