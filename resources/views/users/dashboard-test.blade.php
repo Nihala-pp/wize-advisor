@@ -1500,6 +1500,13 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
+    .elementor-7754 .elementor-element.elementor-element-0919c49 .elementor-button {
+        font-family: "Roboto", Sans-serif;
+        font-weight: 400;
+        background-color: #6166CE;
+        margin-top: 20px;
+    }
+
     .elementor-7754 .elementor-element.elementor-element-67c6c66>.elementor-widget-container {
         margin: -18px 0px 0px 0px;
         /* padding: 0px 0px 0px 10px; */
@@ -1513,7 +1520,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-7754 .elementor-element.elementor-element-4df1d2f>.elementor-widget-container {
-        margin: -10px 0px 0px;
+        margin: -15px 0px 0px;
     }
 
     .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input,
