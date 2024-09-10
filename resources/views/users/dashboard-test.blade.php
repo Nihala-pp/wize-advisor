@@ -1433,6 +1433,11 @@ i.fas.fa-bell.fa-2xl {
     font-size: 15px;
 }
 
+.elementor-7754 .elementor-element.elementor-element-00747b5.wpr-button-icon-style-inline .wpr-button {
+    height: 25px;
+    padding: 0px 0px 0px 0px;
+}
+
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
