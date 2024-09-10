@@ -195,7 +195,6 @@ class AuthController extends Controller
           $timezone = $data['timezone'];
         }
 
-
         $user = User::create([
             'name' => $data['name'],
             'email' => $data['email'],
