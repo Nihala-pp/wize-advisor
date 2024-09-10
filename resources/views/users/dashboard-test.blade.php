@@ -1512,6 +1512,21 @@ i.fas.fa-bell.fa-2xl {
         color: #FFFFFF;
     }
 
+    .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input,
+    .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-category-select-wrap,
+    .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-category-select {
+        font-family: "Helvetica", sans-serif;
+        font-size: 8.5px;
+    }
+
+    .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-submit {
+        color: #ffffff;
+        background-color: #605BE5;
+        border-color: #E8E8E8;
+        min-width: 40px;
+        border-width: 0px 0px 0px 0px;
+        border-radius: 0px 0px 0px 0px;
+    }
 
     .elementor-7754 .elementor-element.elementor-element-49e1889:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
     .elementor-7754 .elementor-element.elementor-element-49e1889>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
