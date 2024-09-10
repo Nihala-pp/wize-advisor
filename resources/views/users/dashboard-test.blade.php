@@ -1444,7 +1444,7 @@ i.fas.fa-bell.fa-2xl {
     font-size: 11px;
     font-weight: 400;
     padding-bottom: 10px;
-}w
+}
 
 @media (max-width: 767px) {
 
