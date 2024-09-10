@@ -590,7 +590,7 @@
                                                                 {{ Carbon\Carbon::parse($upcoming_session->date)->format('jS F\\, Y') }},
                                                                 {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }}
                                                                 <span
-                                                                    style="letter-spacing: 0px;">{{ $upcoming_session->utc }}<br /><br /></span>
+                                                                    style="letter-spacing: 0px;">{{ $upcoming_session->utc }}<br /></span>
                                                             </p>
                                                             <p>Description
                                                                 : {{ $upcoming_session->description }}<br />
@@ -620,7 +620,7 @@
                                                                 {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }},
                                                                 {{ Carbon\Carbon::parse($requested_session->date)->format('jS F\\, Y') }},
                                                                 <span
-                                                                    style="letter-spacing: 0px;">{{ $requested_session->utc }}<br /><br /></span>
+                                                                    style="letter-spacing: 0px;">{{ $requested_session->utc }}<br /></span>
                                                             </p>
                                                             <p>Description
                                                                 : {{ $requested_session->description }}<br />
@@ -646,14 +646,14 @@
                                                                 {{ Carbon\Carbon::parse($completed_session->date)->format('jS F\\, Y') }},
                                                                 {{ Illuminate\Support\Carbon::parse($completed_session->start_time)->format('h:i A') }}
                                                                 <span
-                                                                    style="letter-spacing: 0px;">{{ $completed_session->utc }}<br /><br /></span>
+                                                                    style="letter-spacing: 0px;">{{ $completed_session->utc }}<br /></span>
                                                             </p>
                                                             <p>Description
                                                                 : {{ $completed_session->description }}<br />
                                                             </p>
                                                             <p><span><em> <a
                                                                             href="{{ route('user.review', [$completed_session->mentor_id]) }}"
-                                                                            target="_blank" style="color: #3366ff !important;">
+                                                                            target="_blank" style="color:#3366ff !important;">
                                                                             Write Review
                                                                         </a></em></span></p>
                                                         </div>
