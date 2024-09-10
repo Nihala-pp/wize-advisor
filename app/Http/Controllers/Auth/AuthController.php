@@ -200,15 +200,15 @@ class AuthController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
             'role_id' => 3,
-            'is_referral' => $data['is_referral'],
-            'referral_code_used' => $data['referral_code_used']
         ]);
 
         UserMeta::create([
             'user_id' => $user['id'],
             // 'designation' => $data['designation'],
             // 'expertise' => json_encode($data['expert']),
-            'timezone' => $timezone
+            'timezone' => $timezone,
+            'is_referral' => $data['is_referral'],
+            'referral_code_used' => $data['referral_code_used']
         ]);
 
         return $user['id'];
