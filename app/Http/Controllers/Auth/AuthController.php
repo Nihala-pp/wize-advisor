@@ -57,9 +57,11 @@ class AuthController extends Controller
 
         if($referral_code) {
            $is_referral = 1;
+           $referral_code_used = $token;
         }
         else {
             $is_referral = 0;
+            $referral_code_used = '';
         }
 
         $expertise = [
@@ -89,7 +91,7 @@ class AuthController extends Controller
 
         $timezone = \DateTimeZone::listIdentifiers(\DateTimeZone::ALL);
 
-        return view('auth.registration', compact('expertise', 'token', 'id', 'timezone', 'name', 'is_referral'));
+        return view('auth.registration', compact('expertise', 'token', 'id', 'timezone', 'name', 'is_referral', 'referral_code_used'));
     }
 
     /**
@@ -198,7 +200,9 @@ class AuthController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-            'role_id' => 3
+            'role_id' => 3,
+            'is_referral' => $data['is_referral'],
+            'referral_code_used' => 
         ]);
 
         UserMeta::create([

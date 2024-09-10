@@ -1133,6 +1133,8 @@ html body .animated {
                                         <input type="hidden" name="token" value="{{ $token ?: Null }}">
                                         <input type="hidden" name="mentor_id" value="{{ $id ?: Null }}">
                                         <input type="hidden" name="timezone" class="timezone">
+                                        <input type="hidden" name="is_referral" class="is_referral">
+                                        <input type="hidden" name="referral_code_used" class="referral_code_used">
                                         @if ($errors->any())
                                         @foreach ($errors->all() as $error)
                                         <div>{{$error}}</div>
