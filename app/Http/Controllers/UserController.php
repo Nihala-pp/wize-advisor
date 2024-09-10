@@ -408,7 +408,7 @@ alert("Password Updated Successfully!");
     }
 
     $name =  explode(" ",auth()->user()->name);
-    $discount_code = $name[1].auth()->user()->id;
+    $discount_code = $name[0].auth()->user()->id;
     $user = auth()->user();
 
     $user->update([      
