@@ -797,7 +797,7 @@
                                                         data-text="Go"
                                                         href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}">
                                                         <span class="wpr-button-content">
-                                                            <span class="wpr-button-text">Book session</span>
+                                                            <span class="wpr-button-text" style="padding-top:5px">Book session</span>
                                                         </span>
                                                     </a>
                                                 </div>
