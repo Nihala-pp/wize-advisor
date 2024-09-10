@@ -595,11 +595,11 @@
                                                             <p>Description
                                                                 :<br />{{ $upcoming_session->description }}<br /><br />
                                                             </p>
-                                                            <p><span style="color: #3366ff;"><em><a
+                                                            <p><span><em><a
                                                                             href="{{ $upcoming_session->call_link ?: '' }}"
                                                                             class="link" data-bs-toggle="tooltip"
                                                                             data-bs-placement="bottom"
-                                                                            title="Join Session">
+                                                                            title="Join Session" style="color: #3366ff !important;">
                                                                         </a>Join
                                                                         Session</em></span></p>
                                                         </div>
@@ -625,8 +625,8 @@
                                                             <p>Description
                                                                 :<br />{{ $requested_session->description }}<br /><br />
                                                             </p>
-                                                            <p><span style="color:#3366ff !important;"><em><a
-                                                                            href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}">Update
+                                                            <p><span><em><a
+                                                                            href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}" style="color:#3366ff !important;">Update
                                                                             Session</a></em></span></p>
                                                         </div>
                                                         @endforeach
@@ -651,9 +651,9 @@
                                                             <p>Description
                                                                 :<br />{{ $completed_session->description }}<br /><br />
                                                             </p>
-                                                            <p><span style="color: #3366ff !important;"><em> <a
+                                                            <p><span><em> <a
                                                                             href="{{ route('user.review', [$completed_session->mentor_id]) }}"
-                                                                            target="_blank">
+                                                                            target="_blank" style="color: #3366ff !important;">
                                                                             Write Review
                                                                         </a></em></span></p>
                                                         </div>
