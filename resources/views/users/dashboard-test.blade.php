@@ -1528,6 +1528,16 @@ i.fas.fa-bell.fa-2xl {
         border-radius: 0px 0px 0px 0px;
     }
 
+    .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input {
+        color: #333333;
+        background-color: #ffffff;
+        border-color: #E8E8E8;
+        text-align: left;
+        border-width: 1px 1px 1px 1px;
+        /* border-radius: 5px 5px 5px 5px !important; */
+        padding: 15px 0px 15px 10px;
+    }
+
     .elementor-7754 .elementor-element.elementor-element-49e1889:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
     .elementor-7754 .elementor-element.elementor-element-49e1889>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         margin-left: 3px;
