@@ -1438,6 +1438,14 @@ i.fas.fa-bell.fa-2xl {
     padding: 0px 0px 0px 0px;
 }
 
+.elementor-7754 .elementor-element.elementor-element-89a31e1 .elementor-image-box-description {
+    color: #9A9999;
+    font-family: "Roboto", Sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    padding-bottom: 10px;
+}w
+
 @media (max-width: 767px) {
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
