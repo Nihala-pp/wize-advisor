@@ -394,7 +394,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $referral_code_used = UserMeta::where('user_id', Auth::id())->first()->referral_code_used;
 
-    if(empty($referral_code_used) && !empty(4$data['discount_code'])) {
+    if(empty($referral_code_used) && !empty($data['discount_code'])) {
        $validator->after(function ($validator) use($voucher) {
           if(!$voucher)
           {
