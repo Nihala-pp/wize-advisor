@@ -1668,6 +1668,18 @@ i.fas.fa-bell.fa-2xl {
     }
 }
 
+@media (max-width: 360px) {
+    .elementor-7754 .elementor-element.elementor-element-00747b5>.elementor-widget-container {
+        margin: -10px 0px 25px -30px;
+    }
+
+    .elementor-element.elementor-element-b156db7.elementor-widget__width-initial.elementor-widget.elementor-widget-text-editor>span {
+        padding-left: 8px;
+        font-size: 12px;
+    }
+}
+
+
 @media (max-width: 320px) {}
 
 @media (max-width: 280px) {
