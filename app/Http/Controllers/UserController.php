@@ -30,32 +30,48 @@ class UserController extends Controller
 {
   public function index()
   {
-    // $total_calls_scheduled = ScheduledCall::where('mentor_id', Auth::id())->get()->count();
-    // $total_calls_approved = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Approved')->get()->count();
-    // $total_calls_rejected = ScheduledCall::where('mentor_id', Auth::id())->where('status', 'Rejected')->get()->count();
-    // $total_earning= ScheduledCall::where('mentor_id', Auth::id())->sum('price');
-
     $upcoming_sessions =  ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
     $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '<', Carbon::now())->get();
     $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
-    // $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
-    // dd($expertise);
+    $expertise_lists = ExpertiseList::where('is_active', 0)->get();
+    
     $notifications = auth()->user()->unreadNotifications;
-      
-    // foreach($expertise as $expert) {
-    //   $suggested_mentors = User::with(['expertise', 'availability'])
-    //   ->where('role_id', 2)
-    //   ->WhereNull('status')
-    //   ->whereHas('expertise', function ($query) use ($expert) {
-    //     /** @var Builder $query */
-    //     if ($expert)
-    //       $query->where('expertise', 'LIKE', '%' . $expert . '%');
-    //   })
-    //   ->get();
-    // }
+
+    $expertise = auth()->user()->metaData ? json_decode(auth()->user()->metaData->expertise) : '';
+
+    if(!empty($expertise)) {
+      foreach($expertise as $expert) {
+       $suggested_mentors = User::with(['expertise'])
+       ->where('role_id', 2)
+       ->WhereNull('status')
+       ->whereHas('expertise', function ($query) use ($expert) {
+        /** @var Builder $query */
+        if ($expert)
+          $query->where('expertise', 'LIKE', '%' . $expert . '%');
+       })
+       ->take(3)->get();
+     }
+    }
+    else {
+      $suggested_mentors = User::where('role_id', 2)
+      ->WhereNull('status')
+      ->take(3)->get();
+    }
+
+    $name =  explode(" ",auth()->user()->name);
+    $discount_code = $name[0].auth()->user()->id;
+
+    UserMeta::where('user_id', Auth::id())->update([      
+      'referral_code' => $discount_code,
+      'referral_discount_value' => 35
+    ]);
+
+    // $discount_code = $this->discount_code_generator($length = 6);
+
+    $referral_link = "https://wiseadvizor.com/registration/".$discount_code."/".auth()->user()->id."/"."Startup-mentorship-platform";
         
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
-      return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications'));
+      return view('users.index', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications', 'suggested_mentors', 'referral_link', 'expertise_lists'));
     } else {
       return redirect()->route('user.personalInfo', [Auth::id()])->withSuccess('You have Successfully loggedin');
     }
