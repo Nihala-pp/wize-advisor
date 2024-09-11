@@ -601,7 +601,7 @@
                                                             aria-labelledby="elementor-tab-title-6221" tabindex="0"
                                                             hidden="false">
                                                             <p>Session with
-                                                                {{ $upcoming_session->mentor->name }}<br />Date &amp;
+                                                                {{ $upcoming_session->mentor->name }}</p> <p>Date &amp;
                                                                 Time :
                                                                 {{ Carbon\Carbon::parse($upcoming_session->date)->format('jS F\\, Y') }},
                                                                 {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }}
