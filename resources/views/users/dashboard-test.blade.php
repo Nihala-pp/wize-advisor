@@ -1506,7 +1506,7 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .elementor-7754 .elementor-element.elementor-element-0e0d155 > h6 {
-    font-size: 20px;
+    font-size: 23px;
 }
 
 .elementor-7754 .elementor-element.elementor-element-39fa23d {
