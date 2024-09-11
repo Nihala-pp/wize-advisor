@@ -1505,7 +1505,7 @@ i.fas.fa-bell.fa-2xl {
     padding-left: 10px;
 }
 
-.elementor-7754 .elementor-element.elementor-element-0e0d155 > h6 {
+.elementor-7754 .elementor-element.elementor-element-0e0d155>.elementor-widget-container> h6 {
     font-size: 23px;
 }
 
