@@ -1357,6 +1357,7 @@
 </html>
 <style>
 .elementor-7754 .elementor-element.elementor-element-22c27c7c .wpr-dual-title .second {
+    padding-left: 120px;
     color: #fff;
     border-color: #000;
     font-family: "Poppins", Sans-serif;
