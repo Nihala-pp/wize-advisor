@@ -596,6 +596,16 @@
                                                             aria-selected="true" data-tab="1" role="tab" tabindex="0"
                                                             aria-controls="elementor-tab-content-6221"
                                                             aria-expanded="false">Upcoming Sessions</div>
+                                                        @if(empty($upcoming_sessions))
+                                                        <div id="elementor-tab-content-6221"
+                                                            class="elementor-tab-content elementor-clearfix"
+                                                            data-tab="1" role="tabpanel"
+                                                            aria-labelledby="elementor-tab-title-6221" tabindex="0"
+                                                            hidden="false">
+                                                            <p style="font-size:14px;">You have no upcoming sessions -
+                                                                schedule a session now.</p>
+                                                        </div>
+                                                        @else
                                                         @foreach($upcoming_sessions as $upcoming_session)
                                                         <div id="elementor-tab-content-6221"
                                                             class="elementor-tab-content elementor-clearfix"
@@ -623,10 +633,21 @@
                                                                         Session</em></span></p>
                                                         </div>
                                                         @endforeach
+                                                        @endif
                                                         <div class="elementor-tab-title elementor-tab-mobile-title"
                                                             aria-selected="false" data-tab="2" role="tab" tabindex="-1"
                                                             aria-controls="elementor-tab-content-6222"
                                                             aria-expanded="false">Requested Sessions</div>
+                                                        @if(empty($requested_sessions))
+                                                        <div id="elementor-tab-content-6222"
+                                                            class="elementor-tab-content elementor-clearfix"
+                                                            data-tab="2" role="tabpanel"
+                                                            aria-labelledby="elementor-tab-title-6222" tabindex="0"
+                                                            hidden="hidden">
+                                                            <p style="font-size:14px;">You have no requested sessions -
+                                                                schedule a session now.</p>
+                                                        </div>
+                                                        @else
                                                         @foreach($requested_sessions as $requested_session)
                                                         <div id="elementor-tab-content-6222"
                                                             class="elementor-tab-content elementor-clearfix"
@@ -651,12 +672,23 @@
                                                                             Session</a></em></span></p>
                                                         </div>
                                                         @endforeach
+                                                        @endif
                                                         <div class="elementor-tab-title elementor-tab-mobile-title"
                                                             aria-selected="false" data-tab="3" role="tab" tabindex="-1"
                                                             aria-controls="elementor-tab-content-6223"
                                                             aria-expanded="false">Completed Sessions</div>
-                                                        @foreach($completed_sessions as $completed_session)
+                                                        @if(empty($completed_sessions))
                                                         <div id="elementor-tab-content-6223"
+                                                            class="elementor-tab-content elementor-clearfix"
+                                                            data-tab="3" role="tabpanel"
+                                                            aria-labelledby="elementor-tab-title-6223" tabindex="0"
+                                                            hidden="hidden">
+                                                            <p style="font-size:14px;">You have no completed sessions -
+                                                                schedule a session now.</p>
+                                                        </div>
+                                                        @else
+                                                        @foreach($completed_sessions as $completed_session)
+                                                           <div id="elementor-tab-content-6223"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="3" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6223" tabindex="0"
@@ -678,8 +710,9 @@
                                                                             style="color:#3366ff !important;">
                                                                             Write Review
                                                                         </a></em></span></p>
-                                                        </div>
+                                                           </div>
                                                         @endforeach
+                                                        @endif
                                                     </div>
                                                 </div>
                                             </div>
