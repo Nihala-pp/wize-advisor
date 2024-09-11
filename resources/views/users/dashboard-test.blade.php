@@ -1359,6 +1359,15 @@
     background-color: #4285f4;
 }
 
+.elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-submit {
+    color: #ffffff;
+    background-color: #4285f4;
+    border-color: #E8E8E8;
+    min-width: 123px;
+    border-width: 0px 0px 0px 0px;
+    border-radius: 0px 0px 0px 0px;
+}
+
 .elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-content {
     color: #C6C6C6;
     font-family: "Roboto", Sans-serif;
@@ -1431,6 +1440,16 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-7754 .elementor-element.elementor-element-67c6c66 {
     color: #c7cacb;
+}
+
+.elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input {
+    color: #333333;
+    background-color: #ffffff;
+    border-color: #E8E8E8;
+    text-align: left;
+    border-width: 1px 1px 1px 1px;
+    border-radius: 5px 0px 0px 5px !important;
+    padding: 15px 15px 15px 15px;
 }
 
 .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-input,
