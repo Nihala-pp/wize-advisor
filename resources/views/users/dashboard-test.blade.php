@@ -1499,10 +1499,14 @@ i.fas.fa-bell.fa-2xl {
 
 .elementor-7754 .elementor-element.elementor-element-0e0d155 {
     color: #FFFFFF;
-    font-family: "Roboto", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-weight: 400;
     padding-top: 10px;
     padding-left: 10px;
+}
+
+.elementor-7754 .elementor-element.elementor-element-0e0d155 > h6 {
+    font-size: 20px;
 }
 
 .elementor-7754 .elementor-element.elementor-element-39fa23d {
