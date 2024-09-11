@@ -602,7 +602,7 @@
                                                             data-tab="1" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6221" tabindex="0"
                                                             hidden="false">
-                                                            <p style="font-size:14px;">You have no upcoming sessions -
+                                                            <p id="message" style="font-size:14px;">You have no upcoming sessions -
                                                                 schedule a session now.</p>
                                                         </div>
                                                         @else
@@ -644,7 +644,7 @@
                                                             data-tab="2" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6222" tabindex="0"
                                                             hidden="hidden">
-                                                            <p style="font-size:14px;">You have no requested sessions -
+                                                            <p id="message" style="font-size:14px;">You have no requested sessions -
                                                                 schedule a session now.</p>
                                                         </div>
                                                         @else
@@ -683,7 +683,7 @@
                                                             data-tab="3" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6223" tabindex="0"
                                                             hidden="hidden">
-                                                            <p style="font-size:14px;">You have no completed sessions -
+                                                            <p id="message" style="font-size:14px;">You have no completed sessions -
                                                                 schedule a session now.</p>
                                                         </div>
                                                         @else
@@ -1609,6 +1609,10 @@ i.fas.fa-bell.fa-2xl {
     body {
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    #message {
+        margin-top:20px;
     }
 
     .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
