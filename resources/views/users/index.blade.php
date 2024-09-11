@@ -601,7 +601,8 @@
                                                             aria-labelledby="elementor-tab-title-6221" tabindex="0"
                                                             hidden="false">
                                                             <p style="font-size:14px;">Session with
-                                                                {{ $upcoming_session->mentor->name }}</p> <p>Date &amp;
+                                                                {{ $upcoming_session->mentor->name }}</p>
+                                                            <p>Date &amp;
                                                                 Time :
                                                                 {{ Carbon\Carbon::parse($upcoming_session->date)->format('jS F\\, Y') }},
                                                                 {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }}
@@ -631,7 +632,8 @@
                                                             aria-labelledby="elementor-tab-title-6222" tabindex="0"
                                                             hidden="hidden">
                                                             <p style="font-size:14px;">Session with
-                                                                {{ $requested_session->mentor->name }}</p><p>Date &amp;
+                                                                {{ $requested_session->mentor->name }}</p>
+                                                            <p>Date &amp;
                                                                 Time :
                                                                 {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }},
                                                                 {{ Carbon\Carbon::parse($requested_session->date)->format('jS F\\, Y') }},
@@ -658,7 +660,8 @@
                                                             aria-labelledby="elementor-tab-title-6223" tabindex="0"
                                                             hidden="hidden">
                                                             <p style="font-size:14px;">Session with
-                                                                {{ $completed_session->mentor->name }}</p><p>Date &amp;
+                                                                {{ $completed_session->mentor->name }}</p>
+                                                            <p>Date &amp;
                                                                 Time :
                                                                 {{ Carbon\Carbon::parse($completed_session->date)->format('jS F\\, Y') }},
                                                                 {{ Illuminate\Support\Carbon::parse($completed_session->start_time)->format('h:i A') }}
@@ -883,7 +886,7 @@
                                                     <div class="wpr-dual-title-wrap">
                                                         <h6 class="wpr-dual-title">
 
-                                                            <span class="second">No Events Yet.</span>
+                                                            <span class="second">No Events Registered Yet.</span>
                                                         </h6>
                                                     </div>
                                                     <!-- <div class="wpr-dual-heading-description">No events yet.</div> -->
@@ -1353,6 +1356,15 @@
 
 </html>
 <style>
+.elementor-7754 .elementor-element.elementor-element-22c27c7c .wpr-dual-title .second {
+    color: #fff;
+    border-color: #000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-style: none;
+}
+
 .elementor-7754 .elementor-element.elementor-element-49e1889:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 .elementor-7754 .elementor-element.elementor-element-49e1889>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #4285f4;
