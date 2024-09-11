@@ -883,7 +883,7 @@
                                                     <div class="wpr-dual-title-wrap">
                                                         <h6 class="wpr-dual-title">
 
-                                                            <span class="second">>No Events Yet.</span>
+                                                            <span class="second">No Events Yet.</span>
                                                         </h6>
                                                     </div>
                                                     <!-- <div class="wpr-dual-heading-description">No events yet.</div> -->
