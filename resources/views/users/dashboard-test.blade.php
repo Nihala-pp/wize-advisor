@@ -1355,6 +1355,10 @@
     background-color: #4285f4;
 }
 
+a:hover {
+    background-color: #4285f4;
+}
+
 .elementor-7754 .elementor-element.elementor-element-00747b5 .wpr-button::before {
     background-color: #4285f4;
     /* -webkit-transition-duration: 0.4s; */
