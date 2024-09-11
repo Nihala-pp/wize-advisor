@@ -631,7 +631,7 @@
                                                             aria-labelledby="elementor-tab-title-6222" tabindex="0"
                                                             hidden="hidden">
                                                             <p>Session with
-                                                                {{ $requested_session->mentor->name }}<br />Date &amp;
+                                                                {{ $requested_session->mentor->name }}</p><p>Date &amp;
                                                                 Time :
                                                                 {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }},
                                                                 {{ Carbon\Carbon::parse($requested_session->date)->format('jS F\\, Y') }},
@@ -658,7 +658,7 @@
                                                             aria-labelledby="elementor-tab-title-6223" tabindex="0"
                                                             hidden="hidden">
                                                             <p>Session with
-                                                                {{ $completed_session->mentor->name }}<br />Date &amp;
+                                                                {{ $completed_session->mentor->name }}</p><p>Date &amp;
                                                                 Time :
                                                                 {{ Carbon\Carbon::parse($completed_session->date)->format('jS F\\, Y') }},
                                                                 {{ Illuminate\Support\Carbon::parse($completed_session->start_time)->format('h:i A') }}
