@@ -1572,6 +1572,12 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .elementor-7754 .elementor-element.elementor-element-22c27c7c .wpr-dual-title .second {
         padding-top: 5px;
         padding-left: 0px;
