@@ -960,7 +960,7 @@
                                                                     disabled>
                                                                 <button
                                                                     class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    id="copy_link" aria-label="Search" type="submit" style="background-color: #4285f4;"a>
+                                                                    id="copy_link" aria-label="Search" type="submit" style="background-color: #4285f4;">
                                                                     <i class="fas fa-copy"></i>
                                                                     Copy Referral
                                                                 </button>
