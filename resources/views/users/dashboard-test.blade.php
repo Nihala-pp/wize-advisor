@@ -337,17 +337,17 @@
                                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
                                                         <select name="expertise" class="wpr-search-form-input expertise"
                                                             placeholder="e.g. Idea Validation, Fund Raising"
-                                                            aria-label="Search" type="search"
-                                                            title="Search" value="" wpr-query-type="all"
-                                                            wpr-taxonomy-type="" number-of-results="2" ajax-search=""
-                                                            show-description="yes" number-of-words="30"
-                                                            show-ajax-thumbnails="" show-view-result-btn=""
-                                                            view-result-text="View Results"
+                                                            aria-label="Search" type="search" title="Search" value=""
+                                                            wpr-query-type="all" wpr-taxonomy-type=""
+                                                            number-of-results="2" ajax-search="" show-description="yes"
+                                                            number-of-words="30" show-ajax-thumbnails=""
+                                                            show-view-result-btn="" view-result-text="View Results"
                                                             no-results="No Results Found" exclude-without-thumb=""
                                                             link-target="_self">
                                                             <option>Choose Your Expertise</option>
                                                             @foreach ($expertise_lists as $expertise_list)
-                                                              <option value="{{ $expertise_list->name }}">{{ $expertise_list->name }}</option>
+                                                            <option value="{{ $expertise_list->name }}">
+                                                                {{ $expertise_list->name }}</option>
                                                             @endforeach
                                                         </select>
                                                         <button class="wpr-search-form-submit search"
@@ -1505,8 +1505,9 @@ i.fas.fa-bell.fa-2xl {
     padding-left: 10px;
 }
 
-.elementor-7754 .elementor-element.elementor-element-0e0d155>.elementor-widget-container> h6 {
-    font-size: 23px;
+.elementor-7754 .elementor-element.elementor-element-0e0d155>.elementor-widget-container>h6 {
+    font-size: 21px;
+    font-family: "Helvetica", Sans-serif;
 }
 
 .elementor-7754 .elementor-element.elementor-element-39fa23d {
