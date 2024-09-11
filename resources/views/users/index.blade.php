@@ -596,7 +596,7 @@
                                                             aria-selected="true" data-tab="1" role="tab" tabindex="0"
                                                             aria-controls="elementor-tab-content-6221"
                                                             aria-expanded="false">Upcoming Sessions</div>
-                                                        @if(empty($upcoming_sessions))
+                                                        @if($upcoming_sessions->count() < 1)
                                                         <div id="elementor-tab-content-6221"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="1" role="tabpanel"
