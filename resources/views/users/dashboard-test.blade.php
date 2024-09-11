@@ -335,7 +335,7 @@
                                                     class="wpr-search-form"
                                                     action="{{ route('user.searchExpertise') }}">
                                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
-                                                        <input class="wpr-search-form-input expertise"
+                                                        <select class="wpr-search-form-input expertise"
                                                             placeholder="e.g. Idea Validation, Fund Raising"
                                                             aria-label="Search" type="search" name="expertise"
                                                             title="Search" value="" wpr-query-type="all"
@@ -345,6 +345,11 @@
                                                             view-result-text="View Results"
                                                             no-results="No Results Found" exclude-without-thumb=""
                                                             link-target="_self">
+                                                            <option>Choose Your expertise</option>
+                                                            @foreach ($expertise_lists as $expertise_list)
+                                                              <option value="{{ $expertise_list->name }}">{{ $expertise_list->name }}</option>
+                                                            @endforeach
+                                                        </select>
                                                         <button class="wpr-search-form-submit search"
                                                             aria-label="Search" type="submit"
                                                             style="background-color: #4285f4;">
