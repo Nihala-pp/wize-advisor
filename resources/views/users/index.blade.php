@@ -866,7 +866,7 @@
                                 </div>
                             </div>
                         </section>
-                        <!-- <section
+                        <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-19cb69240 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="19cb69240" data-element_type="section"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -880,26 +880,21 @@
                                             data-widget_type="wpr-dual-color-heading.default">
                                             <div class="elementor-widget-container">
                                                 <div class="wpr-dual-heading-wrap">
-                                                    <div class="wpr-dual-title-wrap">
+                                                    <!-- <div class="wpr-dual-title-wrap">
                                                         <h6 class="wpr-dual-title">
                                                             <span class="first">Get Ready To Buy</span>
 
                                                             <span class="second">Extraordinary NFTs</span>
                                                         </h6>
-                                                    </div>
+                                                    </div> -->
 
-                                                    <div class="wpr-dual-heading-description">Both rest of know draw
-                                                        fond post as. It agreement defective to excellent. Feebly do
-                                                        engage of narrow. Extensive repulsive belonging depending if
-                                                        promotion be zealously as. Preference inquietude ask now are
-                                                        dispatched led appearance. Small meant in so doubt hopes. Me
-                                                        smallness is existence attending.</div>
+                                                    <div class="wpr-dual-heading-description">No events yet.</div>
 
 
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="elementor-element elementor-element-03fed36 elementor-widget elementor-widget-heading"
+                                        <!-- <div class="elementor-element elementor-element-03fed36 elementor-widget elementor-widget-heading"
                                             data-id="03fed36" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
@@ -933,11 +928,11 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </section>
+                                        </section> -->
                                     </div>
                                 </div>
                             </div>
-                        </section> -->
+                        </section>
                         <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-i5m9wmc elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="i5m9wmc" data-element_type="section"
