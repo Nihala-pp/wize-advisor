@@ -346,7 +346,8 @@
                                                             no-results="No Results Found" exclude-without-thumb=""
                                                             link-target="_self">
                                                         <button class="wpr-search-form-submit search"
-                                                            aria-label="Search" type="submit" style="background-color: #4285f4;">
+                                                            aria-label="Search" type="submit"
+                                                            style="background-color: #4285f4;">
                                                             <i class="fas fa-search"></i>
                                                         </button>
                                                     </div>
@@ -796,7 +797,8 @@
                                                 <div class="wpr-button-wrap elementor-clearfix">
                                                     <a class="wpr-button wpr-button-effect wpr-button-none"
                                                         data-text="Go"
-                                                        href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}" style="background-color: #4285f4;">
+                                                        href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}"
+                                                        style="background-color: #4285f4;">
                                                         <span class="wpr-button-content">
                                                             <span class="wpr-button-text" style="padding-top:5px">Book
                                                                 session</span>
@@ -903,7 +905,8 @@
                                                             <div class="elementor-widget-container">
                                                                 <div class="wpr-button-wrap elementor-clearfix">
                                                                     <a class="wpr-button wpr-button-effect wpr-button-none"
-                                                                        data-text="Go" href="#link" style="background-color: #4285f4;">
+                                                                        data-text="Go" href="#link"
+                                                                        style="background-color: #4285f4;">
                                                                         <span class="wpr-button-content">
                                                                             <span
                                                                                 class="wpr-button-text">Register</span>
@@ -960,7 +963,8 @@
                                                                     disabled>
                                                                 <button
                                                                     class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    id="copy_link" aria-label="Search" type="submit" style="background-color: #4285f4;">
+                                                                    id="copy_link" aria-label="Search" type="submit"
+                                                                    style="background-color: #4285f4;">
                                                                     <i class="fas fa-copy"></i>
                                                                     Copy Referral
                                                                 </button>
@@ -1349,6 +1353,14 @@
 .elementor-7754 .elementor-element.elementor-element-49e1889:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 .elementor-7754 .elementor-element.elementor-element-49e1889>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #4285f4;
+}
+
+.elementor-7754 .elementor-element.elementor-element-00747b5 .wpr-button::before {
+    background-color: #4285f4;
+    /* -webkit-transition-duration: 0.4s; */
+    transition-duration: 0.4s;
+    /* -webkit-animation-duration: 0.4s; */
+    animation-duration: 0.4s;
 }
 
 .elementor-7754 .elementor-element.elementor-element-ce8b0b8 .wpr-search-form-submit {
