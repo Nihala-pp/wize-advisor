@@ -1515,6 +1515,11 @@ i.fas.fa-bell.fa-2xl {
     font-family: "Helvetica", Sans-serif;
 }
 
+.elementor-7754 .elementor-element.elementor-element-09f8429>.elementor-widget-container>h6 {
+    font-size: 21px;
+    font-family: "Helvetica", Sans-serif;
+}
+
 .elementor-7754 .elementor-element.elementor-element-39fa23d {
     padding-left: 10px;
     padding-top: 25px;
@@ -1530,8 +1535,8 @@ i.fas.fa-bell.fa-2xl {
 .elementor-7754 .elementor-element.elementor-element-bbf9616 .elementor-heading-title {
     padding-top: 30px;
     color: #FFFFFF;
-    font-family: "Roboto", Sans-serif;
-    font-size: 16px;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 21px;
     font-weight: 600;
     /* padding-bottom: 20px; */
 }
