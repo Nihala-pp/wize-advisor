@@ -1401,6 +1401,12 @@ a:hover {
     border-width: 1px;
 }
 
+.elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-title {
+    font-family: "Helvetica", Sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
 .elementor-7754 .elementor-element.elementor-element-67c6c66>.elementor-widget-container {
     margin: -18px 0px 0px 0px;
     padding: 0px 0px 0px 10px;
