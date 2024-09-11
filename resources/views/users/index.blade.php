@@ -887,10 +887,7 @@
                                                             <span class="second">Extraordinary NFTs</span>
                                                         </h6>
                                                     </div> -->
-
                                                     <div class="wpr-dual-heading-description">No events yet.</div>
-
-
                                                 </div>
                                             </div>
                                         </div>
