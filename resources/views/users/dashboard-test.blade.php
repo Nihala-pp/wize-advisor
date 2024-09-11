@@ -806,7 +806,7 @@
                                                         style="background-color: #4285f4;">
                                                         <span class="wpr-button-content">
                                                             <span class="wpr-button-text" style="padding-top:5px">Book
-                                                                session</span>
+                                                                Session</span>
                                                         </span>
                                                     </a>
                                                 </div>
