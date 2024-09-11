@@ -638,7 +638,7 @@
                                                             aria-selected="false" data-tab="2" role="tab" tabindex="-1"
                                                             aria-controls="elementor-tab-content-6222"
                                                             aria-expanded="false">Requested Sessions</div>
-                                                        @if(empty($requested_sessions))
+                                                        @if($requested_sessions->count() < 1)
                                                         <div id="elementor-tab-content-6222"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="2" role="tabpanel"
@@ -677,7 +677,7 @@
                                                             aria-selected="false" data-tab="3" role="tab" tabindex="-1"
                                                             aria-controls="elementor-tab-content-6223"
                                                             aria-expanded="false">Completed Sessions</div>
-                                                        @if(empty($completed_sessions))
+                                                        @if($completed_sessions->count() < 1)
                                                         <div id="elementor-tab-content-6223"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="3" role="tabpanel"
