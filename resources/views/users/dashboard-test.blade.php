@@ -600,7 +600,7 @@
                                                             data-tab="1" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6221" tabindex="0"
                                                             hidden="false">
-                                                            <p>Session with
+                                                            <p style="font-size:14px;">Session with
                                                                 {{ $upcoming_session->mentor->name }}</p> <p>Date &amp;
                                                                 Time :
                                                                 {{ Carbon\Carbon::parse($upcoming_session->date)->format('jS F\\, Y') }},
@@ -630,7 +630,7 @@
                                                             data-tab="2" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6222" tabindex="0"
                                                             hidden="hidden">
-                                                            <p>Session with
+                                                            <p style="font-size:14px;">Session with
                                                                 {{ $requested_session->mentor->name }}</p><p>Date &amp;
                                                                 Time :
                                                                 {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }},
@@ -657,7 +657,7 @@
                                                             data-tab="3" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6223" tabindex="0"
                                                             hidden="hidden">
-                                                            <p>Session with
+                                                            <p style="font-size:14px;">Session with
                                                                 {{ $completed_session->mentor->name }}</p><p>Date &amp;
                                                                 Time :
                                                                 {{ Carbon\Carbon::parse($completed_session->date)->format('jS F\\, Y') }},
