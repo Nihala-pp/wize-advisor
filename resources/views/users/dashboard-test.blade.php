@@ -1510,6 +1510,11 @@ i.fas.fa-bell.fa-2xl {
     font-family: "Helvetica", Sans-serif;
 }
 
+.elementor-7754 .elementor-element.elementor-element-39fa23d>.elementor-widget-container>h6 {
+    font-size: 21px;
+    font-family: "Helvetica", Sans-serif;
+}
+
 .elementor-7754 .elementor-element.elementor-element-39fa23d {
     padding-left: 10px;
     padding-top: 25px;
