@@ -346,7 +346,7 @@
                                                             no-results="No Results Found" exclude-without-thumb=""
                                                             link-target="_self">
                                                         <button class="wpr-search-form-submit search"
-                                                            aria-label="Search" type="submit">
+                                                            aria-label="Search" type="submit" style="background-color: #4285f4;">
                                                             <i class="fas fa-search"></i>
                                                         </button>
                                                     </div>
