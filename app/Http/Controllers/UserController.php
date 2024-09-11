@@ -383,6 +383,7 @@ alert("Password Updated Successfully!");
     $upcoming_sessions =  ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '>=', Carbon::now())->get();
     $completed_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Approved')->where('is_paid', 1)->where('date', '<', Carbon::now())->get();
     $requested_sessions = ScheduledCall::where('user_id', Auth::id())->where('status', 'Pending')->where('is_paid', 1)->get();
+    $expertise_list = ExpertiseList::where('is_active', 0)->get();
     
     $notifications = auth()->user()->unreadNotifications;
 
@@ -420,7 +421,7 @@ alert("Password Updated Successfully!");
     $referral_link = "https://wiseadvizor.com/registration/".$discount_code."/".auth()->user()->id."/"."Startup-mentorship-platform";
     
     if (auth()->user()->role_id == 3 && auth()->user()->metaData) {
-       return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications', 'suggested_mentors', 'referral_link'));
+       return view('users.dashboard-test', compact('upcoming_sessions', 'completed_sessions', 'requested_sessions', 'notifications', 'suggested_mentors', 'referral_link', 'expertise_list'));
     } 
   }
 
