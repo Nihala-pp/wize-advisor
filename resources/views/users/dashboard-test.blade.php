@@ -385,6 +385,16 @@
                                                 <h6>Your Sessions</h6>
                                             </div>
                                         </div>
+                                        <div class="elementor-element elementor-element-e1dbd2f elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                                            data-id="e1dbd2f" data-element_type="widget"
+                                            data-widget_type="divider.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-divider">
+                                                    <span class="elementor-divider-separator">
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
                                         <div class="elementor-element elementor-element-3b55da2 elementor-tabs-view-horizontal elementor-widget elementor-widget-tabs"
                                             data-id="3b55da2" data-element_type="widget"
                                             data-widget_type="tabs.default">
