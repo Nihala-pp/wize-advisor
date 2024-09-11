@@ -55,6 +55,7 @@ class UserController extends Controller
     else {
       $suggested_mentors = User::where('role_id', 2)
       ->WhereNull('status')
+      ->where('is_default_suggested', 1)
       ->take(3)->get();
     }
 
