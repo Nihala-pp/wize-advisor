@@ -866,7 +866,7 @@
                                 </div>
                             </div>
                         </section>
-                        <section
+                        <!-- <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-19cb69240 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="19cb69240" data-element_type="section"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -937,7 +937,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </section>
+                        </section> -->
                         <section
                             class="elementor-section elementor-top-section elementor-element elementor-element-i5m9wmc elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="i5m9wmc" data-element_type="section"
