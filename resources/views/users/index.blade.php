@@ -880,14 +880,14 @@
                                             data-widget_type="wpr-dual-color-heading.default">
                                             <div class="elementor-widget-container">
                                                 <div class="wpr-dual-heading-wrap">
-                                                    <!-- <div class="wpr-dual-title-wrap">
+                                                    <div class="wpr-dual-title-wrap">
                                                         <h6 class="wpr-dual-title">
-                                                            <span class="first">Get Ready To Buy</span>
+                                                            <!-- <span class="first">Get Ready To Buy</span> -->
 
-                                                            <span class="second">Extraordinary NFTs</span>
+                                                            <span class="second">>No Events Yet.</span>
                                                         </h6>
-                                                    </div> -->
-                                                    <div class="wpr-dual-heading-description">No events yet.</div>
+                                                    </div>
+                                                    <!-- <div class="wpr-dual-heading-description">No events yet.</div> -->
                                                 </div>
                                             </div>
                                         </div>
