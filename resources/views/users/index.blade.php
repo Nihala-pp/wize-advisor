@@ -882,7 +882,6 @@
                                                 <div class="wpr-dual-heading-wrap">
                                                     <div class="wpr-dual-title-wrap">
                                                         <h6 class="wpr-dual-title">
-                                                            <!-- <span class="first">Get Ready To Buy</span> -->
 
                                                             <span class="second">>No Events Yet.</span>
                                                         </h6>
