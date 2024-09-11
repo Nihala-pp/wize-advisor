@@ -1613,6 +1613,7 @@ i.fas.fa-bell.fa-2xl {
 
     #message {
         margin-top:20px;
+        padding-left:10px
     }
 
     .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
