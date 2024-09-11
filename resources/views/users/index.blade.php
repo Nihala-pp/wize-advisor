@@ -1578,6 +1578,12 @@ i.fas.fa-bell.fa-2xl {
         overflow-x: hidden;
     }
 
+    .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {
+        margin-left: 30px;
+        margin-right: 30px;
+        border-block-start: var(--divider-border-width) var(--divider-border-style) var(--divider-color);
+    }
+
     .elementor-7754 .elementor-element.elementor-element-22c27c7c .wpr-dual-title .second {
         padding-top: 5px;
         padding-left: 0px;
