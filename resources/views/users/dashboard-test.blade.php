@@ -1354,6 +1354,11 @@
 
 </html>
 <style>
+.elementor-7754 .elementor-element.elementor-element-49e1889:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-7754 .elementor-element.elementor-element-49e1889>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #4285f4;
+}
+
 .elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-content {
     color: #C6C6C6;
     font-family: "Roboto", Sans-serif;
