@@ -24,6 +24,7 @@
     <meta name="generator"
         content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-7754 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.7.1 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-7754">
     @include('partials.header-common')
@@ -1354,6 +1355,7 @@
                     @include('partials.web-script')
             </div>
 </body>
+
 </html>
 <style>
 .elementor-7754 .elementor-element.elementor-element-22c27c7c .wpr-dual-title .second {
@@ -1569,6 +1571,17 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media (max-width: 767px) {
+
+    .elementor-7754 .elementor-element.elementor-element-22c27c7c .wpr-dual-title .second {
+        padding-top: 5px;
+        padding-left: 0px;
+        color: #fff;
+        border-color: #000;
+        font-family: "Poppins", Sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        border-style: none;
+    }
 
     .elementor-7754 .elementor-element.elementor-element-0919c49 .elementor-button {
         font-family: "Roboto", Sans-serif;
