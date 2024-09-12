@@ -116,15 +116,15 @@
                         <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
                             data-id="62d1cd5" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-button-wrapper">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('register') }}">
+                                <a class="elementor-button elementor-button-link elementor-size-sm"
+                                    href="{{ route('register') }}">
+                                    <div class="elementor-button-wrapper">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Get
                                                 Started</span>
                                         </span>
-                                    </a>
-                                </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <section
