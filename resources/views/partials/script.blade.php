@@ -1143,7 +1143,7 @@
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1688377903" media="all">
     <link rel="stylesheet" id="elementor-pro-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.5.0"
-        media="all">
+        disabled>
     <link rel="stylesheet" id="font-awesome-5-all-css"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=3.14.1"
         media="all">
