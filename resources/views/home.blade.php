@@ -117,13 +117,13 @@
                             data-id="62d1cd5" data-element_type="widget" data-widget_type="button.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-button-wrapper">
-                                    <button type="button" class="elementor-button elementor-button-link elementor-size-sm"
-                                        href="{{ route('register') }}">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{route('register') }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Get
                                                 Started</span>
                                         </span>
-                                    </button>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -2264,6 +2264,7 @@
     color: #FFFFFF;
     background-color: #4285f4;
     border-radius: 7px 7px 7px 7px;
+    cursor: pointer !important;
 }
 
 .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
