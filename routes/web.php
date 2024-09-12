@@ -74,7 +74,7 @@ Route::get('/reload-captcha', [payWithpaypal::class, 'reloadCaptcha']);
 // Route::post('reset-password', [ForgotPasswordController::class, 'submitResetPasswordForm'])->name('reset.password.post');
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
-Route::get('test', [HomeController::class, 'test'])->name('test');
+// Route::get('test', [HomeController::class, 'test'])->name('test');
 Route::get('mentors/{id?}/{name?}', [HomeController::class, 'profile'])->name('profile');
 Route::get('BrowseMentors/{expertise_name?}', [HomeController::class, 'browseMentor'])->name('browseMentor');
 Route::get('browseMentor/filters', [HomeController::class, 'filters'])->name('browseMentor.filters');
@@ -226,7 +226,7 @@ Route::controller(UserController::class)
         Route::get('/dashboard', 'index')->name('dashboard');
         Route::get('/review/{id?}', 'review')->name('review');
         Route::post('/review/save', 'saveReview')->name('review.save');
-        Route::get('/schedule/update/{id?}', 'updateSchedule')->name('schedule.update');
+        Route::get('/schedule/update/{id?}', 'updateSchedule')->name(name: 'schedule.update');
         Route::post('/schedule/save', 'saveSchedule')->name('schedule.save');
         Route::get('/getTimeAvailability', 'getTimeAvailability')->name('schedule.getTimeAvailability');
         Route::get('/profile/{id?}', 'profile')->name('profile');
@@ -234,8 +234,8 @@ Route::controller(UserController::class)
         Route::get('/change-password', 'changePassword')->name('change-password');
         Route::post('/save-password', 'savePassword')->name('password.save');
         Route::get('/my-reviews', 'listReviews')->name('reviews.list');
-        Route::get('/profileTest', 'profileTest')->name('profileTest');
-        Route::get('/test', 'test')->name('test');
+        // Route::get('/profileTest', 'profileTest')->name('profileTest');
+        // Route::get('/test', 'test')->name('test');
         Route::get('expertise','searchExpertise')->name('searchExpertise');
     });
 
