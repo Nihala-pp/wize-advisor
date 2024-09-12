@@ -644,7 +644,8 @@ body .is-layout-grid>* {
 <link rel='stylesheet' id='elementor-post-5595-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5595.css?ver=1707730167' media='all' />
 <link rel='stylesheet' id='hfe-widgets-style-css'
-    href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.24'>
+    href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.24'
+    discuss>
 <link rel='stylesheet' id='elementor-post-32-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1706785961' media='all' />
 <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
@@ -685,7 +686,7 @@ body .is-layout-grid>* {
     async>
 <link rel='stylesheet' id='elementor-icons-shared-0-css'
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3'
-    media='all' />
+    disabled>
 <link rel='stylesheet' id='elementor-icons-fa-solid-css'
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3'
     media='all' />
@@ -1130,8 +1131,10 @@ html body .animated {
                                         <input type="hidden" name="token" value="{{ $token ?: Null }}">
                                         <input type="hidden" name="mentor_id" value="{{ $id ?: Null }}">
                                         <input type="hidden" name="timezone" class="timezone">
-                                        <input type="hidden" name="is_referral" class="is_referral" value="{{ $is_referral ?: Null  }}">
-                                        <input type="hidden" name="referral_code_used" class="referral_code_used" value="{{ $referral_code_used ?: Null  }}">
+                                        <input type="hidden" name="is_referral" class="is_referral"
+                                            value="{{ $is_referral ?: Null  }}">
+                                        <input type="hidden" name="referral_code_used" class="referral_code_used"
+                                            value="{{ $referral_code_used ?: Null  }}">
                                         @if ($errors->any())
                                         @foreach ($errors->all() as $error)
                                         <div>{{$error}}</div>
