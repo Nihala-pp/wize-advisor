@@ -2957,7 +2957,7 @@ i.fas.fa-chevron-down {
         font-weight: 400;
         font-size: 12px !important;
         margin-top: -40px;
-        margin-left: 145px;
+        margin-left: 120px;
         /* margin-right: 20px; */
     }
 
