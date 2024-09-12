@@ -145,7 +145,7 @@
                                                     alt="startup mentors"
                                                     srcset="https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 1024w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 1080w"
                                                     sizes="(max-width: 500px) 100vw, 500px"
-                                                    style="width:100%;height:100%;max-width:250px">
+                                                    style="width:100%;height:100%;max-width:200px">
                                             </div>
                                         </div>
 
