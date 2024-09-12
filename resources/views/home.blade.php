@@ -115,17 +115,17 @@
                         </div>
                         <div class="elementor-element elementor-element-62d1cd5 elementor-align-center elementor-widget elementor-widget-button"
                             data-id="62d1cd5" data-element_type="widget" data-widget_type="button.default">
-                            <a class="elementor-button elementor-button-link elementor-size-sm"
-                                href="{{ route('register') }}">
-                                <div class="elementor-widget-container">
-                                    <div class="elementor-button-wrapper">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="{{ route('register') }}">
                                         <span class="elementor-button-content-wrapper">
                                             <span class="elementor-button-text">Get
                                                 Started</span>
                                         </span>
-                                    </div>
+                                    </a>
                                 </div>
-                            </a>
+                            </div>
                         </div>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-6a97277 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
