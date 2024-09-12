@@ -140,10 +140,10 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img loading="lazy" decoding="async" width="500" height="500"
-                                                    src="https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png"
+                                                    src="https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png"
                                                     class="attachment-medium_large size-medium_large wp-image-8245"
                                                     alt=""
-                                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1024x1024.png 1024w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1300x1300.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106.png 1080w"
+                                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-300x300.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1024x1024.png 1024w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-700x700.png 700w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1300x1300.png 1300w, https://wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106.png 1080w"
                                                     sizes="(max-width: 500px) 100vw, 500px"
                                                     style="width:100%;height:100%;max-width:250px">
                                             </div>
@@ -154,10 +154,10 @@
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
                                                 <img loading="lazy" decoding="async" width="750" height="750"
-                                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png"
+                                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png"
                                                     class="attachment-medium_large size-medium_large wp-image-8245"
                                                     alt=""
-                                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-768x768.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1024x1024.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106.png 1080w"
+                                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-300x300.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1024x1024.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106.png 1080w"
                                                     sizes="(max-width: 750px) 100vw, 750px"
                                                     style="width:100%;height:100%;max-width:1080px">
                                             </div>
@@ -2449,7 +2449,7 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-babd5b5>.elementor-background-overlay {
-    background-image: url("https://wiseadvizor.com/wp-content/uploads/2024/06/cubes.png");
+    background-image: url("https://web.wiseadvizor.com/wp-content/uploads/2024/06/cubes.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
