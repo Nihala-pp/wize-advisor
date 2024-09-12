@@ -3482,7 +3482,7 @@ i.fas.fa-chevron-down {
         font-family: "Helvetica", Sans-serif;
         font-weight: 400;
         font-size: 12px !important;
-        margin-top: -120px;
+        margin-top: -30px;
         margin-left: 80px;
         /* margin-right: 20px; */
     }
