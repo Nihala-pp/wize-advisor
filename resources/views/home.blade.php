@@ -1925,7 +1925,7 @@
         width: 100%;
         height: 100%;
         max-width: 250px;
-        margin-top: -160px;
+        margin-top: -80px;
 
         /* width: 100%;
         max-width: 100%;
