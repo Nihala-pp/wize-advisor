@@ -2951,6 +2951,7 @@ i.fas.fa-chevron-down {
 
 
     .elementor-8 .elementor-element.elementor-element-085e562 .elementor-heading-title {
+        line-height: 15px;
         color: #c7cacb;
         font-family: "Helvetica", Sans-serif;
         font-weight: 400;
