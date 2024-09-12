@@ -2449,7 +2449,7 @@ i.fas.fa-chevron-down {
 }
 
 .elementor-8 .elementor-element.elementor-element-babd5b5>.elementor-background-overlay {
-    background-image: url("https://web.wiseadvizor.com/wp-content/uploads/2024/06/cubes.png");
+    background-image: url("https://wiseadvizor.com/wp-content/uploads/2024/06/cubes.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
