@@ -2938,7 +2938,8 @@ i.fas.fa-chevron-down {
         /* height: 100%; */
         /* max-width: 250px; */
         margin-top: -20px !important;
-        margin-left: -290px !important;
+        margin-left: -340px !important;
+        max-width: 150px !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-bcb7070 {
@@ -2956,8 +2957,8 @@ i.fas.fa-chevron-down {
         font-family: "Helvetica", Sans-serif;
         font-weight: 400;
         font-size: 12px !important;
-        margin-top: -40px;
-        margin-left: 120px;
+        margin-top: -30px;
+        margin-left: 70px;
         /* margin-right: 20px; */
     }
 
