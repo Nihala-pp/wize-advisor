@@ -645,7 +645,7 @@ body .is-layout-grid>* {
 <link rel='stylesheet' id='elementor-post-5595-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5595.css?ver=1707730167' media='all' />
 <link rel='stylesheet' id='hfe-widgets-style-css'
-    href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.24' disabled>
+    href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.24'>
 <link rel='stylesheet' id='elementor-post-32-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1706785961' media='all' />
 <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
