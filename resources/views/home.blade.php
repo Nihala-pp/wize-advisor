@@ -3377,6 +3377,16 @@ i.fas.fa-chevron-down {
 }
 
 @media (max-width: 360px) {
+
+    .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
+        /* width: 100%; */
+        /* height: 100%; */
+        /* max-width: 250px; */
+        margin-top: -20px !important;
+        margin-left: -290px !important;
+        max-width: 150px !important;
+    }
+
     .elementor-8 .elementor-element.elementor-element-9ecb7fe .elementor-heading-title {
         color: #fff;
         font-family: "Helvetica", Sans-serif;
@@ -3417,8 +3427,8 @@ i.fas.fa-chevron-down {
         font-family: "Helvetica", Sans-serif;
         font-weight: 400;
         font-size: 10px !important;
-        margin-top: -97px !important;
-        margin-left: 40px !important;
+        margin-top: -30px !important
+        margin-left: 50px !important;
         /* margin-right: 20px; */
     }
 
