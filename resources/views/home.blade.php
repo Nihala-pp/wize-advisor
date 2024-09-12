@@ -2252,7 +2252,7 @@
     font-weight: 400;
     font-size: 15px !important;
     padding-top: 30px;
-    margin-left: -30px;
+    margin-left: -10px;
 }
 
 .elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
