@@ -26,11 +26,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link rel="preload" fetchpriority="high" as="image" href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
-    <script defer src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
-    </script>
-    <script defer src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
-    </script>
+    <link rel="preload" fetchpriority="high" as="image"
+        href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
     <link rel="canonical" href="https://wiseadvizor.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
@@ -834,7 +831,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img loading="lazy" decoding="async" 
+                                                        <img loading="lazy" decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
                                                             class="lazyload" alt="online mentoring" width="50"
                                                             height="50" type="image/webp">
@@ -1076,7 +1073,8 @@
                                                                                                     class="qodef-e-images-holder">
                                                                                                     <div
                                                                                                         class="qodef-e-main-image">
-                                                                                                        <img loading="lazy" width="220"
+                                                                                                        <img loading="lazy"
+                                                                                                            width="220"
                                                                                                             height="220"
                                                                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                                                             class="lazyload attachment-medium size-medium"
@@ -1777,10 +1775,12 @@
                                     </div>
                                     <div class="d-flex flex-row profile pt-4 mt-auto">
                                         @if($review->user->metaData->profile_pic)
-                                        <img loading="lazy" src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
+                                        <img loading="lazy"
+                                            src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
                                             alt="startup mentor" class="rounded-circle">
                                         @else
-                                        <img loading="lazy" src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
+                                        <img loading="lazy"
+                                            src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                             alt="Startup Success" class="rounded-circle">
                                         @endif
                                         <div class="d-flex flex-column pl-2">
@@ -1919,6 +1919,10 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     @include('partials.web-style')
     @include('partials.footer-web')
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
+    </script>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    </script>
 
     @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
