@@ -28,11 +28,15 @@ class Cron extends Controller
 
     public function completedCalls()
     {
-        $completed_sessions = ScheduledCall::where('status', 'Approved')->whereMonth('date', date('m'))
-            ->whereDay('date', date('d'))->get();
+        $completed_sessions = ScheduledCall::where('status', 'Approved')
+        ->whereYear('date', date(format: 'Y'))
+        ->whereMonth('date', date('m'))
+        ->whereDay('date', date('d'))
+        ->get();
 
         foreach ($completed_sessions as $completed_session) {
-            $mentor_timezone = AvailableSchedule::where('mentor_id', $completed_session->mentor_id)->where('date', $completed_session->date)->first();
+            $mentor_timezone = AvailableSchedule::where('mentor_id', $completed_session->mentor_id)
+            ->where('date', $completed_session->date)->first();
 
             $user_timezone = new \DateTime($completed_session->date . ' ' . $completed_session->start_time, new \DateTimeZone($completed_session->utc));
 
@@ -56,8 +60,11 @@ class Cron extends Controller
 
     public function callFeedBack()
     {
-        $completed_sessions = ScheduledCall::where('status', 'Approved')->whereMonth('date', date('m'))
-            ->whereDay('date', date('d'))->get();
+        $completed_sessions = ScheduledCall::where('status', 'Approved')
+        ->whereYear('date', date(format: 'Y'))
+        ->whereMonth('date', date('m'))
+        ->whereDay('date', date('d'))
+        ->get();
 
         foreach ($completed_sessions as $completed_session) {
 
@@ -80,6 +87,7 @@ class Cron extends Controller
     public function callReminder()
     {
         $calls = AvailableSchedule::where('is_booked', 1)
+            ->whereYear('date', date('Y'))
             ->whereMonth('date', date('m'))
             ->whereDay('date', date('d'))
             ->get();
@@ -98,6 +106,7 @@ class Cron extends Controller
     public function  callReminderUser() 
     {
         $calls = ScheduledCall::where('status', 'Approved')
+            ->whereYear('date', date('Y'))
             ->whereMonth('date', date('m'))
             ->whereDay('date', date('d'))
             ->get();
