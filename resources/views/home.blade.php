@@ -1075,8 +1075,8 @@
                                                                                                     class="qodef-e-images-holder">
                                                                                                     <div
                                                                                                         class="qodef-e-main-image">
-                                                                                                        <img width="300"
-                                                                                                            height="200"
+                                                                                                        <img width="220"
+                                                                                                            height="220"
                                                                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                                                             class="lazyload attachment-medium size-medium"
                                                                                                             alt="ideas of business"
