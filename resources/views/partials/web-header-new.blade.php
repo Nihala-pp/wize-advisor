@@ -1319,7 +1319,7 @@
 <script
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.js?ver=3.0.6"
     id="wpr-particles-js"></script>
-<script
+<script defer
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
     id="wpr-jarallax-js"></script>
 <script
@@ -1329,7 +1329,7 @@
     id="hfe-frontend-js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
     id="elementor-webpack-runtime-js"></script>
-<script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}" defer
+<script defer src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
     id="elementor-frontend-modules-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
     id="elementor-waypoints-js"></script>

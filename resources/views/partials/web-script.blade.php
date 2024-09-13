@@ -59,7 +59,7 @@ gtag('config', 'G-QC47PPTD6T');
 <script
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
     id="wpr-particles-js"></script>
-<script
+<script defer
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
     id="wpr-jarallax-js"></script>
 <script
@@ -79,8 +79,8 @@ var qodefQiAddonsGlobal = {
     }
 };
 </script>
-<script src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
-    id="qi-addons-for-elementor-script-js" defer></script>
+<script defer src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
+    id="qi-addons-for-elementor-script-js"></script>
 <script src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
 </script>
 <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
@@ -89,9 +89,9 @@ var qodefQiAddonsGlobal = {
         id="theplus-front-js-js" defer></script> -->
 <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
     id="hfe-frontend-js-js"></script>
-<script
+<script defer
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2') }}"
-    id="swiper-js" async></script>
+    id="swiper-js"></script>
 <script src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
     id="owl_carousel_js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
@@ -121,7 +121,7 @@ var qodefQiAddonsGlobal = {
     id="packery-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
 </script>
-<script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}" async>
+<script defer src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
 </script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
 </script>
@@ -382,7 +382,7 @@ var wpformsElementorVars = {
     id="wpforms-elementor-js"></script>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async>
 </script>
-<script src="{{ asset('public/assets/js/lazysizes.min.js') }}" async></script>
+<script defer src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
 
 <!-- <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>  -->
 <!-- <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>  -->
