@@ -1,5 +1,5 @@
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+<script defer src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
 <script>
 window.dataLayer = window.dataLayer || [];
 
@@ -480,7 +480,7 @@ var Tawk_API = Tawk_API || {},
     };
     a = o.getElementsByTagName('head')[0];
     r = o.createElement('script');
-    r.async = 1;
+    r.defer = 1;
     r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
     a.appendChild(r);
 })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');

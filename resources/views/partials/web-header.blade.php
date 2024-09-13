@@ -44,7 +44,7 @@
         };
         a = o.getElementsByTagName('head')[0];
         r = o.createElement('script');
-        r.async = 1;
+        r.defer = 1;
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
@@ -101,7 +101,7 @@
     }(window, document, window._wpemojiSettings);
     </script>
     <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=AW-11325588607"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
 
