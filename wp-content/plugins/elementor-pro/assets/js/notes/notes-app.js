@@ -41,7 +41,7 @@ function App() {
       Wrapper = isDebug ? (react__WEBPACK_IMPORTED_MODULE_0___default().StrictMode) : (react__WEBPACK_IMPORTED_MODULE_0___default().Fragment);
 
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(Wrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement("link", {
-    rel: "stylesheet",
+    rel: "preconnect",
     href: "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(react_redux__WEBPACK_IMPORTED_MODULE_5__.Provider, {
     store: store
