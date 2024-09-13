@@ -1081,9 +1081,9 @@
                                                                                                             class="lazyload attachment-medium size-medium"
                                                                                                             alt="ideas of business"
                                                                                                             decoding="async"
-                                                                                                            srcset="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
+                                                                                                            srcset="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 220w, {{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                                                             600w
-                                                                                                            sizes="(max-width: 300px) 100vw, 300px"
+                                                                                                            sizes="(max-width: 220px) 100vw, 220px"
                                                                                                             type="image/webp">
                                                                                                     </div>
                                                                                                 </div>
