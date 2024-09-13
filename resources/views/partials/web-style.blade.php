@@ -1186,3 +1186,7 @@ h6 {
 <link rel="stylesheet" id="e-animations-css"
     href="{{ asset('public/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.14.1') }}"
     media="all">
+<script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+    id="jquery-core-js"></script>
+<script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    id="jquery-migrate-js"></script>
