@@ -27,9 +27,9 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" fetchpriority="high" as="image" href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
+    <script defer src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    <script defer src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
