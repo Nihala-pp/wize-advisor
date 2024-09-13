@@ -2,18 +2,6 @@
 <html lang="en-US">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T" async></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-
-    function gtag() {
-        dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
-
-    gtag('config', 'G-QC47PPTD6T');
-    </script>
     <script src="https://js.stripe.com/v3/"></script>
     <meta charset="utf-8">
     <title>Connect with Professional Mentor{{ $mentor->name }}</title>
