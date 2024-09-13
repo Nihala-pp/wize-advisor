@@ -833,7 +833,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async"
+                                                        <img decoding="async" 
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
                                                             class="lazyload" alt="online mentoring" width="50"
                                                             height="50" type="image/webp">
@@ -1078,7 +1078,7 @@
                                                                                                         <img width="220"
                                                                                                             height="220"
                                                                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
-                                                                                                            class="lazyload attachment-medium size-medium"
+                                                                                                            loading="lazy" class="lazyload attachment-medium size-medium"
                                                                                                             alt="ideas of business"
                                                                                                             decoding="async"
                                                                                                             srcset="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 220w, {{ asset('public/wp-content/uploads/2023/06/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
