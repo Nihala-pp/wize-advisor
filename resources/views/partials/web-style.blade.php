@@ -1041,7 +1041,8 @@ h6 {
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1" as="style"
     id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
 <noscript>
-    <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">
+    <link rel="stylesheet"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">
 </noscript>
 <link rel="stylesheet" id="swiper-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5">
@@ -1127,6 +1128,8 @@ h6 {
 <link rel='stylesheet' id='wpr-animations-css-css'
     href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.85'
     defer>
+<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style"
+    onload="this.onload=null;this.rel='stylesheet'" crossorigin async>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style id="skip-link-styles">
 .skip-link.screen-reader-text {
