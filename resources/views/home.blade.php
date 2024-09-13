@@ -1776,10 +1776,10 @@
                                     </div>
                                     <div class="d-flex flex-row profile pt-4 mt-auto">
                                         @if($review->user->metaData->profile_pic)
-                                        <img src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
+                                        <img loading="lazy" src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
                                             alt="startup mentor" class="rounded-circle">
                                         @else
-                                        <img src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
+                                        <img loading="lazy" src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                             alt="Startup Success" class="rounded-circle">
                                         @endif
                                         <div class="d-flex flex-column pl-2">
