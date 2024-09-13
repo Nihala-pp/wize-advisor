@@ -18,6 +18,7 @@ class CallReminderUserController extends Controller
     {
         try {
             $calls = ScheduledCall::where('status', 'Approved')
+                ->whereYear('date', date('Y'))
                 ->whereMonth('date', date('m'))
                 ->whereDay('date', date('d'))
                 ->get();

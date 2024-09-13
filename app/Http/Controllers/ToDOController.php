@@ -14,8 +14,11 @@ class ToDOController extends Controller
     public function index()
     {
         try {
-            $to_do_task = TodoList::where('is_done', '0')->whereMonth('created_at', date('m'))
-                ->whereDay('created_at', date('d'))->get();
+            $to_do_task = TodoList::where('is_done', '0')
+            ->whereYear('created_at', date('Y'))
+            ->whereMonth('created_at', date('m'))
+            ->whereDay('created_at', date('d'))
+            ->get();
 
             foreach ($to_do_task as $to_do) {
 

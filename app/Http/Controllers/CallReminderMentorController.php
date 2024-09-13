@@ -15,6 +15,7 @@ class CallReminderMentorController extends Controller
     {
         try {
             $calls = AvailableSchedule::where('is_booked', 1)
+                ->whereYear('date', date('Y'))
                 ->whereMonth('date', date('m'))
                 ->whereDay('date', date('d'))
                 ->get();

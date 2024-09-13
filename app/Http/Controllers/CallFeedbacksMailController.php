@@ -15,8 +15,11 @@ class CallFeedbacksMailController extends Controller
     public function index()
     {
         try {
-            $completed_sessions = ScheduledCall::where('status', 'Approved')->whereMonth('date', date('m'))
-                ->whereDay('date', date('d'))->get();
+            $completed_sessions = ScheduledCall::where('status', 'Approved')
+            ->whereYear('date', date('Y'))
+            ->whereMonth('date', date('m'))
+            ->whereDay('date', date('d'))
+            ->get();
 
             foreach ($completed_sessions as $completed_session) {
 
