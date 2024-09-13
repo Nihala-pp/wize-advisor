@@ -833,7 +833,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async" 
+                                                        <img loading="lazy" decoding="async" 
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/sales-final-50x50.png') }}"
                                                             class="lazyload" alt="online mentoring" width="50"
                                                             height="50" type="image/webp">
@@ -850,7 +850,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async"
+                                                        <img loading="lazy" decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/validation-final-50x50.png') }}"
                                                             class="lazyload" alt="business build" width="50" height="50"
                                                             type="image/webp">
@@ -867,7 +867,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async"
+                                                        <img loading="lazy" decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/product-new.png') }}"
                                                             class="lazyload" alt="project manager mentor" width="50"
                                                             height="50">
@@ -884,7 +884,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async"
+                                                        <img loading="lazy" decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/marketing-final-50x50.png') }}"
                                                             class="lazyload" alt="marketing mentor" width="50"
                                                             height="50">
@@ -901,7 +901,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async"
+                                                        <img loading="lazy" decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/leadership-final-50x50.png') }}"
                                                             class="lazyload" alt="leadership mentoring" width="50"
                                                             height="50">
@@ -929,7 +929,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async"
+                                                        <img loading="lazy" decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/funds-raise-final-50x50.png') }}"
                                                             class="lazyload" alt="goals for a mentorship" width="50"
                                                             height="50">
@@ -962,7 +962,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async"
+                                                        <img loading="lazy" decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/roadmap-final-50x50.png') }}"
                                                             class="lazyload" alt="business tips" width="50" height="50">
                                                     </div>
@@ -978,7 +978,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async"
+                                                        <img loading="lazy" decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/Price-strategy-final-50x50.png') }}"
                                                             class="lazyload" alt="cheapest business to start" width="50"
                                                             height="50">
@@ -995,7 +995,7 @@
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
-                                                        <img decoding="async"
+                                                        <img loading="lazy" decoding="async"
                                                             data-src="{{ asset('public/wp-content/uploads/2023/06/social-media_-final-50x50.png') }}"
                                                             class="lazyload" alt="start up business" width="50"
                                                             height="50">
