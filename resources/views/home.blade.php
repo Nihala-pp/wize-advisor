@@ -28,14 +28,14 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
-    <!-- <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
+    <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
-    <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
-    </script> -->
+    <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        id="jquery-migrate-js">
+    </script>
     <link rel="canonical" href="https://wiseadvizor.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8">
 
@@ -2231,7 +2231,6 @@
     }(jQuery));
     </script>
 </body>
-
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
