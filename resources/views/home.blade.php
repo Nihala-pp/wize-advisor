@@ -1344,7 +1344,7 @@
                             data-widget_type="ucaddon_uc_card_post_carousel.default">
                             <div class="elementor-widget-container">
                                 <!-- start Post Carousel Lite -->
-                                <link id="owl-carousel-css"
+                                <link rel="preconnect" id="owl-carousel-css"
                                     href="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.min.css') }}"
                                     type="text/css" rel="stylesheet">
                                 <style type="text/css">

@@ -21,7 +21,7 @@
     <meta name="description"
         content="Get everything you need to sew your next garment. Open Monday-Friday 8-5pm, located in the Fashion District.">
     <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css"
+    <link rel="preconnect" type="text/css"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700&display=swap" />
     <!-- Nucleo Icons -->
     <link href="../assets/css/nucleo-icons.css" rel="stylesheet" />

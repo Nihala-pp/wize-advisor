@@ -19,7 +19,7 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <title>wiseAdvizor </title>
     <!--     Fonts and icons     -->
-    <link rel="stylesheet" type="text/css"
+    <link rel="preconnect" type="text/css"
         href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700&display=swap" async>
     <!-- Nucleo Icons -->
     <link href="{{ asset('public/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
