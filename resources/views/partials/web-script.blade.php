@@ -469,7 +469,7 @@ var Tawk_API = Tawk_API || {},
 })();
 </script>
 
-<script>
+<!-- <script>
 (function(h, o, t, j, a, r) {
     h.hj = h.hj || function() {
         (h.hj.q = h.hj.q || []).push(arguments)
@@ -484,5 +484,5 @@ var Tawk_API = Tawk_API || {},
     r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
     a.appendChild(r);
 })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-</script>
+</script> -->
 <!--End of Tawk.to Script-->
