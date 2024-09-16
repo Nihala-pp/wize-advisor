@@ -8,19 +8,11 @@
     <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('public/assets/img/apple-icon.png') }}">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <meta name="robots" content="max-image-preview:large">
-    <link rel="stylesheet" id="elementor-post-3007-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
-    <link rel='stylesheet' id='elementor-post-32-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1719392983' media='all' />
-    <link rel='stylesheet' id='elementor-post-7754-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7754.css?ver=1725863782' media='all' />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
-    @include('partials.web-style')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
-    <link rel="canonical" href="https://wiseadvizor.com/user-dashboard-new">
+    <link rel="canonical" href="https://wiseadvizor.com/user/dashboard">
     <meta name="generator"
         content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 </head>
@@ -596,274 +588,265 @@
                                                             aria-selected="true" data-tab="1" role="tab" tabindex="0"
                                                             aria-controls="elementor-tab-content-6221"
                                                             aria-expanded="false">Upcoming Sessions</div>
-                                                        @if($upcoming_sessions->count() < 1)
-                                                        <div id="elementor-tab-content-6221"
+                                                        @if($upcoming_sessions->count() < 1) <div
+                                                            id="elementor-tab-content-6221"
                                                             class="elementor-tab-content elementor-clearfix"
                                                             data-tab="1" role="tabpanel"
                                                             aria-labelledby="elementor-tab-title-6221" tabindex="0"
                                                             hidden="false">
-                                                            <p id="message" style="font-size:14px;">You have no upcoming sessions -
+                                                            <p id="message" style="font-size:14px;">You have no upcoming
+                                                                sessions -
                                                                 schedule a session now.</p>
-                                                        </div>
-                                                        @else
-                                                        @foreach($upcoming_sessions as $upcoming_session)
-                                                        <div id="elementor-tab-content-6221"
-                                                            class="elementor-tab-content elementor-clearfix"
-                                                            data-tab="1" role="tabpanel"
-                                                            aria-labelledby="elementor-tab-title-6221" tabindex="0"
-                                                            hidden="false">
-                                                            <p style="font-size:14px;">Session with
-                                                                {{ $upcoming_session->mentor->name }}</p>
-                                                            <p>Date &amp;
-                                                                Time :
-                                                                {{ Carbon\Carbon::parse($upcoming_session->date)->format('jS F\\, Y') }},
-                                                                {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }}
-                                                                <span
-                                                                    style="letter-spacing: 0px;">{{ $upcoming_session->utc }}<br /></span>
-                                                            </p>
-                                                            <p>Description
-                                                                : {{ $upcoming_session->description }}<br />
-                                                            </p>
-                                                            <p><span><em><a href="{{ $upcoming_session->call_link ?: '' }}"
-                                                                            class="link" data-bs-toggle="tooltip"
-                                                                            data-bs-placement="bottom"
-                                                                            title="Join Session"
-                                                                            style="color: #3366ff !important;">
-                                                                        </a>Join
-                                                                        Session</em></span></p>
-                                                        </div>
-                                                        @endforeach
-                                                        @endif
-                                                        <div class="elementor-tab-title elementor-tab-mobile-title"
-                                                            aria-selected="false" data-tab="2" role="tab" tabindex="-1"
-                                                            aria-controls="elementor-tab-content-6222"
-                                                            aria-expanded="false">Requested Sessions</div>
-                                                        @if($requested_sessions->count() < 1)
-                                                        <div id="elementor-tab-content-6222"
-                                                            class="elementor-tab-content elementor-clearfix"
-                                                            data-tab="2" role="tabpanel"
-                                                            aria-labelledby="elementor-tab-title-6222" tabindex="0"
-                                                            hidden="hidden">
-                                                            <p id="message" style="font-size:14px;">You have no requested sessions -
-                                                                schedule a session now.</p>
-                                                        </div>
-                                                        @else
-                                                        @foreach($requested_sessions as $requested_session)
-                                                        <div id="elementor-tab-content-6222"
-                                                            class="elementor-tab-content elementor-clearfix"
-                                                            data-tab="2" role="tabpanel"
-                                                            aria-labelledby="elementor-tab-title-6222" tabindex="0"
-                                                            hidden="hidden">
-                                                            <p style="font-size:14px;">Session with
-                                                                {{ $requested_session->mentor->name }}</p>
-                                                            <p>Date &amp;
-                                                                Time :
-                                                                {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }},
-                                                                {{ Carbon\Carbon::parse($requested_session->date)->format('jS F\\, Y') }},
-                                                                <span
-                                                                    style="letter-spacing: 0px;">{{ $requested_session->utc }}<br /></span>
-                                                            </p>
-                                                            <p>Description
-                                                                : {{ $requested_session->description }}<br />
-                                                            </p>
-                                                            <p><span><em><a href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}"
-                                                                            target="_blank"
-                                                                            style="color:#3366ff !important;">Update
-                                                                            Session</a></em></span></p>
-                                                        </div>
-                                                        @endforeach
-                                                        @endif
-                                                        <div class="elementor-tab-title elementor-tab-mobile-title"
-                                                            aria-selected="false" data-tab="3" role="tab" tabindex="-1"
-                                                            aria-controls="elementor-tab-content-6223"
-                                                            aria-expanded="false">Completed Sessions</div>
-                                                        @if($completed_sessions->count() < 1)
-                                                        <div id="elementor-tab-content-6223"
-                                                            class="elementor-tab-content elementor-clearfix"
-                                                            data-tab="3" role="tabpanel"
-                                                            aria-labelledby="elementor-tab-title-6223" tabindex="0"
-                                                            hidden="hidden">
-                                                            <p id="message" style="font-size:14px;">You have no completed sessions -
-                                                                schedule a session now.</p>
-                                                        </div>
-                                                        @else
-                                                        @foreach($completed_sessions as $completed_session)
-                                                           <div id="elementor-tab-content-6223"
-                                                            class="elementor-tab-content elementor-clearfix"
-                                                            data-tab="3" role="tabpanel"
-                                                            aria-labelledby="elementor-tab-title-6223" tabindex="0"
-                                                            hidden="hidden">
-                                                            <p style="font-size:14px;">Session with
-                                                                {{ $completed_session->mentor->name }}</p>
-                                                            <p>Date &amp;
-                                                                Time :
-                                                                {{ Carbon\Carbon::parse($completed_session->date)->format('jS F\\, Y') }},
-                                                                {{ Illuminate\Support\Carbon::parse($completed_session->start_time)->format('h:i A') }}
-                                                                <span
-                                                                    style="letter-spacing: 0px;">{{ $completed_session->utc }}<br /></span>
-                                                            </p>
-                                                            <p>Description
-                                                                : {{ $completed_session->description }}<br />
-                                                            </p>
-                                                            <p><span><em> <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
-                                                                            target="_blank"
-                                                                            style="color:#3366ff !important;">
-                                                                            Write Review
-                                                                        </a></em></span></p>
-                                                           </div>
-                                                        @endforeach
-                                                        @endif
                                                     </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-2df66cd elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="2df66cd" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9bd30b6"
-                                    data-id="9bd30b6" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-39fa23d elementor-widget elementor-widget-text-editor"
-                                            data-id="39fa23d" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <h6>Your top match</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-e1dbd2f elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="e1dbd2f" data-element_type="widget"
-                                            data-widget_type="divider.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-divider">
-                                                    <span class="elementor-divider-separator">
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-7f40e2c elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="7f40e2c" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-default">
-                                @foreach($suggested_mentors as $suggested_mentor)
-                                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3297377"
-                                    data-id="3297377" data-element_type="row">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-89a31e1 elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box"
-                                            data-id="89a31e1" data-element_type="widget"
-                                            data-widget_type="image-box.default">
-                                            <div class="elementor-widget-container">
-                                                <style>
-                                                /*! elementor - v3.21.0 - 20-05-2024 */
-                                                .elementor-widget-image-box .elementor-image-box-content {
-                                                    width: 100%
-                                                }
-
-                                                @media (min-width:768px) {
-
-                                                    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,
-                                                    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
-                                                        display: flex
-                                                    }
-
-                                                    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
-                                                        text-align: end;
-                                                        flex-direction: row-reverse
-                                                    }
-
-                                                    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
-                                                        text-align: start;
-                                                        flex-direction: row
-                                                    }
-
-                                                    .elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
-                                                        margin: auto
-                                                    }
-
-                                                    .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
-                                                        align-items: flex-start
-                                                    }
-
-                                                    .elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
-                                                        align-items: center
-                                                    }
-
-                                                    .elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
-                                                        align-items: flex-end
-                                                    }
-                                                }
-
-                                                @media (max-width:767px) {
-                                                    .elementor-widget-image-box .elementor-image-box-img {
-                                                        margin-left: auto !important;
-                                                        margin-right: auto !important;
-                                                        margin-bottom: 15px
-                                                    }
-                                                }
-
-                                                .elementor-widget-image-box .elementor-image-box-img {
-                                                    display: inline-block
-                                                }
-
-                                                .elementor-widget-image-box .elementor-image-box-title a {
-                                                    color: inherit
-                                                }
-
-                                                .elementor-widget-image-box .elementor-image-box-wrapper {
-                                                    text-align: center
-                                                }
-
-                                                .elementor-widget-image-box .elementor-image-box-description {
-                                                    margin: 0
-                                                }
-                                                </style>
-                                                <div class="elementor-image-box-wrapper">
-                                                    <figure class="elementor-image-box-img"><img fetchpriority="high"
-                                                            decoding="async" width="400" height="400"
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $suggested_mentor->metaData->pro_pic_1 }}"
-                                                            class="attachment-full size-full wp-image-7552" alt=""
-                                                            style="width:100%;height:100%;max-width:400px" /></figure>
-                                                    <div class="elementor-image-box-content">
-                                                        <h6 class="elementor-image-box-title">
-                                                            {{ $suggested_mentor->name }}</h6>
-                                                        <p class="elementor-image-box-description">
-                                                            {{ $suggested_mentor->metaData->designation }}
+                                                    @else
+                                                    @foreach($upcoming_sessions as $upcoming_session)
+                                                    <div id="elementor-tab-content-6221"
+                                                        class="elementor-tab-content elementor-clearfix" data-tab="1"
+                                                        role="tabpanel" aria-labelledby="elementor-tab-title-6221"
+                                                        tabindex="0" hidden="false">
+                                                        <p style="font-size:14px;">Session with
+                                                            {{ $upcoming_session->mentor->name }}</p>
+                                                        <p>Date &amp;
+                                                            Time :
+                                                            {{ Carbon\Carbon::parse($upcoming_session->date)->format('jS F\\, Y') }},
+                                                            {{ Illuminate\Support\Carbon::parse($upcoming_session->start_time)->format('h:i A') }}
+                                                            <span
+                                                                style="letter-spacing: 0px;">{{ $upcoming_session->utc }}<br /></span>
                                                         </p>
+                                                        <p>Description
+                                                            : {{ $upcoming_session->description }}<br />
+                                                        </p>
+                                                        <p><span><em><a href="{{ $upcoming_session->call_link ?: '' }}"
+                                                                        class="link" data-bs-toggle="tooltip"
+                                                                        data-bs-placement="bottom" title="Join Session"
+                                                                        style="color: #3366ff !important;">
+                                                                    </a>Join
+                                                                    Session</em></span></p>
                                                     </div>
+                                                    @endforeach
+                                                    @endif
+                                                    <div class="elementor-tab-title elementor-tab-mobile-title"
+                                                        aria-selected="false" data-tab="2" role="tab" tabindex="-1"
+                                                        aria-controls="elementor-tab-content-6222"
+                                                        aria-expanded="false">Requested Sessions</div>
+                                                    @if($requested_sessions->count() < 1) <div
+                                                        id="elementor-tab-content-6222"
+                                                        class="elementor-tab-content elementor-clearfix" data-tab="2"
+                                                        role="tabpanel" aria-labelledby="elementor-tab-title-6222"
+                                                        tabindex="0" hidden="hidden">
+                                                        <p id="message" style="font-size:14px;">You have no requested
+                                                            sessions -
+                                                            schedule a session now.</p>
                                                 </div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-00747b5 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
-                                            data-id="00747b5" data-element_type="widget"
-                                            data-widget_type="wpr-button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="wpr-button-wrap elementor-clearfix">
-                                                    <a class="wpr-button wpr-button-effect wpr-button-none"
-                                                        data-text="Go"
-                                                        href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}"
-                                                        style="background-color: #4285f4;">
-                                                        <span class="wpr-button-content">
-                                                            <span class="wpr-button-text" style="padding-top:5px">Book
-                                                                Session</span>
-                                                        </span>
-                                                    </a>
+                                                @else
+                                                @foreach($requested_sessions as $requested_session)
+                                                <div id="elementor-tab-content-6222"
+                                                    class="elementor-tab-content elementor-clearfix" data-tab="2"
+                                                    role="tabpanel" aria-labelledby="elementor-tab-title-6222"
+                                                    tabindex="0" hidden="hidden">
+                                                    <p style="font-size:14px;">Session with
+                                                        {{ $requested_session->mentor->name }}</p>
+                                                    <p>Date &amp;
+                                                        Time :
+                                                        {{ Illuminate\Support\Carbon::parse($requested_session->start_time)->format('h:i A') }},
+                                                        {{ Carbon\Carbon::parse($requested_session->date)->format('jS F\\, Y') }},
+                                                        <span
+                                                            style="letter-spacing: 0px;">{{ $requested_session->utc }}<br /></span>
+                                                    </p>
+                                                    <p>Description
+                                                        : {{ $requested_session->description }}<br />
+                                                    </p>
+                                                    <p><span><em><a href="{{ route('schedule-call', [$requested_session->mentor_id, $requested_session->id]) }}"
+                                                                    target="_blank"
+                                                                    style="color:#3366ff !important;">Update
+                                                                    Session</a></em></span></p>
                                                 </div>
+                                                @endforeach
+                                                @endif
+                                                <div class="elementor-tab-title elementor-tab-mobile-title"
+                                                    aria-selected="false" data-tab="3" role="tab" tabindex="-1"
+                                                    aria-controls="elementor-tab-content-6223" aria-expanded="false">
+                                                    Completed Sessions</div>
+                                                @if($completed_sessions->count() < 1) <div
+                                                    id="elementor-tab-content-6223"
+                                                    class="elementor-tab-content elementor-clearfix" data-tab="3"
+                                                    role="tabpanel" aria-labelledby="elementor-tab-title-6223"
+                                                    tabindex="0" hidden="hidden">
+                                                    <p id="message" style="font-size:14px;">You have no completed
+                                                        sessions -
+                                                        schedule a session now.</p>
                                             </div>
+                                            @else
+                                            @foreach($completed_sessions as $completed_session)
+                                            <div id="elementor-tab-content-6223"
+                                                class="elementor-tab-content elementor-clearfix" data-tab="3"
+                                                role="tabpanel" aria-labelledby="elementor-tab-title-6223" tabindex="0"
+                                                hidden="hidden">
+                                                <p style="font-size:14px;">Session with
+                                                    {{ $completed_session->mentor->name }}</p>
+                                                <p>Date &amp;
+                                                    Time :
+                                                    {{ Carbon\Carbon::parse($completed_session->date)->format('jS F\\, Y') }},
+                                                    {{ Illuminate\Support\Carbon::parse($completed_session->start_time)->format('h:i A') }}
+                                                    <span
+                                                        style="letter-spacing: 0px;">{{ $completed_session->utc }}<br /></span>
+                                                </p>
+                                                <p>Description
+                                                    : {{ $completed_session->description }}<br />
+                                                </p>
+                                                <p><span><em> <a href="{{ route('user.review', [$completed_session->mentor_id]) }}"
+                                                                target="_blank" style="color:#3366ff !important;">
+                                                                Write Review
+                                                            </a></em></span></p>
+                                            </div>
+                                            @endforeach
+                                            @endif
                                         </div>
                                     </div>
                                 </div>
-                                @endforeach
-                                <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-cc9980c"
+                            </div>
+                    </div>
+            </div>
+        </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-2df66cd elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="2df66cd" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9bd30b6"
+                    data-id="9bd30b6" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-39fa23d elementor-widget elementor-widget-text-editor"
+                            data-id="39fa23d" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <h6>Your top match</h6>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-e1dbd2f elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                            data-id="e1dbd2f" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator">
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-7f40e2c elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="7f40e2c" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                @foreach($suggested_mentors as $suggested_mentor)
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-3297377"
+                    data-id="3297377" data-element_type="row">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-89a31e1 elementor-widget__width-initial elementor-position-top elementor-widget elementor-widget-image-box"
+                            data-id="89a31e1" data-element_type="widget" data-widget_type="image-box.default">
+                            <div class="elementor-widget-container">
+                                <style>
+                                /*! elementor - v3.21.0 - 20-05-2024 */
+                                .elementor-widget-image-box .elementor-image-box-content {
+                                    width: 100%
+                                }
+
+                                @media (min-width:768px) {
+
+                                    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper,
+                                    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+                                        display: flex
+                                    }
+
+                                    .elementor-widget-image-box.elementor-position-right .elementor-image-box-wrapper {
+                                        text-align: end;
+                                        flex-direction: row-reverse
+                                    }
+
+                                    .elementor-widget-image-box.elementor-position-left .elementor-image-box-wrapper {
+                                        text-align: start;
+                                        flex-direction: row
+                                    }
+
+                                    .elementor-widget-image-box.elementor-position-top .elementor-image-box-img {
+                                        margin: auto
+                                    }
+
+                                    .elementor-widget-image-box.elementor-vertical-align-top .elementor-image-box-wrapper {
+                                        align-items: flex-start
+                                    }
+
+                                    .elementor-widget-image-box.elementor-vertical-align-middle .elementor-image-box-wrapper {
+                                        align-items: center
+                                    }
+
+                                    .elementor-widget-image-box.elementor-vertical-align-bottom .elementor-image-box-wrapper {
+                                        align-items: flex-end
+                                    }
+                                }
+
+                                @media (max-width:767px) {
+                                    .elementor-widget-image-box .elementor-image-box-img {
+                                        margin-left: auto !important;
+                                        margin-right: auto !important;
+                                        margin-bottom: 15px
+                                    }
+                                }
+
+                                .elementor-widget-image-box .elementor-image-box-img {
+                                    display: inline-block
+                                }
+
+                                .elementor-widget-image-box .elementor-image-box-title a {
+                                    color: inherit
+                                }
+
+                                .elementor-widget-image-box .elementor-image-box-wrapper {
+                                    text-align: center
+                                }
+
+                                .elementor-widget-image-box .elementor-image-box-description {
+                                    margin: 0
+                                }
+                                </style>
+                                <div class="elementor-image-box-wrapper">
+                                    <figure class="elementor-image-box-img"><img fetchpriority="high" decoding="async"
+                                            width="400" height="400"
+                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $suggested_mentor->metaData->pro_pic_1 }}"
+                                            class="attachment-full size-full wp-image-7552" alt=""
+                                            style="width:100%;height:100%;max-width:400px" /></figure>
+                                    <div class="elementor-image-box-content">
+                                        <h6 class="elementor-image-box-title">
+                                            {{ $suggested_mentor->name }}</h6>
+                                        <p class="elementor-image-box-description">
+                                            {{ $suggested_mentor->metaData->designation }}
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-00747b5 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
+                            data-id="00747b5" data-element_type="widget" data-widget_type="wpr-button.default">
+                            <div class="elementor-widget-container">
+                                <div class="wpr-button-wrap elementor-clearfix">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}"
+                                        style="background-color: #4285f4;">
+                                        <span class="wpr-button-content">
+                                            <span class="wpr-button-text" style="padding-top:5px">Book
+                                                Session</span>
+                                        </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                @endforeach
+                <!-- <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-cc9980c"
                                     data-id="cc9980c" data-element_type="column">
                                     <div class="elementor-widget-wrap">
                                     </div>
@@ -873,62 +856,60 @@
                                     <div class="elementor-widget-wrap">
                                     </div>
                                 </div> -->
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-0d73bf6 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="0d73bf6" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-20aa685"
+                    data-id="20aa685" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-09f8429 elementor-widget elementor-widget-text-editor"
+                            data-id="09f8429" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <h6>Our upcoming webinar</h6>
                             </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-0d73bf6 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="0d73bf6" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-20aa685"
-                                    data-id="20aa685" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-09f8429 elementor-widget elementor-widget-text-editor"
-                                            data-id="09f8429" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <h6>Our upcoming webinar</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-d76a0e2 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
-                                            data-id="d76a0e2" data-element_type="widget"
-                                            data-widget_type="divider.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-divider">
-                                                    <span class="elementor-divider-separator">
-                                                    </span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                        </div>
+                        <div class="elementor-element elementor-element-d76a0e2 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
+                            data-id="d76a0e2" data-element_type="widget" data-widget_type="divider.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-divider">
+                                    <span class="elementor-divider-separator">
+                                    </span>
                                 </div>
                             </div>
-                        </section>
-                        <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-19cb69240 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="19cb69240" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                            <div class="elementor-container elementor-column-gap-wide">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d14adf1"
-                                    data-id="3d14adf1" data-element_type="column"
-                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-22c27c7c wpr-dual-heading-icon-top elementor-widget elementor-widget-wpr-dual-color-heading"
-                                            data-id="22c27c7c" data-element_type="widget"
-                                            data-widget_type="wpr-dual-color-heading.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="wpr-dual-heading-wrap">
-                                                    <div class="wpr-dual-title-wrap">
-                                                        <h6 class="wpr-dual-title">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-19cb69240 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="19cb69240" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-wide">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3d14adf1"
+                    data-id="3d14adf1" data-element_type="column"
+                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-22c27c7c wpr-dual-heading-icon-top elementor-widget elementor-widget-wpr-dual-color-heading"
+                            data-id="22c27c7c" data-element_type="widget"
+                            data-widget_type="wpr-dual-color-heading.default">
+                            <div class="elementor-widget-container">
+                                <div class="wpr-dual-heading-wrap">
+                                    <div class="wpr-dual-title-wrap">
+                                        <h6 class="wpr-dual-title">
 
-                                                            <span class="second">No Events Registered Yet.</span>
-                                                        </h6>
-                                                    </div>
-                                                    <!-- <div class="wpr-dual-heading-description">No events yet.</div> -->
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <!-- <div class="elementor-element elementor-element-03fed36 elementor-widget elementor-widget-heading"
+                                            <span class="second">No Events Registered Yet.</span>
+                                        </h6>
+                                    </div>
+                                    <!-- <div class="wpr-dual-heading-description">No events yet.</div> -->
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="elementor-element elementor-element-03fed36 elementor-widget elementor-widget-heading"
                                             data-id="03fed36" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
@@ -963,56 +944,52 @@
                                                 </div>
                                             </div>
                                         </section> -->
-                                    </div>
-                                </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-i5m9wmc elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="i5m9wmc" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cda29b6"
+                    data-id="cda29b6" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-bbf9616 elementor-widget elementor-widget-heading"
+                            data-id="bbf9616" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h6 class="elementor-heading-title elementor-size-default">Get referral
+                                    discount</h6>
                             </div>
-                        </section>
+                        </div>
+                        <div class="elementor-element elementor-element-c715ba2 elementor-widget elementor-widget-text-editor"
+                            data-id="c715ba2" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>Get referral discount on 35% off on your next call once you referral
+                                    schedule the call.</p>
+                            </div>
+                        </div>
                         <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-i5m9wmc elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="i5m9wmc" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-29103eb elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="29103eb" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-cda29b6"
-                                    data-id="cda29b6" data-element_type="column">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-cb10aab"
+                                    data-id="cb10aab" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-bbf9616 elementor-widget elementor-widget-heading"
-                                            data-id="bbf9616" data-element_type="widget"
-                                            data-widget_type="heading.default">
+                                        <div class="elementor-element elementor-element-0919c49 elementor-align-center elementor-widget elementor-widget-button"
+                                            data-id="0919c49" data-element_type="widget"
+                                            data-widget_type="button.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Get referral
-                                                    discount</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-c715ba2 elementor-widget elementor-widget-text-editor"
-                                            data-id="c715ba2" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>Get referral discount on 35% off on your next call once you referral
-                                                    schedule the call.</p>
-                                            </div>
-                                        </div>
-                                        <section
-                                            class="elementor-section elementor-inner-section elementor-element elementor-element-29103eb elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                                            data-id="29103eb" data-element_type="section">
-                                            <div class="elementor-container elementor-column-gap-default">
-                                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-cb10aab"
-                                                    data-id="cb10aab" data-element_type="column">
-                                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                                        <div class="elementor-element elementor-element-0919c49 elementor-align-center elementor-widget elementor-widget-button"
-                                                            data-id="0919c49" data-element_type="widget"
-                                                            data-widget_type="button.default">
-                                                            <div class="elementor-widget-container">
-                                                                <input class="form-control" name="referral_link"
-                                                                    value="{{ $referral_link }}" id="referral_link"
-                                                                    disabled>
-                                                                <button
-                                                                    class="elementor-button elementor-button-link elementor-size-sm"
-                                                                    id="copy_link" aria-label="Search" type="submit"
-                                                                    style="background-color: #4285f4;">
-                                                                    <i class="fas fa-copy"></i>
-                                                                    Copy Referral
-                                                                </button>
-                                                                <!-- <div class="elementor-button-wrapper">
+                                                <input class="form-control" name="referral_link"
+                                                    value="{{ $referral_link }}" id="referral_link" disabled>
+                                                <button class="elementor-button elementor-button-link elementor-size-sm"
+                                                    id="copy_link" aria-label="Search" type="submit"
+                                                    style="background-color: #4285f4;">
+                                                    <i class="fas fa-copy"></i>
+                                                    Copy Referral
+                                                </button>
+                                                <!-- <div class="elementor-button-wrapper">
                                                                     <input type="text" class="form-control" value=""
                                                                         name="referral_link" disabled>
                                                                     <a id="referral_link"
@@ -1020,373 +997,377 @@
                                                                         href="#">Copy referral
                                                                     </a>
                                                                 </div> -->
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-4df1d2f e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
-                                                            data-id="4df1d2f" data-element_type="widget"
-                                                            data-widget_type="social-icons.default">
-                                                            <div class="elementor-widget-container">
-                                                                <style>
-                                                                /*! elementor - v3.21.0 - 20-05-2024 */
-                                                                .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
-                                                                .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
-                                                                .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
-                                                                    line-height: 1;
-                                                                    font-size: 0
-                                                                }
-
-                                                                .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
-                                                                    display: inline-grid
-                                                                }
-
-                                                                .elementor-widget-social-icons .elementor-grid {
-                                                                    grid-column-gap: var(--grid-column-gap, 5px);
-                                                                    grid-row-gap: var(--grid-row-gap, 5px);
-                                                                    grid-template-columns: var(--grid-template-columns);
-                                                                    justify-content: var(--justify-content, center);
-                                                                    justify-items: var(--justify-content, center)
-                                                                }
-
-                                                                .elementor-icon.elementor-social-icon {
-                                                                    font-size: var(--icon-size, 25px);
-                                                                    line-height: var(--icon-size, 25px);
-                                                                    width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
-                                                                    height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
-                                                                }
-
-                                                                .elementor-social-icon {
-                                                                    --e-social-icon-icon-color: #fff;
-                                                                    display: inline-flex;
-                                                                    background-color: #69727d;
-                                                                    align-items: center;
-                                                                    justify-content: center;
-                                                                    text-align: center;
-                                                                    cursor: pointer
-                                                                }
-
-                                                                .elementor-social-icon i {
-                                                                    color: var(--e-social-icon-icon-color)
-                                                                }
-
-                                                                .elementor-social-icon svg {
-                                                                    fill: var(--e-social-icon-icon-color)
-                                                                }
-
-                                                                .elementor-social-icon:last-child {
-                                                                    margin: 0
-                                                                }
-
-                                                                .elementor-social-icon:hover {
-                                                                    opacity: .9;
-                                                                    color: #fff
-                                                                }
-
-                                                                .elementor-social-icon-android {
-                                                                    background-color: #a4c639
-                                                                }
-
-                                                                .elementor-social-icon-apple {
-                                                                    background-color: #999
-                                                                }
-
-                                                                .elementor-social-icon-behance {
-                                                                    background-color: #1769ff
-                                                                }
-
-                                                                .elementor-social-icon-bitbucket {
-                                                                    background-color: #205081
-                                                                }
-
-                                                                .elementor-social-icon-codepen {
-                                                                    background-color: #000
-                                                                }
-
-                                                                .elementor-social-icon-delicious {
-                                                                    background-color: #39f
-                                                                }
-
-                                                                .elementor-social-icon-deviantart {
-                                                                    background-color: #05cc47
-                                                                }
-
-                                                                .elementor-social-icon-digg {
-                                                                    background-color: #005be2
-                                                                }
-
-                                                                .elementor-social-icon-dribbble {
-                                                                    background-color: #ea4c89
-                                                                }
-
-                                                                .elementor-social-icon-elementor {
-                                                                    background-color: #d30c5c
-                                                                }
-
-                                                                .elementor-social-icon-envelope {
-                                                                    background-color: #ea4335
-                                                                }
-
-                                                                .elementor-social-icon-facebook,
-                                                                .elementor-social-icon-facebook-f {
-                                                                    background-color: #3b5998
-                                                                }
-
-                                                                .elementor-social-icon-flickr {
-                                                                    background-color: #0063dc
-                                                                }
-
-                                                                .elementor-social-icon-foursquare {
-                                                                    background-color: #2d5be3
-                                                                }
-
-                                                                .elementor-social-icon-free-code-camp,
-                                                                .elementor-social-icon-freecodecamp {
-                                                                    background-color: #006400
-                                                                }
-
-                                                                .elementor-social-icon-github {
-                                                                    background-color: #333
-                                                                }
-
-                                                                .elementor-social-icon-gitlab {
-                                                                    background-color: #e24329
-                                                                }
-
-                                                                .elementor-social-icon-globe {
-                                                                    background-color: #69727d
-                                                                }
-
-                                                                .elementor-social-icon-google-plus,
-                                                                .elementor-social-icon-google-plus-g {
-                                                                    background-color: #dd4b39
-                                                                }
-
-                                                                .elementor-social-icon-houzz {
-                                                                    background-color: #7ac142
-                                                                }
-
-                                                                .elementor-social-icon-instagram {
-                                                                    background-color: #262626
-                                                                }
-
-                                                                .elementor-social-icon-jsfiddle {
-                                                                    background-color: #487aa2
-                                                                }
-
-                                                                .elementor-social-icon-link {
-                                                                    background-color: #818a91
-                                                                }
-
-                                                                .elementor-social-icon-linkedin,
-                                                                .elementor-social-icon-linkedin-in {
-                                                                    background-color: #0077b5
-                                                                }
-
-                                                                .elementor-social-icon-medium {
-                                                                    background-color: #00ab6b
-                                                                }
-
-                                                                .elementor-social-icon-meetup {
-                                                                    background-color: #ec1c40
-                                                                }
-
-                                                                .elementor-social-icon-mixcloud {
-                                                                    background-color: #273a4b
-                                                                }
-
-                                                                .elementor-social-icon-odnoklassniki {
-                                                                    background-color: #f4731c
-                                                                }
-
-                                                                .elementor-social-icon-pinterest {
-                                                                    background-color: #bd081c
-                                                                }
-
-                                                                .elementor-social-icon-product-hunt {
-                                                                    background-color: #da552f
-                                                                }
-
-                                                                .elementor-social-icon-reddit {
-                                                                    background-color: #ff4500
-                                                                }
-
-                                                                .elementor-social-icon-rss {
-                                                                    background-color: #f26522
-                                                                }
-
-                                                                .elementor-social-icon-shopping-cart {
-                                                                    background-color: #4caf50
-                                                                }
-
-                                                                .elementor-social-icon-skype {
-                                                                    background-color: #00aff0
-                                                                }
-
-                                                                .elementor-social-icon-slideshare {
-                                                                    background-color: #0077b5
-                                                                }
-
-                                                                .elementor-social-icon-snapchat {
-                                                                    background-color: #fffc00
-                                                                }
-
-                                                                .elementor-social-icon-soundcloud {
-                                                                    background-color: #f80
-                                                                }
-
-                                                                .elementor-social-icon-spotify {
-                                                                    background-color: #2ebd59
-                                                                }
-
-                                                                .elementor-social-icon-stack-overflow {
-                                                                    background-color: #fe7a15
-                                                                }
-
-                                                                .elementor-social-icon-steam {
-                                                                    background-color: #00adee
-                                                                }
-
-                                                                .elementor-social-icon-stumbleupon {
-                                                                    background-color: #eb4924
-                                                                }
-
-                                                                .elementor-social-icon-telegram {
-                                                                    background-color: #2ca5e0
-                                                                }
-
-                                                                .elementor-social-icon-threads {
-                                                                    background-color: #000
-                                                                }
-
-                                                                .elementor-social-icon-thumb-tack {
-                                                                    background-color: #1aa1d8
-                                                                }
-
-                                                                .elementor-social-icon-tripadvisor {
-                                                                    background-color: #589442
-                                                                }
-
-                                                                .elementor-social-icon-tumblr {
-                                                                    background-color: #35465c
-                                                                }
-
-                                                                .elementor-social-icon-twitch {
-                                                                    background-color: #6441a5
-                                                                }
-
-                                                                .elementor-social-icon-twitter {
-                                                                    background-color: #1da1f2
-                                                                }
-
-                                                                .elementor-social-icon-viber {
-                                                                    background-color: #665cac
-                                                                }
-
-                                                                .elementor-social-icon-vimeo {
-                                                                    background-color: #1ab7ea
-                                                                }
-
-                                                                .elementor-social-icon-vk {
-                                                                    background-color: #45668e
-                                                                }
-
-                                                                .elementor-social-icon-weibo {
-                                                                    background-color: #dd2430
-                                                                }
-
-                                                                .elementor-social-icon-weixin {
-                                                                    background-color: #31a918
-                                                                }
-
-                                                                .elementor-social-icon-whatsapp {
-                                                                    background-color: #25d366
-                                                                }
-
-                                                                .elementor-social-icon-wordpress {
-                                                                    background-color: #21759b
-                                                                }
-
-                                                                .elementor-social-icon-x-twitter {
-                                                                    background-color: #000
-                                                                }
-
-                                                                .elementor-social-icon-xing {
-                                                                    background-color: #026466
-                                                                }
-
-                                                                .elementor-social-icon-yelp {
-                                                                    background-color: #af0606
-                                                                }
-
-                                                                .elementor-social-icon-youtube {
-                                                                    background-color: #cd201f
-                                                                }
-
-                                                                .elementor-social-icon-500px {
-                                                                    background-color: #0099e5
-                                                                }
-
-                                                                .elementor-shape-rounded .elementor-icon.elementor-social-icon {
-                                                                    border-radius: 10%
-                                                                }
-
-                                                                .elementor-shape-circle .elementor-icon.elementor-social-icon {
-                                                                    border-radius: 50%
-                                                                }
-                                                                </style>
-                                                                <div
-                                                                    class="elementor-social-icons-wrapper elementor-grid">
-                                                                    <span class="elementor-grid-item">
-                                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-9df531e"
-                                                                            href="#">
-                                                                            <span
-                                                                                class="elementor-screen-only">Facebook-f</span>
-                                                                            <i class="fab fa-facebook-f"></i> </a>
-                                                                    </span>
-                                                                    <span class="elementor-grid-item">
-                                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-e455e88"
-                                                                            href="#">
-                                                                            <span
-                                                                                class="elementor-screen-only">Twitter</span>
-                                                                            <i class="fab fa-twitter"></i> </a>
-                                                                    </span>
-                                                                    <span class="elementor-grid-item">
-                                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-f787bb6"
-                                                                            href="#">
-                                                                            <span
-                                                                                class="elementor-screen-only">Linkedin</span>
-                                                                            <i class="fab fa-linkedin"></i> </a>
-                                                                    </span>
-                                                                    <span class="elementor-grid-item">
-                                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-repeater-item-4034cea"
-                                                                            target="_blank">
-                                                                            <span
-                                                                                class="elementor-screen-only">Envelope</span>
-                                                                            <i class="fas fa-envelope"></i> </a>
-                                                                    </span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="elementor-element elementor-element-3fbf146 elementor-widget elementor-widget-text-editor"
-                                                            data-id="3fbf146" data-element_type="widget"
-                                                            data-widget_type="text-editor.default">
-                                                            <div class="elementor-widget-container">
-                                                                <p>or directly share on your social media.</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-4df1d2f e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
+                                            data-id="4df1d2f" data-element_type="widget"
+                                            data-widget_type="social-icons.default">
+                                            <div class="elementor-widget-container">
+                                                <style>
+                                                /*! elementor - v3.21.0 - 20-05-2024 */
+                                                .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
+                                                .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
+                                                .elementor-widget-social-icons.elementor-grid-tablet-0 .elementor-widget-container {
+                                                    line-height: 1;
+                                                    font-size: 0
+                                                }
+
+                                                .elementor-widget-social-icons:not(.elementor-grid-0):not(.elementor-grid-tablet-0):not(.elementor-grid-mobile-0) .elementor-grid {
+                                                    display: inline-grid
+                                                }
+
+                                                .elementor-widget-social-icons .elementor-grid {
+                                                    grid-column-gap: var(--grid-column-gap, 5px);
+                                                    grid-row-gap: var(--grid-row-gap, 5px);
+                                                    grid-template-columns: var(--grid-template-columns);
+                                                    justify-content: var(--justify-content, center);
+                                                    justify-items: var(--justify-content, center)
+                                                }
+
+                                                .elementor-icon.elementor-social-icon {
+                                                    font-size: var(--icon-size, 25px);
+                                                    line-height: var(--icon-size, 25px);
+                                                    width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
+                                                    height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
+                                                }
+
+                                                .elementor-social-icon {
+                                                    --e-social-icon-icon-color: #fff;
+                                                    display: inline-flex;
+                                                    background-color: #69727d;
+                                                    align-items: center;
+                                                    justify-content: center;
+                                                    text-align: center;
+                                                    cursor: pointer
+                                                }
+
+                                                .elementor-social-icon i {
+                                                    color: var(--e-social-icon-icon-color)
+                                                }
+
+                                                .elementor-social-icon svg {
+                                                    fill: var(--e-social-icon-icon-color)
+                                                }
+
+                                                .elementor-social-icon:last-child {
+                                                    margin: 0
+                                                }
+
+                                                .elementor-social-icon:hover {
+                                                    opacity: .9;
+                                                    color: #fff
+                                                }
+
+                                                .elementor-social-icon-android {
+                                                    background-color: #a4c639
+                                                }
+
+                                                .elementor-social-icon-apple {
+                                                    background-color: #999
+                                                }
+
+                                                .elementor-social-icon-behance {
+                                                    background-color: #1769ff
+                                                }
+
+                                                .elementor-social-icon-bitbucket {
+                                                    background-color: #205081
+                                                }
+
+                                                .elementor-social-icon-codepen {
+                                                    background-color: #000
+                                                }
+
+                                                .elementor-social-icon-delicious {
+                                                    background-color: #39f
+                                                }
+
+                                                .elementor-social-icon-deviantart {
+                                                    background-color: #05cc47
+                                                }
+
+                                                .elementor-social-icon-digg {
+                                                    background-color: #005be2
+                                                }
+
+                                                .elementor-social-icon-dribbble {
+                                                    background-color: #ea4c89
+                                                }
+
+                                                .elementor-social-icon-elementor {
+                                                    background-color: #d30c5c
+                                                }
+
+                                                .elementor-social-icon-envelope {
+                                                    background-color: #ea4335
+                                                }
+
+                                                .elementor-social-icon-facebook,
+                                                .elementor-social-icon-facebook-f {
+                                                    background-color: #3b5998
+                                                }
+
+                                                .elementor-social-icon-flickr {
+                                                    background-color: #0063dc
+                                                }
+
+                                                .elementor-social-icon-foursquare {
+                                                    background-color: #2d5be3
+                                                }
+
+                                                .elementor-social-icon-free-code-camp,
+                                                .elementor-social-icon-freecodecamp {
+                                                    background-color: #006400
+                                                }
+
+                                                .elementor-social-icon-github {
+                                                    background-color: #333
+                                                }
+
+                                                .elementor-social-icon-gitlab {
+                                                    background-color: #e24329
+                                                }
+
+                                                .elementor-social-icon-globe {
+                                                    background-color: #69727d
+                                                }
+
+                                                .elementor-social-icon-google-plus,
+                                                .elementor-social-icon-google-plus-g {
+                                                    background-color: #dd4b39
+                                                }
+
+                                                .elementor-social-icon-houzz {
+                                                    background-color: #7ac142
+                                                }
+
+                                                .elementor-social-icon-instagram {
+                                                    background-color: #262626
+                                                }
+
+                                                .elementor-social-icon-jsfiddle {
+                                                    background-color: #487aa2
+                                                }
+
+                                                .elementor-social-icon-link {
+                                                    background-color: #818a91
+                                                }
+
+                                                .elementor-social-icon-linkedin,
+                                                .elementor-social-icon-linkedin-in {
+                                                    background-color: #0077b5
+                                                }
+
+                                                .elementor-social-icon-medium {
+                                                    background-color: #00ab6b
+                                                }
+
+                                                .elementor-social-icon-meetup {
+                                                    background-color: #ec1c40
+                                                }
+
+                                                .elementor-social-icon-mixcloud {
+                                                    background-color: #273a4b
+                                                }
+
+                                                .elementor-social-icon-odnoklassniki {
+                                                    background-color: #f4731c
+                                                }
+
+                                                .elementor-social-icon-pinterest {
+                                                    background-color: #bd081c
+                                                }
+
+                                                .elementor-social-icon-product-hunt {
+                                                    background-color: #da552f
+                                                }
+
+                                                .elementor-social-icon-reddit {
+                                                    background-color: #ff4500
+                                                }
+
+                                                .elementor-social-icon-rss {
+                                                    background-color: #f26522
+                                                }
+
+                                                .elementor-social-icon-shopping-cart {
+                                                    background-color: #4caf50
+                                                }
+
+                                                .elementor-social-icon-skype {
+                                                    background-color: #00aff0
+                                                }
+
+                                                .elementor-social-icon-slideshare {
+                                                    background-color: #0077b5
+                                                }
+
+                                                .elementor-social-icon-snapchat {
+                                                    background-color: #fffc00
+                                                }
+
+                                                .elementor-social-icon-soundcloud {
+                                                    background-color: #f80
+                                                }
+
+                                                .elementor-social-icon-spotify {
+                                                    background-color: #2ebd59
+                                                }
+
+                                                .elementor-social-icon-stack-overflow {
+                                                    background-color: #fe7a15
+                                                }
+
+                                                .elementor-social-icon-steam {
+                                                    background-color: #00adee
+                                                }
+
+                                                .elementor-social-icon-stumbleupon {
+                                                    background-color: #eb4924
+                                                }
+
+                                                .elementor-social-icon-telegram {
+                                                    background-color: #2ca5e0
+                                                }
+
+                                                .elementor-social-icon-threads {
+                                                    background-color: #000
+                                                }
+
+                                                .elementor-social-icon-thumb-tack {
+                                                    background-color: #1aa1d8
+                                                }
+
+                                                .elementor-social-icon-tripadvisor {
+                                                    background-color: #589442
+                                                }
+
+                                                .elementor-social-icon-tumblr {
+                                                    background-color: #35465c
+                                                }
+
+                                                .elementor-social-icon-twitch {
+                                                    background-color: #6441a5
+                                                }
+
+                                                .elementor-social-icon-twitter {
+                                                    background-color: #1da1f2
+                                                }
+
+                                                .elementor-social-icon-viber {
+                                                    background-color: #665cac
+                                                }
+
+                                                .elementor-social-icon-vimeo {
+                                                    background-color: #1ab7ea
+                                                }
+
+                                                .elementor-social-icon-vk {
+                                                    background-color: #45668e
+                                                }
+
+                                                .elementor-social-icon-weibo {
+                                                    background-color: #dd2430
+                                                }
+
+                                                .elementor-social-icon-weixin {
+                                                    background-color: #31a918
+                                                }
+
+                                                .elementor-social-icon-whatsapp {
+                                                    background-color: #25d366
+                                                }
+
+                                                .elementor-social-icon-wordpress {
+                                                    background-color: #21759b
+                                                }
+
+                                                .elementor-social-icon-x-twitter {
+                                                    background-color: #000
+                                                }
+
+                                                .elementor-social-icon-xing {
+                                                    background-color: #026466
+                                                }
+
+                                                .elementor-social-icon-yelp {
+                                                    background-color: #af0606
+                                                }
+
+                                                .elementor-social-icon-youtube {
+                                                    background-color: #cd201f
+                                                }
+
+                                                .elementor-social-icon-500px {
+                                                    background-color: #0099e5
+                                                }
+
+                                                .elementor-shape-rounded .elementor-icon.elementor-social-icon {
+                                                    border-radius: 10%
+                                                }
+
+                                                .elementor-shape-circle .elementor-icon.elementor-social-icon {
+                                                    border-radius: 50%
+                                                }
+                                                </style>
+                                                <div class="elementor-social-icons-wrapper elementor-grid">
+                                                    <span class="elementor-grid-item">
+                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-9df531e"
+                                                            href="#">
+                                                            <span class="elementor-screen-only">Facebook-f</span>
+                                                            <i class="fab fa-facebook-f"></i> </a>
+                                                    </span>
+                                                    <span class="elementor-grid-item">
+                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-e455e88"
+                                                            href="#">
+                                                            <span class="elementor-screen-only">Twitter</span>
+                                                            <i class="fab fa-twitter"></i> </a>
+                                                    </span>
+                                                    <span class="elementor-grid-item">
+                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-f787bb6"
+                                                            href="#">
+                                                            <span class="elementor-screen-only">Linkedin</span>
+                                                            <i class="fab fa-linkedin"></i> </a>
+                                                    </span>
+                                                    <span class="elementor-grid-item">
+                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-repeater-item-4034cea"
+                                                            target="_blank">
+                                                            <span class="elementor-screen-only">Envelope</span>
+                                                            <i class="fas fa-envelope"></i> </a>
+                                                    </span>
                                                 </div>
                                             </div>
-                                        </section>
+                                        </div>
+                                        <div class="elementor-element elementor-element-3fbf146 elementor-widget elementor-widget-text-editor"
+                                            data-id="3fbf146" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>or directly share on your social media.</p>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </section>
                     </div>
-
-                    @include('partials.footer-web')
-
-                    @include('partials.web-script')
+                </div>
             </div>
+        </section>
+    </div>
+
+    <link rel="stylesheet" id="elementor-post-3007-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
+    <link rel='stylesheet' id='elementor-post-32-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1719392983' media='all' />
+    <link rel='stylesheet' id='elementor-post-7754-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7754.css?ver=1725863782' media='all' />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
+    @include('partials.web-style')
+
+    @include('partials.footer-web')
+
+    @include('partials.web-script')
+    </div>
 </body>
 
 </html>
@@ -1612,8 +1593,8 @@ i.fas.fa-bell.fa-2xl {
     }
 
     #message {
-        margin-top:20px;
-        padding-left:10px
+        margin-top: 20px;
+        padding-left: 10px
     }
 
     .elementor-widget-divider:not(.elementor-widget-divider--view-line_text):not(.elementor-widget-divider--view-line_icon) .elementor-divider-separator {

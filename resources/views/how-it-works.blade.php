@@ -25,12 +25,6 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name='robots' content='max-image-preview:large' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
-    <link rel='stylesheet' id='elementor-post-5607-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5607.css?ver=1710409200' media='all' />
-    <link rel="stylesheet" id="elementor-post-5225-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5225.css?ver=1722102336" media="all">
-    @include('partials.web-style')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js" async></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
@@ -562,7 +556,12 @@
             </div>
         </section>
     </div>
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
+    <link rel='stylesheet' id='elementor-post-5607-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5607.css?ver=1710409200' media='all' />
+    <link rel="stylesheet" id="elementor-post-5225-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5225.css?ver=1722102336" media="all">
+    @include('partials.web-style')
     @include('partials.footer-web')
 
     @include('partials.web-script')
@@ -672,7 +671,8 @@ i.fas.fa-bell.fa-2xl {
     text-underline-offset: 0.25ch;
 }
 
-.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background), .elementor-32 .elementor-element.elementor-element-60f0ea5 > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000;
     background-image: linear-gradient(90deg, #000 0%, #000 100%);
 }
