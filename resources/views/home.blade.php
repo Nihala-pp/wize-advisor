@@ -1912,12 +1912,9 @@
             </div>
         </div>
     </div>
-    <link rel="preconnect"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/home.css">
-    <link rel="preconnect"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/home-section.css">
     <link rel="preconnect" id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171">
+    <link rel="preload" as="style" href="https://wiseadvizor.com/wp-content/uploads/elementor/css/home.css">
     <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="preconnect"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
@@ -1926,139 +1923,6 @@
 
     @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-    <style>
-    .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
-        width: 100%;
-        height: 100%;
-        max-width: 250px;
-        margin-top: -80px;
-    }
-
-    .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
-    .elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        background-color: #000 !important;
-        background-image: linear-gradient(90deg, #000 0%, #000 100%);
-    }
-
-    .elementor-8 .elementor-element.elementor-element-ba90b25:not(.elementor-motion-effects-element-type-background),
-    .elementor-8 .elementor-element.elementor-element-ba90b25>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-        background-color: #000000;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-d07a702 .elementor-heading-title {
-        color: #FFFFFF;
-        font-family: "Helvetica", Sans-serif;
-        font-size: 30px;
-        font-weight: 600;
-        line-height: 39px;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
-        font-family: "Sailec", Sans-serif;
-        font-size: 0.9rem;
-        font-weight: 600;
-        letter-spacing: 1.2px;
-        fill: #FFFFFF;
-        color: #FFFFFF;
-        background-color: #4285F4;
-        border-radius: 7px 7px 7px 7px;
-        margin-right: 85px;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-a212a53 img {
-        width: 100%;
-        max-width: 100%;
-        height: 300px !important;
-        object-fit: contain !important;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-d07a702>.elementor-widget-container {
-        margin: 90px 0px 0px 0px;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-d07a702 {
-        text-align: left;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-2cf99e1>.elementor-element-populated {
-        padding: 0px 30px 40px 50px;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-44e602b .elementor-heading-title {
-        color: #330252;
-        font-family: "Helvetica", Sans-serif;
-        font-weight: 600;
-        font-size: 40px;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-5a907eb .elementor-heading-title {
-        color: #330252;
-        font-family: "Helvetica", Sans-serif;
-        font-weight: 600;
-        font-size: 40px;
-    }
-
-    .elementor-8 .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
-        color: #FFFFFF;
-        font-family: "Helvetica", Sans-serif;
-        font-weight: 600;
-        font-size: 40px;
-    }
-
-    img {
-        max-width: 100%;
-    }
-
-    @media (min-width: 1024px) and (max-width:1280px) {
-        .elementor-8 .elementor-element.elementor-element-daa9944>.elementor-widget-container {
-            padding: 80px 0px 0px 0px;
-        }
-
-        .elementor-8 .elementor-element.elementor-element-d07a702 .elementor-heading-title {
-            color: #FFFFFF;
-            font-family: "Helvetica", Sans-serif;
-            font-size: 26px;
-            font-weight: 600;
-            line-height: 39px;
-        }
-    }
-
-    @media screen and (max-width:480px) {
-        .elementor-element-92ef909 {
-            display: none !important;
-        }
-
-        .elementor-element-e84c9ef {
-            display: none !important;
-        }
-
-        .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
-            color: #330252;
-        }
-    }
-
-    @media screen and (max-width:767px) {
-        .elementor-element-92ef909 {
-            display: none !important;
-        }
-
-        .elementor-element-e84c9ef {
-            display: none !important;
-        }
-
-        .elementor-element.elementor-element-e08eaf8 .elementor-heading-title {
-            color: #330252;
-        }
-    }
-
-    .badge-warning {
-        background-color: #262626;
-        color: #fff;
-        font-size: 11px;
-        font-family: "Helvetica", Sans-serif;
-        margin-right: 20px;
-    }
-    </style>
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
@@ -2216,5 +2080,4 @@
     }(jQuery));
     </script>
 </body>
-
 </html>
