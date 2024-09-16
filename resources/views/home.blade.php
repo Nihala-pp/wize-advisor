@@ -35,13 +35,19 @@
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <style>
+    .antiCls {
+        visibility: hidden;
+    }
+    </style>
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8">
 
     @include('partials.header-common')
 
-    <div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8">
+    <div data-elementor-type="wp-page antiCls" data-elementor-id="8" class="elementor elementor-8">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-9a6781f elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="9a6781f" data-element_type="section"
@@ -1913,9 +1919,9 @@
     </div>
     <!-- <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp" crossorigin> -->
-    <link rel="preconnect"  id="elementor-post-30-css"
+    <link rel="preconnect" id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171">
-    <link rel="preconnect"  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="preconnect"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     @include('partials.web-style')
@@ -2225,7 +2231,16 @@
         });
     }(jQuery));
     </script>
+    <script type="text/javascript">
+          $(document).ready(function() {
+                $(window).on("load", function()
+
+                    $('.antiCls').css("visibility", "visible");
+
+          });
+    </script>
 </body>
+
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
