@@ -1912,7 +1912,7 @@
         </div>
     </div>
     <link rel="preload" as="style"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/home.css">
     <link rel="preconnect"  id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171">
     <link rel="preconnect"  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
