@@ -1911,8 +1911,8 @@
             </div>
         </div>
     </div>
-    <!-- <link rel="preload" fetchpriority="high" as="image"
-        href="https://wiseadvizor.com/wp-content/uploads/2024/07/ain-14-unscreen-2.webp" type="image/webp" crossorigin> -->
+    <link rel="preload" as="style"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css">
     <link rel="preconnect"  id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171">
     <link rel="preconnect"  href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -3697,80 +3697,6 @@ i.fas.fa-chevron-down {
 
     .elementor-30 .elementor-element.elementor-element-02e763c .elementor-button {
         font-size: 10px !important;
-    }
-}
-</style>
-<style>
-.tag {
-    text-align: center;
-    font-size: 1.1rem
-}
-
-.card {
-    background: linear-gradient(to right, #434343, #000000);
-    height: 300px;
-    padding: 10px 20px;
-    border: none;
-    box-shadow: -1px 3px 5px #a7a7a7
-}
-
-.testimonial {
-    color: #fff;
-    font-size: 0.9rem;
-    line-height: 1.4rem;
-    font-weight: 500;
-    font-family: "Helvetica";
-}
-
-.profile {
-    padding-top: 10px
-}
-
-.name {
-    color: #fff;
-    font-weight: 700;
-    padding-left: 15px;
-    font-size: 15px;
-}
-
-.designation {
-    color: #fff !important;
-    font-size: 0.84rem;
-    font-weight: 600;
-    padding-left: 15px;
-    font-size: 12px;
-}
-
-.owl-test {
-    margin-top: 20px;
-    margin-bottom: 15px
-}
-
-.uc-items-wrapper .testimonial-car {
-    padding: 40px 10px;
-}
-
-.owl-test .testimonial-car img {
-    width: 45px !important;
-    height: 45px;
-    border-radius: 50%;
-    object-fit: cover
-}
-
-.elementor-8 .elementor-element.elementor-element-6e5206e .elementor-heading-title {
-    color: #330252;
-    font-family: "Helvetica", Sans-serif;
-    font-weight: 600;
-    font-size: 40px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    margin-left: 375px;
-}
-
-@media(max-width: 575.5px) {
-    .container {
-        margin: 0px;
-        padding: 20px
     }
 }
 </style>
