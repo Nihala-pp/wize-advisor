@@ -67,7 +67,7 @@
     })(window, document, 'script', 'dataLayer', 'GTM-PK457VCB');
     </script>
     <!-- End Google Tag Manager -->
-    <script>
+    <!-- <script>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {
             (h.hj.q = h.hj.q || []).push(arguments)
@@ -82,7 +82,7 @@
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+    </script> -->
     <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -97,7 +97,7 @@
     <!-- Control Center for Material Dashboard: parallax effects, scripts for the example pages etc -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async>
     </script>
-    <script>
+    <!-- <script>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {
             (h.hj.q = h.hj.q || []).push(arguments)
@@ -112,7 +112,7 @@
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+    </script> -->
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",

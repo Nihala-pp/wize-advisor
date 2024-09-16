@@ -50,7 +50,7 @@
     <link href="{{ asset('public/assets/css/ct-navbar.css') }}" rel="stylesheet" /> -->
     <!-- </main> -->
     <!--   Core JS Files   -->
-    <script>
+    <!-- <script>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {
             (h.hj.q = h.hj.q || []).push(arguments)
@@ -65,7 +65,7 @@
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+    </script> -->
     <script>
     var win = navigator.platform.indexOf('Win') > -1;
     if (win && document.querySelector('#sidenav-scrollbar')) {
@@ -81,7 +81,7 @@
     <!-- <script type="text/javascript" src="{{ asset('public/assets/js/material-dashboard.min.js?v=3.0.0') }}"></script> -->
     <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script> -->
-    <script>
+    <!-- <script>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {
             (h.hj.q = h.hj.q || []).push(arguments)
@@ -96,7 +96,7 @@
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+    </script> -->
     <script>
     window._wpemojiSettings = {
         "baseUrl": "https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/",
