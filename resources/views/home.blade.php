@@ -300,7 +300,7 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-a9a15f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            class="elementor-section elementor-top-section elementor-element elementor-element-a9a15f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no off-screen-parent"
             data-id="a9a15f2" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-742d26e"
@@ -461,7 +461,7 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-4128fae elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            class="elementor-section elementor-top-section elementor-element elementor-element-4128fae elementor-section-boxed elementor-section-height-default elementor-section-height-default off-screen-parent"
             id="how_it_works" data-id="4128fae" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_video_link&quot;:&quot;https://wiseadvizor.com/wp-content/uploads/2023/06/how-it-background#fromView=search&term=abstract&page=3&position=45&quot;,&quot;background_play_on_mobile&quot;:&quot;yes&quot;}">
             <div class="elementor-background-video-container">
@@ -576,7 +576,7 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-babd5b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            class="elementor-section elementor-top-section elementor-element elementor-element-babd5b5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no off-screen-parent"
             data-id="babd5b5" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;gradient&quot;}"
             style="padding-top:35px;padding-bottom:30px;">
@@ -821,7 +821,7 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-c6fda76 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            class="elementor-section elementor-top-section elementor-element elementor-element-c6fda76 elementor-section-boxed elementor-section-height-default elementor-section-height-default off-screen-parent"
             data-id="c6fda76" data-element_type="section">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9f6496a"
@@ -1032,7 +1032,7 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-3cff520 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            class="elementor-section elementor-top-section elementor-element elementor-element-3cff520 elementor-section-boxed elementor-section-height-default elementor-section-height-default off-screen-parent"
             data-id="3cff520" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
@@ -1443,7 +1443,7 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-d60240a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            class="elementor-section elementor-top-section elementor-element elementor-element-d60240a elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no off-screen-parent"
             data-id="d60240a" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
@@ -1774,7 +1774,7 @@
         </section>
 
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-00af63c elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no"
+            class="elementor-section elementor-top-section elementor-element elementor-element-00af63c elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no off-screen-parent"
             data-id="00af63b" data-element_type="section" style="background-color:#fff;">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-6e5206e"
@@ -1814,7 +1814,7 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-ba90b25 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            class="elementor-section elementor-top-section elementor-element elementor-element-ba90b25 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no off-screen-parent"
             data-id="ba90b25" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
@@ -1864,7 +1864,7 @@
             </div>
         </section>
         <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+            class="elementor-section elementor-top-section elementor-element elementor-element-b2c5733 elementor-section-boxed elementor-section-height-default elementor-section-height-default off-screen-parent"
             data-id="b2c5733" data-element_type="section" style="background-color:#fff">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-c429127"
@@ -3722,6 +3722,11 @@ i.fas.fa-chevron-down {
 }
 </style>
 <style>
+
+.off-screen-parent {
+    content-visibility: auto;
+}
+
 .tag {
     text-align: center;
     font-size: 1.1rem
