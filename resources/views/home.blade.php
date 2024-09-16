@@ -47,7 +47,7 @@
 
     @include('partials.header-common')
 
-    <div data-elementor-type="wp-page antiCls" data-elementor-id="8" class="elementor elementor-8">
+    <div data-elementor-type="wp-page" data-elementor-id="8" class="elementor elementor-8">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-9a6781f elementor-section-content-middle elementor-section-height-min-height elementor-section-boxed elementor-section-height-default elementor-section-items-middle"
             data-id="9a6781f" data-element_type="section"
