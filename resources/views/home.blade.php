@@ -1912,9 +1912,9 @@
             </div>
         </div>
     </div>
-    <link rel="preload" as="style"
+    <link rel="preconnect"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/home.css">
-    <link rel="preload" as="style"
+    <link rel="preconnect"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/home-section.css">
     <link rel="preconnect" id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171">
