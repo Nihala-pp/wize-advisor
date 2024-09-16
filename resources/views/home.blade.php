@@ -1886,7 +1886,7 @@
         </section>
 
 
-        <div class="modal" role="dialog" id="offer_modal" style="display:none">
+        <div class="modal" role="dialog" id="offer_modal" aria-labelledby="labeldiv" style="display:none">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
