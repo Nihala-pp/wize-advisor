@@ -74,7 +74,7 @@ class HomeController extends Controller
     $reviews = Review::where('is_approved', 0)->get();
     $completed_sessions = ScheduledCall::where('status', 'Approved')->where('is_paid', 1)->get()->count() * 30;
 
-  
+
     if (Auth::id() && auth()->user()->role_id == 3) {
       if (Auth::user()->metaData) {
         return redirect()->route('user.dashboard')->withSuccess('You have Successfully loggedin');
@@ -104,11 +104,10 @@ class HomeController extends Controller
     $totalReviews = Review::where('mentor_id', $data->id)->get()->count();
     $totalSessions = ScheduledCall::where('mentor_id', $data->id)->where('status', 'Approved')->get()->count();
 
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
     // $expertise = [
 
@@ -201,10 +200,8 @@ class HomeController extends Controller
         // ->orderBy('price', $sortby)
         ->get();
       // ->sortByDesc('metaData.price_per_call');
-    } 
-    elseif(!empty($expertise_name))
-    {
-         $mentors = User::with(['expertise'])
+    } elseif (!empty($expertise_name)) {
+      $mentors = User::with(['expertise'])
         ->where('role_id', 2)
         ->WhereNull('status')
         ->whereHas('expertise', function ($query) use ($expertise_name) {
@@ -212,8 +209,7 @@ class HomeController extends Controller
           if (!empty($expertise_name))
             $query->where('expertise', 'LIKE', '%' . $expertise_name . '%');
         })->get();
-    }
-    else {
+    } else {
       $mentors = User::where('role_id', 2)->whereNull('status')->get();
     }
 
@@ -221,11 +217,10 @@ class HomeController extends Controller
     $slot = AvailableSchedule::where('date', '>=', now())->get();
     $expertise = ExpertiseList::where('is_active', 0)->get();
 
-     if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
 
     if ((!empty($filters)) || (!empty($expertise_name))) {
@@ -271,11 +266,10 @@ class HomeController extends Controller
 
   public function addMentor()
   {
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
 
     if (!(Auth::id() && auth()->user()->role_id == 3)) {
@@ -285,11 +279,10 @@ class HomeController extends Controller
 
   public function contactUs()
   {
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
 
     return view('contact-us', compact('notifications'));
@@ -322,11 +315,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-<script type="text/javascript">
-alert("Be a Mentor Requested Successfully!");
-window.location.href = "https://wiseadvizor.com/be-a-mentor";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Be a Mentor Requested Successfully!");
+      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    </script>
+    <?php
   }
 
   public function scheduleCall(Request $request)
@@ -336,7 +329,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     } else {
       $call = '';
     }
-    
+
     $referral_code_used = UserMeta::where('user_id', Auth::id())->first()->referral_code_used;
 
     $mentor = User::find($request->id);
@@ -349,11 +342,10 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $client_id = env('PAYPAL_LIVE_CLIENT');
 
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
 
 
@@ -368,13 +360,12 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
   public function howitWorks()
   {
 
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
-    else {
-         $notifications = '';
-    }
-    
+
     return view('how-it-works', compact('notifications'));
   }
 
@@ -387,7 +378,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $voucher = Voucher::where('name', $data['discount_code'])->first();
 
-    $validator =  Validator::make($data, [
+    $validator = Validator::make($data, [
       'desc' => 'required',
       'time' => 'required',
       'timezone' => 'required',
@@ -395,15 +386,14 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $referral_code_used = UserMeta::where('user_id', Auth::id())->first()->referral_code_used;
 
-    if(($data['discount_code'] != $referral_code_used) && !empty($data['discount_code'])) {
-       $validator->after(function ($validator) use($voucher) {
-          if(!$voucher)
-          {
-              $validator->errors()->add('discount_code', 'Invalid Voucher');
-          }
-        });
-    }  
-    
+    if (($data['discount_code'] != $referral_code_used) && !empty($data['discount_code'])) {
+      $validator->after(function ($validator) use ($voucher) {
+        if (!$voucher) {
+          $validator->errors()->add('discount_code', 'Invalid Voucher');
+        }
+      });
+    }
+
     $validator->validate();
 
     if ($request->hasFile('doc')) {
@@ -458,42 +448,39 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     $stripe = new \Stripe\StripeClient($clientSecret);
 
     Stripe::setApiKey($clientSecret);
-        
-      if($voucher) {
-        
-        // if($voucher->discount_type == "fixed") {
-        //   $discount_value =  $voucher->discount_value;
-        // }
-        // else {
-          $discount_value =  $voucher->discount_value;
 
-          $coupon =  $stripe->coupons->create([
-            'percent_off' => $discount_value,
-            'duration' => 'once',
-          ]);
-        // }
-      }
-      elseif($data['discount_code'] == $referral_code_used) {
-          $discount_value = UserMeta::where('referral_code', $referral_code_used)->first()->referral_discount_value;
-          $coupon =  $stripe->coupons->create([
-            'percent_off' => $discount_value,
-            'duration' => 'once',
-          ]);
-      }
-       else {
-         $discount_value = 0;
-         $coupon = null;
-      }
+    if ($voucher) {
 
-      $price = $data['price'] * 100;
+      // if($voucher->discount_type == "fixed") {
+      //   $discount_value =  $voucher->discount_value;
+      // }
+      // else {
+      $discount_value = $voucher->discount_value;
 
-      if(!$coupon) {
-        $coupon_id = null;
-      }
-      else {
-        $coupon_id = $coupon['id'];
+      $coupon = $stripe->coupons->create([
+        'percent_off' => $discount_value,
+        'duration' => 'once',
+      ]);
+      // }
+    } elseif ($data['discount_code'] == $referral_code_used) {
+      $discount_value = UserMeta::where('referral_code', $referral_code_used)->first() ? UserMeta::where('referral_code', $referral_code_used)->first()->referral_discount_value : '';
+      $coupon = $stripe->coupons->create([
+        'percent_off' => $discount_value,
+        'duration' => 'once',
+      ]);
+    } else {
+      $discount_value = 0;
+      $coupon = null;
+    }
 
-      }
+    $price = $data['price'] * 100;
+
+    if (!$coupon) {
+      $coupon_id = null;
+    } else {
+      $coupon_id = $coupon['id'];
+
+    }
 
     // $session = Session::create([
     //   'line_items' => [[
@@ -506,28 +493,28 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     //   'cancel_url' => route('cancel'),
     // ]);
 
-        $session = Session::create([
-            'line_items'  => [
-                [
-                    'price_data' => [
-                        'currency'     => 'usd',
-                        'product_data' => [
-                            'name' => $data['duration'] .' Minute meeting with '. $mentor->name,
-                        ],
-                        'unit_amount_decimal' => round($price)
-                    ],
-                    'quantity'   => 1,
-                ],
+    $session = Session::create([
+      'line_items' => [
+        [
+          'price_data' => [
+            'currency' => 'usd',
+            'product_data' => [
+              'name' => $data['duration'] . ' Minute meeting with ' . $mentor->name,
             ],
-            'discounts' => [['coupon' => $coupon_id]],
-            'mode'        => 'payment',
-            'success_url' => route('success', [$call['id']]),
-            'cancel_url'  => route('cancel'),
-        ]);
+            'unit_amount_decimal' => round($price)
+          ],
+          'quantity' => 1,
+        ],
+      ],
+      'discounts' => [['coupon' => $coupon_id]],
+      'mode' => 'payment',
+      'success_url' => route('success', [$call['id']]),
+      'cancel_url' => route('cancel'),
+    ]);
 
-        return response()->json($session->url);
+    return response()->json($session->url);
 
-        // return redirect()->$session->url;
+    // return redirect()->$session->url;
 
     // if (Auth::id() && auth()->user()->role_id == 3) {    
     //     $notifications = auth()->user()->unreadNotifications;
@@ -548,9 +535,9 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     // {
     //    return view('test-gateway',  compact('call_data'));
     // }
-      //  return view('payment', compact('call_data', 'client_id', 'notifications'));
+    //  return view('payment', compact('call_data', 'client_id', 'notifications'));
 
-      // return redirect()->route('checkout');
+    // return redirect()->route('checkout');
 
     // return redirect()->action(
     //   [HomeController::class, 'success'],
@@ -615,14 +602,14 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         ->where('start_time', $user_timezone->format('H:i:s'))
         ->first();
 
-        $schedule->update([
-          'is_booked' => 1,
-          'call_id' => $call->id
-        ]);
-  
-        $call->update([
-          'is_paid' => 1
-        ]);
+      $schedule->update([
+        'is_booked' => 1,
+        'call_id' => $call->id
+      ]);
+
+      $call->update([
+        'is_paid' => 1
+      ]);
 
       $mentor = User::find($call->mentor_id);
       $user = User::find($call->user_id);
@@ -647,16 +634,16 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       Mail::to($mentor->email)->send(new ScheduleCallRequest($details));
       Mail::to($user->email)->send(new ScheduleCallRequestUser($details));
 
-      $referral_code_used = $user->metaData->referral_code_used ?:'';
-      if(!empty($referral_code_used)) {
-           $referred_user = UserMeta::where('referral_code', $referral_code_used)->first();
-           $referred_user_data = User::find( $referred_user->user_id);
-           $details = [
-            'name' => $referred_user_data->name,
-            'discount_code' => $referral_code_used
-           ];
+      $referral_code_used = $user->metaData->referral_code_used ?: '';
+      if (!empty($referral_code_used)) {
+        $referred_user = UserMeta::where('referral_code', $referral_code_used)->first();
+        $referred_user_data = User::find($referred_user->user_id);
+        $details = [
+          'name' => $referred_user_data->name,
+          'discount_code' => $referral_code_used
+        ];
 
-           Mail::to($referred_user_data->email)->send(new ReferralDiscountEmail($details));
+        Mail::to($referred_user_data->email)->send(new ReferralDiscountEmail($details));
       }
 
 
@@ -677,12 +664,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       $mentor->notify(new NewCallRequest($user));
       $admin->notify(new NewCallRequestAdmin($user));
 
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
-    }
+      if (Auth::id() && auth()->user()->role_id == 3) {
+        $notifications = auth()->user()->unreadNotifications;
+      } else {
+        $notifications = '';
+      }
 
       return view('success', compact('details', 'mentor', 'notifications', 'call_id'));
 
@@ -715,26 +701,24 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function termsConditions()
   {
-     if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
 
-    return view('terms-conditions', compact( 'notifications'));
+    return view('terms-conditions', compact('notifications'));
   }
 
   public function privacyPolicy()
   {
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
-    else {
-         $notifications = '';
-    }
-    
-    return view('privacy-policy', compact( 'notifications'));
+
+    return view('privacy-policy', compact('notifications'));
   }
 
   public function saveContact(Request $request)
@@ -765,44 +749,41 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function resources()
   {
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
-    else {
-         $notifications = '';
-    }
-    
-    return view('resources', compact( 'notifications'));
+
+    return view('resources', compact('notifications'));
   }
 
   public function blogs()
   {
-    
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
+
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
 
-    $blogs = Blogs::where('deleted_at', '=' , null)->get();
+    $blogs = Blogs::where('deleted_at', '=', null)->get();
     $featured_blog1 = Blogs::where('is_featured', 1)->latest()->first();
-    $featured_blog2 = Blogs::where('id', '!=' , $featured_blog1->id)->where('is_featured', 1)->latest()->first();
-    $featured_blog3 = Blogs::where('id', '!=' , $featured_blog2->id)->where('id', '!=' , $featured_blog1->id)->where('is_featured', 1)->latest()->first();
+    $featured_blog2 = Blogs::where('id', '!=', $featured_blog1->id)->where('is_featured', 1)->latest()->first();
+    $featured_blog3 = Blogs::where('id', '!=', $featured_blog2->id)->where('id', '!=', $featured_blog1->id)->where('is_featured', 1)->latest()->first();
     $categories = BlogCategories::get();
-    
-    return view('blogs', compact('blogs','featured_blog1','featured_blog2','featured_blog3','categories','notifications'));
+
+    return view('blogs', compact('blogs', 'featured_blog1', 'featured_blog2', 'featured_blog3', 'categories', 'notifications'));
   }
 
   public function blogDetailPage($id)
   {
     $blog = Blogs::find($id);
-    
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
+
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
 
     return view('blog-detail', compact('blog', 'notifications'));
@@ -812,12 +793,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
   {
     $userFaq = UserFaq::get();
     $mentors_faq = MentorsFaq::get();
-    
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
-    }
-    else {
-         $notifications = '';
+
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
 
     return view('faq', compact('userFaq', 'mentors_faq', 'notifications'));
@@ -825,50 +805,46 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function communityGuidelines()
   {
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
-    else {
-         $notifications = '';
-    }
-    
+
     return view('community-guidelines', compact('notifications'));
   }
 
   public function libraries()
   {
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
-    else {
-         $notifications = '';
-    }
-    
+
     return view('libraries', compact('notifications'));
   }
 
   public function communityPosts()
   {
-     if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
-    else {
-         $notifications = '';
-    }
-    
+
     return view('community-post', compact('notifications'));
   }
 
   public function aboutUs()
   {
-    if (Auth::id() && auth()->user()->role_id == 3) {    
-         $notifications = auth()->user()->unreadNotifications;
+    if (Auth::id() && auth()->user()->role_id == 3) {
+      $notifications = auth()->user()->unreadNotifications;
+    } else {
+      $notifications = '';
     }
-    else {
-         $notifications = '';
-    }
-    
-    
+
+
     return view('about-us', compact('notifications'));
   }
 
@@ -990,16 +966,16 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
   public function blogSample()
   {
-    $blogs = Blogs::where('deleted_at', '=' , null)->get();
+    $blogs = Blogs::where('deleted_at', '=', null)->get();
     $featured_blogs = Blogs::where('is_featured', 1)->latest()->take(3)->get();
     $categories = BlogCategories::get();
-    
-     return view('test', compact('blogs','featured_blogs','categories'));
+
+    return view('test', compact('blogs', 'featured_blogs', 'categories'));
   }
 
   public function completedCalls()
   {
- 
+
   }
 
   public function callFeedBack()
@@ -1158,11 +1134,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     ]);
 
     ?>
-<script type="text/javascript">
-alert("Subscribed to the newsletter!");
-window.location.href = "https://wiseadvizor.com";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Subscribed to the newsletter!");
+      window.location.href = "https://wiseadvizor.com";
+    </script>
+    <?php
   }
 
   public function saveWebinar(Request $request)
@@ -1186,11 +1162,11 @@ window.location.href = "https://wiseadvizor.com";
     Mail::to($email)->send(new askQuestionMail($details));
 
     ?>
-<script type="text/javascript">
-alert("Your slot registration has been submitted!");
-window.location.href = "https://learning.wiseadvizor.com";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Your slot registration has been submitted!");
+      window.location.href = "https://learning.wiseadvizor.com";
+    </script>
+    <?php
   }
 
   public function ask_question(Request $request)
@@ -1214,19 +1190,19 @@ window.location.href = "https://learning.wiseadvizor.com";
     Mail::to($email)->send(new askQuestionMail($details));
 
     ?>
-<script type="text/javascript">
-alert("Your query has been submitted!");
-window.location.href = "https://wiseadvizor.com/faq";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Your query has been submitted!");
+      window.location.href = "https://wiseadvizor.com/faq";
+    </script>
+    <?php
   }
 
   public function blogCategories($id, $name)
   {
-      $blogs = Blogs::where('category_id', $id)->where('deleted_at', null)->get();
-      $category = BlogCategories::find($id);
+    $blogs = Blogs::where('category_id', $id)->where('deleted_at', null)->get();
+    $category = BlogCategories::find($id);
 
-      return view('categories', compact('blogs', 'category'));
+    return view('categories', compact('blogs', 'category'));
   }
 
   public function blogDetail($id, $name)
@@ -1235,11 +1211,11 @@ window.location.href = "https://wiseadvizor.com/faq";
 
     $related_posts = Blogs::where('id', '!=', $id)->latest()->take(3)->get();
 
-     return view('blog-detail', compact('selectedBlog', 'related_posts'));
+    return view('blog-detail', compact('selectedBlog', 'related_posts'));
   }
 
   public function test_gateway()
   {
-       return view('test-gateway');
+    return view('test-gateway');
   }
 }
