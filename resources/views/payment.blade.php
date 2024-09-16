@@ -33,36 +33,6 @@
             <button type="submit" id="checkout-button">Checkout</button>
         </form>
     </section>
-
-    <!-- <form id="payment-form">
-        <div class="col-md-8 card mt-5 mb-5">
-            <div class="py-12">
-                <div class="card-body text-center">
-                    <h4><b>Payment Summary</b></h4>
-                    <div class="rounded-circle mt-5">
-                        <a href="{{ route('profile', [ $call_data->mentor ?  $call_data->mentor->id : '']) }}">
-                            <img class="rounded-circle" decoding="async"
-                                src="{{ asset('public/assets/img/').'/'. $call_data->mentor->metaData->profile_pic }}"
-                                alt="Mentor" width="100" height="100">
-                        </a>
-                    </div>
-                    <div class="card_carousel_title"> {{ $call_data->mentor ?  $call_data->mentor->name : '' }}</div>
-                    <h5>30 Min Meeting</h5>
-                    <h6 class="card-title price">${{ $call_data->mentor->metaData->price_per_call }}</h6>
-                    @csrf
-                    <div class="input-group"><input type="text" class="form-control coupon" id="discount_code"
-                            name="discount_code" placeholder="Enter the Promo Code"> <span class="input-group-append">
-                            <button type="button" class="btn btn-primary btn-apply coupon_code">Apply</button> </span>
-                    </div>
-                    <input type="hidden" name="call_id" value="{{ $call_data->id }}" id="call_id">
-                    <input type="hidden" name="mentor_id" value="{{ $call_data->mentor_id }}" id="mentor_id">
-                    <input type="hidden" name="price" value="{{ $call_data->mentor->metaData->price_per_call }}"
-                        id="price">
-                    <div id="paypal_button_container" class="mt-5"></div>
-                </div>
-            </div>
-        </div>
-    </form> -->
     <!--Start of Tawk.to Script-->
     <script type="text/javascript">
     var Tawk_API = Tawk_API || {},
