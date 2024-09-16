@@ -3725,6 +3725,7 @@ i.fas.fa-chevron-down {
 
 .off-screen-parent {
     content-visibility: auto;
+    contain-intrinsic-size: 4800px;
 }
 
 .tag {
