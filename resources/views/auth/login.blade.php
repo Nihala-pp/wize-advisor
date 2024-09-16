@@ -55,16 +55,9 @@
 @include('partials.header')
 
 <body class="bg-gray-200">
-    <!-- <div class="container position-sticky z-index-sticky top-0">
-    <div class="row">
-      <div class="col-12">
-      </div>
-    </div>
-  </div> -->
     <main class="main-content  mt-0">
         <div class="page-header align-items-start min-vh-100"
             style="background-image: url('{{ asset('public/assets/img/biometric-technology-background-with-fingerprint-scanning-system-virtual-screen-digital-remix.jpg') }}')">
-            <!-- <span class="mask bg-gradient-dark opacity-6"></span> -->
             <div class="container my-auto loginForm">
                 <div class="row">
                     <div class="col-lg-12 col-md-12 col-12 mx-auto">
@@ -78,28 +71,6 @@
                                         {{ __('Connect with Startup Mentors : Login to wiseAdvizor') }}
                                         @endif
                                     </h1>
-                                    <!-- <div class="row mt-3"> -->
-                                    <!-- <div class="col-2 text-center ms-auto"> -->
-                                    <!-- <a class="btn btn-link px-3" href="javascript:;">
-                                            <i class="fa fa-facebook text-white text-lg"></i>
-                                             </a> -->
-                                    <!-- </div> -->
-                                    <!-- <div class="col-3 text-center ms-auto linkedin">
-                                            <a class="btn btn-link px-2" href="{{ route('auth.linkedin') }}">
-                                                <img src="{{ asset('public/assets/img/linkedin.png') }}"
-                                                    class="avatar avatar-sm me-3" alt="linkedin"> -->
-
-                                    <!-- <i class="fa fa-linkedin text-dark-blue text-lg"></i> -->
-                                    <!-- </a>
-                                        </div>
-                                        <div class="col-3 text-center me-auto google">
-                                            <a class="btn btn-link px-2" href="{{ route('auth.google') }}">
-                                                <img src="{{ asset('public/assets/img/google.png') }}"
-                                                    class="avatar avatar-sm me-3" alt="google"> -->
-                                    <!-- <i class="fa fa-google text-white text-lg"></i> -->
-                                    <!-- </a>
-                                        </div> -->
-                                    <!-- </div> -->
                                 </div>
                             </div>
                             <div class="card-body">
@@ -189,7 +160,7 @@
             </footer>
         </div>
     </main>
-    <script>
+    <!-- <script>
     (function(h, o, t, j, a, r) {
         h.hj = h.hj || function() {
             (h.hj.q = h.hj.q || []).push(arguments)
@@ -204,9 +175,8 @@
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
     })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-    </script>
+    </script> -->
 </body>
-
 </html>
 <style>
 .text {
