@@ -27,10 +27,6 @@
     <link rel="canonical" href="https://wiseadvizor.com/be-a-mentor">
     <meta name='robots' content='max-image-preview:large' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
-    <link rel='stylesheet' id='elementor-post-7046-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7046.css?ver=1720441388' media='all' />
-    @include('partials.web-style')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
@@ -676,6 +672,11 @@
             </div>
         </section>
     </div>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
+    <link rel='stylesheet' id='elementor-post-7046-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7046.css?ver=1720441388' media='all' />
+    @include('partials.web-style')
 
     @include('partials.footer-web')
 
