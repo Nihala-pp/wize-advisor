@@ -89,7 +89,7 @@ var qodefQiAddonsGlobal = {
         id="theplus-front-js-js" defer></script> -->
 <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
     id="hfe-frontend-js-js"></script>
-<script async
+<script
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2') }}"
     id="swiper-js"></script>
 <script src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
@@ -380,7 +380,7 @@ var wpformsElementorVars = {
 <script
     src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
     id="wpforms-elementor-js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" async>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
 </script>
 <script defer src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
 
