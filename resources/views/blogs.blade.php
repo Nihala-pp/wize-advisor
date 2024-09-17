@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Blogs | Fuel Your business journey with wiseAdvizor</title>
@@ -25,13 +26,14 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="canonical" href="https://wiseadvizor.com/blogs" />
+    <meta name=viewport content="width=device-width, initial-scale=1">
 </head>
 
 <body
     class="page-template page-template-elementor_canvas page page-id-2650 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2650 horizontal-scroll-class">
 
     @include('partials.header-common')
-    
+
     <div data-elementor-type="wp-page" data-elementor-id="2650" class="elementor elementor-2650">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-5d54753 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
