@@ -83,10 +83,15 @@
                                                             class="hfe-menu-toggle hfe-menu-child-0"><i
                                                                 class="fas fa-chevron-down"></i></span></a></div>
                                                 <ul class="sub-menu">
+                                                    <li id="menu-item-2842" itemprop="name"
+                                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
+                                                        <a href="https://wiseadvizor.com/blogs" itemprop="url"
+                                                            class="hfe-sub-menu-item hfe-sub-menu-item-active">Blogs</a>
+                                                    </li>
                                                     <li id="menu-item-24" itemprop="name"
                                                         class="menu-item menu-item-type-post_type menu-item-object-page hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/community-posts"
-                                                            itemprop="url" class="hfe-sub-menu-item">Community
+                                                        <a href="https://wiseadvizor.com/community-posts" itemprop="url"
+                                                            class="hfe-sub-menu-item">Community
                                                             Post</a>
                                                     </li>
                                                     <li id="menu-item-25" itemprop="name"
@@ -94,11 +99,7 @@
                                                         <a href="https://wiseadvizor.com/libraries" itemprop="url"
                                                             class="hfe-sub-menu-item">Libraries</a>
                                                     </li>
-                                                    <li id="menu-item-2842" itemprop="name"
-                                                        class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-2650 current_page_item hfe-creative-menu">
-                                                        <a href="https://wiseadvizor.com/blogs" itemprop="url"
-                                                            class="hfe-sub-menu-item hfe-sub-menu-item-active">Blogs</a>
-                                                    </li>
+
                                                 </ul>
                                             </li>
                                         </ul>
