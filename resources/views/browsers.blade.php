@@ -97,7 +97,8 @@
                                 </style>
                                 <div class="elementor-heading-title elementor-size-default">
                                     <h1>
-                                        Find a mentor for {{ str_replace("%", ' ', $expertise_name) ? :  $filters['expertise'] }}
+                                        Find a mentor for
+                                        {{ str_replace("%", ' ', $expertise_name) ? :  $filters['expertise'] }}
                                     </h1>
                                 </div>
                             </div>
@@ -678,6 +679,10 @@
     </script>
 </body>
 <style>
+.wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
+    margin-bottom: -2px !important;
+}
+
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
 .elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000;
