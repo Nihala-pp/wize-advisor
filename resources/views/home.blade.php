@@ -31,12 +31,12 @@
     <link rel="preload"
         href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2"
         as="script">
-    <link rel="preload" href="https://wiseadvizor.com/public/assets/js/lazysizes.min.js" as="script">
+    <link rel="preload" href="https://wiseadvizor.com/public/assets/js/lazysizes.min.js" as="script" crossorigin>
     <link rel="preload"
         href="https://wiseadvizor.com/public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
-        as="script">
-    <link rel="preload" href="https://wiseadvizor.com/js/main.min.js?ver=6.2.2" as="script">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script">
+        as="script" crossorigin>
+    <link rel="preload" href="https://wiseadvizor.com/js/main.min.js?ver=6.2.2" as="script" crossorigin>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script" crossorigin>
     <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
     <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
