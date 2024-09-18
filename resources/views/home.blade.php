@@ -176,7 +176,7 @@
                                             data-id="d7ea8e1" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                <img loading="lazy" decoding="async" width="200" height="500"
+                                                <img loading="lazy" decoding="async" width="200" height="200"
                                                     src="https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp"
                                                     class="attachment-medium_large size-medium_large wp-image-8245"
                                                     alt="startup mentors"
