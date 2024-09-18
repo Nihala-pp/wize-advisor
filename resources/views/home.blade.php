@@ -176,12 +176,12 @@
                                             data-id="d7ea8e1" data-element_type="widget"
                                             data-widget_type="image.default">
                                             <div class="elementor-widget-container">
-                                                <img loading="lazy" decoding="async" width="500" height="500"
+                                                <img loading="lazy" decoding="async" width="200" height="500"
                                                     src="https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp"
                                                     class="attachment-medium_large size-medium_large wp-image-8245"
                                                     alt="startup mentors"
                                                     srcset="https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp 150w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp 700w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp 650w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp 1300w, https://wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp 1080w"
-                                                    sizes="(max-width: 500px) 100vw, 500px"
+                                                    sizes="(max-width: 200px) 100vw, 200px"
                                                     style="width:100%;height:100%;max-width:200px">
                                             </div>
                                         </div>
