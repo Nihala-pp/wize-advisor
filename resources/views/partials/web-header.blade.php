@@ -375,7 +375,7 @@
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
-        as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
             href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2">
@@ -1016,7 +1016,7 @@
         media="all"> -->
         <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-        as="style" id="elementor-frontend-css"  onload="this.onload=null;this.rel='stylesheet'">
+        as="style/css" id="elementor-frontend-css"  onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet" id="elementor-frontend-css"
             href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">
@@ -1058,7 +1058,7 @@
     <!-- <link rel="stylesheet" id="qi-addons-for-elementor-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.2.2"
         media="all"> -->
-        <link rel="preload" id='qi-addons-for-elementor-style-css' href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" id='qi-addons-for-elementor-style-css' href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1">
     </noscript>

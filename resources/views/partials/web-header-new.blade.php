@@ -1147,7 +1147,7 @@
         media="all"> -->
         <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-        as="style" id="elementor-frontend-css"  onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="elementor-frontend-css"  onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet" id="elementor-frontend-css"
             href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">

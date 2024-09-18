@@ -490,7 +490,7 @@
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
-        as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'">
+        as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
             href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2">

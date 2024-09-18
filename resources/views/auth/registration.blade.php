@@ -148,8 +148,8 @@ window._wpemojiSettings = {
     }))
 }((window, document), window._wpemojiSettings);
 </script>
-<link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style" id="dashicons"
-    media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
+<link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style/css" id="dashicons"
+    media="all" onload="this.onload=null;this.rel='stylesheet'" crossorigin><noscript>
     <link rel='stylesheet' id='dashicons-css' href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3'
         media='all' />
 </noscript>
@@ -656,7 +656,7 @@ body .is-layout-grid>* {
     media='all' />
 <link rel="preload" id='qi-addons-for-elementor-style-css'
     href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1"
-    as="style" onload="this.onload=null;this.rel='stylesheet'">
+    as="style/css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1">
@@ -676,7 +676,7 @@ body .is-layout-grid>* {
     media='all' />
 <link rel="preload" id='wpr-addons-css-css'
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975"
-    as="style" onload="this.onload=null;this.rel='stylesheet'">
+    as="style/css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.975">

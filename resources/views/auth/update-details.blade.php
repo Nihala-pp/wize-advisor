@@ -327,7 +327,7 @@
     </style>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2"
-        as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'">
+        as="style/css" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link rel="stylesheet" id="tpgb-fontawesome-css"
             href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.2.2">
@@ -968,7 +968,7 @@
         media="all"> -->
         <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-        as="style" id="elementor-frontend-css"  onload="this.onload=null;this.rel='stylesheet'" disabled>
+        as="style/css" id="elementor-frontend-css"  onload="this.onload=null;this.rel='stylesheet'" disabled>
     <noscript>
         <link rel="stylesheet" id="elementor-frontend-css"
             href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">
