@@ -105,9 +105,9 @@ var qodefQiAddonsGlobal = {
     id="lightgallery_video_js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0') }}"
     id="lightgallery_zoom_js-js"></script>
-<script
+<!-- <script
     src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/autoplay/lg-autoplay.min.js?ver=2.5.0') }}"
-    id="lightgallery_autoplay_js-js"></script>
+    id="lightgallery_autoplay_js-js"></script> -->
 <script src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
     id="vimeo_player_js-js"></script>
 <script
@@ -119,12 +119,12 @@ var qodefQiAddonsGlobal = {
 <script
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min.js?ver=6.2.2') }}"
     id="packery-js"></script>
-<script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
-</script>
+<!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
+</script> -->
 <script defer src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
 </script>
-<script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
-</script>
+<!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
+</script> -->
 <script id="elementor-frontend-js-before">
 var elementorFrontendConfig = {
     "environmentMode": {
@@ -249,16 +249,16 @@ var elementorFrontendConfig = {
 </script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
     id="elementor-frontend-js"></script>
-<script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
-    id="wp-polyfill-inert-js"></script>
-<script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
-    id="regenerator-runtime-js"></script>
-<script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0') }}" id="wp-polyfill-js">
-</script>
-<script src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
-</script>
-<script src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}" id="wp-i18n-js">
-</script>
+<!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
+    id="wp-polyfill-inert-js"></script> -->
+<!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
+    id="regenerator-runtime-js"></script> -->
+<!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0') }}" id="wp-polyfill-js">
+</script> -->
+<!-- <script src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
+</script> -->
+<!-- <script src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}" id="wp-i18n-js">
+</script> -->
 <script id="wp-i18n-js-after">
 wp.i18n.setLocaleData({
     'text directionltr': ['ltr']
@@ -267,8 +267,8 @@ wp.i18n.setLocaleData({
 <script
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=6.2.2') }}"
     id="qi-addons-for-elementor-elementor-js"></script>
-<script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
-    id="elementor-pro-webpack-runtime-js"></script>
+<!-- <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
+    id="elementor-pro-webpack-runtime-js"></script> -->
 <script id="elementor-pro-frontend-js-before">
 var ElementorProFrontendConfig = {
     "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -358,8 +358,8 @@ var ElementorProFrontendConfig = {
     id="elementor-pro-frontend-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
     id="pro-elements-handlers-js"></script>
-<script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
-    id="e-sticky-js"></script>
+<!-- <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
+    id="e-sticky-js"></script> -->
 <script src="{{ asset('public/wp-includes/js/underscore.min.js') }}">
 </script>
 <script id="wp-util-js-extra">
@@ -369,8 +369,8 @@ var _wpUtilSettings = {
     }
 };
 </script>
-<script src="{{ asset('public/wp-includes/js/wp-util.min.js?ver=6.2.2') }}" id="wp-util-js">
-</script>
+<!-- <script src="{{ asset('public/wp-includes/js/wp-util.min.js?ver=6.2.2') }}" id="wp-util-js">
+</script> -->
 <script id="wpforms-elementor-js-extra">
 var wpformsElementorVars = {
     "captcha_provider": "recaptcha",

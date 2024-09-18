@@ -1327,12 +1327,12 @@
     id="wpr-parallax-hover-js"></script>
 <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.js?ver=1.6.14') }}"
     id="hfe-frontend-js-js"></script>
-<script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
-    id="elementor-webpack-runtime-js"></script>
+<!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js?ver=3.14.1') }}"
+    id="elementor-webpack-runtime-js"></script> -->
 <script defer src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js?ver=3.14.1') }}"
     id="elementor-frontend-modules-js"></script>
-<script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
-    id="elementor-waypoints-js"></script>
+<!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js?ver=4.0.2') }}"
+    id="elementor-waypoints-js"></script> -->
 <script id="elementor-frontend-js-before">
 var elementorFrontendConfig = {
     "environmentMode": {
@@ -1584,7 +1584,7 @@ var _wpUtilSettings = {
     }
 };
 </script>
-<script src="{{ asset('public/wp-includes/js/wp-util.min.js?ver=6.2.2') }}" id="wp-util-js"></script>
+<!-- <script src="{{ asset('public/wp-includes/js/wp-util.min.js?ver=6.2.2') }}" id="wp-util-js"></script> -->
 <script id="wpforms-elementor-js-extra">
 var wpformsElementorVars = {
     "captcha_provider": "recaptcha",
