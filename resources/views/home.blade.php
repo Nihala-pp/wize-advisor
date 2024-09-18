@@ -28,9 +28,13 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
-    <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2" as="script">
+    <link rel="preload"
+        href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2"
+        as="script">
     <link rel="preload" href="https://wiseadvizor.com/public/assets/js/lazysizes.min.js" as="script">
-    <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" as="script">
+    <link rel="preload"
+        href="https://wiseadvizor.com/public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
+        as="script">
     <link rel="preload" href="https://wiseadvizor.com/js/main.min.js?ver=6.2.2" as="script">
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script">
     <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
@@ -1853,7 +1857,8 @@
                             <div class="elementor-widget-container">
                                 <img loading="lazy" decoding="async" width="750" height="750"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png"
-                                    class="attachment-medium_large size-medium_large wp-image-8244" alt="one on mentoring platform"
+                                    class="attachment-medium_large size-medium_large wp-image-8244"
+                                    alt="one on mentoring platform"
                                     srcset="https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png 1300w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:100%;max-width:3375px">
@@ -2084,6 +2089,11 @@
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
+        document.addEventListener('touchstart', onTouchStart, {
+            passive: true
+        });
+
+
         function ucBackgroundOverlayPutStart() {
 
             var objBG = jQuery(".unlimited-elements-background-overlay");
@@ -2238,12 +2248,12 @@
     }(jQuery));
     </script>
     <script type="text/javascript">
-          $(document).ready(function() {
+    $(document).ready(function() {
                 $(window).on("load", function()
 
                     $('.antiCls').css("visibility", "visible");
 
-          });
+                });
     </script>
 </body>
 
@@ -3722,7 +3732,6 @@ i.fas.fa-chevron-down {
 }
 </style>
 <style>
-
 .off-screen-parent {
     content-visibility: auto;
     contain-intrinsic-size: 4800px;
