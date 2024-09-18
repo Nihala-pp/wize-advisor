@@ -41,6 +41,34 @@
     </script>
     <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js">
+    jQuery.event.special.touchstart = {
+        setup: function(_, ns, handle) {
+            this.addEventListener("touchstart", handle, {
+                passive: !ns.includes("noPreventDefault")
+            });
+        }
+    };
+    jQuery.event.special.touchmove = {
+        setup: function(_, ns, handle) {
+            this.addEventListener("touchmove", handle, {
+                passive: !ns.includes("noPreventDefault")
+            });
+        }
+    };
+    jQuery.event.special.wheel = {
+        setup: function(_, ns, handle) {
+            this.addEventListener("wheel", handle, {
+                passive: true
+            });
+        }
+    };
+    jQuery.event.special.mousewheel = {
+        setup: function(_, ns, handle) {
+            this.addEventListener("mousewheel", handle, {
+                passive: true
+            });
+        }
+    };
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -2088,10 +2116,6 @@
     </style>
     <script type="text/javascript">
     jQuery(document).ready(function() {
-
-        document.addEventListener('touchstart', onTouchStart, {
-            passive: true
-        });
 
         function ucBackgroundOverlayPutStart() {
 
