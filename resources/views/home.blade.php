@@ -40,7 +40,8 @@
     <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
     <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js">
+        id="jquery-migrate-js"></script>
+    <script>
     jQuery.event.special.touchstart = {
         setup: function(_, ns, handle) {
             this.addEventListener("touchstart", handle, {
