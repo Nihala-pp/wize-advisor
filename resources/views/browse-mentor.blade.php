@@ -626,7 +626,7 @@
 </body>
 <style>
 .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
-    margin-bottom: -2px;
+    margin-bottom: -2px !important;
 }
 
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
