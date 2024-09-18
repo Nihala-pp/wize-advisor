@@ -2093,7 +2093,6 @@
             passive: true
         });
 
-
         function ucBackgroundOverlayPutStart() {
 
             var objBG = jQuery(".unlimited-elements-background-overlay");
