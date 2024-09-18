@@ -355,7 +355,7 @@
 
                                                 <img decoding="async" alt="business coach"
                                                     data-src="https://wiseadvizor.com/wp-content/uploads/2023/07/business-idea.webp"
-                                                    class="lazyload" type="image/webp" width="297" height="297">
+                                                    class="lazyload" type="image/webp" width="258" height="258">
                                             </div>
 
                                             <h3 class="wpr-flip-box-title">Startups/Entrepreneurs</h3>
