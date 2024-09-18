@@ -97,7 +97,7 @@
                                 </style>
                                 <div class="elementor-heading-title elementor-size-default">
                                     <h1>
-                                        Find a mentor for {{ $expertise_name ? :  $filters['expertise'] }}
+                                        Find a mentor for {{ str_replace("%", '', $expertise_name) ? :  $filters['expertise'] }}
                                     </h1>
                                 </div>
                             </div>
