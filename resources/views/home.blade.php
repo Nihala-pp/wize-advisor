@@ -1968,7 +1968,7 @@
     @include('partials.footer-web')
 
     @include('partials.web-script')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <style>
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
         width: 100%;
