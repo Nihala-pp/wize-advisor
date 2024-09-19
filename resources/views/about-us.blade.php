@@ -485,7 +485,6 @@
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/carousel.9b02b45d7826c1c48f33.bundle.min.js">
     </script>
-
 </body>
 <style>
 .elementor-carousel-image {
@@ -893,5 +892,4 @@ margin-bottom: 10px;
     } */
 }
 </style>
-
 </html>
