@@ -465,7 +465,7 @@
                                                         <div class="grid-child green">
                                                             <h5><span style="color: #000000">{{ $mentor->name }}</span>
                                                             </h5>
-                                                            <p><span style="color: #000000"><abbr
+                                                            <p><span style="color: #000000" font-size: 12px !important;><abbr
                                                                         title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>,
                                                                     {{ $mentor->metaData->company }}</span><br /> <span
                                                                     style="font-size:10px;color: #000000">
