@@ -625,10 +625,6 @@
     </script>
 </body>
 <style>
-.wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
-    margin-bottom: -2px !important;
-}
-
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
 .elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000;
@@ -868,6 +864,11 @@ body {
 
 @media screen and (max-width: 1280px),
 screen and (min-width: 1024px) {
+
+
+    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
+        margin-bottom: -2px !important;
+    }
 
     a.how-it-works:first-letter {
         text-transform: uppercase !important;
@@ -1665,7 +1666,7 @@ i.fas.fa-bell.fa-2xl {
     .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
         margin-bottom: -2px !important;
     }
-    
+
     .filters {
         padding-left:
             75px;
