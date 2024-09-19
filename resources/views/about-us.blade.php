@@ -543,8 +543,8 @@ i.fas.fa-bell.fa-2xl {
 }
 
 .elementor-7317 .elementor-element.elementor-element-80e6f82 .elementor-main-swiper {
-    height: 263px;
-    width: 61%;
+    height: 365px;
+    width: 30%;
 }
 
 .elementor-7317 .elementor-element.elementor-element-f63534a:not(.elementor-motion-effects-element-type-background),
