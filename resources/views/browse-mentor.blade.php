@@ -837,6 +837,10 @@ body {
 }
 
 @media screen and (max-width: 400px) and (min-width: 320px) {
+    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
+        margin-bottom: -2px !important;
+    }
+
     .selectpicker {
         font-size:
             10px;
@@ -1127,6 +1131,10 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 768px) {
 
+    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
+        margin-bottom: -2px !important;
+    }
+
     p>span {
         margin-top: -15px !important;
         font-size: 7px !important;
@@ -1236,6 +1244,10 @@ i.fas.fa-bell.fa-2xl {
 }
 
 @media screen and (max-width: 767px) {
+
+    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
+        margin-bottom: -2px !important;
+    }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
@@ -1585,6 +1597,10 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 280px) {
 
+    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
+        margin-bottom: -2px !important;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
         padding:
             0px 0px 0px 20px;
@@ -1645,6 +1661,11 @@ i.fas.fa-bell.fa-2xl {
 @media (max-width: 360px) {}
 
 @media (max-width: 375px) {
+
+    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
+        margin-bottom: -2px !important;
+    }
+    
     .filters {
         padding-left:
             75px;
