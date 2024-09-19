@@ -79,7 +79,7 @@ var qodefQiAddonsGlobal = {
     }
 };
 </script>
-<script defer src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
+<script  src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
     id="qi-addons-for-elementor-script-js"></script>
 <script src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
 </script>
@@ -121,7 +121,7 @@ var qodefQiAddonsGlobal = {
     id="packery-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
 </script>
-<script defer src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
+<script  src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
 </script>
 <!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
 </script> -->
