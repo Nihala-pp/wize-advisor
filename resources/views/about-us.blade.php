@@ -466,7 +466,9 @@
             </div>
         </section>
     </div>
-
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="preconnect"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     <link rel='stylesheet' id='elementor-post-7317-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7317.css?ver=1720441384' media='all' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
@@ -474,6 +476,7 @@
     @include('partials.web-style')
 
     @include('partials.footer-web')
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     @include('partials.web-script')
 
 </body>
