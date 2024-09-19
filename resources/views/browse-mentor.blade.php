@@ -798,6 +798,10 @@ body {
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
+    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
+        margin-bottom: -2px !important;
+    }
+
     div.d-grid.gap-2.col-6.butto {
         padding-left:
             75px;
