@@ -477,11 +477,12 @@
     @include('partials.web-style')
 
     @include('partials.footer-web')
+
+    @include('partials.web-script')
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
         id="elementor-pro-webpack-runtime-js"></script>
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
-    @include('partials.web-script')
 
 </body>
 <style>
