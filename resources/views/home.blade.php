@@ -73,7 +73,6 @@
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-
     <style>
     .antiCls {
         visibility: hidden;
@@ -2280,7 +2279,6 @@
                 });
     </script>
 </body>
-
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
