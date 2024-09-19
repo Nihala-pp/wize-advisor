@@ -481,7 +481,7 @@
     @include('partials.footer-web')
 
     @include('partials.web-script')
-    <script src="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2" id="pro-elements-handlers-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2" id="pro-elements-handlers-js"></script>
 
     <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
