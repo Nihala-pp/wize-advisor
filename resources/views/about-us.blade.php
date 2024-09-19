@@ -485,7 +485,7 @@
 
 .elementor-7317 .elementor-element.elementor-element-f9febf9 .wpr-anim-text {
     color: #FFFFFF;
-    margin-top: -60px;
+    /* margin-top: -60px; */
 }
 
 .elementor-7317 .elementor-element.elementor-element-f9febf9 .wpr-advanced-text-suffix {
