@@ -410,7 +410,8 @@
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="https://wiseadvizor.com/be-a-mentor" style="background-color:#4285f4 !important;">
+                                        href="https://wiseadvizor.com/be-a-mentor"
+                                        style="background-color:#4285f4 !important;">
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Be a Mentor</span>
                                             <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
@@ -476,6 +477,9 @@
     @include('partials.web-style')
 
     @include('partials.footer-web')
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
+        id="elementor-pro-webpack-runtime-js"></script>
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     @include('partials.web-script')
 
