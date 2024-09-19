@@ -499,10 +499,11 @@
                                                             <p class="exp-heading"><span
                                                                     style="color: #000000"><strong>Expertise:</strong></span>
                                                             </p>
-                                                            <ul class="list-expert" style="margin-top: -15px;"> 
-                                                                  @php 
-                                                                    $expertise = \App\Models\Expertise::where('mentor_id',$mentor->id)->take(4)->get(); 
-                                                                  @endphp
+                                                            <ul class="list-expert" style="margin-top: -15px;">
+                                                                @php
+                                                                $expertise =
+                                                                \App\Models\Expertise::where('mentor_id',$mentor->id)->take(4)->get();
+                                                                @endphp
                                                                 @foreach($expertise as $expert)
                                                                 <li class="expertise">
                                                                     <span
@@ -795,8 +796,10 @@ body {
 }
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
-    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
-        margin-bottom: -2px !important;
+
+    .grid-child p {
+        margin-bottom: -5px;
+        font-size: 10px;
     }
 
     div.d-grid.gap-2.col-6.butto {
@@ -834,8 +837,9 @@ body {
 }
 
 @media screen and (max-width: 400px) and (min-width: 320px) {
-    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
-        margin-bottom: -2px !important;
+    .grid-child p {
+        margin-bottom: -5px;
+        font-size: 10px;
     }
 
     .selectpicker {
@@ -1247,8 +1251,9 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
 
-    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
-        margin-bottom: -2px !important;
+    .grid-child p {
+        margin-bottom: -5px;
+        font-size: 10px;
     }
 
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
@@ -1599,8 +1604,9 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 280px) {
 
-    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
-        margin-bottom: -2px !important;
+    .grid-child p {
+        margin-bottom: -5px;
+        font-size: 10px;
     }
 
     .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
@@ -1664,8 +1670,9 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 375px) {
 
-    .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
-        margin-bottom: -2px !important;
+    .grid-child p {
+        margin-bottom: -5px;
+        font-size: 10px;
     }
 
     .filters {
