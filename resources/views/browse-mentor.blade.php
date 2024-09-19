@@ -496,7 +496,7 @@
                                                                     itemprop="ratingValue"
                                                                     class="elementor-screen-only">5/5</span> </div>
                                                             <!-- <p><span style="color: #000000">ewfrefregfrtghty</span></p> -->
-                                                            <p class="exp-heading"><span
+                                                            <p class="exp-heading" style="padding-bottom:5px;"><span
                                                                     style="color: #000000"><strong>Expertise:</strong></span>
                                                             </p>
                                                             <ul class="list-expert">
