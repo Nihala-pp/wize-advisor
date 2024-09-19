@@ -468,7 +468,7 @@
                                                             <p><span style="color:#000000;font-size:12px!important;"><abbr
                                                                         title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>,
                                                                     {{ $mentor->metaData->company }}</span><br /> <span
-                                                                    style="font-size:10px;color: #000000">
+                                                                    style="font-size:12px!important;color: #000000">
                                                                     @php
                                                                     $totalReviews =
                                                                     \App\Models\Review::where('mentor_id',
