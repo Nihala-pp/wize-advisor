@@ -143,7 +143,7 @@
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="mailto:?subject=Contact us&amp;body= Have a query">
+                                        href="mailto:?subject=Contact us&amp;body= Have a query" style="background-color:#4285f4 !important;">
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Contact</span>
 
@@ -189,7 +189,7 @@
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="https://wiseadvizor.com/be-a-mentor">
+                                        href="https://wiseadvizor.com/be-a-mentor" style="background-color:#4285f4 !important;">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Be a Mentor</span>
@@ -246,7 +246,7 @@
 
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="mailto:?subject=Send proposal&amp;body= Have a query">
+                                        href="mailto:?subject=Send proposal&amp;body= Have a query" style="background-color:#4285f4 !important;">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Send proposal</span>
@@ -288,7 +288,7 @@
 
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="https://wiseadvizor.com/registration">
+                                        href="https://wiseadvizor.com/registration" style="background-color:#4285f4 !important;">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Get started</span>
