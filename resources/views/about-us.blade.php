@@ -488,6 +488,13 @@
 
 </body>
 <style>
+.elementor-carousel-image {
+    background: no-repeat 50%;
+    background-size: contain;
+    height: 100%;
+    position: relative;
+}
+
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
 .elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000;
@@ -886,4 +893,5 @@ margin-bottom: 10px;
     } */
 }
 </style>
+
 </html>
