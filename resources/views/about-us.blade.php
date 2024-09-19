@@ -467,9 +467,9 @@
             </div>
         </section>
     </div>
-    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <!-- <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="preconnect"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"> -->
     <link rel='stylesheet' id='elementor-post-7317-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7317.css?ver=1720441384' media='all' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
@@ -479,9 +479,9 @@
     @include('partials.footer-web')
 
     @include('partials.web-script')
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
-        id="elementor-pro-webpack-runtime-js"></script>
+        id="elementor-pro-webpack-runtime-js"></script> -->
     <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/carousel.9b02b45d7826c1c48f33.bundle.min.js">
     </script>
@@ -886,5 +886,4 @@ margin-bottom: 10px;
     } */
 }
 </style>
-
 </html>
