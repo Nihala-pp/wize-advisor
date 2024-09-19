@@ -685,6 +685,14 @@
 
 </html>
 <style>
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b,
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b i,
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
+.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
+    font-family: "Sailec", Sans-serif;
+    margin-top: 0px;
+}
+
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
 .elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000;
