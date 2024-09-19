@@ -410,7 +410,7 @@
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="https://wiseadvizor.com/be-a-mentor" style="background-color:#4285f4;">
+                                        href="https://wiseadvizor.com/be-a-mentor" style="background-color:#4285f4 !important;">
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Be a Mentor</span>
                                             <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
