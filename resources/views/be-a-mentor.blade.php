@@ -690,15 +690,7 @@
 .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
 .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
     font-family: "Sailec", Sans-serif;
-    margin-top: 0px;
-}
-
-.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b,
-.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b i,
-.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text,
-.elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-highlighted-text {
-    font-family: "Sailec", Sans-serif;
-    margin-top: 0px;
+    margin-top: 0px !important;
 }
 
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
