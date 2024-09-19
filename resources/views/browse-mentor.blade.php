@@ -499,7 +499,7 @@
                                                             <p class="exp-heading"><span
                                                                     style="color: #000000"><strong>Expertise:</strong></span>
                                                             </p>
-                                                            <ul class="list-expert" style="margin-top: -15px;">
+                                                            <ul class="list-expert">
                                                                 @php
                                                                 $expertise =
                                                                 \App\Models\Expertise::where('mentor_id',$mentor->id)->take(4)->get();
