@@ -329,7 +329,7 @@
                             data-widget_type="media-carousel.default">
                             <div class="elementor-widget-container">
                                 <link rel="stylesheet"
-                                    href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">
+                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">
                                 <div class="elementor-swiper">
                                     <div class="elementor-main-swiper swiper-container">
                                         <div class="swiper-wrapper">
