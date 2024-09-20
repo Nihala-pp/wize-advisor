@@ -55,7 +55,6 @@
 
                                 <h1 class="wpr-advanced-text">
 
-
                                     <span class="wpr-advanced-text-preffix">How <br></span>
 
                                     <span class="wpr-anim-text wpr-anim-text-type-typing wpr-anim-text-letters"
@@ -329,35 +328,27 @@
                             data-widget_type="media-carousel.default">
                             <!-- <div class="elementor-widget-container"> -->
                             <!-- <div class="customer-logos slider"> -->
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp">
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp">
                             </div>
-                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp"></div>
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp"></div>
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp">
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp">
                             </div>
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp">
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp">
                             </div>
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp">
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp">
                             </div>
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp">
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp">
                             </div>
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp">
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp">
                             </div>
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp">
                             </div>
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp">
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp">
                             </div>
-                            <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp">
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
+                            </div>
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp">
+                            </div>
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp">
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
@@ -432,7 +423,7 @@
 
     @include('partials.footer-web')
     @include('partials.web-script')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
     <script>
@@ -985,5 +976,4 @@ h2 {
     display: none;
 }
 </style>
-
 </html>
