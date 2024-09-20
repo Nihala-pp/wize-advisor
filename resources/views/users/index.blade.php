@@ -1893,7 +1893,6 @@ i.fas.fa-bell.fa-2xl {
         $('#shareWithTwitter').click(function() {
             url = "https://twitter.com/intent/tweet?url=" + copiedLink + "&text=" + formattedBody;
             window.open(url);
-            // window.open("https://x.com/intent/post?text=" + formattedBody + copiedLink);
         });
 
         $('#shareWithFb').click(function() {
@@ -1902,7 +1901,8 @@ i.fas.fa-bell.fa-2xl {
         });
 
         $('#shareWithMail').click(function() {
-            var mailToLink = "mailto:?subject= " + encodeURIComponent(formattedBody);
+            var message ="Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now!");
+            var mailToLink = "mailto:?subject= " + message + user;
             window.location.href = mailToLink;
         });
 
