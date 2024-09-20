@@ -1882,17 +1882,19 @@ i.fas.fa-bell.fa-2xl {
 </script>
 <script type="text/javascript">
 (function($) {
-
     $(document).ready(function() {
         var copiedLink = document.getElementById("referral_link").value;
         var user = "{{ $email }}";
+        var formattedBody =
+            "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now! ";
 
         $('#shareWithTwitter').click(function() {
-            window.open("https://twitter.com/intent/tweet?url=" + copiedLink);
+            window.open("https://twitter.com/intent/tweet?url=" + formattedBody + copiedLink);
         });
 
         $('#shareWithFb').click(function() {
-            window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink,
+            window.open("https://www.facebook.com/sharer/sharer.php?u=" + formattedBody +
+                copiedLink,
                 'facebook-share-dialog', "width=626, height=436");
         });
 
@@ -1901,14 +1903,13 @@ i.fas.fa-bell.fa-2xl {
         // });
 
         $('#shareWithMail').click(function() {
-            var formattedBody =
-                "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now! " + (<a href='copiedLink'> + copiedLink + </a>);
             var mailToLink = "mailto:?subject= " + encodeURIComponent(formattedBody);
-            window.location.href = mailToLink;
+            window
+                .location.href = mailToLink;
         });
 
         $('#shareWithLinkedin').click(function() {
-            var win = window.open('https://api.whatsapp.com/send?text=' + copiedLink, '_blank');
+            var win = window.open('https://api.whatsapp.com/send?text=' + formattedBody + copiedLink, '_blank');
             win.focus();
         });
     });
