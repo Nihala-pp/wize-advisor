@@ -1310,9 +1310,9 @@ i.fas.fa-bell.fa-2xl {
         font-size: 11px;
     }
 
-    .grid-child p {
+    /* .grid-child p {
         font-size: 10px;
-    }
+    } */
 
     .expertise {
         font-size: 10px !important;
