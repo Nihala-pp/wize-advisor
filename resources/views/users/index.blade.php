@@ -1312,26 +1312,26 @@
                                                 </style>
                                                 <div class="elementor-social-icons-wrapper elementor-grid">
                                                     <span class="elementor-grid-item">
-                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-9df531e"
-                                                            href="https://www.facebook.com/people/WiseAdvizor/100092527332364/">
+                                                        <a id="shareWithFb"
+                                                            class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-9df531e">
                                                             <span class="elementor-screen-only">Facebook-f</span>
                                                             <i class="fab fa-facebook-f"></i> </a>
                                                     </span>
                                                     <span class="elementor-grid-item">
-                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-e455e88"
-                                                            href="https://x.com/WiseAdvizor">
+                                                        <a id="shareWithTwitter"
+                                                            class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-e455e88">
                                                             <span class="elementor-screen-only">Twitter</span>
                                                             <i class="fab fa-twitter"></i> </a>
                                                     </span>
                                                     <span class="elementor-grid-item">
-                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-f787bb6"
-                                                            href="https://www.linkedin.com/company/wiseadvizor/posts/?feedView=all">
+                                                        <a id="shareWithLinkedin"
+                                                            class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-f787bb6">
                                                             <span class="elementor-screen-only">Linkedin</span>
                                                             <i class="fab fa-linkedin"></i> </a>
                                                     </span>
                                                     <span class="elementor-grid-item">
-                                                        <a class="elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-repeater-item-4034cea"
-                                                            target="_blank" href="mailto:info@wiseadvizor.com">
+                                                        <a id="shareWithMail"
+                                                            class="elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-repeater-item-4034cea">
                                                             <span class="elementor-screen-only">Envelope</span>
                                                             <i class="fas fa-envelope"></i> </a>
                                                     </span>
@@ -1879,4 +1879,34 @@ i.fas.fa-bell.fa-2xl {
         });
     });
 }(jQuery));
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+    var copiedLink = document.getElementById("referral_link").value;
+
+    $('#shareWithTwitter').click(function() {
+        window.open("https://twitter.com/intent/tweet?url=" + copiedLink);
+    });
+
+    $('#shareWithFb').click(function() {
+        window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink,
+            'facebook-share-dialog', "width=626, height=436");
+    });
+
+    // $('#shareWithFb').click(function () {
+    //     window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink, 'facebook-share-dialog', "width=626, height=436");
+    // });
+
+    $('#shareWithMail').click(function() {
+        var formattedBody = "This is cause link: " + (copiedLink);
+        var mailToLink = "mailto:?subject= " + user + " wants you to donate to this noble cause&body=" +
+            encodeURIComponent(formattedBody);
+        window.location.href = mailToLink;
+    });
+
+    $('#shareWithLinkedin').click(function() {
+        var win = window.open('https://api.whatsapp.com/send?text=' + copiedLink, '_blank');
+        win.focus();
+    });
+});
 </script>
