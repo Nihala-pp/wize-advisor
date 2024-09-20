@@ -1889,13 +1889,13 @@ i.fas.fa-bell.fa-2xl {
             "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now! ";
 
         $('#shareWithTwitter').click(function() {
-            window.open("https://x.com/intent/post?text="+formattedBody+copiedLink);
+            url = "https://twitter.com/intent/tweet?url=" + copiedLink + "&text=" + formattedBody;
+            socialWindow(url);
+            // window.open("https://x.com/intent/post?text=" + formattedBody + copiedLink);
         });
 
         $('#shareWithFb').click(function() {
-            window.open("https://www.facebook.com/sharer/sharer.php?u=" + formattedBody +
-                copiedLink,
-                'facebook-share-dialog', "width=626, height=436");
+            window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink, 'facebook-share-dialog', "width=626, height=436");
         });
 
         // $('#shareWithFb').click(function () {
@@ -1909,7 +1909,8 @@ i.fas.fa-bell.fa-2xl {
         });
 
         $('#shareWithLinkedin').click(function() {
-            var win = window.open('https://api.whatsapp.com/send?text=' + formattedBody + copiedLink, '_blank');
+            var win = window.open('https://api.whatsapp.com/send?text=' + formattedBody +
+                copiedLink, '_blank');
             win.focus();
         });
     });
