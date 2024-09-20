@@ -1897,8 +1897,7 @@ i.fas.fa-bell.fa-2xl {
         });
 
         $('#shareWithFb').click(function() {
-            window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink + "&t"= + formattedBody,
-                'facebook-share-dialog', "width=626, height=436");
+            window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink + "&t"= + formattedBody, 'facebook-share-dialog', "width=626, height=436");
         });
 
         // $('#shareWithFb').click(function () {
