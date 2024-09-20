@@ -471,69 +471,66 @@
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/carousel.9b02b45d7826c1c48f33.bundle.min.js">
     </script>
     <script>
-    (function($) {
-        $(function() {
-            var slider = $(".slider").flickity({
-                imagesLoaded: true,
-                percentPosition: false,
-                initialIndex: 1,
-                cellAlign: "center",
-                contain: true,
-                wrapAround: false,
-                lazyLoad: false,
-                pageDots: false,
-                groupCells: 1,
-                selectedAttraction: 0.2,
-                friction: 0.8,
-                draggable: true,
-                prevNextButtons: false
-            });
+    $(function() {
+        var slider = $(".slider").flickity({
+            imagesLoaded: true,
+            percentPosition: false,
+            initialIndex: 1,
+            cellAlign: "center",
+            contain: true,
+            wrapAround: false,
+            lazyLoad: false,
+            pageDots: false,
+            groupCells: 1,
+            selectedAttraction: 0.2,
+            friction: 0.8,
+            draggable: true,
+            prevNextButtons: false
+        });
 
-            //enable clicking on cards
-            slider.on("staticClick.flickity", function(
-                event,
-                pointer,
-                cellElement,
-                cellIndex
-            ) {
-                if (typeof cellIndex == "number") {
-                    slider.flickity("selectCell", cellIndex);
-                }
-            });
+        //enable clicking on cards
+        slider.on("staticClick.flickity", function(
+            event,
+            pointer,
+            cellElement,
+            cellIndex
+        ) {
+            if (typeof cellIndex == "number") {
+                slider.flickity("selectCell", cellIndex);
+            }
+        });
 
-            var flkty = slider.data("flickity");
+        var flkty = slider.data("flickity");
+        flkty.resize();
+        flkty.reposition();
+
+        flkty.on("settle", () => {
             flkty.resize();
             flkty.reposition();
-
-            flkty.on("settle", () => {
-                flkty.resize();
-                flkty.reposition();
-            });
-
-            $(".previous").on("click", function() {
-                $(".slider").flickity("previous");
-            });
-
-            $(".next").on("click", function() {
-                $(".slider").flickity("next");
-            });
-
-            function updateContent() {
-                var i = flkty.selectedIndex;
-                if (i != 0 || i != 4) {
-                    $(".paper1").removeClass("invisible");
-                    $(".paper2").removeClass("invisible");
-                } else if (i == 0) {
-                    $(".paper1").addClass("invisible");
-                } else if (i == 4) {
-                    $(".paper2").addClass("invisible");
-                }
-            }
-            updateContent();
-            slider.on("change.flickity", updateContent);
         });
-    })(jQuery);
 
+        $(".previous").on("click", function() {
+            $(".slider").flickity("previous");
+        });
+
+        $(".next").on("click", function() {
+            $(".slider").flickity("next");
+        });
+
+        function updateContent() {
+            var i = flkty.selectedIndex;
+            if (i != 0 || i != 4) {
+                $(".paper1").removeClass("invisible");
+                $(".paper2").removeClass("invisible");
+            } else if (i == 0) {
+                $(".paper1").addClass("invisible");
+            } else if (i == 4) {
+                $(".paper2").addClass("invisible");
+            }
+        }
+        updateContent();
+        slider.on("change.flickity", updateContent);
+    });
     var faPrev = {
         prefix: "fac",
         iconName: "prev",
