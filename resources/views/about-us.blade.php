@@ -328,152 +328,22 @@
                             data-settings="{&quot;skin&quot;:&quot;carousel&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}"
                             data-widget_type="media-carousel.default">
                             <div class="elementor-widget-container">
-                                <link rel="stylesheet"
-                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/widget-carousel.min.css">
-                                <div class="elementor-swiper">
-                                    <div class="elementor-main-swiper swiper-container">
-                                        <div class="swiper-wrapper">
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp)"
-                                                    alt="Startup Mentor">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp)"
-                                                    alt="manufacturing">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp)"
-                                                    alt="Business Coach">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp)"
-                                                    alt="Content Strategist">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp)"
-                                                    alt="Investment Partner">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp)"
-                                                    alt="product marketer">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp)"
-                                                    alt="marketing strategist">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp)"
-                                                    alt="business strategist">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp)"
-                                                    alt="IOT">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp)"
-                                                    alt="pricing strategy">
-                                                </div>
-                                            </div>
-                                            <div class="swiper-slide">
-                                                <div class="elementor-carousel-image"
-                                                    style="background-image: url(https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp)"
-                                                    alt="digital marketing strategist">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-pagination"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <h1 class="title">Kyoto Highlights</h1>
-
-                        <div class="overflow">
-                            <button class="button previous"><i class="fac fa-prev"></i></button>
-                            <div class="strip_of paper1"></div>
-
-                            <div class="carousel">
-                                <div class="slider">
-
-                                    <div class="card">
-                                        <div class="card-bg"
-                                            style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Sannenzaka.jpg);">
-                                            <a class="location"
-                                                href="https://unsplash.com/photos/Xq1ntWruZQI">Sannenzaka</a>
+                                <!-- <h1 class="title">Kyoto Highlights</h1> -->
+                                <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
+                                    data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="wpr-button-wrap elementor-clearfix">
+                                            <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                                href="https://wiseadvizor.com/be-a-mentor"
+                                                style="background-color:#4285f4 !important;">
+                                                <span class="wpr-button-content">
+                                                    <span class="wpr-button-text">Be a Mentor</span>
+                                                    <span class="wpr-button-icon"><i
+                                                            class="fas fa-angle-right"></i></span>
+                                                </span>
+                                            </a>
                                         </div>
                                     </div>
-
-                                    <div class="card">
-                                        <div class="card-bg"
-                                            style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Ishiyama-dera.jpg);">
-                                            <a class="location"
-                                                href="https://unsplash.com/photos/7IO8Uei5TzA">Ishiyama-dera</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="card">
-                                        <div class="card-bg"
-                                            style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Fushimi%20Inari.jpg);">
-                                            <a class="location" href="https://unsplash.com/photos/x-8JcrlWmhM">Fushimi
-                                                Inari</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="card">
-                                        <div class="card-bg"
-                                            style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Downtown.jpg);">
-                                            <a class="location"
-                                                href="https://unsplash.com/photos/o7A3FM8txAE">Downtown</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="card">
-                                        <div class="card-bg nono"
-                                            style="background-image: url(https://cdn.dribbble.com/users/13441/screenshots/10441809/media/346c4c9073be5d94887f2db0a6cf3f4f.png);">
-                                            <a class="location"
-                                                href="https://dribbble.com/shots/13869975-Kyoto-Highlights-Slideshow-Component">Nono
-                                                Umasi - Concept Creator</a>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <div class="strip_of paper2"></div>
-                            <button class="button next"><i class="fac fa-next"></i></button>
-                        </div>
-
-                        <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
-                            data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
-                            <div class="elementor-widget-container">
-                                <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="https://wiseadvizor.com/be-a-mentor"
-                                        style="background-color:#4285f4 !important;">
-                                        <span class="wpr-button-content">
-                                            <span class="wpr-button-text">Be a Mentor</span>
-                                            <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
-                                        </span>
-                                    </a>
                                 </div>
                             </div>
                         </div>
