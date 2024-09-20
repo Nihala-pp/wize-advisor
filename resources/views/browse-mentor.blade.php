@@ -519,7 +519,7 @@
                                                         <div class="elementor-widget-container">
                                                             <!-- <p>&nbsp </p> -->
                                                             <p class="bio" style="float:left;"><span
-                                                                    style="color: #000000">
+                                                                    style="color: #000000;font-size:12px;">
                                                                     {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
                                                             </p>
                                                             <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
