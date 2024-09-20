@@ -1886,7 +1886,9 @@ i.fas.fa-bell.fa-2xl {
         var copiedLink = encodeURIComponent(document.getElementById("referral_link").value);
         var user = "{{ $email }}";
         var formattedBody =
-            encodeURIComponent("Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now!");
+            encodeURIComponent(
+                "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now!"
+                );
 
         $('#shareWithTwitter').click(function() {
             url = "https://twitter.com/intent/tweet?url=" + copiedLink + "&text=" + formattedBody;
@@ -1895,7 +1897,8 @@ i.fas.fa-bell.fa-2xl {
         });
 
         $('#shareWithFb').click(function() {
-            window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink, 'facebook-share-dialog', "width=626, height=436");
+            window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink,
+                'facebook-share-dialog', "width=626, height=436");
         });
 
         // $('#shareWithFb').click(function () {
@@ -1904,14 +1907,14 @@ i.fas.fa-bell.fa-2xl {
 
         $('#shareWithMail').click(function() {
             var mailToLink = "mailto:?subject= " + encodeURIComponent(formattedBody);
-            window
-                .location.href = mailToLink;
+            window.location.href = mailToLink;
         });
 
         $('#shareWithLinkedin').click(function() {
-            var win = window.open('https://api.whatsapp.com/send?text=' + formattedBody +
-                copiedLink, '_blank');
-            win.focus();
+            var url = "https://www.linkedin.com/shareArticle?mini=true&url=" + copiedLink;
+            // var win = window.open('https://api.whatsapp.com/send?text=' + formattedBody +
+            //     copiedLink, '_blank');
+            window.open(url);
         });
     });
 }(jQuery));
