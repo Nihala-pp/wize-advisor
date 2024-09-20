@@ -1902,7 +1902,7 @@ i.fas.fa-bell.fa-2xl {
 
         $('#shareWithMail').click(function() {
             var formattedBody =
-                "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now! " + ('<a href="copiedLink">' + copiedLink + '</a>');
+                "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now! " + (<a href='copiedLink'> + copiedLink + </a>);
             var mailToLink = "mailto:?subject= " + encodeURIComponent(formattedBody);
             window.location.href = mailToLink;
         });
