@@ -328,46 +328,47 @@
                             data-settings="{&quot;skin&quot;:&quot;carousel&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}"
                             data-widget_type="media-carousel.default">
                             <!-- <div class="elementor-widget-container"> -->
-                                <!-- <div class="customer-logos slider"> -->
-                                    <div class="slide"><img
-                                            src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg">
-                                    </div>
-                                    <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
-                                    <div class="slide"><img
-                                            src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
-                                    <div class="slide"><img
-                                            src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg">
-                                    </div>
-                                    <div class="slide"><img
-                                            src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg">
-                                    </div>
-                                    <div class="slide"><img
-                                            src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg">
-                                    </div>
-                                    <div class="slide"><img
-                                            src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg">
-                                    </div>
-                                    <div class="slide"><img
-                                            src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg">
-                                    </div>
-                                    <div class="slide"><img
-                                            src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg">
-                                    </div>
-                                <!-- </div> -->
+                            <!-- <div class="customer-logos slider"> -->
+                            <div class="slide"><img
+                                    src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg">
+                            </div>
+                            <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
+                            <div class="slide"><img
+                                    src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+                            <div class="slide"><img
+                                    src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg">
+                            </div>
+                            <div class="slide"><img
+                                    src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg">
+                            </div>
+                            <div class="slide"><img
+                                    src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg">
+                            </div>
+                            <div class="slide"><img
+                                    src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg">
+                            </div>
+                            <div class="slide"><img
+                                    src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg">
+                            </div>
+                            <div class="slide"><img
+                                    src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg">
+                            </div>
                             <!-- </div> -->
-                            <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
-                                data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
-                                <div class="elementor-widget-container">
-                                    <div class="wpr-button-wrap elementor-clearfix">
-                                        <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                            href="https://wiseadvizor.com/be-a-mentor"
-                                            style="background-color:#4285f4 !important;">
-                                            <span class="wpr-button-content">
-                                                <span class="wpr-button-text">Be a Mentor</span>
-                                                <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
-                                            </span>
-                                        </a>
-                                    </div>
+                            <!-- </div> -->
+
+                        </div>
+                        <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
+                            data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
+                            <div class="elementor-widget-container">
+                                <div class="wpr-button-wrap elementor-clearfix">
+                                    <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                        href="https://wiseadvizor.com/be-a-mentor"
+                                        style="background-color:#4285f4 !important;">
+                                        <span class="wpr-button-content">
+                                            <span class="wpr-button-text">Be a Mentor</span>
+                                            <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
