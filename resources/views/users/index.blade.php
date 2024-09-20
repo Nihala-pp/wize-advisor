@@ -1898,15 +1898,8 @@ i.fas.fa-bell.fa-2xl {
 
         $('#shareWithFb').click(function() {
             var url ="https://www.facebook.com/sharer/sharer.php?u=" + copiedLink + "&t=" + formattedBody;
-            // window.open(url, '',
-            //     'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=436,width=626');
-            // return false;
             window.open(url, 'facebook-share-dialog', "width=626, height=436");
         });
-
-        // $('#shareWithFb').click(function () {
-        //     window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink, 'facebook-share-dialog', "width=626, height=436");
-        // });
 
         $('#shareWithMail').click(function() {
             var mailToLink = "mailto:?subject= " + encodeURIComponent(formattedBody);
@@ -1914,9 +1907,7 @@ i.fas.fa-bell.fa-2xl {
         });
 
         $('#shareWithLinkedin').click(function() {
-            var url = "https://www.linkedin.com/shareArticle?mini=true&url=" + copiedLink;
-            // var win = window.open('https://api.whatsapp.com/send?text=' + formattedBody +
-            //     copiedLink, '_blank');
+            var url = "https://www.linkedin.com/shareArticle?mini=true&url=" + copiedLink;23
             window.open(url);
         });
     });
