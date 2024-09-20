@@ -354,7 +354,7 @@
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
                             </div>
                             <div class="slide"><img
-                                    src=https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp">
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp">
                             </div>
                             <div class="slide"><img
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp">
