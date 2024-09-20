@@ -354,20 +354,19 @@
                                             src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg">
                                     </div>
                                 </div>
-                                <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
-                                    data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
-                                    <div class="elementor-widget-container">
-                                        <div class="wpr-button-wrap elementor-clearfix">
-                                            <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                                href="https://wiseadvizor.com/be-a-mentor"
-                                                style="background-color:#4285f4 !important;">
-                                                <span class="wpr-button-content">
-                                                    <span class="wpr-button-text">Be a Mentor</span>
-                                                    <span class="wpr-button-icon"><i
-                                                            class="fas fa-angle-right"></i></span>
-                                                </span>
-                                            </a>
-                                        </div>
+                            </div>
+                            <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
+                                data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
+                                <div class="elementor-widget-container">
+                                    <div class="wpr-button-wrap elementor-clearfix">
+                                        <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
+                                            href="https://wiseadvizor.com/be-a-mentor"
+                                            style="background-color:#4285f4 !important;">
+                                            <span class="wpr-button-content">
+                                                <span class="wpr-button-text">Be a Mentor</span>
+                                                <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
+                                            </span>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -375,49 +374,48 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section
-            class="elementor-section elementor-top-section elementor-element elementor-element-5f55630d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="5f55630d0" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-11b3c8ce"
-                    data-id="11b3c8ce" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-6575132 elementor-widget elementor-widget-heading"
-                            data-id="6575132" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <h2 class="elementor-heading-title elementor-size-default">Let's get social</h2>
-                            </div>
+    </div>
+    </section>
+    <section
+        class="elementor-section elementor-top-section elementor-element elementor-element-5f55630d0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+        data-id="5f55630d0" data-element_type="section"
+        data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+        <div class="elementor-container elementor-column-gap-default">
+            <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-11b3c8ce"
+                data-id="11b3c8ce" data-element_type="column">
+                <div class="elementor-widget-wrap elementor-element-populated">
+                    <div class="elementor-element elementor-element-6575132 elementor-widget elementor-widget-heading"
+                        data-id="6575132" data-element_type="widget" data-widget_type="heading.default">
+                        <div class="elementor-widget-container">
+                            <h2 class="elementor-heading-title elementor-size-default">Let's get social</h2>
                         </div>
-                        <div class="elementor-element elementor-element-117d7497 elementor-grid-0 elementor-widget elementor-widget-wpr-sharing-buttons"
-                            data-id="117d7497" data-element_type="widget"
-                            data-widget_type="wpr-sharing-buttons.default">
-                            <div class="elementor-widget-container">
-                                <div
-                                    class="wpr-sharing-buttons elementor-grid wpr-sharing-official wpr-sharing-label-off wpr-sharing-icon-tr wpr-sharing-label-tr">
-                                    <div class="elementor-grid-item"><a
-                                            href="https://www.facebook.com/people/WiseAdvizor/100092527332364/"
-                                            class="wpr-sharing-icon wpr-sharing-facebook-f" title="" target="_blank"><i
-                                                class="fab fa-facebook-f"></i></a></div>
-                                    <div class="elementor-grid-item"><a href="https://x.com/WiseAdvizor"
-                                            class="wpr-sharing-icon wpr-sharing-twitter" title="" target="_blank"><i
-                                                class="fab fa-twitter"></i></a></div>
-                                    <div class="elementor-grid-item"><a
-                                            href="mailto:?subject=About us&body=https://wiseadvizor.com/elementor-7317/"
-                                            class="wpr-sharing-icon wpr-sharing-envelope" title="" target="_blank"><i
-                                                class="fas fa-envelope"></i></a></div>
-                                    <div class="elementor-grid-item"><a
-                                            href="https://www.linkedin.com/company/wiseadvizor/"
-                                            class="wpr-sharing-icon wpr-sharing-linkedin-in" title="" target="_blank"><i
-                                                class="fab fa-linkedin-in"></i></a></div>
-                                </div>
+                    </div>
+                    <div class="elementor-element elementor-element-117d7497 elementor-grid-0 elementor-widget elementor-widget-wpr-sharing-buttons"
+                        data-id="117d7497" data-element_type="widget" data-widget_type="wpr-sharing-buttons.default">
+                        <div class="elementor-widget-container">
+                            <div
+                                class="wpr-sharing-buttons elementor-grid wpr-sharing-official wpr-sharing-label-off wpr-sharing-icon-tr wpr-sharing-label-tr">
+                                <div class="elementor-grid-item"><a
+                                        href="https://www.facebook.com/people/WiseAdvizor/100092527332364/"
+                                        class="wpr-sharing-icon wpr-sharing-facebook-f" title="" target="_blank"><i
+                                            class="fab fa-facebook-f"></i></a></div>
+                                <div class="elementor-grid-item"><a href="https://x.com/WiseAdvizor"
+                                        class="wpr-sharing-icon wpr-sharing-twitter" title="" target="_blank"><i
+                                            class="fab fa-twitter"></i></a></div>
+                                <div class="elementor-grid-item"><a
+                                        href="mailto:?subject=About us&body=https://wiseadvizor.com/elementor-7317/"
+                                        class="wpr-sharing-icon wpr-sharing-envelope" title="" target="_blank"><i
+                                            class="fas fa-envelope"></i></a></div>
+                                <div class="elementor-grid-item"><a href="https://www.linkedin.com/company/wiseadvizor/"
+                                        class="wpr-sharing-icon wpr-sharing-linkedin-in" title="" target="_blank"><i
+                                            class="fab fa-linkedin-in"></i></a></div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
     </div>
     <!-- <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="preconnect"
