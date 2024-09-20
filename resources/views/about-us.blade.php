@@ -330,29 +330,38 @@
                             <!-- <div class="elementor-widget-container"> -->
                             <!-- <div class="customer-logos slider"> -->
                             <div class="slide"><img
-                                    src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg">
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp">
                             </div>
-                            <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
+                            <div class="slide"><img src="https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp"></div>
                             <div class="slide"><img
-                                    src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp"></div>
                             <div class="slide"><img
-                                    src="https://image.freepik.com/free-vector/blue-tech-logo_1103-822.jpg">
-                            </div>
-                            <div class="slide"><img
-                                    src="https://image.freepik.com/free-vector/colors-curl-logo-template_23-2147536125.jpg">
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp">
                             </div>
                             <div class="slide"><img
-                                    src="https://image.freepik.com/free-vector/abstract-cross-logo_23-2147536124.jpg">
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp">
                             </div>
                             <div class="slide"><img
-                                    src="https://image.freepik.com/free-vector/football-logo-background_1195-244.jpg">
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp">
                             </div>
                             <div class="slide"><img
-                                    src="https://image.freepik.com/free-vector/background-of-spots-halftone_1035-3847.jpg">
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp">
                             </div>
                             <div class="slide"><img
-                                    src="https://image.freepik.com/free-vector/retro-label-on-rustic-background_82147503374.jpg">
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp">
                             </div>
+                            <div class="slide"><img
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
+                            </div>
+                            <div class="slide"><img
+                                    src=https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp">
+                            </div>
+                            <div class="slide"><img
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp">
+                            </div>
+                            <!-- <div class="slide"><img
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
+                            </div> -->
                             <!-- </div> -->
                             <!-- </div> -->
 
