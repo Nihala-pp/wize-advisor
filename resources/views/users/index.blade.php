@@ -1319,7 +1319,7 @@
                                                     </span>
                                                     <span class="elementor-grid-item">
                                                         <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-repeater-item-e455e88"
-                                                            href="#">
+                                                            href="https://x.com/WiseAdvizor">
                                                             <span class="elementor-screen-only">Twitter</span>
                                                             <i class="fab fa-twitter"></i> </a>
                                                     </span>

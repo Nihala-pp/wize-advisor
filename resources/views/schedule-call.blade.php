@@ -34,9 +34,9 @@
         color: #fff !important;
     }
     </style>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js" async>
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.7.1" id="jquery-migrate-js">
+    <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.7.1" id="jquery-migrate-js">
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/schedule-call/{{ $mentor->id }}/{{ $mentor->name }}">
     <meta name="generator"
