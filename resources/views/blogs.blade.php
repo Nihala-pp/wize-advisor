@@ -864,7 +864,7 @@ i.fas.fa-chevron-down {
         font-family: "Helvetica", Sans-serif;
         font-size: 30px !important;
         font-weight: 600;
-        margin-left: 70px !important;
+        margin-left: 80px !important;
     }
 
     .elementor-button.elementor-size-xs {
