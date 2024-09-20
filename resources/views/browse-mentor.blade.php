@@ -519,7 +519,7 @@
                                                         <div class="elementor-widget-container">
                                                             <!-- <p>&nbsp </p> -->
                                                             <p class="bio" style="float:left;"><span
-                                                                    style="color: #000000;font-size:14px !important;">
+                                                                    style="color: #000000;">
                                                                     {{ $mentor->metaData ? $mentor->metaData->bio_1 : '' }}</span>
                                                             </p>
                                                             <div class="elementor-element elementor-element-a92b341 elementor-widget elementor-widget-heading"
@@ -1298,7 +1298,7 @@ i.fas.fa-bell.fa-2xl {
 
     .bio {
         margin-top: 5px;
-        font-size: 14px;
+        font-size: 13px;
         padding-top: 0px;
     }
 
