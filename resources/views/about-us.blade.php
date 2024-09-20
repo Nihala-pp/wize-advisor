@@ -405,6 +405,63 @@
                                 </div>
                             </div>
                         </div>
+                        <h1 class="title">Kyoto Highlights</h1>
+
+                        <div class="overflow">
+                            <button class="button previous"><i class="fac fa-prev"></i></button>
+                            <div class="strip_of paper1"></div>
+
+                            <div class="carousel">
+                                <div class="slider">
+
+                                    <div class="card">
+                                        <div class="card-bg"
+                                            style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Sannenzaka.jpg);">
+                                            <a class="location"
+                                                href="https://unsplash.com/photos/Xq1ntWruZQI">Sannenzaka</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-bg"
+                                            style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Ishiyama-dera.jpg);">
+                                            <a class="location"
+                                                href="https://unsplash.com/photos/7IO8Uei5TzA">Ishiyama-dera</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-bg"
+                                            style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Fushimi%20Inari.jpg);">
+                                            <a class="location" href="https://unsplash.com/photos/x-8JcrlWmhM">Fushimi
+                                                Inari</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-bg"
+                                            style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Downtown.jpg);">
+                                            <a class="location"
+                                                href="https://unsplash.com/photos/o7A3FM8txAE">Downtown</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="card">
+                                        <div class="card-bg nono"
+                                            style="background-image: url(https://cdn.dribbble.com/users/13441/screenshots/10441809/media/346c4c9073be5d94887f2db0a6cf3f4f.png);">
+                                            <a class="location"
+                                                href="https://dribbble.com/shots/13869975-Kyoto-Highlights-Slideshow-Component">Nono
+                                                Umasi - Concept Creator</a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="strip_of paper2"></div>
+                            <button class="button next"><i class="fac fa-next"></i></button>
+                        </div>
+
                         <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
                             data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
                             <div class="elementor-widget-container">
@@ -481,7 +538,8 @@
     @include('partials.footer-web')
 
     @include('partials.web-script')
-    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2" id="pro-elements-handlers-js"></script>
+    <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
+        id="pro-elements-handlers-js"></script>
 
     <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
@@ -896,4 +954,5 @@ margin-bottom: 10px;
     } */
 }
 </style>
+
 </html>
