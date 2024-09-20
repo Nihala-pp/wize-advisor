@@ -424,29 +424,32 @@
     @include('partials.footer-web')
     @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
-    <script>
-    $(document).ready(function() {
-        $('.customer-logos').slick({
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 1500,
-            arrows: false,
-            dots: false,
-            pauseOnHover: false,
-            responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 4
-                }
-            }, {
-                breakpoint: 520,
-                settings: {
-                    slidesToShow: 3
-                }
-            }]
+    <script type="text/javascript">
+        (function($) {
+        "use strict";
+        $(document).ready(function() {
+           $('.customer-logos').slick({
+        slidesToShow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+        breakpoint: 768,
+        settings: {
+        slidesToShow: 4
+        }
+        }, {
+        breakpoint: 520,
+        settings: {
+        slidesToShow: 3
+        }
+        }]
         });
-    });
+        });
+        }(jQuery));
     </script>
 </body>
 <style>
