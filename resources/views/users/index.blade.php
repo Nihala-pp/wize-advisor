@@ -1883,14 +1883,14 @@ i.fas.fa-bell.fa-2xl {
 <script type="text/javascript">
 (function($) {
     $(document).ready(function() {
-        var copiedLink = document.getElementById("referral_link").value;
+        var copiedLink = encodeURIComponent(document.getElementById("referral_link").value);
         var user = "{{ $email }}";
         var formattedBody =
-            "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now! ";
+            encodeURIComponent("Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now!");
 
         $('#shareWithTwitter').click(function() {
             url = "https://twitter.com/intent/tweet?url=" + copiedLink + "&text=" + formattedBody;
-            socialWindow(url);
+            window.open(url);
             // window.open("https://x.com/intent/post?text=" + formattedBody + copiedLink);
         });
 
