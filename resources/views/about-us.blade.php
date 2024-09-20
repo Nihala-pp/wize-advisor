@@ -426,7 +426,7 @@
     @include('partials.web-style')
 
     @include('partials.footer-web')
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     @include('partials.web-script')
 </body>
 <style>
