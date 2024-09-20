@@ -1298,7 +1298,7 @@ i.fas.fa-bell.fa-2xl {
 
     .bio {
         margin-top: 5px;
-        font-size: 13px;
+        font-size: 13px !important;
         padding-top: 0px;
     }
 
