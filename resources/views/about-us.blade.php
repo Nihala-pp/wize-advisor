@@ -421,7 +421,6 @@
     <link rel="icon" type="image/png" href="{{ asset(path: 'public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
     @include('partials.web-style')
-
     @include('partials.footer-web')
     @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
