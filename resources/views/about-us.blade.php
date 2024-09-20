@@ -328,58 +328,56 @@
                             data-settings="{&quot;skin&quot;:&quot;carousel&quot;,&quot;effect&quot;:&quot;slide&quot;,&quot;pagination&quot;:&quot;bullets&quot;,&quot;speed&quot;:500,&quot;autoplay&quot;:&quot;yes&quot;,&quot;autoplay_speed&quot;:5000,&quot;loop&quot;:&quot;yes&quot;,&quot;pause_on_hover&quot;:&quot;yes&quot;,&quot;pause_on_interaction&quot;:&quot;yes&quot;,&quot;space_between&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;space_between_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]}}"
                             data-widget_type="media-carousel.default">
                             <div class="elementor-widget-container">
-                                <div class="overflow">
-                                    <button class="button previous"><i class="fac fa-prev"></i></button>
-                                    <div class="strip_of paper1"></div>
-                                    <div class="carousel">
-                                        <div class="slider">
-                                            <div class="card">
-                                                <div class="card-bg"
-                                                    style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Sannenzaka.jpg);">
-                                                    <a class="location"
-                                                        href="https://unsplash.com/photos/Xq1ntWruZQI">Sannenzaka</a>
-                                                </div>
+                                <button class="button previous"><i class="fac fa-prev"></i></button>
+                                <div class="strip_of paper1"></div>
+                                <div class="carousel">
+                                    <div class="slider">
+                                        <div class="card">
+                                            <div class="card-bg"
+                                                style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Sannenzaka.jpg);">
+                                                <a class="location"
+                                                    href="https://unsplash.com/photos/Xq1ntWruZQI">Sannenzaka</a>
                                             </div>
-
-                                            <div class="card">
-                                                <div class="card-bg"
-                                                    style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Ishiyama-dera.jpg);">
-                                                    <a class="location"
-                                                        href="https://unsplash.com/photos/7IO8Uei5TzA">Ishiyama-dera</a>
-                                                </div>
-                                            </div>
-
-                                            <div class="card">
-                                                <div class="card-bg"
-                                                    style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Fushimi%20Inari.jpg);">
-                                                    <a class="location"
-                                                        href="https://unsplash.com/photos/x-8JcrlWmhM">Fushimi Inari</a>
-                                                </div>
-                                            </div>
-
-                                            <div class="card">
-                                                <div class="card-bg"
-                                                    style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Downtown.jpg);">
-                                                    <a class="location"
-                                                        href="https://unsplash.com/photos/o7A3FM8txAE">Downtown</a>
-                                                </div>
-                                            </div>
-
-                                            <div class="card">
-                                                <div class="card-bg nono"
-                                                    style="background-image: url(https://cdn.dribbble.com/users/13441/screenshots/10441809/media/346c4c9073be5d94887f2db0a6cf3f4f.png);">
-                                                    <a class="location"
-                                                        href="https://dribbble.com/shots/13869975-Kyoto-Highlights-Slideshow-Component">Nono
-                                                        Umasi - Concept Creator</a>
-                                                </div>
-                                            </div>
-
                                         </div>
-                                    </div>
 
-                                    <div class="strip_of paper2"></div>
-                                    <button class="button next"><i class="fac fa-next"></i></button>
+                                        <div class="card">
+                                            <div class="card-bg"
+                                                style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Ishiyama-dera.jpg);">
+                                                <a class="location"
+                                                    href="https://unsplash.com/photos/7IO8Uei5TzA">Ishiyama-dera</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-bg"
+                                                style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Fushimi%20Inari.jpg);">
+                                                <a class="location"
+                                                    href="https://unsplash.com/photos/x-8JcrlWmhM">Fushimi Inari</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-bg"
+                                                style="background-image: url(https://raw.githubusercontent.com/maxym11/Kyoto-Highlights/master/Downtown.jpg);">
+                                                <a class="location"
+                                                    href="https://unsplash.com/photos/o7A3FM8txAE">Downtown</a>
+                                            </div>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-bg nono"
+                                                style="background-image: url(https://cdn.dribbble.com/users/13441/screenshots/10441809/media/346c4c9073be5d94887f2db0a6cf3f4f.png);">
+                                                <a class="location"
+                                                    href="https://dribbble.com/shots/13869975-Kyoto-Highlights-Slideshow-Component">Nono
+                                                    Umasi - Concept Creator</a>
+                                            </div>
+                                        </div>
+
+                                    </div>
                                 </div>
+
+                                <div class="strip_of paper2"></div>
+                                <button class="button next"><i class="fac fa-next"></i></button>
                                 <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
                                     data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
                                     <div class="elementor-widget-container">
