@@ -797,10 +797,10 @@ body {
 
 @media screen and (max-device-width: 480px) and (min-width: 410px) {
 
-    .grid-child p {
+    /* .grid-child p {
         margin-bottom: -5px;
         font-size: 10px;
-    }
+    } */
 
     div.d-grid.gap-2.col-6.butto {
         padding-left:
