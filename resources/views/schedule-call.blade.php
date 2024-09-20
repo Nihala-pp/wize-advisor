@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <script src="https://js.stripe.com/v3/"></script>
     <meta charset="utf-8">
@@ -28,21 +29,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" async>
     <meta name="robots" content="max-image-preview:large">
     <meta name="csrf-token" content="{{ csrf_token() }}" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
+    <link rel="stylesheet" id="elementor-post-2772-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <style type="text/css">
     .current {
         background-color: #007bff !important;
         color: #fff !important;
     }
     </style>
+    @include('partials.web-style')
+
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
-    <script  src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.7.1" id="jquery-migrate-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.7.1" id="jquery-migrate-js">
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/schedule-call/{{ $mentor->id }}/{{ $mentor->name }}">
     <meta name="generator"
         content="Elementor 3.14.1; features: e_dom_optimization, e_optimized_assets_loading, e_optimized_css_loading, a11y_improvements, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-11 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-11 payment-page">
     @include('partials.header-common')
@@ -84,15 +98,16 @@
                         <input type="file" name="doc" class="form-control" id="customFile">
                         <label class="form-label" style="color:black;">Discount Code</label>
                         @php
-                         if(!empty($referral_code_used)) {
-                            $field = "readonly='true'" ;
-                         }
-                         else {
-                            $field = ' ';
-                         }
+                        if(!empty($referral_code_used)) {
+                        $field = "readonly='true'" ;
+                        }
+                        else {
+                        $field = ' ';
+                        }
                         @endphp
                         <input type="text" name="discount_code" class="form-control" id="discount_code"
-                            placeholder="Use code 'MENTOR25' for 25% off" value="{{ $referral_code_used ?? '' }}" {{ $field }}>
+                            placeholder="Use code 'MENTOR25' for 25% off" value="{{ $referral_code_used ?? '' }}"
+                            {{ $field }}>
                 </div>
             </div>
         </div>
@@ -283,19 +298,7 @@
     </div>
     <!--   Core JS Files   -->
     @include('partials.footer-web')
-    
-    @include('partials.web-style')
 
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="{{ asset('public/assets/css/style.css') }}">
-    <link rel="stylesheet" id="elementor-post-2772-css"
-    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
     </script>
@@ -1346,4 +1349,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 1280) {}
 </style>
+
 </html>
