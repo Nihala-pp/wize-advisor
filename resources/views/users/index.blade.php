@@ -1313,7 +1313,7 @@
                                                 <div class="elementor-social-icons-wrapper elementor-grid">
                                                     <span class="elementor-grid-item">
                                                         <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-repeater-item-9df531e"
-                                                            href="#">
+                                                            href="https://www.facebook.com/people/WiseAdvizor/100092527332364/">
                                                             <span class="elementor-screen-only">Facebook-f</span>
                                                             <i class="fab fa-facebook-f"></i> </a>
                                                     </span>
@@ -1325,13 +1325,13 @@
                                                     </span>
                                                     <span class="elementor-grid-item">
                                                         <a class="elementor-icon elementor-social-icon elementor-social-icon-linkedin elementor-repeater-item-f787bb6"
-                                                            href="#">
+                                                            href="https://www.linkedin.com/company/wiseadvizor/posts/?feedView=all">
                                                             <span class="elementor-screen-only">Linkedin</span>
                                                             <i class="fab fa-linkedin"></i> </a>
                                                     </span>
                                                     <span class="elementor-grid-item">
                                                         <a class="elementor-icon elementor-social-icon elementor-social-icon-envelope elementor-repeater-item-4034cea"
-                                                            target="_blank">
+                                                            target="_blank" href="mailto:info@wiseadvizor.com">
                                                             <span class="elementor-screen-only">Envelope</span>
                                                             <i class="fas fa-envelope"></i> </a>
                                                     </span>
