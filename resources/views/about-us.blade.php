@@ -359,12 +359,6 @@
                             <div class="slide"><img
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp">
                             </div>
-                            <!-- <div class="slide"><img
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
-                            </div> -->
-                            <!-- </div> -->
-                            <!-- </div> -->
-
                         </div>
                         <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
                             data-id="ef07943" data-element_type="widget" data-widget_type="wpr-button.default">
