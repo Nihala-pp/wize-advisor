@@ -1907,7 +1907,7 @@ i.fas.fa-bell.fa-2xl {
         });
 
         $('#shareWithLinkedin').click(function() {
-            var url = "https://www.linkedin.com/shareArticle?mini=true&url=" + copiedLink;23
+            var url = "https://www.linkedin.com/shareArticle?mini=true&url=" + copiedLink;
             window.open(url);
         });
     });
