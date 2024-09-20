@@ -389,7 +389,7 @@ var wpformsElementorVars = {
 <!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
 
 <!--   Unlimited Elements 1.5.75 Scripts -->
-<script type="text/javascript" id="unlimited-elements-scripts">
+<!-- <script type="text/javascript" id="unlimited-elements-scripts">
 /* Post Carousel Lite scripts: */
 
 jQuery(document).ready(function() {
@@ -453,7 +453,7 @@ jQuery(document).ready(function() {
                 uc_uc_card_post_carousel_elementor_df03b3c_start();
         });
 });
-</script>
+</script> -->
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API = Tawk_API || {},
