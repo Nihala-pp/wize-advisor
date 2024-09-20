@@ -373,7 +373,6 @@
                                     </div>
 
                                 </div>
-
                                 <div class="strip_of paper2"></div>
                                 <button class="button next"><i class="fac fa-next"></i></button>
                                 <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
