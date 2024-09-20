@@ -1889,7 +1889,7 @@ i.fas.fa-bell.fa-2xl {
             "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now! ";
 
         $('#shareWithTwitter').click(function() {
-            window.open("https://x.com/intent/tweet?text=" + formattedBody + copiedLink);
+            window.open("https://x.com/intent/tweet?text="+formattedBody&url=+copiedLink);
         });
 
         $('#shareWithFb').click(function() {
