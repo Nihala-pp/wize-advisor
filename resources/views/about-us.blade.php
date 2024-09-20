@@ -453,7 +453,7 @@
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
     <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/uploads/elementor/css/carousal-style.scss">
-    <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset(path: 'public/assets/img/PNG-Blue.png') }}">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
     @include('partials.web-style')
 
@@ -462,7 +462,7 @@
     @include('partials.web-script')
     <script src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.8.2"
         id="pro-elements-handlers-js"></script>
-    <script src="https://wiseadvizor.com/public/assets/js/carousal-script.js"></script>
+    <!-- <script src="https://wiseadvizor.com/public/assets/js/carousal-script.js"></script> -->
 
     <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.8.2"
@@ -1171,4 +1171,5 @@ overflow {
     height: 100%;
 }
 </style>
+
 </html>
