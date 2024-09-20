@@ -1885,6 +1885,7 @@ i.fas.fa-bell.fa-2xl {
 
     $(document).ready(function() {
         var copiedLink = document.getElementById("referral_link").value;
+        var user = {{ $email }};
 
         $('#shareWithTwitter').click(function() {
             window.open("https://twitter.com/intent/tweet?url=" + copiedLink);
