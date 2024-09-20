@@ -845,7 +845,7 @@ i.fas.fa-chevron-down {
 
     .elementor-2650 .elementor-element.elementor-element-2a6c58c {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-        padding: 50px 0px 0px 95px;
+        padding: 50px 0px 0px 42px;
         /* margin-left: 0px !important; */
     }
 
@@ -859,7 +859,7 @@ i.fas.fa-chevron-down {
         font-family: "Helvetica", Sans-serif;
         font-size: 30px !important;
         font-weight: 600;
-        margin-left: -48px;
+        margin-left: 70px !important;
     }
 
     .elementor-button.elementor-size-xs {
