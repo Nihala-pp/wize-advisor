@@ -1881,32 +1881,36 @@ i.fas.fa-bell.fa-2xl {
 }(jQuery));
 </script>
 <script type="text/javascript">
-$(document).ready(function() {
-    var copiedLink = document.getElementById("referral_link").value;
+(function($) {
 
-    $('#shareWithTwitter').click(function() {
-        window.open("https://twitter.com/intent/tweet?url=" + copiedLink);
+    $(document).ready(function() {
+        var copiedLink = document.getElementById("referral_link").value;
+
+        $('#shareWithTwitter').click(function() {
+            window.open("https://twitter.com/intent/tweet?url=" + copiedLink);
+        });
+
+        $('#shareWithFb').click(function() {
+            window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink,
+                'facebook-share-dialog', "width=626, height=436");
+        });
+
+        // $('#shareWithFb').click(function () {
+        //     window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink, 'facebook-share-dialog', "width=626, height=436");
+        // });
+
+        $('#shareWithMail').click(function() {
+            var formattedBody = "This is cause link: " + (copiedLink);
+            var mailToLink = "mailto:?subject= " + user +
+                " wants you to donate to this noble cause&body=" +
+                encodeURIComponent(formattedBody);
+            window.location.href = mailToLink;
+        });
+
+        $('#shareWithLinkedin').click(function() {
+            var win = window.open('https://api.whatsapp.com/send?text=' + copiedLink, '_blank');
+            win.focus();
+        });
     });
-
-    $('#shareWithFb').click(function() {
-        window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink,
-            'facebook-share-dialog', "width=626, height=436");
-    });
-
-    // $('#shareWithFb').click(function () {
-    //     window.open("https://www.facebook.com/sharer/sharer.php?u=" + copiedLink, 'facebook-share-dialog', "width=626, height=436");
-    // });
-
-    $('#shareWithMail').click(function() {
-        var formattedBody = "This is cause link: " + (copiedLink);
-        var mailToLink = "mailto:?subject= " + user + " wants you to donate to this noble cause&body=" +
-            encodeURIComponent(formattedBody);
-        window.location.href = mailToLink;
-    });
-
-    $('#shareWithLinkedin').click(function() {
-        var win = window.open('https://api.whatsapp.com/send?text=' + copiedLink, '_blank');
-        win.focus();
-    });
-});
+}(jQuery));
 </script>
