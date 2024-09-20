@@ -30,8 +30,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-    <!-- <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script> -->
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        id="jquery-migrate-js"></script>
     <link rel="canonical" href="https://wiseadvizor.com/about-us">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
