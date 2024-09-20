@@ -1901,8 +1901,9 @@ i.fas.fa-bell.fa-2xl {
         });
 
         $('#shareWithMail').click(function() {
+            var link = document.getElementById("referral_link").value;
             var message ="Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don 't miss out—Sign up now!";
-            var mailToLink = "mailto:?subject= " + message + user;
+            var mailToLink = "mailto:?subject= " + message + link;
             window.location.href = mailToLink;
         });
 
