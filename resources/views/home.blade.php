@@ -2206,12 +2206,12 @@
     }(jQuery));
     </script>
     <script type="text/javascript">
-    $(document).ready(function() {
-        $(window).on("load", function() {
+      $(document).ready(function() {
+          $(window).on("load", function() {
 
             $('.antiCls').css("visibility", "visible");
 
-        });
+          });
     });
     </script>
 </body>
