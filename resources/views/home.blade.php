@@ -33,10 +33,11 @@
         as="script">
     <link rel="preload" href="https://wiseadvizor.com/public/assets/js/lazysizes.min.js" as="script" crossorigin>
     <link rel="preload"
-        href="https://wiseadvizor.com/public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js"
-        as="script" crossorigin>
+        href="https://wiseadvizor.com/public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" as="script"
+        crossorigin>
     <link rel="preload" href="https://wiseadvizor.com/js/main.min.js?ver=6.2.2" as="script" crossorigin>
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script" crossorigin>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script"
+        crossorigin>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
     <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
@@ -79,6 +80,7 @@
     }
     </style>
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8">
 
@@ -1768,9 +1770,10 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-image-box-wrapper">
                                     <div class="elementor-image-box-content">
-                                        <p class="elementor-image-box-description">Don't waste precious time scrolling
-                                            through endless blogs, videos, or sending countless messages in search of
-                                            advice. Every second counts.&ZeroWidthSpace;</p>
+                                        <p class="elementor-image-box-description">Avoid the frustration of trial and
+                                            error. Instead, engage with experts who understand your specific needs and
+                                            provide targeted solutions from the start.
+                                            &ZeroWidthSpace;</p>
                                     </div>
                                 </div>
                             </div>
@@ -2278,6 +2281,7 @@
                 });
     </script>
 </body>
+
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
