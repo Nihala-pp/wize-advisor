@@ -2212,7 +2212,7 @@
             $('.antiCls').css("visibility", "visible");
 
           });
-    });
+      });
     </script>
 </body>
 
