@@ -80,7 +80,6 @@
     }
     </style>
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8">
 
@@ -170,7 +169,7 @@
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-57512b1"
                                     data-id="57512b1" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                    < class="elementor-widget-wrap elementor-element-populated">
 
                                         <div class="elementor-element elementor-element-d7ea8e1 elementor-widget elementor-widget-image"
                                             data-id="d7ea8e1" data-element_type="widget"
@@ -185,33 +184,11 @@
                                                     style="width:100%;height:100%;max-width:200px">
                                             </div>
                                         </div>
-
-                                        <!-- <div class="elementor-element elementor-element-d7ea8e1 elementor-widget elementor-widget-image"
-                                            data-id="d7ea8e1" data-element_type="widget"
-                                            data-widget_type="image.default">
-                                            <div class="elementor-widget-container">
-                                                <img loading="lazy" decoding="async" width="750" height="750"
-                                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp"
-                                                    class="attachment-medium_large size-medium_large wp-image-8245"
-                                                    alt=""
-                                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/startup-mentors.webp.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1024x1024.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-150x150.png 150w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-700x700.png 700w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-650x650.png 650w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106-1300x1300.png 1300w, https://web.wiseadvizor.com/wp-content/uploads/2024/09/Untitled-design-2024-09-04T180336.106.png 1080w"
-                                                    sizes="(max-width: 750px) 100vw, 750px"
-                                                    style="width:100%;height:100%;max-width:1080px">
-                                            </div>
-                                        </div> -->
                                     </div>
                                 </div>
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-61aca54"
                                     data-id="61aca54" data-element_type="column" style="margin-top: -45px;">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <!-- <div class="elementor-element elementor-element-a57db21 elementor-widget elementor-widget-heading"
-                                            data-id="a57db21" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h4 class="elementor-heading-title elementor-size-default">654 Founders
-                                                </h4>
-                                            </div>
-                                        </div> -->
                                         <div class="elementor-element elementor-element-085e562 elementor-widget elementor-widget-heading"
                                             data-id="085e562" data-element_type="widget"
                                             data-widget_type="heading.default">
@@ -229,22 +206,6 @@
                 <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
                     data-id="a037b04" data-element_type="section">
                     <div class="elementor-widget-wrap elementor-element-populated">
-
-                        <!-- <div class="elementor-element elementor-element-ba7688d elementor-widget elementor-widget-video"
-                            data-id="ba7688d" data-element_type="widget"
-                            data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
-                            data-widget_type="video.default">
-                            <div class="elementor-widget-container">
-                                <div class="e-hosted-video elementor-wrapper elementor-open-inline">
-                                    <video class="elementor-video"
-                                        src="https://web.wiseadvizor.com/wp-content/uploads/2024/08/How-can-I-acquire-customers-while-developing.mp4"
-                                        autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"
-                                        alt="How-can-I-acquire-customers-while-developing"></video>
-                                </div>
-                            </div>
-                        </div> -->
-
-
                         <div class="elementor-element elementor-element-bcb7070 elementor-widget elementor-widget-video"
                             data-id="bcb7070"
                             data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
@@ -256,11 +217,6 @@
                                         autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"
                                         alt="Find a mentor"></video>
                                 </div>
-
-                                <!-- <video autoplay muted loop>
-                                    <source src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
-                                        type="video/mp4">
-                                </video> -->
                             </div>
                         </div>
                     </div>
@@ -595,11 +551,6 @@
                                     <video class="elementor-video"
                                         src="{{ asset('wp-content/uploads/2023/07/How it works.mp4') }}" autoplay=""
                                         loop="" muted="muted" playsinline="" controlslist="nodownload"></video>
-                                    <!-- <iframe loading="lazy"
-                                        style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-                                        src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFpQ4GcAh0&#x2F;4eHgU5JmdwNppzpWZ4J1Ug&#x2F;watch?embed"
-                                        allowfullscreen="allowfullscreen" allow="fullscreen">
-                                    </iframe> -->
                                 </div>
                             </div>
                         </div>
@@ -639,7 +590,6 @@
                                                             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Browse.png"
                                                                 height="30px;" width="30px;" style="border-radius:70px;"
                                                                 alt="mentorship"></img>
-                                                            <!-- <i aria-hidden="true" class="fas fa-star"></i>  -->
                                                         </span>
                                                     </div>
 
