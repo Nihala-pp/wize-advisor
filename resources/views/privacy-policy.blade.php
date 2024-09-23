@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <title>Protecting Your Privacy on wiseAdvizor | Mentorship Program</title>
     <meta name="description"
-        content="Keep your personal information secure while getting the most out of wiseAdvizor's mentorship program. Protecting your privacy is our top priority at wiseAdvizor.">
+        content="Keep your personal information secure while getting the most out of wiseAdvizor's mentorship program. Protecting your privacy is our top priority.">
     <meta name="keywords" content="mentorship program">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
