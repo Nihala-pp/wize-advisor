@@ -203,26 +203,29 @@
                         </section>
                     </div>
                 </div>
-            </div>
-            <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
-                data-id="a037b04" data-element_type="section">
-                <div class="elementor-widget-wrap elementor-element-populated">
-                    <div class="elementor-element elementor-element-bcb7070 elementor-widget elementor-widget-video"
-                        data-id="bcb7070"
-                        data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
-                        data-widget_type="video.default" data-element_type="widget">
-                        <div class="elementor-widget-container">
-                            <div class="e-hosted-video elementor-wrapper elementor-open-inline">
-                                <video class="elementor-video"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
-                                    autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"
-                                    alt="Find a mentor"></video>
+                <div class="elementor-column elementor-col-40 elementor-top-column elementor-element elementor-element-a037b04 vedio-container"
+                    data-id="a037b04" data-element_type="section">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-bcb7070 elementor-widget elementor-widget-video"
+                            data-id="bcb7070"
+                            data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;play_on_mobile&quot;:&quot;yes&quot;,&quot;mute&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}"
+                            data-widget_type="video.default" data-element_type="widget">
+                            <div class="elementor-widget-container">
+                                <div class="e-hosted-video elementor-wrapper elementor-open-inline">
+                                    <video class="elementor-video"
+                                        src="https://wiseadvizor.com/wp-content/uploads/2023/07/Find-a-mentor.mp4"
+                                        autoplay="" loop="" muted="muted" playsinline="" controlslist="nodownload"
+                                        alt="Find a mentor"></video>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <!-- </div>
+    </div> -->
         </section>
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-2bdeaec elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="2bdeaec" data-element_type="section">
@@ -287,6 +290,7 @@
                 </div>
             </div>
         </section>
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-a9a15f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no off-screen-parent"
             data-id="a9a15f2" data-element_type="section">
