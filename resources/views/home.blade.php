@@ -2051,7 +2051,7 @@
     }
     </style>
     <script type="text/javascript">
-    jQuery(document).ready(function() {
+     jQuery(document).ready(function() {
 
         function ucBackgroundOverlayPutStart() {
 
@@ -2205,7 +2205,7 @@
         });
     }(jQuery));
     </script>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       $(document).ready(function() {
           $(window).on("load", function() {
 
@@ -2213,7 +2213,7 @@
 
           });
       });
-    </script>
+    </script> -->
 </body>
 
 </html>
