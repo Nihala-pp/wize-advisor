@@ -1122,8 +1122,8 @@ h6 {
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.85">
 <link rel='stylesheet' id='wpr-animations-css-css'
     href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.85'>
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'" crossorigin async>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
+    onload="this.onload=null;this.rel='stylesheet'"  async>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style id="skip-link-styles">
 .skip-link.screen-reader-text {
