@@ -2,7 +2,7 @@
 	font-family: 'Sailec Bold';
 	font-style: normal;
 	font-weight: normal;
-	font-display: swap;
+	font-display: optional;
 	src: url('https://wiseadvizor.com/wp-content/uploads/2023/06/Sailec-Bold.ttf') format('truetype');
 }
 /* End Custom Fonts CSS */

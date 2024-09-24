@@ -4598,7 +4598,7 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   font-weight: 400;
-  font-display: block;
+  font-display: optional;
   src: url("https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot");
   src: url("https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.eot#iefix") format("embedded-opentype"), url("https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff2") format("woff2"), url("https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.woff") format("woff"), url("https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.ttf") format("truetype"), url("https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/webfonts/fa-regular-400.svg#fontawesome") format("svg"); }
 
