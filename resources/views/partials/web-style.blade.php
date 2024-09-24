@@ -1096,7 +1096,7 @@ h6 {
     as="font" type="font/woff2" id="google-fonts-1-css"  disabled>
 <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-    as="style" id="elementor-icons-shared-0-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+    as="style" id="elementor-icons-shared-0-css" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3">
@@ -1109,9 +1109,9 @@ h6 {
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3">
 <link rel='stylesheet'  id='wpr-text-animations-css-css'
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85">
-<link rel="preload"
+<link rel="stylesheet"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
-    as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+    as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85">
