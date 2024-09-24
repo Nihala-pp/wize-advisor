@@ -356,7 +356,7 @@ html :where(.is-position-sticky) {
 </style>
 <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
-    as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+    as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
     <link rel="stylesheet" id="tpgb-fontawesome-css"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1">
@@ -364,8 +364,8 @@ html :where(.is-position-sticky) {
 <link rel="preconnect"
     href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;&display=swap&#038;ver=3.0.2"
     as="font" type="font/woff2" disabled>
-<link rel="preload" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
-    as="style" id="plus-global-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+<link rel="preload" as="style" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
+    id="plus-global-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954">
@@ -1036,9 +1036,9 @@ h6 {
 <link rel="preload" as="style" id="elementor-icons-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
     crossorigin="">
-<link rel="stylesheet"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1" as="style"
-    id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" as="style"
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
+    id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">
@@ -1047,11 +1047,11 @@ h6 {
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5">
 <link rel="stylesheet" as="style" id="elementor-post-5-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418">
-<link rel='stylesheet' id='elementor-pro-css'
-    href='https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2'>
-<link rel="preload"
+<link rel='preload' id='elementor-pro-css'
+    href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+<link rel="preload"  as="style"
     href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
-    as="style" id="she-header-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+    id="she-header-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5">
@@ -1073,12 +1073,10 @@ h6 {
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" id="qi-addons-for-elementor-grid-style-css"
     href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload" id="qi-addons-for-elementor-helper-parts-style-css"
-    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload"
-    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
-    as="style" id="qi-addons-for-elementor-style-css" onload="this.onload=null;this.rel='stylesheet'"
-    crossorigin="anonymous">
+<link rel="preload" as="style" id="qi-addons-for-elementor-helper-parts-style-css"
+    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+<link rel="preload" as="style" id="qi-addons-for-elementor-style-css"
+    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1">
@@ -1089,8 +1087,8 @@ h6 {
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637">
 </noscript>
-<link rel="preload" id="twentytwentytwo-style-css"
-    href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+<link rel="preload" as="style" id="twentytwentytwo-style-css"
+    href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preconnect"
     href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1"
     as="font" type="font/woff2" id="google-fonts-1-css"  disabled>
