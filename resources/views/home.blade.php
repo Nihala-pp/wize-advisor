@@ -1768,11 +1768,11 @@
                                         @if($review->user->metaData->profile_pic)
                                         <img loading="lazy"
                                             src="{{ asset('public/assets/img/') }}/{{ $review->user->metaData->profile_pic }}"
-                                            alt="startup mentor" class="rounded-circle">
+                                            alt="startup mentor" class="rounded-circle" width="45px" height="45px">
                                         @else
                                         <img loading="lazy"
                                             src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
-                                            alt="Startup Success" class="rounded-circle">
+                                            alt="Startup Success" class="rounded-circle" width="45px" height="45px">
                                         @endif
                                         <div class="d-flex flex-column pl-2">
                                             <div class="name">{{ $review->user->name ?: '' }}</div>
