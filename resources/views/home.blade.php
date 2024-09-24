@@ -1333,9 +1333,9 @@
                             data-widget_type="ucaddon_uc_card_post_carousel.default">
                             <div class="elementor-widget-container">
                                 <!-- start Post Carousel Lite -->
-                                <link rel="preload" id="owl-carousel-css"
+                                <link rel="preload" as="style" id="owl-carousel-css"
                                     href="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.min.css') }}"
-                                    as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+                                     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
                                 <style type="text/css">
                                 /* widget: Post Carousel Lite */
 
@@ -1899,8 +1899,8 @@
         </div>
     </div>
     <link rel="preload" id="elementor-post-30-css" href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     @include('partials.web-style')
     @include('partials.footer-web')
 
