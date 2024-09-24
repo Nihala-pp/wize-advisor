@@ -1102,11 +1102,9 @@ h6 {
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3">
 </noscript>
 <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3"
-    defer>
-<link rel="preload" type="text/css" id="elementor-icons-fa-regular-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
-    crossorigin="">
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3">
+<link rel="stylesheet"  id="elementor-icons-fa-regular-css"
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3">
 <link rel='stylesheet'  id='wpr-text-animations-css-css'
@@ -1158,13 +1156,12 @@ h6 {
 </style>
 <link rel="preload" as="style" id="uc_ac_assets_file_style_css_13102-css"
     href="{{ asset('public/wp-content/uploads/ac_assets/bubble_float/style.min.css?ver=1.5.75') }}" crossorigin="">
-<link rel="preload" id="owl_carousel_css-css"
-    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}"
-    crossorigin>
-<link rel="preload" as="style" id="owl_theme_css-css"
-    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}" crossorigin>
-<link rel="preload" id="owl_animate_css-css"
-    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/animate.min.css?ver=2.0') }}" crossorigin>
+<link rel="stylesheet" id="owl_carousel_css-css"
+    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}">
+<link rel="stylesheet"  id="owl_theme_css-css"
+    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}" >
+<link rel="stylesheet" id="owl_animate_css-css"
+    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/animate.min.css?ver=2.0') }}" >
 <link rel="preload" id="lightgallery_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery.min.css?ver=2.5.0') }}"
     crossorigin>
