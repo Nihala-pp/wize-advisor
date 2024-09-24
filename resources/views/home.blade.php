@@ -28,8 +28,6 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
-    <link rel="preload" fetchpriority="high" as="image"
-        href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
     <link rel="preload"
         href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2"
         as="script">
