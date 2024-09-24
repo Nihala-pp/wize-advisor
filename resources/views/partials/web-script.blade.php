@@ -103,7 +103,7 @@ var qodefQiAddonsGlobal = {
 <script
     src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/video/lg-video.min.js?ver=2.5.0') }}"
     id="lightgallery_video_js-js"></script>
-<script src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0') }}"
+<script async src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0') }}"
     id="lightgallery_zoom_js-js"></script>
 <!-- <script
     src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/autoplay/lg-autoplay.min.js?ver=2.5.0') }}"
@@ -116,7 +116,7 @@ var qodefQiAddonsGlobal = {
 <script
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/isotope.pkgd.min.js?ver=6.2.2') }}"
     id="isotope-js"></script>
-<script
+<script async
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min.js?ver=6.2.2') }}"
     id="packery-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
@@ -360,7 +360,7 @@ var ElementorProFrontendConfig = {
     id="pro-elements-handlers-js"></script>
 <!-- <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
     id="e-sticky-js"></script> -->
-<script src="{{ asset('public/wp-includes/js/underscore.min.js') }}">
+<script  async src="{{ asset('public/wp-includes/js/underscore.min.js') }}">
 </script>
 <script id="wp-util-js-extra">
 var _wpUtilSettings = {
