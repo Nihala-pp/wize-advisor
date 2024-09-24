@@ -1107,12 +1107,10 @@ h6 {
 <link rel="preload" type="text/css" id="elementor-icons-fa-regular-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3"
     crossorigin="">
-<link rel="preload" as="style" id="elementor-icons-fa-brands-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3"
-    crossorigin="">
-<link rel='preload' as="style" id='wpr-text-animations-css-css'
-    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85"
-    crossorigin>
+<link rel="stylesheet" id="elementor-icons-fa-brands-css"
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3">
+<link rel='stylesheet'  id='wpr-text-animations-css-css'
+    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85">
 <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
     as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
