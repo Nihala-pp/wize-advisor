@@ -247,8 +247,8 @@ var elementorFrontendConfig = {
     }
 };
 </script>
-<script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
-    id="elementor-frontend-js"></script>
+<!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
+    id="elementor-frontend-js"></script> -->
 <!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
     id="wp-polyfill-inert-js"></script> -->
 <!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
