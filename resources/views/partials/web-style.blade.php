@@ -1107,7 +1107,7 @@ h6 {
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3">
-<link rel='stylesheet'  id='wpr-text-animations-css-css'
+<link rel="stylesheet" id="wpr-text-animations-css-css"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85">
 <link rel="stylesheet"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
@@ -1120,8 +1120,7 @@ h6 {
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.85" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" id="wpr-animations-css-css"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.85" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
-    onload="this.onload=null;this.rel='stylesheet'"  async>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" onload="this.onload=null;this.rel='stylesheet'"  async>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style id="skip-link-styles">
 .skip-link.screen-reader-text {
