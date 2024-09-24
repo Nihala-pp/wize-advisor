@@ -582,8 +582,8 @@
                                             data-id="5a43edb" data-element_type="widget"
                                             data-widget_type="icon-box.default">
                                             <div class="elementor-widget-container">
-                                                <link rel="stylesheet"
-                                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css">
+                                                <link rel="preload"
+                                                    href="https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-icon-box.min.css" type="text/css" crossorigin>
                                                 <div class="elementor-icon-box-wrapper">
 
                                                     <div class="elementor-icon-box-icon">
@@ -1332,7 +1332,7 @@
                             data-widget_type="ucaddon_uc_card_post_carousel.default">
                             <div class="elementor-widget-container">
                                 <!-- start Post Carousel Lite -->
-                                <link rel="preconnect" id="owl-carousel-css"
+                                <link rel="preload" id="owl-carousel-css"
                                     href="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.min.css') }}"
                                     type="text/css" rel="stylesheet">
                                 <style type="text/css">
