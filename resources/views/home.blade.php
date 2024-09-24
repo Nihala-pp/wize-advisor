@@ -28,6 +28,8 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image"
+        href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
     <link rel="preload"
         href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2"
         as="script">
@@ -620,27 +622,21 @@
                                             data-widget_type="icon-box.default">
                                             <div class="elementor-widget-container">
                                                 <div class="elementor-icon-box-wrapper">
-
                                                     <div class="elementor-icon-box-icon">
                                                         <span class="elementor-icon elementor-animation-">
                                                             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Schedule.png"
                                                                 height="30px;" width="30px;" style="border-radius:70px;"
                                                                 alt="startup mentorship platform"></img> </span>
                                                     </div>
-
                                                     <div class="elementor-icon-box-content">
-
                                                         <h4 class="elementor-icon-box-title">
                                                             <span>
                                                                 Schedule your call </span>
                                                         </h4>
-
                                                         <p class="elementor-icon-box-description">
                                                             Once you've found your ideal mentor, schedule a convenient
                                                             time for your one-on-one call.&ZeroWidthSpace; </p>
-
                                                     </div>
-
                                                 </div>
                                             </div>
                                         </div>
