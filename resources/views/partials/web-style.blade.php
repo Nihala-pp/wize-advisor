@@ -1089,8 +1089,8 @@ h6 {
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637">
 </noscript>
-<link rel="stylesheet"  id="twentytwentytwo-style-css"
-    href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4">
+<link rel="preload" id="twentytwentytwo-style-css"
+    href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preconnect"
     href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CSail%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&#038;display=swap&#038;ver=6.4.1"
     as="font" type="font/woff2" id="google-fonts-1-css"  disabled>
