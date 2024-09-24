@@ -364,8 +364,8 @@ html :where(.is-position-sticky) {
 <link rel="preconnect"
     href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;&display=swap&#038;ver=3.0.2"
     as="font" type="font/woff2" disabled>
-<link rel="stylesheet" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
-    as="style" id="plus-global-css" media="all" onload="this.onload=null;this.rel='stylesheet'">
+<link rel="preload" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
+    as="style" id="plus-global-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954">
@@ -1116,10 +1116,10 @@ h6 {
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85">
 </noscript>
-<link rel='stylesheet' id='wpr-button-animations-css-css'
-    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.85">
-<link rel='stylesheet' id='wpr-animations-css-css'
-    href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.85'>
+<link rel="preload" id="wpr-button-animations-css-css"
+    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.85" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+<link rel="preload" id="wpr-animations-css-css"
+    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.85" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"
     onload="this.onload=null;this.rel='stylesheet'"  async>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
