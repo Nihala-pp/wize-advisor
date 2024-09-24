@@ -1167,12 +1167,12 @@ h6 {
 <link rel="stylesheet" as="style" id="lightgallery_bundle_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery-bundle.min.css?ver=2.5.0') }}"
     crossorigin="">
-<link rel="stylesheet" as="style" id="elementor-post-934-css"
-    href="{{ asset('public/wp-content/uploads/elementor/css/post-934.css?ver=1688647328') }}" crossorigin="">
-<link rel="stylesheet" as="style" id="elementor-post-p-css"
-    href="{{ asset('public/wp-content/uploads/elementor/css/post-1015.css?ver=1688647329') }}" crossorigin="">
+<link rel="preload" as="style" id="elementor-post-934-css"
+    href="{{ asset('public/wp-content/uploads/elementor/css/post-934.css?ver=1688647328') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
+<link rel="preload" as="style" id="elementor-post-p-css"
+    href="{{ asset('public/wp-content/uploads/elementor/css/post-1015.css?ver=1688647329') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="elementor-post-941-css"
     href="{{ asset('public/wp-content/uploads/elementor/css/post-941.css?ver=1688647329') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" id="e-animations-css"
     href="{{ asset('public/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.14.1') }}"
-    as="style" type="text/css" crossorigin>
+    as="style" type="text/css" crossorigin="anonymous">
