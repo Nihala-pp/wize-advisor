@@ -1067,12 +1067,13 @@ h6 {
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14">
 </noscript>
-<link rel='preload' as="style" id='elementor-post-3007-css'
-    href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' crossorigin>
-<link rel="preload" as="style" id="elementor-post-32-css"
-    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" crossorigin>
+<link rel='stylesheet'  id='elementor-post-3007-css'
+    href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161'>
+<link rel="stylesheet"  id="elementor-post-32-css"
+    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419">
 <link rel="preload" as="style" id="qi-addons-for-elementor-grid-style-css"
-    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1" crossorigin="">
+    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1"
+    crossorigin="">
 <link rel="preload" as="style" id="qi-addons-for-elementor-helper-parts-style-css"
     href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1"
     crossorigin="">
@@ -1122,7 +1123,8 @@ h6 {
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85">
 </noscript>
 <link rel='preload' type="text/css" id='wpr-button-animations-css-css'
-    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.85" crossorigin>
+    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.3.85"
+    crossorigin>
 <link rel='stylesheet' id='wpr-animations-css-css'
     href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.3.85'>
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style"
@@ -1162,7 +1164,8 @@ h6 {
 <link rel="preload" as="style" id="uc_ac_assets_file_style_css_13102-css"
     href="{{ asset('public/wp-content/uploads/ac_assets/bubble_float/style.min.css?ver=1.5.75') }}" crossorigin="">
 <link rel="preload" id="owl_carousel_css-css"
-    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}" crossorigin>
+    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}"
+    crossorigin>
 <link rel="preload" as="style" id="owl_theme_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}" crossorigin>
 <link rel="preload" id="owl_animate_css-css"
