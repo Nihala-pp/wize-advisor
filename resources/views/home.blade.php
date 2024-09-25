@@ -1916,10 +1916,9 @@
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     @include('partials.web-style')
     @include('partials.footer-web')
-
-    @include('partials.web-script')
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
+    @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <style>
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
