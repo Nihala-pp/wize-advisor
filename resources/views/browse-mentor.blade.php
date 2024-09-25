@@ -355,7 +355,7 @@
                                                         </span> </p>
                                                     <div class="elementor-star-rating" title="5/5"
                                                         itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating"><i class="fa fa-star" aria-hidden="true"></i>
+                                                        itemprop="reviewRating"><i class="fa fa-star" aria-hidden="true">&#xE934;w</i>
                                                         <i class="elementor-star-full">&#xE934;</i><i
                                                             class="elementor-star-full">&#xE934;</i><i
                                                             class="elementor-star-full">&#xE934;</i><i
