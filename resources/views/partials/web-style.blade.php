@@ -354,9 +354,9 @@ html :where(.is-position-sticky) {
     text-align: center !important;
 }
 </style>
-<link rel="stylesheet"
+<link rel="preconnect"
     href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
-    as="style" id="tpgb-fontawesome">
+    as="style" id="tpgb-fontawesome" crossorigin>
 <!-- <noscript>
     <link rel="stylesheet" id="tpgb-fontawesome-css"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1">
@@ -364,7 +364,7 @@ html :where(.is-position-sticky) {
 <link rel="preconnect"
     href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;&display=swap&#038;ver=3.0.2"
     as="font" type="font/woff2" disabled>
-<link rel="preload" as="style" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
+<link rel="preconnect" as="style" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
     id="plus-global-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
     <link rel="stylesheet"
