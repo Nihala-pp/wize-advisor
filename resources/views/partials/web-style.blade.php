@@ -356,7 +356,7 @@ html :where(.is-position-sticky) {
 </style>
 <link rel="stylesheet"
     href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
-    as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    as="style" id="tpgb-fontawesome">
 <!-- <noscript>
     <link rel="stylesheet" id="tpgb-fontawesome-css"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1">
@@ -1094,19 +1094,19 @@ h6 {
     as="font" type="font/woff2" id="google-fonts-1-css"  disabled>
 <link rel="stylesheet"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-    as="style" id="elementor-icons-shared-0-css" onload="this.onload=null;this.rel='stylesheet'">
+    as="style" id="elementor-icons-shared-0-css">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3">
 </noscript>
 <link rel="stylesheet" id="elementor-icons-fa-solid-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3">
 <link rel="stylesheet"  id="elementor-icons-fa-regular-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3">
 <link rel="stylesheet" id="elementor-icons-fa-brands-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3">
 <link rel="preload" id="wpr-text-animations-css-css"
-    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85">
 <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
     as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
