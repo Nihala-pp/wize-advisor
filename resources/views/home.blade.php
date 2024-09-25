@@ -1829,10 +1829,10 @@
                             data-id="a212a53" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img loading="lazy" decoding="async" width="750" height="750"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.webp"
                                     class="attachment-medium_large size-medium_large wp-image-8244"
                                     alt="one on mentoring platform"
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.png 1300w"
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/09/ambitious.webp 1300w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:100%;max-width:3375px">
                             </div>
