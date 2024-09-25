@@ -1036,14 +1036,14 @@ h6 {
 <link rel="preload" as="style" id="elementor-icons-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
     crossorigin="">
-<link rel="stylesheet" as="style"
+<link rel="preload" as="style"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
     id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <!-- <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1">
 </noscript> -->
-<link rel="preload" as="style" id="swiper-css"
+<link rel="stylesheet" as="style" id="swiper-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="elementor-post-5-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
@@ -1099,11 +1099,11 @@ h6 {
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3">
 </noscript>
-<link rel="stylesheet" id="elementor-icons-fa-solid-css"
+<link rel="preload" id="elementor-icons-fa-solid-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="stylesheet"  id="elementor-icons-fa-regular-css"
+<link rel="preload"  id="elementor-icons-fa-regular-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="stylesheet" id="elementor-icons-fa-brands-css"
+<link rel="preload" id="elementor-icons-fa-brands-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" id="wpr-text-animations-css-css"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85" as="style"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
