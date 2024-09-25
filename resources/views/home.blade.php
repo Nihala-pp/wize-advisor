@@ -32,8 +32,14 @@
         href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2"
         as="script">
     <link rel="preload" href="https://wiseadvizor.com/public/assets/js/lazysizes.min.js" as="script" crossorigin>
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js" as="script" crossorigin>
-
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js" as="script"
+        crossorigin>
+    <link rel='preload' id='elementor-post-3007-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' as="style"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" id="elementor-post-32-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" as="style"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link rel="preload"
         href="https://wiseadvizor.com/public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" as="script"
         crossorigin>
@@ -82,6 +88,7 @@
     }
     </style>
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8">
 
@@ -1336,7 +1343,7 @@
                                 <!-- start Post Carousel Lite -->
                                 <link rel="preload" as="style" id="owl-carousel-css"
                                     href="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.min.css') }}"
-                                     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+                                    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
                                 <style type="text/css">
                                 /* widget: Post Carousel Lite */
 
@@ -1899,14 +1906,20 @@
             </div>
         </div>
     </div>
-    <link rel="preload" id="elementor-post-30-css" href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" id="elementor-post-30-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" as="style"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" as="style"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" as="style"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     @include('partials.web-style')
     @include('partials.footer-web')
 
     @include('partials.web-script')
-    <script  src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <style>
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
         width: 100%;
@@ -2209,6 +2222,7 @@
     }(jQuery));
     </script>
 </body>
+
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
