@@ -1044,10 +1044,10 @@ h6 {
 </noscript> -->
 <link rel="stylesheet" as="style" id="swiper-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="stylesheet" as="style" id="elementor-post-5-css"
-    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418">
-<link rel='stylesheet' id='elementor-pro-css'
-    href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2">
+<link rel="preload" as="style" id="elementor-post-5-css"
+    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+<link rel='stylesheet' as="style" id='elementor-pro-css'
+    href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload"  as="style"
     href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
     id="she-header-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
@@ -1057,8 +1057,8 @@ h6 {
 </noscript>
 <link rel="preload" as="style"  id="elementor-global-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419"  onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="stylesheet" as="style" id="elementor-post-8-css"
-    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1699364637">
+<link rel="preload" as="style" id="elementor-post-8-css"
+    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1699364637" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
     as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
