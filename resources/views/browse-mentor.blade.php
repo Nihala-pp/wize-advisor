@@ -355,9 +355,8 @@
                                                         </span> </p>
                                                     <div class="elementor-star-rating" title="5/5"
                                                         itemtype="http://schema.org/Rating" itemscope=""
-                                                        itemprop="reviewRating"> <i
-                                                            class="elementor-star-full">&#xE934;</i><i
-                                                            class="elementor-star-full">&#xE934;</i><i
+                                                        itemprop="reviewRating"><i class="fa fa-star" aria-hidden="true"></i>
+                                                        <i class="elementor-star-full">&#xE934;</i><i
                                                             class="elementor-star-full">&#xE934;</i><i
                                                             class="elementor-star-full">&#xE934;</i><i
                                                             class="elementor-star-full">&#xE934;</i> <span
@@ -588,7 +587,7 @@
     <link rel="stylesheet" id="elementor-post-2772-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
     <link rel="stylesheet" id="twenty-twenty-one-style-css"
-        href="https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.min.css?ver=2.0" media="all">
+        href="https://wiseadvizor.com/wp-content/themes/stasr/style.min.css?ver=2.0" media="all">
 
     @include('partials.web-style')
 
