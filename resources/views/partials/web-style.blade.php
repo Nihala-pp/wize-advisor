@@ -1036,7 +1036,7 @@ h6 {
 <link rel="preload" as="style" id="elementor-icons-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0"
     crossorigin="">
-<link rel="preload" as="style"
+<link rel="stylesheet" as="style"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
     id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <!-- <noscript>
