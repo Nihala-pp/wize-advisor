@@ -354,9 +354,9 @@ html :where(.is-position-sticky) {
     text-align: center !important;
 }
 </style>
-<link rel="stylesheet"
+<link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
-    as="style" id="tpgb-fontawesome" crossorigin>
+    as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <!-- <noscript>
     <link rel="stylesheet" id="tpgb-fontawesome-css"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1">
