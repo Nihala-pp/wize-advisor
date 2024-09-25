@@ -45,8 +45,8 @@
     <!-- <link rel="preload" href="https://wiseadvizor.com/js/main.min.js?ver=6.2.2" as="script" crossorigin> -->
     <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script"
         crossorigin>
-    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
-    </script>
+    <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script"
+        crossorigin>
     <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <script>
@@ -1918,6 +1918,8 @@
     @include('partials.footer-web')
 
     @include('partials.web-script')
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
+    </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <style>
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
