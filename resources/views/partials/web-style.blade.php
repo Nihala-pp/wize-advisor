@@ -1123,8 +1123,7 @@ h6 {
 <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min.js?ver=6.2.2" as="script" crossorigin="anonymous">
 <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=6.2.2" as="script" crossorigin="anonymous">
 <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0" as="script" crossorigin="anonymous">
-
-
+<link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107" as="script" crossorigin="anonymous">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style id="skip-link-styles">
 .skip-link.screen-reader-text {

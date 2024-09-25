@@ -2206,17 +2206,7 @@
         });
     }(jQuery));
     </script>
-    <!-- <script type="text/javascript">
-      $(document).ready(function() {
-          $(window).on("load", function() {
-
-            $('.antiCls').css("visibility", "visible");
-
-          });
-      });
-    </script> -->
 </body>
-
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
