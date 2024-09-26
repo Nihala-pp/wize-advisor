@@ -822,3 +822,9 @@
 <script type="text/javascript">
 document.querySelector('#copyright-year').innerText = new Date().getFullYear();
 </script>
+<style>
+.elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-button[type="submit"] {
+    background-color: #4285f4;
+    color: #ffffff;
+}
+</style>
