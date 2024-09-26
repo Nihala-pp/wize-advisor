@@ -1738,6 +1738,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
@@ -2148,6 +2149,37 @@ li {
 }
 </style>
 <style>
+.elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-a96e0b3.elementor-social-icon i {
+    margin: 8px;
+    /* color: #FFFFFF; */
+}
+
+.elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-50885d5.elementor-social-icon i {
+    /* color: #FFFFFF; */
+    margin: 8px;
+}
+
+.elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-39b2a58.elementor-social-icon i {
+    margin: 8px;
+    color: #FFFFFF;
+}
+
+.elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-9d2b1b1.elementor-social-icon i {
+    margin: 8px;
+    color: #FFFFFF;
+}
+
+.elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-29dcd07.elementor-social-icon i {
+    margin: 8px;
+    color: #FFFFFF;
+}
+
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
 .main-data-wrp a:hover {
     color: #3153C6;
 }
