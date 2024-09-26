@@ -363,8 +363,8 @@ html :where(.is-position-sticky) {
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1">
 </noscript> -->
 <link rel="preload"
-    href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;&display=swap&#038;ver=3.0.2"
-    as="font" type="font/woff2" disabled crossorigin>
+    href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;&display=block&#038;ver=3.0.2"
+    as="font" type="font/woff2" crossorigin>
 <link rel="preconnect" as="style" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
     id="plus-global-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
@@ -1100,11 +1100,11 @@ h6 {
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3">
 </noscript>
 <link rel="preconnect" id="elementor-icons-fa-solid-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css?ver=5.15.3">
 <link rel="preconnect"  id="elementor-icons-fa-regular-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css?ver=5.15.3" >
 <link rel="preconnect" id="elementor-icons-fa-brands-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css?ver=5.15.3">
 <link rel="preload" id="wpr-text-animations-css-css"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.3.85">
 <link rel="preload"
