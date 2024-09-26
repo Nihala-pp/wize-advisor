@@ -355,7 +355,7 @@ html :where(.is-position-sticky) {
 }
 </style>
 <link rel="preconnect" href="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T" crossorigin>
-<link rel="preload"
+<link rel="preconnect"
     href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
     as="style" id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <!-- <noscript>
