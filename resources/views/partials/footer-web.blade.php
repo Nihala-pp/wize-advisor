@@ -831,4 +831,20 @@ document.querySelector('#copyright-year').innerText = new Date().getFullYear();
 .elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-a96e0b3.elementor-social-icon {
     background-color: #4285f4 !important;
 }
+
+.elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-50885d5.elementor-social-icon {
+    background-color: #4285f4 !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-39b2a58.elementor-social-icon {
+    background-color: #4285f4 !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-9d2b1b1.elementor-social-icon {
+    background-color: #4285f4 !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-29dcd07.elementor-social-icon {
+    background-color: #4285f4 !important;
+}
 </style>
