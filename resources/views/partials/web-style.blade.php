@@ -355,9 +355,9 @@ html :where(.is-position-sticky) {
 }
 </style>
 <link rel="preconnect" href="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T" crossorigin>
-<link rel="stylesheet"
+<link rel="preload" as="style"
     href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
-    id="tpgb-fontawesome">
+    id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <!-- <noscript>
     <link rel="stylesheet" id="tpgb-fontawesome-css"
         href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1">
@@ -366,7 +366,7 @@ html :where(.is-position-sticky) {
     href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;&display=block&#038;ver=3.0.2"
     crossorigin="crossorigin">
 <link rel="preconnect" as="style" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
-    id="plus-global-css" onload="this.onload=null;this.rel='font'" crossorigin="anonymous">
+    id="plus-global-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954">
