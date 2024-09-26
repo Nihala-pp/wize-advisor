@@ -42,8 +42,8 @@
         href="https://wiseadvizor.com/public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js" as="script"
         crossorigin> -->
     <!-- <link rel="preload" href="https://wiseadvizor.com/js/main.min.js?ver=6.2.2" as="script" crossorigin> -->
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script"
-        crossorigin>
+    <!-- <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script"
+        crossorigin> -->
     <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script"
         crossorigin>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
