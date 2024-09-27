@@ -1989,7 +1989,7 @@ li {
 .elementor-4878 .elementor-element.elementor-element-4yln1aq:not(.elementor-motion-effects-element-type-background),
 .elementor-4878 .elementor-element.elementor-element-4yln1aq>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #F3F1F6 !important;
-    background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1-horiz.png");
+    background-image: url("https://wiseadvizor.com/wp-content/uploads/2023/11/shape1-horiz.png");
     background-position: center right;
     background-repeat: no-repeat;
 }
@@ -2013,7 +2013,7 @@ li {
 .elementor-4878 .elementor-element.elementor-element-79woq2o:not(.elementor-motion-effects-element-type-background),
 .elementor-4878 .elementor-element.elementor-element-79woq2o>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #F3F1F6;
-    background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1.png");
+    background-image: url("https://wiseadvizor.com/wp-content/uploads/2023/11/shape1.png");
     background-repeat: no-repeat;
     margin-bottom: -80px;
 }
@@ -2085,7 +2085,7 @@ li {
 .elementor-4878 .elementor-element.elementor-element-9xouvrd:not(.elementor-motion-effects-element-type-background),
 .elementor-4878 .elementor-element.elementor-element-9xouvrd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: var(--e-global-color-astglobalcolor4);
-    background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1.png");
+    background-image: url("https://wiseadvizor.com/wp-content/uploads/2023/11/shape1.png");
     background-repeat: no-repeat;
     margin-top: -35px;
 }
@@ -2830,7 +2830,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-9xouvrd:not(.elementor-motion-effects-element-type-background),
     .elementor-4878 .elementor-element.elementor-element-9xouvrd>.elementor-motion-effects-container>.elementor-motion-effects-layer {
         background-color: var(--e-global-color-astglobalcolor4);
-        background-image: url("https://ivygroupco.com/wp-content/uploads/2023/11/shape1.png");
+        background-image: url("https://wiseadvizor.com/wp-content/uploads/2023/11/shape1.png");
         background-repeat: no-repeat;
         margin-top: -35px;
         margin-bottom: -30px;
