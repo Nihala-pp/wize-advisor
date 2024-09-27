@@ -2044,6 +2044,13 @@
     }
 
     @media screen and (max-width:767px) {
+
+        body,
+        html {
+            max-width: 100%;
+            overflow-x: hidden;
+        }
+
         .elementor-element-92ef909 {
             display: none !important;
         }
