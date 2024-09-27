@@ -1243,6 +1243,7 @@ i.fas.fa-bell.fa-2xl {
         overflow-x: hidden !important;
     }
 
+
     .elementor-32 .elementor-element.elementor-element-540d2d1>.elementor-widget-container {
         padding: 0px 20px 10px 100px;
     }
