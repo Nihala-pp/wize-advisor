@@ -648,12 +648,12 @@ body .is-layout-grid>* {
     discuss>
 <link rel='stylesheet' id='elementor-post-32-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1706785961' media='all' />
-<link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
+<link rel='preload' id='qi-addons-for-elementor-grid-style-css'
     href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.3'
-    media='all' />
+    as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
     href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.3'
-    media='all' />
+    as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" id='qi-addons-for-elementor-style-css'
     href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1"
     as="style/css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
