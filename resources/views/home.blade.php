@@ -2045,8 +2045,8 @@
 
     @media screen and (max-width:767px) {
 
-        body,
-        html {
+        html,
+        body {
             max-width: 100%;
             overflow-x: hidden;
         }
