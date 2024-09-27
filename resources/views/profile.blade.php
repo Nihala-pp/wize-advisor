@@ -1733,7 +1733,6 @@
 
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-r
     @include('partials.footer-web')
 
     @include('partials.web-script')
