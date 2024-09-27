@@ -108,7 +108,7 @@ var qodefQiAddonsGlobal = {
 <!-- <script
     src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/autoplay/lg-autoplay.min.js?ver=2.5.0') }}"
     id="lightgallery_autoplay_js-js"></script> -->
-<script src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
+<script defer src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
     id="vimeo_player_js-js"></script>
 <script
     src="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107') }}"
