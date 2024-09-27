@@ -94,7 +94,7 @@ var qodefQiAddonsGlobal = {
     id="swiper-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
     id="owl_carousel_js-js"></script>
-<script src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
+<script defer src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
     id="mousewheel_js-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8') }}"
     id="owl_thumbs_js-js"></script>
