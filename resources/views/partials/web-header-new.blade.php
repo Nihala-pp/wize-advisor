@@ -1193,8 +1193,8 @@
     <noscript>
         <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1">
     </noscript>
-    <link rel="stylesheet" id="theplus-front-css-css"
-        href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1688723449" media="all">
+    <link rel="preload" href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637"
+    as="style" id="theplus-front-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link rel="stylesheet" id="twentytwentytwo-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.css?ver=1.4" media="all">
     <link rel="preconnect" id="google-fonts-1-css"
