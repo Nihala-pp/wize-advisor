@@ -1255,6 +1255,12 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
 
+    html,
+    body {
+        max-width: 100%;
+        overflow-x: hidden;
+    }
+
     .grid-child p {
         margin-bottom: -5px;
         font-size: 10px;
