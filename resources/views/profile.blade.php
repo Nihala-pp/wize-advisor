@@ -1716,8 +1716,8 @@
         </div>
     </div>
 
-    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preconnect" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        crossorigin="anonymous">
     <link rel="stylesheet" id="elementor-post-2372-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2372.css?ver=1703246740" media="all">
     <link rel='stylesheet' id='elementor-post-442-css'
@@ -1733,7 +1733,7 @@
 
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-
+r
     @include('partials.footer-web')
 
     @include('partials.web-script')
@@ -1742,6 +1742,7 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
 </body>
+
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
