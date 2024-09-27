@@ -1257,8 +1257,7 @@ i.fas.fa-bell.fa-2xl {
 
     html,
     body {
-        max-width: 100% !important;
-        overflow-x: hidden !important;
+        box-sizing: border-box;
     }
 
     .grid-child p {
