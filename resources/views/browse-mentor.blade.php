@@ -1264,10 +1264,6 @@ i.fas.fa-bell.fa-2xl {
         overflow-x: hidden !important;
     } */
 
-    html.video {
-        overflow: none !important;
-    }
-
     .grid-child p {
         margin-bottom: -5px;
         font-size: 10px;
