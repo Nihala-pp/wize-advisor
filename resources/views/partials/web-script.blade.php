@@ -48,7 +48,7 @@ gtag('config', 'G-QC47PPTD6T');
     sibling.parentElement.insertBefore(skipLink, sibling);
 }());
 </script>
-<script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
+<script async src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
     id="niso-carousel-owl.min-js"></script>
 <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}"
     id="jquery.mousewheel.min-js"></script>
