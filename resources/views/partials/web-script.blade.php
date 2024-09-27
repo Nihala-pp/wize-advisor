@@ -96,7 +96,7 @@ var qodefQiAddonsGlobal = {
     id="owl_carousel_js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
     id="mousewheel_js-js"></script>
-<script src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8') }}"
+<script async src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8') }}"
     id="owl_thumbs_js-js"></script>
 <script  src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0') }}"
     id="lightgallery_js-js"></script>
