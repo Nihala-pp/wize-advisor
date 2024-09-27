@@ -98,9 +98,9 @@ var qodefQiAddonsGlobal = {
     id="mousewheel_js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8') }}"
     id="owl_thumbs_js-js"></script>
-<script src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0') }}"
+<script  src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0') }}"
     id="lightgallery_js-js"></script>
-<script
+<script async
     src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/video/lg-video.min.js?ver=2.5.0') }}"
     id="lightgallery_video_js-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0') }}"
