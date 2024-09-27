@@ -1265,7 +1265,7 @@ i.fas.fa-bell.fa-2xl {
     } */
 
     html.video {
-        overflow: hidden !important;
+        /* overflow: hidden !important; */
     }
 
     .grid-child p {
