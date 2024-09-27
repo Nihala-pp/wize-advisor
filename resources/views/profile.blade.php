@@ -1716,9 +1716,8 @@
         </div>
     </div>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
+    <link rel="preload" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link rel="stylesheet" id="elementor-post-2372-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2372.css?ver=1703246740" media="all">
     <link rel='stylesheet' id='elementor-post-442-css'
