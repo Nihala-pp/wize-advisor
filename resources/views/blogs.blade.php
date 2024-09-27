@@ -864,6 +864,10 @@ i.fas.fa-chevron-down {
         overflow-x: hidden;
     }
 
+    html.video {
+        overflow: inherit !important;
+    }
+
     .elementor-section.elementor-inner-section.elementor-element.elementor-element-9cbb325 {
         margin-left: 0px !important;
     }
