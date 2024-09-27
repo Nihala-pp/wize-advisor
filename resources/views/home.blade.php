@@ -2047,7 +2047,7 @@
 
         html,
         body {
-            max-width: 100%;
+            max-width: 100% !important;
             overflow-x: hidden !important;
         }
 
