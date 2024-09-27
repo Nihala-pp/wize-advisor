@@ -121,7 +121,7 @@ var qodefQiAddonsGlobal = {
     id="packery-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
 </script>
-<script  src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
+<script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
 </script>
 <!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
 </script> -->
