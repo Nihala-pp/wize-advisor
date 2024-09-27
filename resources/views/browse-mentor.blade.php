@@ -1258,11 +1258,11 @@ i.fas.fa-bell.fa-2xl {
 
 @media screen and (max-width: 767px) {
 
-    /* html,
+    html,
     body {
         max-width: 100% !important;
         overflow-x: hidden !important;
-    } */
+    } 
 
     .grid-child p {
         margin-bottom: -5px;
