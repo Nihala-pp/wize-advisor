@@ -617,7 +617,7 @@
 
     @include('partials.web-script')
 
-    <script type="text/javascript">
+ <script type="text/javascript">
     jQuery(document).ready(function() {
 
         var scrollEventHandler = function() {
@@ -673,7 +673,7 @@
             }
         });
     });
-    </script>
+ </script>
 </body>
 
 </html>
