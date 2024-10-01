@@ -223,12 +223,11 @@
                                                                                         data-widget_type="image.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <img fetchpriority="high"
-                                                                                                decoding="async"
+                                                                                            <img decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }}"
-                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                class="attachment-full size-full wp-image-6996 lazyload"
                                                                                                 alt="digital marketing strategies"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
@@ -384,12 +383,12 @@
                                                                                         data-widget_type="image.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <img fetchpriority="high"
+                                                                                            <img 
                                                                                                 decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }}"
-                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                class="attachment-full size-full wp-image-6996 lazyload"
                                                                                                 alt="digital marketing strategies"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
@@ -497,9 +496,9 @@
                             <div class="elementor-element elementor-element-0836d4a elementor-widget elementor-widget-image"
                                 data-id="0836d4a" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <img loading="lazy" decoding="async" width="457" height="257"
+                                    <img decoding="async" width="457" height="257"
                                         src="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }}"
-                                        class="attachment-large size-large wp-image-6398"
+                                        class="attachment-large size-large wp-image-6398 lazyload"
                                         alt="business development strategies"
                                         srcset="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1024w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 768w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1300w"
                                         sizes="(max-width: 457px) 100vw, 457px"
