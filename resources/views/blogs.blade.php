@@ -614,7 +614,7 @@
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
-    <script defer src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
+    <script async src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
 
     <script type="text/javascript">
     jQuery(document).ready(function() {
