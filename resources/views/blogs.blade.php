@@ -615,7 +615,7 @@
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
 
-    @include('partials.web-script')
+    <!-- @include('partials.web-script') -->
 
  <script type="text/javascript">
     jQuery(document).ready(function() {
