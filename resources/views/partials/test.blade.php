@@ -21,12 +21,12 @@
 <link rel="preload" id="elementor-post-32-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" as="style"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<!-- <link rel="preload" as="style" id="twentytwentytwo-style-css"
+<link rel="preload" as="style" id="twentytwentytwo-style-css"
     href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4"
-    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> -->
+    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="stylesheet" as="style" id="elementor-icons-shared-0-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> -->
+    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> 
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="owl_carousel_css-css"
