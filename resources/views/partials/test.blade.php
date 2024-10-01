@@ -1,12 +1,6 @@
 <link rel="preload" as="style" id="elementor-post-5-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload" as="style"
-    href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
-    id="she-header-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload"
-    href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
-    as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="twentytwentytwo-style-css"
     href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
