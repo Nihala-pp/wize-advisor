@@ -45,10 +45,10 @@
     id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="swiper-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload" as="style" id="elementor-post-5-css"
+<!-- <link rel="preload" as="style" id="elementor-post-5-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel='preload' as="style" id='elementor-pro-css'
-    href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> -->
 <link rel="preload"  as="style"
     href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
     id="she-header-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
@@ -67,12 +67,6 @@
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload"  id="elementor-post-32-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<!-- <link rel="preload" id="qi-addons-for-elementor-grid-style-css"
-    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload" as="style" id="qi-addons-for-elementor-helper-parts-style-css"
-    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload" as="style" id="qi-addons-for-elementor-style-css"
-    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> -->
 <link rel="preload" as="style" id="twentytwentytwo-style-css"
     href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="stylesheet"
