@@ -35,6 +35,3 @@
 <link rel="preload" as="style" id="owl_theme_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}"
     onload="this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload" as="style" id="elementor-global-css"
-    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419"
-    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
