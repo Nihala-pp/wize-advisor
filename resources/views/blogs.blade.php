@@ -26,6 +26,12 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="canonical" href="https://wiseadvizor.com/blogs" />
+    <link rel='preload' id='elementor-post-3007-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' as="style"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" id="elementor-post-32-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" as="style"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/public/wp-content/uploads/2024/06/1721978543.webp" type="image/webp">
 
@@ -598,10 +604,10 @@
     @include('partials.footer-web')
     @include('partials.test')
     <link rel="stylesheet" as="style" id="elementor-icons-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0">
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0">
     <link rel="stylesheet" as="style" id="elementor-icons-shared-0-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
-    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link rel='stylesheet' id='elementor-post-2651-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2651.css?ver=1717513898' media='all' />
     <link rel='stylesheet' id='elementor-post-7005-css'
