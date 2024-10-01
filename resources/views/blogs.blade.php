@@ -28,6 +28,9 @@
     <link rel="canonical" href="https://wiseadvizor.com/blogs" />
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/public/wp-content/uploads/2024/06/1721978543.webp">
+    <link rel="preload" as="style"
+        href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
+        id="she-header-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link rel='preload' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' as="style"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
