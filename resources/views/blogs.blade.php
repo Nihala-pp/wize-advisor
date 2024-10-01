@@ -129,12 +129,11 @@
                                                                                         data-widget_type="image.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <img fetchpriority="high"
-                                                                                                decoding="async"
+                                                                                            <img decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }}"
-                                                                                                class="attachment-full size-full wp-image-6996"
+                                                                                                class="attachment-full size-full wp-image-6996 lazyload"
                                                                                                 alt="digital marketing strategies"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog1->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
@@ -383,12 +382,12 @@
                                                                                         data-widget_type="image.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <img 
+                                                                                            <img fetchpriority="high"
                                                                                                 decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }}"
-                                                                                                class="attachment-full size-full wp-image-6996 lazyload"
+                                                                                                class="attachment-full size-full wp-image-6996"
                                                                                                 alt="digital marketing strategies"
                                                                                                 srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
