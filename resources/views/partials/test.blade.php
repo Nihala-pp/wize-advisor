@@ -94,11 +94,11 @@
     href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style"   id="owl_theme_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload" as="style" id="owl_animate_css-css"
+<!-- <link rel="preload" as="style" id="owl_animate_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/animate.min.css?ver=2.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="lightgallery_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery.min.css?ver=2.5.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="lightgallery_bundle_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery-bundle.min.css?ver=2.5.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="e-animations-css"
-    href="{{ asset('public/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.14.1') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
+    href="{{ asset('public/wp-content/plugins/elementor/assets/lib/animations/animations.min.css?ver=3.14.1') }}" onload="this.rel='stylesheet'" crossorigin="anonymous"> -->
