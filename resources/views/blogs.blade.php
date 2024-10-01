@@ -401,8 +401,7 @@
                                                                                         data-widget_type="image.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <img fetchpriority="high"
-                                                                                                decoding="async"
+                                                                                            <img decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }}"
