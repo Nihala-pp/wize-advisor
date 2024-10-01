@@ -26,7 +26,8 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="canonical" href="https://wiseadvizor.com/blogs" />
-    <link rel="preload" fetchpriority="high" as="image"  href="https://wiseadvizor.com/public/wp-content/uploads/2024/06/1721978543.webp">
+    <link rel="preload" fetchpriority="high" as="image"
+        href="https://wiseadvizor.com/public/wp-content/uploads/2024/06/1721978543.webp">
     <meta name=viewport content="width=device-width, initial-scale=1">
 </head>
 
@@ -614,7 +615,9 @@
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
- <script type="text/javascript">
+    <script defer src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
+
+    <script type="text/javascript">
     jQuery(document).ready(function() {
 
         var scrollEventHandler = function() {
@@ -669,11 +672,11 @@
             }
         });
     });
- </script>
+    </script>
 </body>
+
 </html>
 <style>
-
 .elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-a96e0b3.elementor-social-icon i {
     margin: 8px;
     /* color: #FFFFFF; */
