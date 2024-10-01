@@ -82,7 +82,7 @@
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3">
 </noscript>
-<link rel="preload"
+<!-- <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
     as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" id="wpr-button-animations-css-css"
@@ -93,4 +93,4 @@
 <link rel="preload" as="style" id="owl_carousel_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style"   id="owl_theme_css-css"
-    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
+    href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous"> -->
