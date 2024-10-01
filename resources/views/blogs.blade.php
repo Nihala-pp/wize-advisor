@@ -502,7 +502,7 @@
                                         class="attachment-large size-large wp-image-6398"
                                         alt="business development strategies"
                                         srcset="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1024w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 768w, {{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }} 1300w"
-                                        sizes="(max-width: 750px) 100vw, 750px"
+                                        sizes="(max-width: 457px) 100vw, 457px"
                                         style="width:100%;height:50%;max-width:2400px" />
                                 </div>
                             </div>
