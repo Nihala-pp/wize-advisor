@@ -26,6 +26,12 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="canonical" href="https://wiseadvizor.com/blogs" />
+    <link rel="preload" as="style" id="hfe-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin>
+    <link async rel="preload" as="style"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
+        id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link rel='preload' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' as="style"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
