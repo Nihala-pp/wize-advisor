@@ -1,8 +1,6 @@
 <link rel="preload" as="style" id="hfe-style-css"
     href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin>
-<link rel="stylesheet" as="style" id="elementor-icons-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0">
 <link async rel="preload" as="style"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
     id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
@@ -23,9 +21,6 @@
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="twentytwentytwo-style-css"
     href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4"
-    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="stylesheet" as="style" id="elementor-icons-shared-0-css"
-    href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
