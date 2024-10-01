@@ -1,4 +1,4 @@
-<link rel="preload"
+<!-- <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
     as="style" id="niso-carousel-fontello-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
 <noscript>
@@ -11,13 +11,6 @@
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0">
-</noscript>
-<!-- <link rel="preload"
-    href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.min.css?ver=1.0"
-    as="style" id="niso-theme-default-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
-<noscript>
-    <link rel="stylesheet"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.min.css?ver=1.0">
 </noscript> -->
 <link rel="preload" as="style" id="hfe-style-css"
     href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14"
