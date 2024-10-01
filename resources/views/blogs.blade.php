@@ -497,7 +497,7 @@
                             <div class="elementor-element elementor-element-0836d4a elementor-widget elementor-widget-image"
                                 data-id="0836d4a" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <img loading="lazy" decoding="async" width="750" height="375"
+                                    <img loading="lazy" decoding="async" width="457" height="257"
                                         src="{{ asset('public/wp-content/uploads/2024/06/') }}/{{ $blog->image }}"
                                         class="attachment-large size-large wp-image-6398"
                                         alt="business development strategies"
