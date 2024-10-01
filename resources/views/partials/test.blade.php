@@ -23,7 +23,7 @@
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <!-- <link rel="preload" as="style" id="twentytwentytwo-style-css"
     href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4"
-    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> -->
 <link rel="stylesheet" as="style" id="elementor-icons-shared-0-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> -->
