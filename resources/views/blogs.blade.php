@@ -28,8 +28,6 @@
     <link rel="canonical" href="https://wiseadvizor.com/blogs" />
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/public/wp-content/uploads/2024/06/1721978543.webp" type="image/webp">
-    @include('partials.test')
-
 
     <meta name=viewport content="width=device-width, initial-scale=1">
 </head>
@@ -598,6 +596,7 @@
         </section>
     </div>
     @include('partials.footer-web')
+    @include('partials.test')
     <link rel="stylesheet" as="style" id="elementor-icons-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0">
     <link rel="stylesheet" as="style" id="elementor-icons-shared-0-css"
