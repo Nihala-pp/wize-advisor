@@ -26,6 +26,7 @@
     <meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="canonical" href="https://wiseadvizor.com/blogs" />
+    <link rel="preload" fetchpriority="high" as="image"  href="https://wiseadvizor.com/public/wp-content/uploads/2024/06/1721978543.webp">
     <meta name=viewport content="width=device-width, initial-scale=1">
 </head>
 
