@@ -15,7 +15,13 @@
     <meta property="og:url" content="https://wiseadvizor.com/BrowseMentors">
     <meta name="twitter:url" content="https://wiseadvizor.com/BrowseMentors">
     @endif
-    <title>Find a Mentor and Get expert guidance on {{ $expert_coloumn }}</title>
+    <title>
+        @if(mb_strlen($expert_coloumn) >= 35)
+        Find a Mentor for {{ $expert_coloumn }}
+        @else
+        Find a Mentor and Get expert guidance on {{ $expert_coloumn }}
+        @endif
+    </title>
     <meta name="description"
         content="Find a mentor and gain invaluable entrepreneur advice on {{ $expert_coloumn }} at wiseAdvizor's mentorship program. Schedule a 1:1 call.">
     <meta name="keywords" content="Find a mentor, {{ $expert_coloumn }}, entrepreneur advice">
