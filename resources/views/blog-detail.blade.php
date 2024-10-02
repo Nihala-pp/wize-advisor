@@ -36,6 +36,10 @@
     <link rel="canonical"
         href="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}/{{ Str::slug($selectedBlog->title) }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        id="jquery-core-js"></script>
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        id="jquery-migrate-js"></script>
 </head>
 
 <body
