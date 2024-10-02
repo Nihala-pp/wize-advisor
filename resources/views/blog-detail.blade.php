@@ -477,12 +477,9 @@
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7012.css?ver=1717773569' media='all' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="preload" as="style" id="elementor-global-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419"
-        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload" as="style" id="elementor-post-8-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1699364637"
-        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload"
+        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
+        as="style" id="niso-carousel-fontello-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     @include('partials.footer-web')
 
     <script type="text/javascript">
