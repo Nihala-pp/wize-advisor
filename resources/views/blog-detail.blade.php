@@ -443,9 +443,6 @@
     <link async rel="preload" as="style"
         href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
         id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
-        as="style" id="niso-carousel-fontello-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <link rel='preload' id='elementor-post-3007-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1706786161' as="style"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
@@ -466,6 +463,9 @@
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
         as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" as="style"
+        href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
+        id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel='stylesheet' id='post-4349-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.css?ver=1717513898' media='all' />
