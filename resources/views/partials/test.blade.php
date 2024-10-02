@@ -26,8 +26,8 @@
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel='stylesheet' id='elementor-post-7005-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7005.css?ver=1717773569' media='all' />
-<link rel='stylesheet' id='elementor-post-2651-css'
-    href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2651.css?ver=1717513898' media='all' />
+<!-- <link rel='stylesheet' id='elementor-post-2651-css'
+    href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2651.css?ver=1717513898' media='all' /> -->
 <link rel='stylesheet' id='elementor-post-7009-css'
     href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7009.css?ver=1717773569' media='all' />
 <link rel='stylesheet' id='elementor-post-7012-css'
