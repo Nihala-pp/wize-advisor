@@ -16,8 +16,7 @@
     <meta name="twitter:url" content="https://wiseadvizor.com/BrowseMentors">
     @endif
     <title>
-        @if(mb_strlen($expert_coloumn) >= 35)
-        Find a Mentor for {{ $expert_coloumn }}
+        @if(mb_strlen($expert_coloumn) >= 35)Find a Mentor for {{ $expert_coloumn }}
         @else
         Find a Mentor and Get expert guidance on {{ $expert_coloumn }}
         @endif
