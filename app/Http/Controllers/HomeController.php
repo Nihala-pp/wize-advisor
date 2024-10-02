@@ -768,9 +768,9 @@ class HomeController extends Controller
     }
 
     $blogs = Blogs::where('deleted_at', '=', null)->orderByDesc('id')->get();
-    $featured_blog1 = Blogs::where('is_featured', 1)->latest()->first();
-    $featured_blog2 = Blogs::where('id', '!=', $featured_blog1->id)->where('is_featured', 1)->latest()->first();
-    $featured_blog3 = Blogs::where('id', '!=', $featured_blog2->id)->where('id', '!=', $featured_blog1->id)->where('is_featured', 1)->latest()->first();
+    $featured_blog1 = Blogs::where('is_featured', 1)->orderByDesc('id')->first();
+    $featured_blog2 = Blogs::where('id', '!=', $featured_blog1->id)->where('is_featured', 1)->orderByDesc('id')->first();
+    $featured_blog3 = Blogs::where('id', '!=', $featured_blog2->id)->where('id', '!=', $featured_blog1->id)->where('is_featured', 1)->orderByDesc('id')->first();
     $categories = BlogCategories::get();
 
     return view('blogs', compact('blogs', 'featured_blog1', 'featured_blog2', 'featured_blog3', 'categories', 'notifications'));
