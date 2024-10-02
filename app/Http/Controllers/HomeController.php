@@ -767,7 +767,7 @@ class HomeController extends Controller
       $notifications = '';
     }
 
-    $blogs = Blogs::where('deleted_at', '=', null)->get();
+    $blogs = Blogs::where('deleted_at', '=', null)->orderByDesc('id')->get();
     $featured_blog1 = Blogs::where('is_featured', 1)->latest()->first();
     $featured_blog2 = Blogs::where('id', '!=', $featured_blog1->id)->where('is_featured', 1)->latest()->first();
     $featured_blog3 = Blogs::where('id', '!=', $featured_blog2->id)->where('id', '!=', $featured_blog1->id)->where('is_featured', 1)->latest()->first();
