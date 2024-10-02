@@ -605,9 +605,9 @@
     <script async
         src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
         id="owl_carousel_js-js"></script>
-    <script async
+    <!-- <script async
         src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8') }}"
-        id="owl_thumbs_js-js"></script>
+        id="owl_thumbs_js-js"></script> -->
 
     <script type="text/javascript">
     jQuery(document).ready(function() {
