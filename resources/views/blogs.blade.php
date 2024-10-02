@@ -130,7 +130,8 @@
                                                                                         data-widget_type="image.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <img fetchpriority="high" decoding="async"
+                                                                                            <img fetchpriority="high"
+                                                                                                decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
                                                                                                 src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }}"
@@ -601,6 +602,12 @@
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <script async src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
+    <script async
+        src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
+        id="owl_carousel_js-js"></script>
+    <script async
+        src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8') }}"
+        id="owl_thumbs_js-js"></script>
 
     <script type="text/javascript">
     jQuery(document).ready(function() {
@@ -659,6 +666,7 @@
     });
     </script>
 </body>
+
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-a96e0b3.elementor-social-icon i {
