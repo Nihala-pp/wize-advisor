@@ -470,8 +470,6 @@
 
     @include('partials.footer-web')
 
-    <!-- @include('partials.web-script') -->
-
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
