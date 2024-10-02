@@ -177,7 +177,7 @@
                                                                                             class="elementor-widget-container">
                                                                                             <h2
                                                                                                 class="elementor-heading-title elementor-size-default">
-                                                                                                {{ $featured_blog2->title }}
+                                                                                                {{ $featured_blog3->title }}
                                                                                             </h2>
                                                                                         </div>
                                                                                     </div>
@@ -187,7 +187,7 @@
                                                                                         data-widget_type="text-editor.default">
                                                                                         <div
                                                                                             class="elementor-widget-container">
-                                                                                            <p>{{ Str::of(strip_tags($featured_blog2->description))->words(10, ' ....') }}
+                                                                                            <p>{{ Str::of(strip_tags($featured_blog3->description))->words(10, ' ....') }}
                                                                                             </p>
                                                                                         </div>
                                                                                     </div>
@@ -200,7 +200,7 @@
                                                                                             <div
                                                                                                 class="elementor-button-wrapper">
                                                                                                 <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                                                                    href="{{ route('blogDetail', [$featured_blog2->id, Str::slug($featured_blog2->title)]) }}">
+                                                                                                    href="{{ route('blogDetail', [$featured_blog3->id, Str::slug($featured_blog2->title)]) }}">
                                                                                                     <span
                                                                                                         class="elementor-button-content-wrapper">
                                                                                                         <span
@@ -227,10 +227,10 @@
                                                                                             <img decoding="async"
                                                                                                 width="2560"
                                                                                                 height="1439"
-                                                                                                src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }}"
+                                                                                                src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }}"
                                                                                                 class="attachment-full size-full wp-image-6996 lazyload"
                                                                                                 alt="digital marketing strategies"
-                                                                                                srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog2->featured_image }} 1568w"
+                                                                                                srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2560w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $featured_blog3->featured_image }} 1568w"
                                                                                                 sizes="(max-width: 2560px) 100vw, 2560px"
                                                                                                 style="width:100%;height:56.21%;max-width:2560px">
                                                                                         </div>
