@@ -35,6 +35,7 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="canonical"
         href="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}/{{ Str::slug($selectedBlog->title) }}">
+    <link rel="preload"fetchpriority="high" href="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }}" as="image" type="image/webp">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async data-cfasync="false"
@@ -370,7 +371,7 @@
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="750" height="375"
                                     src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }}"
-                                    class="attachment-large size-large wp-image-6398" alt="{{ $related_post->title }}"
+                                    class="attachment-large size-large wp-image-6398 lazyload" alt="{{ $related_post->title }}"
                                     srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1568w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1300w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:50%;max-width:2400px" />
