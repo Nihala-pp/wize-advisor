@@ -480,6 +480,9 @@
     <link rel="preload" as="style" id="elementor-global-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" as="style" id="elementor-post-8-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1699364637"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     @include('partials.footer-web')
 
     <script type="text/javascript">
