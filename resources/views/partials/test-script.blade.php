@@ -122,7 +122,7 @@ var qodefQiAddonsGlobal = {
 </script>
 <!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
 </script> -->
-<!-- <script id="elementor-frontend-js-before">
+<script id="elementor-frontend-js-before">
 var elementorFrontendConfig = {
     "environmentMode": {
         "edit": false,
@@ -245,14 +245,14 @@ var elementorFrontendConfig = {
 };
 </script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
-    id="elementor-frontend-js"></script> -->
+    id="elementor-frontend-js"></script>
 <!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
     id="wp-polyfill-inert-js"></script> -->
 <!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
     id="regenerator-runtime-js"></script> -->
 <!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0') }}" id="wp-polyfill-js">
 </script> -->
-<script defer src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
+<!-- <script defer src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
 </script>
 <script defer src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}" id="wp-i18n-js">
 </script>
@@ -263,7 +263,7 @@ wp.i18n.setLocaleData({
 </script>
 <script defer
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=6.2.2') }}"
-    id="qi-addons-for-elementor-elementor-js"></script>
+    id="qi-addons-for-elementor-elementor-js"></script> -->
 <!-- <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
     id="elementor-pro-webpack-runtime-js"></script> -->
 <script id="elementor-pro-frontend-js-before">
