@@ -89,7 +89,7 @@ var qodefQiAddonsGlobal = {
 <!-- <script defer
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2') }}"
     id="swiper-js"></script> -->
-<script async src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
+<!-- <script async src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
     id="owl_carousel_js-js"></script>
 <script defer src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
     id="mousewheel_js-js"></script>
@@ -101,12 +101,12 @@ var qodefQiAddonsGlobal = {
     src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/video/lg-video.min.js?ver=2.5.0') }}"
     id="lightgallery_video_js-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0') }}"
-    id="lightgallery_zoom_js-js"></script>
+    id="lightgallery_zoom_js-js"></script> -->
 <!-- <script
     src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/autoplay/lg-autoplay.min.js?ver=2.5.0') }}"
     id="lightgallery_autoplay_js-js"></script> -->
-<script defer src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
-    id="vimeo_player_js-js"></script>
+<!-- <script defer src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
+    id="vimeo_player_js-js"></script> -->
 <script async
     src="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107') }}"
     id="owl-carousel-js"></script>
