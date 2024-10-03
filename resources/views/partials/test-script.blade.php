@@ -107,7 +107,7 @@ var qodefQiAddonsGlobal = {
     id="lightgallery_autoplay_js-js"></script> -->
 <!-- <script defer src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
     id="vimeo_player_js-js"></script> -->
-<script async
+<!-- <script async
     src="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107') }}"
     id="owl-carousel-js"></script>
 <script defer
@@ -115,7 +115,7 @@ var qodefQiAddonsGlobal = {
     id="isotope-js"></script>
 <script defer
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min.js?ver=6.2.2') }}"
-    id="packery-js"></script>
+    id="packery-js"></script> -->
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
 </script>
 <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
