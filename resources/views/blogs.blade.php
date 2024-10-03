@@ -30,10 +30,12 @@
         href="https://wiseadvizor.com/public/wp-content/uploads/2024/06/1721978543.webp" type="image/webp">
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-    <script async data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
+    <script async data-cfasync="false"
+        src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    </script>
     <meta name=viewport content="width=device-width, initial-scale=1">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-2650 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2650 horizontal-scroll-class">
 
@@ -599,6 +601,20 @@
     </div>
     @include('partials.footer-web')
     @include('partials.test')
+    <link rel='stylesheet' id='elementor-post-7005-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7005.css?ver=1717773569' media='all' />
+    <link rel='stylesheet' id='elementor-post-7009-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7009.css?ver=1717773569' media='all' />
+    <link rel='stylesheet' id='elementor-post-7012-css'
+        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7012.css?ver=1717773569' media='all' />
+    <link async href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preload" as="style" id="owl_carousel_css-css"
+        href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}"
+        onload="this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" as="style" id="owl_theme_css-css"
+        href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}"
+        onload="this.rel='stylesheet'" crossorigin="anonymous">
     <script async src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
     <script async
         src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
@@ -661,6 +677,7 @@
     });
     </script>
 </body>
+
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-a96e0b3.elementor-social-icon i {
