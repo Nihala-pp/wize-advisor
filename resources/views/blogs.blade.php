@@ -599,7 +599,6 @@
             </div>
         </section>
     </div>
-    @include('partials.footer-web')
     @include('partials.test')
     <link rel='stylesheet' id='elementor-post-7005-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7005.css?ver=1717773569' media='all' />
@@ -615,6 +614,7 @@
     <link rel="preload" as="style" id="owl_theme_css-css"
         href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}"
         onload="this.rel='stylesheet'" crossorigin="anonymous">
+    @include('partials.footer-web')
     <script async src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
     <script async
         src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
