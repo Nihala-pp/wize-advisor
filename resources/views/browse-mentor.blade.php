@@ -105,10 +105,10 @@
                                 }
                                 </style>
                                 <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
-                                <div class="elementor-heading-title elementor-size-default">Find a mentor for your
+                                <div class="elementor-heading-title elementor-size-default"><p>Find a mentor for your
                                     startup on wiseAdvizor. Discover a world of expertise: Explore mentors offering
                                     invaluable guidance. Find the perfect mentor to elevate your journey and achieve
-                                    your goals with confidence.</div>
+                                    your goals with confidence.</p></div>
                             </div>
                         </div>
                         <!-- <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading" data-id="7fd4600" data-element_type="widget" data-widget_type="heading.default"> <div class="elementor-widget-container"> <div class="elementor-heading-title elementor-size-default">Skip the trial and error approach! Browse our mentors and overcome obstacles with personalized guidance. </div> </div> </div> -->
