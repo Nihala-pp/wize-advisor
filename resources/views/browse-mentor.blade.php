@@ -627,8 +627,8 @@
     <script async src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
     </script>
     <script type="text/javascript">
-    (function($) {
-        $(document).ready(function() {
+       (function($) {
+          $(document).ready(function() {
             $('.apply_filters').on('click', function() {
                 var form = $('.filterForm').serialize();
 
@@ -642,8 +642,8 @@
                     success: function(response) {}
                 });
             });
-        });
-    }(jQuery));
+          });
+        }(jQuery));
     </script>
 </body>
 <style>
@@ -1725,5 +1725,4 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
-
 </html>
