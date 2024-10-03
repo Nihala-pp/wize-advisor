@@ -25,7 +25,7 @@ gtag('config', 'G-QC47PPTD6T');
 </script>
 <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
 </script>
-<script id="elementor-frontend-js-before">
+<!-- <script id="elementor-frontend-js-before">
 var elementorFrontendConfig = {
     "environmentMode": {
         "edit": false,
@@ -146,7 +146,7 @@ var elementorFrontendConfig = {
         "featuredImage": false
     }
 };
-</script>
+</script> -->
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
     id="elementor-frontend-js"></script>
 <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
