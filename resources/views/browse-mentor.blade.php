@@ -14,7 +14,7 @@
     @endif
     <meta name="keywords"
         content="Find a mentor, entrepreneur advice, mentorship program, growth mentor, business tips">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
@@ -601,8 +601,18 @@
 
     @include('partials.footer-web')
 
-     @include('partials.web-script')
-
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
+        id="wpr-particles-js"></script>
+    <script defer
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
+        id="wpr-jarallax-js"></script>
+    <script defer
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
+        id="wpr-parallax-hover-js"></script>
+    <script async
+        src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
+        id="wpr-addons-js-js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
@@ -1262,7 +1272,7 @@ i.fas.fa-bell.fa-2xl {
     body {
         max-width: 100% !important;
         overflow-x: hidden !important;
-    } 
+    }
 
     .grid-child p {
         margin-bottom: -5px;
