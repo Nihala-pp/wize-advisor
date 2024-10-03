@@ -2,6 +2,17 @@
 <html lang="en-US">
 
 <head>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-QC47PPTD6T');
+    </script>
     <meta charset="UTF-8">
     @if(!empty($expertise_name))
     <title>Find a Mentor and Get {{ $expertise_name }} Advice Today</title>
@@ -35,8 +46,7 @@
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.png" type="image/png">
     <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script"
         crossorigin>
-    <script  src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js">
+    <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
     @php
     $expert_coloumn = $expertise_name ? $expertise_name : NULL;
@@ -105,10 +115,12 @@
                                 }
                                 </style>
                                 <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
-                                <div class="elementor-heading-title elementor-size-default"><h1 loading="eager">Find a mentor for your
-                                    startup on wiseAdvizor. Discover a world of expertise: Explore mentors offering
-                                    invaluable guidance. Find the perfect mentor to elevate your journey and achieve
-                                    your goals with confidence.</h1></div>
+                                <div class="elementor-heading-title elementor-size-default">
+                                    <h1 loading="eager">Find a mentor for your
+                                        startup on wiseAdvizor. Discover a world of expertise: Explore mentors offering
+                                        invaluable guidance. Find the perfect mentor to elevate your journey and achieve
+                                        your goals with confidence.</h1>
+                                </div>
                             </div>
                         </div>
                         <!-- <div class="elementor-element elementor-element-7fd4600 elementor-widget elementor-widget-heading" data-id="7fd4600" data-element_type="widget" data-widget_type="heading.default"> <div class="elementor-widget-container"> <div class="elementor-heading-title elementor-size-default">Skip the trial and error approach! Browse our mentors and overcome obstacles with personalized guidance. </div> </div> </div> -->

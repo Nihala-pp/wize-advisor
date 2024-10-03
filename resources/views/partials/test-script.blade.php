@@ -1,15 +1,4 @@
 <!-- Google tag (gtag.js) -->
-<script defer src="https://www.googletagmanager.com/gtag/js?id=G-QC47PPTD6T"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-
-function gtag() {
-    dataLayer.push(arguments);
-}
-gtag('js', new Date());
-
-gtag('config', 'G-QC47PPTD6T');
-</script>
 <script async
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
     id="wpr-addons-js-js"></script>
