@@ -644,7 +644,7 @@
     background-color: #F3EEF5;
     color: #262626;
     font-family: "Helvetica", Sans-serif;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 800;
     line-height: 25px;
     padding: 35px 0 35px 150px;
