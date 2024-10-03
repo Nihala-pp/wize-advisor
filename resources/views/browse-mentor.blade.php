@@ -584,6 +584,8 @@
         </section>
     </div>
 
+    @include('partials.test')
+
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet"
@@ -597,8 +599,6 @@
     </script>
 
     @include('partials.footer-web')
-
-    @include('partials.test')
 
     @include('partials.test-script')
 
@@ -1712,4 +1712,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
+
 </html>
