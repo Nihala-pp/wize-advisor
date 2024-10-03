@@ -105,7 +105,7 @@
                                 }
                                 </style>
                                 <!--<h1 class="elementor-heading-title elementor-size-default">Find a mentor for your startup on wiseAdvizor</h1>-->
-                                <div class="elementor-heading-title elementor-size-default"><p>Find a mentor for your
+                                <div class="elementor-heading-title elementor-size-default"><p loading="eager">Find a mentor for your
                                     startup on wiseAdvizor. Discover a world of expertise: Explore mentors offering
                                     invaluable guidance. Find the perfect mentor to elevate your journey and achieve
                                     your goals with confidence.</p></div>
