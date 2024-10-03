@@ -594,7 +594,7 @@
     <link rel="stylesheet" id="twenty-twenty-one-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.min.css?ver=2.0" media="all">
 
-    @include('partials.web-style')
+    <!-- @include('partials.web-style') -->
 
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
