@@ -266,7 +266,7 @@ wp.i18n.setLocaleData({
     id="qi-addons-for-elementor-elementor-js"></script> -->
 <!-- <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
     id="elementor-pro-webpack-runtime-js"></script> -->
-<script id="elementor-pro-frontend-js-before">
+<!-- <script id="elementor-pro-frontend-js-before">
 var ElementorProFrontendConfig = {
     "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
     "nonce": "3a5ad37dc1",
@@ -354,7 +354,7 @@ var ElementorProFrontendConfig = {
 <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
     id="elementor-pro-frontend-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
-    id="pro-elements-handlers-js"></script>
+    id="pro-elements-handlers-js"></script> -->
 <!-- <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
     id="e-sticky-js"></script> -->
 <script  async src="{{ asset('public/wp-includes/js/underscore.min.js') }}">
