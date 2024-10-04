@@ -2265,7 +2265,7 @@
     background-color: #4285f4;
     border-radius: 7px 7px 7px 7px;
     cursor: pointer !important;
-    filter: contrast(7:1) !important;
+    filter: contrast(7) !important;
 }
 
 .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
