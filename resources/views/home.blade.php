@@ -2868,9 +2868,10 @@ i.fas.fa-chevron-down {
     font-family: "Sailec", Sans-serif;
     font-size: 19px;
     font-weight: bold !important;
-    letter-spacing: 1.2px;
     fill: #FFFFFF;
     color: #FFFFFF;
+    letter-spacing: .07em;
+    filter: contrast(4.5) !important;
 }
 
 @media (max-width: 767px) {
