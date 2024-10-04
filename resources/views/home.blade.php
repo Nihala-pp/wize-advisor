@@ -1986,7 +1986,7 @@
         color: #FFFFFF;
         background-color: var(--e-global-color-1e1892c);
         border-radius: 7px 7px 7px 7px;
-        filter:contrast(4.5) !important;
+        filter: contrast(4.5) !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-44e602b .elementor-heading-title {
@@ -2872,6 +2872,31 @@ i.fas.fa-chevron-down {
     border-color: #E8E8E8;
     border-style: none;
     border-radius: 4px 4px 4px 4px;
+}
+
+.elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
+    font-family: "Sailec", Sans-serif;
+    font-size: 19px;
+    font-weight: bold !important;
+    letter-spacing: .08em;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #4285F4;
+    border-radius: 7px 7px 7px 7px;
+    margin-right: 85px;
+    filter: contrast(4.5) !important;
+}
+
+.elementor-8 .elementor-element.elementor-element-f82bbec .elementor-button {
+    font-family: "Sailec", Sans-serif;
+    font-size: 19px;
+    font-weight: bold !important;
+    letter-spacing: .08em;
+    fill: #FFFFFF;
+    color: #FFFFFF;
+    background-color: #001E64 !important;
+    border-radius: 7px 7px 7px 7px;
+    filter: contrast(4.5) !important;
 }
 
 .elementor-8 .elementor-element.elementor-element-c70251b a {
