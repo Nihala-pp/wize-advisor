@@ -2259,7 +2259,7 @@
     font-family: "Sailec", Sans-serif;
     font-size: 19px;
     font-weight: bold !important;
-    letter-spacing: .05em;
+    letter-spacing: .08em;
     fill: #FFFFFF;
     color: #FFFFFF;
     background-color: #4285f4;
