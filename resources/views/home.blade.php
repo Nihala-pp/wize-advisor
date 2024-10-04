@@ -2930,7 +2930,17 @@ i.fas.fa-chevron-down {
         /* filter: contrast(4.5) !important; */
     }
 
-
+    .elementor-8 .elementor-element.elementor-element-f82bbec .elementor-button {
+        font-family: "Sailec", Sans-serif;
+        font-size: 19px;
+        font-weight: bold !important;
+        letter-spacing: .08em;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: #001E64 !important;
+        border-radius: 7px 7px 7px 7px;
+        /* filter: contrast(4.5) !important; */
+    }
 
     .elementor-8 .elementor-element.elementor-element-d07a702 .elementor-heading-title {
         color: #FFFFFF;
