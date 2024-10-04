@@ -1977,6 +1977,18 @@
         padding: 0px 30px 40px 50px;
     }
 
+    .elementor-8 .elementor-element.elementor-element-b0a6192 .elementor-button {
+        font-family: "Sailec", Sans-serif;
+        font-size: 19px;
+        font-weight: bold !important;
+        letter-spacing: .08em;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        background-color: var(--e-global-color-1e1892c);
+        border-radius: 7px 7px 7px 7px;
+        filter:contrast(4.5) !important;
+    }
+
     .elementor-8 .elementor-element.elementor-element-44e602b .elementor-heading-title {
         color: #330252;
         font-family: "Helvetica", Sans-serif;
@@ -2870,7 +2882,7 @@ i.fas.fa-chevron-down {
     font-weight: bold !important;
     fill: #FFFFFF;
     color: #FFFFFF;
-    letter-spacing: .07em;
+    letter-spacing: .08em;
     filter: contrast(4.5) !important;
 }
 
@@ -3413,7 +3425,7 @@ i.fas.fa-chevron-down {
         background-color: #4285f4;
         border-radius: 7px 7px 7px 7px;
         margin-bottom: 10px;
-        filter:contrast(4.5) !important;
+        filter: contrast(4.5) !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-62d1cd5>.elementor-widget-container {
@@ -3493,7 +3505,7 @@ i.fas.fa-chevron-down {
         background-color: #4285f4;
         border-radius: 7px 7px 7px 7px;
         margin-bottom: 0px;
-        filter:contrast(4.5) !important;
+        filter: contrast(4.5) !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
