@@ -1876,7 +1876,8 @@
             <div class="modal-dialog" role="alertdialog" aria-modal="true" aria-labelledby="offer_modal_label">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="offer_modal_label"><b>Hey, Get 1:1 mentorship to remove your business hurdles! </b></h5>
+                        <h5 class="modal-title" id="offer_modal_label"><b>Hey, Get 1:1 mentorship to remove your
+                                business hurdles! </b></h5>
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
@@ -2198,7 +2199,10 @@
 
             var silder = $(".owl-carousel");
             silder.owlCarousel({
-                autoplay: true,
+                autoPlay: true,
+                autoPlaySpeed: 5000,
+                autoPlayTimeout: 5000,
+                autoplayHoverPause: true,
                 items: 4,
                 center: true,
                 nav: false,
