@@ -2199,9 +2199,9 @@
             var silder = $(".owl-carousel");
             silder.owlCarousel({
                 autoPlay: true,
-                items: 1,
-                center: false,
-                nav: true,
+                items: 4,
+                center: true,
+                nav: false,
                 margin: 40,
                 dots: false,
                 loop: true,
