@@ -1881,8 +1881,8 @@
                     </div>
                 </div>
         </section>
-        <div class="modal" role="dialog" id="offer_modal" aria-labelledby="labeldiv" style="display:none">
-            <div class="modal-dialog" role="document">
+        <div class="modal" role="dialog" id="offer_modal" aria-labelledby="offer_modal_label" style="display:none">
+            <div class="modal-dialog" role="alertdialog" aria-label="offer_modal_content">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title"><b>Hey, Get 1:1 mentorship to remove your business hurdles! </b></h5>
