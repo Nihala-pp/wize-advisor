@@ -2202,7 +2202,6 @@
                 autoplay: true,
                 autoplaySpeed: 5000,
                 autoplayTimeout: 5000,
-                autoplayHoverPause: true,
                 items: 4,
                 center: true,
                 nav: false,
