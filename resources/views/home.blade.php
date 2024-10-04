@@ -3405,14 +3405,15 @@ i.fas.fa-chevron-down {
 
     .elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
         font-family: "Sailec", Sans-serif;
-        font-size: 0.9rem;
-        font-weight: 600;
-        letter-spacing: 1.2px;
+        font-size: 19px;
+        font-weight: bold !important;
+        letter-spacing: .08em;
         fill: #FFFFFF;
         color: #FFFFFF;
         background-color: #4285f4;
         border-radius: 7px 7px 7px 7px;
         margin-bottom: 10px;
+        filter:contrast(4.5) !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-62d1cd5>.elementor-widget-container {
@@ -3484,14 +3485,15 @@ i.fas.fa-chevron-down {
 
     .elementor-8 .elementor-element.elementor-element-62d1cd5 .elementor-button {
         font-family: "Sailec", Sans-serif;
-        font-size: 0.9rem;
-        font-weight: 600;
-        letter-spacing: 1.2px;
+        font-size: 19px;
+        font-weight: bold !important;
+        letter-spacing: .05em;
         fill: #FFFFFF;
         color: #FFFFFF;
         background-color: #4285f4;
         border-radius: 7px 7px 7px 7px;
         margin-bottom: 0px;
+        filter:contrast(4.5) !important;
     }
 
     .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
