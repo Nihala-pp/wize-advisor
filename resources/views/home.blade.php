@@ -1872,16 +1872,16 @@
                     </div>
                 </div>
         </section>
-        <div id="offer_modal" class="modal" style="display:none">
-            <div role="alertdialog" aria-modal="true" aria-labelledby="dialog_label" aria-describedby="dialog_desc">
+        <div class="modal" id="offer_modal" style="display:none">
+            <div class="modal-dialog" role="alertdialog" aria-labelledby="offer_modal_label">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="dialog_label"><b>Hey, Get 1:1 mentorship to remove your business hurdles! </b></h5>
+                        <h5 class="modal-title" id="offer_modal_label"><b>Hey, Get 1:1 mentorship to remove your business hurdles! </b></h5>
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div id="dialog_desc" class="modal-body">
+                    <div class="modal-body">
                         <p>25% off on scheduling a call now!</p>
                         <p><b>Promo Code: MENTOR25 </b></p>
                         <p>Remember, A mentor is a cheat sheet for an entrepreneur.
