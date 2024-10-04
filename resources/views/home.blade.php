@@ -2389,7 +2389,7 @@ i.fas.fa-chevron-down {
     margin-bottom: 1px;
 }
 
-.elementor-8 .elementor-element.elementor-element-f82bbec .elementor-button {
+/* .elementor-8 .elementor-element.elementor-element-f82bbec .elementor-button {
     font-family: "Sailec", Sans-serif;
     font-size: 0.9rem;
     font-weight: 600;
@@ -2398,7 +2398,7 @@ i.fas.fa-chevron-down {
     color: #FFFFFF;
     background-color: #001E64 !important;
     border-radius: 7px 7px 7px 7px;
-}
+} */
 
 .elementor-8 .elementor-element.elementor-element-5fe437d .elementor-heading-title {
     color: #000 !important;
@@ -2916,6 +2916,18 @@ i.fas.fa-chevron-down {
 
     .mobile {
         padding-top: 30px;
+    }
+
+    .elementor-8 .elementor-element.elementor-element-c70251b a {
+        background-color: #4285f4 !important;
+        font-family: "Sailec", sans-serif;
+        border-radius: 7px 7px 7px 7px;
+        font-size: 19px !important;
+        font-weight: bold !important;
+        fill: #FFFFFF;
+        color: #FFFFFF;
+        letter-spacing: .08em;
+        /* filter: contrast(4.5) !important; */
     }
 
 
