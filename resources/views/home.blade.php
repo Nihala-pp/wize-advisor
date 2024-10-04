@@ -1899,7 +1899,7 @@
                     <div class="modal-footer">
                         <button type="button" class="btn btn-primary"
                             style="align:center;background-color:#4285f4;color:#fff;"><a href="{{ route('login') }}"
-                                style="color:#fff;">Get
+                                style="color:#fff;font-size:19px; font-weight:bold !important;">Get
                                 Started</a></button>
                     </div>
                 </div>
@@ -1986,7 +1986,7 @@
         color: #FFFFFF;
         background-color: var(--e-global-color-1e1892c);
         border-radius: 7px 7px 7px 7px;
-        filter: contrast(4.5) !important;
+        /* filter: contrast(4.5) !important; */
     }
 
     .elementor-8 .elementor-element.elementor-element-44e602b .elementor-heading-title {
@@ -2277,7 +2277,7 @@
     background-color: #4285f4;
     border-radius: 7px 7px 7px 7px;
     cursor: pointer !important;
-    filter: contrast(4.5) !important;
+    /* filter: contrast(4.5) !important; */
 }
 
 .elementor-8 .elementor-element.elementor-element-daa9944 .elementor-heading-title {
@@ -2884,7 +2884,7 @@ i.fas.fa-chevron-down {
     background-color: #4285F4;
     border-radius: 7px 7px 7px 7px;
     margin-right: 85px;
-    filter: contrast(4.5) !important;
+    /* filter: contrast(4.5) !important; */
 }
 
 .elementor-8 .elementor-element.elementor-element-f82bbec .elementor-button {
@@ -2896,7 +2896,7 @@ i.fas.fa-chevron-down {
     color: #FFFFFF;
     background-color: #001E64 !important;
     border-radius: 7px 7px 7px 7px;
-    filter: contrast(4.5) !important;
+    /* filter: contrast(4.5) !important; */
 }
 
 .elementor-8 .elementor-element.elementor-element-c70251b a {
@@ -2908,7 +2908,7 @@ i.fas.fa-chevron-down {
     fill: #FFFFFF;
     color: #FFFFFF;
     letter-spacing: .08em;
-    filter: contrast(4.5) !important;
+    /* filter: contrast(4.5) !important; */
 }
 
 @media (max-width: 767px) {
@@ -3450,7 +3450,7 @@ i.fas.fa-chevron-down {
         background-color: #4285f4;
         border-radius: 7px 7px 7px 7px;
         margin-bottom: 10px;
-        filter: contrast(4.5) !important;
+        /* filter: contrast(4.5) !important; */
     }
 
     .elementor-8 .elementor-element.elementor-element-62d1cd5>.elementor-widget-container {
@@ -3530,7 +3530,7 @@ i.fas.fa-chevron-down {
         background-color: #4285f4;
         border-radius: 7px 7px 7px 7px;
         margin-bottom: 0px;
-        filter: contrast(4.5) !important;
+        /* filter: contrast(4.5) !important; */
     }
 
     .elementor-8 .elementor-element.elementor-element-40605d1 .elementor-counter-title {
