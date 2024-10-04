@@ -1743,15 +1743,6 @@
                                         </span>
                                     </a>
                                 </div>
-                                <!-- <div class="wpr-button-wrap elementor-clearfix">
-                                    <a class="elementor-button elementor-button-link elementor-size-sm" data-text="Go"
-                                        href="{{ route('register') }}" style="background-color:#001E64 !important;">
-                                        <span class="wpr-button-content">
-                                            <span class="wpr-button-text">Get Started</span>
-                                            <span class="wpr-button-icon"><i class="fas fa-angle-right"></i></span>
-                                        </span>
-                                    </a>
-                                </div> -->
                             </div>
                         </div>
                     </div>
