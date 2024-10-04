@@ -2865,7 +2865,7 @@ i.fas.fa-chevron-down {
     background-color: #4285f4 !important;
     font-family: "Sailec", sans-serif;
     border-radius: 7px 7px 7px 7px;
-    font-size: 19px;
+    font-size: 19px !important;
     font-weight: bold !important;
     fill: #FFFFFF;
     color: #FFFFFF;
