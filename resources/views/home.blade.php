@@ -662,7 +662,7 @@
                                                         <span class="elementor-icon elementor-animation-">
                                                             <img src="https://wiseadvizor.com/wp-content/uploads/2023/06/Meet-the-mentor.png"
                                                                 height="30px;" width="30px;" style="border-radius:70px;"
-                                                                alt="growth mentor"> </span>
+                                                                alt="growth mentor">
                                                         </span>
                                                     </div>
 
