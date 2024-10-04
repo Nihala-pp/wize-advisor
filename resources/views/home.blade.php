@@ -2206,7 +2206,7 @@
                 center: true,
                 nav: false,
                 margin: 40,
-                dots: false,
+                dots: true,
                 loop: true,
                 navText: [
                     "<i class='fa fa-arrow-left' aria-hidden='true' style='background-color: #fff;color:#fff;'></i>",
