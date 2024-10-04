@@ -1938,7 +1938,7 @@
         line-height: 39px;
     }
 
-    .elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
+    /* .elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
         font-family: "Sailec", Sans-serif;
         font-size: 0.9rem;
         font-weight: 600;
@@ -1948,7 +1948,7 @@
         background-color: #4285F4;
         border-radius: 7px 7px 7px 7px;
         margin-right: 85px;
-    }
+    } */
 
     .elementor-8 .elementor-element.elementor-element-a212a53 img {
         width: 100%;
@@ -2968,10 +2968,11 @@ i.fas.fa-chevron-down {
 
     .elementor-8 .elementor-element.elementor-element-996ad43 .elementor-button {
         font-family: "Helvetica", Sans-serif;
-        font-weight: 500;
+        font-weight: bold !important;
         background-color: #4285F4;
         border-radius: 7px 7px 7px 7px;
         margin-right: 0px;
+        font-size: 19px;
     }
 
     .elementor-8 .elementor-element.elementor-element-a212a53 img {
