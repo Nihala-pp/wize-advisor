@@ -1873,7 +1873,7 @@
                 </div>
         </section>
         <div class="modal" id="offer_modal" style="display:none">
-            <div class="modal-dialog" role="alertdialog" aria-labelledby="offer_modal_label">
+            <div class="modal-dialog" role="alertdialog" aria-modal="true" aria-labelledby="offer_modal_label">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="offer_modal_label"><b>Hey, Get 1:1 mentorship to remove your business hurdles! </b></h5>
