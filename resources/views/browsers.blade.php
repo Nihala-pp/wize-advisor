@@ -786,6 +786,12 @@ input[type=reset]:not(:hover):not(:active):not(.has-background),
     background-color: #000 !important;
 }
 
+.btn:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
 .bio {
     margin-top: -15px;
     font-size: 13.5px;
