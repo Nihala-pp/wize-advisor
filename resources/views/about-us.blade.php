@@ -433,7 +433,7 @@
     @include('partials.web-style')
     @include('partials.footer-web')
     @include('partials.web-script')
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <script type="text/javascript">
         (function($) {
         "use strict";
