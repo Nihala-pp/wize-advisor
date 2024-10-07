@@ -737,8 +737,64 @@ span.charge {
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:active,
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:focus,
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:hover {
-    color: rgba(255, 255, 255, .5);
-    background-color: #54b4d3 !important;
+    color: #fff !important;
+    background-color: #000 !important;
+    border: #000 !important;
+}
+
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-danger:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-dark:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-info:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-primary:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-secondary:hover,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:active,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:focus,
+.bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.site .button:not(:hover):not(:active):not(.has-background),
+button:not(:hover):not(:active):not(.has-background),
+input[type=submit]:not(:hover):not(:active):not(.has-background),
+input[type=reset]:not(:hover):not(:active):not(.has-background),
+.wp-block-search .wp-block-search__button:not(:hover):not(:active):not(.has-background),
+.wp-block-button .wp-block-button__link:not(:hover):not(:active):not(.has-background),
+.wp-block-file a.wp-block-file__button:not(:hover):not(:active):not(.has-background) {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.btn:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show>.btn-info.dropdown-toggle {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
 }
 
 .bio {
@@ -1012,7 +1068,7 @@ padding-top:
  !important;
 */
         color:
-            #54b4d3 !important;
+            #000 !important;
     }
 
     input[type="date"]:focus,
@@ -1055,7 +1111,7 @@ padding-top:
         text-align:
             left;
         background-color:
-            #000;
+            #000 !important;
         /*
 margin-left:
 125px
