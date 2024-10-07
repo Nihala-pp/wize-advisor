@@ -773,6 +773,7 @@ span.charge {
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:hover {
     color: #fff !important;
     background-color: #000 !important;
+    border-color: #000 !important;
 }
 
 .site .button:not(:hover):not(:active):not(.has-background),
@@ -784,9 +785,18 @@ input[type=reset]:not(:hover):not(:active):not(.has-background),
 .wp-block-file a.wp-block-file__button:not(:hover):not(:active):not(.has-background) {
     color: #fff !important;
     background-color: #000 !important;
+    border-color: #000 !important;
 }
 
 .btn:hover {
+    color: #fff !important;
+    background-color: #000 !important;
+    border-color: #000 !important;
+}
+
+.btn-info:not(:disabled):not(.disabled).active,
+.btn-info:not(:disabled):not(.disabled):active,
+.show>.btn-info.dropdown-toggle {
     color: #fff !important;
     background-color: #000 !important;
     border-color: #000 !important;
