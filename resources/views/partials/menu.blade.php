@@ -234,7 +234,7 @@
                             data-id="556f326" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <a href="https://wiseadvizor.com">
-                                    <img  width="768" height="115"
+                                    <img width="768" height="115"
                                         src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                         class="attachment-large size-large wp-image-624"
                                         alt="startup mentorship platform"
