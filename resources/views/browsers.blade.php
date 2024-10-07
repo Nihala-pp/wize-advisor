@@ -771,8 +771,8 @@ span.charge {
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:active,
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:focus,
 .bootstrap-select>.dropdown-toggle.bs-placeholder.btn-success:hover {
-    color: #fff;
-    background-color: #000 !important;
+    color: rgba(255, 255, 255, .5);
+    background-color: #54b4d3 !important;
 }
 
 .bio {
