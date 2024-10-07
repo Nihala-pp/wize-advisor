@@ -7,10 +7,10 @@
 <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.min.css?ver=1.6.14"
     as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link defer rel="preload" as="style"
+<link  rel="preload" as="style"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
     id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link async rel='preload' as="style" id='elementor-pro-css'
+<link  rel='preload' as="style" id='elementor-pro-css'
     href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel='preload' id='elementor-post-3007-css'
