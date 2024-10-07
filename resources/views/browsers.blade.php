@@ -677,7 +677,6 @@
 
             $('.apply_filters').on('click', function() {
                 var form = $('.filterForm').serialize();
-
                 return $.ajax({
                     type: 'GET',
                     url: "{{ route('browseMentor') }}",
@@ -1663,5 +1662,4 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
-
 </html>
