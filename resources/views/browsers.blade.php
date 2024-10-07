@@ -1065,8 +1065,7 @@ input[type="date"]:valid::before {
         130%;
     text-align:
         left;
-    background-color:
-}
+    background-color: #000 !important;
 }
 
 .card-deck .card {
