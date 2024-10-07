@@ -43,6 +43,8 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image"
+        href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
     <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"
         as="script">
     </link>
@@ -1663,4 +1665,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
+
 </html>
