@@ -55,7 +55,7 @@
                                     data-layout="horizontal">
                                     <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
                                         <span class="screen-reader-text">Menu</span>
-                                        <div class="hfe-nav-menu-icon">
+                                        <div class="hfe-nav-menu-icon" id="hfe-nav-menu-icon">
                                             <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
                                         </div>
                                     </div>
@@ -376,5 +376,9 @@ i.fas.fa-chevron-down {
     font-size: 9px !important;
     font-family: "Font Awesome 5 Free" !important;
     font-weight: 900 !important;
+}
+
+#hfe-nav-menu-icon[aria-hidden=true] [contenteditable=true]:not([disabled]){
+    visibility: hidden;
 }
 </style>
