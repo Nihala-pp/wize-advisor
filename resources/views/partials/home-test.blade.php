@@ -10,47 +10,9 @@ gtag('js', new Date());
 
 gtag('config', 'G-QC47PPTD6T');
 </script>
-<script>
-(function() {
-    var skipLinkTarget = document.querySelector('main'),
-        sibling,
-        skipLinkTargetID,
-        skipLink;
-
-    // Early exit if a skip-link target can't be located.
-    if (!skipLinkTarget) {
-        return;
-    }
-
-    // Get the site wrapper.
-    // The skip-link will be injected in the beginning of it.
-    sibling = document.querySelector('.wp-site-blocks');
-
-    // Early exit if the root element was not found.
-    if (!sibling) {
-        return;
-    }
-
-    // Get the skip-link target's ID, and generate one if it doesn't exist.
-    skipLinkTargetID = skipLinkTarget.id;
-    if (!skipLinkTargetID) {
-        skipLinkTargetID = 'wp--skip-link--target';
-        skipLinkTarget.id = skipLinkTargetID;
-    }
-
-    // Create the skip link.
-    skipLink = document.createElement('a');
-    skipLink.classList.add('skip-link', 'screen-reader-text');
-    skipLink.href = '#' + skipLinkTargetID;
-    skipLink.innerHTML = 'Skip to content';
-
-    // Inject the skip link.
-    sibling.parentElement.insertBefore(skipLink, sibling);
-}());
-</script>
 <script async src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
     id="niso-carousel-owl.min-js"></script>
-<script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}"
+<!-- <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}"
     id="jquery.mousewheel.min-js"></script>
 <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
     id="niso-carousel-lightbox.min-js"></script>
@@ -78,7 +40,7 @@ var qodefQiAddonsGlobal = {
         "iconClose": "<svg  xmlns=\"http:\/\/www.w3.org\/2000\/svg\" xmlns:xlink=\"http:\/\/www.w3.org\/1999\/xlink\" x=\"0px\" y=\"0px\" viewBox=\"0 0 9.1 9.1\" xml:space=\"preserve\"><g><path d=\"M8.5,0L9,0.6L5.1,4.5L9,8.5L8.5,9L4.5,5.1L0.6,9L0,8.5L4,4.5L0,0.6L0.6,0L4.5,4L8.5,0z\"\/><\/g><\/svg>"
     }
 };
-</script>
+</script> -->
 <script defer src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
     id="qi-addons-for-elementor-script-js"></script>
 <script defer src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
