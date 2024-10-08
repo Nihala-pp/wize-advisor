@@ -10,23 +10,6 @@ gtag('js', new Date());
 
 gtag('config', 'G-QC47PPTD6T');
 </script>
-<!-- <script async src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0') }}"
-    id="niso-carousel-owl.min-js"></script> -->
-<!-- <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}"
-    id="jquery.mousewheel.min-js"></script> -->
-<!-- <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
-    id="niso-carousel-lightbox.min-js"></script>
-<script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js') }}">
-</script> -->
-<!-- <script
-    src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
-    id="wpr-particles-js"></script>
-<script defer
-    src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
-    id="wpr-jarallax-js"></script> -->
-<!-- <script defer
-    src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
-    id="wpr-parallax-hover-js"></script> -->
 <script async
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
     id="wpr-addons-js-js"></script>
@@ -208,15 +191,6 @@ var elementorFrontendConfig = {
 </script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
     id="elementor-frontend-js"></script>
-<!-- <script defer src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
-</script>
-<script defer src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}" id="wp-i18n-js">
-</script>
-<script id="wp-i18n-js-after">
-wp.i18n.setLocaleData({
-    'text directionltr': ['ltr']
-});
-</script> -->
 <script defer
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=6.2.2') }}"
     id="qi-addons-for-elementor-elementor-js"></script>
