@@ -666,9 +666,9 @@
     (function($) {
         $(document).ready(function() {
 
-            window.addEventListener('touchstart', onTouchStart, {
-                passive: true
-            });
+            // window.addEventListener('touchstart', onTouchStart, {
+            //     passive: true
+            // });
 
             $('.apply_filters').on('click', function() {
                 var form = $('.filterForm').serialize();
