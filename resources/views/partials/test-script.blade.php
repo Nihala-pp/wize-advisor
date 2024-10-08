@@ -1,6 +1,5 @@
 <!-- Google tag (gtag.js) -->
-<script
-    src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
+<script src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
     id="wpr-addons-js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
 </script>
@@ -148,13 +147,15 @@ var Tawk_API = Tawk_API || {},
 })();
 </script>
 <script type="text/javascript">
+   $(document).on(EVENT_CONFIG.CLICK, 'div[id^=RecordViewSheet]', function() {
 
-function isMobile() {
-    if(typeof window.orientation !== 'undefined') return true;
-    return false;
-}
+      function isMobile() {
+        if (typeof window.orientation !== 'undefined') return true;
+        return false;
+      }
 
-var EVENT_CONFIG = {
-    CLICK: isMobile()?'touchstart':'click'
-}
+      var EVENT_CONFIG = {
+        CLICK: isMobile() ? 'touchstart' : 'click'
+      }
+  });
 </script>
