@@ -1410,7 +1410,7 @@ i.fas.fa-bell.fa-2xl {
         height: 170px !important;
         width: 164px !important;
         max-width: 100% !important;
-        border: none;
+        /* border: none; */
         border-radius: 0;
         box-shadow: none;
     }
