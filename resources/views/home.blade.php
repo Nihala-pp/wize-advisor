@@ -1936,7 +1936,7 @@
         href="{{ asset('public/wp-content/uploads/elementor/css/post-941.css?ver=1688647329') }}"
         onload="this.rel='stylesheet'" crossorigin="anonymous">
     @include('partials.footer-web')
-    @include('partials.web-script')
+    @include('partials.home-test')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
     <style>
     .elementor-8 .elementor-element.elementor-element-d7ea8e1 img {
