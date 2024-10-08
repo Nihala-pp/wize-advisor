@@ -1904,6 +1904,9 @@
     <link rel="preload" as="style" id="elementor-post-8-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-8.css?ver=1699364637"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" id="qi-addons-for-elementor-grid-style-css"
+        href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1"
+        as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link rel="preload" as="style" id="qi-addons-for-elementor-helper-parts-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
@@ -2261,6 +2264,7 @@
     }(jQuery));
     </script>
 </body>
+
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
