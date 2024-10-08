@@ -363,12 +363,12 @@ html :where(.is-position-sticky) {
 <!-- <link rel="preconnect"
     href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;&display=block&#038;ver=3.0.2"
     crossorigin="crossorigin"> -->
-<link rel="preconnect" as="style" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
+<!-- <link rel="preconnect" as="style" href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954"
     id="plus-global-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954">
-</noscript>
+</noscript> -->
 <style id="global-styles-inline-css">
 body {
     --wp--preset--color--black: #000000;
