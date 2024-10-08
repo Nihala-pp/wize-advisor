@@ -1003,7 +1003,7 @@ h6 {
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0">
 </noscript> -->
-<link rel="preload"
+<!-- <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/niso.theme.default.min.css?ver=1.0"
     as="style" id="niso-theme-default-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
 <noscript>
@@ -1013,7 +1013,7 @@ h6 {
 <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18"
     as="style" id="niso-animate-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
-<noscript>
+<noscript> -->
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18">
 </noscript>
