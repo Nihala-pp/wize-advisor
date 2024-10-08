@@ -147,3 +147,33 @@ var Tawk_API = Tawk_API || {},
     s0.parentNode.insertBefore(s1, s0);
 })();
 </script>
+<script type="text/javascript">
+
+document.addEventListener("DOMContentLoaded", init, false);
+
+function init()
+{
+  var canvas = document.getElementById("canvas");
+
+  if ("ontouchstart" in document.documentElement)
+  {
+    canvas.addEventListener("touchstart", detect, false);
+  }
+  else
+  {
+    canvas.addEventListener("mousedown", detect, false);
+  }
+}
+
+function detect()
+{
+  if ("ontouchstart" in document.documentElement)
+  {
+    alert("You are using a touch screen device");
+  }
+  else
+  {
+    alert("You are using a normal screen device");
+  }
+}
+</script>
