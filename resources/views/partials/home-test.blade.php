@@ -1065,10 +1065,10 @@ h6 {
 </noscript> -->
 <link rel="preload" href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637"
     as="style" id="theplus-front-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<noscript>
+<!-- <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637">
-</noscript>
+</noscript> -->
 <link rel="preload" as="style" id="twentytwentytwo-style-css"
     href="https://wiseadvizor.com/wp-content/themes/twentytwentytwo/style.min.css?ver=1.4" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preconnect"
