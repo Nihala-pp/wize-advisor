@@ -303,19 +303,6 @@ var ElementorProFrontendConfig = {
     id="pro-elements-handlers-js"></script>
 <script  async src="{{ asset('public/wp-includes/js/underscore.min.js') }}">
 </script>
-<script id="wp-util-js-extra">
-var _wpUtilSettings = {
-    "ajax": {
-        "url": "\/wp-admin\/admin-ajax.php"
-    }
-};
-</script>
-<script id="wpforms-elementor-js-extra">
-var wpformsElementorVars = {
-    "captcha_provider": "recaptcha",
-    "recaptcha_type": "v2"
-};
-</script>
 <script
     src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
     id="wpforms-elementor-js"></script>
