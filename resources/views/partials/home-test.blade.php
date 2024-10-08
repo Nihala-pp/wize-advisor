@@ -1014,14 +1014,7 @@ h6 {
     href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18"
     as="style" id="niso-animate-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
 <noscript> -->
-    <link rel="stylesheet"
-        href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/animate.min.css?ver=1.3.18">
-</noscript>
-<link rel="preload" as="style" id="niso-carousel-css"
-    href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/niso-carousel.min.css?ver=1.3.18">
-<link rel="preload" type="text/css" id="niso-carousel-lightbox-css"
-    href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/nivo-lightbox.min.css?ver=1.0"
-    crossorigin>
+    <!-- 34r -->
 <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.min.css?ver=1.0"
     as="style" id="niso-carousel-lightbox-theme-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
