@@ -24,11 +24,12 @@ gtag('config', 'G-QC47PPTD6T');
 <script defer
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
     id="wpr-jarallax-js"></script> -->
- <!-- <script defer
+<!-- <script defer
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
     id="wpr-parallax-hover-js"></script> -->
-<script async src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
-     id="wpr-addons-js-js"></script>
+<script async
+    src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
+    id="wpr-addons-js-js"></script>
 <!-- ewr -->
 <script id="qi-addons-for-elementor-script-js-extra">
 var qodefQiAddonsGlobal = {
@@ -40,26 +41,31 @@ var qodefQiAddonsGlobal = {
     }
 };
 </script>
- <script defer src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
+<script defer src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2') }}"
     id="qi-addons-for-elementor-script-js"></script>
 <script defer src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
 </script>
-<script  async src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
+<script async src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
 </script>
 <script defer src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688661372') }}"
-        id="theplus-front-js-js" ></script>
+    id="theplus-front-js-js"></script>
+<script defer
+    src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2') }}"
+    id="swiper-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
     id="owl_carousel_js-js"></script>
 <script defer src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
     id="mousewheel_js-js"></script>
-<script async src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8') }}"
+<script async
+    src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8') }}"
     id="owl_thumbs_js-js"></script>
-<script  src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0') }}"
+<script src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0') }}"
     id="lightgallery_js-js"></script>
 <script async
     src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/video/lg-video.min.js?ver=2.5.0') }}"
     id="lightgallery_video_js-js"></script>
-<script async src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0') }}"
+<script async
+    src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0') }}"
     id="lightgallery_zoom_js-js"></script>
 <script defer src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
     id="vimeo_player_js-js"></script>
@@ -301,7 +307,7 @@ var ElementorProFrontendConfig = {
     id="elementor-pro-frontend-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
     id="pro-elements-handlers-js"></script>
-<script  async src="{{ asset('public/wp-includes/js/underscore.min.js') }}">
+<script async src="{{ asset('public/wp-includes/js/underscore.min.js') }}">
 </script>
 <script
     src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
