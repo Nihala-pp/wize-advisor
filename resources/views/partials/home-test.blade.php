@@ -1115,8 +1115,8 @@ h6 {
 <!-- <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0" as="script" crossorigin="anonymous">
 <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script" crossorigin="anonymous"> -->
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<style id="skip-link-styles">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<!-- <style id="skip-link-styles">
 .skip-link.screen-reader-text {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
@@ -1146,19 +1146,19 @@ h6 {
     width: auto;
     z-index: 100000;
 }
-</style>
-<link rel="preload" as="style" id="uc_ac_assets_file_style_css_13102-css"
-    href="{{ asset('public/wp-content/uploads/ac_assets/bubble_float/style.min.css?ver=1.5.75') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
+</style> -->
+<!-- <link rel="preload" as="style" id="uc_ac_assets_file_style_css_13102-css"
+    href="{{ asset('public/wp-content/uploads/ac_assets/bubble_float/style.min.css?ver=1.5.75') }}" onload="this.rel='stylesheet'" crossorigin="anonymous"> -->
 <link rel="preload" as="style" id="owl_carousel_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style"   id="owl_theme_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/sa-owl-theme.css?ver=2.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="owl_animate_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/animate.min.css?ver=2.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preload" as="style" id="lightgallery_css-css"
+<!-- <link rel="preload" as="style" id="lightgallery_css-css"
     href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery.min.css?ver=2.5.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="lightgallery_bundle_css-css"
-    href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery-bundle.min.css?ver=2.5.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
+    href="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/css/lightgallery-bundle.min.css?ver=2.5.0') }}" onload="this.rel='stylesheet'" crossorigin="anonymous"> -->
 <link rel="preload" as="style" id="elementor-post-934-css"
     href="{{ asset('public/wp-content/uploads/elementor/css/post-934.css?ver=1688647328') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="elementor-post-p-css"
