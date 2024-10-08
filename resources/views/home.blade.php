@@ -1907,7 +1907,7 @@
     <link rel="preload" as="style"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    @include('partials.test')
+    @include('partials.home-test')
     @include('partials.footer-web')
     @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
