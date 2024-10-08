@@ -1112,8 +1112,8 @@ h6 {
 <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2" as="script" crossorigin="anonymous"> -->
 <!-- <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script" crossorigin="anonymous">
 <link rel="preload" href="https://wiseadvizor.com/public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" as="script" crossorigin="anonymous"> -->
-<link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0" as="script" crossorigin="anonymous">
-<link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script" crossorigin="anonymous">
+<!-- <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0" as="script" crossorigin="anonymous">
+<link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script" crossorigin="anonymous"> -->
 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style id="skip-link-styles">
