@@ -1908,6 +1908,7 @@
     <link rel="preload" as="style"
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    @include('partials.test')
     <link rel="preload" as="style" id="elementor-global-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
@@ -1945,7 +1946,6 @@
     <link rel="preload" as="style" id="elementor-post-941-css"
         href="{{ asset('public/wp-content/uploads/elementor/css/post-941.css?ver=1688647329') }}"
         onload="this.rel='stylesheet'" crossorigin="anonymous">
-    @include('partials.test')
     @include('partials.footer-web')
     @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
@@ -2272,7 +2272,6 @@
     }(jQuery));
     </script>
 </body>
-
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
