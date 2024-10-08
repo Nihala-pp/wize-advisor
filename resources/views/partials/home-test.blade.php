@@ -24,10 +24,10 @@ gtag('config', 'G-QC47PPTD6T');
 <script defer
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7"
     id="wpr-jarallax-js"></script> -->
-<!-- <script defer
+ <script defer
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/parallax/parallax.min.js?ver=1.0"
     id="wpr-parallax-hover-js"></script>
-<script async src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
+<!-- <script async src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
      id="wpr-addons-js-js"></script> -->
 <script src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/modal-popups.min.js?ver=1.3.85"
     id="wpr-modal-popups-js-js"></script>
