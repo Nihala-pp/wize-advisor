@@ -14,10 +14,10 @@ gtag('config', 'G-QC47PPTD6T');
     id="niso-carousel-owl.min-js"></script> -->
 <!-- <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/jquery.mousewheel.min.js?ver=1.0') }}"
     id="jquery.mousewheel.min-js"></script> -->
-<script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
+<!-- <script src="{{ asset('public/wp-content/plugins/niso-carousel-slider/assets/js/nivo-lightbox.min.js?ver=1.0') }}"
     id="niso-carousel-lightbox.min-js"></script>
 <script src="{{ asset('public/wp-includes/js/jquery/ui/core.min.js') }}">
-</script>
+</script> -->
 <script
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/particles/particles.min.js?ver=3.0.6"
     id="wpr-particles-js"></script>
