@@ -1054,9 +1054,9 @@ h6 {
 <link rel="preload"  id="elementor-post-32-css"
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <!-- <link rel="preload" id="qi-addons-for-elementor-grid-style-css"
-    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=6.4.1" as="style" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> -->
 <link rel="preload" as="style" id="qi-addons-for-elementor-helper-parts-style-css"
-    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> -->
+    href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="qi-addons-for-elementor-style-css"
     href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <!-- <noscript>
