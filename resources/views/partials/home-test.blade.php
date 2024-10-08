@@ -44,11 +44,10 @@ var qodefQiAddonsGlobal = {
     id="qi-addons-for-elementor-script-js"></script>
 <script defer src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
 </script> -->
-<!-- <script  async src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
+<script  async src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
 </script>
 <script defer src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688661372') }}"
-        id="theplus-front-js-js" ></script> -->
-<!-- 3 -->
+        id="theplus-front-js-js" ></script>
 <script async src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
     id="owl_carousel_js-js"></script>
 <script defer src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
@@ -62,26 +61,21 @@ var qodefQiAddonsGlobal = {
     id="lightgallery_video_js-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/zoom/lg-zoom.min.js?ver=2.5.0') }}"
     id="lightgallery_zoom_js-js"></script>
-<!-- <script
-    src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/plugins/autoplay/lg-autoplay.min.js?ver=2.5.0') }}"
-    id="lightgallery_autoplay_js-js"></script> -->
 <script defer src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
     id="vimeo_player_js-js"></script>
 <script async
     src="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107') }}"
     id="owl-carousel-js"></script>
-<script defer
+<!-- <script defer
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/isotope.pkgd.min.js?ver=6.2.2') }}"
     id="isotope-js"></script>
 <script defer
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/masonry/assets/js/plugins/packery-mode.pkgd.min.js?ver=6.2.2') }}"
     id="packery-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
-</script>
+</script> -->
 <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
 </script>
-<!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js') }}">
-</script> -->
 <script id="elementor-frontend-js-before">
 var elementorFrontendConfig = {
     "environmentMode": {
@@ -206,13 +200,7 @@ var elementorFrontendConfig = {
 </script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
     id="elementor-frontend-js"></script>
-<!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill-inert.min.js?ver=3.1.2') }}"
-    id="wp-polyfill-inert-js"></script> -->
-<!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/regenerator-runtime.min.js?ver=0.13.11') }}"
-    id="regenerator-runtime-js"></script> -->
-<!-- <script src="{{ asset('public/wp-includes/js/dist/vendor/wp-polyfill.min.js?ver=3.15.0') }}" id="wp-polyfill-js">
-</script> -->
-<script defer src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
+<!-- <script defer src="{{ asset('public/wp-includes/js/dist/hooks.min.js?ver=4169d3cf8e8d95a3d6d5') }}" id="wp-hooks-js">
 </script>
 <script defer src="{{ asset('public/wp-includes/js/dist/i18n.min.js?ver=9e794f35a71bb98672ae') }}" id="wp-i18n-js">
 </script>
@@ -220,12 +208,10 @@ var elementorFrontendConfig = {
 wp.i18n.setLocaleData({
     'text directionltr': ['ltr']
 });
-</script>
+</script> -->
 <script defer
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=6.2.2') }}"
     id="qi-addons-for-elementor-elementor-js"></script>
-<!-- <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/webpack-pro.runtime.min.js?ver=3.5.0') }}"
-    id="elementor-pro-webpack-runtime-js"></script> -->
 <script id="elementor-pro-frontend-js-before">
 var ElementorProFrontendConfig = {
     "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
@@ -315,8 +301,6 @@ var ElementorProFrontendConfig = {
     id="elementor-pro-frontend-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
     id="pro-elements-handlers-js"></script>
-<!-- <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js?ver=3.5.0') }}"
-    id="e-sticky-js"></script> -->
 <script  async src="{{ asset('public/wp-includes/js/underscore.min.js') }}">
 </script>
 <script id="wp-util-js-extra">
@@ -326,8 +310,6 @@ var _wpUtilSettings = {
     }
 };
 </script>
-<!-- <script src="{{ asset('public/wp-includes/js/wp-util.min.js?ver=6.2.2') }}" id="wp-util-js">
-</script> -->
 <script id="wpforms-elementor-js-extra">
 var wpformsElementorVars = {
     "captcha_provider": "recaptcha",
@@ -341,76 +323,6 @@ var wpformsElementorVars = {
 </script>
 <script defer src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
 
-<!-- <script src="{{ asset('public/assets/js/jquery.min.js') }}"></script>  -->
-<!-- <script src="{{ asset('public/assets/js/bootstrap.js') }}"></script>  -->
-<!-- <script src="{{ asset('public/assets/js/ct-navbar.js') }}"></script> -->
-
-<!--   Unlimited Elements 1.5.75 Scripts -->
-<!-- <script type="text/javascript" id="unlimited-elements-scripts">
-/* Post Carousel Lite scripts: */
-
-jQuery(document).ready(function() {
-    // document.querySelector('#copyright-year').innerText = new Date().getFullYear();
-
-    function uc_uc_card_post_carousel_elementor_df03b3c_start() {
-
-        var objCarousel = jQuery(
-            '#uc_uc_card_post_carousel_elementor_df03b3c .owl-carousel');
-        var objWrapper = jQuery('#uc_uc_card_post_carousel_elementor_df03b3c');
-
-        objCarousel.owlCarousel({
-            loop: true,
-            navText: ["<i class='fas fa-arrow-left'><\/i>",
-                "<i class='fas fa-arrow-right'><\/i>"
-            ],
-            nav: true,
-            dots: true,
-            autoplay: true,
-            rtl: false,
-            paddingType: "none",
-            autoplayTimeout: 4000,
-            autoplayHoverPause: true,
-            smartSpeed: 1000,
-            margin: 30,
-            responsive: {
-                0: {
-                    items: 1,
-                    slideBy: 1,
-
-
-                },
-                768: {
-                    items: 2,
-                    slideBy: 1,
-
-
-                },
-                980: {
-                    items: 3,
-                    slideBy: 1,
-
-
-                }
-            }
-        });
-
-        objWrapper.on("uc_ajax_sethtml", function(event, htmlItems, isAppend) {
-
-            objCarousel.trigger("replace.owl.carousel", htmlItems);
-            objCarousel.trigger("refresh.owl.carousel");
-
-        });
-
-    }
-    if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
-        uc_uc_card_post_carousel_elementor_df03b3c_start();
-    else
-        jQuery(document).on('elementor/popup/show', () => {
-            if (jQuery("#uc_uc_card_post_carousel_elementor_df03b3c").length)
-                uc_uc_card_post_carousel_elementor_df03b3c_start();
-        });
-});
-</script> -->
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API = Tawk_API || {},
@@ -425,21 +337,3 @@ var Tawk_API = Tawk_API || {},
     s0.parentNode.insertBefore(s1, s0);
 })();
 </script>
-
-<!-- <script>
-(function(h, o, t, j, a, r) {
-    h.hj = h.hj || function() {
-        (h.hj.q = h.hj.q || []).push(arguments)
-    };
-    h._hjSettings = {
-        hjid: 3668045,
-        hjsv: 6
-    };
-    a = o.getElementsByTagName('head')[0];
-    r = o.createElement('script');
-    r.defer = 1;
-    r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-    a.appendChild(r);
-})(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
-</script> -->
-<!--End of Tawk.to Script-->
