@@ -369,7 +369,7 @@ html :where(.is-position-sticky) {
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/uploads/theplus_gutenberg/plus-global.css?ver=1686921954">
 </noscript> -->
-<style id="global-styles-inline-css">
+<!-- <style id="global-styles-inline-css">
 body {
     --wp--preset--color--black: #000000;
     --wp--preset--color--cyan-bluish-gray: #abb8c3;
@@ -988,14 +988,14 @@ h6 {
     width: auto;
     z-index: 100000;
 }
-</style>
-<link rel="preload"
+</style> -->
+<!-- <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0"
     as="style" id="niso-carousel-fontello-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/fontello.min.css?ver=1.0">
-</noscript>
+</noscript> -->
 <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/owl.carousel.min.css?ver=1.0"
     as="style" id="niso-carousel-owl-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin>
