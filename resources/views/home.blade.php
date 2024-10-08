@@ -2109,7 +2109,7 @@
         margin-right: 20px;
     }
     </style>
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
     jQuery(document).ready(function() {
 
         function ucBackgroundOverlayPutStart() {
@@ -2171,7 +2171,7 @@
 
         });
     });
-    </script>
+    </script> -->
     <script type="text/javascript">
     (function($) {
         "use strict";
