@@ -1938,6 +1938,9 @@
     <link rel="preload" as="style" id="elementor-post-941-css"
         href="{{ asset('public/wp-content/uploads/elementor/css/post-941.css?ver=1688647329') }}"
         onload="this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="preload" as="style" id="swiper-css"
+        href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5"
+        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     @include('partials.footer-web')
     @include('partials.home-test')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
