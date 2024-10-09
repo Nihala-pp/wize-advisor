@@ -1733,12 +1733,12 @@
     @include('partials.test')
 
     @include('partials.footer-web')
-    <!-- <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
-    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
+    <!-- <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
         id="elementor-frontend-js"></script>
     <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
-        id="elementor-pro-frontend-js"></script> -->
+        id="elementor-pro-frontend-js"></script> --> 
     <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
     <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
