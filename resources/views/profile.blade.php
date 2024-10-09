@@ -1588,7 +1588,7 @@
                                                 <div class="elementor-widget-container">
 
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" aria-labelledby="company_stage2" aria-valuenow="100"
+                                                        <div class="progress-bar" role="progressbar" aria-label="company_stage2" aria-valuenow="100"
                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
                                                             {{ $last_exp->company_name }}
                                                         </div>
