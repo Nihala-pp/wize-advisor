@@ -33,9 +33,9 @@
     <!-- <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"> -->
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-    <!-- <script data-cfasync="false"
+    <script data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"
-        async></script> -->
+        async></script>
     <link rel="canonical" href="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
