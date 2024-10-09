@@ -2370,6 +2370,7 @@ li {
 .elementor-widget-icon-box .elementor-icon-box-title {
     color: #150E1F;
     text-transform: capitalize;
+    font-weight: 600;
 }
 
 .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon {
