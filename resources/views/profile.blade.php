@@ -1714,7 +1714,6 @@
             </section>
         </div>
     </div>
-
     <link rel="preconnect" as="style" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
         crossorigin="anonymous">
     <link rel="stylesheet" id="elementor-post-2372-css"
@@ -1868,7 +1867,6 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
-
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementorw-motion-effects-element-type-background),
