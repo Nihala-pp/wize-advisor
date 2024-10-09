@@ -1825,6 +1825,7 @@ h3,
 
 .elementor-widget-heading .elementor-heading-title {
     color: #150E1F;
+    font-weight: 600;
     /* text-transform: capitalize !important; */
 }
 
