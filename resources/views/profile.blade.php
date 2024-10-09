@@ -2021,7 +2021,7 @@ li {
 
 .elementor-widget-icon-box .elementor-icon-box-description {
     margin: 0;
-    margin-top: -10px;
+    margin-top: -5px;
     margin-bottom: 30px;
     font-size: 15px !important;
 }
