@@ -1831,6 +1831,7 @@ h3,
 .elementor-4878 .elementor-element.elementor-element-b0cfee1 .elementor-heading-title {
     font-family: "Roboto", Sans-serif;
     text-transform: capitalize !important;
+    font-weight: 600;w
 }
 
 .elementor-4878 .elementor-element.elementor-element-0e640ef {
