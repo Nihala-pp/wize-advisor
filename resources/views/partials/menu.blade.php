@@ -378,7 +378,4 @@ i.fas.fa-chevron-down {
     font-weight: 900 !important;
 }
 
-#hfe-nav-menu-icon[aria-hidden=true] [contenteditable=true]:not([disabled]){
-    visibility: hidden;
-}
 </style>
