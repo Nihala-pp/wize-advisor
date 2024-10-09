@@ -1679,12 +1679,12 @@
                                                     </p>
                                                     <div class="user-box">
                                                         @if ($review->user->metaData->profile_pic)
-                                                        <img class="lazy-loading"
+                                                        <img loading="lazy" decoding="async" class="lazy-loading"
                                                             src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                                             data-src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                                             alt="growth mentor" height="40px;" width="40px;">
                                                         @else
-                                                        <img class="lazy-loading"
+                                                        <img loading="lazy" decoding="async"class="lazy-loading"
                                                             src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                             data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                             alt="user avatar" />
