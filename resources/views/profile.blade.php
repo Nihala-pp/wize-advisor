@@ -1927,10 +1927,12 @@ h6,
 
 .elementor-4878 .elementor-element.elementor-element-0b592cc .elementor-heading-title {
     text-transform: capitalize !important;
+    font-weight: 600;
 }
 
 .elementor-4878 .elementor-element.elementor-element-9cb279c .elementor-heading-title {
     text-transform: capitalize !important;
+    font-weight: 600;
 }
 
 .lang {
@@ -2628,11 +2630,13 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     .elementor-4878 .elementor-element.elementor-element-0b592cc .elementor-heading-title {
         text-transform: capitalize !important;
         font-size: 12px;
+        font-weight: 600;
     }
 
     .elementor-4878 .elementor-element.elementor-element-9cb279c .elementor-heading-title {
         font-size: 12px;
         text-transform: capitalize !important;
+        font-weight: 600;
     }
 
     .lang {
