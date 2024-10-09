@@ -1745,6 +1745,8 @@
     </script>
     <script src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
     </script>
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
+    </script>
     <script
         src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
         id="wpforms-elementor-js"></script>
