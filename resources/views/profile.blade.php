@@ -2146,6 +2146,7 @@ li {
     font-size: 20px;
     color: #002D5B;
     line-height: 1.3em;
+    font-weight: 600;
 }
 </style>
 <style>
