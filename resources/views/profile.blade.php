@@ -1741,6 +1741,11 @@
         id="elementor-pro-frontend-js"></script>
     <script defer src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688661372') }}"
         id="theplus-front-js-js"></script>
+    <script defer src="{{ asset('public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2') }}" id="jquery-ui-mouse-js">
+    </script>
+    <script async src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}"
+        id="jquery-ui-slider-js">
+    </script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
