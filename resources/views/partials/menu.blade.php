@@ -56,13 +56,13 @@
                                     <div role="button" class="hfe-nav-menu__toggle elementor-clickable">
                                         <span class="screen-reader-text">Menu</span>
                                         <div class="hfe-nav-menu-icon" id="hfe-nav-menu-icon">
-                                            <i aria-hidden="true" tabindex="0" class="fas fa-align-justify"></i>
+                                            <i tabindex="0" class="fas fa-align-justify"></i>
                                         </div>
                                     </div>
                                     <nav itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement"
                                         class="hfe-nav-menu__layout-horizontal hfe-nav-menu__submenu-arrow"
-                                        data-toggle-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
-                                        data-close-icon="&lt;i aria-hidden=&quot;true&quot; tabindex=&quot;0&quot; class=&quot;fas fa-window-close&quot;&gt;&lt;/i&gt;"
+                                        data-toggle-icon="&lt;i  tabindex=&quot;0&quot; class=&quot;fas fa-align-justify&quot;&gt;&lt;/i&gt;"
+                                        data-close-icon="&lt;i tabindex=&quot;0&quot; class=&quot;fas fa-window-close&quot;&gt;&lt;/i&gt;"
                                         data-full-width="yes">
                                         <ul id="menu-1-359f243" class="hfe-nav-menu">
                                             <li id="menu-item-29" itemprop="name"
