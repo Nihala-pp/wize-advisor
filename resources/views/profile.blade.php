@@ -1729,7 +1729,7 @@
     <link rel='stylesheet' id='elementor-post-4509-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4509.css?ver=1703156298' media='all' />
 
-    @include('partials.web-style')
+    @include('partials.test')
 
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
