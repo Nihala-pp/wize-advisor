@@ -33,9 +33,8 @@
     <!-- <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"> -->
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-    <script data-cfasync="false"
-        src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"
-        async></script>
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        id="jquery-migrate-js" async></script>
     <link rel="canonical" href="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
@@ -1734,13 +1733,15 @@
     @include('partials.test')
 
     @include('partials.footer-web')
-
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
+        id="hfe-frontend-js-js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
+
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
@@ -1834,7 +1835,8 @@ h3,
 .elementor-4878 .elementor-element.elementor-element-b0cfee1 .elementor-heading-title {
     font-family: "Roboto", Sans-serif;
     text-transform: capitalize !important;
-    font-weight: 600;w
+    font-weight: 600;
+    w
 }
 
 .elementor-4878 .elementor-element.elementor-element-0e640ef {
