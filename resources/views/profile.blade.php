@@ -114,8 +114,8 @@
 
                                     .wp-image-4926 {
                                         margin-top: 30px;
-                                        height: 300px;
-                                        width: 241px;
+                                        height: 300px !important;
+                                        width: 241px !important;
 
                                     }
                                     </style>
