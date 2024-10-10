@@ -124,11 +124,11 @@
                                         Hi! I
                                         {{ strtolower('am') }} {{ $data->name }}
                                     </h2>
-                                    <img fetchpriority="high" decoding="async" width="700px" height="700px"
+                                    <img fetchpriority="high" decoding="async" width="500px" height="500px"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt="ideas of business"
-                                        srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 700w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
-                                        sizes="(max-width: 700px) 100vw, 700px" />
+                                        srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 500w"
+                                        sizes="(max-width: 500px), 500px" />
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-c8cd16f elementor-hidden-mobile elementor-widget elementor-widget-heading"
@@ -723,11 +723,11 @@
                             <div class="elementor-element elementor-element-c11a030 elementor-widget elementor-widget-image"
                                 data-id="c11a030" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <img fetchpriority="high" decoding="async" width="700px" height="700px"
+                                    <img fetchpriority="high" decoding="async" width="500px" height="500px"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt="professional mentor"
-                                        srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 700w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
-                                        sizes="(max-width: 700px) 100vw, 700px" />
+                                        srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 500w"
+                                        sizes="(max-width: 500px), 500px" />
                                 </div>
                                 <div class="elementor-element elementor-element-cf9a819 elementor-widget elementor-widget-rating"
                                     data-id="cf9a819" data-element_type="widget" data-widget_type="rating.default">
