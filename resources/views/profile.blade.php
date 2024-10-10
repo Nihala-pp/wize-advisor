@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title> Meet {{ $data->name }} for {{ $data->metaData->keyword }} strategies</title>
