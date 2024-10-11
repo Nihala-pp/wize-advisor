@@ -1452,7 +1452,7 @@
                                                     <ul>
                                                         <li>
                                                             @php
-                                                            $text = str_ireplace("<br />", "\r\n", $exp->desc);
+                                                            $text = str_ireplace("<br />", "\r\n", $exp->description);
                                                             echo $text;
                                                             @endphp
                                                         </li>
