@@ -55,7 +55,7 @@
                             <div class="elementor-element elementor-element-f428972 elementor-hidden-desktop elementor-widget elementor-widget-heading"
                                 data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <style nonce="{{ $nonce }}">
+                                    <style nonce="{{ csp_nonce() }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-heading-title {
                                         padding: 0;
@@ -94,7 +94,7 @@
                             <div class="elementor-element elementor-element-576c4f2 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image"
                                 data-id="576c4f2" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <style nonce="{{ $nonce }}">
+                                    <style nonce="{{ csp_nonce() }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-image {
                                         text-align: center
@@ -148,7 +148,7 @@
                             <div class="elementor-element elementor-element-24ce783 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-rating"
                                 data-id="24ce783" data-element_type="widget" data-widget_type="rating.default">
                                 <div class="elementor-widget-container">
-                                    <style nonce="{{ $nonce }}">
+                                    <style nonce="{{ csp_nonce() }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-rating {
                                         --e-rating-gap: 0px;
@@ -270,7 +270,7 @@
                             <div class="elementor-element elementor-element-9a9bf6d elementor-hidden-desktop elementor-hidden-tablet elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
                                 data-id="9a9bf6d" data-element_type="widget" data-widget_type="social-icons.default">
                                 <div class="elementor-widget-container">
-                                    <style nonce="{{ $nonce }}">
+                                    <style nonce="{{ csp_nonce() }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
                                     .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
@@ -581,7 +581,7 @@
                             <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                 data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <style nonce="{{ $nonce }}">
+                                    <style nonce="{{ csp_nonce() }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
                                         background-color: #69727d;
@@ -795,7 +795,7 @@
                                     data-id="144014d" data-element_type="widget"
                                     data-widget_type="social-icons.default">
                                     <div class="elementor-widget-container">
-                                        <style nonce="{{ $nonce }}">
+                                        <style nonce="{{ csp_nonce() }}">
                                         /*! elementor - v3.18.0 - 20-12-2023 */
                                         .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
                                         .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
@@ -1127,7 +1127,7 @@
                             <div class="elementor-element elementor-element-07446d7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
                                 data-id="07446d7" data-element_type="widget" data-widget_type="divider.default">
                                 <div class="elementor-widget-container">
-                                    <style nonce="{{ $nonce }}">
+                                    <style nonce="{{ csp_nonce() }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-divider {
                                         --divider-border-style: none;
@@ -1461,7 +1461,7 @@
                                                 data-id="7c40f05" data-element_type="widget"
                                                 data-widget_type="progress.default">
                                                 <div class="elementor-widget-container">
-                                                    <style nonce="{{ $nonce }}">
+                                                    <style nonce="{{ csp_nonce() }}">
                                                     /*! elementor - v3.14.0 - 26-06-2023 */
                                                     .elementor-widget-progress {
                                                         text-align: left
@@ -1734,7 +1734,7 @@
     @include('partials.test')
 
     @include('partials.footer-web')
-    <script nonce="{{ $nonce }}" src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
+    <script nonce="{{ csp_nonce() }}" src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script id="elementor-frontend-js-before" nonce="{{ $nonce }}">
     var elementorFrontendConfig = {
@@ -1858,21 +1858,21 @@
         }
     };
     </script>
-    <script nonce="{{ $nonce }}" src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
+    <script nonce="{{ csp_nonce() }}" src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
         id="elementor-frontend-js"></script>
-    <script nonce="{{ $nonce }}" src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
+    <script nonce="{{ csp_nonce() }}" src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
-    <script nonce="{{ $nonce }}" async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
+    <script nonce="{{ csp_nonce() }}" async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
-    <script nonce="{{ $nonce }}" defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <script nonce="{{ csp_nonce() }}" defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script nonce="{{ $nonce }}" async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    <script nonce="{{ csp_nonce() }}" async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
 
 </html>
-<style nonce="{{ $nonce }}">
+<style nonce="{{ csp_nonce() }}">
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementorw-motion-effects-element-type-background),
 .elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000;
@@ -2287,7 +2287,7 @@ li {
     font-weight: 600;
 }
 </style>
-<style nonce="{{ $nonce }}">
+<style nonce="{{ csp_nonce() }}">
 .elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-a96e0b3.elementor-social-icon i {
     margin: 8px;
     /* color: #FFFFFF; */
