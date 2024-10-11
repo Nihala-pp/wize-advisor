@@ -1866,16 +1866,16 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="offer_modal_label"><b>Hey, Get 1:1 mentorship to remove your
+                        <h5 class="modal-title" id="offer_modal_label" style="color:#000;"><b>Hey, Get 1:1 mentorship to remove your
                                 business hurdles! </b></h5>
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p>25% off on scheduling a call now!</p>
-                        <p><b>Promo Code: MENTOR25 </b></p>
-                        <p>Remember, A mentor is a cheat sheet for an entrepreneur.
+                        <p style="color:#000;">25% off on scheduling a call now!</p>
+                        <p style="color:#000;"><b>Promo Code: MENTOR25 </b></p>
+                        <p style="color:#000;">Remember, A mentor is a cheat sheet for an entrepreneur.
                             Don't miss out this incredible opportunity. </p>
                     </div>
                     <div class="modal-footer">
