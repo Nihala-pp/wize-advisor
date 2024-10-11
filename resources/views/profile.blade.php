@@ -1376,10 +1376,10 @@
                                             </span>
                                         </div>
                                         <div class="elementor-icon-box-content">
-                                            <h6 class="elementor-icon-box-title">
+                                            <h4 class="elementor-icon-box-title">
                                                 <span>
                                                     {{ $expert->expertise }} </span>
-                                            </h6>
+                                            </h4>
                                             <p class="elementor-icon-box-description">
                                                 {{ $expert->description }} </p>
                                         </div>
