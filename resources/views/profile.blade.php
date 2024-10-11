@@ -7,7 +7,10 @@
     <meta name="description"
         content="Looking for a mentor ? Get Expert Advice in {{ $data->metaData->keyword }} with {{ $data->name }} on wiseAdvizor and accelerate your growth.">
     <meta name="keywords" content="{{ $data->metaData->keyword }}, startup growth, Startup mentor">
-    <meta http-equiv="Content-Security-Policy" content="script-src 'cdnjs.cloudflare.com'">
+    <meta http-equiv="Content-Security-Policy" content="script-src 'nonce-{{ csp_nonce() }}' 'strict-dynamic' 'unsafe-inline' https:;
+object-src 'none';
+base-uri 'none';
+report-uri https://wiseadvizor.com;">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
@@ -32,8 +35,9 @@
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
-    <script nonce="{{ csp_nonce() }}" data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js" async></script>
+    <script nonce="{{ csp_nonce() }}" data-cfasync="false"
+        src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"
+        async></script>
     <link rel="canonical" href="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 </head>
@@ -1451,10 +1455,10 @@
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <ul>
-                                                            @php
-                                                            $text = str_ireplace("<br />", "\r\n", $exp->description);
-                                                            echo $text;
-                                                            @endphp
+                                                        @php
+                                                        $text = str_ireplace("<br />", "\r\n", $exp->description);
+                                                        echo $text;
+                                                        @endphp
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1577,11 +1581,11 @@
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <ul>
-                                                            @php
-                                                            $text = str_ireplace("<br />", "\r\n",
-                                                            $last_exp->description);
-                                                            echo $text;
-                                                            @endphp
+                                                        @php
+                                                        $text = str_ireplace("<br />", "\r\n",
+                                                        $last_exp->description);
+                                                        echo $text;
+                                                        @endphp
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1637,7 +1641,8 @@
                                 <div class="elementor-widget-container">
                                     <ul>
                                         @foreach($articles as $article)
-                                        <li style="margin-bottom: 10px;"><a href="{{ $article->name }}" style="font-size: 24px;">{{ $article->title }}</a></li>
+                                        <li style="margin-bottom: 10px;"><a href="{{ $article->name }}"
+                                                style="font-size: 24px;">{{ $article->title }}</a></li>
                                         @endforeach
                                     </ul>
                                 </div>
@@ -1730,12 +1735,13 @@
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4454.css?ver=1703156298' media='all' />
     <link rel='stylesheet' id='elementor-post-4509-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4509.css?ver=1703156298' media='all' />
-    <script nonce="{{ csp_nonce() }}" data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js"></script>
+    <script nonce="{{ csp_nonce() }}" data-cfasync="false"
+        src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
     @include('partials.test')
 
     @include('partials.footer-web')
-    <script nonce="{{ csp_nonce() }}" src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
+    <script nonce="{{ csp_nonce() }}"
+        src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script id="elementor-frontend-js-before" nonce="{{ $nonce }}">
     var elementorFrontendConfig = {
@@ -1859,16 +1865,21 @@
         }
     };
     </script>
-    <script nonce="{{ csp_nonce() }}" src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
+    <script nonce="{{ csp_nonce() }}"
+        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
         id="elementor-frontend-js"></script>
-    <script nonce="{{ csp_nonce() }}" src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
+    <script nonce="{{ csp_nonce() }}"
+        src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
-    <script nonce="{{ csp_nonce() }}" async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
+    <script nonce="{{ csp_nonce() }}" async
+        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
-    <script nonce="{{ csp_nonce() }}" defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    <script nonce="{{ csp_nonce() }}" defer
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script nonce="{{ csp_nonce() }}" async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    <script nonce="{{ csp_nonce() }}" async type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
 
