@@ -1450,12 +1450,10 @@
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <ul>
-                                                        <li>
                                                             @php
                                                             $text = str_ireplace("<br />", "\r\n", $exp->description);
                                                             echo $text;
                                                             @endphp
-                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1578,13 +1576,11 @@
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <ul>
-                                                        <li>
                                                             @php
                                                             $text = str_ireplace("<br />", "\r\n",
                                                             $last_exp->description);
                                                             echo $text;
                                                             @endphp
-                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
