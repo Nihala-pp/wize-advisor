@@ -14,7 +14,7 @@
                                 data-settings="{&quot;button_width&quot;:&quot;20&quot;,&quot;step_next_label&quot;:&quot;Next&quot;,&quot;step_previous_label&quot;:&quot;Previous&quot;,&quot;step_type&quot;:&quot;number_text&quot;,&quot;step_icon_shape&quot;:&quot;circle&quot;}"
                                 data-widget_type="form.default">
                                 <div class="elementor-widget-container">
-                                    <style>
+                                    <style nonce="{{ csp_nonce() }}">
                                     /*! elementor-pro - v3.5.0 - 01-11-2021 */
                                     .elementor-button.elementor-hidden,
                                     .elementor-hidden {
@@ -478,7 +478,7 @@
                             <div class="elementor-element elementor-element-540d2d1 elementor-shape-circle elementor-grid-6 elementor-widget__width-auto elementor-grid-mobile-6 elementor-widget-mobile__width-initial elementor-widget elementor-widget-social-icons"
                                 data-id="540d2d1" data-element_type="widget" data-widget_type="social-icons.default">
                                 <div class="elementor-widget-container">
-                                    <style>
+                                    <style nonce="{{ csp_nonce() }}">
                                     /*! elementor - v3.14.0 - 26-06-2023 */
                                     .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
                                     .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
@@ -822,7 +822,7 @@
 <script type="text/javascript">
 document.querySelector('#copyright-year').innerText = new Date().getFullYear();
 </script>
-<style>
+<style nonce="{{ csp_nonce() }}">
 .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-button[type="submit"] {
     font-weight: bold;
     font-size: 19px;

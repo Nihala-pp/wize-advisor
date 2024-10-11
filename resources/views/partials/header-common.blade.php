@@ -14,7 +14,7 @@
                         <div class="elementor-element elementor-element-4a940d6 elementor-widget elementor-widget-image"
                             data-id="4a940d6" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <style>
+                                <style nonce="{{ csp_nonce() }}">
                                 /*! elementor - v3.14.0 - 26-06-2023 */
                                 .elementor-widget-image {
                                     text-align: center
@@ -501,7 +501,7 @@
                                 <div class="elementor-element elementor-element-4a940d6 elementor-widget elementor-widget-image"
                                     data-id="4a940d6" data-element_type="widget" data-widget_type="image.default">
                                     <div class="elementor-widget-container">
-                                        <style>
+                                        <style nonce="{{ csp_nonce() }}">
                                         /*! elementor - v3.14.0 - 26-06-2023 */
                                         .elementor-widget-image {
                                             text-align: center
@@ -716,7 +716,7 @@
                 </section>
             </div>
         </header>
-        <style>
+        <style nonce="{{ csp_nonce() }}">
         .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item,
         .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item {
             color: #001E64;
