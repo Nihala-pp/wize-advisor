@@ -141,8 +141,8 @@
                             <div class="elementor-element elementor-element-b0cfee1 elementor-widget elementor-widget-heading"
                                 data-id="b0cfee1" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <h6 class="elementor-heading-title elementor-size-default">
-                                        {{ $data->metaData->designation }}, {{ $data->metaData->company }}</h6>
+                                    <h4 class="elementor-heading-title elementor-size-default">
+                                        {{ $data->metaData->designation }}, {{ $data->metaData->company }}</h4>
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-24ce783 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-rating"
@@ -1376,10 +1376,10 @@
                                             </span>
                                         </div>
                                         <div class="elementor-icon-box-content">
-                                            <h5 class="elementor-icon-box-title">
+                                            <h6 class="elementor-icon-box-title">
                                                 <span>
                                                     {{ $expert->expertise }} </span>
-                                            </h5>
+                                            </h6>
                                             <p class="elementor-icon-box-description">
                                                 {{ $expert->description }} </p>
                                         </div>
