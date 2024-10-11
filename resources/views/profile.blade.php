@@ -1450,14 +1450,12 @@
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <ul>
-                                                        @foreach ($exp->description as $desc)
                                                         <li>
                                                             @php
-                                                            $text = str_ireplace("<br />", "\r\n", $desc);
+                                                            $text = str_ireplace("<br />", "\r\n", $exp->desc);
                                                             echo $text;
                                                             @endphp
                                                         </li>
-                                                        @endforeach
                                                     </ul>
                                                 </div>
                                             </div>
