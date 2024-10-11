@@ -1636,7 +1636,7 @@
                                 <div class="elementor-widget-container">
                                     <ul>
                                         @foreach($articles as $article)
-                                        <li><a href="{{ $article->name }}">{{ $article->title }}</a></li>
+                                        <li><a href="{{ $article->name }}" style="font-size: 24px;">{{ $article->title }}</a></li>
                                         @endforeach
                                     </ul>
                                 </div>
@@ -2512,8 +2512,7 @@ li {
 
 .elementor-element .elementor-element-4c9ce4e .elementor-widget-container ul li a {
     color: #007bff !important;
-    font-size: 19px;
-    font-weight: bold;
+    /* font-weight: bold; */
 }
 
 .feedback {
