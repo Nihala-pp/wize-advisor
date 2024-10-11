@@ -109,6 +109,8 @@ class HomeController extends Controller
     } else {
       $notifications = '';
     }
+
+    $nonce = hash()
     // $expertise = [
 
 
