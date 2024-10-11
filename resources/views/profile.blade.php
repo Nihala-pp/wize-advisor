@@ -1450,12 +1450,10 @@
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <ul>
-                                                        <li>
-                                                            @php
-                                                            $text = str_ireplace("<br />", "<li>", $exp->description);
+                                                        @php
+                                                        $text = str_ireplace("<br />", "<li>", $exp->description);
                                                             echo $text;
                                                             @endphp
-                                                        </li>
                                                     </ul>
                                                 </div>
                                             </div>
