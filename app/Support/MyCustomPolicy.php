@@ -11,6 +11,6 @@ class MyCustomPolicy extends Basic
     {
         parent::configure();
  
-        $this->addDirective(Directive::SCRIPT, 'www.google.com');
+        $this->addDirective(Directive::SCRIPT, 'https://wiseadvizor.com/');
     }
 }
