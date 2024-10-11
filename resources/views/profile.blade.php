@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title> Meet {{ $data->name }} for {{ $data->metaData->keyword }} strategies</title>
@@ -30,7 +31,7 @@
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
-    <script  data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js" async></script>
     <link rel="canonical" href="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
@@ -1449,10 +1450,14 @@
                                                 data-widget_type="text-editor.default">
                                                 <div class="elementor-widget-container">
                                                     <ul>
-                                                        @php
-                                                        $text = str_ireplace("<br />", "\r\n", $exp->description);
-                                                        echo $text;
-                                                        @endphp
+                                                        @foreach ($exp->description as $desc)
+                                                        <li>
+                                                            @php
+                                                            $text = str_ireplace("<br />", "\r\n", $desc);
+                                                            echo $text;
+                                                            @endphp
+                                                        </li>
+                                                        @endforeach
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1529,7 +1534,8 @@
                                                     }
                                                     </style>
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" aria-labelledby="company_stage1" aria-valuenow="100"
+                                                        <div class="progress-bar" role="progressbar"
+                                                            aria-labelledby="company_stage1" aria-valuenow="100"
                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
                                                             {{ $exp->company_name }}
                                                         </div>
@@ -1587,7 +1593,8 @@
                                                 <div class="elementor-widget-container">
 
                                                     <div class="progress">
-                                                        <div class="progress-bar" role="progressbar" aria-label="company_stage2" aria-valuenow="100"
+                                                        <div class="progress-bar" role="progressbar"
+                                                            aria-label="company_stage2" aria-valuenow="100"
                                                             aria-valuemin="0" aria-valuemax="100" style="width:100%">
                                                             {{ $last_exp->company_name }}
                                                         </div>
@@ -1683,7 +1690,7 @@
                                                             data-src="{{ asset('public/assets/img') }}/{{ $review->user->metaData->profile_pic }}"
                                                             alt="growth mentor" height="40px;" width="40px;">
                                                         @else
-                                                        <img loading="lazy" decoding="async"class="lazy-loading"
+                                                        <img loading="lazy" decoding="async" class="lazy-loading"
                                                             src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                             data-src="{{ asset('public/assets/img/blank-profile-picture.webp') }}"
                                                             alt="user avatar" />
@@ -1866,6 +1873,7 @@
     <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
+
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementorw-motion-effects-element-type-background),
