@@ -56,7 +56,7 @@
                             <div class="elementor-element elementor-element-f428972 elementor-hidden-desktop elementor-widget elementor-widget-heading"
                                 data-id="f428972" data-element_type="widget" data-widget_type="heading.default">
                                 <div class="elementor-widget-container">
-                                    <style>
+                                    <style nonce="{{ $nonce }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-heading-title {
                                         padding: 0;
@@ -95,7 +95,7 @@
                             <div class="elementor-element elementor-element-576c4f2 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-image"
                                 data-id="576c4f2" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <style>
+                                    <style nonce="{{ $nonce }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-image {
                                         text-align: center
@@ -149,7 +149,7 @@
                             <div class="elementor-element elementor-element-24ce783 elementor-hidden-desktop elementor-hidden-tablet elementor-widget elementor-widget-rating"
                                 data-id="24ce783" data-element_type="widget" data-widget_type="rating.default">
                                 <div class="elementor-widget-container">
-                                    <style>
+                                    <style nonce="{{ $nonce }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-rating {
                                         --e-rating-gap: 0px;
@@ -271,7 +271,7 @@
                             <div class="elementor-element elementor-element-9a9bf6d elementor-hidden-desktop elementor-hidden-tablet elementor-shape-rounded elementor-grid-0 e-grid-align-center elementor-widget elementor-widget-social-icons"
                                 data-id="9a9bf6d" data-element_type="widget" data-widget_type="social-icons.default">
                                 <div class="elementor-widget-container">
-                                    <style>
+                                    <style nonce="{{ $nonce }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
                                     .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
@@ -582,7 +582,7 @@
                             <div class="elementor-element elementor-element-0e640ef elementor-widget elementor-widget-text-editor"
                                 data-id="0e640ef" data-element_type="widget" data-widget_type="text-editor.default">
                                 <div class="elementor-widget-container">
-                                    <style>
+                                    <style nonce="{{ $nonce }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
                                         background-color: #69727d;
@@ -796,7 +796,7 @@
                                     data-id="144014d" data-element_type="widget"
                                     data-widget_type="social-icons.default">
                                     <div class="elementor-widget-container">
-                                        <style>
+                                        <style nonce="{{ $nonce }}">
                                         /*! elementor - v3.18.0 - 20-12-2023 */
                                         .elementor-widget-social-icons.elementor-grid-0 .elementor-widget-container,
                                         .elementor-widget-social-icons.elementor-grid-mobile-0 .elementor-widget-container,
@@ -1128,7 +1128,7 @@
                             <div class="elementor-element elementor-element-07446d7 elementor-widget-divider--view-line elementor-widget elementor-widget-divider"
                                 data-id="07446d7" data-element_type="widget" data-widget_type="divider.default">
                                 <div class="elementor-widget-container">
-                                    <style>
+                                    <style nonce="{{ $nonce }}">
                                     /*! elementor - v3.18.0 - 20-12-2023 */
                                     .elementor-widget-divider {
                                         --divider-border-style: none;
@@ -1462,7 +1462,7 @@
                                                 data-id="7c40f05" data-element_type="widget"
                                                 data-widget_type="progress.default">
                                                 <div class="elementor-widget-container">
-                                                    <style>
+                                                    <style nonce="{{ $nonce }}">
                                                     /*! elementor - v3.14.0 - 26-06-2023 */
                                                     .elementor-widget-progress {
                                                         text-align: left

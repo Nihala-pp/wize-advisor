@@ -49,6 +49,8 @@ use App\Models\SubscriptionList;
 use Stripe\Checkout\Session;
 use Stripe\Exception\ApiErrorException;
 use Stripe\Stripe;
+use Illuminate\Support\Str;
+use Illuminate\Support\Facades\Vite;
 class HomeController extends Controller
 {
   // /**
@@ -104,6 +106,11 @@ class HomeController extends Controller
     $totalReviews = Review::where('mentor_id', $data->id)->get()->count();
     $totalSessions = ScheduledCall::where('mentor_id', $data->id)->where('status', 'Approved')->get()->count();
 
+    $myNonce = 'Devop@wise2023'; // determine the value for `$myNonce` however you want
+ 
+    $nonce = Vite::useCspNonce(nonce: $myNonce);
+
+    
     if (Auth::id() && auth()->user()->role_id == 3) {
       $notifications = auth()->user()->unreadNotifications;
     } else {
@@ -115,7 +122,7 @@ class HomeController extends Controller
 
     // dd($achievements);
 
-    return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability', 'totalReviews', 'totalSessions', 'notifications'));
+    return view('profile', compact('data', 'experience', 'expertise', 'last_experience', 'achievements', 'reviews', 'articles', 'nextAvailability', 'totalReviews', 'totalSessions', 'notifications', 'nonce'));
   }
 
   public function browseMentor(Request $request, $expertise_name = NULL)
@@ -316,11 +323,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-    <script type="text/javascript">
-      alert("Be a Mentor Requested Successfully!");
-      window.location.href = "https://wiseadvizor.com/be-a-mentor";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Be a Mentor Requested Successfully!");
+window.location.href = "https://wiseadvizor.com/be-a-mentor";
+</script>
+<?php
   }
 
   public function scheduleCall(Request $request)
@@ -1135,11 +1142,11 @@ class HomeController extends Controller
     ]);
 
     ?>
-    <script type="text/javascript">
-      alert("Subscribed to the newsletter!");
-      window.location.href = "https://wiseadvizor.com";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Subscribed to the newsletter!");
+window.location.href = "https://wiseadvizor.com";
+</script>
+<?php
   }
 
   public function saveWebinar(Request $request)
@@ -1163,11 +1170,11 @@ class HomeController extends Controller
     Mail::to($email)->send(new askQuestionMail($details));
 
     ?>
-    <script type="text/javascript">
-      alert("Your slot registration has been submitted!");
-      window.location.href = "https://learning.wiseadvizor.com";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Your slot registration has been submitted!");
+window.location.href = "https://learning.wiseadvizor.com";
+</script>
+<?php
   }
 
   public function ask_question(Request $request)
@@ -1191,11 +1198,11 @@ class HomeController extends Controller
     Mail::to($email)->send(new askQuestionMail($details));
 
     ?>
-    <script type="text/javascript">
-      alert("Your query has been submitted!");
-      window.location.href = "https://wiseadvizor.com/faq";
-    </script>
-    <?php
+<script type="text/javascript">
+alert("Your query has been submitted!");
+window.location.href = "https://wiseadvizor.com/faq";
+</script>
+<?php
   }
 
   public function blogCategories($id, $name)
