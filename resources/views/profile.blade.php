@@ -1636,7 +1636,7 @@
                                 <div class="elementor-widget-container">
                                     <ul>
                                         @foreach($articles as $article)
-                                        <li><a href="{{ $article->name }}" style="font-size: 24px;">{{ $article->title }}</a></li>
+                                        <li style="margin-bottom: 10px;"><a href="{{ $article->name }}" style="font-size: 24px;">{{ $article->title }}</a></li>
                                         @endforeach
                                     </ul>
                                 </div>
