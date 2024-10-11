@@ -7,6 +7,7 @@
     <meta name="description"
         content="Looking for a mentor ? Get Expert Advice in {{ $data->metaData->keyword }} with {{ $data->name }} on wiseAdvizor and accelerate your growth.">
     <meta name="keywords" content="{{ $data->metaData->keyword }}, startup growth, Startup mentor">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' http:/cdnjs.cloudflare.com/">
     <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' * script-src; style-src 'unsafe-inline';"> -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
