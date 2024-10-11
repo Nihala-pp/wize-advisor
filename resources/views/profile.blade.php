@@ -8,7 +8,6 @@
         content="Looking for a mentor ? Get Expert Advice in {{ $data->metaData->keyword }} with {{ $data->name }} on wiseAdvizor and accelerate your growth.">
     <meta name="keywords" content="{{ $data->metaData->keyword }}, startup growth, Startup mentor">
     <meta http-equiv="Content-Security-Policy" content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css">
-    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'unsafe-inline' * script-src; style-src 'unsafe-inline';"> -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
