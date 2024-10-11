@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title> Meet {{ $data->name }} for {{ $data->metaData->keyword }} strategies</title>
+    @cspMetaTag(\App\Support\MyCustomPolicy::class)
     <meta name="description"
         content="Looking for a mentor ? Get Expert Advice in {{ $data->metaData->keyword }} with {{ $data->name }} on wiseAdvizor and accelerate your growth.">
     <meta name="keywords" content="{{ $data->metaData->keyword }}, startup growth, Startup mentor">
