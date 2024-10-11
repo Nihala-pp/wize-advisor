@@ -1965,7 +1965,7 @@ h3,
     font-family: "Roboto", Sans-serif;
     text-transform: capitalize !important;
     font-weight: 600;
-    w
+    font-size: 15px;
 }
 
 .elementor-4878 .elementor-element.elementor-element-0e640ef {
@@ -2684,7 +2684,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-b0cfee1 .elementor-heading-title {
-        font-size: 14px;
+        font-size: 15px;
         text-align: center;
     }
 
