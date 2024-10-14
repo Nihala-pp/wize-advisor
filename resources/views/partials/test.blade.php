@@ -35,5 +35,5 @@
     as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" 
     href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1" as="style" onload="this.onload=null;this.rel='stylesheet'"
-    id="tpgb-fontawesome">
+    id="tpgb-fontawesome" async>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css">
