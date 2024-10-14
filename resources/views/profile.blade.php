@@ -31,6 +31,8 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
+    <link rel="preload" fetchpriority="high" as="image"
+        href="https://wiseadvizor.com/wp-content/uploads/2023/07/Michelle.webp" type="image/webp">
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script nonce="{{ csp_nonce() }}" data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"
@@ -1862,7 +1864,9 @@
         }
     };
     </script>
-    <script nonce="{{ csp_nonce() }}" src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}" id="elementor-frontend-js"></script>
+    <script nonce="{{ csp_nonce() }}"
+        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
+        id="elementor-frontend-js"></script>
     <script nonce="{{ csp_nonce() }}"
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
@@ -1877,6 +1881,7 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
+
 </html>
 <style nonce="{{ csp_nonce() }}">
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementorw-motion-effects-element-type-background),
