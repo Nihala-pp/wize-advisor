@@ -127,7 +127,7 @@
                                         Hi! I
                                         {{ strtolower('am') }} {{ $data->name }}
                                     </h2>
-                                    <img fetchpriority="high" decoding="async" width="241" height="300"
+                                    <img loading="eager" decoding="async" width="241" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt="ideas of business"
                                         srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
