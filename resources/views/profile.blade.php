@@ -32,7 +32,7 @@
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
     <link rel="preload" fetchpriority="high" as="image"
-        href="https://wiseadvizor.com/wp-content/uploads/2023/07/Michelle.webp" type="image/webp">
+href="https://wiseadvizor.com/wp-content/uploads/2023/07{{ $data->name }}.webp" type="image/webp">
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script nonce="{{ csp_nonce() }}" data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"
