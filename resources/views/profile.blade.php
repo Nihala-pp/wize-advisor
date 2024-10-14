@@ -202,7 +202,7 @@
                                     }
 
                                     .elementor-widget-rating .e-rating .e-icon-wrapper i {
-                                        font-size: var(--e-rating-icon-font-size);
+                                        font-size: 13px;
                                         color: var(--e-rating-icon-color)
                                     }
 
@@ -296,7 +296,7 @@
                                     }
 
                                     .elementor-icon.elementor-social-icon {
-                                        font-size: var(--icon-size, 25px);
+                                        font-size: 13px;
                                         line-height: var(--icon-size, 25px);
                                     }
 
@@ -821,7 +821,7 @@
                                         }
 
                                         .elementor-icon.elementor-social-icon {
-                                            font-size: var(--icon-size, 25px);
+                                            font-size: 13px;
                                             line-height: var(--icon-size, 25px);
                                             width: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em));
                                             height: calc(var(--icon-size, 25px) + 2 * var(--icon-padding, .5em))
@@ -1915,7 +1915,7 @@
     --mdb-progress-bar-bg: #001E64;
     --mdb-progress-bar-transition: width 0.6s ease;
     height: var(--mdb-progress-height);
-    font-size: var(--mdb-progress-font-size);
+    font-size: 13px;
     background-color: var(--mdb-progress-bg);
     border-radius: var(--mdb-progress-border-radius);
     box-shadow: var(--mdb-progress-box-shadow);
@@ -2888,7 +2888,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     li {
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
 
     .elementor-4878 .elementor-element.elementor-element-9905fba {
@@ -3009,7 +3009,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-9a9bf6d {
-        --icon-size: 8px;
+        --icon-size: 13px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-9a9bf6d>.elementor-widget-container {
