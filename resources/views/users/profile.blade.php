@@ -707,6 +707,14 @@ i.fas.fa-bell.fa-2xl {
 
 @media (max-width: 767px) {
 
+    .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-description {
+        font-size: 13px !important;
+    }
+
+    .elementor-4878 .elementor-element.elementor-element-9a9bf6d {
+        --icon-size: 13px;
+    }
+
     .elementor-3007 .elementor-element.elementor-element-9adafe6>.elementor-container>.elementor-column>.elementor-widget-wrap {
         align-content: flex-start;
         align-items: flex-start;
