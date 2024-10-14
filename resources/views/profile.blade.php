@@ -2864,7 +2864,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title,
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title a {
-        font-size: 12px;
+        font-size: 13px;
     }
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-title {
@@ -2873,7 +2873,7 @@ body .elementor-32 .elementor-element.elementor-element-dd4d324 .elementor-label
     }
 
     .elementor-4878 .elementor-element.elementor-element-422d6d7 .elementor-icon-box-description {
-        font-size: 11px !important;
+        font-size: 13px !important;
     }
 
     .elementor-widget-icon-box.elementor-mobile-position-top .elementor-icon-box-icon {
