@@ -1862,9 +1862,7 @@
         }
     };
     </script>
-    <script nonce="{{ csp_nonce() }}"
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
-        id="elementor-frontend-js"></script>
+    <script nonce="{{ csp_nonce() }}" src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}" id="elementor-frontend-js"></script>
     <script nonce="{{ csp_nonce() }}"
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
