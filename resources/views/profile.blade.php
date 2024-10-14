@@ -127,11 +127,11 @@
                                         Hi! I
                                         {{ strtolower('am') }} {{ $data->name }}
                                     </h2>
-                                    <img loading="eager" decoding="async" width="241" height="300"
+                                    <img loading="eager" decoding="async" width="300" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt="ideas of business"
-                                        srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
-                                        sizes="(max-width: 241px) 100vw, 241px" />
+                                        srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 300w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
+                                        sizes="(max-width: 300px) 100vw, 300px" />
                                 </div>
                             </div>
                             <div class="elementor-element elementor-element-c8cd16f elementor-hidden-mobile elementor-widget elementor-widget-heading"
