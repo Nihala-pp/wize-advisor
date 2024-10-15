@@ -1736,6 +1736,7 @@
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4509.css?ver=1703156298' media='all' />
     <script nonce="{{ csp_nonce() }}" data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+        
     @include('partials.test')
 
     @include('partials.footer-web')
@@ -1881,7 +1882,6 @@
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
-
 </html>
 <style nonce="{{ csp_nonce() }}">
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementorw-motion-effects-element-type-background),
