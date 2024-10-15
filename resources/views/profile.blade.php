@@ -1375,7 +1375,7 @@
                                                 $icon = \App\Models\ExpertiseList::where('name',
                                                 $expert->expertise)->first();
                                                 @endphp
-                                                <img src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}"
+                                                <img loading="lazy" src="{{ asset('public/wp-content/uploads/2023/06') }}/{{ $icon->icon }}"
                                                     alt="{{ $icon->name }}" height="40" width="40">
                                             </span>
                                         </div>
