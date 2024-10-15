@@ -830,7 +830,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       $notifications = '';
     }
 
-    return view('libraries', compact('notifications'));
+    $myNonce = 'Devop@wise2023'; // determine the value for `$myNonce` however you want
+ 
+    $nonce = Vite::useCspNonce(nonce: $myNonce);
+
+    return view('libraries', compact('notifications', 'nonce'));
   }
 
   public function communityPosts()
