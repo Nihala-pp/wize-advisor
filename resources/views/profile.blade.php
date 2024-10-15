@@ -726,7 +726,7 @@
                             <div class="elementor-element elementor-element-c11a030 elementor-widget elementor-widget-image"
                                 data-id="c11a030" data-element_type="widget" data-widget_type="image.default">
                                 <div class="elementor-widget-container">
-                                    <img  loading="eager" decoding="async" width="241" height="300"
+                                    <img  loading="eager" decoding="async" width="300" height="300"
                                         src="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }}"
                                         class="attachment-medium size-medium wp-image-4926" alt="professional mentor"
                                         srcset="{{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 241w, {{ asset('wp-content/uploads/2023/07/').'/' }}{{ $data->metaData ? $data->metaData->profile_pic : '' }} 722w"
@@ -1736,7 +1736,7 @@
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4509.css?ver=1703156298' media='all' />
     <script nonce="{{ csp_nonce() }}" data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
-        
+
     @include('partials.test')
 
     @include('partials.footer-web')
