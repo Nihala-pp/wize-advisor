@@ -2095,12 +2095,6 @@
     }
     </style>
     <script type="text/javascript">
-       window.addEventListener("load", function() {
-          var load_screen = document.getElementById("header-main");
-          document.body.removeChild(load_screen);
-      });
-    </script>
-    <script type="text/javascript">
       (function($) {
         "use strict";
         $(document).ready(function() {

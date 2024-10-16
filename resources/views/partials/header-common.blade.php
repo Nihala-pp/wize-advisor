@@ -716,6 +716,17 @@
                 </section>
             </div>
         </header>
+        <script type="text/javascript">
+        (function($) {
+            "use strict";
+            $(document).ready(function() {
+                window.addEventListener("load", function() {
+                    var load_screen = document.getElementById("header-main");
+                    document.body.removeChild(load_screen);
+                });
+            });
+        }(jQuery));
+        </script>
         <style nonce="{{ csp_nonce() }}">
         .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item,
         .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-ancestor a.hfe-menu-item {
