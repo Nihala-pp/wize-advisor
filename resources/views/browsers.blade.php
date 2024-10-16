@@ -491,7 +491,7 @@
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                                     <div class="grid-container">
                                                         <div class="grid-child">
-                                                            <h5><strong><img decoding="async"
+                                                            <h5><strong><img loading="lazy" decoding="async"
                                                                         class="alignleft wp-image-5531"
                                                                         src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                         alt="Business Strategy" width="221" height="221"
