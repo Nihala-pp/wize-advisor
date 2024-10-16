@@ -41,10 +41,10 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link rel="preload" fetchpriority="high" as="image"
+    <!-- <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentors[0]['metaData']['pro_pic_1'] }}"
-        type="image/webp">
-    <link rel="preconnect" href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" as="image" type="image/webp">
+        type="image/webp"> -->
+    <link rel="preload" fetchpriority="high" href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" as="image" type="image/webp">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script nonce="{{ csp_nonce() }}" data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"
