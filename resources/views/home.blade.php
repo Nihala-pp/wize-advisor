@@ -891,7 +891,7 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img loading="lazy" decoding="async"
-                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/leadership-final-50x50.png') }}"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/leadership-final-50x50.webp') }}"
                                                             class="lazyload" alt="leadership mentoring" width="50"
                                                             height="50">
                                                     </div>
@@ -952,7 +952,7 @@
                                                 <div class="qodef-e-images-holder">
                                                     <div class="qodef-e-main-image">
                                                         <img loading="lazy" decoding="async"
-                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/roadmap-final-50x50.png') }}"
+                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/roadmap-final-50x50.webp') }}"
                                                             class="lazyload" alt="business tips" width="50" height="50">
                                                     </div>
                                                 </div>
