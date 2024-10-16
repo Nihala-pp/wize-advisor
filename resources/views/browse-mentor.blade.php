@@ -626,9 +626,16 @@
     <script type="text/javascript">
     (function($) {
         $(document).ready(function() {
+
+            window.addEventListener("load", function() {
+                var load_screen = document.getElementById("load_screen");
+                document.body.removeChild(load_screen);
+                document.getElementById('page').classList.add('ready');
+            });
+
+
             $('.apply_filters').on('click', function() {
                 var form = $('.filterForm').serialize();
-
                 return $.ajax({
                     type: 'GET',
                     url: "{{ Str::slug(route('browseMentor')) }}",
@@ -1780,4 +1787,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
+
 </html>
