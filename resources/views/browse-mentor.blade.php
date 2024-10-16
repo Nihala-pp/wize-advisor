@@ -1138,7 +1138,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     p>span {
-        font-size: 12px !important;
+        font-size: 13px !important;
     }
 
     .wp-image-5531 {
@@ -1217,7 +1217,7 @@ i.fas.fa-bell.fa-2xl {
 
     p>span {
         margin-top: -15px !important;
-        font-size: 7px !important;
+        font-size: 13px !important;
     }
 
     .elementor-2772 .elementor-element.elementor-element-9bcde29 {
@@ -1265,7 +1265,7 @@ i.fas.fa-bell.fa-2xl {
 
     p>span {
         margin-top: -15px !important;
-        font-size: 8px !important;
+        font-size: 13px !important;
     }
 
     .elementor-star-rating {
