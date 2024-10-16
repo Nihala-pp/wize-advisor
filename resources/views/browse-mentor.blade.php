@@ -1148,7 +1148,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .expertise {
-        font-size: 11px;
+        font-size: 12px;
     }
 
     /* header*/
@@ -1395,7 +1395,7 @@ i.fas.fa-bell.fa-2xl {
     } */
 
     .expertise {
-        font-size: 10px !important;
+        font-size: 12px !important;
     }
 
     .mobile-display {
