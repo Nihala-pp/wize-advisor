@@ -2094,6 +2094,7 @@
         margin-right: 20px;
     }
     </style>
+    <script
     <!-- <script type="text/javascript">
     jQuery(document).ready(function() {
 
@@ -2252,7 +2253,6 @@
     }(jQuery));
     </script>
 </body>
-
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
