@@ -1387,7 +1387,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .grid-child h5 {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     /* .grid-child p {
