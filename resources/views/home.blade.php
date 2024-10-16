@@ -931,22 +931,6 @@
                                                 </a>
                                             </div>
                                         </div>
-                                        <!-- <div class="qodef-e swiper-slide">
-                                            <div class="qodef-e-inner">
-                                                <div class="qodef-e-images-holder">
-                                                    <div class="qodef-e-main-image">
-                                                        <img decoding="async"
-                                                            data-src="{{ asset('public/wp-content/uploads/2023/06/network-final-50x50.png') }}"
-                                                            class="lazyload" alt="mentorship network" width="50"
-                                                            height="50">
-                                                    </div>
-                                                </div>
-                                                <a href="{{ route('browseMentor', ['Networking']) }}">
-                                                    <h5 class="qodef-e-title">
-                                                        Networking </h5>
-                                                </a>
-                                            </div>
-                                        </div> -->
                                         <div class="qodef-e swiper-slide">
                                             <div class="qodef-e-inner">
                                                 <div class="qodef-e-images-holder">
@@ -1866,7 +1850,8 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="offer_modal_label" style="color:#000;"><b>Hey, Get 1:1 mentorship to remove your
+                        <h5 class="modal-title" id="offer_modal_label" style="color:#000;"><b>Hey, Get 1:1 mentorship to
+                                remove your
                                 business hurdles! </b></h5>
                         <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
