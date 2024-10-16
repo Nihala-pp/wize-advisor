@@ -342,7 +342,7 @@
                                             <div class="wpr-switcher-content" data-switcher="1">
                                                 <div
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                    <h5><strong><img loading="lazy" decoding="async"
+                                                    <h5><strong><img loading="eager" decoding="async"
                                                                 class="alignleft wp-image-5531"
                                                                 src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                 alt="expert mentorship" width="221" height="221"
@@ -491,7 +491,7 @@
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                                     <div class="grid-container">
                                                         <div class="grid-child">
-                                                            <h5><strong><img loading="lazy" decoding="async"
+                                                            <h5><strong><img loading="eager" decoding="async"
                                                                         class="alignleft wp-image-5531"
                                                                         src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                         alt="Business Strategy" width="221" height="221"
