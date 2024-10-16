@@ -602,7 +602,7 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link rel="stylesheet" id="elementor-post-2772-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
-    <link rel="stylesheet" id="twenty-twenty-one-style-css"
+    <link defer rel="stylesheet" id="twenty-twenty-one-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.min.css?ver=2.0" media="all">
     @include('partials.test')
 
