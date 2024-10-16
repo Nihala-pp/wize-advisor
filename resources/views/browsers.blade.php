@@ -342,7 +342,8 @@
                                             <div class="wpr-switcher-content" data-switcher="1">
                                                 <div
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                    <h5><strong><img loading="lazy" decoding="async" class="alignleft wp-image-5531"
+                                                    <h5><strong><img loading="lazy" decoding="async"
+                                                                class="alignleft wp-image-5531"
                                                                 src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                 alt="expert mentorship" width="221" height="221"
                                                                 srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
@@ -645,6 +646,9 @@
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
     <link rel="stylesheet" id="twenty-twenty-one-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.min.css?ver=2.0" media="all">
+    <script nonce="{{ csp_nonce() }}" data-cfasync="false"
+        src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+
     @include('partials.test')
 
     @include('partials.footer-web')
@@ -1682,4 +1686,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
+
 </html>
