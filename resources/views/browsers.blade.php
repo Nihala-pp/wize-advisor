@@ -1280,7 +1280,7 @@ i.fas.fa-bell.fa-2xl {
 
     .h2,
     h2 {
-        font-size: 19px;
+        font-size: 15px;
     }
 
     html,
