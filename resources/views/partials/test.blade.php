@@ -10,7 +10,7 @@
 <link async rel="preload" as="style"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
     id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link  rel='preload' as="style" id='elementor-pro-css'
+<link async rel='preload' as="style" id='elementor-pro-css'
     href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel='preload' id='elementor-post-3007-css'
