@@ -689,7 +689,7 @@
                 });
             });
           });
-    }(jQuery));
+       }(jQuery));
     </script>
 </body>
 <style>
