@@ -33,7 +33,7 @@
                                     display: inline-block
                                 }
                                 </style> <a href="https://wiseadvizor.com">
-                                    <img width="932" height="140"
+                                    <img fetchpriority="high" width="932" height="140"
                                         src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                         class="attachment-large size-large wp-image-624"
                                         alt="startup mentorship platform"
@@ -520,7 +520,7 @@
                                             display: inline-block
                                         }
                                         </style> <a href="https://wiseadvizor.com">
-                                            <img width="932" height="140"
+                                            <img fetchpriority="high" width="932" height="140"
                                                 src="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC.png"
                                                 class="attachment-large size-large wp-image-624"
                                                 alt="startup mentorship platform"
