@@ -700,7 +700,7 @@
 <style>
 .h2,
 h2 {
-    font-size: 20px;
+    font-size: 19px;
 }
 
 .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
