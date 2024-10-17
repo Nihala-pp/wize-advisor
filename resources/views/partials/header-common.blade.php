@@ -717,13 +717,17 @@
             </div>
         </header>
         <script type="text/javascript">
-        $(window).on('load', function() {
-            if (window.matchMedia("(max-width: 767px)").matches) {
-                $('#header-main').fadeOut(3000, function() {
-                    $('#mobile_header').show();
+        (function($) {
+            $(document).ready(function() {
+                $(window).on('load', function() {
+                    if (window.matchMedia("(max-width: 767px)").matches) {
+                        $('#header-main').fadeOut(3000, function() {
+                            $('#mobile_header').show();
+                        });
+                    }
                 });
-            }
-        });
+            });
+        }(jQuery));
         </script>
         <style nonce="{{ csp_nonce() }}">
         .elementor-3007 .elementor-element.elementor-element-359f243 .menu-item.current-menu-item a.hfe-menu-item,
