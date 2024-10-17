@@ -639,11 +639,11 @@
             </div>
         </section>
     </div>
-    <link async rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+    <link  rel="dns-prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
         crossorigin="anonymous">
-    <link async rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    <link  rel="dns-prefetch" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         crossorigin="anonymous">
-    <link async rel="stylesheet"
+    <link  rel="dns-prefetch"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link rel="stylesheet" id="elementor-post-2772-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.min.css?ver=1699364619" media="all">
@@ -669,8 +669,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
     </script>
     <script type="text/javascript">
-    (function($) {
-        $(document).ready(function() {
+       (function($) {
+           $(document).ready(function() {
 
             // window.addEventListener('touchstart', onTouchStart, {
             //     passive: true
@@ -688,7 +688,7 @@
                     success: function(response) {}
                 });
             });
-        });
+          });
     }(jQuery));
     </script>
 </body>
