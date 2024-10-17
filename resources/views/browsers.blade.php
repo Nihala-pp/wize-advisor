@@ -698,6 +698,11 @@
     </script>
 </body>
 <style>
+.h2,
+h2 {
+    font-size: 20px;
+}
+
 .wpr-switcher-content-inner.wpr-anim-size-large.wpr-overlay-none>p {
     margin-bottom: -2px !important;
 }
