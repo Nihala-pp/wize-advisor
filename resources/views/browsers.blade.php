@@ -603,7 +603,7 @@
                                                                             @endif
                                                                         </strong></span>
                                                                     <span class="charge"
-                                                                        style="font-size:11px;float:right;color: #000000"><strong>
+                                                                        style="font-size:13px;float:right;color: #000000"><strong>
                                                                             $
                                                                             {{ $mentor->metaData ? $mentor->metaData->price_per_call : '' }}
                                                                             / 30
