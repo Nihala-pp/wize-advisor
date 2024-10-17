@@ -45,7 +45,7 @@
         href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentors[0]['metaData']['pro_pic_1'] }}"
         type="image/webp"> -->
     <link rel="preload" fetchpriority="high" as="image"
-        href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentor[0]['metaData']['pro_pic_1'] }}" type="image/webp">
+        href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentors[0]['metaData']['pro_pic_1'] }}" type="image/webp">
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
