@@ -45,9 +45,10 @@
         href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentors[0]['metaData']['pro_pic_1'] }}"
         type="image/webp"> -->
     <link rel="preload" fetchpriority="high" as="image"
-        href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentors[0]['metaData']['pro_pic_1'] }}" type="image/webp">
-    <link rel="preconnect" as="image"
-        href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
+        href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentors[0]['metaData']['pro_pic_1'] }}"
+        type="image/webp">
+    <link rel="preconnect" as="image" href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp"
+        type="image/webp">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script nonce="{{ csp_nonce() }}" data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"
@@ -128,6 +129,7 @@
                     <form class="filterForm">
                         <div class="row">
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <label style="display:none;">Expertise</label>
                                 <select id="expertise" class="selectpicker" data-style="btn-info"
                                     name="filters[expertise]">
                                     <option value="">Expertise</option>
@@ -140,9 +142,11 @@
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters datefilter">
+                                <label style="display:none;">Date</label>
                                 <input type="date" class="form-control selectpicker" id="date" name="filters[date]">
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12  filters name">
+                                <label style="display:none;">Name</label>
                                 <select id="name" class="selectpicker" data-style="btn-info" name="filters[name]">
                                     <option value="">Search by name</option>
                                     @foreach($price as $pr)
@@ -151,6 +155,7 @@
                                 </select>
                             </div>
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
+                                <label style="display:none;">Price</label>
                                 <select id="sort" class="selectpicker" data-style="btn-info" name="filters[sort_by]">
                                     <option value="">Sort by Price</option>
                                     <option value="asc">ASC</option>
@@ -639,11 +644,11 @@
             </div>
         </section>
     </div>
-    <link  rel="dns-prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
+    <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
         crossorigin="anonymous">
-    <link  rel="dns-prefetch" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    <link rel="dns-prefetch" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         crossorigin="anonymous">
-    <link  rel="stylesheet"
+    <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link rel="stylesheet" id="elementor-post-2772-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.min.css?ver=1699364619" media="all">
@@ -669,8 +674,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js">
     </script>
     <script type="text/javascript">
-       (function($) {
-           $(document).ready(function() {
+    (function($) {
+        $(document).ready(function() {
 
             // window.addEventListener('touchstart', onTouchStart, {
             //     passive: true
@@ -688,8 +693,8 @@
                     success: function(response) {}
                 });
             });
-          });
-       }(jQuery));
+        });
+    }(jQuery));
     </script>
 </body>
 <style>
