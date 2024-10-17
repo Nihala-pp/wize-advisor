@@ -641,12 +641,12 @@
     </div>
     <link async rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js"
         crossorigin="anonymous">
-    <link async rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    <link async rel="preconnect" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         crossorigin="anonymous">
-    <link rel="stylesheet"
+    <link rel="preconnect"
         href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
     <link rel="stylesheet" id="elementor-post-2772-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.css?ver=1699364619" media="all">
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-2772.min.css?ver=1699364619" media="all">
     <link defer rel="stylesheet" id="twenty-twenty-one-style-css"
         href="https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.min.css?ver=2.0" media="all">
     <script nonce="{{ csp_nonce() }}" data-cfasync="false"
