@@ -350,14 +350,14 @@
                                             <div class="wpr-switcher-content" data-switcher="1">
                                                 <div
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
-                                                    <h5><strong><img loading="eager" decoding="async"
+                                                    <h2><strong><img loading="eager" decoding="async"
                                                                 class="alignleft wp-image-5531"
                                                                 src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                 alt="expert mentorship" width="221" height="221"
                                                                 srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
                                                                 sizes="(max-width: 221px) 100vw, 221px" /></strong><span
                                                             class="mentor_name"
-                                                            style="color: #000000">{{ $mentor->name }}</span></h5>
+                                                            style="color: #000000">{{ $mentor->name }}</span></h2>
                                                     <p><span style="font-size:14px;color: #000000">{{ $mentor->metaData->designation }},
                                                             {{ $mentor->metaData->company }}</span><br />
                                                         <span style="font-size:14px;color: #000000">
@@ -499,18 +499,18 @@
                                                     class="wpr-switcher-content-inner wpr-anim-size-large wpr-overlay-none">
                                                     <div class="grid-container">
                                                         <div class="grid-child">
-                                                            <h5><strong><img loading="eager" decoding="async"
+                                                            <h2><strong><img loading="eager" decoding="async"
                                                                         class="alignleft wp-image-5531"
                                                                         src="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }}"
                                                                         alt="Business Strategy" width="221" height="221"
                                                                         srcset="{{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 150w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 450w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 700w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 650w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 1300w, {{ asset('wp-content/uploads/2024/02/') }}/{{ $mentor->metaData ? $mentor->metaData->pro_pic_1 : '' }} 352w"
                                                                         sizes="(max-width: 221px) 100vw, 221px" /></strong>
-                                                            </h5>
+                                                            </h2>
                                                         </div>
 
                                                         <div class="grid-child green">
-                                                            <h5><span style="color: #000000">{{ $mentor->name }}</span>
-                                                            </h5>
+                                                            <h3><span style="color: #000000">{{ $mentor->name }}</span>
+                                                            </h3>
                                                             <p><span style="color: #000000"><abbr
                                                                         title="{{ $mentor->metaData->designation }}">{{ $mentor->metaData->designation }}</abbr>,
                                                                     {{ $mentor->metaData->company }}</span><br />
