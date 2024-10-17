@@ -721,8 +721,14 @@
             $(document).ready(function() {
                 $(window).on('load', function() {
                     if (window.matchMedia("(max-width: 767px)").matches) {
-                        $('#header-main').fadeOut(3000, function() {
+                        $('#header-main').fadeOut(5000, function() {
                             $('#mobile_header').show();
+                        });
+                    }
+
+                    if (window.matchMedia("(min-width: 1280px)").matches) {
+                        $('#mobile_header').fadeOut(5000, function() {
+                            $('#header-main').show();
                         });
                     }
                 });
