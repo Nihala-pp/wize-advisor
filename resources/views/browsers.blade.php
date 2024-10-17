@@ -1429,7 +1429,7 @@ i.fas.fa-bell.fa-2xl {
     }
 
     .elementor-star-rating {
-        font-size: 9px;
+        font-size: 13px;
     }
 
     .wp-image-5531 {
