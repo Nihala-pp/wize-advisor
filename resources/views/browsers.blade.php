@@ -585,7 +585,7 @@
                                                                 data-widget_type="heading.default">
                                                                 <div class="elementor-widget-container" style="">
                                                                     <span class="slot"
-                                                                        style="font-size:11px;color: #000000"><strong>
+                                                                        style="font-size:13px;color: #000000"><strong>
                                                                             Next Slot -
                                                                             @php
                                                                             $nextAvailability =
@@ -1305,12 +1305,12 @@ i.fas.fa-bell.fa-2xl {
 
     span.slot {
         font-weight: bold;
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
 
     span.charge {
         font-weight: bold;
-        font-size: 10px !important;
+        font-size: 13px !important;
     }
 
     .bio {
