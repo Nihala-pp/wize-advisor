@@ -1902,7 +1902,7 @@
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
         as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"> -->
-    <link rel="preload" as="style" id="owl_carousel_css-css"
+    <!-- <link rel="preload" id="owl_carousel_css-css"
         href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}"
         onload="this.rel='stylesheet'" crossorigin="anonymous">
     <link rel="preload" as="style" id="owl_theme_css-css"
@@ -1910,7 +1910,7 @@
         onload="this.rel='stylesheet'" crossorigin="anonymous">
     <link rel="preload" as="style" id="owl_animate_css-css"
         href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/animate.min.css?ver=2.0') }}"
-        onload="this.rel='stylesheet'" crossorigin="anonymous">
+        onload="this.rel='stylesheet'" crossorigin="anonymous"> -->
     <link rel="preload" as="style" id="elementor-post-934-css"
         href="{{ asset('public/wp-content/uploads/elementor/css/post-934.css?ver=1688647328') }}"
         onload="this.rel='stylesheet'" crossorigin="anonymous">
