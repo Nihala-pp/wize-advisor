@@ -2164,8 +2164,8 @@
                 dots: false,
                 loop: true,
                 navText: [
-                    "<i class='fa fa-arrow-left' aria-hidden='true' style='background-color: #fff;color:#fff;'></i>",
-                    "<i class='fa fa-arrow-right' aria-hidden='true' style='background-color: #fff;color:#fff;'></i>"
+                    "<i class='fa fa-arrow-left' aria-hidden='true' style='background-color: #fff;color:#000;'></i>",
+                    "<i class='fa fa-arrow-right' aria-hidden='true' style='background-color: #fff;color:#000;'></i>"
                 ],
                 responsive: {
                     0: {
