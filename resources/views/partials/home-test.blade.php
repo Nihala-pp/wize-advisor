@@ -288,7 +288,7 @@ var ElementorProFrontendConfig = {
 <script
     src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
     id="wpforms-elementor-js"></script>
-<script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
 </script>
 <script defer src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
 
