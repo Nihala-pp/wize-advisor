@@ -2095,7 +2095,7 @@
     }
     </style>
     <script type="text/javascript">
-      (function($) {
+    (function($) {
         "use strict";
         $(document).ready(function() {
 
@@ -2186,9 +2186,10 @@
                 }
             });
         });
-      }(jQuery));
+    }(jQuery));
     </script>
 </body>
+
 </html>
 <style>
 .elementor-8 .elementor-element.elementor-element-61aca54>.elementor-element-populated {
@@ -2866,6 +2867,14 @@ i.fas.fa-chevron-down {
     body {
         max-width: 100%;
         overflow-x: hidden;
+    }
+
+    .card {
+        background: linear-gradient(to right, #434343, #000000);
+        height: 300px;
+        padding: 10px 10px;
+        border: none;
+        box-shadow: -1px 3px 5px #a7a7a7
     }
 
     .mobile {
