@@ -1903,7 +1903,7 @@
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
         as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" as="style" crossorigin="anonymous">
     <link rel="preload" as="style" id="owl_carousel_css-css"
         href="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.css?ver=2.2.1.1') }}"
         onload="this.rel='stylesheet'" crossorigin="anonymous">
