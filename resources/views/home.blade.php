@@ -2159,9 +2159,9 @@
                 autoPlayTimeout: 5000,
                 items: 4,
                 center: true,
-                nav: false,
+                nav: true,
                 margin: 40,
-                dots: true,
+                dots: false,
                 loop: true,
                 navText: [
                     "<i class='fa fa-arrow-left' aria-hidden='true' style='background-color: #fff;color:#fff;'></i>",
