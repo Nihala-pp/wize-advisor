@@ -3728,7 +3728,7 @@ i.fas.fa-chevron-down {
 .card {
     background: linear-gradient(to right, #434343, #000000);
     height: 300px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border: none;
     box-shadow: -1px 3px 5px #a7a7a7
 }
