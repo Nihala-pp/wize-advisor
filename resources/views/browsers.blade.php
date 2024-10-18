@@ -51,6 +51,7 @@
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"
         async></script>
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-2772 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-2772">
 
@@ -672,6 +673,10 @@
     <script type="text/javascript">
     (function($) {
         $(document).ready(function() {
+
+            $('.selectpicker').selectpicker({
+                dropupAuto: false
+            });
 
             // window.addEventListener('touchstart', onTouchStart, {
             //     passive: true
@@ -1802,4 +1807,5 @@ i.fas.fa-bell.fa-2xl {
 
 @media (min-width: 768px) and (max-width: 1024px) {}
 </style>
+
 </html>
