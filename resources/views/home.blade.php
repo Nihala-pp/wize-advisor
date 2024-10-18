@@ -1876,12 +1876,10 @@
     <link rel="preload" id="elementor-post-30-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-30.css?ver=1699609171" as="style"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload" as="style"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
-        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload" as="style"
-        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css"
-        onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
     @include('partials.test')
     <link rel="preload" as="style" id="elementor-global-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/global.css?ver=1699355419"
