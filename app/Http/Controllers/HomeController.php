@@ -73,7 +73,7 @@ class HomeController extends Controller
     $mentors = User::where('role_id', 2)->whereNull('status')->get();
     $users = User::where('role_id', 3)->get()->count();
     $calls = ScheduledCall::where('is_paid', 1)->get()->count();
-    $reviews = Review::where('is_approved', 0)->get();
+    $reviews = Review::where('is_approved', 1)->get();
     $completed_sessions = ScheduledCall::where('status', 'Approved')->where('is_paid', 1)->get()->count() * 30;
 
 
@@ -103,7 +103,7 @@ class HomeController extends Controller
       ->orderBy('date', 'asc')
       ->first();
 
-    $totalReviews = Review::where('mentor_id', $data->id)->get()->count();
+    $totalReviews = Review::where('mentor_id', $data->id)->where('is_approved', 1)->get()->count();
     $totalSessions = ScheduledCall::where('mentor_id', $data->id)->where('status', 'Approved')->get()->count();
 
     $myNonce = 'Devop@wise2023'; // determine the value for `$myNonce` however you want
