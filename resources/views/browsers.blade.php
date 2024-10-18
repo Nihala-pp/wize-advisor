@@ -41,9 +41,6 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <!-- <link rel="preload" fetchpriority="high" as="image"
-        href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentors[0]['metaData']['pro_pic_1'] }}"
-        type="image/webp"> -->
     <link rel="preload" fetchpriority="high" as="image"
         href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentors[0]['metaData']['pro_pic_1'] }}"
         type="image/webp">
