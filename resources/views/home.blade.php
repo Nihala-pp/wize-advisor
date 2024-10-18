@@ -31,8 +31,8 @@
     <link rel="preload"
         href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2"
         as="script" crossorigin="anonymous">
-    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js" as="script"
-        crossorigin>
+    <!-- <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js" as="script"
+        crossorigin> -->
     <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script"
         crossorigin>
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
