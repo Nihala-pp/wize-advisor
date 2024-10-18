@@ -37,11 +37,11 @@ var qodefQiAddonsGlobal = {
 <script defer
     src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/assets/plugins/swiper/swiper.min.js?ver=6.2.2') }}"
     id="swiper-js"></script>
-<script async src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
+<script  src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel.min.js?ver=2.2.1') }}"
     id="owl_carousel_js-js"></script>
 <script defer src="{{ asset('public/wp-content/plugins/slide-anything/js/jquery.mousewheel.min.js?ver=3.1.13') }}"
     id="mousewheel_js-js"></script>
-<script async
+<script 
     src="{{ asset('public/wp-content/plugins/slide-anything/owl-carousel/owl.carousel2.thumbs.min.js?ver=0.1.8') }}"
     id="owl_thumbs_js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/lightgallery.min.js?ver=2.5.0') }}"
@@ -54,7 +54,7 @@ var qodefQiAddonsGlobal = {
     id="lightgallery_zoom_js-js"></script>
 <script defer src="{{ asset('public/wp-content/plugins/slide-anything/lightgallery/player.min.js?ver=2.17.1') }}"
     id="vimeo_player_js-js"></script>
-<script async
+<script 
     src="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/owl.carousel.min.js?ver=1.5.107') }}"
     id="owl-carousel-js"></script>
 <script defer
