@@ -127,7 +127,7 @@
                             <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mt-3 filters">
                                 <label style="display:none;">Expertise</label>
                                 <select id="expertise" class="selectpicker" data-style="btn-info"
-                                    name="filters[expertise]">
+                                    name="filters[expertise]" data-dropup-auto="false">
                                     <option value="">Expertise</option>
                                     @foreach($expertise as $expert)
                                     <option value="{{ $expert->name }}"
