@@ -505,10 +505,10 @@
                                             data-id="cc342ce" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <input class="form-check-input" type="checkbox" name="remember"
-                                                    id="remember" {{ old('remember') ? 'checked' : '' }}>
                                                 <h6 class="elementor-heading-title elementor-size-default">Remember me
                                                 </h6>
+                                                <input class="form-check-input" type="checkbox" name="remember"
+                                                    id="remember" {{ old('remember') ? 'checked' : '' }}>
                                             </div>
                                         </div>
                                     </div>
