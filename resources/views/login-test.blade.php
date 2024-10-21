@@ -508,11 +508,11 @@
                                                 class="elementor-widget-container form-check form-switch d-flex align-items-center mb-3">
                                                 <input class="form-check-input" type="checkbox" name="remember"
                                                     id="remember" {{ old('remember') ? 'checked' : '' }}>
-                                                <label class="form-check-label mb-0 ms-2" for="rememberMe">
+                                                <!-- <label class="form-check-label mb-0 ms-2" for="rememberMe">
                                                     {{ __('Remember Me') }}
-                                                </label>
-                                                <!-- <h6 class="elementor-heading-title elementor-size-default">Remember me
-                                                </h6> -->
+                                                </label> -->
+                                                <h6 class="elementor-heading-title elementor-size-default">Remember me
+                                                </h6>
                                             </div>
                                         </div>
                                     </div>
