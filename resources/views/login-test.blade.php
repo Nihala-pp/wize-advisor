@@ -126,8 +126,8 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h6 class="elementor-heading-title elementor-size-default">Connect with Startup Mentors
-                                    : Login to wiseAdvizor</h6>
+                                <h1 class="elementor-heading-title elementor-size-default">Connect with Startup Mentors
+                                    : Login to wiseAdvizor</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-6503d89 elementor-button-align-center elementor-widget elementor-widget-login"
@@ -534,6 +534,13 @@
 
 </html>
 <style>
+.elementor-7907 .elementor-element.elementor-element-804ac2c .elementor-heading-title {
+    color: #FFFFFF;
+    font-family: "Roboto", Sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
 .elementor-7907 .elementor-element.elementor-element-77167f8 {
     transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
     margin-top: 0px;
