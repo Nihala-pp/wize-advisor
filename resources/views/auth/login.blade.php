@@ -657,4 +657,13 @@ body.elementor-page-7907>.elementor-motion-effects-container>.elementor-motion-e
         font-weight: 600;
     }
 }
+
+@media(max-width:1280px) {
+    .elementor-7907 .elementor-element.elementor-element-77167f8 {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        padding: 75px 0px 100px 0px;
+    }
+}
 </style>
