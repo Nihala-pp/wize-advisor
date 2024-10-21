@@ -126,8 +126,13 @@
                                     font-size: 59px
                                 }
                                 </style>
-                                <h1 class="elementor-heading-title elementor-size-default">Connect with Startup Mentors
-                                    : Login to wiseAdvizor</h1>
+                                <h1 class="elementor-heading-title elementor-size-default">
+                                    @if(!empty($name))
+                                    {{ __('Grow Your Startup with') }} {{ $name }} - {{ ('Schedule a Call') }}
+                                    @else
+                                    {{ __('Connect with Startup Mentors : Login to wiseAdvizor') }}
+                                    @endif
+                                </h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-6503d89 elementor-button-align-center elementor-widget elementor-widget-login"
@@ -452,12 +457,13 @@
                                     <div class="elementor-form-fields-wrapper">
                                         <div
                                             class="elementor-field-type-text elementor-field-group elementor-column elementor-col-100 elementor-field-required">
-                                            <input size="1" type="text" name="log" id="user" placeholder=""
+                                            <input size="1" type="text" name="log" id="user" placeholder="Username"
                                                 class="elementor-field elementor-field-textual elementor-size-xs">
                                         </div>
                                         <div
                                             class="elementor-field-type-text elementor-field-group elementor-column elementor-col-100 elementor-field-required">
-                                            <input size="1" type="password" name="pwd" id="password" placeholder=""
+                                            <input size="1" type="password" name="pwd" id="password"
+                                                placeholder="Password"
                                                 class="elementor-field elementor-field-textual elementor-size-xs">
                                         </div>
 
