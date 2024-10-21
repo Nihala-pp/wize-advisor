@@ -498,22 +498,6 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-3dea5d6 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="3dea5d6" data-element_type="section">
                             <div class="elementor-container elementor-column-gap-default">
-                                <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-6b3c566"
-                                    data-id="6b3c566" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-cc342ce elementor-widget elementor-widget-heading"
-                                            data-id="cc342ce" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div
-                                                class="elementor-widget-container form-check form-switch d-flex align-items-center mb-3">
-                                                <input class="form-check-input" type="checkbox" name="remember"
-                                                    id="remember" {{ old('remember') ? 'checked' : '' }}>
-                                                <h6 class="elementor-heading-title elementor-size-default">Remember me
-                                                </h6>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div> -->
                                 <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-ef7fe9d"
                                     data-id="ef7fe9d" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
