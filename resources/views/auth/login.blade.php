@@ -496,7 +496,7 @@
                         </div>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-3dea5d6 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="3dea5d6" data-element_type="section">
+                            data-id="3dea5d6" data-element_type="section" style="margin-left:20px; !important;">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ef7fe9d"
                                     data-id="ef7fe9d" data-element_type="column">
