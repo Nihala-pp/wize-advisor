@@ -489,6 +489,7 @@
                                                 <span class="elementor-button-text">Log In</span>
                                             </button>
                                         </div>
+
                                     </div>
                                 </form>
                             </div>
@@ -504,6 +505,8 @@
                                             data-id="cc342ce" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
+                                                <input class="form-check-input" type="checkbox" name="remember"
+                                                    id="remember" {{ old('remember') ? 'checked' : '' }}>
                                                 <h6 class="elementor-heading-title elementor-size-default">Remember me
                                                 </h6>
                                             </div>
