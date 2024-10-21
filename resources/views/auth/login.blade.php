@@ -498,25 +498,33 @@
                             class="elementor-section elementor-inner-section elementor-element elementor-element-3dea5d6 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="3dea5d6" data-element_type="section" style="margin-left:20px; !important;">
                             <div class="elementor-container elementor-column-gap-default"> -->
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ef7fe9d"
-                                    data-id="ef7fe9d" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-34ee8e2 elementor-widget elementor-widget-heading"
-                                            data-id="34ee8e2" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">
-                                                    <a href="{{ route('forget.password.get') }}"
-                                                        class="text-primary text-gradient font-weight-bold">
-                                                        {{ __('Forgot Your Password?') }}
-                                                    </a>
-                                                </h6>
-                                            </div>
-                                        </div>
+                        <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-ef7fe9d"
+                            data-id="ef7fe9d" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-34ee8e2 elementor-widget elementor-widget-heading"
+                                    data-id="34ee8e2" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h6 class="elementor-heading-title elementor-size-default">
+                                            <a href="{{ route('forget.password.get') }}"
+                                                class="text-primary text-gradient font-weight-bold">
+                                                {{ __('Forgot Your Password?') }}
+                                            </a>
+                                        </h6>
                                     </div>
                                 </div>
-                                <hr>
-                            <!-- </div>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-6c20c08 elementor-widget__width-initial elementor-widget elementor-widget-qi_addons_for_elementor_separator"
+                            data-id="6c20c08" data-element_type="widget"
+                            data-widget_type="qi_addons_for_elementor_separator.default">
+                            <div class="elementor-widget-container">
+                                <div
+                                    class="qodef-shortcode qodef-m  qodef-qi-separator qodef-qi-clear qodef-separator--standard ">
+                                    <div class="qodef-m-line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- </div>
                         </section> -->
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-6dd74e5 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
