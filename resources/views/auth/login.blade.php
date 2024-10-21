@@ -461,7 +461,7 @@
                                         <div
                                             class="elementor-field-type-text elementor-field-group elementor-column elementor-col-100 elementor-field-required">
                                             <input size="1" type="email" name="email" id="user email"
-                                                placeholder="Username"
+                                                placeholder="Email Address"
                                                 class="elementor-field elementor-field-textual elementor-size-xs"
                                                 value="{{ old('email') }}" required autocomplete="email" autofocus>
                                             @error('email')
