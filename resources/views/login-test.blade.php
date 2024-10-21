@@ -594,7 +594,7 @@
 
 .elementor-7907 .elementor-element.elementor-element-804ac2c .elementor-heading-title {
     color: #FFFFFF;
-    font-family: "Roboto", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-size: 13px;
     font-weight: 400;
 }
@@ -604,5 +604,12 @@
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 100px 0px 100px 0px;
+}
+
+.elementor-7907 .elementor-element.elementor-element-34ee8e2 .elementor-heading-title {
+    color: #A5A5A5;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
 }
 </style>
