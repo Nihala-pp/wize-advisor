@@ -1221,7 +1221,7 @@ window.location.href = "https://wiseadvizor.com/faq";
   {
     $selectedBlog = Blogs::find($id);
 
-    $related_posts = Blogs::where('id', '!=', $id)->latest()->take(3)->get();
+    $related_posts = Blogs::where('id', '!=', $id)->orderByDesc('category_id')->latest()->take(3)->get();
 
     return view('blog-detail', compact('selectedBlog', 'related_posts'));
   }
