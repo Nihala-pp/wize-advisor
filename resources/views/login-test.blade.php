@@ -451,23 +451,37 @@
                                     content: "" !important
                                 }
                                 </style>
-                                <form class="elementor-login elementor-form"  action="{{ route('login.post') }}" method="POST"
-                                    action="https://web.wiseadvizor.com/wp-login.php">
-                                    <input type="hidden" name="redirect_to" value="/elementor-7907/">
+                                <form class="elementor-login elementor-form" action="{{ route('login.post') }}"
+                                    method="POST">
+                                    @csrf
+                                    <input type="hidden" name="token" value="{{ $token ?: Null }}">
+                                    <input type="hidden" name="mentor_id" value="{{ $id ?: Null }}">
+                                    <input type="hidden" name="mentor_name" value="{{ $name ?: Null }}">
                                     <div class="elementor-form-fields-wrapper">
                                         <div
                                             class="elementor-field-type-text elementor-field-group elementor-column elementor-col-100 elementor-field-required">
-                                            <input size="1" type="text" name="log" id="user" placeholder="Username"
-                                                class="elementor-field elementor-field-textual elementor-size-xs">
+                                            <input size="1" type="email" name="email" id="user email"
+                                                placeholder="Username"
+                                                class="elementor-field elementor-field-textual elementor-size-xs"
+                                                value="{{ old('email') }}" required autocomplete="email" autofocus>
+                                            @error('email')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
                                         <div
                                             class="elementor-field-type-text elementor-field-group elementor-column elementor-col-100 elementor-field-required">
-                                            <input size="1" type="password" name="pwd" id="password"
+                                            <input size="1" type="password" name="password" id="password"
                                                 placeholder="Password"
-                                                class="elementor-field elementor-field-textual elementor-size-xs">
+                                                class="elementor-field elementor-field-textual elementor-size-xs"
+                                                required autocomplete="current-password">
+                                            @error('password')
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
+                                            @enderror
                                         </div>
-
-
                                         <div
                                             class="elementor-field-group elementor-column elementor-field-type-submit elementor-col-100">
                                             <button type="submit" class="elementor-size-xs elementor-button"
@@ -475,7 +489,6 @@
                                                 <span class="elementor-button-text">Log In</span>
                                             </button>
                                         </div>
-
                                     </div>
                                 </form>
                             </div>
