@@ -525,7 +525,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
-                                                    <a href="{{ route('forget.password.get') }}" class="btn btn-link">
+                                                    <a href="{{ route('forget.password.get') }}" class="text-primary text-gradient font-weight-bold">
                                                         {{ __('Forgot Your Password?') }}
                                                     </a>
                                                 </h6>
