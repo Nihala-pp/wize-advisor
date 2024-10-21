@@ -504,11 +504,15 @@
                                         <div class="elementor-element elementor-element-cc342ce elementor-widget elementor-widget-heading"
                                             data-id="cc342ce" data-element_type="widget"
                                             data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Remember me
-                                                </h6>
+                                            <div
+                                                class="elementor-widget-container form-check form-switch d-flex align-items-center mb-3">
                                                 <input class="form-check-input" type="checkbox" name="remember"
                                                     id="remember" {{ old('remember') ? 'checked' : '' }}>
+                                                <label class="form-check-label mb-0 ms-2" for="rememberMe">
+                                                    {{ __('Remember Me') }}
+                                                </label>
+                                                <!-- <h6 class="elementor-heading-title elementor-size-default">Remember me
+                                                </h6> -->
                                             </div>
                                         </div>
                                     </div>
