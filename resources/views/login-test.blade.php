@@ -619,4 +619,8 @@
     font-weight: 600;
     background-color: #3F55CE;
 }
+
+.elementor-7907 .elementor-element.elementor-element-77667c2 img {
+    width: 19%;
+}
 </style>
