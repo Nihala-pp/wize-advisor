@@ -594,7 +594,7 @@
 }
 
 .elementor-7907 .elementor-element.elementor-element-34ee8e2 .elementor-heading-title {
-    padding-top: 7px;
+    padding-bottom: 10px;
     color: #A5A5A5;
     font-family: "Helvetica", Sans-serif;
     font-size: 12px;
