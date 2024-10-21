@@ -524,9 +524,11 @@
                                             data-id="34ee8e2" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <a href="{{ route('forget.password.get') }}" class="btn btn-link">
-                                                    {{ __('Forgot Your Password?') }}
-                                                </a>
+                                                <h6 class="elementor-heading-title elementor-size-default">
+                                                    <a href="{{ route('forget.password.get') }}" class="btn btn-link">
+                                                        {{ __('Forgot Your Password?') }}
+                                                    </a>
+                                                </h6>
                                             </div>
                                         </div>
                                     </div>
