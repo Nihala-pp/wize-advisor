@@ -47,6 +47,7 @@
 @include('partials.test')
 <meta name='robots' content='max-image-preview:large' />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+<link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
 
 <body
     class="page-template page-template-elementor_canvas page page-id-7907 wp-embed-responsive ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7907">
