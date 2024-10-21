@@ -571,7 +571,7 @@
 html,
 body {
     max-width: 100%;
-    overflow-y: hidden;
+    overflow-y: hidden !important;
 }
 
 .elementor-column.elementor-col-50,
@@ -633,6 +633,12 @@ body.elementor-page-7907>.elementor-motion-effects-container>.elementor-motion-e
 }
 
 @media (max-width: 767px) {
+
+    html,
+    body {
+        max-width: 100%;
+        overflow-y: hidden !important;
+    }
 
     .elementor-7907 .elementor-element.elementor-element-77167f8 {
         transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
