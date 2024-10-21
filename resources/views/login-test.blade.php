@@ -612,4 +612,10 @@
     font-size: 12px;
     font-weight: 600;
 }
+
+.elementor-7907 .elementor-element.elementor-element-6503d89 .elementor-button {
+    font-family: "Helvetica", Sans-serif;
+    font-weight: 600;
+    background-color: #3F55CE;
+}
 </style>
