@@ -26,8 +26,15 @@ class TestController extends Controller
         return view('be-a-mentor-test');
     }
 
-    public function homeTest()
+    public function homeTest($token = Null, $id = Null, $name = Null)
     {
-        return view('login-test');
+        
+        $mentor = null;
+
+        if($id) {
+            $mentor = User::find($id)->name;
+        }
+
+        return view('login-test', compact('token', 'id', 'name', 'mentor'));
     }
-}
+}t

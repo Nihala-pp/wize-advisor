@@ -241,5 +241,5 @@ Route::controller(UserController::class)
 
    //***             Test Routes               ****///
 
-Route::get('home-test', [TestController::class, 'homeTest'])->name('home-test');
+Route::get('home-test/{token?}/{id?}/{name?}', [TestController::class, 'homeTest'])->name('home-test');
 //    Route::get('contactus-test', [TestController::class, 'contactuspage'])->name('contact-test');
