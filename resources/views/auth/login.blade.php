@@ -516,7 +516,8 @@
                         </div>
                         <div class="elementor-element elementor-element-6c20c08 elementor-widget__width-initial elementor-widget elementor-widget-qi_addons_for_elementor_separator"
                             data-id="6c20c08" data-element_type="widget"
-                            data-widget_type="qi_addons_for_elementor_separator.default">
+                            data-widget_type="qi_addons_for_elementor_separator.default" style="border:solid;border-width: 1px !important;
+                            border-color: #2C2828 !important;">
                             <div class="elementor-widget-container">
                                 <div
                                     class="qodef-shortcode qodef-m  qodef-qi-separator qodef-qi-clear qodef-separator--standard ">
