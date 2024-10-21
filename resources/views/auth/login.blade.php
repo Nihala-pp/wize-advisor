@@ -568,6 +568,12 @@
 
 </html>
 <style>
+html,
+body {
+    max-width: 100%;
+    overflow-y: hidden;
+}
+
 .elementor-column.elementor-col-50,
 .elementor-column[data-col="50"] {
     margin-left: -15px;
