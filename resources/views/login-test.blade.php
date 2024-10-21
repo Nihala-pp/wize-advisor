@@ -622,4 +622,9 @@
 .elementor-7907 .elementor-element.elementor-element-77667c2 img {
     width: 19%;
 }
+
+body.elementor-page-7907:not(.elementor-motion-effects-element-type-background),
+body.elementor-page-7907>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+}
 </style>
