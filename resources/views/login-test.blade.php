@@ -81,12 +81,11 @@
                                     vertical-align: middle;
                                     display: inline-block
                                 }
-                                </style> <img fetchpriority="high" decoding="async" width="750" height="650"
+                                </style> <img fetchpriority="high" decoding="async" width="300" height="260"
                                     src="https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-1024x888.png"
                                     class="attachment-large size-large wp-image-8304" alt=""
-                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-1024x888.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-300x260.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-768x666.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White.png 1200w"
-                                    sizes="(max-width: 750px) 100vw, 750px"
-                                    style="width:100%;height:86.75%;max-width:1200px" />
+                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-300x260.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-1024x888.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-768x666.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White.png 1200w"
+                                    sizes="(max-width: 300px) 100vw, 300px">
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-804ac2c elementor-widget elementor-widget-heading"
