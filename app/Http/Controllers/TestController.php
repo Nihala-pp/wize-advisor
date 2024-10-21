@@ -37,4 +37,4 @@ class TestController extends Controller
 
         return view('login-test', compact('token', 'id', 'name', 'mentor'));
     }
-}t
+}
