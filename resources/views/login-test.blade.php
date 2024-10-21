@@ -451,7 +451,7 @@
                                     content: "" !important
                                 }
                                 </style>
-                                <form class="elementor-login elementor-form" method="post"
+                                <form class="elementor-login elementor-form"  action="{{ route('login.post') }}" method="POST"
                                     action="https://web.wiseadvizor.com/wp-login.php">
                                     <input type="hidden" name="redirect_to" value="/elementor-7907/">
                                     <div class="elementor-form-fields-wrapper">
