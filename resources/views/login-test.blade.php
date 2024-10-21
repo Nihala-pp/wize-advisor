@@ -646,5 +646,15 @@ body.elementor-page-7907>.elementor-motion-effects-container>.elementor-motion-e
         font-size: 12px;
         font-weight: 600;
     }
+
+    .elementor-7907 .elementor-element.elementor-element-34ee8e2 .elementor-heading-title {
+        MARGIN-TOP: -20PX;
+        text-align: center;
+        /* padding-top: 7px; */
+        color: #A5A5A5;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+    }
 }
 </style>
