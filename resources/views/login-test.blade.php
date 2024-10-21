@@ -49,7 +49,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
 <body
-    class="page-template page-template-elementor_canvas page page-id-7907 wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-7907">
+    class="page-template page-template-elementor_canvas page page-id-7907 wp-embed-responsive ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-7907">
     <div data-elementor-type="wp-page" data-elementor-id="7907" class="elementor elementor-7907">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-77167f8 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
