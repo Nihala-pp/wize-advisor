@@ -461,7 +461,7 @@
                                         <div
                                             class="elementor-field-type-text elementor-field-group elementor-column elementor-col-100 elementor-field-required">
                                             <input size="1" type="email" name="email" id="user email"
-                                                placeholder="Email Address"
+                                                placeholder="Email"
                                                 class="elementor-field elementor-field-textual elementor-size-xs"
                                                 value="{{ old('email') }}" required autocomplete="email" autofocus>
                                             @error('email')
@@ -627,16 +627,6 @@ body.elementor-page-7907>.elementor-motion-effects-container>.elementor-motion-e
     }
 
     .elementor-7907 .elementor-element.elementor-element-34ee8e2 .elementor-heading-title {
-        text-align: center;
-        /* padding-top: 7px; */
-        color: #A5A5A5;
-        font-family: "Helvetica", Sans-serif;
-        font-size: 12px;
-        font-weight: 600;
-    }
-
-    .elementor-7907 .elementor-element.elementor-element-34ee8e2 .elementor-heading-title {
-        MARGIN-TOP: -20PX;
         text-align: center;
         /* padding-top: 7px; */
         color: #A5A5A5;
