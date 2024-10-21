@@ -580,9 +580,16 @@
 .elementor-7907 .elementor-element.elementor-element-cc342ce .elementor-heading-title {
     padding-left: 20px;
     color: #A5A5A5;
-    font-family: "Roboto", Sans-serif;
+    font-family: "Helvetica", Sans-serif;
     font-size: 12px;
-    font-weight: 500;
+    font-weight: 600;
+}
+
+.elementor-7907 .elementor-element.elementor-element-40154f3 .elementor-heading-title {
+    color: #A5A5A5;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 12px;
+    font-weight: 600;
 }
 
 .elementor-7907 .elementor-element.elementor-element-804ac2c .elementor-heading-title {
