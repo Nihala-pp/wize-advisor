@@ -577,8 +577,14 @@
 
 </html>
 <style>
+.elementor-column.elementor-col-50,
+.elementor-column[data-col="50"] {
+    margin-left: -15px;
+    width: 50%;
+}
+
 .elementor-7907 .elementor-element.elementor-element-cc342ce .elementor-heading-title {
-    padding-left: 20px;
+    padding-left: 10px;
     color: #A5A5A5;
     font-family: "Helvetica", Sans-serif;
     font-size: 12px;
@@ -629,11 +635,6 @@ body.elementor-page-7907>.elementor-motion-effects-container>.elementor-motion-e
     background-color: #000;
 }
 
-
-.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
 @media (max-width: 767px) {
 
     .elementor-7907 .elementor-element.elementor-element-77167f8 {
