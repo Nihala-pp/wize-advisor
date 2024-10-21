@@ -44,7 +44,7 @@
 <link rel='stylesheet' id='elementor-post-7907-css'
     href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-7907.css?ver=1729502695' media='all' />
 <meta name="twitter:card" content="summary_large_image">
-@include('partials.header')
+@include('partials.test')
 <meta name='robots' content='max-image-preview:large' />
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
