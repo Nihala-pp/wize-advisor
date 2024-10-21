@@ -637,5 +637,14 @@ body.elementor-page-7907>.elementor-motion-effects-container>.elementor-motion-e
         margin-bottom: 0px;
         padding: 100px 0px 100px 0px;
     }
+
+    .elementor-7907 .elementor-element.elementor-element-34ee8e2 .elementor-heading-title {
+        text-align: center;
+        /* padding-top: 7px; */
+        color: #A5A5A5;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 12px;
+        font-weight: 600;
+    }
 }
 </style>
