@@ -525,7 +525,8 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
-                                                    <a href="{{ route('forget.password.get') }}" class="text-primary text-gradient font-weight-bold">
+                                                    <a href="{{ route('forget.password.get') }}"
+                                                        class="text-primary text-gradient font-weight-bold">
                                                         {{ __('Forgot Your Password?') }}
                                                     </a>
                                                 </h6>
@@ -576,6 +577,14 @@
 
 </html>
 <style>
+.elementor-7907 .elementor-element.elementor-element-cc342ce .elementor-heading-title {
+    padding-left: 20px;
+    color: #A5A5A5;
+    font-family: "Roboto", Sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+}
+
 .elementor-7907 .elementor-element.elementor-element-804ac2c .elementor-heading-title {
     color: #FFFFFF;
     font-family: "Roboto", Sans-serif;
