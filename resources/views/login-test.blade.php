@@ -545,7 +545,7 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">Don't have an
-                                                    account? Create new account
+                                                    account?
                                                     <a href="{{ route('register', [$token, $id]) }}"
                                                         class="text-primary text-gradient font-weight-bold">
                                                         @if(!empty($name))
