@@ -629,6 +629,11 @@ body.elementor-page-7907>.elementor-motion-effects-container>.elementor-motion-e
     background-color: #000;
 }
 
+
+.elementor-column-gap-default>.elementor-column>.elementor-element-populated {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
 @media (max-width: 767px) {
 
     .elementor-7907 .elementor-element.elementor-element-77167f8 {
