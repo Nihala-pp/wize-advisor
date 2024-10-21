@@ -524,8 +524,9 @@
                                             data-id="34ee8e2" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Forgot
-                                                    Password?</h6>
+                                                <a href="{{ route('forget.password.get') }}" class="btn btn-link">
+                                                    {{ __('Forgot Your Password?') }}
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
@@ -544,7 +545,20 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">Don't have an
-                                                    account? Create new account</h6>
+                                                    account? Create new account
+                                                    <a href="{{ route('register', [$token, $id]) }}"
+                                                        class="text-primary text-gradient font-weight-bold">
+                                                        @if(!empty($name))
+                                                        Register Here!<span class="text">and Schedule call with
+                                                            {{ $name }}</span>
+                                                        @elseif(!empty($token))
+                                                        Create Account <span class="text">and Schedule call with
+                                                            {{ $mentor }}</span>
+                                                        @else
+                                                        Create New Account
+                                                        @endif
+                                                    </a>
+                                                </h6>
                                             </div>
                                         </div>
                                     </div>
