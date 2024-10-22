@@ -2,7 +2,7 @@
 <link rel="preload" as="style"
     href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1"
     id="tpgb-fontawesome" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-<link rel="preconnect"
+<!-- <link rel="preconnect"
     href="https://fonts.googleapis.com/css?family=Roboto%3A700%2C500%2C400&#038;subset=latin&#038;&display=block&#038;ver=3.0.2"
     crossorigin="crossorigin">
 <link rel="preload"
@@ -44,7 +44,7 @@
 <noscript>
     <link rel="stylesheet"
         href="https://wiseadvizor.com/wp-content/plugins/niso-carousel-slider/assets/css/themes/default.min.css?ver=1.0">
-</noscript>
+</noscript> -->
 <link rel="preload" as="style" id="hfe-style-css"
     href="https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/assets/css/header-footer-elementor.min.css?ver=1.6.14"
     crossorigin>
