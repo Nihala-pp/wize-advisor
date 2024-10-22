@@ -27,9 +27,8 @@
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="dns-prefetch" href="//fonts.googleapis.com&display=swap">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js"></script>
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+    <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
+    <script async data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
     <link rel="canonical" href="https://wiseadvizor.com/contact-us">
 </head>
@@ -143,7 +142,8 @@
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="mailto:?subject=Contact us&amp;body= Have a query" style="background-color:#4285f4 !important;">
+                                        href="mailto:?subject=Contact us&amp;body= Have a query"
+                                        style="background-color:#4285f4 !important;">
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Contact</span>
 
@@ -189,7 +189,8 @@
                             <div class="elementor-widget-container">
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="https://wiseadvizor.com/be-a-mentor" style="background-color:#4285f4 !important;">
+                                        href="https://wiseadvizor.com/be-a-mentor"
+                                        style="background-color:#4285f4 !important;">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Be a Mentor</span>
@@ -246,7 +247,8 @@
 
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="mailto:?subject=Send proposal&amp;body= Have a query" style="background-color:#4285f4 !important;">
+                                        href="mailto:?subject=Send proposal&amp;body= Have a query"
+                                        style="background-color:#4285f4 !important;">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Send proposal</span>
@@ -288,7 +290,8 @@
 
                                 <div class="wpr-button-wrap elementor-clearfix">
                                     <a class="wpr-button wpr-button-effect wpr-button-none" data-text="Go"
-                                        href="https://wiseadvizor.com/registration" style="background-color:#4285f4 !important;">
+                                        href="https://wiseadvizor.com/registration"
+                                        style="background-color:#4285f4 !important;">
 
                                         <span class="wpr-button-content">
                                             <span class="wpr-button-text">Get started</span>
@@ -349,16 +352,145 @@
             </div>
         </section>
     </div>
-
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+    id="jquery-core-js"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     <link rel='stylesheet' id='elementor-post-7478-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7478.css?ver=1721657651' media='all' />
-    @include('partials.web-style')
+    @include('partials.test')
 
     @include('partials.footer-web')
-    @include('partials.web-script')
+    <script id="elementor-frontend-js-before">
+    var elementorFrontendConfig = {
+        "environmentMode": {
+            "edit": false,
+            "wpPreview": false,
+            "isScriptDebug": false
+        },
+        "i18n": {
+            "shareOnFacebook": "Share on Facebook",
+            "shareOnTwitter": "Share on Twitter",
+            "pinIt": "Pin it",
+            "download": "Download",
+            "downloadImage": "Download image",
+            "fullscreen": "Fullscreen",
+            "zoom": "Zoom",
+            "share": "Share",
+            "playVideo": "Play Video",
+            "previous": "Previous",
+            "next": "Next",
+            "close": "Close",
+            "a11yCarouselWrapperAriaLabel": "Carousel | Horizontal scrolling: Arrow Left & Right",
+            "a11yCarouselPrevSlideMessage": "Previous slide",
+            "a11yCarouselNextSlideMessage": "Next slide",
+            "a11yCarouselFirstSlideMessage": "This is the first slide",
+            "a11yCarouselLastSlideMessage": "This is the last slide",
+            "a11yCarouselPaginationBulletMessage": "Go to slide"
+        },
+        "is_rtl": false,
+        "breakpoints": {
+            "xs": 0,
+            "sm": 480,
+            "md": 768,
+            "lg": 1025,
+            "xl": 1440,
+            "xxl": 1600
+        },
+        "responsive": {
+            "breakpoints": {
+                "mobile": {
+                    "label": "Mobile Portrait",
+                    "value": 767,
+                    "default_value": 767,
+                    "direction": "max",
+                    "is_enabled": true
+                },
+                "mobile_extra": {
+                    "label": "Mobile Landscape",
+                    "value": 880,
+                    "default_value": 880,
+                    "direction": "max",
+                    "is_enabled": false
+                },
+                "tablet": {
+                    "label": "Tablet Portrait",
+                    "value": 1024,
+                    "default_value": 1024,
+                    "direction": "max",
+                    "is_enabled": true
+                },
+                "tablet_extra": {
+                    "label": "Tablet Landscape",
+                    "value": 1200,
+                    "default_value": 1200,
+                    "direction": "max",
+                    "is_enabled": false
+                },
+                "laptop": {
+                    "label": "Laptop",
+                    "value": 1366,
+                    "default_value": 1366,
+                    "direction": "max",
+                    "is_enabled": false
+                },
+                "widescreen": {
+                    "label": "Widescreen",
+                    "value": 2400,
+                    "default_value": 2400,
+                    "direction": "min",
+                    "is_enabled": false
+                }
+            }
+        },
+        "version": "3.14.1",
+        "is_static": false,
+        "experimentalFeatures": {
+            "e_dom_optimization": true,
+            "e_optimized_assets_loading": true,
+            "e_optimized_css_loading": true,
+            "a11y_improvements": true,
+            "additional_custom_breakpoints": true,
+            "e_swiper_latest": true,
+            "theme_builder_v2": true,
+            "landing-pages": true,
+            "form-submissions": true,
+            "e_scroll_snap": true
+        },
+        "urls": {
+            "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor\/assets\/"
+        },
+        "swiperClass": "swiper",
+        "settings": {
+            "page": [],
+            "editorPreferences": []
+        },
+        "kit": {
+            "active_breakpoints": ["viewport_mobile", "viewport_tablet"],
+            "global_image_lightbox": "yes",
+            "lightbox_enable_counter": "yes",
+            "lightbox_enable_fullscreen": "yes",
+            "lightbox_enable_zoom": "yes",
+            "lightbox_enable_share": "yes",
+            "lightbox_title_src": "title",
+            "lightbox_description_src": "description"
+        },
+        "post": {
+            "id": 8,
+            "title": "Home%20%E2%80%93%20WISE%20ADVIZOR",
+            "excerpt": "",
+            "featuredImage": false
+        }
+    };
+    </script>
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
+        id="elementor-frontend-js"></script>
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
+    </script>
+    <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
+    </script>
+    <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
 </body>
-
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
