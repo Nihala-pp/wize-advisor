@@ -134,13 +134,13 @@
 <!-- <link rel="preload" href="https://wiseadvizor.com/public/assets/js/lazysizes.min.js" as="script" crossorigin="anonymous"> -->
 <!-- <link rel="preload" href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/lib/jarallax/jarallax.min.js?ver=1.12.7" as="script" crossorigin="anonymous"> -->
 <!-- <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/qi-addons-for-elementor/assets/js/main.min.js?ver=6.2.2" as="script" crossorigin="anonymous"> -->
-<link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script" crossorigin="anonymous">
-<link rel="preload" href="https://wiseadvizor.com/public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" as="script" crossorigin="anonymous">
-<link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0" as="script" crossorigin="anonymous">
+<!-- <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js" as="script" crossorigin="anonymous"> -->
+<!-- <link rel="preload" href="https://wiseadvizor.com/public/wp-includes/js/jquery/ui/mouse.min.js?ver=1.13.2" as="script" crossorigin="anonymous"> -->
+<!-- <link rel="preload" href="https://wiseadvizor.com/public/wp-content/plugins/niso-carousel-slider/assets/js/owl.carousel.min.js?ver=1.0" as="script" crossorigin="anonymous"> -->
 <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script" crossorigin="anonymous">
 
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<style id="skip-link-styles">
+<!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+<!-- <style id="skip-link-styles">
 .skip-link.screen-reader-text {
     border: 0;
     clip: rect(1px, 1px, 1px, 1px);
@@ -170,7 +170,7 @@
     width: auto;
     z-index: 100000;
 }
-</style>
+</style> -->
 <link rel="preload" as="style" id="uc_ac_assets_file_style_css_13102-css"
     href="{{ asset('public/wp-content/uploads/ac_assets/bubble_float/style.min.css?ver=1.5.75') }}" onload="this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="owl_carousel_css-css"
