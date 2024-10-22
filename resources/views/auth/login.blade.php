@@ -83,9 +83,9 @@
                                     display: inline-block
                                 }
                                 </style> <img fetchpriority="high" decoding="async" width="300" height="260"
-                                    src="https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-1024x888.png"
-                                    class="attachment-large size-large wp-image-8304" alt=""
-                                    srcset="https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-300x260.png 300w, https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-1024x888.png 1024w, https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-768x666.png 768w, https://web.wiseadvizor.com/wp-content/uploads/2024/10/PNG-White.png 1200w"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-1024x888.png"
+                                    class="attachment-large size-large wp-image-8304" alt="Startup mentors"
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-300x260.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-1024x888.png 1024w, https://wiseadvizor.com/wp-content/uploads/2024/10/PNG-White-768x666.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/10/PNG-White.png 1200w"
                                     sizes="(max-width: 300px) 100vw, 300px">
                             </div>
                         </div>
