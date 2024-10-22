@@ -26,10 +26,10 @@
     <meta name='robots' content='max-image-preview:large' />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
         id="bootstrap-css">
-    <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script"
-        crossorigin="anonymous">
-    <script  data-cfasync="false"
-        src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        id="jquery-core-js"></script>
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
+        id="jquery-migrate-js">
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/about-us">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
@@ -442,8 +442,6 @@
             </div>
         </section>
     </div>
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js"></script>
     <link rel='stylesheet' id='elementor-post-7317-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7317.css?ver=1720441384' media='all' />
     <link rel="preload"
