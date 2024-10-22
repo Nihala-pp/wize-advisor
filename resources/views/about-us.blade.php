@@ -451,7 +451,6 @@
     @include('partials.test')
     @include('partials.footer-web')
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <!-- @include('partials.test-script') -->
     <script
         src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
