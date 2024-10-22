@@ -682,8 +682,6 @@
 
     @include('partials.footer-web')
 
-    <!-- @include('partials.web-script') -->
-
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
         "environmentMode": {
