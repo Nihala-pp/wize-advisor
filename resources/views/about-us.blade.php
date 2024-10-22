@@ -453,7 +453,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
     @include('partials.test')
     @include('partials.footer-web')
-    @include('partials.web-script')
+    <!-- @include('partials.web-script') -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <script type="text/javascript">
     (function($) {
