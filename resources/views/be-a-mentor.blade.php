@@ -27,10 +27,10 @@
     <link rel="canonical" href="https://wiseadvizor.com/be-a-mentor">
     <meta name='robots' content='max-image-preview:large' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js"></script>
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
+    <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
+    <script async data-cfasync="false"
+        src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    </script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
 
@@ -672,6 +672,8 @@
             </div>
         </section>
     </div>
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        id="jquery-core-js"></script>
     <link rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
         as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
@@ -813,6 +815,7 @@
     <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
+
 </html>
 <style>
 .elementor-7046 .elementor-element.elementor-element-e4a606d .wpr-anim-text b,
