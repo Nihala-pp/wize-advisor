@@ -1734,13 +1734,13 @@
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4454.css?ver=1703156298' media='all' />
     <link rel='stylesheet' id='elementor-post-4509-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4509.css?ver=1703156298' media='all' />
-    <script nonce="{{ csp_nonce() }}" data-cfasync="false"
+    <script data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
 
     @include('partials.test')
 
     @include('partials.footer-web')
-    <script nonce="{{ csp_nonce() }}"
+    <script
         src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script id="elementor-frontend-js-before" nonce="{{ $nonce }}">
@@ -1865,25 +1865,25 @@
         }
     };
     </script>
-    <script nonce="{{ csp_nonce() }}"
+    <script 
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
         id="elementor-frontend-js"></script>
-    <script nonce="{{ csp_nonce() }}"
+    <script
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
-    <script nonce="{{ csp_nonce() }}" async
+    <script async
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
-    <script defer nonce="{{ csp_nonce() }}" 
+    <script defer
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
     </script>
-    <script nonce="{{ csp_nonce() }}" defer type="text/javascript"
+    <script defer type="text/javascript"
         src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
 </html>
-<style nonce="{{ csp_nonce() }}">
+<style>
 .elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementorw-motion-effects-element-type-background),
 .elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #000;
@@ -2298,7 +2298,7 @@ li {
     font-weight: 600;
 }
 </style>
-<style nonce="{{ csp_nonce() }}">
+<style>
 .elementor-32 .elementor-element.elementor-element-540d2d1 .elementor-repeater-item-a96e0b3.elementor-social-icon i {
     margin: 8px;
     /* color: #FFFFFF; */
