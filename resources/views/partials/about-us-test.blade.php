@@ -31,6 +31,6 @@
 <link rel="stylesheet"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
     id="elementor-icons-shared-0-css">
-<link rel="preload"
+<!-- <link rel="preload"
     href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
-    as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous"> -->
