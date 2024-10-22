@@ -672,11 +672,13 @@
             </div>
         </section>
     </div>
-
+    <link rel="preload"
+        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
+        as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
     <link rel='stylesheet' id='elementor-post-7046-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7046.css?ver=1720441388' media='all' />
-    @include('partials.web-style')
+    @include('partials.test')
 
     @include('partials.footer-web')
 
