@@ -28,7 +28,7 @@
         id="bootstrap-css">
     <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script"
         crossorigin="anonymous">
-    <script async data-cfasync="false"
+    <script  data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
     <link rel="canonical" href="https://wiseadvizor.com/about-us">
