@@ -146,16 +146,3 @@ var Tawk_API = Tawk_API || {},
     s0.parentNode.insertBefore(s1, s0);
 })();
 </script>
-<!-- <script type="text/javascript">
-   $(document).on(EVENT_CONFIG.CLICK, 'div[id^=RecordViewSheet]', function() {
-
-      function isMobile() {
-        if (typeof window.orientation !== 'undefined') return true;
-        return false;
-      }
-
-      var EVENT_CONFIG = {
-        CLICK: isMobile() ? 'touchstart' : 'click'
-      }
-  });
-</script> -->

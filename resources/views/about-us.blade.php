@@ -451,9 +451,8 @@
     @include('partials.test')
     @include('partials.footer-web')
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    @include('partials.test-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
-    <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
-    </script>
     <script type="text/javascript">
     (function($) {
         "use strict";
@@ -1007,5 +1006,4 @@ h2 {
     display: none;
 }
 </style>
-
 </html>
