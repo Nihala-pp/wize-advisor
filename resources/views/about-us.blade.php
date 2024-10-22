@@ -583,6 +583,8 @@
     <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
     <script type="text/javascript">
     (function($) {
         "use strict";
