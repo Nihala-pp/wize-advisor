@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <title>Mentorship for New Ventures: Explore Easy Start-Up Ideas</title>
@@ -26,7 +27,8 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
         id="bootstrap-css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script" crossorigin="anonymous">
+    <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script"
+        crossorigin="anonymous">
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
@@ -331,37 +333,53 @@
                             data-widget_type="media-carousel.default">
                             <!-- <div class="elementor-widget-container"> -->
                             <!-- <div class="customer-logos slider"> -->
-                            <div class="slide"><img alt="Startup Mentor" src="https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp">
+                            <div class="slide"><img alt="Startup Mentor"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp">
                             </div>
-                            <div class="slide"><img alt="E-Commerce Strategy    " src="https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp">
+                            <div class="slide"><img alt="E-Commerce Strategy    "
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp">
                             </div>
-                            <div class="slide"><img alt="Business Coach" src="https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp">
+                            <div class="slide"><img alt="Business Coach"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp">
                             </div>
-                            <div class="slide"><img alt="Content Startegist" src="https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp">
+                            <div class="slide"><img alt="Content Startegist"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp">
                             </div>
-                            <div class="slide"><img alt="Investment Partner" src="https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp">
+                            <div class="slide"><img alt="Investment Partner"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp">
                             </div>
-                            <div class="slide"><img alt="Product Strategist" src="https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp">
+                            <div class="slide"><img alt="Product Strategist"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp">
                             </div>
-                            <div class="slide"><img alt="Head of Marketing" src="https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp">
+                            <div class="slide"><img alt="Head of Marketing"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp">
                             </div>
-                            <div class="slide"><img alt="Business Developer" src="https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp">
+                            <div class="slide"><img alt="Business Developer"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp">
                             </div>
-                            <div class="slide"><img alt="Technology Mentor" src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
+                            <div class="slide"><img alt="Technology Mentor"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
                             </div>
-                            <div class="slide"><img alt="CMO Mentor" src="https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp">
+                            <div class="slide"><img alt="CMO Mentor"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp">
                             </div>
-                            <div class="slide"><img alt="SEO" src="https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp">
+                            <div class="slide"><img alt="SEO"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp">
                             </div>
-                            <div class="slide"><img alt="AI Professional" src="https://wiseadvizor.com/wp-content/uploads/2024/06/12.webp">
+                            <div class="slide"><img alt="AI Professional"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/12.webp">
                             </div>
-                            <div class="slide"><img alt="Go to Market Strategy" src="https://wiseadvizor.com/wp-content/uploads/2024/06/13.webp">
+                            <div class="slide"><img alt="Go to Market Strategy"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/13.webp">
                             </div>
-                            <div class="slide"><img alt="Growth Mentor" src="https://wiseadvizor.com/wp-content/uploads/2024/06/14.webp">
+                            <div class="slide"><img alt="Growth Mentor"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/14.webp">
                             </div>
-                            <div class="slide"><img alt="Marketing Analyst" src="https://wiseadvizor.com/wp-content/uploads/2024/06/15.webp">
+                            <div class="slide"><img alt="Marketing Analyst"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/15.webp">
                             </div>
-                            <div class="slide"><img alt="Sales Mentor" src="https://wiseadvizor.com/wp-content/uploads/2024/06/16.webp">
+                            <div class="slide"><img alt="Sales Mentor"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/16.webp">
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-ef07943 wpr-button-icon-style-inline wpr-button-icon-position-right elementor-widget elementor-widget-wpr-button"
@@ -429,37 +447,40 @@
     <link rel='stylesheet' id='elementor-post-7317-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7317.css?ver=1720441384' media='all' />
     <link rel="icon" type="image/png" href="{{ asset(path: 'public/assets/img/PNG-Blue.png') }}">
+    <link rel="preload"
+        href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
+        as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
-    @include('partials.about-us-test')
+    @include('partials.test')
     @include('partials.footer-web')
     @include('partials.web-script')
     <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
     <script type="text/javascript">
-        (function($) {
+    (function($) {
         "use strict";
-          $(document).ready(function() {
-           $('.customer-logos').slick({
-        slidesToShow: 6,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 1500,
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        responsive: [{
-        breakpoint: 768,
-        settings: {
-        slidesToShow: 4
-        }
-        }, {
-        breakpoint: 520,
-        settings: {
-        slidesToShow: 3
-        }
-        }]
+        $(document).ready(function() {
+            $('.customer-logos').slick({
+                slidesToShow: 6,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1500,
+                arrows: false,
+                dots: false,
+                pauseOnHover: false,
+                responsive: [{
+                    breakpoint: 768,
+                    settings: {
+                        slidesToShow: 4
+                    }
+                }, {
+                    breakpoint: 520,
+                    settings: {
+                        slidesToShow: 3
+                    }
+                }]
+            });
         });
-        });
-        }(jQuery));
+    }(jQuery));
     </script>
 </body>
 <style>
@@ -987,4 +1008,5 @@ h2 {
     display: none;
 }
 </style>
+
 </html>
