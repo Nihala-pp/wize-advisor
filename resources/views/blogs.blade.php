@@ -357,7 +357,7 @@
                                                                                             "\r\n",
                                                                                             $featured_blog1->description);
                                                                                             @endphp
-                                                                                            <p>{{ Str::of(strip_tags($text))->words(18, ' ....') }}
+                                                                                            <p>{{ Str::of($text)->words(18, ' ....') }}
                                                                                             </p>
                                                                                         </div>
                                                                                     </div>
