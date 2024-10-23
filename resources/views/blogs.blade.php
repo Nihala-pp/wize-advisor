@@ -351,7 +351,14 @@
                                                                                                 display: inline-block
                                                                                             }
                                                                                             </style>
-                                                                                            <p>{{ Str::of(strip_tags($featured_blog1->description))->words(18, ' ....') }}
+                                                                                            @php
+                                                                                            $text =
+                                                                                            str_ireplace("<br />",
+                                                                                            "\r\n",
+                                                                                            $featured_blog1->description);
+                                                                                            echo $text;
+                                                                                            @endphp
+                                                                                            <p>{{ Str::of(strip_tags($text))->words(18, ' ....') }}
                                                                                             </p>
                                                                                         </div>
                                                                                     </div>
