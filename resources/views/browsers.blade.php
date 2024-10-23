@@ -45,6 +45,7 @@
         href="https://wiseadvizor.com/wp-content/uploads/2024/02/{{ $mentors[0]['metaData']['pro_pic_1'] }}"
         type="image/webp">
     <link rel="preconnect" href="https://wiseadvizor.com/wp-content/uploads/2023/06/pngLargeC-768x115.webp" type="image/webp">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js>
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script nonce="{{ csp_nonce() }}" data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"
