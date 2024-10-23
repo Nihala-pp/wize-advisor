@@ -356,7 +356,6 @@
                                                                                             str_ireplace("<br />",
                                                                                             "\r\n",
                                                                                             $featured_blog1->description);
-                                                                                            echo $text;
                                                                                             @endphp
                                                                                             <p>{{ Str::of(strip_tags($text))->words(18, ' ....') }}
                                                                                             </p>
