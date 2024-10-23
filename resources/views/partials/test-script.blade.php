@@ -1,5 +1,5 @@
 <!-- Google tag (gtag.js) -->
-<script async src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
+<script src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
     id="wpr-addons-js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
 </script>
