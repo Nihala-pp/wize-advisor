@@ -35,4 +35,4 @@
 <link rel="preload" 
     href="https://wiseadvizor.com/wp-content/plugins/the-plus-addons-for-block-editor/assets/css/extra/fontawesome.min.css?ver=6.4.1" as="style" onload="this.onload=null;this.rel='stylesheet'"
     id="tpgb-fontawesome">
-<link rel="dns-prefetch" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css">
