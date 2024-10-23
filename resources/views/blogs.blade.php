@@ -350,14 +350,15 @@
                                                                                             .elementor-widget-text-editor .elementor-drop-cap-letter {
                                                                                                 display: inline-block
                                                                                             }
-                                                                                            </style>
+                                                                                            </style>w
+                                                                                            <p>
                                                                                             @php
                                                                                             $text =
                                                                                             str_ireplace("<br />",
                                                                                             "\r\n",
                                                                                             $featured_blog1->description);
                                                                                             @endphp
-                                                                                            <p>{{ Str::of($text)->words(18, ' ....') }}
+                                                                                            {{ Str::of($text)->words(18, ' ....') }}
                                                                                             </p>
                                                                                         </div>
                                                                                     </div>
