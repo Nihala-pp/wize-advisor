@@ -23,13 +23,13 @@
     <link rel='stylesheet' id='e-swiper-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.24.7'
         media='all' /> -->
-    <!-- <link rel='stylesheet' id='widget-heading-css'
+     <link rel='stylesheet' id='widget-heading-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.24.7'
         media='all' />
     <link rel='stylesheet' id='widget-text-editor-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.24.7'
         media='all' />
-    <link rel='stylesheet' id='elementor-post-5666-css'
+    <!-- <link rel='stylesheet' id='elementor-post-5666-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css?ver=1729768001' media='all' /> -->
     <!-- <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.1'
