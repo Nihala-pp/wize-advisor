@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Glossary</title>
+    <title>Glossary | wiseAdvizor</title>
     <meta name="robots" content='max-image-preview:large' />
     <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script"
     crossorigin>
