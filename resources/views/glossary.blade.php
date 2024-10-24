@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Glossary</title>
+    <title>Glossary | wiseAdvizor</title>
     <meta name="robots" content='max-image-preview:large' />
     <link rel="stylesheet" id="elementor-post-5666-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css" media="all" />
