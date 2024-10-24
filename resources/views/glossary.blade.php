@@ -39,9 +39,6 @@
     <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.1'
         media='all' />
-    <link rel='stylesheet' id='qi-addons-for-elementor-helper-parts-style-css'
-        href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=1.7.1'
-        media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1'
         media='all' />
@@ -50,6 +47,12 @@
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
         href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
         media='print' />
+    <!-- <link rel='stylesheet' id='wpr-animations-css-css'
+        href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.7.1'
+        media='all' />
+    <link rel='stylesheet' id='wpr-link-animations-css-css'
+        href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-link-animations.min.css?ver=1.7.1'
+        media='all' />
     <link rel='stylesheet' id='wpr-loading-animations-css-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/loading-animations.min.css?ver=1.7.1'
         media='all' />
@@ -61,18 +64,20 @@
         media='all' />
     <link rel='stylesheet' id='wpr-lightgallery-css-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/lightgallery/lightgallery.min.css?ver=1.7.1'
-        media='all' />
+        media='all' /> -->
     <link rel='stylesheet' id='wpr-addons-css-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.7.1'
         media='all' />
     <link rel='stylesheet' id='font-awesome-5-all-css'
         href='https://web.wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.7.1'
         media='all' />
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
     <script data-cfasync="false" src="https://web.wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://web.wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
+    <script
+        src="https://web.wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.11"
+        id="she-header-js"></script>
     <link rel="canonical" href="https://web.wiseadvizor.com/glossary/" />
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
