@@ -12,6 +12,9 @@
         href="https://web.wiseadvizor.com/comments/feed/" />
     <link rel="preload" href="https://web.wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
         id="dashicons" media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
+        <link rel='stylesheet' id='elementor-post-5666-css'
+            href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css?ver=1729768001'
+            media='all' />
         <link rel='stylesheet' id='dashicons-css'
             href='https://web.wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
     </noscript>
@@ -147,7 +150,7 @@
 
 <body
     class="page-template page-template-elementor_header_footer page page-id-5666 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-5666">
-      @include('partials.header-common')
+    @include('partials.header-common')
     <div data-elementor-type="wp-page" data-elementor-id="5666" class="elementor elementor-5666">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-5f4d5bce0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
