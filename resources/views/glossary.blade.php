@@ -450,7 +450,6 @@
     <link rel='stylesheet' id='twenty-twenty-one-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
 
-
     @include('partials.footer-web')
 
     @include('partials.test-script')
