@@ -200,7 +200,8 @@ var elementorAppProConfig = {"baseUrl":"https:\/\/web.wiseadvizor.com\/wp-conten
 				.lg-thumb-item.active {
 					opacity: 1;
 				}
-	         </style><style id="wpforms-css-vars-root">
+	         </style>
+             <style id="wpforms-css-vars-root">
 				:root {
 					--wpforms-field-border-radius: 3px;
 --wpforms-field-border-style: solid;
@@ -252,7 +253,8 @@ var elementorAppProConfig = {"baseUrl":"https:\/\/web.wiseadvizor.com\/wp-conten
 --wpforms-container-shadow-size-box-shadow: none;
 
 				}
-			</style></head>
+			</style>
+            </head>
 
 <body class="page-template page-template-elementor_header_footer page page-id-5666 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-5666">
 <script>
