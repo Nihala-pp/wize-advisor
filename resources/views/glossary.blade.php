@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Glossary | wiseAdvizor</title>
     <meta name="robots" content='max-image-preview:large' />
-    <link rel="stylesheet" id="elementor-post-5666-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css" media="all" />
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js"></script>
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
-        id="jquery-migrate-js"></script>
+    <link rel="preload" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" as="script"
+        crossorigin>
+    <script async data-cfasync="false"
+        src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    </script>
     <link rel="canonical" href="https://wiseadvizor.com/glossary/" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <meta name="generator"
@@ -431,6 +430,10 @@
             </div>
         </section>
     </div>
+    <link rel="stylesheet" id="elementor-post-5666-css"
+        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css" media="all" />
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        id="jquery-core-js"></script>
     @include('partials.test')
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1'
@@ -449,4 +452,5 @@
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.11"
         id="she-header-js"></script>
 </body>
+
 </html>
