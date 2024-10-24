@@ -20,7 +20,7 @@
     href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1699355419" as="style"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="stylesheet" href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.20.0">
-<link async rel="stylesheet" as="style" id="elementor-icons-shared-0-css"
+<link rel="stylesheet" as="style" id="elementor-icons-shared-0-css"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="elementor-post-5-css"
