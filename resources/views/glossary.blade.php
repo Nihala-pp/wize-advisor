@@ -432,11 +432,11 @@
     </div>
     <link rel="stylesheet" id="elementor-post-5666-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css" media="all" />
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js"></script>
     <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.11"
         id="she-header-js"></script>
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        id="jquery-core-js"></script>
     @include('partials.test')
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1'
