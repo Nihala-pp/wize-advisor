@@ -441,6 +441,9 @@
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1'
         media='all' />
+    <link rel='stylesheet' id='hfe-widgets-style-css'
+        href='https://wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
+        media='all' />
     <link rel='stylesheet' id='wpr-addons-css-css'
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.7.1'
         media='all' />
