@@ -6,17 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Glossary</title>
     <meta name="robots" content='max-image-preview:large' />
-    <!-- <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
-        id="dashicons" media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
-        <link rel='stylesheet' id='dashicons-css'
-            href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
-    </noscript> -->
     <link rel="stylesheet" id="elementor-post-5666-css"
             href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css"
             media="all" />
-    <!-- <link rel='stylesheet' id='elementor-icons-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.31.0'
-        media='all' /> -->
     <link rel='stylesheet' id='swiper-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
         media='all' />
@@ -29,11 +21,6 @@
     <link rel='stylesheet' id='widget-text-editor-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.24.7'
         media='all' />
-    <!-- <link rel='stylesheet' id='elementor-post-5666-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css?ver=1729768001' media='all' /> -->
-    <!-- <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
-        href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.1'
-        media='all' /> -->
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1'
         media='all' />
