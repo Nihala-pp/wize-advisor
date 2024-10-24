@@ -14,7 +14,7 @@
     <link rel="stylesheet" id="elementor-post-5666-css"
             href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css"
             media="all" />
-    <link rel='stylesheet' id='elementor-icons-css'
+    <!-- <link rel='stylesheet' id='elementor-icons-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.31.0'
         media='all' />
     <link rel='stylesheet' id='swiper-css'
@@ -22,7 +22,7 @@
         media='all' />
     <link rel='stylesheet' id='e-swiper-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.24.7'
-        media='all' />
+        media='all' /> -->
     <link rel='stylesheet' id='widget-heading-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.24.7'
         media='all' />
