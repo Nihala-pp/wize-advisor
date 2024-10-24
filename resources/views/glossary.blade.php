@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -16,7 +15,6 @@
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-5666 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.7.1 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-5666">
     @include('partials.header-common')
@@ -444,13 +442,12 @@
     <link rel='stylesheet' id='font-awesome-5-all-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.7.1'
         media='all' />
+    <script
+        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.11"
+        id="she-header-js"></script>
 
     @include('partials.footer-web')
 
     @include('partials.test-script')
-    <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.11"
-        id="she-header-js"></script>
 </body>
-
 </html>
