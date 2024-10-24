@@ -144,8 +144,10 @@
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 </head>
+
 <body
     class="page-template page-template-elementor_header_footer page page-id-5666 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-5666">
+      @include('partials.header-common')
     <div data-elementor-type="wp-page" data-elementor-id="5666" class="elementor elementor-5666">
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-5f4d5bce0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
