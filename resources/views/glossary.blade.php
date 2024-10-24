@@ -6,20 +6,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<title>Glossary page &#8211; WISE ADVIZOR</title>
 <meta name='robots' content='max-image-preview:large' />
-<script>
-	( function() {
-		var query = document.location.search;
-
-		if ( query && query.indexOf( 'preview=true' ) !== -1 ) {
-			window.name = 'wp-preview-5666';
-		}
-
-		if ( window.addEventListener ) {
-			window.addEventListener( 'pagehide', function() { window.name = ''; } );
-		}
-	}());
-	
-</script>
 <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Feed" href="https://web.wiseadvizor.com/feed/" />
 <link rel="alternate" type="application/rss+xml" title="WISE ADVIZOR &raquo; Comments Feed" href="https://web.wiseadvizor.com/comments/feed/" />
 <script>
@@ -89,12 +75,6 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 <link rel='stylesheet' id='twenty-twenty-one-style-css' href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/style.css?ver=2.0' media='all' />
 <link rel='stylesheet' id='twenty-twenty-one-print-style-css' href='https://web.wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0' media='print' />
 <link rel='stylesheet' id='wpforms-admin-bar-css' href='https://web.wiseadvizor.com/wp-content/plugins/wpforms-lite/assets/css/admin-bar.min.css?ver=1.8.8.3' media='all' />
-<style id='wpforms-admin-bar-inline-css'>
-#wpadminbar .wpforms-menu-notification-counter, #wpadminbar .wpforms-menu-notification-indicator {
-						background-color: #d63638 !important;
-						color: #ffffff !important;
-					}
-</style>
 <link rel='stylesheet' id='wpr-animations-css-css' href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.7.1' media='all' />
 <link rel='stylesheet' id='wpr-link-animations-css-css' href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-link-animations.min.css?ver=1.7.1' media='all' />
 <link rel='stylesheet' id='wpr-loading-animations-css-css' href='https://web.wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/loading-animations.min.css?ver=1.7.1' media='all' />
