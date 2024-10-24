@@ -567,5 +567,4 @@
 
     @include('partials.test-script')
 </body>
-
 </html>
