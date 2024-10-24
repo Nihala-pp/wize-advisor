@@ -31,7 +31,7 @@
         media='all' />
     <link rel='stylesheet' id='elementor-post-5666-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css?ver=1729768001' media='all' /> -->
-    <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
+    <!-- <link rel='stylesheet' id='qi-addons-for-elementor-grid-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/grid.min.css?ver=1.7.1'
         media='all' />
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
@@ -44,7 +44,7 @@
         media='print' />
     <link rel='stylesheet' id='wpr-addons-css-css'
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.7.1'
-        media='all' />
+        media='all' /> -->
     <link rel='stylesheet' id='font-awesome-5-all-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.7.1'
         media='all' />
