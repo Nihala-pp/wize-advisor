@@ -146,20 +146,6 @@
 
 <body
     class="page-template page-template-elementor_header_footer page page-id-5666 logged-in admin-bar no-customize-support wp-embed-responsive ehf-footer ehf-template-twentytwentyone ehf-stylesheet-twentytwentyone qodef-qi--no-touch qi-addons-for-elementor-1.7.1 is-light-theme no-js singular elementor-default elementor-template-full-width elementor-kit-5 elementor-page elementor-page-5666">
-    <script>
-    (function() {
-        var request, b = document.body,
-            c = 'className',
-            cs = 'customize-support',
-            rcs = new RegExp('(^|\\s+)(no-)?' + cs + '(\\s+|$)');
-
-        request = true;
-
-        b[c] = b[c].replace(rcs, ' ');
-        // The customizer requires postMessage and CORS (if the site is cross domain).
-        b[c] += (window.postMessage && request ? ' ' : ' no-') + cs;
-    }());
-    </script>
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
