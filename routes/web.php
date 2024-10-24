@@ -103,12 +103,13 @@ Route::post('subscribe',[HomeController::class, 'subscriptionList'])->name('subs
 
 Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRequestMail']);
 Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);
+Route::get('glossary', [HomeController::class, 'glossary']);
 
 Route::get('cron', [Cron::class, 'index'])->name('index');
 Route::get('weekly-email', [Cron::class, 'weeklySlotUpdate'])->name('weeklySlotUpdate');
 
 Route::get('/delayedtask',[CallReminderMentorController::class, 'delayedtask']);
-Route::get('/userReminderMail',[CallReminderUserController::class, 'userReminderMail']);
+Route::get('/useerReminderMail',[CallReminderUserController::class, 'userReminderMail']);
 Route::get('/completedcalls',[CompletedCallsMailController::class, 'index']);
 Route::get('/feedbackmail',[CallFeedbacksMailController::class, 'index']);
 Route::get('/slotupdateweekly',[weeklySlotUpdateController::class, 'index']);
