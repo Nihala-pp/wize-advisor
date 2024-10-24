@@ -9,7 +9,7 @@
     <link rel="preload" href="https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3" as="style"
         id="dashicons" media="all" onload="this.onload=null;this.rel='stylesheet'"><noscript>
         <link rel="stylesheet" id="elementor-post-5666-css"
-            href="https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css"
+            href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css"
             media="all" />
         <link rel='stylesheet' id='dashicons-css'
             href='https://wiseadvizor.com/wp-includes/css/dashicons.min.css?ver=6.4.3' media='all' />
@@ -17,7 +17,6 @@
     <link rel='stylesheet' id='elementor-icons-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.31.0'
         media='all' />
-   
     <link rel='stylesheet' id='swiper-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
         media='all' />
@@ -43,24 +42,6 @@
     <link rel='stylesheet' id='twenty-twenty-one-print-style-css'
         href='https://wiseadvizor.com/wp-content/themes/twentytwentyone/assets/css/print.css?ver=2.0'
         media='print' />
-    <!-- <link rel='stylesheet' id='wpr-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-animations.min.css?ver=1.7.1'
-        media='all' />
-    <link rel='stylesheet' id='wpr-link-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/wpr-link-animations.min.css?ver=1.7.1'
-        media='all' />
-    <link rel='stylesheet' id='wpr-loading-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/loading-animations.min.css?ver=1.7.1'
-        media='all' />
-    <link rel='stylesheet' id='wpr-button-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/button-animations.min.css?ver=1.7.1'
-        media='all' />
-    <link rel='stylesheet' id='wpr-text-animations-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/animations/text-animations.min.css?ver=1.7.1'
-        media='all' />
-    <link rel='stylesheet' id='wpr-lightgallery-css-css'
-        href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/lib/lightgallery/lightgallery.min.css?ver=1.7.1'
-        media='all' /> -->
     <link rel='stylesheet' id='wpr-addons-css-css'
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.7.1'
         media='all' />
