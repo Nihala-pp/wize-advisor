@@ -9,18 +9,6 @@
     <link rel="stylesheet" id="elementor-post-5666-css"
             href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css"
             media="all" />
-    <!-- <link rel='stylesheet' id='swiper-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
-        media='all' />
-    <link rel='stylesheet' id='e-swiper-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.24.7'
-        media='all' /> -->
-     <!-- <link rel='stylesheet' id='widget-heading-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-heading.min.css?ver=3.24.7'
-        media='all' />
-    <link rel='stylesheet' id='widget-text-editor-css'
-        href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/widget-text-editor.min.css?ver=3.24.7'
-        media='all' /> -->
     <link rel='stylesheet' id='qi-addons-for-elementor-style-css'
         href='https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=1.7.1'
         media='all' />
