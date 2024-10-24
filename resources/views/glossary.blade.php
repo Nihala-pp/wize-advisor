@@ -16,10 +16,10 @@
             media="all" />
     <!-- <link rel='stylesheet' id='elementor-icons-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css?ver=5.31.0'
-        media='all' />
+        media='all' /> -->
     <link rel='stylesheet' id='swiper-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/swiper/v8/css/swiper.min.css?ver=8.4.5'
-        media='all' /> -->
+        media='all' />
     <link rel='stylesheet' id='e-swiper-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/conditionals/e-swiper.min.css?ver=3.24.7'
         media='all' />
