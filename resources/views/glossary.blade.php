@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -50,7 +51,7 @@
                         n(e, "\ud83c\uddfa\ud83c\uddf3", "\ud83c\uddfa\u200b\ud83c\uddf3") && !n(e,
                             "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                             "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                            );
+                        );
                 case "emoji":
                     return !n(e, "\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff",
                         "\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")
@@ -1052,7 +1053,8 @@
                             <li id='wp-admin-bar-wpforms-notifications'><a class='ab-item'
                                     href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>Notifications
                                     <div class="wp-core-ui wp-ui-notification wpforms-menu-notification-indicator">
-                                    </div></a></li>
+                                    </div>
+                                </a></li>
                             <li id='wp-admin-bar-wpforms-forms'><a class='ab-item'
                                     href='https://web.wiseadvizor.com/wp-admin/admin.php?page=wpforms-overview'>All
                                     Forms</a></li>
@@ -1673,7 +1675,8 @@
                                                                             class="elementor-heading-title elementor-size-default">
                                                                             <a
                                                                                 href="https://web.pransainvestment.ca/privacy-policy/">Privacy
-                                                                                Policy</a></p>
+                                                                                Policy</a>
+                                                                        </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1690,7 +1693,8 @@
                                                                             class="elementor-heading-title elementor-size-default">
                                                                             <a
                                                                                 href="https://web.pransainvestment.ca/terms-and-conditions/">Terms
-                                                                                &amp; Conditions</a></p>
+                                                                                &amp; Conditions</a>
+                                                                        </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1707,7 +1711,8 @@
                                                                             class="elementor-heading-title elementor-size-default">
                                                                             <a
                                                                                 href="https://web.pransainvestment.ca/community-guidelines/">Community
-                                                                                Guidelines</a></p>
+                                                                                Guidelines</a>
+                                                                        </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1724,7 +1729,8 @@
                                                                             class="elementor-heading-title elementor-size-default">
                                                                             <a
                                                                                 href="https://web.pransainvestment.ca/about-us/">About
-                                                                                Us</a></p>
+                                                                                Us</a>
+                                                                        </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1741,7 +1747,8 @@
                                                                             class="elementor-heading-title elementor-size-default">
                                                                             <a
                                                                                 href="https://web.pransainvestment.ca/contact-us/">Contact
-                                                                                Us</a></p>
+                                                                                Us</a>
+                                                                        </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1775,7 +1782,8 @@
                                                                             class="elementor-heading-title elementor-size-default">
                                                                             <a
                                                                                 href="https://web.pransainvestment.ca/browse-mentor/">Browse
-                                                                                Mentors</a></p>
+                                                                                Mentors</a>
+                                                                        </p>
                                                                     </div>
                                                                 </div>
                                                             </div>
@@ -1883,73 +1891,6 @@
                 document.addEventListener(event, lazyloadRunObserver);
             });
             </script>
-            <script type="text/template" id="tmpl-elementor-templates-modal__header">
-                <div class="elementor-templates-modal__header__logo-area"></div>
-	<div class="elementor-templates-modal__header__menu-area"></div>
-	<div class="elementor-templates-modal__header__items-area">
-		<# if ( closeType ) { #>
-			<div class="elementor-templates-modal__header__close elementor-templates-modal__header__close--{{{ closeType }}} elementor-templates-modal__header__item">
-				<# if ( 'skip' === closeType ) { #>
-				<span>Skip</span>
-				<# } #>
-				<i class="eicon-close"
-				   aria-hidden="true"
-				   title="{{{ $e.components?.get( 'document/elements' )?.utils?.getTitleForLibraryClose() }}}"></i>
-				<span class="elementor-screen-only">{{{ $e.components?.get( 'document/elements' )?.utils?.getTitleForLibraryClose() }}}</span>
-			</div>
-		<# } #>
-		<div id="elementor-template-library-header-tools"></div>
-	</div>
-</script>
-
-            <script type="text/template" id="tmpl-elementor-templates-modal__header__logo">
-                <span class="elementor-templates-modal__header__logo__icon-wrapper e-logo-wrapper">
-		<i class="eicon-elementor"></i>
-	</span>
-	<span class="elementor-templates-modal__header__logo__title">{{{ title }}}</span>
-</script>
-            <script type="text/template" id="tmpl-elementor-finder">
-                <div id="elementor-finder__search">
-		<i class="eicon-search" aria-hidden="true"></i>
-		<input id="elementor-finder__search__input" placeholder="Type to find anything in Elementor" autocomplete="off">
-	</div>
-	<div id="elementor-finder__content"></div>
-</script>
-
-            <script type="text/template" id="tmpl-elementor-finder-results-container">
-                <div id="elementor-finder__no-results">No Results Found</div>
-	<div id="elementor-finder__results"></div>
-</script>
-
-            <script type="text/template" id="tmpl-elementor-finder__results__category">
-                <div class="elementor-finder__results__category__title">{{{ title }}}</div>
-	<div class="elementor-finder__results__category__items"></div>
-</script>
-
-            <script type="text/template" id="tmpl-elementor-finder__results__item">
-                <a href="{{ url }}" class="elementor-finder__results__item__link">
-		<div class="elementor-finder__results__item__icon">
-			<i class="eicon-{{{ icon }}}" aria-hidden="true"></i>
-		</div>
-		<div class="elementor-finder__results__item__title">{{{ title }}}</div>
-		<# if ( description ) { #>
-			<div class="elementor-finder__results__item__description">- {{{ description }}}</div>
-		<# } #>
-
-		<# if ( lock ) { #>
-		<div class="elementor-finder__results__item__badge"><i class="{{{ lock.badge.icon }}}"></i>{{ lock.badge.text }}</div>
-		<# } #>
-	</a>
-	<# if ( actions.length ) { #>
-		<div class="elementor-finder__results__item__actions">
-		<# jQuery.each( actions, function() { #>
-			<a class="elementor-finder__results__item__action elementor-finder__results__item__action--{{ this.name }}" href="{{ this.url }}" target="_blank">
-				<i class="eicon-{{{ this.icon }}}"></i>
-			</a>
-		<# } ); #>
-		</div>
-	<# } #>
-</script>
             <link rel='stylesheet' id='hfe-widgets-style-css'
                 href='https://web.wiseadvizor.com/wp-content/plugins/header-footer-elementor/inc/widgets-css/frontend.css?ver=1.6.33'
                 media='all' />
@@ -2459,7 +2400,8 @@
                                     "icon": "plus-circle-o",
                                     "url": "https:\/\/web.wiseadvizor.com\/wp-admin\/edit.php?action=elementor_new_post&post_type=e-landing-page&template_type=landing-page&_wpnonce=28fd9d4c37#library",
                                     "keywords": ["Add New Landing Page", "post", "page", "template", "new",
-                                        "create"]
+                                        "create"
+                                    ]
                                 },
                                 "popup": {
                                     "title": "Add New Popup",
