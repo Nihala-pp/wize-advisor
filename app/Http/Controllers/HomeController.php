@@ -1230,4 +1230,9 @@ window.location.href = "https://wiseadvizor.com/faq";
   {
     return view('test-gateway');
   }
+
+  public function glossary()
+  {
+     return view('glossary');
+  }
 }
