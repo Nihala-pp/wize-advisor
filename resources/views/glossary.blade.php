@@ -21,9 +21,9 @@
         id="jquery-core-js"></script>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js"></script>
-    <script
+    <!-- <script
         src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.11"
-        id="she-header-js"></script>
+        id="she-header-js"></script> -->
     <link rel="canonical" href="https://wiseadvizor.com/glossary/" />
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
