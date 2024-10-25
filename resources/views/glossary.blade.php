@@ -161,14 +161,12 @@
                             <div class="elementor-widget-container">
                                 <div class="elementor-heading-title elementor-size-default">
                                     @php
-                                    $decoded = json_decode( $glossary->terms);
+                                      $decoded = json_decode( $glossary->terms);
                                     @endphp
-                                    @foreach($decoded
-                                    as $d)
-                                    @foreach($d
-                                    as $k => $v)
-                                    {{ $v }}
-                                    @endforeach
+                                    @foreach($decoded as $d)
+                                     @foreach($d as $k => $v)
+                                       {{ $v }}
+                                     @endforeach
                                     @endforeach
                                 </div>
                             </div>
