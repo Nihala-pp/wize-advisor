@@ -163,9 +163,9 @@
                                     @php
                                       $decoded = json_decode( $glossary->terms);
                                     @endphp
-                                    @foreach($decoded as $d)
-                                       {{ $d }}
-                                    @endforeach
+                                    <!-- @foreach($decoded as $d) -->
+                                       {{ $decoded }}
+                                    <!-- @endforeach -->
                                 </div>
                             </div>
                         </div>
