@@ -1237,6 +1237,13 @@ window.location.href = "https://wiseadvizor.com/faq";
 
     $glossaries = Glossaries::get();
 
-     return view('glossary', compact('glossaries'));
+     return view('glossary', data: compact('glossaries'));
+  }
+
+  public function glossary_term($term = null)
+  {
+      $data = 
+
+      return view('glossary-term', data: compact('glossaries'));
   }
 }
