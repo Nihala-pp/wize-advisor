@@ -203,49 +203,46 @@
             </div>
         </section>
         <section
-                            class="elementor-section elementor-inner-section elementor-element elementor-element-97ba7bf elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="97ba7bf" data-element_type="section" style="background-color:#f4f1eb;">
-                            <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100  elementor-element elementor-element-7741772"
-                                    data-id="7741772" data-element_type="column">
-                                    <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-1e0ffc2 elementor-widget elementor-widget-heading"
-                                            data-id="1e0ffc2" data-element_type="widget"
-                                            data-widget_type="heading.default">
-                                            <div class="elementor-widget-container">
-                                                <h6 class="elementor-heading-title elementor-size-default">Find a mentor
-                                                    on wiseAdvizor</h6>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-71ff039 elementor-widget elementor-widget-text-editor"
-                                            data-id="71ff039" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
-                                            <div class="elementor-widget-container">
-                                                <p>A focused 30-minute conversation with an expert can provide valuable
-                                                    insights while saving you time and money. Our mentors are here to
-                                                    help you avoid common rookie mistakes and guide you on your journey!
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-623db10 elementor-align-center elementor-widget elementor-widget-button"
-                                            data-id="623db10" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="https://wiseadvizor.com/registration">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Sign me
-                                                                in</span>
-                                                        </span>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+            class="elementor-section elementor-inner-section elementor-element elementor-element-97ba7bf elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="97ba7bf" data-element_type="section" style="background-color:#f4f1eb;">
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100  elementor-element elementor-element-7741772"
+                    data-id="7741772" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-1e0ffc2 elementor-widget elementor-widget-heading"
+                            data-id="1e0ffc2" data-element_type="widget" data-widget_type="heading.default">
+                            <div class="elementor-widget-container">
+                                <h6 class="elementor-heading-title elementor-size-default">Find a mentor
+                                    on wiseAdvizor</h6>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-71ff039 elementor-widget elementor-widget-text-editor"
+                            data-id="71ff039" data-element_type="widget" data-widget_type="text-editor.default">
+                            <div class="elementor-widget-container">
+                                <p>A focused 30-minute conversation with an expert can provide valuable
+                                    insights while saving you time and money. Our mentors are here to
+                                    help you avoid common rookie mistakes and guide you on your journey!
+                                </p>
+                            </div>
+                        </div>
+                        <div class="elementor-element elementor-element-623db10 elementor-align-center elementor-widget elementor-widget-button"
+                            data-id="623db10" data-element_type="widget" data-widget_type="button.default">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-button-wrapper">
+                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                        href="https://wiseadvizor.com/registration">
+                                        <span class="elementor-button-content-wrapper">
+                                            <span class="elementor-button-text">Sign me
+                                                in</span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
-                        </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
     <link rel="stylesheet" id="elementor-post-5666-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css" media="all" />
@@ -289,6 +286,21 @@
 
 </html>
 <style>
+.elementor-5666 .elementor-element.elementor-element-71ff039 {
+    text-align: center;
+    color: #00;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.elementor-5666 .elementor-element.elementor-element-1e0ffc2 .elementor-heading-title {
+    color: #000;
+    font-family: "Helvetica", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
 /* .elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
     font-family: "Roboto", Sans-serif;
     font-weight: 400;
