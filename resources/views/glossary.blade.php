@@ -119,7 +119,7 @@
                 </div>
             </div>
         </section>
-        @foreach ($glossaries as $glossary)
+        @foreach($glossaries as $glossary)
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b8034db elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="b8034db" data-element_type="section"
