@@ -215,10 +215,10 @@
             </div>
         </section>
         @endforeach
-        <section id="{{ !$glossary->letter }}"
+        <section id="no_data"
             class="elementor-section elementor-top-section elementor-element elementor-element-e68ace2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="e68ace2" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="display:hidden;">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5ab636e"
                     data-id="5ab636e" data-element_type="column">
@@ -323,9 +323,11 @@
             $('span.badge-warning a').click(function() {
                 var text = $(this).text(); 
                 var letter = $("#letter").val();
-                alert(letter);
+                // alert(letter);
                 
-                // if(text !== )
+                if(text != letter) {
+                   $("#no_data").show();
+                }
                 // alert(text);
             });
         });
