@@ -69,7 +69,7 @@
 
                             </div>
                         </div>
-                        <div class="elementor-element elementor-element-6a08fa2 elementor-widget__width-initial elementor-widget elementor-widget-wpr-search"
+                        <div class="elementor-element elementor-element-6a08fa3 elementor-widget__width-initial elementor-widget elementor-widget-wpr-search"
                             data-id="6a08fa2" data-element_type="widget" data-widget_type="wpr-search.default">
                             <div class="elementor-widget-container">
                                 <div style="display:flex; justify-content:space-between;">
