@@ -12,6 +12,7 @@ use App\Models\BlogCategories;
 use App\Models\Blogs;
 use App\Models\ExpertiseList;
 use App\Models\Glossaries;
+use App\Models\GlossaryTerms;
 use App\Models\MentorAchievements;
 use App\Models\MentorsFaq;
 use App\Models\Review;
@@ -1242,8 +1243,8 @@ window.location.href = "https://wiseadvizor.com/faq";
 
   public function glossary_term($term = null)
   {
-      $data = 
+      $data = GlossaryTerms::find($term);
 
-      return view('glossary-term', data: compact('glossaries'));
+      return view('glossary-term', data: compact('data'));
   }
 }
