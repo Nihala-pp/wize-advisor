@@ -396,10 +396,21 @@
 .elementor-4349 .elementor-element.elementor-element-91bb32d .elementor-heading-title {
     text-align: center !important;
     color: #181b34;
-    font-family: Poppins,Sans-serif;
+    font-family: Poppins, Sans-serif;
     font-size: 30px;
     font-weight: 600;
     line-height: 38px;
+}
+
+.elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title,
+.elementor-4349 .elementor-element.elementor-element-396fad8 .elementor-heading-title,
+.elementor-4349 .elementor-element.elementor-element-83f4aa0 .elementor-heading-title,
+.elementor-4349 .elementor-element.elementor-element-9aa895c .elementor-heading-title {
+    text-align: center !important;
+    color: #181b34;
+    font-family: Poppins, Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
 }
 
 /* html,
