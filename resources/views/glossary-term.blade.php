@@ -142,7 +142,7 @@
                                             data-id="0859462" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default name" style="font-weight:500px !important;">
+                                                <p class="elementor-heading-title elementor-size-default name" style="font-weight:600px !important;">
                                                     by Ankur Sharma
                                                 </p>
                                                 <p class="elementor-heading-title elementor-size-default">
