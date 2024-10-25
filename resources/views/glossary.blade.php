@@ -180,7 +180,7 @@
             </div>
         </section>
 
-        <section id="no_data"
+        <!-- <section id="no_data"
             class="elementor-section elementor-top-section elementor-element elementor-element-e68ace2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="e68ace2" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="display:none;">
@@ -198,7 +198,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         @endforeach
 
         <section
@@ -219,6 +219,15 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div id="no_data" class="elementor-element elementor-element-1c3a994 elementor-widget elementor-widget-heading"
+                            data-id="1c3a994" data-element_type="widget" data-widget_type="heading.default" style="display:none;">
+                            <div class="elementor-widget-container">
+                                <div class="elementor-heading-title elementor-size-default">No Data Found
+                                </div>
+                            </div>
+                        </div>
+
                         <div class="elementor-element elementor-element-1e0ffc2 elementor-widget elementor-widget-heading"
                             data-id="1e0ffc2" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
