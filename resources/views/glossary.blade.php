@@ -73,14 +73,7 @@
                             data-id="6a08fa2" data-element_type="widget" data-widget_type="wpr-search.default">
                             <div class="elementor-widget-container">
                                 <div style="display:flex; justify-content:space-between;">
-                                    @foreach($decoded
-                                    as $d)
-                                    @foreach($d
-                                    as $k => $v)
-                                    <span class="badge badge-pill badge-warning">{{ $v }}</span>
-                                    @endforeach
-                                    @endforeach
-
+                                    <span class="badge badge-pill badge-warning">A</span>
                                 </div>
                             </div>
                         </div>
