@@ -153,30 +153,29 @@
             data-id="110e101" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
+                @php
+                $terms = $glossary->terms ? $glossary->terms : '';
+                $decoded =
+                json_decode($terms);
+                @endphp
+                @foreach($decoded
+                as $d)
+                @foreach($d
+                as $k => $v)
                 <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-53afbe6"
                     data-id="53afbe6" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bff9c11 elementor-widget elementor-widget-heading"
                             data-id="bff9c11" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                @php
-                                $terms = $glossary->terms ? $glossary->terms : '';
-                                $decoded =
-                                json_decode($terms);
-                                @endphp
-                                <div class="elementor-heading-title elementor-size-default">
-                                    @foreach($decoded
-                                    as $d)
-                                    @foreach($d
-                                    as $k => $v)
-                                    {{ $v }}
-                                    @endforeach
-                                    @endforeach
+                                <div class="elementor-heading-title elementor-size-default">{{ $v }}
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                @endforeach
+                @endforeach
                 <!-- <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-352e8db"
                     data-id="352e8db" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
