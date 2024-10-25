@@ -166,7 +166,7 @@
                                 @endphp
                                 <div class="elementor-heading-title elementor-size-default">
                                    
-                                    @foreach($d
+                                    @foreach($decoded
                                     as $k => $v)
                                     {{ $v }}
                                     @endforeach
