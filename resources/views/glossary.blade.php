@@ -89,7 +89,7 @@
                                     <span class="badge badge-pill badge-warning"><a href="#A">A</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#B">B</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#C">C</a></span>
-                                    <span class="badge badge-pill badge-warning"><a href="#D">D</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#D #no_data">D</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#E">E</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#F">F</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#G">G</a></span>
@@ -179,26 +179,6 @@
                 @endforeach
             </div>
         </section>
-
-        <!-- <section id="no_data"
-            class="elementor-section elementor-top-section elementor-element elementor-element-e68ace2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-            data-id="e68ace2" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="display:none;">
-            <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-5ab636e"
-                    data-id="5ab636e" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-1c3a994 elementor-widget elementor-widget-heading"
-                            data-id="1c3a994" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">No Data Found
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section> -->
         @endforeach
 
         <section
