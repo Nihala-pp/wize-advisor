@@ -388,6 +388,11 @@
 
 </html>
 <style>
+.elementor-column.elementor-col-100,
+.elementor-column[data-col="100"] {
+    width: 100% !important;
+}
+
 /* html,
 body {
     overflow-x: hidden;
