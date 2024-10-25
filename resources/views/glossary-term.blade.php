@@ -444,8 +444,11 @@
 }
 
 .elementor-4349 p.elementor-heading-title.elementor-size-default.name {
-    font-weight: 500px !important;
+    font-weight: 500px!important;
+    padding-bottom: 7px;
+    margin-top: -6px;
 }
+
 /* html,
 body {
     overflow-x: hidden;
