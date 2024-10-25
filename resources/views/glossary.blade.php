@@ -119,8 +119,8 @@
                 </div>
             </div>
         </section>
-          @foreach ($glossaries as $glossary)
-           <section
+        @foreach ($glossaries as $glossary)
+        <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b8034db elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="b8034db" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -147,8 +147,8 @@
                     </div>
                 </div>
             </div>
-           </section>
-           <section
+        </section>
+        <section
             class="elementor-section elementor-top-section elementor-element elementor-element-110e101 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="110e101" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -159,7 +159,18 @@
                         <div class="elementor-element elementor-element-bff9c11 elementor-widget elementor-widget-heading"
                             data-id="bff9c11" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">{{ $glossary->terms }}</div>
+                                <div class="elementor-heading-title elementor-size-default">
+                                    @php
+                                    $decoded = json_decode( $glossary->terms);
+                                    @endphp
+                                    @foreach($decoded
+                                    as $d)
+                                    @foreach($d
+                                    as $k => $v)
+                                    {{ $v }}
+                                    @endforeach
+                                    @endforeach
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -200,8 +211,8 @@
                     </div>
                 </div> -->
             </div>
-           </section>
-          @endforeach
+        </section>
+        @endforeach
         <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-e68ace2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="e68ace2" data-element_type="section"
