@@ -437,6 +437,10 @@
     --e-column-margin-right: 0px;
     --e-column-margin-left: 25px;
 }
+
+.name {
+    font-weight: 500px;
+}
 /* html,
 body {
     overflow-x: hidden;
