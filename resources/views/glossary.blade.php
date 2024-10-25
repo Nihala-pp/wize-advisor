@@ -167,8 +167,8 @@
                                 <div class="elementor-heading-title elementor-size-default">
                                    
                                     @foreach($decoded
-                                    as $k => $v)
-                                    {{ $v }}
+                                    as $k)
+                                    {{ $k }}
                                     @endforeach
                                 </div>
                             </div>
