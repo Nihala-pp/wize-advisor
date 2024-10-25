@@ -13,21 +13,18 @@
         content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
     <meta property="og:image"
         content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
-    <meta property="og:url"
-        content="https://wiseadvizor.com/glossary/{{ $data->terms }}">
+    <meta property="og:url" content="https://wiseadvizor.com/glossary/{{ $data->terms }}">
     <meta property="og:site_name" content="wiseAdvizor" />
     <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
     <meta name="twitter:description"
         content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
-    <meta name="twitter:url"
-        content="https://wiseadvizor.com/glossary/{{ $data->terms }}">
+    <meta name="twitter:url" content="https://wiseadvizor.com/glossary/{{ $data->terms }}">
     <meta name="twitter:image"
         url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link rel="canonical"
-        href="https://wiseadvizor.com/glossary/{{ $data->terms }}">
+    <link rel="canonical" href="https://wiseadvizor.com/glossary/{{ $data->terms }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async data-cfasync="false"
@@ -85,7 +82,10 @@
                                 }
                                 </style>
                                 <h6 class="elementor-heading-title elementor-size-default">
-                                    <a href="https://wiseadvizor.com/">Home</a> > <a href="{{ route('glossary') }}">Glossary</a> > <a href="{{ route('glossary-term', [$data->terms]) }}">Glossary</a></h6>
+                                    <a href="https://wiseadvizor.com/">Home</a> > <a
+                                        href="{{ route('glossary') }}">Glossary</a> > <a
+                                        href="{{ route('glossary-term', [$data->terms]) }}">Glossary</a>
+                                </h6>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-91bb32d elementor-widget elementor-widget-heading"
@@ -287,10 +287,62 @@
                             data-id="dc0f3cb" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                                 <ol>
-                                    @php
-                                    $text = str_ireplace("<br />", "\r\n", $selectedBlog->description);
-                                    echo $text;
-                                    @endphp
+                                    C. Creating a compelling pitch
+                                    Craft a concise and persuasive pitch that resonates with potential investors. Key
+                                    elements include:
+                                    Clear problem statement
+                                    Unique value proposition
+                                    Market opportunity
+                                    Revenue model
+                                    Team expertise
+                                    D. Setting clear expectations
+                                    Transparency is crucial when dealing with friends and family investors. Be upfront
+                                    about:
+                                    Risks involved
+                                    Potential returns
+                                    Timeframe for potential exit
+                                    Use of funds
+                                    Investor involvement
+                                    Remember, a friends and family round mentor can provide invaluable guidance
+                                    throughout this process. Their experience can help you navigate potential pitfalls
+                                    and optimize your approach.
+
+                                    Structuring the Investment
+                                    Now that you've prepared for your Friends and Family Round, it's crucial to
+                                    structure the investment properly. This involves making key decisions about the type
+                                    of investment and the valuation of your startup.
+                                    A. Choosing between equity and debt
+                                    When structuring your Friends and Family Round, you'll need to decide between
+                                    offering equity or debt. Each option has its pros and cons:
+                                    Investment Type
+                                    Pros
+                                    Cons
+                                    Equity
+                                    - Aligns interests of investors with founders
+                                    - No immediate repayment obligation
+                                    - Dilutes ownership
+                                    - May complicate future funding rounds
+                                    Debt
+                                    - Maintains full ownership
+                                    - Clear repayment terms
+                                    - Creates financial obligation
+                                    - May strain cash flow
+
+                                    Consider your startup's growth trajectory and cash flow projections when making this
+                                    decision. A Friends and Family Round mentor can provide valuable insights into which
+                                    option suits your specific situation best.
+                                    B. Determining fair valuation
+                                    Establishing a fair valuation for your startup is crucial, even in a Friends and
+                                    Family Round. Here are some factors to consider:
+                                    Current stage of development
+                                    Market potential
+                                    Intellectual property
+                                    Traction (if any)
+                                    Comparable startup valuations
+                                    Remember that overvaluing your startup can lead to difficulties in future funding
+                                    rounds, while undervaluing it may result in giving away too much equity. It's
+                                    essential to strike a balance that's fair to both you and your investors.
+
                                 </ol>
                                 <p> </p>
                             </div>
@@ -331,7 +383,7 @@
                 </div>
             </div>
         </section>
-        <section
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-ce66eaa elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="ce66eaa" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -348,8 +400,8 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <section
+        </section> -->
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-069db09 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="069db09" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -423,7 +475,7 @@
                 </div>
                 @endforeach
             </div>
-        </section>
+        </section> -->
     </div>
     @include('partials.test')
     <link rel='stylesheet' id='post-4349-css'
