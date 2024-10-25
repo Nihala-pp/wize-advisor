@@ -89,7 +89,7 @@
                                     <span class="badge badge-pill badge-warning"><a href="#A">A</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#B">B</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#C">C</a></span>
-                                    <span class="badge badge-pill badge-warning"><a href="#D #no_data">D</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#D">D</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#E">E</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#F">F</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#G">G</a></span>
