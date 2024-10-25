@@ -165,12 +165,10 @@
                                 json_decode($terms);
                                 @endphp
                                 <div class="elementor-heading-title elementor-size-default">
-                                    @foreach($decoded
-                                    as $d)
+                                   
                                     @foreach($d
                                     as $k => $v)
                                     {{ $v }}
-                                    @endforeach
                                     @endforeach
                                 </div>
                             </div>
