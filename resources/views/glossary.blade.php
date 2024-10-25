@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,7 +18,6 @@
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-5666 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.7.1 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-5666">
     @include('partials.header-common')
@@ -171,7 +169,6 @@
             </div>
         </section>
         @endforeach
-
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-6794a0c elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="6794a0c" data-element_type="section"
@@ -299,6 +296,10 @@
     font-family: "Helvetica", Sans-serif;
     font-size: 30px;
     font-weight: 600;
+}
+
+.elementor-5666 .elementor-element.elementor-element-97ba7bf {
+    padding: 50px 0px 50px 0px;
 }
 
 /* .elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
