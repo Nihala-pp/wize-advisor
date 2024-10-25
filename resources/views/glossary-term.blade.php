@@ -438,7 +438,7 @@
     --e-column-margin-left: 25px;
 }
 
-.elementor-4349 p.name {
+.elementor-4349 p.elementor-heading-title.elementor-size-default.name {
     font-weight: 500px !important;
 }
 /* html,
