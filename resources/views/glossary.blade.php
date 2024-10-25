@@ -320,8 +320,8 @@
         "use strict";
         $(document).ready(function() {
             $('span.badge-warning a').click(function() {
-                var id = $(this).attr('id');
-                alert(id);
+                var text = $(this).text();                
+                alert(text);
             });
         });
     }(jQuery));
