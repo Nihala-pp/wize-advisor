@@ -231,41 +231,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-c5bd930"
-                    data-id="c5bd930" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-1174599 elementor-widget elementor-widget-heading"
-                            data-id="1174599" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">Angel
-                                    Investor</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-b1c7b6c"
-                    data-id="b1c7b6c" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-1d9deb7 elementor-widget elementor-widget-heading"
-                            data-id="1d9deb7" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">AIDA</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-a626521"
-                    data-id="a626521" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-610ac5b elementor-widget elementor-widget-heading"
-                            data-id="610ac5b" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">Average
-                                    Order Value (AOV)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section> -->
         <section
@@ -331,7 +296,7 @@
                     </div>
                 </div>
             </div>
-        </section> -->
+        </section>
     </div>
     <link rel="stylesheet" id="elementor-post-5666-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css" media="all" />
