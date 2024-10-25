@@ -160,7 +160,7 @@
                         <div class="elementor-element elementor-element-bff9c11 elementor-widget elementor-widget-heading"
                             data-id="bff9c11" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default"><a href="{{ route('glossary-term', [ $v]) }}">{{ $v }}</a>
+                                <div class="elementor-heading-title elementor-size-default"><a href="{{ route('glossary-term', [$v]) }}">{{ $v }}</a>
                                 </div>
                             </div>
                         </div>
