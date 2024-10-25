@@ -296,6 +296,7 @@
     (function($) {
         "use strict";
         $(document).ready(function() {
+            $('#no_data').hide();
             $('span.badge-warning a').click(function() {
                 var text = $(this).text();
                 var letter = $("#letter").val();
