@@ -104,6 +104,7 @@ Route::post('subscribe',[HomeController::class, 'subscriptionList'])->name('subs
 Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRequestMail']);
 Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);
 Route::get('glossary', [HomeController::class, 'glossary']);
+Route::get('glossary/{term?}', [HomeController::class, 'glossary_term'])->name('glossary-term');
 
 Route::get('cron', [Cron::class, 'index'])->name('index');
 Route::get('weekly-email', [Cron::class, 'weeklySlotUpdate'])->name('weeklySlotUpdate');
