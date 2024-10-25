@@ -413,6 +413,11 @@
     font-weight: 400;
 }
 
+.elementor-4349 .elementor-element.elementor-element-1abaa4f>.elementor-widget-container {
+    text-align: center !important;
+    padding: 25px 0 0;
+}
+
 /* html,
 body {
     overflow-x: hidden;
