@@ -418,6 +418,11 @@
     padding: 25px 0 0;
 }
 
+.elementor-4349 .elementor-element.elementor-element-4af5308 img {
+    width: 50%;
+    border-radius: 100px;
+}
+
 /* html,
 body {
     overflow-x: hidden;
