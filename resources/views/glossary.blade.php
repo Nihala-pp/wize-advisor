@@ -69,6 +69,21 @@
 
                             </div>
                         </div>
+                        <div class="elementor-element elementor-element-6a08fa2 elementor-widget__width-initial elementor-widget elementor-widget-wpr-search"
+                            data-id="6a08fa2" data-element_type="widget" data-widget_type="wpr-search.default">
+                            <div class="elementor-widget-container">
+                                <div style="display:flex; justify-content:space-between;">
+                                    @foreach($decoded
+                                    as $d)
+                                    @foreach($d
+                                    as $k => $v)
+                                    <span class="badge badge-pill badge-warning">{{ $v }}</span>
+                                    @endforeach
+                                    @endforeach
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -453,7 +468,7 @@
 
 </html>
 <style>
-    .elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
+.elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
     font-family: "Roboto", Sans-serif;
     font-weight: 400;
     background-color: #f4f1eb;
