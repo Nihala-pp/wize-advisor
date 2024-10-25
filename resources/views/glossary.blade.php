@@ -314,8 +314,19 @@
     @include('partials.footer-web')
 
     @include('partials.test-script')
-</body>
 
+    <script type="text/javascript">
+    (function($) {
+        "use strict";
+        $(document).ready(function() {
+            $('ul.formfield a').click(function() {
+                var id = $(this).attr('id');
+                alert(id);
+            });
+        });
+    }(jQuery));
+    </script>
+</body>
 </html>
 <style>
 .elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
