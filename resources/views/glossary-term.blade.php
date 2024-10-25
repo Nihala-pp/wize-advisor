@@ -430,7 +430,7 @@
 }
 
 .elementor-4349 .elementor-element.elementor-element-62c0ee5>.elementor-element-populated {
-    margin: 0 0 0 -50px;
+    margin: 0 0 0 -30px;
     --e-column-margin-right: 0px;
     --e-column-margin-left: 25px;
 }
