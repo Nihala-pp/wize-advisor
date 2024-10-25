@@ -393,6 +393,15 @@
     width: 100% !important;
 }
 
+.elementor-4349 .elementor-element.elementor-element-91bb32d .elementor-heading-title {
+    text-align: center !important;
+    color: #181b34;
+    font-family: Poppins,Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 38px;
+}
+
 /* html,
 body {
     overflow-x: hidden;
