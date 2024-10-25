@@ -288,7 +288,7 @@
 <style>
 .elementor-5666 .elementor-element.elementor-element-71ff039 {
     text-align: center;
-    color: #00;
+    color: #444444;
     font-family: "Helvetica", Sans-serif;
     font-size: 18px;
     font-weight: 400;
