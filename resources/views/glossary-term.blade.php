@@ -424,7 +424,7 @@
 }
 
 .elementor-4349 .elementor-element.elementor-element-4af5308>.elementor-widget-container {
-    margin-right: -850px;
+    margin-right: -850px !important;
     /* margin: 0; */
     padding: 0;
 }
