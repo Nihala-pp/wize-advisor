@@ -143,7 +143,10 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    Ankur Sharma
+                                                    by Ankur Sharma
+                                                </p>
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    Technical Manager
                                                 </p>
                                             </div>
                                         </div>
