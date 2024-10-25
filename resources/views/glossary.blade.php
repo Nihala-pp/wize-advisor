@@ -86,32 +86,32 @@
                             data-id="6a08fa3" data-element_type="column" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <div style="display:flex; justify-content:space-between;">
-                                    <span class="badge badge-pill badge-warning">A</span>
-                                    <span class="badge badge-pill badge-warning">B</span>
-                                    <span class="badge badge-pill badge-warning">C</span>
-                                    <span class="badge badge-pill badge-warning">D</span>
-                                    <span class="badge badge-pill badge-warning">E</span>
-                                    <span class="badge badge-pill badge-warning">F</span>
-                                    <span class="badge badge-pill badge-warning">G</span>
-                                    <span class="badge badge-pill badge-warning">H</span>
-                                    <span class="badge badge-pill badge-warning">I</span>
-                                    <span class="badge badge-pill badge-warning">J</span>
-                                    <span class="badge badge-pill badge-warning">K</span>
-                                    <span class="badge badge-pill badge-warning">L</span>
-                                    <span class="badge badge-pill badge-warning">M</span>
-                                    <span class="badge badge-pill badge-warning">N</span>
-                                    <span class="badge badge-pill badge-warning">O</span>
-                                    <span class="badge badge-pill badge-warning">P</span>
-                                    <span class="badge badge-pill badge-warning">Q</span>
-                                    <span class="badge badge-pill badge-warning">R</span>
-                                    <span class="badge badge-pill badge-warning">S</span>
-                                    <span class="badge badge-pill badge-warning">T</span>
-                                    <span class="badge badge-pill badge-warning">U</span>
-                                    <span class="badge badge-pill badge-warning">V</span>
-                                    <span class="badge badge-pill badge-warning">W</span>
-                                    <span class="badge badge-pill badge-warning">X</span>
-                                    <span class="badge badge-pill badge-warning">Y</span>
-                                    <span class="badge badge-pill badge-warning">Z</span>
+                                    <span class="badge badge-pill badge-warning"><a href="#A">A</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#B">B</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#C">C</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#D">D</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#E">E</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#F">F</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#G">G</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#H">H</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#I">I</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#J">J</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#K">K</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#L">L</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#M">M</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#N">N</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#O">O</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#P">P</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#Q">Q</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#R">R</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#S">S</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#T">T</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#U">U</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#V">V</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#W">W</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#X">X</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#Y">Y</a></span>
+                                    <span class="badge badge-pill badge-warning"><a href="#Z">Z</a></span>
                                 </div>
                             </div>
                         </div>
