@@ -423,7 +423,7 @@
 
 .elementor-4349 .elementor-element.elementor-element-1abaa4f>.elementor-widget-container {
     text-align: center !important;
-    padding: 10px 0 0;
+    padding: 0px 0 0;
 }
 
 .elementor-4349 .elementor-element.elementor-element-4af5308 img {
