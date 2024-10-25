@@ -14,22 +14,20 @@
     <meta property="og:image"
         content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta property="og:url"
-        content="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}/{{ Str::slug($selectedBlog->title) }}">
+        content="https://wiseadvizor.com/glossary/{{ $data->terms }}">
     <meta property="og:site_name" content="wiseAdvizor" />
     <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
     <meta name="twitter:description"
         content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
     <meta name="twitter:url"
-        content="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}/{{ Str::slug($selectedBlog->title) }}">
+        content="https://wiseadvizor.com/glossary/{{ $data->terms }}">
     <meta name="twitter:image"
         url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="canonical"
-        href="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}/{{ Str::slug($selectedBlog->title) }}">
-    <link rel="preload" fetchpriority="high"
-        href="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }}" as="image" type="image/webp">
+        href="https://wiseadvizor.com/glossary/{{ $data->terms }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async data-cfasync="false"
@@ -93,7 +91,7 @@
                         <div class="elementor-element elementor-element-91bb32d elementor-widget elementor-widget-heading"
                             data-id="91bb32d" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h1 class="elementor-heading-title elementor-size-default">{{ $selectedBlog->title }}
+                                <h1 class="elementor-heading-title elementor-size-default">{{ $data->terms }}
                                 </h1>
                             </div>
                         </div>

@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Glossary | wiseAdvizor</title>
+    <meta name="description" content="Explore our extensive startup glossary featuring vital entrepreneurship terms. Gain insights into the language of startups and elevate your business growth.">
+    <meta name="keywords" content="entrepreneurship terms, startup glossary, startup terms">
     <meta name="robots" content='max-image-preview:large' />
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
