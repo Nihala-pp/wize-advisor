@@ -405,6 +405,11 @@
     line-height: 38px;
 }
 
+.elementor-4349 .elementor-element.elementor-element-0859462>.elementor-widget-container {
+    margin: 0 0 0 -40px;
+    padding: 0px 0;
+}
+
 .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title,
 .elementor-4349 .elementor-element.elementor-element-396fad8 .elementor-heading-title,
 .elementor-4349 .elementor-element.elementor-element-83f4aa0 .elementor-heading-title,
