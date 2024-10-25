@@ -284,6 +284,7 @@
 
                 if (text != letter) {
                     $("#no_data").show();
+                    $("#no_data").scrollIntoView();
                 }
                 // alert(text);
             });
