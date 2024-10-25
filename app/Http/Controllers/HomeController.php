@@ -1243,7 +1243,7 @@ window.location.href = "https://wiseadvizor.com/faq";
 
   public function glossary_term($term = null)
   {
-      $data = GlossaryTerms::where('term', $term)->first();
+      $data = GlossaryTerms::where('terms', $term)->first();
 
       return view('glossary-term', data: compact('data'));
   }
