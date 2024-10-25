@@ -177,44 +177,9 @@
                 </div>
                 @endforeach
                 @endforeach
-                <!-- <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-352e8db"
-                    data-id="352e8db" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-921914b elementor-widget elementor-widget-heading"
-                            data-id="921914b" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">Accelerator
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-22a3518"
-                    data-id="22a3518" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-df07014 elementor-widget elementor-widget-heading"
-                            data-id="df07014" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">AIDA</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-4f97790"
-                    data-id="4f97790" data-element_type="column">
-                    <div class="elementor-widget-wrap elementor-element-populated">
-                        <div class="elementor-element elementor-element-b456109 elementor-widget elementor-widget-heading"
-                            data-id="b456109" data-element_type="widget" data-widget_type="heading.default">
-                            <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">Average
-                                    Order Value (AOV)</div>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
             </div>
         </section>
-        @endforeach
+
         <section id="no_data"
             class="elementor-section elementor-top-section elementor-element elementor-element-e68ace2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="e68ace2" data-element_type="section"
@@ -234,6 +199,8 @@
                 </div>
             </div>
         </section>
+        @endforeach
+
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-6794a0c elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="6794a0c" data-element_type="section"
@@ -321,12 +288,12 @@
         "use strict";
         $(document).ready(function() {
             $('span.badge-warning a').click(function() {
-                var text = $(this).text(); 
+                var text = $(this).text();
                 var letter = $("#letter").val();
                 // alert(letter);
-                
-                if(text != letter) {
-                   $("#no_data").show();
+
+                if (text != letter) {
+                    $("#no_data").show();
                 }
                 // alert(text);
             });
@@ -334,6 +301,7 @@
     }(jQuery));
     </script>
 </body>
+
 </html>
 <style>
 .elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
