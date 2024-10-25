@@ -69,6 +69,19 @@
 
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section
+            class="elementor-section elementor-top-section elementor-element elementor-element-5f4d5bce0 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+            data-id="5f4d5bce0" data-element_type="section"
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            <div class="elementor-background-overlay"></div>
+            <div class="elementor-container elementor-column-gap-default">
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-9eb501a"
+                    data-id="9eb501a" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-6a08fa3 elementor-widget elementor-widget-heading"
                             data-id="6a08fa3" data-element_type="column" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
