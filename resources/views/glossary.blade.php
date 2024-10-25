@@ -141,6 +141,7 @@
                         <div class="elementor-element elementor-element-4004869 elementor-widget elementor-widget-heading"
                             data-id="4004869" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
+                                <input type="hidden" id="letter" value="{{ $glossary->letter }}">
                                 <h6 class="elementor-heading-title elementor-size-default">{{ $glossary->letter }}</h6>
                             </div>
                         </div>
@@ -320,8 +321,12 @@
         "use strict";
         $(document).ready(function() {
             $('span.badge-warning a').click(function() {
-                var text = $(this).text();                
-                alert(text);
+                var text = $(this).text(); 
+                var letter = $("#letter").val();
+                alert(letter);
+                
+                // if(text !== )
+                // alert(text);
             });
         });
     }(jQuery));
