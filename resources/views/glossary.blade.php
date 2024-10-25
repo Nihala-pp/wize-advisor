@@ -169,7 +169,7 @@
                                     as $d)
                                     @foreach($d
                                     as $k => $v)
-                                    {{ $k }}
+                                    {{ $v }}
                                     @endforeach
                                     @endforeach
                                 </div>
