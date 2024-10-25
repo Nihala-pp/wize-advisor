@@ -163,7 +163,7 @@
                                     @php
                                       $decoded = json_decode($glossary->terms);
                                     @endphp
-                                       {{ $decoded }}
+                                {{ $decoded }}
                                 </div>
                             </div>
                         </div>
