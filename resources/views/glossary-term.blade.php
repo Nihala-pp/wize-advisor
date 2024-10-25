@@ -407,7 +407,7 @@
 
 .elementor-4349 .elementor-element.elementor-element-0859462>.elementor-widget-container {
     margin: 0 0 0 -40px;
-    padding: 0px 0;
+    padding: 0px 0 0;
 }
 
 .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title,
