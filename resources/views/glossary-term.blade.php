@@ -419,7 +419,7 @@
 }
 
 .elementor-4349 .elementor-element.elementor-element-4af5308 img {
-    width: 50%;
+    width: 50% !important;
     border-radius: 100px;
 }
 
