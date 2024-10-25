@@ -319,7 +319,7 @@
     (function($) {
         "use strict";
         $(document).ready(function() {
-            $('ul.formfield a').click(function() {
+            $('span.badge-warning a').click(function() {
                 var id = $(this).attr('id');
                 alert(id);
             });
