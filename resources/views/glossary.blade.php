@@ -87,6 +87,34 @@
                             <div class="elementor-widget-container">
                                 <div style="display:flex; justify-content:space-between;">
                                     <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
+                                    <span class="badge badge-pill badge-warning">A</span>
                                 </div>
                             </div>
                         </div>
