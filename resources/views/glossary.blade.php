@@ -43,7 +43,6 @@
                         <div class="elementor-element elementor-element-6a08fa2 elementor-widget__width-initial elementor-widget elementor-widget-wpr-search"
                             data-id="6a08fa2" data-element_type="widget" data-widget_type="wpr-search.default">
                             <div class="elementor-widget-container">
-
                                 <form role="search" method="get" class="wpr-search-form"
                                     action="https://wiseadvizor.com">
 
@@ -59,14 +58,6 @@
                                     </div>
 
                                 </form>
-                                <!-- <div class="wpr-data-fetch">
-                                    <span class="wpr-close-search"></span>
-                                    <ul></ul>
-                                    <p class="wpr-search-admin-notice">More than 2 results are available
-                                        in the PRO version (This notice is only visible to admin users)
-                                    </p>
-                                </div> -->
-
                             </div>
                         </div>
                     </div>
