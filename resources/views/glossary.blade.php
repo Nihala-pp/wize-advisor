@@ -221,7 +221,7 @@
                         </div>
 
                         <div id="no_data" class="elementor-element elementor-element-1c3a994 elementor-widget elementor-widget-heading"
-                            data-id="1c3a994" data-element_type="widget" data-widget_type="heading.default" style="display:none;">
+                            data-id="1c3a994" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-heading-title elementor-size-default">No Data Found
                                 </div>
