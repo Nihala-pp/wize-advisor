@@ -84,7 +84,7 @@
                                 <h6 class="elementor-heading-title elementor-size-default">
                                     <a href="https://wiseadvizor.com/">Home</a> > <a
                                         href="{{ route('glossary') }}">Glossary</a> > <a
-                                        href="{{ route('glossary-term', [$data->terms]) }}">Glossary</a>
+                                        href="{{ route('glossary-term', [$data->terms]) }}">{{ $data->terms }}</a>
                                 </h6>
                             </div>
                         </div>
