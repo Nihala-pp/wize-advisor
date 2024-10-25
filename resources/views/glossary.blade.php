@@ -119,7 +119,8 @@
                 </div>
             </div>
         </section>
-        <section
+          @foreach ($glossaries as $glossary)
+           <section
             class="elementor-section elementor-top-section elementor-element elementor-element-b8034db elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="b8034db" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -132,7 +133,7 @@
                             data-widget_type="qi_addons_for_elementor_separator.default">
                             <div class="elementor-widget-container">
                                 <div
-                                    class="qodef-shortcode qodef-m  qodef-qi-separator qodef-qi-clear qodef-separator--standard ">
+                                    class="qodef-shortcode qodef-m  qodef-qi-separator qodef-qi-clear qodef-separator--standard">
                                     <div class="qodef-m-line"></div>
                                 </div>
                             </div>
@@ -140,14 +141,14 @@
                         <div class="elementor-element elementor-element-4004869 elementor-widget elementor-widget-heading"
                             data-id="4004869" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h6 class="elementor-heading-title elementor-size-default">A</h6>
+                                <h6 class="elementor-heading-title elementor-size-default">{{ $glossary->letter }}</h6>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <section
+           </section>
+           <section
             class="elementor-section elementor-top-section elementor-element elementor-element-110e101 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="110e101" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -158,13 +159,12 @@
                         <div class="elementor-element elementor-element-bff9c11 elementor-widget elementor-widget-heading"
                             data-id="bff9c11" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default">Angel
-                                    Investor</div>
+                                <div class="elementor-heading-title elementor-size-default">{{ $glossary->terms }}</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-352e8db"
+                <!-- <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-352e8db"
                     data-id="352e8db" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-921914b elementor-widget elementor-widget-heading"
@@ -198,10 +198,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
-        </section>
-        <section
+           </section>
+          @endforeach
+        <!-- <section
             class="elementor-section elementor-top-section elementor-element elementor-element-e68ace2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="e68ace2" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
@@ -477,7 +478,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
     <link rel="stylesheet" id="elementor-post-5666-css"
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5666.css" media="all" />
