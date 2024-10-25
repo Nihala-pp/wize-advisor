@@ -214,7 +214,7 @@
             </div>
         </section>
         @endforeach
-        <section id="{{ !($glossary->letter) }}"
+        <section id="{{ !$glossary->letter }}"
             class="elementor-section elementor-top-section elementor-element elementor-element-e68ace2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="e68ace2" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
