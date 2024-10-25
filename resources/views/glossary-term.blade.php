@@ -439,7 +439,7 @@
 }
 
 .name {
-    font-weight: 500px;
+    font-weight: 500px !important;
 }
 /* html,
 body {
