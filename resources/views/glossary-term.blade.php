@@ -438,7 +438,7 @@
     --e-column-margin-left: 25px;
 }
 
-p.name {
+.elementor-4349 p.name {
     font-weight: 500px !important;
 }
 /* html,
