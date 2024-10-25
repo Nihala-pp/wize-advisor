@@ -43,7 +43,7 @@
             class="elementor-section elementor-top-section elementor-element elementor-element-0f115b9 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="0f115b9" data-element_type="section">
             <div class="elementor-container elementor-column-gap-no">
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-0e6c534"
+                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-0e6c534"
                     data-id="0e6c534" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -85,7 +85,7 @@
                                 }
                                 </style>
                                 <h6 class="elementor-heading-title elementor-size-default">
-                                    {{ $selectedBlog->category->name }}</h6>
+                                    <a href="https://wiseadvizor.com/">Home</a> > <a href="{{ route('glossary') }}">Glossary</a> > <a href="{{ route('glossary-term', [$data->terms]) }}">Glossary</a></h6>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-91bb32d elementor-widget elementor-widget-heading"
@@ -135,7 +135,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-62c0ee5"
+                                <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-62c0ee5"
                                     data-id="62c0ee5" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-0859462 elementor-widget elementor-widget-heading"
@@ -150,7 +150,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </section>
                         <section
@@ -180,7 +180,7 @@
                         </section>
                     </div>
                 </div>
-                <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2ec9ece"
+                <!-- <div class="elementor-column elementor-col-50 elementor-top-column elementor-element elementor-element-2ec9ece"
                     data-id="2ec9ece" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-476b628 elementor-widget elementor-widget-image"
@@ -195,7 +195,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div>
         </section>
         <section
