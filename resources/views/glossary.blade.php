@@ -70,7 +70,7 @@
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-6a08fa3 elementor-widget elementor-widget-heading"
-                            data-id="6a08fa3" data-element_type="column">
+                            data-id="6a08fa3" data-element_type="column" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <div style="display:flex; justify-content:space-between;">
                                     <span class="badge badge-pill badge-warning">A</span>
