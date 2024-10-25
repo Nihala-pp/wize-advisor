@@ -135,7 +135,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-62c0ee5"
+                                <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-62c0ee5"
                                     data-id="62c0ee5" data-element_type="column">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-0859462 elementor-widget elementor-widget-heading"
@@ -143,14 +143,12 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    {{ $selectedBlog->author_name }}
-                                                    |
-                                                    {{ Carbon\Carbon::parse($selectedBlog->created_at)->format('jS F\\, Y') }}
-                                                    | {{ $selectedBlog->time_to_read }} min read</p>
+                                                    Ankur Sharma
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
-                                </div> -->
+                                </div>
                             </div>
                         </section>
                         <section
