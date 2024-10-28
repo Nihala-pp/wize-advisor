@@ -142,7 +142,8 @@
                                             data-id="0859462" data-element_type="widget"
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
-                                                <p class="elementor-heading-title elementor-size-default name" style="font-weight:bold !important;">
+                                                <p class="elementor-heading-title elementor-size-default name"
+                                                    style="font-weight:bold !important;">
                                                     by Ankur Sharma
                                                 </p>
                                                 <p class="elementor-heading-title elementor-size-default">
@@ -192,6 +193,77 @@
                     data-id="c225fe8" data-element_type="column"
                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                     <div class="elementor-widget-wrap elementor-element-populated">
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-cde1c51 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="cde1c51" data-element_type="section"
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9590725"
+                                    data-id="9590725" data-element_type="column"
+                                    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-ede275a elementor-widget elementor-widget-text-editor"
+                                            data-id="ede275a" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <style>
+                                                /*! elementor - v3.21.0 - 20-05-2024 */
+                                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+                                                    background-color: #69727d;
+                                                    color: #fff
+                                                }
+
+                                                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+                                                    color: #69727d;
+                                                    border: 3px solid;
+                                                    background-color: transparent
+                                                }
+
+                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+                                                    margin-top: 8px
+                                                }
+
+                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+                                                    width: 1em;
+                                                    height: 1em
+                                                }
+
+                                                .elementor-widget-text-editor .elementor-drop-cap {
+                                                    float: left;
+                                                    text-align: center;
+                                                    line-height: 1;
+                                                    font-size: 50px
+                                                }
+
+                                                .elementor-widget-text-editor .elementor-drop-cap-letter {
+                                                    display: inline-block
+                                                }
+                                                </style>
+                                                <p></p>
+                                                <div>Level up your startup with personalized advice from the
+                                                    world&#8217;s top startup mentors. Overcome roadblocks, gain fresh
+                                                    perspectives, and propel your business forward with 1:1 coaching
+                                                    calls tailored to your specific challenges.<br></div>
+                                            </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-617417d elementor-align-justify elementor-widget elementor-widget-button"
+                                            data-id="617417d" data-element_type="widget"
+                                            data-widget_type="button.default">
+                                            <div class="elementor-widget-container">
+                                                <div class="elementor-button-wrapper">
+                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
+                                                        href="https://wiseadvizor.com/BrowseMentors">
+                                                        <span class="elementor-button-content-wrapper">
+                                                            <span class="elementor-button-text">Find a mentor</span>
+                                                        </span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-cde1c51 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="cde1c51" data-element_type="section"
@@ -374,9 +446,14 @@
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.min.css?ver=1717513898' media='all' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.css" />
     @include('partials.footer-web')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.rawgit.com/afeld/bootstrap-toc/v1.0.1/dist/bootstrap-toc.min.js"></script>
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
@@ -444,7 +521,7 @@
 }
 
 .elementor-4349 p.elementor-heading-title.elementor-size-default.name {
-    font-weight: 500px!important;
+    font-weight: 500px !important;
     padding-bottom: 7px;
     margin-top: -6px;
 }
