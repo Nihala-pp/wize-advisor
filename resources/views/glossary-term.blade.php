@@ -575,12 +575,12 @@
 <style>
 .elementor-4349 .elementor-element.elementor-element-9590725:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 .elementor-4349 .elementor-element.elementor-element-9590725>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #f1f4f9 !important;
+    background-color: #6161ff !important;
 }
 
 .elementor-4349 .elementor-element.elementor-element-9590726:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 .elementor-4349 .elementor-element.elementor-element-9590726>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
-    background-color: #6161ff !important;
+    background-color: #f1f4f9 !important;
 }
 
 nav[data-toggle="toc"] {
