@@ -464,17 +464,45 @@
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
-        var scrollEventHandler = function() {
-            window.scroll(0, window.pageYOffset)
-        }
-
-        window.addEventListener("scroll", scrollEventHandler, false);
+        var navSelector = "#toc";
+        var $myNav = $(navSelector);
+        Toc.init($myNav);
+        $("body").scrollspy({
+            target: navSelector,
+        });
     });
     </script>
 </body>
 
 </html>
 <style>
+nav[data-toggle="toc"] {
+    top: 42px;
+}
+
+/* small screens */
+@media (max-width: 768px) {
+
+    /* override stickyness so that the navigation does not follow scrolling */
+    nav[data-toggle="toc"] {
+        margin-bottom: 42px;
+        position: static;
+    }
+
+    /* PICK ONE */
+    /* don't expand nested items, which pushes down the rest of the page when navigating */
+    nav[data-toggle="toc"] .nav .active .nav {
+        display: none;
+    }
+
+    /* alternatively, if you *do* want the second-level navigation to be shown (as seen on this page on mobile), use this */
+    /*
+  nav[data-toggle='toc'] .nav .nav {
+    display: block;
+  }
+  */
+}
+
 .elementor-column.elementor-col-100,
 .elementor-column[data-col="100"] {
     width: 100% !important;
