@@ -202,10 +202,6 @@
                                                 @endforeach
                                                 @endforeach
                                             </td>
-                                            <!-- <td class="align-middle text-center">
-                                                <span
-                                                    class="text-secondary text-xs font-weight-bold">{{ $expert->created_at }}</span>
-                                            </td> -->
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group ">
                                                     <button type="button" class="btn btn-block edit"
@@ -217,14 +213,6 @@
                                                         Delete
                                                     </a>
                                                 </div>
-                                                <!-- <a href="{{ route('admin.mentors.expertise.edit',[$expert->id]) }}"
-                                                    class="text-secondary font-weight-bold text-xs"
-                                                    data-toggle="tooltip" data-original-title="Edit expertise">
-                                                    Edit
-                                                </a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-                                                &nbsp
-                                                &nbsp &nbsp -->
-
                                             </td>
                                         </tr>
                                         @endforeach
