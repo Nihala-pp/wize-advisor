@@ -573,7 +573,7 @@
 
 </html>
 <style>
-li > a#table-of-content {
+nav[data-toggle=toc] .nav>li>a#table-of-content {
     display: none !important;
 }
 
