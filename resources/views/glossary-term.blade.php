@@ -199,8 +199,8 @@
                             data-id="cde1c52" data-element_type="section"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
                             <div class="elementor-container elementor-column-gap-default">
-                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9590725"
-                                    data-id="9590725" data-element_type="column"
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9590726"
+                                    data-id="9590726" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
                                         <div class="elementor-element elementor-element-e0060ec elementor-widget elementor-widget-qi_addons_for_elementor_table_of_contents"
@@ -274,7 +274,8 @@
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-cde1c51 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="cde1c51" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}" style="background-color:#6161ff !important;">
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}"
+                            style="background-color:#6161ff !important;">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9590725"
                                     data-id="9590725" data-element_type="column"
@@ -575,6 +576,11 @@
 .elementor-4349 .elementor-element.elementor-element-9590725:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 .elementor-4349 .elementor-element.elementor-element-9590725>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #f1f4f9 !important;
+}
+
+.elementor-4349 .elementor-element.elementor-element-9590726:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-4349 .elementor-element.elementor-element-9590726>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #6161ff !important;
 }
 
 nav[data-toggle="toc"] {
