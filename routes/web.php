@@ -181,6 +181,7 @@ Route::controller(AdminController::class)
         Route::get('/mentors/resources', 'resources')->name('mentors.resources');
         Route::get('/mentors/events', 'events')->name('mentors.events');
         Route::get('/glossary', 'glossary')->name('glossary');
+        Route::get('/glossary', 'delete_glossary')->name('glossary.delete');
 
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         // Route::get('/create', 'create')->name('create');

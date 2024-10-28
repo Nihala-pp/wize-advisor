@@ -618,4 +618,9 @@ class AdminController extends Controller
 
         return view('admin.glossary', compact('glossary'));
     }
+
+    public function delete_glossary()
+    {
+        
+    }
 }

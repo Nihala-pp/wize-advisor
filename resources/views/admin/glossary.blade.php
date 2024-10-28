@@ -209,9 +209,9 @@
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group ">
                                                     <button type="button" class="btn btn-block edit"
-                                                        data-id="{{ $expert->id }}">Edit
+                                                        data-id="{{ $glossaries->id }}">Edit
                                                         <i class="fa fa-edit"></button></i>
-                                                    <a href="{{ route('admin.mentors.expertise.delete',[$expert->id]) }}"
+                                                    <a href="{{ route('admin.glossary.delete',[$glossaries->id]) }}"
                                                         class="text-secondary font-weight-bold text-xs"
                                                         data-toggle="tooltip" data-original-title="Delete expertise">
                                                         Delete
