@@ -274,7 +274,7 @@
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-cde1c51 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
                             data-id="cde1c51" data-element_type="section"
-                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}" style="background-color:#6161ff !important;">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9590725"
                                     data-id="9590725" data-element_type="column"
@@ -418,7 +418,7 @@
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-eb20226 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="eb20226" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-color:#6161ff !important;">
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d86f4d9"
                     data-id="d86f4d9" data-element_type="column">
