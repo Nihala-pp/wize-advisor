@@ -573,7 +573,7 @@
 
 </html>
 <style>
-a#table-of-content {
+#table-of-content {
     display: none !important;
 }
 
