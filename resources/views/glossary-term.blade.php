@@ -418,7 +418,7 @@
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-eb20226 elementor-section-full_width elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="eb20226" data-element_type="section"
-            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}" style="background-color:#6161ff !important;">
             <div class="elementor-container elementor-column-gap-default">
                 <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d86f4d9"
                     data-id="d86f4d9" data-element_type="column">
@@ -572,6 +572,11 @@
 
 </html>
 <style>
+.elementor-4349 .elementor-element.elementor-element-9590725:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+.elementor-4349 .elementor-element.elementor-element-9590725>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #f1f4f9 !important;
+}
+
 nav[data-toggle="toc"] {
     top: 42px;
 }
