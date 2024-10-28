@@ -500,7 +500,7 @@
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
                                                     <a
-                                                        href="{{ route('blogCategories', [$related_post->category_id, Str::slug($related_mentor->metaData->designation)]) }}">{{ $related_mentor->metaData->designation }}</a>
+                                                        href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">{{ $related_mentor->metaData->designation }}</a>
                                                 </h6>
                                             </div>
                                         </div>
@@ -510,7 +510,7 @@
                                             <div class="elementor-widget-container">
                                                 <h4 class="elementor-heading-title elementor-size-default">
                                                     <a
-                                                        href="{{ route('blogDetail', [$related_post->id, Str::slug($related_mentor->name)]) }}">
+                                                        href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">
                                                         {{ $related_post->title }}</a>
                                                 </h4>
                                             </div>
