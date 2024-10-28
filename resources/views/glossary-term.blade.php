@@ -583,7 +583,7 @@
     background-color: #f1f4f9 !important;
     border: solid 1px #d7dee9;
     border-radius: 7px;
-    padding: 50px 20px 3px;
+    padding: 20px 20px 20px 3px;
 }
 
 nav[data-toggle="toc"] {
