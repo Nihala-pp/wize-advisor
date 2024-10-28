@@ -246,8 +246,9 @@
                                             onfocus="focused(this)" onfocusout="defocused(this)" required>
                                     </div>
                                     <div class="input-group input-group-static my-3">
-                                    <label for="exampleFormControlInput1" class="form-label">Terms</label>
-                                    <input type="file" name="terms" class="form-control" required>
+                                        <label for="exampleFormControlInput1" class="form-label">Terms</label>
+                                        <input name="terms[]" class="form-control" id="terms-tags" data-color="dark"
+                                            type="text" required>
                                     </div>
                                     <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                             class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
@@ -304,6 +305,26 @@
                 }
             });
         });
+        </script>
+        <script type="text/javascript">
+        if (document.getElementById('choices-button')) {
+            var element = document.getElementById('choices-button');
+            const example = new Choices(element, {});
+        }
+        var choicesTags = document.getElementById('terms-tags');
+        var color = choicesTags.dataset.color;
+        if (choicesTags) {
+            const example = new Choices(choicesTags, {
+                delimiter: ',',
+                editItems: true,
+                maxItemCount: 5,
+                removeItemButton: true,
+                addItems: true,
+                classNames: {
+                    item: 'badge rounded-pill choices-' + color + ' me-2'
+                }
+            });
+        }
         </script>
         <!-- <script type="text/javascript">
         
