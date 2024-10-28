@@ -180,6 +180,8 @@ Route::controller(AdminController::class)
         Route::get('/reviews/reject/{id?}', 'deleteReviews')->name('mentors.review.reject');
         Route::get('/mentors/resources', 'resources')->name('mentors.resources');
         Route::get('/mentors/events', 'events')->name('mentors.events');
+        Route::get('/glossary', 'glossary')->name('glossary');
+
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         // Route::get('/create', 'create')->name('create');
         // Route::get('/edit/{id}', 'edit')->name('edit');
