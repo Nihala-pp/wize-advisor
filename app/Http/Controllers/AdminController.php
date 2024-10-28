@@ -610,4 +610,9 @@ class AdminController extends Controller
     {
           dd($date);
     }
+
+    public function glossary()
+    {
+        return view('admin.glossary');
+    }
 }
