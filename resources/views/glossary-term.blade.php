@@ -210,8 +210,8 @@
                                                 <div
                                                     class="qodef-shortcode qodef-m  qodef-qi-table-of-contents qodef-list-position--inside qodef-list-underline ">
                                                     <div class="qodef-e-title-holder">
-                                                        <h4 class="qodef-m-title qodef-exclude">
-                                                            Table of Content </h4>
+                                                        <!-- <h4 class="qodef-m-title qodef-exclude">
+                                                            Table of Content </h4> -->
                                                     </div>
                                                     <nav id="toc" data-toggle="toc"></nav>
                                                     <!-- <div class="qodef-m-table-content" data-type="ol"
