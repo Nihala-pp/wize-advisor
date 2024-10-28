@@ -581,6 +581,8 @@
 .elementor-4349 .elementor-element.elementor-element-9590726:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
 .elementor-4349 .elementor-element.elementor-element-9590726>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
     background-color: #f1f4f9 !important;
+    border: solid 1px;
+    border-radius: 7px;
 }
 
 nav[data-toggle="toc"] {
