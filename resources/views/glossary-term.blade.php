@@ -458,7 +458,8 @@
                         <div class="elementor-element elementor-element-ae08175 elementor-widget elementor-widget-heading"
                             data-id="ae08175" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">Mentors to guide you on {{ $data->terms }}
+                                <p class="elementor-heading-title elementor-size-default">Mentors to guide you on
+                                    {{ $data->terms }}
                                 </p>
                             </div>
                         </div>
@@ -480,8 +481,7 @@
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="750" height="375"
                                     src="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }}"
-                                    class="attachment-large size-large wp-image-6398 lazyload"
-                                    alt="{{ $data->terms }}"
+                                    class="attachment-large size-large wp-image-6398 lazyload" alt="{{ $data->terms }}"
                                     srcset="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1024w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 300w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 768w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1536w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 2048w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1568w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1300w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:50%;max-width:2400px" />
@@ -511,7 +511,7 @@
                                                 <h4 class="elementor-heading-title elementor-size-default">
                                                     <a
                                                         href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">
-                                                        {{ $related_post->title }}</a>
+                                                        {{ $related_mentor->name }}</a>
                                                 </h4>
                                             </div>
                                         </div>
@@ -528,8 +528,11 @@
                                             data-widget_type="heading.default">
                                             <div class="elementor-widget-container">
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    {{ $related_post->author_name }}
-                                                    | {{ $related_post->time_to_read }} min read</p>
+                                                    <a
+                                                        href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">
+                                                        {{ $related_mentor->name }}</a>{{ $related_mentor->author_name }}
+                                                    View Profile </a>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
