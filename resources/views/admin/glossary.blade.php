@@ -245,8 +245,8 @@
                                         <input class="multisteps-form__input form-control" type="text" name="letter"
                                             onfocus="focused(this)" onfocusout="defocused(this)" required>
                                     </div>
-                                    <div class="input-group input-group-static my-3">
-                                        <label for="exampleFormControlInput1" class="form-label">Terms</label>
+                                    <div>
+                                        <label class="form-label">Terms (Type and Press Enter)</label>
                                         <input name="terms[]" class="form-control" id="terms-tags" data-color="dark"
                                             type="text" required>
                                     </div>
@@ -317,7 +317,7 @@
             const example = new Choices(choicesTags, {
                 delimiter: ',',
                 editItems: true,
-                maxItemCount: 5,
+                maxItemCount: 10,
                 removeItemButton: true,
                 addItems: true,
                 classNames: {
