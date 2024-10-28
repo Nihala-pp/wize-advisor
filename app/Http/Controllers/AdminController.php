@@ -9,6 +9,7 @@ use App\Models\BlogCategories;
 use App\Models\Blogs;
 use App\Models\Expertise;
 use App\Models\ExpertiseList;
+use App\Models\Glossaries;
 use App\Models\LoginActivity;
 use App\Models\Review;
 use App\Models\Setting;
@@ -613,6 +614,8 @@ class AdminController extends Controller
 
     public function glossary()
     {
-        return view('admin.glossary');
+        $glossary = Glossaries::get();
+
+        return view('admin.glossary', compact('glossary'));
     }
 }

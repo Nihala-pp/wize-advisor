@@ -23,10 +23,9 @@
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb bg-transparent mb-0 pb-0 pt-1 px-0 me-sm-6 me-5">
                         <li class="breadcrumb-item text-sm"><a class="opacity-5 text-dark"
-                                href="javascript:;">Mentor</a></li>
-                        <li class="breadcrumb-item text-sm text-dark active" aria-current="page">Blogs</li>
+                                href="javascript:;">Glossary</a></li>
                     </ol>
-                    <h6 class="font-weight-bolder mb-0">Blogs</h6>
+                    <h6 class="font-weight-bolder mb-0">Glossary</h6>
                 </nav>
                 <div class="collapse navbar-collapse mt-sm-0 mt-2 me-md-0 me-sm-4" id="navbar">
                     <div class="ms-md-auto pe-md-3 d-flex align-items-center">
@@ -148,143 +147,169 @@
         <!-- End Navbar -->
         <div class="container-fluid py-4">
             <div class="row">
-                <div class="card">
-                    <div class="col-12 mt-4">
-                        <div class="mb-5 ps-3 text-end">
-                            <h6 class="mb-1"></h6>
-                            <p class="text-sm"></p>
-                            <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">
-                                Add Blog
-                            </button>
-                        </div>
-                        @if(!empty($blogs))
-                        <div class="row">
-                            @foreach($blogs as $blog)
-                            <div class="col-xl-3 col-md-6 mb-xl-0 mb-4">
-                                <div class="card card-blog card-plain">
-                                    <div class="card-header p-0 mt-n4 mx-3">
-                                        <a class="d-block shadow-xl border-radius-xl">
-                                            <img decoding="async" width="200" height="200"
-                                                src="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }}"
-                                                class="attachment-full size-full wp-image-2739" alt="blog"
-                                                srcset="{{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 370w, {{ asset('public/wp-content/uploads/2023/07') }}/{{ $blog->image }} 222w"
-                                                sizes="(max-width: 370px) 100vw, 370px">
-                                        </a>
-                                    </div>
-                                    <div class="card-body p-3 mb-4">
-                                        <p class="mb-0 text-sm"></p>
-                                        <a href="{{ route('blogDetail', [ $blog->id , $blog->name]) }}">
-                                            <h5>
-                                                {{ $blog->title  }}
-                                            </h5>
-                                        </a>
-                                        <p class="mb-4 text-sm">
-                                            {{ Str::words($blog->intro, '20') }}
-                                        </p>
-                                        <div class="d-flex align-items-center justify-content-between">
-                                            <a href="{{ route('admin.mentors.blogs.edit', [ $blog->id ]) }}">
-                                                <button type="button" class="btn btn-outline-primary btn-sm mb-0">Edit
-                                                    Blog</button>
-                                            </a>
-                                            <!-- <div class="avatar-group mt-2">
-                                            <a href="javascript:;" class="avatar avatar-xs rounded-circle"
-                                                data-bs-toggle="tooltip" data-bs-placement="bottom"
-                                                title="Elena Morison">
-                                                <img src="" alt="Image placeholder">
-                                            </a>
-                                        </div> -->
-                                        </div>
-                                    </div>
+                <div class="col-md-12 col-md-6 mb-lg-0 mb-4">
+                    <div class="card mt-4">
+                        <div class="card-header pb-0 p-3">
+                            <div class="row">
+                                <div class="col-6 d-flex align-items-center">
+                                    <h6 class="mb-0"></h6>
+                                </div>
+                                <div class="col-6 text-end">
+                                    <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
+                                        data-bs-target="#exampleModal">
+                                        + New Glossary
+                                    </button>
                                 </div>
                             </div>
-                            @endforeach
                         </div>
-                        @endif
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header info-color white-text">
-                    <h6 class="title"><b>Write your Blog</b></h6>
-                    <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <div class="card card-plain">
-                        <div class="card-body">
-                            <form method="POST" enctype="multipart/form-data"
-                                action="{{ route('admin.mentors.blogs.save') }}">
-                                @csrf
-                                <input type="hidden" name="row_id" class="form-control" value="">
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Title</label>
-                                    <input type="text" name="title" class="form-control">
-                                </div>
-                                <!-- <div class="input-group input-group-static mb-4">
-                                    <label>Introduction</label>
-                                    <textarea id="summernote_1" name="introduction" class="form-control"></textarea>
-                                </div> -->
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Description</label>
-                                    <textarea id="summernote" name="description" class="form-control"></textarea>
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Category</label>
-                                    <select class="select form-control" name="category_id" required>
-                                        @foreach ($category as $cat)
-                                        <option value="{{ $cat->id }}">
-                                            {{ $cat->name }}
-                                        </option>
+                        <div class="card-body px-0 pb-2">
+                            <div class="table-responsive">
+                                <table class="table align-items-center mb-0" id="datatable-basic">
+                                    <thead>
+                                        <tr>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 text-sm heading">
+                                                Letter</th>
+                                            <th
+                                                class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-sm heading">
+                                                Terms</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 heading">
+                                                keywords</th>
+                                            <th
+                                                class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 heading">
+                                                Description</th>
+                                            <th class="text-secondary opacity-7">Action</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach($expertise as $expert)
+                                        <tr>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $expert->name }}</p>
+                                            </td>
+                                            <td class="align-middle text-center text-sm">
+                                                <img src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $expert->icon }}"
+                                                    class="avatar avatar-sm me-3 border-radius-lg" alt="icon">
+                                            </td>
+                                            <td class="align-middle text-center">
+                                                <span
+                                                    class="text-secondary text-xs font-weight-bold">{{ $expert->created_at }}</span>
+                                            </td>
+                                            <td class="align-middle text-center text-sm">
+                                                <div class="avatar-group ">
+                                                    <button type="button" class="btn btn-block edit"
+                                                        data-id="{{ $expert->id }}">Edit
+                                                        <i class="fa fa-edit"></button></i>
+                                                    <a href="{{ route('admin.mentors.expertise.delete',[$expert->id]) }}"
+                                                        class="text-secondary font-weight-bold text-xs"
+                                                        data-toggle="tooltip" data-original-title="Delete expertise">
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                                <!-- <a href="{{ route('admin.mentors.expertise.edit',[$expert->id]) }}"
+                                                    class="text-secondary font-weight-bold text-xs"
+                                                    data-toggle="tooltip" data-original-title="Edit expertise">
+                                                    Edit
+                                                </a> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+                                                &nbsp
+                                                &nbsp &nbsp -->
+
+                                            </td>
+                                        </tr>
                                         @endforeach
-                                    </select>
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Author Name</label>
-                                    <input type="text" name="author_name" class="form-control">
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Time to read</label>
-                                    <input type="number" name="time_to_read" class="form-control">
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Featured Image</label>
-                                    <input type="file" name="featured_image" class="form-control">
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Image</label>
-                                    <input type="file" name="image" class="form-control">
-                                </div>
+                                    </tbody>
+                                </table>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn bg-gradient-primary">Save changes</button>
-                </div>
-                </form>
             </div>
         </div>
-    </div>
-    </main>
-    <script>
-    $(document).ready(function() {
-        $('#summernote').summernote();
-        $('#summernote_1').summernote();
-    });
-    </script>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-normal" id="exampleModalLabel">Add Expertise</h5>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card card-plain">
+                            <div class="card-body">
+                                <form method="POST" action="{{ route('admin.mentors.expertise.save') }}"
+                                    enctype="multipart/form-data">
+                                    @csrf
+                                    <div class="input-group input-group-dynamic is-filled">
+                                        <label for="exampleFormControlInput1" class="form-label">Name</label>
+                                        <input class="multisteps-form__input form-control" type="text" name="expertise"
+                                            onfocus="focused(this)" onfocusout="defocused(this)" required>
+                                    </div>
+                                    <div class="input-group input-group-static my-3">
+                                        <label class="form-label"></label>
+                                        <input type="file" name="profile_pic" class="form-control" required>
+                                    </div>
+                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header info-color white-text">
+                        <h6 class="modal-title font-weight-normal"><b>Edit Availability</b></h6>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form method="POST" action="{{ route('admin.mentors.expertise.save') }}" role="form text-left">
+                        @csrf
+                        <div class="modal-body editAvailability">
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn bg-gradient-secondary"
+                                data-bs-dismiss="modal">Close</button>
+                            <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                        </div>
+                    </form>
+                    <!-- <div class="modal-body editAvailability">
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+        const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
+            searchable: true,
+            fixedHeight: true
+        });
+
+        $('body').on('click', '.edit', function() {
+            var Id = $(this).data('id');
+            $.ajax({
+                url: "{{ route('admin.mentors.expertise.edit') }}",
+
+                type: "GET",
+                data: {
+                    'Id': Id
+                },
+                success: function(response) {
+                    $("#edit_availability .modal-body").html(response);
+                    $(".edit_availability").modal('show');
+                }
+            });
+        });
+        </script>
+        <!-- <script type="text/javascript">
+        
+        </script> -->
 </body>
-<style>
-.h5,
-h5 {
-    font-size: 1em;
-    line-height: 1.375;
-}
-</style>
 
 </html>
