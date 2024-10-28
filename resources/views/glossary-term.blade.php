@@ -584,7 +584,7 @@
     border: solid 1px #d7dee9;
     border-radius: 7px;
     padding: 20px 20px 20px 3px;
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 nav[data-toggle="toc"] {
