@@ -471,7 +471,7 @@
             data-id="069db09" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                @foreach ($related_posts as $related_post)
+                @foreach ($related_mentors as $related_mentor)
                 <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-99a7c4c"
                     data-id="99a7c4c" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
@@ -479,10 +479,10 @@
                             data-id="6047abf" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="750" height="375"
-                                    src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }}"
+                                    src="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }}"
                                     class="attachment-large size-large wp-image-6398 lazyload"
-                                    alt="{{ $related_post->title }}"
-                                    srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1024w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 768w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1536w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 2048w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1568w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }} 1300w"
+                                    alt="{{ $data->terms }}"
+                                    srcset="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1024w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 300w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 768w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1536w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 2048w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1568w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1300w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:50%;max-width:2400px" />
                             </div>
