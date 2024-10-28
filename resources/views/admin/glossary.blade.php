@@ -173,29 +173,39 @@
                                             <th
                                                 class="text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 ps-2 text-sm heading">
                                                 Terms</th>
-                                            <th
+                                            <!-- <th
                                                 class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 heading">
                                                 keywords</th>
                                             <th
                                                 class="text-center text-uppercase text-secondary text-xxs font-weight-bolder opacity-7 heading">
-                                                Description</th>
+                                                Description</th> -->
                                             <th class="text-secondary opacity-7">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        @foreach($expertise as $expert)
+                                        @foreach($glossary as $glossaries)
                                         <tr>
                                             <td>
-                                                <p class="text-xs font-weight-bold mb-0">{{ $expert->name }}</p>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $glossaries->letter }}</p>
                                             </td>
                                             <td class="align-middle text-center text-sm">
-                                                <img src="{{ asset('public/wp-content/uploads/2023/06/') }}/{{ $expert->icon }}"
-                                                    class="avatar avatar-sm me-3 border-radius-lg" alt="icon">
+                                                @php
+                                                $terms = $glossaries->terms ? $glossaries->terms : '';
+                                                $decoded =
+                                                json_decode($terms);
+                                                @endphp
+                                                @foreach($decoded
+                                                as $d)
+                                                @foreach($d
+                                                as $k => $v)
+                                                {{ $v }}
+                                                @endforeach
+                                                @endforeach
                                             </td>
-                                            <td class="align-middle text-center">
+                                            <!-- <td class="align-middle text-center">
                                                 <span
                                                     class="text-secondary text-xs font-weight-bold">{{ $expert->created_at }}</span>
-                                            </td>
+                                            </td> -->
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group ">
                                                     <button type="button" class="btn btn-block edit"
