@@ -1245,6 +1245,12 @@ window.location.href = "https://wiseadvizor.com/faq";
   {
       $data = GlossaryTerms::where('terms', $term)->first();
 
-      return view('glossary-term', data: compact('data'));
+      foreach(json_encode($data->mentors) as $mentors) {
+            foreach ($mentors as $key => $mentor) {
+               $related_mentors[] = User::find($mentor);
+            }
+      }
+
+      return view('glossary-term', data: compact('data', 'related_mentors'));
   }
 }
