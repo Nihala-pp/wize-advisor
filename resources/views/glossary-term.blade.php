@@ -196,7 +196,7 @@
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <section
                             class="elementor-section elementor-inner-section elementor-element elementor-element-cde1c51 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                            data-id="cde1c51" data-element_type="section"
+                            data-id="cde1c51" data-element_type="section" style="backgroud-color:#f1f4f9;"
                             data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_parent&quot;:&quot;yes&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0}">
                             <div class="elementor-container elementor-column-gap-default">
                                 <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-9590725"
