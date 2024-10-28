@@ -1245,7 +1245,7 @@ window.location.href = "https://wiseadvizor.com/faq";
   {
       $data = GlossaryTerms::where('terms', $term)->first();
 
-      foreach(json_encode($data->mentors) as $mentors) {
+      foreach(json_decode($data->mentors) as $mentors) {
             foreach ($mentors as $key => $mentor) {
                $related_mentors[] = User::find($mentor);
             }
