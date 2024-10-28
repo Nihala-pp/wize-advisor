@@ -530,8 +530,7 @@
                                                 <p class="elementor-heading-title elementor-size-default">
                                                     <a
                                                         href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">
-                                                        {{ $related_mentor->name }}</a>
-                                                    View Profile </a>
+                                                        View Profile</a>
                                                 </p>
                                             </div>
                                         </div>
