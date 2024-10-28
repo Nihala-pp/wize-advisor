@@ -237,7 +237,7 @@
                     <div class="modal-body">
                         <div class="card card-plain">
                             <div class="card-body">
-                                <form method="POST" action="{{ route('admin.mentors.expertise.save') }}"
+                                <form method="POST" action="{{ route('admin.glossary.save') }}"
                                     enctype="multipart/form-data">
                                     @csrf
                                     <div class="input-group input-group-dynamic is-filled">
@@ -259,7 +259,7 @@
                 </div>
             </div>
         </div>
-        <div class="modal" id="edit_availability" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        <div class="modal" id="edit_glossary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -269,9 +269,9 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form method="POST" action="{{ route('admin.mentors.expertise.save') }}" role="form text-left">
+                    <form method="POST" action="{{ route('admin.glossary.save') }}" role="form text-left">
                         @csrf
-                        <div class="modal-body editAvailability">
+                        <div class="modal-body edit_glossary">
                         </div>
                         <div class="modal-footer">
                             <button type="button" class="btn bg-gradient-secondary"
@@ -293,15 +293,15 @@
         $('body').on('click', '.edit', function() {
             var Id = $(this).data('id');
             $.ajax({
-                url: "{{ route('admin.mentors.expertise.edit') }}",
+                url: "{{ route('admin.glossary.edit') }}",
 
                 type: "GET",
                 data: {
                     'Id': Id
                 },
                 success: function(response) {
-                    $("#edit_availability .modal-body").html(response);
-                    $(".edit_availability").modal('show');
+                    $("#edit_glossary .modal-body").html(response);
+                    $(".edit_glossary").modal('show');
                 }
             });
         });

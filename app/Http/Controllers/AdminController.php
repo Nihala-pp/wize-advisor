@@ -621,6 +621,11 @@ class AdminController extends Controller
 
     public function delete_glossary()
     {
+
+    }
+
+    public function edit_glossary()
+    {
         
     }
 }
