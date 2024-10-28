@@ -574,7 +574,7 @@
 </html>
 <style>
 .elementor-4349 > a#table-of-content {
-    display: hidden !important;
+    display: none !important;
 }
 
 .elementor-4349 .elementor-element.elementor-element-9590725:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
