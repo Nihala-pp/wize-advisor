@@ -500,7 +500,7 @@
                                             <div class="elementor-widget-container">
                                                 <h6 class="elementor-heading-title elementor-size-default">
                                                     <a
-                                                        href="{{ route('blogCategories', [$related_post->category_id, Str::slug($related_post->category->name)]) }}">{{ $related_post->category->name }}</a>
+                                                        href="{{ route('blogCategories', [$related_post->category_id, Str::slug($related_mentor->metaData->designation)]) }}">{{ $related_mentor->metaData->designation }}</a>
                                                 </h6>
                                             </div>
                                         </div>
@@ -510,7 +510,7 @@
                                             <div class="elementor-widget-container">
                                                 <h4 class="elementor-heading-title elementor-size-default">
                                                     <a
-                                                        href="{{ route('blogDetail', [$related_post->id, Str::slug($related_post->title)]) }}">
+                                                        href="{{ route('blogDetail', [$related_post->id, Str::slug($related_mentor->name)]) }}">
                                                         {{ $related_post->title }}</a>
                                                 </h4>
                                             </div>
@@ -519,7 +519,7 @@
                                             data-id="9f5ff1a" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>{{ Str::of(strip_tags($related_post->description))->words(18, ' ....') }}
+                                                <p>{{ Str::of(strip_tags($related_mentor->metaData->bio_1))->words(18, ' ....') }}
                                                 </p>
                                             </div>
                                         </div>
