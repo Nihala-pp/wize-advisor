@@ -573,7 +573,7 @@
 
 </html>
 <style>
-.elementor-4349 > a#table-of-content {
+a#table-of-content {
     display: none !important;
 }
 
