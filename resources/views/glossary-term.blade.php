@@ -202,61 +202,66 @@
                                     data-id="9590725" data-element_type="column"
                                     data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
                                     <div class="elementor-widget-wrap elementor-element-populated">
-                                        <div class="elementor-element elementor-element-ede275a elementor-widget elementor-widget-text-editor"
-                                            data-id="ede275a" data-element_type="widget"
-                                            data-widget_type="text-editor.default">
+                                        <div class="elementor-element elementor-element-e0060ec elementor-widget elementor-widget-qi_addons_for_elementor_table_of_contents"
+                                            data-id="e0060ec" data-element_type="widget"
+                                            data-widget_type="qi_addons_for_elementor_table_of_contents.default">
                                             <div class="elementor-widget-container">
-                                                <style>
-                                                /*! elementor - v3.21.0 - 20-05-2024 */
-                                                .elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
-                                                    background-color: #69727d;
-                                                    color: #fff
-                                                }
-
-                                                .elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
-                                                    color: #69727d;
-                                                    border: 3px solid;
-                                                    background-color: transparent
-                                                }
-
-                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
-                                                    margin-top: 8px
-                                                }
-
-                                                .elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
-                                                    width: 1em;
-                                                    height: 1em
-                                                }
-
-                                                .elementor-widget-text-editor .elementor-drop-cap {
-                                                    float: left;
-                                                    text-align: center;
-                                                    line-height: 1;
-                                                    font-size: 50px
-                                                }
-
-                                                .elementor-widget-text-editor .elementor-drop-cap-letter {
-                                                    display: inline-block
-                                                }
-                                                </style>
-                                                <p></p>
-                                                <div>Level up your startup with personalized advice from the
-                                                    world&#8217;s top startup mentors. Overcome roadblocks, gain fresh
-                                                    perspectives, and propel your business forward with 1:1 coaching
-                                                    calls tailored to your specific challenges.<br></div>
-                                            </div>
-                                        </div>
-                                        <div class="elementor-element elementor-element-617417d elementor-align-justify elementor-widget elementor-widget-button"
-                                            data-id="617417d" data-element_type="widget"
-                                            data-widget_type="button.default">
-                                            <div class="elementor-widget-container">
-                                                <div class="elementor-button-wrapper">
-                                                    <a class="elementor-button elementor-button-link elementor-size-sm"
-                                                        href="https://wiseadvizor.com/BrowseMentors">
-                                                        <span class="elementor-button-content-wrapper">
-                                                            <span class="elementor-button-text">Find a mentor</span>
-                                                        </span>
-                                                    </a>
+                                                <div
+                                                    class="qodef-shortcode qodef-m  qodef-qi-table-of-contents qodef-list-position--inside qodef-list-underline ">
+                                                    <div class="qodef-e-title-holder">
+                                                        <h4 class="qodef-m-title qodef-exclude">
+                                                            Table of Content </h4>
+                                                    </div>
+                                                    <div class="qodef-m-table-content" data-type="ol"
+                                                        data-excluded-tags="h1"
+                                                        data-excluded-cids=".qodef-exclude,.qodef-page-title,.qodef-e-author,.qodef-testimonials-list,.qodef-testimonials-slider">
+                                                        <ol>
+                                                            <li><a href="#Work_management">Work management</a></li>
+                                                            <li><a href="#The_Impact_of_Mentorship">The Impact of
+                                                                    Mentorship</a>
+                                                                <ol>
+                                                                    <li><a href="#wiseAdvizors_Unique_Approach">wiseAdvizor's
+                                                                            Unique Approach</a>
+                                                                        <ol>
+                                                                            <li><a href="#Conclusion">Conclusion
+                                                                                </a></li>
+                                                                        </ol>
+                                                                    </li>
+                                                                    <li><a
+                                                                            href="#Studies_show_startups_with_mentors_achieve_growth_milestones__times_quicker">Studies
+                                                                            show startups with mentors achieve growth
+                                                                            milestones 2.3 times quicker.</a>
+                                                                        <ol>
+                                                                            <li><a href="#Work_management____2">Work
+                                                                                    management</a></li>
+                                                                        </ol>
+                                                                    </li>
+                                                                    <li><a
+                                                                            href="#Best_business_process_management_software_in_">Best
+                                                                            business process management software in
+                                                                            2024</a>
+                                                                        <ol>
+                                                                            <li><a href="#Work_management____3">Work
+                                                                                    management</a></li>
+                                                                        </ol>
+                                                                    </li>
+                                                                    <li><a
+                                                                            href="#Best_business_process_management_software_in_____2">Best
+                                                                            business process management software in
+                                                                            2024</a>
+                                                                        <ol>
+                                                                            <li><a href="#Work_management____4">Work
+                                                                                    management</a></li>
+                                                                        </ol>
+                                                                    </li>
+                                                                    <li><a
+                                                                            href="#Best_business_process_management_software_in_____3">Best
+                                                                            business process management software in
+                                                                            2024</a></li>
+                                                                </ol>
+                                                            </li>
+                                                        </ol>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
