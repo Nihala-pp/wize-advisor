@@ -626,6 +626,20 @@ class AdminController extends Controller
 
     public function edit_glossary()
     {
-        
+
+    }
+
+    public function save_glossary(Request $request)
+    {
+
+        $data = [
+            'letter' => $request->letter,
+            'terms' => json_encode($request->terms)
+        ];
+
+        Glossaries::updateOrCreate(
+            ['id' => $request->row_id],
+            $data
+        );
     }
 }

@@ -183,6 +183,7 @@ Route::controller(AdminController::class)
         Route::get('/glossary', 'glossary')->name('glossary');
         Route::get('/glossary/delete', 'delete_glossary')->name('glossary.delete');
         Route::get('/glossary/edit', 'edit_glossary')->name('glossary.edit');
+        Route::post('/glossary/save', 'save_glossary')->name('glossary.save');
 
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         // Route::get('/create', 'create')->name('create');
