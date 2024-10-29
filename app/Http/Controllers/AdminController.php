@@ -649,8 +649,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
                  'terms' =>  $terms
             ];
 
-            GlossaryTerms::updateOrCreate([
-                ['id' => $request->row_id],
+            GlossaryTerms::create([
                 $all_terms
             ]);
         }  
