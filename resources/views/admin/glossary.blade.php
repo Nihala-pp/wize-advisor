@@ -339,7 +339,6 @@
             });
 
             $('#summernote').summernote();
-            $('#summernote_1').summernote();
 
             $('body').on('click', '.edit', function () {
                 var Id = $(this).data('id');
