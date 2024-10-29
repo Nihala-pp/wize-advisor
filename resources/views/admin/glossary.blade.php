@@ -280,7 +280,7 @@
                                     <div class="input-group input-group-dynamic is-filled">
                                         <label for="exampleFormControlInput1" class="form-label">Letter</label>
                                         <select class="select form-control letter" id="letter"
-                                            name="glossary[0][letter]" required>
+                                            name="letter" required>
                                             <option value="">Choose any</option>
                                             @foreach($glossary as $glossaries)
                                             <option value="{{ $glossaries->letter }}">{{$glossaries->letter }}</option>
@@ -289,7 +289,7 @@
                                     </div>
                                     <div>
                                         <label>Terms</label>
-                                        <select class="select form-control terms" id="terms" name="glossary[0][terms]"
+                                        <select class="select form-control terms" id="terms" name="terms"
                                             required>
                                             <option value="">Choose any</option>
                                         </select>
