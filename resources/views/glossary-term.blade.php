@@ -148,7 +148,7 @@
                                                     by Ankur Sharma
                                                 </p>
                                                 <p class="elementor-heading-title elementor-size-default">
-                                                    Technical Manager
+                                                    Product Manager
                                                 </p>
                                             </div>
                                         </div>
