@@ -295,6 +295,11 @@
                                         </select>
                                     </div>
                                     <div>
+                                        <label class="form-label">Keywords (Type and Press Enter)</label>
+                                        <input name="Keywords[]" class="form-control" id="keywords-tags" data-color="dark"
+                                            type="text" required>
+                                    </div>
+                                    <div>
                                         <label>Description</label>
                                         <textarea id="summernote" name="description" class="form-control"></textarea>
                                     </div>
@@ -382,6 +387,26 @@
                 const example = new Choices(element, {});
             }
             var choicesTags = document.getElementById('terms-tags');
+            var color = choicesTags.dataset.color;
+            if (choicesTags) {
+                const example = new Choices(choicesTags, {
+                    delimiter: ',',
+                    editItems: true,
+                    maxItemCount: 10,
+                    removeItemButton: true,
+                    addItems: true,
+                    classNames: {
+                        item: 'badge rounded-pill choices-' + color + ' me-2'
+                    }
+                });
+            }
+        </script>
+        <script type="text/javascript">
+            if (document.getElementById('choices-button')) {
+                var element = document.getElementById('choices-button');
+                const example = new Choices(element, {});
+            }
+            var choicesTags = document.getElementById('keywords-tags');
             var color = choicesTags.dataset.color;
             if (choicesTags) {
                 const example = new Choices(choicesTags, {
