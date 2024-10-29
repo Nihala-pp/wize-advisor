@@ -180,10 +180,10 @@ Route::controller(AdminController::class)
         Route::get('/reviews/reject/{id?}', 'deleteReviews')->name('mentors.review.reject');
         Route::get('/mentors/resources', 'resources')->name('mentors.resources');
         Route::get('/mentors/events', 'events')->name('mentors.events');
-        Route::get('/glossary', 'glossary')->name('glossary');
-        Route::get('/glossary/delete', 'delete_glossary')->name('glossary.delete');
-        Route::get('/glossary/edit', 'edit_glossary')->name('glossary.edit');
-        Route::post('/glossary/save', 'save_glossary')->name('glossary.save');
+        Route::get('/glossary', 'glossary')->name('mentors.glossary');
+        Route::get('/glossary/delete', 'delete_glossary')->name('mentors.glossary.delete');
+        Route::get('/glossary/edit', 'edit_glossary')->name('mentors.glossary.edit');
+        Route::post('/glossary/save', 'save_glossary')->name('mentors.glossary.save');
 
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         // Route::get('/create', 'create')->name('create');
