@@ -149,10 +149,8 @@
             <div class="elementor-container elementor-column-gap-default">
                 @php
                 $terms = $glossary->terms ? $glossary->terms : '';
-                $decoded =
-                json_decode($terms);
                 @endphp
-                @foreach($decoded
+                @foreach($terms
                 as $d)
                 @foreach($d
                 as $k => $v)
