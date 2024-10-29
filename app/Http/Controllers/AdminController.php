@@ -10,6 +10,7 @@ use App\Models\Blogs;
 use App\Models\Expertise;
 use App\Models\ExpertiseList;
 use App\Models\Glossaries;
+use App\Models\GlossaryTerms;
 use App\Models\LoginActivity;
 use App\Models\Review;
 use App\Models\Setting;
@@ -641,11 +642,26 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
             ['id' => $request->row_id],
             $data
         );
+
+        foreach($request->terms as $terms) {
+
+            $all_terms = [
+
+            ];
+
+            GlossaryTerms::updateOrCreate([
+                ['id' => $request->row_id],
+                ''
+            ]);
+        }  
     }
 
     public function save_glossary_content(Request $request)
     {
-
+        GlossaryTerms::where('terms', $request->terms)->update([
+         '' => ,
+         '' => 
+        ]); 
     }
 
     public function getTerms(Request $request) {
