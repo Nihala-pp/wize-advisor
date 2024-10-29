@@ -20,7 +20,8 @@
     <title>wiseAdvizor </title>
     <!--     Fonts and icons     -->
     <link rel="preconnect" type="text/css"
-        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700&display=swap" async>
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700&display=swap"
+        async>
     <!-- Nucleo Icons -->
     <link href="{{ asset('public/assets/css/nucleo-icons.css') }}" rel="stylesheet" />
     <link href="{{ asset('public/assets/css/nucleo-svg.css') }}" rel="stylesheet" />
@@ -105,6 +106,12 @@
                                 <a class="nav-link text-white" href="{{ route('admin.mentors.blogs') }}">
                                     <span class="sidenav-mini-icon"> B </span>
                                     <span class="sidenav-normal  ms-2  ps-1"> Blogs </span>
+                                </a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link text-white" href="{{ route('admin.mentors.glossary') }}">
+                                    <span class="sidenav-mini-icon"> G </span>
+                                    <span class="sidenav-normal  ms-2  ps-1"> Glossary </span>
                                 </a>
                             </li>
                             <li class="nav-item">
