@@ -364,6 +364,7 @@
                     'Letter': letter
                 },
                 success: function(response) {
+                    response = JSON.parse(response);
                     response.forEach(function(data, obj) {
 
                         data.forEach(function(value, key) {
