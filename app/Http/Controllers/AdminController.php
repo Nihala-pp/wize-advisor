@@ -426,11 +426,11 @@ class AdminController extends Controller
             ]
         );
         ?>
-        <script type="text/javascript">
-            alert("Voucher Updated Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/vouchers";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Voucher Updated Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/vouchers";
+</script>
+<?php
     }
 
     public function editVouchers(Request $request)
@@ -447,11 +447,11 @@ class AdminController extends Controller
         Voucher::find($id)->delete();
 
         ?>
-        <script type="text/javascript">
-            alert("Voucher Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/vouchers";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Voucher Deleted Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/vouchers";
+</script>
+<?php
     }
 
     public function blogs()
@@ -486,11 +486,11 @@ class AdminController extends Controller
         );
 
         ?>
-        <script type="text/javascript">
-            alert("Blog Saved Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/blogs";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Blog Saved Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/blogs";
+</script>
+<?php
     }
 
     public function deleteBlogs($id)
@@ -498,11 +498,11 @@ class AdminController extends Controller
         Blogs::find($id)->delete();
 
         ?>
-        <script type="text/javascript">
-            alert("Blogs Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/blogs";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Blogs Deleted Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/blogs";
+</script>
+<?php
     }
 
     public function editBlogs($id)
@@ -522,11 +522,11 @@ class AdminController extends Controller
         );
 
         ?>
-        <script type="text/javascript">
-            alert("Reviews Approved Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/reviews";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Reviews Approved Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/reviews";
+</script>
+<?php
     }
 
     public function deleteReviews($id)
@@ -534,11 +534,11 @@ class AdminController extends Controller
         Review::find($id)->delete();
 
         ?>
-        <script type="text/javascript">
-            alert("Reviews Deleted Successfully!");
-            window.location.href = "https://wiseadvizor.com/admin/reviews";
-        </script>
-        <?php
+<script type="text/javascript">
+alert("Reviews Deleted Successfully!");
+window.location.href = "https://wiseadvizor.com/admin/reviews";
+</script>
+<?php
     }
 
     public function resources()
@@ -649,6 +649,10 @@ class AdminController extends Controller
     }
 
     public function getTerms(Request $request) {
-        dd($request->all());
+
+       $data = Glossaries::where('letter', $request->Letter)->first();
+
+       return json_encode($data->terms);
+
     }
 }
