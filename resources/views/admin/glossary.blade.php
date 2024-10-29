@@ -164,12 +164,6 @@
                                         + New Content
                                     </button>
                                 </div>
-                                <!-- <div class="col-6 text-end">
-                                    <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
-                                        + New Content
-                                    </button>
-                                </div> -->
                             </div>
                         </div>
                         <div class="card-body px-0 pb-2">
