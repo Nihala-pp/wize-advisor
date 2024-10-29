@@ -644,16 +644,19 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
         );
 
 
-            $terms = explode(",", $request->glossary);
-            dd($terms);
+        foreach($data['terms'] as $term) {
+            dd($term);
+        }
+            // $terms = explode(",", $request->glossary);
+            // dd($terms);
 
-            $all_terms = [
-                 'terms' =>  $terms
-            ];
+            // $all_terms = [
+            //      'terms' =>  $terms
+            // ];
 
-            GlossaryTerms::create(
-                $all_terms
-            );
+            // GlossaryTerms::create(
+            //     $all_terms
+            // );
     }
 
     public function save_glossary_content(Request $request)
