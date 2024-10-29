@@ -281,8 +281,12 @@
                                     @csrf
                                     <div class="input-group input-group-dynamic is-filled">
                                         <label for="exampleFormControlInput1" class="form-label">Letter</label>
-                                        <input class="multisteps-form__input form-control" type="text" name="letter"
-                                            onfocus="focused(this)" onfocusout="defocused(this)" required>
+                                        <select class="select form-control" name="glossary[0][letter]" required>
+                                            <option value="">Choose any</option>
+                                            @foreach($glossary as $glossaries)
+                                            <option value="{{ $glossaries->letter }}">{{$glossaries->letter }}</option>
+                                            @endforeach
+                                        </select>
                                     </div>
                                     <div>
                                         <label>Terms</label>
