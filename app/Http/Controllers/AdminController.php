@@ -635,7 +635,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
         $data = [
             'letter' => $request->letter,
-            'terms' => json_encode($request->glossary)
+            'terms' =>  $request->glossary
         ];
 
         Glossaries::updateOrCreate(
