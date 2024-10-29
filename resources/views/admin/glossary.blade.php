@@ -207,7 +207,7 @@
                                                     <button type="button" class="btn btn-block edit"
                                                         data-id="{{ $glossaries->id }}">Edit
                                                         <i class="fa fa-edit"></button></i>
-                                                    <a href="{{ route('admin.glossary.delete',[$glossaries->id]) }}"
+                                                    <a href="{{ route('admin.mentors.glossary.delete',[$glossaries->id]) }}"
                                                         class="text-secondary font-weight-bold text-xs"
                                                         data-toggle="tooltip" data-original-title="Delete expertise">
                                                         Delete
@@ -237,7 +237,7 @@
                     <div class="modal-body">
                         <div class="card card-plain">
                             <div class="card-body">
-                                <form method="POST" action="{{ route('admin.glossary.save') }}"
+                                <form method="POST" action="{{ route('admin.mentors.glossary.save') }}"
                                     enctype="multipart/form-data">
                                     @csrf
                                     <div class="input-group input-group-dynamic is-filled">
@@ -269,7 +269,7 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <form method="POST" action="{{ route('admin.glossary.save') }}" role="form text-left">
+                    <form method="POST" action="{{ route('admin.mentors.glossary.save') }}" role="form text-left">
                         @csrf
                         <div class="modal-body edit_glossary">
                         </div>
@@ -293,7 +293,7 @@
         $('body').on('click', '.edit', function() {
             var Id = $(this).data('id');
             $.ajax({
-                url: "{{ route('admin.glossary.edit') }}",
+                url: "{{ route('admin.mentors.glossary.edit') }}",
 
                 type: "GET",
                 data: {
