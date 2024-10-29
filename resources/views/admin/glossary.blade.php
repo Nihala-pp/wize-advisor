@@ -364,9 +364,14 @@
                     'Letter': letter
                 },
                 success: function(response) {
-                    response.forEach(function(value, key) {
-                        $(".terms").append('<option style="color:black;" value="' + key +
-                            '">' + value + '</option>');
+                    response.forEach(function(data, obj) {
+
+                        data.forEach(function(value, key) {
+
+                            $(".terms").append(
+                                '<option style="color:black;" value="' + value +
+                                '">' + value + '</option>');
+                        });
                     });
                 }
             });
@@ -396,4 +401,5 @@
         
         </script> -->
 </body>
+
 </html>
