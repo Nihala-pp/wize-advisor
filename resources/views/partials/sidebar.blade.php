@@ -72,7 +72,7 @@
                             </a>
                         </li>
                         <li class="nav-item ">
-                            <a class="nav-link text-white" href="{{ route('admin..mentors.glossary') }}">
+                            <a class="nav-link text-white" href="{{ route('admin.mentors.glossary') }}">
                                 <span class="sidenav-mini-icon"> G </span>
                                 <span class="sidenav-normal  ms-2  ps-1"> Glossary </span>
                             </a>
