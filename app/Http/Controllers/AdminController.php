@@ -677,6 +677,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
         
         foreach($data->terms as $terms) {
             foreach($terms as $key => $term) {
+                dd($term);
                $allterms[] = $term;
             }
         }
