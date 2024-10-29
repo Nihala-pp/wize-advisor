@@ -281,7 +281,7 @@
                                     @csrf
                                     <div class="input-group input-group-dynamic is-filled">
                                         <label for="exampleFormControlInput1" class="form-label">Letter</label>
-                                        <select class="select form-control letter" name="glossary[0][letter]" required>
+                                        <select class="select form-control letter" id="letter" name="glossary[0][letter]" required>
                                             <option value="">Choose any</option>
                                             @foreach($glossary as $glossaries)
                                             <option value="{{ $glossaries->letter }}">{{$glossaries->letter }}</option>
@@ -352,7 +352,7 @@
         });
 
         $('.letter').change(function () {
-            var letter = $(this).val();
+            var letter = $('#letter :selected').text();
             $.ajax({
                 url: "{{ route('admin.mentors.glossary.getTerms') }}",
                 type: "GET",
@@ -361,7 +361,7 @@
                 },
                 success: function(response) {
                     for (var key in response) {
-                        $(".letter").remove();
+                        // $(".letter").remove();
                         $("#terms").append(
                             '<option style="color:black;" value="' + response[key] +
                             '">' + response[key] + '</option>');
