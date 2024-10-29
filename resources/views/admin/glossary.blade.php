@@ -298,12 +298,14 @@
                                         <label>Description</label>
                                         <textarea id="summernote" name="description" class="form-control"></textarea>
                                     </div>
-                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
-                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
-                                </form>
                             </div>
                         </div>
                     </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn bg-gradient-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="submit" class="btn bg-gradient-primary">Save changes</button>
+                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -367,8 +369,8 @@
                     success: function (response) {
                         for (var key in response) {
                             $("#terms").append(
-                                    '<option style="color:black;" value="' + response[key] +
-                                    '">' + response[key] + '</option>');
+                                '<option style="color:black;" value="' + response[key] +
+                                '">' + response[key] + '</option>');
                         }
                     }
                 });
@@ -398,4 +400,5 @@
         
         </script> -->
 </body>
+
 </html>
