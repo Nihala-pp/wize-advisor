@@ -582,7 +582,7 @@ nav[data-toggle="toc"] {
 }
 
 .elementor-4349 .elementor-element.elementor-element-0859462>.elementor-widget-container {
-    margin: 0 0 0 -40px;
+    margin: 0 0 0 -60px;
     padding: 0px 0 0;
 }
 
