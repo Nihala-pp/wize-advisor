@@ -655,7 +655,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
                GlossaryTerms::create(
                  $all_terms
-             );
+               );
             }
 
         }
