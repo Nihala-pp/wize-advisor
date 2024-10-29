@@ -645,8 +645,11 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
         foreach($request->glossary as $key => $glossary) {
 
+            $terms = explode(",",$glossary['terms']);
+
+
             $all_terms = [
-                 'terms' =>  $glossary['terms']
+                 'terms' =>  $terms
             ];
 
             GlossaryTerms::create(

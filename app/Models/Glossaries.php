@@ -9,6 +9,10 @@ class Glossaries extends Model
 {
     use HasFactory;
 
+    protected $casts = [
+        'terms' => 'array',
+    ];
+
     protected $table = 'glossary';
 
     protected $guarded = [];
