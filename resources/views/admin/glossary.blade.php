@@ -360,10 +360,10 @@
                 },
                 success: function(response) {
                     response = JSON.parse(response);
-                    response.forEach(function(value, key) {
+                    response.forEach(function(value) {
                         $(".terms").append(
                             '<option style="color:black;" value="' + value +
-                            '">' + key + '</option>');
+                            '">' + value + '</option>');
                     });
                 }
             });
