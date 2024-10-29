@@ -301,11 +301,11 @@
                                     </div>
                                     <div>
                                         <label>Meta Title</label>
-                                        <textarea name="meta_title" class="form-control" rows="5"></textarea>
+                                        <textarea name="meta_title" class="form-control"></textarea>
                                     </div>
                                     <div>
                                         <label>Meta Description</label>
-                                        <textarea name="meta_description" class="form-control" rows="5"></textarea>
+                                        <textarea name="meta_description" class="form-control"></textarea>
                                     </div>
                                     <div>
                                         <label>Description</label>
