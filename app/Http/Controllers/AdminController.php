@@ -644,7 +644,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
         );
 
 
-            $terms = explode(",",$request->glossary);
+            $terms = explode(",", $request->glossary);
             dd($terms);
 
             $all_terms = [
