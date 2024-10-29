@@ -647,4 +647,8 @@ class AdminController extends Controller
     {
 
     }
+
+    public function getTerms(Request $request) {
+        WW
+    }
 }
