@@ -366,6 +366,7 @@
                 success: function(response) {
                     response = JSON.parse(response);
                     response.forEach(function(data, obj) {
+                        var data = JSON.parse(data);
 
                         data.forEach(function(value, key) {
 
