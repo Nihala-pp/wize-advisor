@@ -284,13 +284,15 @@
                                         <input class="multisteps-form__input form-control" type="text" name="letter"
                                             onfocus="focused(this)" onfocusout="defocused(this)" required>
                                     </div>
-                                    <label>Name</label>
-                                    <select class="select form-control" name="expertise[0][name]" required>
-                                        <option value="">Choose any</option>
-                                        @foreach($expertise as $expert)
-                                        <option value="{{ $expert->name }}">{{ $expert->name }}</option>
-                                        @endforeach
-                                    </select>
+                                    <div>
+                                        <label>Name</label>
+                                        <select class="select form-control" name="expertise[0][name]" required>
+                                            <option value="">Choose any</option>
+                                            @foreach($expertise as $expert)
+                                            <option value="{{ $expert->name }}">{{ $expert->name }}</option>
+                                            @endforeach
+                                        </select>
+                                    </div>
                                     <div>
                                         <label class="form-label">Terms (Type and Press Enter)</label>
                                         <input name="terms[]" class="form-control" id="terms-tags" data-color="dark"
