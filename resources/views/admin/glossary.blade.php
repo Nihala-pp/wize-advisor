@@ -365,17 +365,13 @@
                 },
                 success: function(response) {
                     response = JSON.parse(response);
-                    response.forEach(function(data, obj) {
-                        var data = JSON.parse(data);
+                    response.forEach(function(value, kley) {
 
-                        data.forEach(function(value, key) {
+                        console.log(value);
 
-                            console.log(value);
-
-                            $(".terms").append(
-                                '<option style="color:black;" value="' + value +
-                                '">' + value + '</option>');
-                        });
+                        $(".terms").append(
+                            '<option style="color:black;" value="' + value +
+                            '">' + value + '</option>');
                     });
                 }
             });
