@@ -682,7 +682,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
                 foreach ($all_terms as $value) {
                     $terms_data[] =  $value;
-                }w
+                }
             }
         }
 
