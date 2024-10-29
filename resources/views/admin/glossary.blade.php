@@ -160,7 +160,7 @@
                                         + New Glossary
                                     </button>
                                     <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
+                                        data-bs-target="#contentModal">
                                         + New Content
                                     </button>
                                 </div>
