@@ -361,6 +361,7 @@
                 },
                 success: function(response) {
                     for (var key in response) {
+                        $(".terms").remove();
                         $("#terms").append(
                             '<option style="color:black;" value="' + response[key] +
                             '">' + response[key] + '</option>');
