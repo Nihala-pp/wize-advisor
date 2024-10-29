@@ -351,7 +351,7 @@
             });
         });
 
-        $('.letter').on('change', function() {
+        $('.letter').change(function () {
             var letter = $(this).val();
             $.ajax({
                 url: "{{ route('admin.mentors.glossary.getTerms') }}",
