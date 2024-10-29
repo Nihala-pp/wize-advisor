@@ -263,6 +263,48 @@
                 </div>
             </div>
         </div>
+        <div class="modal fade" id="contentModal" tabindex="-1" role="dialog" aria-labelledby="contentModal"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title font-weight-normal" id="exampleModalLabel">Add Glossary Content</h5>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="card card-plain">
+                            <div class="card-body">
+                                <form method="POST" action="{{ route('admin.mentors.glossary.content.save') }}"
+                                    enctype="multipart/form-data">
+                                    @csrf
+                                    <div class="input-group input-group-dynamic is-filled">
+                                        <label for="exampleFormControlInput1" class="form-label">Letter</label>
+                                        <input class="multisteps-form__input form-control" type="text" name="letter"
+                                            onfocus="focused(this)" onfocusout="defocused(this)" required>
+                                    </div>
+                                    <label>Name</label>
+                                    <select class="select form-control" name="expertise[0][name]" required>
+                                        <option value="">Choose any</option>
+                                        @foreach($expertise as $expert)
+                                        <option value="{{ $expert->name }}">{{ $expert->name }}</option>
+                                        @endforeach
+                                    </select>
+                                    <div>
+                                        <label class="form-label">Terms (Type and Press Enter)</label>
+                                        <input name="terms[]" class="form-control" id="terms-tags" data-color="dark"
+                                            type="text" required>
+                                    </div>
+                                    <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                            class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="modal" id="edit_glossary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
