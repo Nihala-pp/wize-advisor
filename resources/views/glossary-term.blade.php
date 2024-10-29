@@ -397,79 +397,75 @@
             data-id="069db09" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
-                <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-d86f4d9"
-                    data-id="d86f4d9" data-element_type="column">
-                    @foreach ($related_mentors as $related_mentor)
-                    <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-99a7c4c"
-                        data-id="99a7c4c" data-element_type="column">
-                        <div class="elementor-widget-wrap elementor-element-populated">
-                            <div class="elementor-element elementor-element-6047abf elementor-widget elementor-widget-image"
-                                data-id="6047abf" data-element_type="widget" data-widget_type="image.default">
-                                <div class="elementor-widget-container">
-                                    <img decoding="async" width="750" height="375"
-                                        src="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }}"
-                                        class="attachment-large size-large wp-image-6398 lazyload"
-                                        alt="{{ $data->terms }}"
-                                        srcset="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1024w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 300w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 768w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1536w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 2048w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1568w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1300w"
-                                        sizes="(max-width: 750px) 100vw, 750px"
-                                        style="width:100%;height:50%;max-width:2400px" />
-                                </div>
+                @foreach ($related_mentors as $related_mentor)
+                  <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-99a7c4c"
+                    data-id="99a7c4c" data-element_type="column">
+                    <div class="elementor-widget-wrap elementor-element-populated">
+                        <div class="elementor-element elementor-element-6047abf elementor-widget elementor-widget-image"
+                            data-id="6047abf" data-element_type="widget" data-widget_type="image.default">
+                            <div class="elementor-widget-container">
+                                <img decoding="async" width="750" height="375"
+                                    src="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }}"
+                                    class="attachment-large size-large wp-image-6398 lazyload" alt="{{ $data->terms }}"
+                                    srcset="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1024w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 300w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 768w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1536w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 2048w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1568w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1300w"
+                                    sizes="(max-width: 750px) 100vw, 750px"
+                                    style="width:100%;height:50%;max-width:2400px" />
                             </div>
-                            <section
-                                class="elementor-section elementor-inner-section elementor-element elementor-element-7003ef1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
-                                data-id="7003ef1" data-element_type="section">
-                                <div class="elementor-container elementor-column-gap-default">
-                                    <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8589e92"
-                                        data-id="8589e92" data-element_type="column">
-                                        <div class="elementor-widget-wrap elementor-element-populated">
-                                            <div class="elementor-element elementor-element-15c3afc elementor-widget elementor-widget-heading"
-                                                data-id="15c3afc" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h6 class="elementor-heading-title elementor-size-default">
-                                                        <a
-                                                            href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">{{ $related_mentor->metaData->designation }}</a>
-                                                    </h6>
-                                                </div>
+                        </div>
+                        <section
+                            class="elementor-section elementor-inner-section elementor-element elementor-element-7003ef1 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
+                            data-id="7003ef1" data-element_type="section">
+                            <div class="elementor-container elementor-column-gap-default">
+                                <div class="elementor-column elementor-col-100 elementor-inner-column elementor-element elementor-element-8589e92"
+                                    data-id="8589e92" data-element_type="column">
+                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                        <div class="elementor-element elementor-element-15c3afc elementor-widget elementor-widget-heading"
+                                            data-id="15c3afc" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h6 class="elementor-heading-title elementor-size-default">
+                                                    <a
+                                                        href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">{{ $related_mentor->metaData->designation }}</a>
+                                                </h6>
                                             </div>
-                                            <div class="elementor-element elementor-element-1419ff0 elementor-widget elementor-widget-heading"
-                                                data-id="1419ff0" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <h4 class="elementor-heading-title elementor-size-default">
-                                                        <a
-                                                            href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">
-                                                            {{ $related_mentor->name }}</a>
-                                                    </h4>
-                                                </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-1419ff0 elementor-widget elementor-widget-heading"
+                                            data-id="1419ff0" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <h4 class="elementor-heading-title elementor-size-default">
+                                                    <a
+                                                        href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">
+                                                        {{ $related_mentor->name }}</a>
+                                                </h4>
                                             </div>
-                                            <div class="elementor-element elementor-element-9f5ff1a elementor-widget elementor-widget-text-editor"
-                                                data-id="9f5ff1a" data-element_type="widget"
-                                                data-widget_type="text-editor.default">
-                                                <div class="elementor-widget-container">
-                                                    <p>{{ Str::of(strip_tags($related_mentor->metaData->bio_1))->words(15, ' ....') }}
-                                                    </p>
-                                                </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-9f5ff1a elementor-widget elementor-widget-text-editor"
+                                            data-id="9f5ff1a" data-element_type="widget"
+                                            data-widget_type="text-editor.default">
+                                            <div class="elementor-widget-container">
+                                                <p>{{ Str::of(strip_tags($related_mentor->metaData->bio_1))->words(15, ' ....') }}
+                                                </p>
                                             </div>
-                                            <div class="elementor-element elementor-element-396fad8 elementor-widget elementor-widget-heading"
-                                                data-id="396fad8" data-element_type="widget"
-                                                data-widget_type="heading.default">
-                                                <div class="elementor-widget-container">
-                                                    <p class="elementor-heading-title elementor-size-default">
-                                                        <a
-                                                            href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">
-                                                            View Profile</a>
-                                                    </p>
-                                                </div>
+                                        </div>
+                                        <div class="elementor-element elementor-element-396fad8 elementor-widget elementor-widget-heading"
+                                            data-id="396fad8" data-element_type="widget"
+                                            data-widget_type="heading.default">
+                                            <div class="elementor-widget-container">
+                                                <p class="elementor-heading-title elementor-size-default">
+                                                    <a
+                                                        href="{{ route('profile', [$related_mentor->id, Str::slug($related_mentor->name)]) }}">
+                                                        View Profile</a>
+                                                </p>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </section>
-                        </div>
+                            </div>
+                        </section>
                     </div>
-                    @endforeach
-                </div>
+                  </div>
+                @endforeach
             </div>
         </section>
     </div>
