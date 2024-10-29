@@ -651,8 +651,8 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
     public function getTerms(Request $request) {
 
        $data = Glossaries::where('letter', $request->Letter)->first();
-       
-        return response($data->terms);
+
+        return response()->json($data->terms);
 
     }
 }
