@@ -307,7 +307,7 @@
                                     </div>
                                     <div>
                                         <label>Description</label>
-                                        <textarea id="summernote" name="description" class="form-control"></textarea>
+                                        <textarea id="summernote" name="description" class="form-control" required></textarea>
                                     </div>
                             </div>
                         </div>
