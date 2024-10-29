@@ -654,11 +654,12 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
         
         foreach(json_decode($data->terms) as $terms) {
             foreach($terms as $key => $term) {
-                dd($term);
+               $allterms[] = array(
+                $term
+               );
             }
         }
 
-        return response($data->terms);
-
+        return response()->json($allterms);
     }
 }
