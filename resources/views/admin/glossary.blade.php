@@ -281,7 +281,7 @@
                                     @csrf
                                     <div class="input-group input-group-dynamic is-filled">
                                         <label for="exampleFormControlInput1" class="form-label">Letter</label>
-                                        <select class="select form-control" name="glossary[0][letter]" required>
+                                        <select class="select form-control letter" name="glossary[0][letter]" required>
                                             <option value="">Choose any</option>
                                             @foreach($glossary as $glossaries)
                                             <option value="{{ $glossaries->letter }}">{{$glossaries->letter }}</option>
@@ -290,11 +290,8 @@
                                     </div>
                                     <div>
                                         <label>Terms</label>
-                                        <select class="select form-control" name="glossary[0][terms]" required>
+                                        <select class="select form-control terms" name="glossary[0][terms]" required>
                                             <option value="">Choose any</option>
-                                            @foreach($expertise as $expert)
-                                            <option value="{{ $expert->name }}">{{ $expert->name }}</option>
-                                            @endforeach
                                         </select>
                                     </div>
                                     <div>
@@ -357,6 +354,23 @@
                 }
             });
         });
+
+        $('.letter').on('change', function() {
+            var letter = $(this).val();
+            $.ajax({
+                url: "{{ route('admin.mentors.glossary.getTerms') }}",
+                type: "GET",
+                data: {
+                    'Letter': letter
+                },
+                success: function(response) {
+                    response.forEach(function(value, key) {
+                        $(".terms").append('<option style="color:black;" value="' + key +
+                            '">' + value + '</option>');
+                    });
+                }
+            });
+        });
         </script>
         <script type="text/javascript">
         if (document.getElementById('choices-button')) {
@@ -382,5 +396,4 @@
         
         </script> -->
 </body>
-
 </html>
