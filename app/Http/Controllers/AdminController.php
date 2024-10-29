@@ -642,4 +642,9 @@ class AdminController extends Controller
             $data
         );
     }
+
+    public function save_glossary_content(Request $request)
+    {
+
+    }
 }

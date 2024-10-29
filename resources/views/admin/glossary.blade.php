@@ -285,8 +285,8 @@
                                             onfocus="focused(this)" onfocusout="defocused(this)" required>
                                     </div>
                                     <div>
-                                        <label>Name</label>
-                                        <select class="select form-control" name="expertise[0][name]" required>
+                                        <label>Terms</label>
+                                        <select class="select form-control" name="glossary[0][terms]" required>
                                             <option value="">Choose any</option>
                                             @foreach($expertise as $expert)
                                             <option value="{{ $expert->name }}">{{ $expert->name }}</option>

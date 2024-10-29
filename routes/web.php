@@ -184,6 +184,7 @@ Route::controller(AdminController::class)
         Route::get('/glossary/delete', 'delete_glossary')->name('mentors.glossary.delete');
         Route::get('/glossary/edit', 'edit_glossary')->name('mentors.glossary.edit');
         Route::post('/glossary/save', 'save_glossary')->name('mentors.glossary.save');
+        Route::post('/glossary/content/save', 'save_glossary_content')->name('mentors.glossary.content.save');
 
         // Route::get('/sign-in', 'signin')->name('mentors.sign-in');
         // Route::get('/create', 'create')->name('create');
