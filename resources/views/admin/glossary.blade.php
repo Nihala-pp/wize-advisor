@@ -368,6 +368,8 @@
 
                         data.forEach(function(value, key) {
 
+                            console.log(value);
+
                             $(".terms").append(
                                 '<option style="color:black;" value="' + value +
                                 '">' + value + '</option>');
