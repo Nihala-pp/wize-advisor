@@ -427,11 +427,11 @@ class AdminController extends Controller
             ]
         );
         ?>
-<script type="text/javascript">
-alert("Voucher Updated Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/vouchers";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Voucher Updated Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        </script>
+        <?php
     }
 
     public function editVouchers(Request $request)
@@ -448,11 +448,11 @@ window.location.href = "https://wiseadvizor.com/admin/vouchers";
         Voucher::find($id)->delete();
 
         ?>
-<script type="text/javascript">
-alert("Voucher Deleted Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/vouchers";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Voucher Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/vouchers";
+        </script>
+        <?php
     }
 
     public function blogs()
@@ -487,11 +487,11 @@ window.location.href = "https://wiseadvizor.com/admin/vouchers";
         );
 
         ?>
-<script type="text/javascript">
-alert("Blog Saved Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/blogs";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Blog Saved Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        </script>
+        <?php
     }
 
     public function deleteBlogs($id)
@@ -499,11 +499,11 @@ window.location.href = "https://wiseadvizor.com/admin/blogs";
         Blogs::find($id)->delete();
 
         ?>
-<script type="text/javascript">
-alert("Blogs Deleted Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/blogs";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Blogs Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/blogs";
+        </script>
+        <?php
     }
 
     public function editBlogs($id)
@@ -523,11 +523,11 @@ window.location.href = "https://wiseadvizor.com/admin/blogs";
         );
 
         ?>
-<script type="text/javascript">
-alert("Reviews Approved Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/reviews";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Reviews Approved Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/reviews";
+        </script>
+        <?php
     }
 
     public function deleteReviews($id)
@@ -535,11 +535,11 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
         Review::find($id)->delete();
 
         ?>
-<script type="text/javascript">
-alert("Reviews Deleted Successfully!");
-window.location.href = "https://wiseadvizor.com/admin/reviews";
-</script>
-<?php
+        <script type="text/javascript">
+            alert("Reviews Deleted Successfully!");
+            window.location.href = "https://wiseadvizor.com/admin/reviews";
+        </script>
+        <?php
     }
 
     public function resources()
@@ -583,7 +583,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
             $user_timezone_start = new \DateTime($schedule->date . ' ' . $schedule->start_time, new \DateTimeZone($schedule->utc));
             $user_timezone_end = new \DateTime($schedule->date . ' ' . $schedule->end_time, new \DateTimeZone($schedule->utc));
-            $userTimeZone = 'Asia/Tbilisi'; 
+            $userTimeZone = 'Asia/Tbilisi';
             // dd($user_timezone_start->setTimezone(new \DateTimeZone($userTimeZone)));
 
             // $user_timezone->setTimezone(new \DateTimeZone('Asia/Tbilisi'));
@@ -592,15 +592,15 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
                 $color = "#FF0000";
             } elseif ($schedule->status == "Approved") {
                 $color = "#9ea058";
-            } elseif ($schedule->status == "Rejected") {    
+            } elseif ($schedule->status == "Rejected") {
                 $color = "#D1BB9E";
             }
 
             $data_events[] = array(
                 "title" => "Call With" . ' ' . $schedule->user->name,
                 "resourceId" => $schedule->mentor_id,
-                "start" => $schedule->date . 'T' . $schedule->start_time.'+04:00',
-                "end" => $schedule->date . 'T' . $schedule->end_time.'+04:00',
+                "start" => $schedule->date . 'T' . $schedule->start_time . '+04:00',
+                "end" => $schedule->date . 'T' . $schedule->end_time . '+04:00',
                 "color" => $color,
             );
         }
@@ -610,7 +610,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
     public function newschedule($date, $mentor_id)
     {
-          dd($date);
+        dd($date);
     }
 
     public function glossary()
@@ -635,7 +635,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
         $data = [
             'letter' => $request->letter,
-            'terms' =>  $request->glossary
+            'terms' => $request->glossary
         ];
 
         Glossaries::updateOrCreate(
@@ -644,18 +644,18 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
         );
 
 
-        foreach($data['terms'] as $term) {
+        foreach ($data['terms'] as $term) {
 
             $terms = explode(",", $term['terms']);
 
-            foreach($terms as $value) {
+            foreach ($terms as $value) {
                 $all_terms = [
-                 'terms' =>  $value
-              ];
+                    'terms' => $value
+                ];
 
-               GlossaryTerms::create(
-                 $all_terms
-               );
+                GlossaryTerms::create(
+                    $all_terms
+                );
             }
         }
     }
@@ -668,20 +668,24 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
             'meta_title' => $request->meta_title,
             'meta_desc' => $request->meta_desc,
             'description' => $request->description
-        ]); 
+        ]);
     }
 
-    public function getTerms(Request $request) {
+    public function getTerms(Request $request)
+    {
 
-       $data = Glossaries::where('letter', $request->Letter)->first();
-        
-        foreach($data->terms as $key => $terms) {
-            // foreach($terms as $key => $term) {
-                dd($terms);
-               $allterms[] = $term;
-            // }
+        $data = Glossaries::where('letter', $request->Letter)->first();
+
+        foreach ($data->terms as $key => $terms) {
+            $all_terms = explode(",", $terms['terms']);
+
+            foreach ($all_terms as $value) {
+                $terms_data[] = [
+                    'terms' => $value
+                ];
+            }
         }
 
-        return $allterms;
+        return $terms_data;w
     }
 }
