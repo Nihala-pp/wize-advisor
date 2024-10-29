@@ -398,7 +398,7 @@
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
                 @foreach ($related_mentors as $related_mentor)
-                  <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-99a7c4c"
+                <div class="elementor-column elementor-col-33 elementor-top-column elementor-element elementor-element-99a7c4c"
                     data-id="99a7c4c" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-6047abf elementor-widget elementor-widget-image"
@@ -464,7 +464,7 @@
                             </div>
                         </section>
                     </div>
-                  </div>
+                </div>
                 @endforeach
             </div>
         </section>
@@ -497,6 +497,11 @@
 
 </html>
 <style>
+.elementor-column.elementor-col-33,
+.elementor-column[data-col="33"] {
+    width: 25%;
+}
+
 nav[data-toggle=toc] .nav>li>a#table-of-content {
     display: none !important;
 }
