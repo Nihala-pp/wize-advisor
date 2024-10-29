@@ -210,7 +210,8 @@
                                                 <div
                                                     class="qodef-shortcode qodef-m  qodef-qi-table-of-contents qodef-list-position--inside qodef-list-underline ">
                                                     <div class="qodef-e-title-holder">
-                                                        <h4 class="qodef-m-title qodef-exclude" style="display: none;padding-left: 15px !important;">
+                                                        <h4 class="qodef-m-title qodef-exclude"
+                                                            style="display: none;padding-left: 15px !important;">
                                                             Table of Content </h4>
                                                     </div>
                                                     <nav id="toc" data-toggle="toc"></nav>
@@ -319,7 +320,10 @@
                                                 }
                                                 </style>
                                                 <p></p>
-                                                <div>{{  $data->description }}<br></div>
+                                                <div>Level up your startup with personalized advice from the
+                                                    world&#8217;s top startup mentors. Overcome roadblocks, gain fresh
+                                                    perspectives, and propel your business forward with 1:1 coaching
+                                                    calls tailored to your specific challenges.<br></div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-617417d elementor-align-justify elementor-widget elementor-widget-button"
@@ -349,62 +353,10 @@
                             data-id="dc0f3cb" data-element_type="widget" data-widget_type="text-editor.default">
                             <div class="elementor-widget-container">
                                 <ol>
-                                    C. Creating a compelling pitch
-                                    Craft a concise and persuasive pitch that resonates with potential investors. Key
-                                    elements include:
-                                    Clear problem statement
-                                    Unique value proposition
-                                    Market opportunity
-                                    Revenue model
-                                    Team expertise
-                                    D. Setting clear expectations
-                                    Transparency is crucial when dealing with friends and family investors. Be upfront
-                                    about:
-                                    Risks involved
-                                    Potential returns
-                                    Timeframe for potential exit
-                                    Use of funds
-                                    Investor involvement
-                                    Remember, a friends and family round mentor can provide invaluable guidance
-                                    throughout this process. Their experience can help you navigate potential pitfalls
-                                    and optimize your approach.
-
-                                    Structuring the Investment
-                                    Now that you've prepared for your Friends and Family Round, it's crucial to
-                                    structure the investment properly. This involves making key decisions about the type
-                                    of investment and the valuation of your startup.
-                                    A. Choosing between equity and debt
-                                    When structuring your Friends and Family Round, you'll need to decide between
-                                    offering equity or debt. Each option has its pros and cons:
-                                    Investment Type
-                                    Pros
-                                    Cons
-                                    Equity
-                                    - Aligns interests of investors with founders
-                                    - No immediate repayment obligation
-                                    - Dilutes ownership
-                                    - May complicate future funding rounds
-                                    Debt
-                                    - Maintains full ownership
-                                    - Clear repayment terms
-                                    - Creates financial obligation
-                                    - May strain cash flow
-
-                                    Consider your startup's growth trajectory and cash flow projections when making this
-                                    decision. A Friends and Family Round mentor can provide valuable insights into which
-                                    option suits your specific situation best.
-                                    B. Determining fair valuation
-                                    Establishing a fair valuation for your startup is crucial, even in a Friends and
-                                    Family Round. Here are some factors to consider:
-                                    Current stage of development
-                                    Market potential
-                                    Intellectual property
-                                    Traction (if any)
-                                    Comparable startup valuations
-                                    Remember that overvaluing your startup can lead to difficulties in future funding
-                                    rounds, while undervaluing it may result in giving away too much equity. It's
-                                    essential to strike a balance that's fair to both you and your investors.
-
+                                    @php
+                                    $text = str_ireplace("<br />", "\r\n", $data->description);
+                                    echo $text;
+                                    @endphp
                                 </ol>
                                 <p> </p>
                             </div>
