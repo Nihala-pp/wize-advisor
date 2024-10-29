@@ -294,6 +294,10 @@
                                             <option value="">Choose any</option>
                                         </select>
                                     </div>
+                                    <div>
+                                        <label>Description</label>
+                                        <textarea id="summernote" name="description" class="form-control"></textarea>
+                                    </div>
                                     <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                             class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                                 </form>
@@ -333,6 +337,9 @@
                 searchable: true,
                 fixedHeight: true
             });
+
+            $('#summernote').summernote();
+            $('#summernote_1').summernote();
 
             $('body').on('click', '.edit', function () {
                 var Id = $(this).data('id');
