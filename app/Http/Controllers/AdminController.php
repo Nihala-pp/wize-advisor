@@ -646,12 +646,12 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
         foreach($request->terms as $terms) {
 
             $all_terms = [
-
+                 'terms' =>  $terms
             ];
 
             GlossaryTerms::updateOrCreate([
                 ['id' => $request->row_id],
-                ''
+                $all_terms
             ]);
         }  
     }
