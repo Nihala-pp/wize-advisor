@@ -151,16 +151,16 @@
                 $terms = $glossary->terms ? $glossary->terms : '';
                 @endphp
                 @foreach($terms
-                as $d)
-                @foreach($d
-                as $k => $v)
+                as $key => $d)
+                 @foreach(explode(",",$d) as $key => $value)
+                
                 <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-53afbe6"
                     data-id="53afbe6" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bff9c11 elementor-widget elementor-widget-heading"
                             data-id="bff9c11" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default"><a href="{{ route('glossary-term', [$v]) }}">{{ $v }}</a>
+                                <div class="elementor-heading-title elementor-size-default"><a href="{{ route('glossary-term', [$value]) }}">{{ $value }}</a>
                                 </div>
                             </div>
                         </div>
