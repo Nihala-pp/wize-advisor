@@ -290,7 +290,7 @@
                                     </div>
                                     <div>
                                         <label>Terms</label>
-                                        <select class="select form-control terms" name="glossary[0][terms]" required>
+                                        <select class="select form-control terms" id="terms" name="glossary[0][terms]" required>
                                             <option value="">Choose any</option>
                                         </select>
                                     </div>
@@ -361,7 +361,7 @@
                 success: function(response) {
                     response = JSON.parse(response);
                     response.forEach(function(value, key) {
-                        $(".terms").append(
+                        $("#terms").append(
                             '<option style="color:black;" value="' + value['terms'] +
                             '">' +  value['terms'] + '</option>');
                     });
