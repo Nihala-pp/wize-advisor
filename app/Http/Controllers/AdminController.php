@@ -675,7 +675,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
        $data = Glossaries::where('letter', $request->Letter)->first();
         
-        foreach(json_decode($data->terms) as $terms) {
+        foreach($data->terms as $terms) {
             foreach($terms as $key => $term) {
                $allterms[] = $term;
             }
