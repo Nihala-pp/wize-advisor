@@ -366,7 +366,7 @@
 
                         $(".terms").append(
                             '<option style="color:black;" value="' + value +
-                            '">' + value + '</option>');
+                            '">' + key + '</option>');
                     });
                 }
             });
