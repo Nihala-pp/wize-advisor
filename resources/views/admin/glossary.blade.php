@@ -195,10 +195,8 @@
                                             <td class="align-middle text-center text-sm">
                                                 @php
                                                 $terms = $glossaries->terms ? $glossaries->terms : '';
-                                                $decoded =
-                                                json_decode($terms);
                                                 @endphp
-                                                @foreach($decoded as $d)
+                                                @foreach($terms as $d)
                                                 @foreach($d as $k => $v)
                                                 {{ $v }}
                                                 @endforeach
