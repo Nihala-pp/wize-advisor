@@ -295,7 +295,7 @@
                                     <div>
                                         <label class="form-label">Keywords (Type and Press Enter)</label>
                                         <input name="Keywords[]" class="form-control" id="keywords-tags"
-                                            data-color="dark" type="text" required>
+                                            data-color="dark" type="text">
                                     </div>
                                     <div>
                                         <label>Meta Title</label>
