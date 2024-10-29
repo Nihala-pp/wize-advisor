@@ -360,10 +360,7 @@
                 },
                 success: function(response) {
                     response = JSON.parse(response);
-                    response.forEach(function(value, kley) {
-
-                        console.log(value);
-
+                    response.forEach(function(value, key) {
                         $(".terms").append(
                             '<option style="color:black;" value="' + value +
                             '">' + key + '</option>');
