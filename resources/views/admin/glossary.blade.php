@@ -249,7 +249,7 @@
                                     </div>
                                     <div>
                                         <label class="form-label">Terms (Type and Press Enter)</label>
-                                        <input name="terms[]" class="form-control" id="terms-tags" data-color="dark"
+                                        <input name="glossary[0][terms]" class="form-control" id="terms-tags" data-color="dark"
                                             type="text" required>
                                     </div>
                                     <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
