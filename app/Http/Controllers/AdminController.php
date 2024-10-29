@@ -677,11 +677,7 @@ class AdminController extends Controller
         $data = Glossaries::where('letter', $request->Letter)->first();
 
         foreach ($data->terms as $key => $terms) {
-            // dd($terms);
-            // $all_terms = explode(",", $terms['terms']);
-
             foreach ($terms as $key => $value) {
-                dd( $value);
                 $terms_data[] = [
                     'terms' => $value
                 ];
