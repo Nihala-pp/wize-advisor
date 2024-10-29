@@ -5,7 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Glossary | wiseAdvizor</title>
-    <meta name="description" content="Explore our extensive startup glossary featuring vital entrepreneurship terms. Gain insights into the language of startups and elevate your business growth.">
+    <meta name="description"
+        content="Explore our extensive startup glossary featuring vital entrepreneurship terms. Gain insights into the language of startups and elevate your business growth.">
     <meta name="keywords" content="entrepreneurship terms, startup glossary, startup terms">
     <meta name="robots" content='max-image-preview:large' />
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
@@ -147,25 +148,26 @@
             data-id="110e101" data-element_type="section"
             data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
             <div class="elementor-container elementor-column-gap-default">
+                @foreach($glossary->terms as $key => $terms)
+                @foreach($terms as $key => $value)
                 @php
-                $terms = $glossary->terms ? $glossary->terms : '';
+                $all_terms = explode(",", $value);
                 @endphp
-                @foreach($terms
-                as $key => $d)
-                 @foreach(explode(",",$d) as $key => $value)
-                
+                @foreach ($all_terms as $value)
                 <div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-53afbe6"
                     data-id="53afbe6" data-element_type="column">
                     <div class="elementor-widget-wrap elementor-element-populated">
                         <div class="elementor-element elementor-element-bff9c11 elementor-widget elementor-widget-heading"
                             data-id="bff9c11" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <div class="elementor-heading-title elementor-size-default"><a href="{{ route('glossary-term', [$value]) }}">{{ $value }}</a>
+                                <div class="elementor-heading-title elementor-size-default"><a
+                                        href="{{ route('glossary-term', [$value]) }}">{{ $value }}</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                @endforeach
                 @endforeach
                 @endforeach
             </div>
