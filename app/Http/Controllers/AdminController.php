@@ -635,7 +635,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
         $data = [
             'letter' => $request->letter,
-            'terms' => json_encode($request->terms)
+            'terms' => json_encode($request->glossary)
         ];
 
         Glossaries::updateOrCreate(
@@ -643,10 +643,10 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
             $data
         );
 
-        foreach($request->terms as $terms) {
+        foreach($request->glossary as $key => $glossary) {
 
             $all_terms = [
-                 'terms' =>  $terms
+                 'terms' =>  $glossary['terms']
             ];
 
             GlossaryTerms::create(
