@@ -686,6 +686,6 @@ class AdminController extends Controller
             }
         }
 
-        return $terms_data;w
+        return $terms_data;
     }
 }
