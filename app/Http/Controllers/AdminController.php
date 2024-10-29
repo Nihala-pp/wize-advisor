@@ -654,9 +654,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
         
         foreach(json_decode($data->terms) as $terms) {
             foreach($terms as $key => $term) {
-               $allterms[] = array(
-                $term
-               );
+               $allterms[] = $term;
             }
         }
 
