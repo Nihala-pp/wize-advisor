@@ -652,7 +652,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
        $data = Glossaries::where('letter', $request->Letter)->first();
 
-        return response()->json($data->terms);
+        return response($data->terms);
 
     }
 }
