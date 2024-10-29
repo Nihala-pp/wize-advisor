@@ -319,10 +319,7 @@
                                                 }
                                                 </style>
                                                 <p></p>
-                                                <div>Level up your startup with personalized advice from the
-                                                    world&#8217;s top startup mentors. Overcome roadblocks, gain fresh
-                                                    perspectives, and propel your business forward with 1:1 coaching
-                                                    calls tailored to your specific challenges.<br></div>
+                                                <div>{{  $data->description }}<br></div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-617417d elementor-align-justify elementor-widget elementor-widget-button"
