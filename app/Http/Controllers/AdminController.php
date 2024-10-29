@@ -649,9 +649,9 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
                  'terms' =>  $terms
             ];
 
-            GlossaryTerms::create([
+            GlossaryTerms::create(
                 $all_terms
-            ]);
+            );
         }  
     }
 
