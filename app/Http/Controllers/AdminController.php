@@ -678,6 +678,12 @@ class AdminController extends Controller
 
         foreach ($data->terms as $key => $terms) {
             foreach ($terms as $key => $value) {
+                $all_terms = explode(",", $value);
+
+                foreach ($all_terms as $value) {
+                    dd($value);
+                }
+
                 $terms_data[] =  $value;
             }
         }
