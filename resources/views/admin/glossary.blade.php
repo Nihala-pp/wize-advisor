@@ -188,35 +188,35 @@
                                     </thead>
                                     <tbody>
                                         @foreach($glossary as $glossaries)
-                                                                                <tr>
-                                                                                    <td>
-                                                                                        <p class="text-xs font-weight-bold mb-0">{{ $glossaries->letter }}</p>
-                                                                                    </td>
-                                                                                    <td class="align-middle text-center text-sm">
-                                                                                        @php
-                                                                                            $terms = $glossaries->terms ? $glossaries->terms : '';
-                                                                                            $decoded =
-                                                                                                json_decode($terms);
-                                                                                        @endphp
-                                                                                        @foreach($decoded as $d)
-                                                                                            @foreach($d as $k => $v)
-                                                                                                {{ $v }}
-                                                                                            @endforeach
-                                                                                        @endforeach
-                                                                                    </td>
-                                                                                    <td class="align-middle text-center text-sm">
-                                                                                        <div class="avatar-group ">
-                                                                                            <button type="button" class="btn btn-block edit"
-                                                                                                data-id="{{ $glossaries->id }}">Edit
-                                                                                                <i class="fa fa-edit"></button></i>
-                                                                                            <a href="{{ route('admin.mentors.glossary.delete', [$glossaries->id]) }}"
-                                                                                                class="text-secondary font-weight-bold text-xs"
-                                                                                                data-toggle="tooltip" data-original-title="Delete expertise">
-                                                                                                Delete
-                                                                                            </a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
+                                        <tr>
+                                            <td>
+                                                <p class="text-xs font-weight-bold mb-0">{{ $glossaries->letter }}</p>
+                                            </td>
+                                            <td class="align-middle text-center text-sm">
+                                                @php
+                                                $terms = $glossaries->terms ? $glossaries->terms : '';
+                                                $decoded =
+                                                json_decode($terms);
+                                                @endphp
+                                                @foreach($decoded as $d)
+                                                @foreach($d as $k => $v)
+                                                {{ $v }}
+                                                @endforeach
+                                                @endforeach
+                                            </td>
+                                            <td class="align-middle text-center text-sm">
+                                                <div class="avatar-group ">
+                                                    <button type="button" class="btn btn-block edit"
+                                                        data-id="{{ $glossaries->id }}">Edit
+                                                        <i class="fa fa-edit"></button></i>
+                                                    <a href="{{ route('admin.mentors.glossary.delete', [$glossaries->id]) }}"
+                                                        class="text-secondary font-weight-bold text-xs"
+                                                        data-toggle="tooltip" data-original-title="Delete expertise">
+                                                        Delete
+                                                    </a>
+                                                </div>
+                                            </td>
+                                        </tr>
                                         @endforeach
                                     </tbody>
                                 </table>
@@ -283,7 +283,7 @@
                                             name="glossary[0][letter]" required>
                                             <option value="">Choose any</option>
                                             @foreach($glossary as $glossaries)
-                                                <option value="{{ $glossaries->letter }}">{{$glossaries->letter }}</option>
+                                            <option value="{{ $glossaries->letter }}">{{$glossaries->letter }}</option>
                                             @endforeach
                                         </select>
                                     </div>
@@ -296,16 +296,16 @@
                                     </div>
                                     <div>
                                         <label class="form-label">Keywords (Type and Press Enter)</label>
-                                        <input name="Keywords[]" class="form-control" id="keywords-tags" data-color="dark"
-                                            type="text" required>
+                                        <input name="Keywords[]" class="form-control" id="keywords-tags"
+                                            data-color="dark" type="text" required>
                                     </div>
                                     <div>
                                         <label>Meta Title</label>
-                                        <textarea  name="meta_title" class="form-control"></textarea>
+                                        <textarea name="meta_title" class="form-control" rows="5"></textarea>
                                     </div>
                                     <div>
                                         <label>Meta Description</label>
-                                        <textarea  name="meta_description" class="form-control"></textarea>
+                                        <textarea name="meta_description" class="form-control" rows="5"></textarea>
                                     </div>
                                     <div>
                                         <label>Description</label>
@@ -348,86 +348,86 @@
             </div>
         </div>
         <script type="text/javascript">
-            const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
-                searchable: true,
-                fixedHeight: true
+        const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
+            searchable: true,
+            fixedHeight: true
+        });
+
+        $('#summernote').summernote();
+
+        $('body').on('click', '.edit', function() {
+            var Id = $(this).data('id');
+            $.ajax({
+                url: "{{ route('admin.mentors.glossary.edit') }}",
+
+                type: "GET",
+                data: {
+                    'Id': Id
+                },
+                success: function(response) {
+                    $("#edit_glossary .modal-body").html(response);
+                    $(".edit_glossary").modal('show');
+                }
             });
+        });
 
-            $('#summernote').summernote();
-
-            $('body').on('click', '.edit', function () {
-                var Id = $(this).data('id');
-                $.ajax({
-                    url: "{{ route('admin.mentors.glossary.edit') }}",
-
-                    type: "GET",
-                    data: {
-                        'Id': Id
-                    },
-                    success: function (response) {
-                        $("#edit_glossary .modal-body").html(response);
-                        $(".edit_glossary").modal('show');
+        $('.letter').change(function() {
+            var letter = $('#letter :selected').text();
+            $.ajax({
+                url: "{{ route('admin.mentors.glossary.getTerms') }}",
+                type: "GET",
+                data: {
+                    'Letter': letter
+                },
+                success: function(response) {
+                    for (var key in response) {
+                        $("#terms").append(
+                            '<option style="color:black;" value="' + response[key] +
+                            '">' + response[key] + '</option>');
                     }
-                });
+                }
             });
-
-            $('.letter').change(function () {
-                var letter = $('#letter :selected').text();
-                $.ajax({
-                    url: "{{ route('admin.mentors.glossary.getTerms') }}",
-                    type: "GET",
-                    data: {
-                        'Letter': letter
-                    },
-                    success: function (response) {
-                        for (var key in response) {
-                            $("#terms").append(
-                                '<option style="color:black;" value="' + response[key] +
-                                '">' + response[key] + '</option>');
-                        }
-                    }
-                });
-            });
+        });
         </script>
         <script type="text/javascript">
-            if (document.getElementById('choices-button')) {
-                var element = document.getElementById('choices-button');
-                const example = new Choices(element, {});
-            }
-            var choicesTags = document.getElementById('terms-tags');
-            var color = choicesTags.dataset.color;
-            if (choicesTags) {
-                const example = new Choices(choicesTags, {
-                    delimiter: ',',
-                    editItems: true,
-                    maxItemCount: 10,
-                    removeItemButton: true,
-                    addItems: true,
-                    classNames: {
-                        item: 'badge rounded-pill choices-' + color + ' me-2'
-                    }
-                });
-            }
+        if (document.getElementById('choices-button')) {
+            var element = document.getElementById('choices-button');
+            const example = new Choices(element, {});
+        }
+        var choicesTags = document.getElementById('terms-tags');
+        var color = choicesTags.dataset.color;
+        if (choicesTags) {
+            const example = new Choices(choicesTags, {
+                delimiter: ',',
+                editItems: true,
+                maxItemCount: 10,
+                removeItemButton: true,
+                addItems: true,
+                classNames: {
+                    item: 'badge rounded-pill choices-' + color + ' me-2'
+                }
+            });
+        }
         </script>
         <script type="text/javascript">
-            if (document.getElementById('choices-button')) {
-                var element = document.getElementById('choices-button');
-                const example = new Choices(element, {});
-            }
-            var choicesTags = document.getElementById('keywords-tags');
-            var color = choicesTags.dataset.color;
-            if (choicesTags) {
-                const example = new Choices(choicesTags, {
-                    delimiter: ',',
-                    editItems: true,
-                    maxItemCount: 10,
-                    removeItemButton: true,
-                    addItems: true,
-                    classNames: {
-                        item: 'badge rounded-pill choices-' + color + ' me-2'
-                    }
-                });
-            }
+        if (document.getElementById('choices-button')) {
+            var element = document.getElementById('choices-button');
+            const example = new Choices(element, {});
+        }
+        var choicesTags = document.getElementById('keywords-tags');
+        var color = choicesTags.dataset.color;
+        if (choicesTags) {
+            const example = new Choices(choicesTags, {
+                delimiter: ',',
+                editItems: true,
+                maxItemCount: 10,
+                removeItemButton: true,
+                addItems: true,
+                classNames: {
+                    item: 'badge rounded-pill choices-' + color + ' me-2'
+                }
+            });
+        }
         </script>
         <!-- <script type="text/javascript">
         
