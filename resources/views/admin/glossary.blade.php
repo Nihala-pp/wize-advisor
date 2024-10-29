@@ -300,6 +300,14 @@
                                             type="text" required>
                                     </div>
                                     <div>
+                                        <label>Meta Title</label>
+                                        <textarea id="summernote" name="description" class="form-control"></textarea>
+                                    </div>
+                                    <div>
+                                        <label>Meta Description</label>
+                                        <textarea id="summernote" name="description" class="form-control"></textarea>
+                                    </div>
+                                    <div>
                                         <label>Description</label>
                                         <textarea id="summernote" name="description" class="form-control"></textarea>
                                     </div>
