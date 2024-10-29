@@ -678,9 +678,7 @@ class AdminController extends Controller
 
         foreach ($data->terms as $key => $terms) {
             foreach ($terms as $key => $value) {
-                $terms_data[] = [
-                    'terms' => $value
-                ];
+                $terms_data[] =  $value;
             }
         }
 
