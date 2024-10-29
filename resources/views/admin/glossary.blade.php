@@ -361,9 +361,7 @@
                     success: function (response) {
                         for (var key in response) {
                             // $(".letter").remove();
-                            $("#terms").find('option')
-                                .remove()
-                                .end().append(
+                            $("#terms").empty().append(
                                     '<option style="color:black;" value="' + response[key] +
                                     '">' + response[key] + '</option>');
                         }
