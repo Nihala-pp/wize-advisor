@@ -482,7 +482,7 @@
     <script 
         src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
-    <script id="elementor-frontend-js-before" nonce="{{ $nonce }}">
+    <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
         "environmentMode": {
             "edit": false,
