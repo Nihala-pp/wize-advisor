@@ -675,6 +675,12 @@ i.fas.fa-chevron-down {
         padding: 0;
     }
 
+    .elementor-4349 .elementor-element.elementor-element-4af5308 img {
+        width: 70% !important;
+        border-radius: 100px 100px 100px 100px;
+        margin-left: -25px;
+    }
+
     .elementor-column.elementor-col-33,
     .elementor-column[data-col="33"] {
         width: 100% !important;
