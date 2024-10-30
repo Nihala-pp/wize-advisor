@@ -64,7 +64,6 @@
                                             no-results="No Results Found" exclude-without-thumb="" link-target="_blank"
                                             password-protected=""> -->
                                     </div>
-
                                 </form>
                             </div>
                         </div>
