@@ -80,7 +80,7 @@
                             data-id="6a08fa3" data-element_type="column" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <div>
-                                    <span class="badge badge-pill badge-warning"><a href="#A">A</a></span>
+                                    <span class="badge badge-pill badge-warning mobile"><a href="#A">A</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#B">B</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#C">C</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#D">D</a></span>
@@ -312,8 +312,10 @@
 }
 
 @media (max-width: 767px) {
-    margin-left: 10px;
-    margin-bottom: 10px;
+    span.badge.badge-pill.badge-warning {
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
 }
 
 /* .elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
