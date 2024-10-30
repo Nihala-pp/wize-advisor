@@ -323,6 +323,14 @@
         margin-left: 10px;
         margin-bottom: 10px;
     }
+
+    .elementor-5666 .elementor-element.elementor-element-6a08fa2 {
+        width: var(--container-widget-width, 42%);
+        max-width: 42%;
+        --container-widget-width: 42%;
+        --container-widget-flex-grow: 0;
+        margin-left: 120px;
+    }
 }
 
 /* .elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
