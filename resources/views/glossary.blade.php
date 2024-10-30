@@ -54,6 +54,8 @@
                                             placeholder="e.g. Angel Investor, Venture Capital" name="search_term">
                                         <input type="hidden" id="id" autocomplete="off" name="spouseid"
                                             placeholder="Search Expertise">
+                                        <div class="result"></div>
+
 
                                         <!-- <input class="wpr-search-form-input"
                                             placeholder="e.g. Angel Investor, Venture Capital" aria-label="Search"
@@ -459,6 +461,7 @@
     });
     </script>
 </body>
+
 </html>
 <style>
 .elementor-5666 .elementor-element.elementor-element-71ff039 {
