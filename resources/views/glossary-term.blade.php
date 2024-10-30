@@ -479,7 +479,7 @@
     @include('partials.footer-web')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-    <script nonce="{{ csp_nonce() }}"
+    <script 
         src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script id="elementor-frontend-js-before" nonce="{{ $nonce }}">
@@ -604,13 +604,13 @@
         }
     };
     </script>
-    <script nonce="{{ csp_nonce() }}"
+    <script 
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
         id="elementor-frontend-js"></script>
-    <script nonce="{{ csp_nonce() }}"
+    <script 
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
-    <script nonce="{{ csp_nonce() }}" async
+    <script  async
         src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
