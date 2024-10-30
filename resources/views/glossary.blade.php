@@ -325,7 +325,7 @@
     }
 
     .elementor-5666 .elementor-element.elementor-element-bff9c11>.elementor-widget-container {
-        padding: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 35px;
     }
 
     span.badge.badge-pill.badge-warning.mobile {
