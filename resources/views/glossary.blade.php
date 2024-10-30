@@ -52,6 +52,9 @@
                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
                                         <input class="wpr-search-form-input form-control" type="search"
                                             placeholder="e.g. Angel Investor, Venture Capital" name="s">
+                                        <input type="hidden" id="id" autocomplete="off" name="spouseid"
+                                            placeholder="search spouse" />
+
                                         <!-- <input class="wpr-search-form-input"
                                             placeholder="e.g. Angel Investor, Venture Capital" aria-label="Search"
                                             type="search" name="s" title="Search" value="" wpr-query-type="all"
@@ -262,8 +265,7 @@
 
     @include('partials.footer-web')
 
-    <script 
-        src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -387,14 +389,11 @@
         }
     };
     </script>
-    <script 
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
         id="elementor-frontend-js"></script>
-    <script 
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
-    <script async
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
+    <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
     <script type="text/javascript">
     (function($) {
