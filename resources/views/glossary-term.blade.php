@@ -672,6 +672,26 @@ i.fas.fa-chevron-down {
         width: 100% !important;
     }
 
+    .elementor-4349 .elementor-element.elementor-element-9590726:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
+    .elementor-4349 .elementor-element.elementor-element-9590726>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+        background-color: #f1f4f9 !important;
+        border: solid 1px #d7dee9;
+        border-radius: 7px;
+        padding: 20px 20px 0px 3px;
+        margin-top: 40px;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-069db09 {
+        transition: background .3s, border .3s, border-radius .3s, box-shadow .3s;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 10px 50px 50px;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-180860c>.elementor-widget-container {
+        margin: 30px 0 0;
+    }
+
     html,
     body {
         max-width: 100%;
