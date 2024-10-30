@@ -314,6 +314,11 @@
 }
 
 @media (max-width: 767px) {
+
+    .elementor-column elementor-col-25 {
+       width:25%;
+    }
+
     .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
         margin: 0px 0px 0px 0px;
         padding: 0px 0px 0px 0px;
