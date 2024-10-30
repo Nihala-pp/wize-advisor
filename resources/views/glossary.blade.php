@@ -50,7 +50,8 @@
                                     action="https://wiseadvizor.com">
 
                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
-                                        <input class="wpr-search-form-input form-control" type="search" placeholder="e.g. Angel Investor, Venture Capital" name="s">
+                                        <input class="wpr-search-form-input form-control" type="search"
+                                            placeholder="e.g. Angel Investor, Venture Capital" name="s">
                                         <!-- <input class="wpr-search-form-input"
                                             placeholder="e.g. Angel Investor, Venture Capital" aria-label="Search"
                                             type="search" name="s" title="Search" value="" wpr-query-type="all"
@@ -313,6 +314,11 @@
 }
 
 @media (max-width: 767px) {
+    .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
     span.badge.badge-pill.badge-warning.mobile {
         margin-left: 10px;
         margin-bottom: 10px;
