@@ -670,14 +670,19 @@ i.fas.fa-chevron-down {
 
     .elementor-4349 .elementor-element.elementor-element-4af5308>.elementor-widget-container {
         margin-right: 0px !important;
-        /* margin: 0; */
+        margin: 0;
         padding: 0;
+    }
+
+    .elementor-4349 .elementor-element.elementor-element-0859462>.elementor-widget-container {
+        margin: 0 0 0 0px;
+        padding: 0px 0 0;
     }
 
     .elementor-4349 .elementor-element.elementor-element-4af5308 img {
         width: 70% !important;
         border-radius: 100px 100px 100px 100px;
-        margin-left: 30px !important;
+        margin-left: 75px !important;
     }
 
     .elementor-column.elementor-col-33,
