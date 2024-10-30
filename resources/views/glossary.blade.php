@@ -315,7 +315,7 @@
 
 @media (max-width: 767px) {
 
-    .elementor-5666 elementor-element.elementor-element-53afbe6 {
+    .elementor-5666 .elementor-element.elementor-element-53afbe6 {
         width: 50% !important;
     }
 
