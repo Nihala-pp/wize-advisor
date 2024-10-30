@@ -5,14 +5,11 @@
     <meta charset="UTF-8">
     <title>{{ $data->terms  }}.</title>
     <meta name="description" content="{{ $data->meta_desc }}">
-    <meta name="keywords" content="
-    @php
-      $keywords = json_decode($data->keywords);
-    @endphp
+    <meta name="keywords" content="@php $keywords = json_decode($data->keywords); @endphp
     @foreach ($keywords as $keyword)
       {{ $keyword }}
     @endforeach
-    ">
+">
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
