@@ -666,7 +666,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
             'terms' => $request->terms,
             'keywords' => json_encode($request->Keywords),
             'meta_title' => $request->meta_title,
-            'meta_desc' => $request->meta_desc,
+            'meta_desc' => $request->meta_description,
             'description' => $request->description
         ]);
     }
