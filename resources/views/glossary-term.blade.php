@@ -125,7 +125,7 @@
                                                     vertical-align: middle;
                                                     display: inline-block
                                                 }
-                                                </style> 
+                                                </style>
                                                 <img decoding="async" width="150" height="150"
                                                     src="{{ asset('wp-content/uploads/2024/06/Ankur.jpg') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-5883"
@@ -667,6 +667,13 @@ i.fas.fa-chevron-down {
 }
 
 @media (max-width: 767px) {
+
+
+    .elementor-4349 .elementor-element.elementor-element-4af5308 img {
+        width: 70% !important;
+        border-radius: 100px 100px 100px 100px;
+        margin-left: 50px;
+    }
 
     .elementor-column.elementor-col-33,
     .elementor-column[data-col="33"] {
