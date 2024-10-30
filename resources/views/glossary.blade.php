@@ -94,7 +94,7 @@
                                     <span class="badge badge-pill badge-warning"><a href="#L">L</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#M">M</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#N">N</a></span>
-                                    <span class="badge badge-pill badge-warning"><a href="#O">O</a></span>
+                                    <span class="badge badge-pill badge-warning mobile"><a href="#O">O</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#P">P</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#Q">Q</a></span>
                                     <span class="badge badge-pill badge-warning"><a href="#R">R</a></span>
