@@ -125,7 +125,8 @@
                                                     vertical-align: middle;
                                                     display: inline-block
                                                 }
-                                                </style> <img decoding="async" width="150" height="150"
+                                                </style> 
+                                                <img decoding="async" width="150" height="150"
                                                     src="{{ asset('wp-content/uploads/2024/06/Ankur.jpg') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-5883"
                                                     alt="startup success"
