@@ -315,12 +315,16 @@
 
 @media (max-width: 767px) {
 
-    .elementor-5666  elementor-element.elementor-element-53afbe6 {
-        width:50% !important;
+    .elementor-5666 elementor-element.elementor-element-53afbe6 {
+        width: 50% !important;
     }
 
     .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
         margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .elementor-5666 .elementor-element.elementor-element-bff9c11>.elementor-widget-container {
         padding: 0px 0px 0px 0px;
     }
 
