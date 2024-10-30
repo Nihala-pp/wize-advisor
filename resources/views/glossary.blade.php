@@ -50,14 +50,15 @@
                                     action="https://wiseadvizor.com">
 
                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
-                                        <input class="wpr-search-form-input"
+                                        <input class="wpr-search-form-input form-control" type="search" placeholder="e.g. Angel Investor, Venture Capital" name="s">
+                                        <!-- <input class="wpr-search-form-input"
                                             placeholder="e.g. Angel Investor, Venture Capital" aria-label="Search"
                                             type="search" name="s" title="Search" value="" wpr-query-type="all"
                                             wpr-taxonomy-type="" number-of-results="2" ajax-search=""
                                             show-description="yes" number-of-words="30" show-ajax-thumbnails=""
                                             show-view-result-btn="" view-result-text="View Results"
                                             no-results="No Results Found" exclude-without-thumb="" link-target="_blank"
-                                            password-protected="">
+                                            password-protected=""> -->
                                     </div>
 
                                 </form>
