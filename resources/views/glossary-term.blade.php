@@ -667,6 +667,11 @@ i.fas.fa-chevron-down {
 
 @media (max-width: 767px) {
 
+    .elementor-column.elementor-col-33,
+    .elementor-column[data-col="33"] {
+        width: 100% !important;
+    }
+
     html,
     body {
         max-width: 100%;
