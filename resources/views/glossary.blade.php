@@ -317,7 +317,7 @@
 
     .elementor-column.elementor-col-33,
     .elementor-column[data-col="33"] {
-        width: 100%;
+        width: 100% !important;
     }
 
     .elementor-3007 .elementor-element.elementor-element-f871cda {
