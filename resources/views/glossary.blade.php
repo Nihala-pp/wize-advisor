@@ -311,6 +311,11 @@
     padding: 0px 0px 0px 0px;
 }
 
+@media (max-width: 767px) {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
 /* .elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
     font-family: "Roboto", Sans-serif;
     font-weight: 400;
