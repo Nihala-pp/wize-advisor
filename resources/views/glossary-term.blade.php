@@ -685,10 +685,14 @@ i.fas.fa-chevron-down {
         margin-left: 75px !important;
     }
 
-    .elementor-column.elementor-col-33,
-    .elementor-column[data-col="33"] {
+    .elementor-4349 .elementor-element.elementor-element-99a7c4c {
         width: 100% !important;
     }
+
+    /* .elementor-column.elementor-col-33,
+    .elementor-column[data-col="33"] {
+        width: 100% !important;
+    } */
 
     .elementor-4349 .elementor-element.elementor-element-9590726:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
     .elementor-4349 .elementor-element.elementor-element-9590726>.elementor-widget-wrap>.elementor-motion-effects-container>.elementor-motion-effects-layer {
