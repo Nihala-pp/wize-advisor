@@ -315,6 +315,75 @@
 
 @media (max-width: 767px) {
 
+    .elementor-3007 .elementor-element.elementor-element-f871cda {
+        width: 30%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-094a417 {
+        width: 50%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669 {
+        width: 20%;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-a2b9669>.elementor-element-populated {
+        padding: 0px 0px 0px 30px;
+        margin-top: 60px;
+    }
+
+    i.fas.fa-bell.fa-2xl {
+        font-size: 27px !important;
+        color: #000;
+        padding-left: 10px;
+    }
+
+    .rounded-circle {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        height: auto;
+        max-width: 100%;
+        border: none;
+        border-radius: 0;
+        box-shadow: none;
+    }
+
+    #menu-item-5136 {
+        font-size: 8px;
+        /* padding-left: 15px; */
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu a.hfe-sub-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .elementor-menu-toggle:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown li a.hfe-sub-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-menu-item:hover,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible li a.hfe-sub-menu-item:hover {
+        color: #001E64;
+    }
+
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 .sub-menu,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown-expandible,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-menu-item,
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1 nav.hfe-dropdown .menu-item a.hfe-sub-menu-item {
+        background-color: #fff;
+        color: #001E64 !important;
+    }
+
+    .elementor-3007 .elementor-element.elementor-element-ee84ee1>.elementor-widget-container {
+        margin: -35px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .ehf-header #masthead {
+        /* margin-top: -45px; */
+        z-index: 99;
+        position: relative;
+        /* margin-bottom: -70px; */
+    }
+
     .elementor-5666 .elementor-element.elementor-element-53afbe6 {
         width: 50% !important;
     }
