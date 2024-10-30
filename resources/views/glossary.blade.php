@@ -331,6 +331,13 @@
         --container-widget-flex-grow: 0;
         margin-left: 120px;
     }
+
+    .elementor-5666 .elementor-element.elementor-element-5f4d5bce0 {
+        transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px 0px 0px 0px;
+    }
 }
 
 /* .elementor-5666 .elementor-element.elementor-element-623db10 .elementor-button {
