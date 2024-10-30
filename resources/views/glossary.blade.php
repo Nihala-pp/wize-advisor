@@ -312,7 +312,7 @@
 }
 
 @media (max-width: 767px) {
-    span.badge.badge-pill.badge-warning {
+    span.badge.badge-pill.badge-warning.mobile {
         margin-left: 10px;
         margin-bottom: 10px;
     }
