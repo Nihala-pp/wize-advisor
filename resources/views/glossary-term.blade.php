@@ -737,11 +737,11 @@ i.fas.fa-chevron-down {
         padding: 15px 0px 15px 0px;
     }
 
-    .elementor-4349 .elementor-element.elementor-element-4af5308 img {
+    /* .elementor-4349 .elementor-element.elementor-element-4af5308 img {
         width: 40% !important;
         border-radius: 100px 100px 100px 100px;
         margin-left: -25px;
-    }
+    } */
 
     .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title {
         color: #181B34;
