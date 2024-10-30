@@ -9,7 +9,7 @@
     @php
       $keywords = json_decode($data->keywords);
     @endphp
-    @foreach ($data->keywords as $keyword)
+    @foreach ($keywords as $keyword)
       {{ $keyword }}
     @endforeach
     ">
