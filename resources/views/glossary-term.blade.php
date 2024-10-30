@@ -6,6 +6,9 @@
     <title>{{ $data->terms  }}.</title>
     <meta name="description" content="{{ $data->meta_desc }}">
     <meta name="keywords" content="
+    @php
+      $keywords = json_decode($data->keywords);
+    @endphp
     @foreach ($data->keywords as $keyword)
       {{ $keyword }}
     @endforeach
