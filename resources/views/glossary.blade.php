@@ -50,10 +50,10 @@
                                     action="https://wiseadvizor.com">
 
                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
-                                        <input class="wpr-search-form-input form-control" type="search"
-                                            placeholder="e.g. Angel Investor, Venture Capital" name="s">
+                                        <input class="wpr-search-form-input form-control" id="searchTerm" type="search"
+                                            placeholder="e.g. Angel Investor, Venture Capital" name="search_term">
                                         <input type="hidden" id="id" autocomplete="off" name="spouseid"
-                                            placeholder="search spouse" />
+                                            placeholder="search spouse">
 
                                         <!-- <input class="wpr-search-form-input"
                                             placeholder="e.g. Angel Investor, Venture Capital" aria-label="Search"
@@ -412,8 +412,51 @@
                 }
                 // alert(text);
             });
-        });
-    }(jQuery));
+
+            $("#searchTerm").keyup(function() {
+                var txt = $(this).val();
+                var resultDropdown = $(".result");
+                var person = "";
+                if (txt != '') {
+                    $.ajax({
+                        type: "post", //submit method
+                        url: "search.php", //url to sumitted data To
+                        data: {
+                            name: txt
+                        }, //Data to be submitted
+                        cache: false,
+                        dataType: 'json',
+                        //action on successful post request
+                        success: function(data) {
+                            //process JSON
+                            $.each(data.names, function(idx, name) {
+                                person += '<p data-id="' + name.id + '">' + name
+                                    .name + '</p>';
+
+                            });
+                            resultDropdown.html(person);
+
+                        },
+                    });
+                } else {
+                    resultDropdown.empty();
+                }
+            });
+
+            // Get the id of the clicked person
+            $(document).on("click", ".result p", function() {
+                //assign the value of person name to search input
+                $(this).parents(".search-box").find('#search').val($(this).text());
+
+                //get the id
+                var id = $(this).attr('data-id');
+                //set input id "id" value
+                $("#id").val(id);
+                //clear search data
+                $(this).parent(".result").empty();
+            });
+        }(jQuery));
+    });
     </script>
 </body>
 
