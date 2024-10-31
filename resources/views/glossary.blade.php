@@ -408,13 +408,7 @@
                 }
                 // alert(text);
             });
-        }(jQuery));
-    });
-    </script>
-    <script type="text/javascript">
-    $(function($) {
-        "use strict";
-        $(document).ready(function() {
+
             $("input#searchTerm").keyup(function() {
                 var txt = $(this).val();
                 alert(txt);
@@ -461,6 +455,14 @@
         }(jQuery));
     });
     </script>
+    <!-- <script type="text/javascript">
+    $(function($) {
+        "use strict";
+        $(document).ready(function() {
+           
+        }(jQuery));
+    });
+    </script> -->
 </body>
 
 </html>
