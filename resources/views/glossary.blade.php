@@ -421,8 +421,8 @@
                 var person = "";
                 if (txt != '') {
                     $.ajax({
-                        type: "post", //submit method
-                        url: "search.php", //url to sumitted data To
+                        type: "get", //submit method
+                        url: {{ route('searchTerm') }}, //url to sumitted data To
                         data: {
                             name: txt
                         }, //Data to be submitted

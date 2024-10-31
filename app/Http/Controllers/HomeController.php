@@ -1253,4 +1253,9 @@ window.location.href = "https://wiseadvizor.com/faq";
 
       return view('glossary-term', data: compact('data', 'related_mentors'));
   }
+
+  public function search_term(Request $request)
+  {
+      dd($request->all());
+  }
 }
