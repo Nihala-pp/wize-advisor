@@ -413,7 +413,7 @@
                         response.forEach(function(value, key) {
                             //process JSON
                             expertise += '<p data-id="' + value.id +
-                                '"></p>';
+                                '">' + value.name + '</p>';
                         });
                         resultDropdown.html(expertise);
                     }
@@ -422,6 +422,8 @@
                 resultDropdown.empty();
             }
         });
+    
+
     });
     </script>
 </body>
