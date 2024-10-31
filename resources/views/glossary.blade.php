@@ -405,7 +405,8 @@
                     type: "post", //submit method
                     url: "{{ route('searchTerm')}}", //url to sumitted data To
                     data: {
-                        name: txt
+                        name: txt,
+                        "_token": "{{ csrf_token() }}",
                     }, //Data to be submitted
                     cache: false,
                     dataType: 'json',
