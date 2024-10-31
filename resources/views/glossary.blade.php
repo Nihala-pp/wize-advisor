@@ -413,8 +413,8 @@
                                 //process JSON
                                 response = JSON.parse(data);
                                 for (var key in response) {
-                                    expertise += '<p data-id="' + response['id'] +
-                                        '">' + response['name'] +
+                                    expertise += '<p data-id="' + response.id +
+                                        '">' + response.name +
                                         '</p>';
                                 }
                             resultDropdown.html(expertise);
