@@ -411,11 +411,12 @@
                     //action on successful post request
                     success: function(data) {
                         //process JSON
-                        $.each(data.expertise, function(idx, name) {
-                            expertise += '<p data-id="' + name['id'] + '">' + name[
-                                    'name'] +
+                        response = JSON.parse(data);
+                        response.forEach(function(value, key) {
+                            expertise += '<p data-id="' + value.id +
+                                '">' + value.name +
                                 '</p>';
-                        }); 
+                        });
                         resultDropdown.html(expertise);
                     }
                 });
