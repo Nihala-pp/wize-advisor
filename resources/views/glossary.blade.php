@@ -411,10 +411,9 @@
                             //action on successful post request
                             success: function(data) {
                                 //process JSON
-                                response = JSON.parse(data);
-                                for (var key in response) {
-                                    expertise += '<p data-id="' + response.id +
-                                        '">' + response.name +
+                                for (var key in data) {
+                                    expertise += '<p data-id="' + data.id +
+                                        '">' + data.name +
                                         '</p>';
                                 }
                             resultDropdown.html(expertise);
