@@ -1267,6 +1267,6 @@ window.location.href = "https://wiseadvizor.com/faq";
          ];
       }
 
-      return response()->json($data);
+      return $data;
   }
 }

@@ -409,13 +409,11 @@
                         "_token": "{{ csrf_token() }}",
                     }, //Data to be submitted
                     //action on successful post request
-                    success: function(data) {
+                    success: function(response) {
                         //process JSON
-                        for (var key in data) {
-                            expertise += '<p data-id="' + data.id +
-                                '">' + data.name +
+                            expertise += '<p data-id="' + response['data']['id'] +
+                                '">' + response['data']['name'] +
                                 '</p>';
-                        }
                         resultDropdown.html(expertise);
                     }
                 });
