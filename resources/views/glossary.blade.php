@@ -412,7 +412,7 @@
                             success: function(data) {
                                 //process JSON
                                 for (var key in data) {
-                                    expertise += '<p data-id="' + data.id +
+                                  var  expertise += '<p data-id="' + data.id +
                                         '">' + data.name +
                                         '</p>';
                                 }
