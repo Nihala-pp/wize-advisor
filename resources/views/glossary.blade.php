@@ -50,7 +50,7 @@
                                     action="https://wiseadvizor.com">
 
                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
-                                        <input class="wpr-search-form-input form-control" id="searchTerm" type="text" autocomplete="off"
+                                        <input type="text" id="searchTerm" class="wpr-search-form-input form-control"  autocomplete="off"
                                             placeholder="e.g. Angel Investor, Venture Capital" name="search_term">
                                         <input type="hidden" id="id" autocomplete="off" name="spouseid"
                                             placeholder="Search Expertise">
