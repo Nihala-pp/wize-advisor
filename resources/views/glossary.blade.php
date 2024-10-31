@@ -386,6 +386,7 @@
     </script>
     <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript">
     (function($) {
         "use strict";
