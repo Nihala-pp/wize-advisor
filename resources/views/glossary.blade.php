@@ -9,39 +9,14 @@
         content="Explore our extensive startup glossary featuring vital entrepreneurship terms. Gain insights into the language of startups and elevate your business growth.">
     <meta name="keywords" content="entrepreneurship terms, startup glossary, startup terms">
     <meta name="robots" content='max-image-preview:large' />
-    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
-        id="jquery-core-js"></script>
+    <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
-    <!-- <script
-        src="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/js/she-header.js?ver=1.6.11"
-        id="she-header-js"></script> -->
     <link rel="canonical" href="https://wiseadvizor.com/glossary/" />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script type="text/javascript">
-    (function($) {
-        $(document).ready(function() {
-            $('#no_data').hide();
-            $('span.badge-warning a').click(function() {
-                var text = $(this).text();
-                var letter = $("#letter").val();
-                // alert(letter);
-
-                if (text != letter) {
-                    $("#no_data").show();
-                    $('html, body').animate({
-                        scrollTop: $("#no_data").offset().top
-                    }, 2000);
-                }
-                // alert(text);
-            });
-        }(jQuery));
-    });
-    </script>
 </head>
 
 <body
@@ -403,8 +378,26 @@
     </script>
     <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
-</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        $('#no_data').hide();
+        $('span.badge-warning a').click(function() {
+            var text = $(this).text();
+            var letter = $("#letter").val();
+            // alert(letter);
 
+            if (text != letter) {
+                $("#no_data").show();
+                $('html, body').animate({
+                    scrollTop: $("#no_data").offset().top
+                }, 2000);
+            }
+            // alert(text);
+        });
+    });
+    </script>
+</body>
 </html>
 <style>
 .elementor-5666 .elementor-element.elementor-element-71ff039 {
