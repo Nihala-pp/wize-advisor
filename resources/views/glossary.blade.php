@@ -401,47 +401,6 @@
                 }
                 // alert(text);
             });
-
-            $("#searchTerm").on('change keyup mousedown',function(){
-                var txt = $(this).val();
-                alert(txt);
-                var resultDropdown = $(".result");
-                var person = "";
-                if (txt != '') {
-                    $.ajax({
-                        type: "GET", //submit method
-                        url: "{{ route('searchTerm') }}", //url to sumitted data To
-                        data: {
-                            name: txt
-                        }, 
-                        success: function(data) {
-                            //process JSON
-                            // $.each(data.names, function(idx, name) {
-                            //     person += '<p data-id="' + name.id + '">' + name
-                            //         .name + '</p>';
-
-                            // });
-                            // resultDropdown.html(person);
-
-                        },
-                    });
-                } else {
-                    resultDropdown.empty();
-                }
-            });
-
-            // Get the id of the clicked person
-            $(document).on("click", ".result p", function() {
-                //assign the value of person name to search input
-                $(this).parents(".search-box").find('#search').val($(this).text());
-
-                //get the id
-                var id = $(this).attr('data-id');
-                //set input id "id" value
-                $("#id").val(id);
-                //clear search data
-                $(this).parent(".result").empty();
-            });
         }(jQuery));
     });
     </script>
