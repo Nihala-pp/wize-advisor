@@ -653,7 +653,8 @@
 
 .search-box input[type="text"],
 .result {
-    width: 60%;
+    MARGIN-LEFT: 75PX;
+    width: 84%;
     box-sizing: border-box;
 }
 
