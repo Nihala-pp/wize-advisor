@@ -397,29 +397,29 @@
         });
 
         $("#searchTerm").keyup(function() {
-            var txt = $(this).val();
-            var resultDropdown = $(".result");
-            var person = "";
-            if (txt != '') {
-                $.ajax({
-                    type: "post", //submit method
-                    url: "{{ route('searchTerm')}}", //url to sumitted data To
-                    data: {
-                        name: txt,
-                        "_token": "{{ csrf_token() }}",
-                    }, //Data to be submitted
-                    //action on successful post request
-                    success: function(data) {
-                        //process JSON
-                        response = JSON.parse(data);
-                        response.forEach(function(value, key) {
-                            expertise += '<p data-id="' + value.id +
-                                '">' + value.name +
-                                '</p>';
-                        });
-                        resultDropdown.html(expertise);
-                    }
-                });
+                var txt = $(this).val();
+                var resultDropdown = $(".result");
+                var person = "";
+                if (txt != '') {
+                    $.ajax({
+                            type: "post", //submit method
+                            url: "{{ route('searchTerm')}}", //url to sumitted data To
+                            data: {
+                                name: txt,
+                                "_token": "{{ csrf_token() }}",
+                            }, //Data to be submitted
+                            //action on successful post request
+                            success: function(data) {
+                                //process JSON
+                                response = JSON.parse(data);
+                                for (var key in response) {
+                                    expertise += '<p data-id="' + response['id'] +
+                                        '">' + response['name'] +
+                                        '</p>';
+                                }
+                            resultDropdown.html(expertise);
+                        }
+                    });
             } else {
                 resultDropdown.empty();
             }
