@@ -434,7 +434,6 @@
             //set input id "id" value 
             // $("#id").val(id);
             //clear search data
-/
             window.location.href = "https://wiseadvizor.com/BrowseMentors/" + expertise;
         });
     });
