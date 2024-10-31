@@ -423,10 +423,10 @@
             }
         });
 
-        $(document).on("click", ".result p", function() {
-            var expertise = $(this).text();
-            window.location.href = "https://wiseadvizor.com/BrowseMentors/" + expertise;
-        });
+        // $(document).on("click", ".result p", function() {
+        //     var expertise = $(this).text();
+        //     window.location.href = "https://wiseadvizor.com/BrowseMentors/" + expertise;
+        // });
     });
     </script>
 </body>
