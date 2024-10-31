@@ -630,10 +630,6 @@
 }
 </style>
 <style type="text/css">
-    body{
-        font-family: Arail, sans-serif;
-    }
-    /* Formatting search box */
     .search-box{
         width: 300px;
         position: relative;
