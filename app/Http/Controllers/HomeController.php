@@ -1256,6 +1256,10 @@ window.location.href = "https://wiseadvizor.com/faq";
 
   public function search_term(Request $request)
   {
-      dd($request->all());
+     $expertise =  ExpertiseList::query()
+      ->where('name', 'LIKE', "{$request->name}%")
+      ->get();
+
+     return response()->json($expertise);
   }
 }
