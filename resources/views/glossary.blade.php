@@ -428,14 +428,10 @@
             $(this).parents(".search-box").find('#searchTerm').val($(this).text());
 
             //get the id 
-            var id = $(this).attr('data-id');
-
             var expertise = $(this).text();
             //set input id "id" value 
             $("#id").val(id);
             //clear search data
-            $(this).parent(".result").empty();
-
             window.location.href = "https://wiseadvizor.com/BrowseMentors/" + expertise;
 
         })
