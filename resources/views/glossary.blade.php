@@ -42,8 +42,6 @@
         }(jQuery));
     });
     </script>
-
-
 </head>
 
 <body
