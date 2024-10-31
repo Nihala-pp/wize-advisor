@@ -410,10 +410,12 @@
                     }, //Data to be submitted
                     //action on successful post request
                     success: function(response) {
-                        //process JSON
-                            expertise += '<p data-id="' + response['data']['id'] +
-                                '">' + response['data']['name'] +
+                        response.forEach(function(value, key) {
+                            //process JSON
+                            expertise += '<p data-id="' + value.id +
+                                '">' + value.name +
                                 '</p>';
+                        });
                         resultDropdown.html(expertise);
                     }
                 });
