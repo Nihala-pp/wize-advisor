@@ -403,7 +403,7 @@
                 // alert(text);
             });
 
-            $("#searchTerm").on('keyup', function() {
+            $("#searchTerm").on('change keyup mousedown',function(){
                 var txt = $(this).val();
                 alert(txt);
                 var resultDropdown = $(".result");
