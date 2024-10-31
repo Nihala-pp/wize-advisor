@@ -405,7 +405,7 @@
                 // alert(text);
             });
 
-            $(document).on("keyup", "#searchTerm", function() {
+            $("#searchTerm").keyup(function() {
                 var txt = $(this).val();
                 alert(txt);
                 var resultDropdown = $(".result");
