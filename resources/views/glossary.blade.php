@@ -425,12 +425,12 @@
 
         $(document).on("click", ".result p", function() {
             //assign the value of person name to search input 
-            $(this).parents(".search-box").find('#searchTerm').val($(this).text());
+            // $(this).parents(".search-box").find('#searchTerm').val($(this).text());
 
             //get the id 
             var expertise = $(this).text();
             //set input id "id" value 
-            $("#id").val(id);
+            // $("#id").val(id);
             //clear search data
             window.location.href = "https://wiseadvizor.com/BrowseMentors/" + expertise;
 
