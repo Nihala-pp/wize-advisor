@@ -403,7 +403,7 @@
                 // alert(text);
             });
 
-            $("#searchTerm").on('input', function() {
+            $("#searchTerm").on('keyup', function() {
                 var txt = $(this).val();
                 alert(txt);
                 var resultDropdown = $(".result");
