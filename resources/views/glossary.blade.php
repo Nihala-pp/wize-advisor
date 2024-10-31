@@ -49,13 +49,13 @@
                                 <!-- <form role="search" method="get" class="wpr-search-form"
                                     action="https://wiseadvizor.com"> -->
 
-                                    <div class="wpr-search-form-input-wrap elementor-clearfix">
-                                        <input type="text" id="searchTerm" class="form-control" autocomplete="off"
-                                            placeholder="e.g. Angel Investor, Venture Capital" name="search_term">
-                                        <input type="hidden" id="id" autocomplete="off" name="spouseid"
-                                            placeholder="Search Expertise">
-                                        <div class="result"></div>
-                                    </div>
+                                <div class="wpr-search-form-input-wrap elementor-clearfix">
+                                    <input type="text" id="searchTerm" class="form-control" autocomplete="off"
+                                        placeholder="e.g. Angel Investor, Venture Capital" name="search_term">
+                                    <input type="hidden" id="id" autocomplete="off" name="spouseid"
+                                        placeholder="Search Expertise">
+                                    <div class="result"></div>
+                                </div>
                                 <!-- </form> -->
                             </div>
                         </div>
@@ -408,9 +408,54 @@
     });
     </script>
     <script type="text/javascript">
+    $(function() {
+        $("input#searchTerm").keyup(function() {
+            var txt = $(this).val();
+            alert(txt);
+            var resultDropdown = $(".result");
+            var person = "";
+            if (txt != '') {
+                $.ajax({
+                    type: "get", //submit method
+                    url: "{{ route('searchTerm') }}", //url to sumitted data To
+                    data: {
+                        name: txt
+                    }, //Data to be submitted
+                    cache: false,
+                    dataType: 'json',
+                    //action on successful post request
+                    success: function(data) {
+                        //process JSON
+                        // $.each(data.names, function(idx, name) {
+                        //     person += '<p data-id="' + name.id + '">' + name
+                        //         .name + '</p>';
 
+                        // });
+                        // resultDropdown.html(person);
+
+                    },
+                });
+            } else {
+                resultDropdown.empty();
+            }
+        });
+
+        // Get the id of the clicked person
+        $(document).on("click", ".result p", function() {
+            //assign the value of person name to search input
+            $(this).parents(".search-box").find('#search').val($(this).text());
+
+            //get the id
+            var id = $(this).attr('data-id');
+            //set input id "id" value
+            $("#id").val(id);
+            //clear search data
+            $(this).parent(".result").empty();
+        });
+    });
     </script>
 </body>
+
 </html>
 <style>
 .elementor-5666 .elementor-element.elementor-element-71ff039 {
