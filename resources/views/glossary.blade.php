@@ -653,7 +653,7 @@
 
 .search-box input[type="text"],
 .result {
-    width: 75%;
+    width: 60%;
     box-sizing: border-box;
 }
 
