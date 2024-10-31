@@ -431,6 +431,7 @@
             // var id = $(this).attr('data-id');
 
             var expertise = $(this).text();
+            $(this).parent(".result").empty();
             //set input id "id" value 
             // $("#id").val(id);
             //clear search data
