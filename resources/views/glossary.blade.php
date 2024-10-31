@@ -405,7 +405,7 @@
                 // alert(text);
             });
 
-            $("#searchTerm").keyup(function() {
+            $("#searchTerm").click(function() {
                 var txt = $(this).val();
                 alert(txt);
                 var resultDropdown = $(".result");
