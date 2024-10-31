@@ -244,7 +244,6 @@
         href='https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.7.1'
         media='all' />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet">
-
     <link rel='stylesheet' id='font-awesome-5-all-css'
         href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/all.min.css?ver=1.7.1'
         media='all' />
@@ -382,7 +381,7 @@
     </script>
     <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
-    <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
     <script type="text/javascript">
     (function($) {
@@ -404,14 +403,6 @@
         }(jQuery));
     });
     </script>
-    <!-- <script type="text/javascript">
-    $(function($) {
-        "use strict";
-        $(document).ready(function() {
-           
-        }(jQuery));
-    });
-    </script> -->
 </body>
 
 </html>
