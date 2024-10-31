@@ -397,28 +397,28 @@
         });
 
         $("#searchTerm").keyup(function() {
-                var txt = $(this).val();
-                var resultDropdown = $(".result");
-                var expertise = "";
-                if (txt != '') {
-                    $.ajax({
-                            type: "post", //submit method
-                            url: "{{ route('searchTerm')}}", //url to sumitted data To
-                            data: {
-                                name: txt,
-                                "_token": "{{ csrf_token() }}",
-                            }, //Data to be submitted
-                            //action on successful post request
-                            success: function(data) {
-                                //process JSON
-                                for (var key in data) {
-                                  expertise += '<p data-id="' + data.id +
-                                        '">' + data.name +
-                                        '</p>';
-                                }
-                            resultDropdown.html(expertise);
+            var txt = $(this).val();
+            var resultDropdown = $(".result");
+            var expertise = "";
+            if (txt != '') {
+                $.ajax({
+                    type: "post", //submit method
+                    url: "{{ route('searchTerm')}}", //url to sumitted data To
+                    data: {
+                        name: txt,
+                        "_token": "{{ csrf_token() }}",
+                    }, //Data to be submitted
+                    //action on successful post request
+                    success: function(data) {
+                        //process JSON
+                        for (var key in data) {
+                            expertise += '<p data-id="' + data.id +
+                                '">' + data.name +
+                                '</p>';
                         }
-                    });
+                        resultDropdown.html(expertise);
+                    }
+                });
             } else {
                 resultDropdown.empty();
             }
@@ -630,37 +630,45 @@
 }
 </style>
 <style type="text/css">
-    .search-box{
-        width: 300px;
-        position: relative;
-        display: inline-block;
-        font-size: 14px;
-    }
-    .search-box input[type="text"]{
-        height: 32px;
-        padding: 5px 10px;
-        border: 1px solid #CCCCCC;
-        font-size: 14px;
-    }
-    .result{
-        position: absolute;        
-        z-index: 999;
-        top: 100%;
-        left: 0;
-    }
-    .search-box input[type="text"], .result{
-        width: 100%;
-        box-sizing: border-box;
-    }
-    /* Formatting result items */
-    .result p{
-        margin: 0;
-        padding: 7px 10px;
-        border: 1px solid #CCCCCC;
-        border-top: none;
-        cursor: pointer;
-    }
-    .result p:hover{
-        background: #f2f2f2;
-    }
+.search-box {
+    width: 300px;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+}
+
+.search-box input[type="text"] {
+    height: 32px;
+    padding: 5px 10px;
+    border: 1px solid #CCCCCC;
+    font-size: 14px;
+}
+
+.result {
+    position: absolute;
+    z-index: 999;
+    top: 100%;
+    left: 0;
+}
+
+.search-box input[type="text"],
+.result {
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* Formatting result items */
+.result p {
+    background-color: white;
+    color: black;
+    margin: 0;
+    padding: 7px 10px;
+    border: 1px solid #CCCCCC;
+    border-top: none;
+    cursor: pointer;
+}
+
+.result p:hover {
+    background: #f2f2f2;
+}
 </style>
