@@ -389,7 +389,6 @@
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
     <script type="text/javascript">
     (function($) {
-        "use strict";
         $(document).ready(function() {
             $('#no_data').hide();
             $('span.badge-warning a').click(function() {
@@ -406,7 +405,7 @@
                 // alert(text);
             });
 
-            $("#searchTerm").click(function() {
+            $("#searchTerm").keyup(function() {
                 var txt = $(this).val();
                 alert(txt);
                 var resultDropdown = $(".result");
