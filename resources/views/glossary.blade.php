@@ -431,12 +431,12 @@
                         //action on successful post request
                         success: function(data) {
                             //process JSON
-                            $.each(data.names, function(idx, name) {
-                                person += '<p data-id="' + name.id + '">' + name
-                                    .name + '</p>';
+                            // $.each(data.names, function(idx, name) {
+                            //     person += '<p data-id="' + name.id + '">' + name
+                            //         .name + '</p>';
 
-                            });
-                            resultDropdown.html(person);
+                            // });
+                            // resultDropdown.html(person);
 
                         },
                     });
