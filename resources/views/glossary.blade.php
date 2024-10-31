@@ -411,7 +411,7 @@
                         //action on successful post request
                         success: function(data) {
                             //process JSON
-                            $.each(data, function(idx, name) {
+                            $.each(data.expertise, function(idx, name) {
                                 expertise += '<p data-id="' + name.id + '">' + name.name +
                                 '</p>';
                             }); 

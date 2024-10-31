@@ -1260,6 +1260,6 @@ window.location.href = "https://wiseadvizor.com/faq";
       ->where('name', 'LIKE', "{$request->name}%")
       ->get();
 
-     return response()->json($expertise);
+     return response()->json(['expertise' => $expertise]);
   }
 }
