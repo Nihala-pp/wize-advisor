@@ -417,6 +417,7 @@
 
             $(document).on("keyup", "#searchTerm", function() {
                 var txt = $(this).val();
+                alert(txt);
                 var resultDropdown = $(".result");
                 var person = "";
                 if (txt != '') {
