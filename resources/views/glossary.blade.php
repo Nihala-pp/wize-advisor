@@ -411,7 +411,7 @@
                     //action on successful post request
                     success: function(data) {
                         //process JSON
-                        response = JSON.parse(data);
+                        response = JSON.parse(data.expertise);
                         response.forEach(function(value, key) {
                             expertise += '<p data-id="' + value.id +
                                 '">' + value.name +
