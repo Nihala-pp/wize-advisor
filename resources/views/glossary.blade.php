@@ -413,8 +413,8 @@
                         response.forEach(function(value, key) {
                             //process JSON
                             expertise += '<p data-id="' + value.id +
-                                '">' + value.name +
-                                '</p>';
+                                '"><a href="https://wiseadvizor.com/BrowseMentors/"' + value.name + '"> ' + value.name +
+                                '</a></p>';
                         });
                         resultDropdown.html(expertise);
                     }
@@ -423,6 +423,11 @@
                 resultDropdown.empty();
             }
         });
+    
+        $(".result").click(function() {
+
+        });
+    
     });
     </script>
 </body>
