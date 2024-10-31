@@ -46,13 +46,13 @@
                         <div class="elementor-element elementor-element-6a08fa2 elementor-widget__width-initial elementor-widget elementor-widget-wpr-search"
                             data-id="6a08fa2" data-element_type="widget" data-widget_type="wpr-search.default">
                             <div class="elementor-widget-container">
-                                <div class="wpr-search-form-input-wrap elementor-clearfix">
+                                <!-- <div class="wpr-search-form-input-wrap elementor-clearfix"> -->
                                     <input type="text" id="searchTerm" class="form-control" autocomplete="off"
                                         placeholder="e.g. Angel Investor, Venture Capital" name="search_term">
                                     <input type="hidden" id="id" autocomplete="off" name="spouseid"
                                         placeholder="Search Expertise">
                                     <div class="result"></div>
-                                </div>
+                                <!-- </div> -->
                             </div>
                         </div>
                     </div>
