@@ -105,7 +105,7 @@ Route::get('send-schedule-request-mail', [HomeController::class, 'sendScheduleRe
 Route::get('send-schedule-request-user-mail', [HomeController::class, 'sendScheduleRequestUserMail']);
 Route::get('glossary', [HomeController::class, 'glossary'])->name('glossary');;
 Route::get('glossary/{term?}', [HomeController::class, 'glossary_term'])->name('glossary-term');
-Route::get('glossary/search-term', [HomeController::class, 'search_term'])->name('searchTerm');
+Route::post('glossary/search-term', [HomeController::class, 'search_term'])->name('searchTerm');
 
 Route::get('cron', [Cron::class, 'index'])->name('index');
 Route::get('weekly-email', [Cron::class, 'weeklySlotUpdate'])->name('weeklySlotUpdate');

@@ -395,9 +395,40 @@
             }
             // alert(text);
         });
+
+        $("#searchTerm").keyup(function() {
+            var txt = $(this).val();
+            var resultDropdown = $(".result");
+            var person = "";
+            if (txt != '') {
+                $.ajax({
+                    type: "post", //submit method
+                    url: "{{ route('searchTerm')}}", //url to sumitted data To
+                    data: {
+                        name: txt
+                    }, //Data to be submitted
+                    cache: false,
+                    dataType: 'json',
+                    //action on successful post request
+                    success: function(data) {
+                        //process JSON
+                        // $.each(data.names, function(idx, name) {
+                        //     person += '<p data-id="' + name.id + '">' + name.name +
+                        //         '</p>';
+
+                        // });
+                        // resultDropdown.html(person);
+
+                    },
+                });
+            } else {
+                resultDropdown.empty();
+            }
+        });
     });
     </script>
 </body>
+
 </html>
 <style>
 .elementor-5666 .elementor-element.elementor-element-71ff039 {
