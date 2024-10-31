@@ -408,8 +408,6 @@
                         name: txt,
                         "_token": "{{ csrf_token() }}",
                     }, //Data to be submitted
-                    cache: false,
-                    dataType: 'json',
                     //action on successful post request
                     success: function(data) {
                         //process JSON
@@ -420,7 +418,7 @@
                         // });
                         // resultDropdown.html(person);
 
-                    },
+                    }
                 });
             } else {
                 resultDropdown.empty();
