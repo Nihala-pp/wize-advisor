@@ -21,6 +21,28 @@
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
+    <script type="text/javascript">
+    (function($) {
+        $(document).ready(function() {
+            $('#no_data').hide();
+            $('span.badge-warning a').click(function() {
+                var text = $(this).text();
+                var letter = $("#letter").val();
+                // alert(letter);
+
+                if (text != letter) {
+                    $("#no_data").show();
+                    $('html, body').animate({
+                        scrollTop: $("#no_data").offset().top
+                    }, 2000);
+                }
+                // alert(text);
+            });
+        }(jQuery));
+    });
+    </script>
+
+
 </head>
 
 <body
@@ -46,11 +68,11 @@
                         <div class="elementor-element elementor-element-6a08fa2 elementor-widget__width-initial elementor-widget elementor-widget-wpr-search"
                             data-id="6a08fa2" data-element_type="widget" data-widget_type="wpr-search.default">
                             <div class="elementor-widget-container">
-                                    <input type="text" id="searchTerm" class="form-control" autocomplete="off"
-                                        placeholder="e.g. Angel Investor, Venture Capital" name="search_term">
-                                    <input type="hidden" id="id" autocomplete="off" name="spouseid"
-                                        placeholder="Search Expertise">
-                                    <div class="result"></div>
+                                <input type="text" id="searchTerm" class="form-control" autocomplete="off"
+                                    placeholder="e.g. Angel Investor, Venture Capital" name="search_term">
+                                <input type="hidden" id="id" autocomplete="off" name="spouseid"
+                                    placeholder="Search Expertise">
+                                <div class="result"></div>
                             </div>
                         </div>
                     </div>
@@ -386,26 +408,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
     </script>
     <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
-    <script type="text/javascript">
-    (function($) {
-        $(document).ready(function() {
-            $('#no_data').hide();
-            $('span.badge-warning a').click(function() {
-                var text = $(this).text();
-                var letter = $("#letter").val();
-                // alert(letter);
 
-                if (text != letter) {
-                    $("#no_data").show();
-                    $('html, body').animate({
-                        scrollTop: $("#no_data").offset().top
-                    }, 2000);
-                }
-                // alert(text);
-            });
-        }(jQuery));
-    });
-    </script>
 </body>
 
 </html>
