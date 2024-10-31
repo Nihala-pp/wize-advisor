@@ -410,14 +410,11 @@
                 var person = "";
                 if (txt != '') {
                     $.ajax({
-                        type: "get", //submit method
+                        type: "GET", //submit method
                         url: "{{ route('searchTerm') }}", //url to sumitted data To
                         data: {
                             name: txt
-                        }, //Data to be submitted
-                        cache: false,
-                        dataType: 'json',
-                        //action on successful post request
+                        }, 
                         success: function(data) {
                             //process JSON
                             // $.each(data.names, function(idx, name) {
