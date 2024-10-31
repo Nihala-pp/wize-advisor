@@ -381,49 +381,52 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript">
     jQuery(document).ready(function() {
-    $('#no_data').hide();
-    $('span.badge-warning a').click(function() {
-        var text = $(this).text();
-        var letter = $("#letter").val();
-        // alert(letter);
+        $('#no_data').hide();
+        $('span.badge-warning a').click(function() {
+            var text = $(this).text();
+            var letter = $("#letter").val();
+            // alert(letter);
 
-        if (text != letter) {
-            $("#no_data").show();
-            $('html, body').animate({
-                scrollTop: $("#no_data").offset().top
-            }, 2000);
-        }
-        // alert(text);
-    });
+            if (text != letter) {
+                $("#no_data").show();
+                $('html, body').animate({
+                    scrollTop: $("#no_data").offset().top
+                }, 2000);
+            }
+            // alert(text);
+        });
 
-    $("#searchTerm").keyup(function() {
+        $("#searchTerm").keyup(function() {
             var txt = $(this).val();
             var resultDropdown = $(".result");
             var person = "";
             if (txt != '') {
                 $.ajax({
-                        type: "post", //submit method
-                        url: "{{ route('searchTerm')}}", //url to sumitted data To
-                        data: {
-                            name: txt,
-                            "_token": "{{ csrf_token() }}",
-                        }, //Data to be submitted
-                        //action on successful post request
-                        success: function(data) {
-                            //process JSON
-                            $.each(data.expertise, function(idx, name) {
-                                expertise += '<p data-id="' + name.id + '">' + name.name +
+                    type: "post", //submit method
+                    url: "{{ route('searchTerm')}}", //url to sumitted data To
+                    data: {
+                        name: txt,
+                        "_token": "{{ csrf_token() }}",
+                    }, //Data to be submitted
+                    //action on successful post request
+                    success: function(data) {
+                        //process JSON
+
+                        for (var key in response) {
+                            // $.each(data.expertise, function(idx, name) {
+                            expertise += '<p data-id="' + response['id'] + '">' + response[
+                                    'name'] +
                                 '</p>';
-                            }); 
-                            resultDropdown.html(expertise);
                         }
+                        // }); 
+                        resultDropdown.html(expertise);
+                    }
                 });
-            }
-           else {
+            } else {
                 resultDropdown.empty();
-           }
+            }
+        });
     });
-});
     </script>
 </body>
 
