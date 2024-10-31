@@ -41,7 +41,7 @@
                         </div>
                         <div class="elementor-element elementor-element-6a08fa2 elementor-widget__width-initial elementor-widget elementor-widget-wpr-search"
                             data-id="6a08fa2" data-element_type="widget" data-widget_type="wpr-search.default">
-                            <div class="elementor-widget-container">
+                            <div class="elementor-widget-container search-box">
                                 <input type="text" id="searchTerm" class="form-control" autocomplete="off"
                                     placeholder="e.g. Angel Investor, Venture Capital" name="search_term">
                                 <input type="hidden" id="id" autocomplete="off" name="spouseid"
@@ -413,8 +413,7 @@
                         response.forEach(function(value, key) {
                             //process JSON
                             expertise += '<p data-id="' + value.id +
-                                '"><a href="{{ route('browseMentor', ["' + value.name + '"]) }}"> '+ value.name +
-                                '</a></p>';
+                                '"></p>';
                         });
                         resultDropdown.html(expertise);
                     }
@@ -423,11 +422,23 @@
                 resultDropdown.empty();
             }
         });
-    
-        $(".result").click(function() {
 
-        });
-    
+        $(document).on("click", ".result p", function() {
+            //assign the value of person name to search input 
+            $(this).parents(".search-box").find('#searchTerm').val($(this).text());
+
+            //get the id 
+            var id = $(this).attr('data-id');
+
+            var expertise = $(this).text();
+            //set input id "id" value 
+            $("#id").val(id);
+            //clear search data
+            $(this).parent(".result").empty();
+
+            window.location.href = "https://wiseadvizor.com/BrowseMentors/" + expertise;
+
+        })
     });
     </script>
 </body>
