@@ -415,7 +415,7 @@
                 // alert(text);
             });
 
-            $("#searchTerm").keyup(function() {
+            $(document).on("keyup", "#searchTerm", function() {
                 var txt = $(this).val();
                 var resultDropdown = $(".result");
                 var person = "";
