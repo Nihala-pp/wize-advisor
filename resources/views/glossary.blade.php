@@ -639,6 +639,7 @@
     position: relative;
     display: inline-block;
     font-size: 14px;
+    color:black;
 }
 
 .search-box input[type="text"] {
@@ -646,6 +647,7 @@
     padding: 5px 10px;
     border: 1px solid #CCCCCC;
     font-size: 14px;
+    color:black;
 }
 
 .result {
@@ -660,6 +662,7 @@
     MARGIN-LEFT: 75PX;
     width: 84%;
     box-sizing: border-box;
+    color:black;
 }
 
 /* Formatting result items */
