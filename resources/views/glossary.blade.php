@@ -413,7 +413,7 @@
                         response.forEach(function(value, key) {
                             //process JSON
                             expertise += '<p data-id="' + value.id +
-                                '"><a href="{{ route('browseMentor', ['+ value.name +']) }}"> '+ value.name +
+                                '"><a href="{{ route('browseMentor', ["' + value.name + '"]) }}"> '+ value.name +
                                 '</a></p>';
                         });
                         resultDropdown.html(expertise);
