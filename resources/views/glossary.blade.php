@@ -422,8 +422,22 @@
                 resultDropdown.empty();
             }
         });
-    
 
+        $(document).on("click", ".result p", function() {
+            //assign the value of person name to search input 
+            $(this).parents(".search-box").find('#search').val($(this).text());
+
+            //get the id 
+            var id = $(this).attr('data-id');
+
+            var expertise = $(this).text();
+            //set input id "id" value 
+            $("#id").val(id);
+            //clear search data
+            $(this).parent(".result").empty();
+
+            window.location.href = "https://wiseadvizor.com/BrowseMentors/" + expertise;
+        });
     });
     </script>
 </body>
@@ -641,7 +655,7 @@
     position: relative;
     display: inline-block;
     font-size: 14px;
-    color:black;
+    color: black;
 }
 
 .search-box input[type="text"] {
@@ -649,7 +663,7 @@
     padding: 5px 10px;
     border: 1px solid #CCCCCC;
     font-size: 14px;
-    color:black;
+    color: black;
 }
 
 .result {
@@ -664,7 +678,7 @@
     MARGIN-LEFT: 75PX;
     width: 84%;
     box-sizing: border-box;
-    color:black;
+    color: black;
 }
 
 /* Formatting result items */
