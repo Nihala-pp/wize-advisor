@@ -411,7 +411,7 @@
                     //action on successful post request
                     success: function(response) {
                         if(response == "") {
-                            expertise += '<p data-id="">' 'No Data' '</p>';
+                            expertise += '<p data-id=""> No Data </p>';
                         }
 
                         response.forEach(function(value, key) {
