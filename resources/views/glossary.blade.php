@@ -452,7 +452,7 @@
 .elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title,
 .elementor-4349 .elementor-element.elementor-element-396fad8 .elementor-heading-title,
 .elementor-4349 .elementor-element.elementor-element-83f4aa0 .elementor-heading-title,
-.elementor-4349 .elementor-element.elementor-element-9aa895c .elementor-heading-title {
+.elementor-4349 .elementor-element.elementor-element-9aa895c .elementor-heading-title > p {
     text-align: center !important;
     color: #6161ff !important;
     font-family: Poppins, Sans-serif;
