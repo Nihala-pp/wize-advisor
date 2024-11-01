@@ -1256,7 +1256,7 @@ window.location.href = "https://wiseadvizor.com/faq";
 
   public function search_term(Request $request)
   {
-     $expertise =  ExpertiseList::query()
+     $expertise =  GlossaryTerms::query()
       ->where('name', 'LIKE', "{$request->name}%")
       ->get();
 
