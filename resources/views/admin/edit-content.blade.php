@@ -190,19 +190,6 @@
                                     </select>
                                 </div>
                                 <div>
-                                    <label class="form-label">Keywords (Type and Press Enter)</label>
-                                    <input name="Keywords[]" class="form-control" id="keywords-tags" data-color="dark"
-                                        type="text">
-                                </div>
-                                <div>
-                                    <label>Meta Title</label>
-                                    <textarea name="meta_title" class="form-control"></textarea>
-                                </div>
-                                <div>
-                                    <label>Meta Description</label>
-                                    <textarea name="meta_description" class="form-control"></textarea>
-                                </div>
-                                <div>
                                     <label>Description</label>
                                     <textarea id="summernote" name="description" class="form-control"
                                         required></textarea>
@@ -214,6 +201,8 @@
             </div>
         </div>
         <script type="text/javascript">
+        $('#summernote').summernote();
+
         if (document.getElementById('choices-button')) {
             var element = document.getElementById('choices-button');
             const example = new Choices(element, {});
