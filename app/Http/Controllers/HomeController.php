@@ -1259,21 +1259,18 @@ window.location.href = "https://wiseadvizor.com/faq";
        $glossaries =  GlossaryTerms::query()
       ->where('terms', 'LIKE', "{$request->name}%")
       ->get();
-
+    if(count($glossaries)) {
       foreach($glossaries as $glossary) {
          $term_data[] = [
              'name' => $glossary->terms,
              'id' => $glossary->id
          ];
       }
+    }
+     else {
+        $term_data = "No Data";
+    }
 
-      if(!empty($term_data)) {
-        $data = "No Data";
-      }
-      else {
-        $data = $term_data;
-      }
-
-      return $data;
+      return $term_data;
   }
 }
