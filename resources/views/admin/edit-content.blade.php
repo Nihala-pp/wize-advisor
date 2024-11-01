@@ -169,7 +169,8 @@
                                 @csrf
                                 <div class="input-group input-group-dynamic is-filled">
                                     <label for="exampleFormControlInput1" class="form-label">Letter</label>
-                                    <input type="text" name="letter" class="form-control" value="{{ $glossary->letter }}" readonly>
+                                    <input type="text" name="letter" class="form-control"
+                                        value="{{ $glossary->letter }}" readonly>
                                 </div>
                                 <div>
                                     <label>Terms</label>
@@ -179,7 +180,12 @@
                                         $terms = json_encode($glossary->terms[0]);
                                         @endphp
                                         @foreach (json_decode($terms) as $key => $term )
-                                        <option value="{{ $term }}">{{ $term }}</option>
+                                        @php
+                                        $all_terms = explode(",", $term);
+                                        @endphp
+                                        @foreach ($all_terms as $value)
+                                        <option value="{{ $value }}">{{ $value }}</option>
+                                        @endforeach
                                         @endforeach
                                     </select>
                                 </div>
