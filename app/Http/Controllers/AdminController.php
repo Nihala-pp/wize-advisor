@@ -705,4 +705,10 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
         return $terms_data;
     }
+
+    public function content_edit($id) {
+        
+
+      
+    }
 }
