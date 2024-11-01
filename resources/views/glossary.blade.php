@@ -399,7 +399,7 @@
         $("#searchTerm").keyup(function() {
             var txt = $(this).val();
             var resultDropdown = $(".result");
-            var terms = "";
+            var expertise = "";
             if (txt != '') {
                 $.ajax({
                     type: "post", //submit method
@@ -412,7 +412,7 @@
                     success: function(response) {
                         response.forEach(function(value, key) {
                             //process JSON
-                            terms += '<p data-id="' + value.id +
+                            expertise += '<p data-id="' + value.id +
                                 '">' + value.terms + '</p>';
                         });
                         resultDropdown.html(terms);
