@@ -625,8 +625,11 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
     }
 
-    public function edit_glossary()
+    public function edit_glossary(Request $request)
     {
+        $glossary = Glossaries::find($request->Id);
+
+        return view('admin.edit-glossary', compact('glossary'));
 
     }
 

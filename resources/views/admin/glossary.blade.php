@@ -340,8 +340,6 @@
                             <button type="submit" class="btn bg-gradient-primary">Save changes</button>
                         </div>
                     </form>
-                    <!-- <div class="modal-body editAvailability">
-                    </div> -->
                 </div>
             </div>
         </div>
