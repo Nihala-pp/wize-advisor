@@ -654,7 +654,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
                 $term_exist = GlossaryTerms::where('terms', $value)->first();
 
-                if(($request->row_id) && !($term_exist)) {
+                if(($request->row_id) && empty($term_exist)) {
 
                     if($value !== $term_exist) {
                         GlossaryTerms::create([
@@ -663,7 +663,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
                         ]);
                     }
                 }
-                else {
+                elseif(empty($request->row_id)) {
                    $all_terms = [
                     'terms' => $value,
                     'slug' => Str::slug($value)
