@@ -147,7 +147,8 @@
                             data-id="bff9c11" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-heading-title elementor-size-default"><a
-                                        href="{{ route('glossary-term', [Str::slug($value)]) }}" target="_blank">{{ $value }}</a>
+                                        href="{{ route('glossary-term', [Str::slug($value)]) }}"
+                                        target="_blank">{{ $value }}</a>
                                 </div>
                             </div>
                         </div>
@@ -397,56 +398,68 @@
         });
 
         $("#searchTerm").keyup(function() {
-                var txt = $(this).val();
-                var resultDropdown = $(".result");
-                var expertise = "";
-                if (txt != '') {
-                    $.ajax({
-                            type: "post", //submit method
-                            url: "{{ route('searchTerm')}}", //url to sumitted data To
-                            data: {
-                                name: txt,
-                                "_token": "{{ csrf_token() }}",
-                            }, //Data to be submitted
-                            //action on successful post request
-                            success: function(response) {
-                                if (response == "No Data") {
-                                    expertise += '<p data-id=""> ' + response + '</p>';
-                                } else {
-                                    response.forEach(function(value, key) {
-                                        //process JSON
-                                        expertise += '<p data-id="' + value.id +
-                                            '">' + value.name + '</p>';
-                                    });
-                                }
-                                resultDropdown.html(expertise);
-                            }
-                    });
-                }
-                else {
-                    resultDropdown.empty();
-                 }
+            var txt = $(this).val();
+            var resultDropdown = $(".result");
+            var expertise = "";
+            if (txt != '') {
+                $.ajax({
+                    type: "post", //submit method
+                    url: "{{ route('searchTerm')}}", //url to sumitted data To
+                    data: {
+                        name: txt,
+                        "_token": "{{ csrf_token() }}",
+                    }, //Data to be submitted
+                    //action on successful post request
+                    success: function(response) {
+                        if (response == "No Data") {
+                            expertise += '<p data-id=""> ' + response + '</p>';
+                        } else {
+                            response.forEach(function(value, key) {
+                                //process JSON
+                                expertise += '<p data-id="' + value.id +
+                                    '">' + value.name + '</p>';
+                            });
+                        }
+                        resultDropdown.html(expertise);
+                    }
+                });
+            } else {
+                resultDropdown.empty();
+            }
         });
 
-    $(document).on("click", ".result p", function() {
-        //assign the value of person name to search input 
-        $(this).parents(".search-box").find('#searchTerm').val($(this).text());
+        $(document).on("click", ".result p", function() {
+            //assign the value of person name to search input 
+            $(this).parents(".search-box").find('#searchTerm').val($(this).text());
 
-        //get the id 
-        // var id = $(this).attr('data-id');
+            //get the id 
+            // var id = $(this).attr('data-id');
 
-        var expertise = $(this).text();
-        $(this).parent(".result").empty();
-        //set input id "id" value 
-        // $("#id").val(id);
-        //clear search data
-        window.open("https://wiseadvizor.com/glossary/" + expertise.toLowerCase().replace(/[\*\^\'\!]/g, '').split(' ').join('-'), '_blank');
-    });
+            var expertise = $(this).text();
+            $(this).parent(".result").empty();
+            //set input id "id" value 
+            // $("#id").val(id);
+            //clear search data
+            window.open("https://wiseadvizor.com/glossary/" + expertise.toLowerCase().replace(
+                /[\*\^\'\!]/g, '').split(' ').join('-'), '_blank');
+        });
     });
     </script>
 </body>
+
 </html>
 <style>
+.elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title,
+.elementor-4349 .elementor-element.elementor-element-396fad8 .elementor-heading-title,
+.elementor-4349 .elementor-element.elementor-element-83f4aa0 .elementor-heading-title,
+.elementor-4349 .elementor-element.elementor-element-9aa895c .elementor-heading-title {
+    text-align: center !important;
+    color: #6161ff;
+    font-family: Poppins, Sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+
 .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
     margin: 0px 0px 0px 75px;
     padding: 0px 0px 0px 0px;
