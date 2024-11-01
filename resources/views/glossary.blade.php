@@ -399,7 +399,7 @@
         $("#searchTerm").keyup(function() {
             var txt = $(this).val();
             var resultDropdown = $(".result");
-            var expertise = "";
+            var terms = "";
             if (txt != '') {
                 $.ajax({
                     type: "post", //submit method
@@ -412,10 +412,10 @@
                     success: function(response) {
                         response.forEach(function(value, key) {
                             //process JSON
-                            expertise += '<p data-id="' + value.id +
-                                '">' + value.name + '</p>';
+                            terms += '<p data-id="' + value.id +
+                                '">' + value.terms + '</p>';
                         });
-                        resultDropdown.html(expertise);
+                        resultDropdown.html(terms);
                     }
                 });
             } else {
