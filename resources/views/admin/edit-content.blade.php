@@ -191,7 +191,7 @@
                                 </div>
                                 <div>
                                     <label>Description</label>
-                                    <textarea id="summernote" name="description" class="form-control"
+                                    <textarea id="summernote desc" name="description" class="form-control"
                                         required></textarea>
                                 </div>
                             </form>
@@ -202,6 +202,22 @@
         </div>
         <script type="text/javascript">
         $('#summernote').summernote();
+
+        $('.terms').change(function() {
+            var term = $('#terms :selected').text();
+            $.ajax({
+                url: "{{ route('admin.mentors.glossary.getContent') }}",
+                type: "GET",
+                data: {
+                    'term': term
+                },
+                success: function(response) {
+                    for (var key in response) {
+                        $("#desc").val(response);
+                    }
+                }
+            });
+        });
 
         if (document.getElementById('choices-button')) {
             var element = document.getElementById('choices-button');
@@ -223,5 +239,4 @@
         }
         </script>
 </body>
-
 </html>
