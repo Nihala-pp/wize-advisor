@@ -634,8 +634,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
     }
 
     public function save_glossary(Request $request)
-    {2
-
+    {
         $data = [
             'letter' => $request->letter,
             'terms' => $request->glossary
