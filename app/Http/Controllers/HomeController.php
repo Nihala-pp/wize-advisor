@@ -1261,10 +1261,17 @@ window.location.href = "https://wiseadvizor.com/faq";
       ->get();
 
       foreach($glossaries as $glossary) {
-         $data[] = [
+         $term_data[] = [
              'name' => $glossary->terms,
              'id' => $glossary->id
          ];
+      }
+
+      if(!empty($term_data)) {
+        $data = "No Data";
+      }
+      else {
+        $data = $term_data;
       }
 
       return $data;
