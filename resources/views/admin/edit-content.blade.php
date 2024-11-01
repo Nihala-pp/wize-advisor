@@ -191,7 +191,7 @@
                                 </div>
                                 <div>
                                     <label>Description</label>
-                                    <textarea id="summernote desc" name="description" class="form-control"
+                                    <textarea id="summernote" name="description" class="form-control"
                                         required></textarea>
                                 </div>
                             </form>
@@ -211,8 +211,7 @@
                         'term': term
                     },
                     success: function(response) {
-                        $('#summernote').summernote('code', response);
-
+                        $(".summernote").summernote("code", response);
                     }
                 });
             });
