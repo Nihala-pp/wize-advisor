@@ -201,19 +201,22 @@
             </div>
         </div>
         <script type="text/javascript">
-        $('.terms').change(function() {
-                    var term = $('#terms :selected').text();
-                    $.ajax(
-                        url: "{{ route('admin.mentors.glossary.getContent') }}",
-                        type: "GET",
-                        data: {
-                            'term': term
-                        },
-                        success: function(response) {
-                            $('#summernote').summernote('code', response);
+        jQuery(document).ready(function() {
+            $('.terms').change(function() {
+                var term = $('#terms :selected').text();
+                $.ajax({
+                    url: "{{ route('admin.mentors.glossary.getContent') }}",
+                    type: "GET",
+                    data: {
+                        'term': term
+                    },
+                    success: function(response) {
+                        $('#summernote').summernote('code', response);
 
-                        }
-                    });
+                    }
+                });
+            });
+        });
         </script>
 </body>
 
