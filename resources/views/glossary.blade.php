@@ -440,12 +440,11 @@
         //set input id "id" value 
         // $("#id").val(id);
         //clear search data
-        window.open("https://wiseadvizor.com/glossary/" + expertise, '_blank');
+        window.open("https://wiseadvizor.com/glossary/" + expertise.toLowerCase().replace(/[\*\^\'\!]/g, '').split(' ').join('-'), '_blank');
     });
     });
     </script>
 </body>
-
 </html>
 <style>
 .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
