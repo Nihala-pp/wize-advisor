@@ -176,14 +176,7 @@
                                 <div>
                                     <label class="form-label">Terms (Type and Press Enter)</label>
                                     <input name="glossary[0][terms]" class="form-control" id="terms-tags"
-                                        data-color="dark" type="text"  required value="
-                                          @php
-                                            $terms = $glossary->terms ? json_decode($glossary->terms) : '';
-                                          @endphp
-                                          @foreach($terms as $term)
-                                            {{ $term ?? '' }}
-                                          @endforeach
-                                        ">
+                                        data-color="dark" type="text" required value="{{ $term ?? '' }}">
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
