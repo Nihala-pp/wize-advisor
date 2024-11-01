@@ -680,7 +680,7 @@
 
 .search-box input[type="text"],
 .result {
-    MARGIN-LEFT: 75PX;
+    margin-left:0px;
     width: 84%;
     box-sizing: border-box;
     color: black;
