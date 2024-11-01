@@ -182,7 +182,7 @@ Route::controller(AdminController::class)
         Route::get('/mentors/resources', 'resources')->name('mentors.resources');
         Route::get('/mentors/events', 'events')->name('mentors.events');
         Route::get('/glossary', 'glossary')->name('mentors.glossary');
-        Route::get('/glossary/delete', 'delete_glossary')->name('mentors.glossary.delete');
+        Route::get('/glossary/content_edit/{id?}', 'delete_glossary')->name('mentors.glossary.content.edit');
         Route::get('/glossary/edit/{id?}', 'edit_glossary')->name('mentors.glossary.edit');
         Route::post('/glossary/save', 'save_glossary')->name('mentors.glossary.save');
         Route::post('/glossary/content/save', 'save_glossary_content')->name('mentors.glossary.content.save');

@@ -204,12 +204,12 @@
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group ">
-                                                    <a href="{{ route('admin.mentors.glossary.edit', [$glossaries->id])  }}" class="btn btn-block edit">Edit
+                                                    <a href="{{ route('admin.mentors.glossary.edit', [$glossaries->id])  }}" class="btn btn-block edit">Edit Letter
                                                         <i class="fa fa-edit"></i></a>
                                                     <a href="{{ route('admin.mentors.glossary.delete', [$glossaries->id]) }}"
                                                         class="text-secondary font-weight-bold text-xs"
                                                         data-toggle="tooltip" data-original-title="Delete expertise">
-                                                        Delete
+                                                        Edit Term content
                                                     </a>
                                                 </div>
                                             </td>
