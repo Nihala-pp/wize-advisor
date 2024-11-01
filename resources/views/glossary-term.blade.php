@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>{{ $data->terms  }}.</title>
+    <title>{{ $data->meta_title  }}.</title>
     <meta name="description" content="{{ $data->meta_desc }}">
     <meta name="keywords" content="@php $keywords=json_decode($data->keywords); @endphp
     @foreach ($keywords as $keyword){{ $keyword }} @endforeach
