@@ -478,7 +478,7 @@
     padding: 0px 0px 0px 0px;
 }
 
-.elementor-5666 .elementor-element.elementor-element-bff9c11 .elementor-heading-title {
+.elementor-5666 .elementor-element.elementor-element-bff9c11 .elementor-heading-title > a {
    color:#d4cecc !important;
 }
 @media (max-width: 767px) {
