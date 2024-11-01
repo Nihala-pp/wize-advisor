@@ -178,7 +178,7 @@
                                     @php
                                       $terms = json_encode($glossary->terms[0]);
                                     @endphp
-                                    @foreach ($terms as $key => $term )
+                                    @foreach (json_decode($terms) as $key => $term )
 
                                     <input name="glossary[0][terms]" class="form-control" id="terms-tags"
                                         data-color="dark" type="text" required value="{{ $term ?? '' }}">
