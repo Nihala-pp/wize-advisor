@@ -505,7 +505,7 @@
         max-width: 42%;
         --container-widget-width: 42%;
         --container-widget-flex-grow: 0;
-        margin-left: 120px;
+        margin-left: 75px;
     }
 
     .elementor-5666 .elementor-element.elementor-element-5f4d5bce0 {
