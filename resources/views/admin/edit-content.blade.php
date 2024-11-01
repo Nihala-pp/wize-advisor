@@ -164,7 +164,7 @@
                             </div>
                         </div>
                         <div class="card-body px-0 pb-2">
-                            <form method="POST" action="{{ route('admin.mentors.glossary.content.save') }}"
+                            <form method="POST" action="{{ route('admin.mentors.glossary.content.update') }}"
                                 enctype="multipart/form-data">
                                 @csrf
                                 <div class="input-group input-group-dynamic is-filled">
@@ -194,6 +194,8 @@
                                     <textarea id="summernote" name="description" class="form-control"
                                         required></textarea>
                                 </div>
+                                <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
+                                        class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
                             </form>
                         </div>
                     </div>

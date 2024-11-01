@@ -719,4 +719,12 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
         return $content->description;
     }
+
+    public function update_glossary_content(Request $request) {
+
+        GlossaryTerms::where('terms', $request->terms)->update([
+            'terms' => $request->terms,
+            'description' => $request->description
+        ]);
+    }
 }
