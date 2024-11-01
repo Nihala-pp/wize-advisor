@@ -298,10 +298,10 @@
                                                 }
                                                 </style>
                                                 <p></p>
-                                                <div>Level up your startup with personalized advice from the
-                                                    world&#8217;s top startup mentors. Overcome roadblocks, gain fresh
-                                                    perspectives, and propel your business forward with 1:1 coaching
-                                                    calls tailored to your specific challenges.<br></div>
+                                                <div>Get direct access to experienced professionals for immediate,
+                                                    tailored advice on your unique startup challenges.
+                                                    <br>
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="elementor-element elementor-element-617417d elementor-align-justify elementor-widget elementor-widget-button"
@@ -481,8 +481,7 @@
     @include('partials.footer-web')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
-    <script 
-        src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
         id="hfe-frontend-js-js"></script>
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
@@ -606,14 +605,11 @@
         }
     };
     </script>
-    <script 
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
         id="elementor-frontend-js"></script>
-    <script 
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
+    <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
     </script>
-    <script  async
-        src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
+    <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
