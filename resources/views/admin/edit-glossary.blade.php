@@ -180,8 +180,8 @@
                                           @php
                                             $terms = $glossary->terms ? json_decode($glossary->terms) : '';
                                           @endphp
-                                        @foreach($glossary->terms as $terms)
-                                            {{ $terms ?? '' }}
+                                          @foreach($terms as $term)
+                                            {{ $term ?? '' }}
                                           @endforeach
                                         ">
                                 </div>
