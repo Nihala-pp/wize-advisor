@@ -478,6 +478,9 @@
     padding: 0px 0px 0px 0px;
 }
 
+.elementor-5666 .elementor-element.elementor-element-bff9c11 .elementor-heading-title {
+   color:#d4cecc !important;
+}
 @media (max-width: 767px) {
     .elementor-5666 .elementor-element.elementor-element-53afbe6 {
         width: 50% !important;
@@ -680,7 +683,7 @@
 
 .search-box input[type="text"],
 .result {
-    margin-left:0px;
+    margin-left: 0px;
     width: 84%;
     box-sizing: border-box;
     color: black;
