@@ -415,7 +415,7 @@
                             expertise += '<p data-id="' + value.id +
                                 '">' + value.terms + '</p>';
                         });
-                        resultDropdown.html(terms);
+                        resultDropdown.html(expertise);
                     }
                 });
             } else {
