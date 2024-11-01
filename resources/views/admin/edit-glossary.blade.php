@@ -177,7 +177,10 @@
                                     <label class="form-label">Terms (Type and Press Enter)</label>
                                     <input name="glossary[0][terms]" class="form-control" id="terms-tags"
                                         data-color="dark" type="text"  required value="
-                                          @foreach($glossary->terms as $terms)
+                                          @php
+                                            $terms = $glossary->terms ? json_decode($glossary->terms) : '';
+                                          @endphp
+                                        @foreach($glossary->terms as $terms)
                                             {{ $terms ?? '' }}
                                           @endforeach
                                         ">
