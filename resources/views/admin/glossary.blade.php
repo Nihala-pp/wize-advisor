@@ -204,9 +204,8 @@
                                             </td>
                                             <td class="align-middle text-center text-sm">
                                                 <div class="avatar-group ">
-                                                    <button type="button" class="btn btn-block edit"
-                                                        data-id="{{ $glossaries->id }}">Edit
-                                                        <i class="fa fa-edit"></button></i>
+                                                    <a href="{{ route('admin.mentors.glossary.edit', [$glossaries->id])  }}" class="btn btn-block edit">Edit
+                                                        <i class="fa fa-edit"></i></a>
                                                     <a href="{{ route('admin.mentors.glossary.delete', [$glossaries->id]) }}"
                                                         class="text-secondary font-weight-bold text-xs"
                                                         data-toggle="tooltip" data-original-title="Delete expertise">
@@ -320,7 +319,7 @@
                 </div>
             </div>
         </div>
-        <div class="modal" id="edit_glossary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
+        <!-- <div class="modal" id="edit_glossary" tabindex="-1" role="dialog" aria-labelledby="myModalLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
@@ -342,7 +341,7 @@
                     </form>
                 </div>
             </div>
-        </div>
+        </div> -->
         <script type="text/javascript">
         const dataTableBasic = new simpleDatatables.DataTable("#datatable-basic", {
             searchable: true,
@@ -351,21 +350,6 @@
 
         $('#summernote').summernote();
 
-        $('body').on('click', '.edit', function() {
-            var Id = $(this).data('id');
-            $.ajax({
-                url: "{{ route('admin.mentors.glossary.edit') }}",
-
-                type: "GET",
-                data: {
-                    'Id': Id
-                },
-                success: function(response) {
-                    $("#edit_glossary .modal-body").html(response);
-                    $(".edit_glossary").modal('show');
-                }
-            });
-        });
 
         $('.letter').change(function() {
             var letter = $('#letter :selected').text();
