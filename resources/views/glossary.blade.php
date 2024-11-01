@@ -147,7 +147,7 @@
                             data-id="bff9c11" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
                                 <div class="elementor-heading-title elementor-size-default"><a
-                                        href="{{ route('glossary-term', [Str::slug($value)]) }}">{{ $value }}</a>
+                                        href="{{ route('glossary-term', [Str::slug($value)]) }}" target="_blank">{{ $value }}</a>
                                 </div>
                             </div>
                         </div>
