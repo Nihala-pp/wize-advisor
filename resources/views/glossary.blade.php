@@ -397,53 +397,56 @@
         });
 
         $("#searchTerm").keyup(function() {
-            var txt = $(this).val();
-            var resultDropdown = $(".result");
-            var expertise = "";
-            if (txt != '') {
-                $.ajax({
-                    type: "post", //submit method
-                    url: "{{ route('searchTerm')}}", //url to sumitted data To
-                    data: {
-                        name: txt,
-                        "_token": "{{ csrf_token() }}",
-                    }, //Data to be submitted
-                    //action on successful post request
-                    success: function(response) {
-                        if(response == "") {
-                            expertise += '<p data-id=""> No Data </p>';
-                        }
+                var txt = $(this).val();
+                var resultDropdown = $(".result");
+                var expertise = "";
+                if (txt != '') {
+                    $.ajax({
+                            type: "post", //submit method
+                            url: "{{ route('searchTerm')}}", //url to sumitted data To
+                            data: {
+                                name: txt,
+                                "_token": "{{ csrf_token() }}",
+                            }, //Data to be submitted
+                            //action on successful post request
+                            success: function(response) {
+                                if (response == "No Data") {
+                                    expertise += '<p data-id=""> ' + response + '</p>';
+                                } else {
 
-                        response.forEach(function(value, key) {
-                            //process JSON
-                            expertise += '<p data-id="' + value.id +
-                                '">' + value.name + '</p>';
-                        });
-                        resultDropdown.html(expertise);
-                    }
-                });
+                                    response.forEach(function(value, key) {
+                                        //process JSON
+                                        expertise += '<p data-id="' + value.id +
+                                            '">' + value.name + '</p>';
+                                    });
+                                }
+                                resultDropdown.html(expertise);
+                            }
+                        }
+                    });
             } else {
                 resultDropdown.empty();
             }
         });
 
-        $(document).on("click", ".result p", function() {
-            //assign the value of person name to search input 
-            $(this).parents(".search-box").find('#searchTerm').val($(this).text());
+    $(document).on("click", ".result p", function() {
+        //assign the value of person name to search input 
+        $(this).parents(".search-box").find('#searchTerm').val($(this).text());
 
-            //get the id 
-            // var id = $(this).attr('data-id');
+        //get the id 
+        // var id = $(this).attr('data-id');
 
-            var expertise = $(this).text();
-            $(this).parent(".result").empty();
-            //set input id "id" value 
-            // $("#id").val(id);
-            //clear search data
-            window.open("https://wiseadvizor.com/glossary/" + expertise, '_blank');
-        });
+        var expertise = $(this).text();
+        $(this).parent(".result").empty();
+        //set input id "id" value 
+        // $("#id").val(id);
+        //clear search data
+        window.open("https://wiseadvizor.com/glossary/" + expertise, '_blank');
+    });
     });
     </script>
 </body>
+
 </html>
 <style>
 .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
