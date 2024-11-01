@@ -447,7 +447,7 @@
                                             data-id="9f5ff1a" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>{{ Str::of(strip_tags($related_mentor->metaData->bio_1))->words(15, ' ....') }}
+                                                <p>{{ Str::of(strip_tags($related_mentor->metaData->bio_1))->words(14, ' ....') }}
                                                 </p>
                                             </div>
                                         </div>
