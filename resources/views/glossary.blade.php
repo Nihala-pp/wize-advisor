@@ -454,7 +454,7 @@
 .elementor-4349 .elementor-element.elementor-element-83f4aa0 .elementor-heading-title,
 .elementor-4349 .elementor-element.elementor-element-9aa895c .elementor-heading-title {
     text-align: center !important;
-    color: #6161ff;
+    color: #6161ff !important;
     font-family: Poppins, Sans-serif;
     font-size: 12px;
     font-weight: 400;
