@@ -1256,14 +1256,14 @@ window.location.href = "https://wiseadvizor.com/faq";
 
   public function search_term(Request $request)
   {
-     $expertise =  GlossaryTerms::query()
-      ->where('name', 'LIKE', "{$request->name}%")
+       $glossaries =  GlossaryTerms::query()
+      ->where('terms', 'LIKE', "{$request->name}%")
       ->get();
 
-      foreach($expertise as $expert) {
+      foreach($glossaries as $glossary) {
          $data[] = [
-             'name' => $expert->name,
-             'id' => $expert->id
+             'name' => $glossary->terms,
+             'id' => $glossary->id
          ];
       }
 
