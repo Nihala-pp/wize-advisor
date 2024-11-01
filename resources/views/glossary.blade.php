@@ -410,6 +410,10 @@
                     }, //Data to be submitted
                     //action on successful post request
                     success: function(response) {
+                        if(response == "") {
+                            expertise += '<p data-id="">' 'No Data' '</p>';
+                        }
+
                         response.forEach(function(value, key) {
                             //process JSON
                             expertise += '<p data-id="' + value.id +
