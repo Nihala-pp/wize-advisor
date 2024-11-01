@@ -176,7 +176,7 @@
                                 <div>
                                     <label class="form-label">Terms (Type and Press Enter)</label>
                                     @php
-                                      $terms = json_decode($glossary->terms['terms'], true);
+                                      $terms = json_decode($glossary->terms[0], true);
                                     @endphp
                                     @foreach ($terms as $key => $term )
 
