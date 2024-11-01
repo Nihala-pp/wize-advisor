@@ -449,17 +449,6 @@
 
 </html>
 <style>
-.elementor-4349 .elementor-element.elementor-element-0859462 .elementor-heading-title,
-.elementor-4349 .elementor-element.elementor-element-396fad8 .elementor-heading-title,
-.elementor-4349 .elementor-element.elementor-element-83f4aa0 .elementor-heading-title,
-.elementor-4349 .elementor-element.elementor-element-9aa895c .elementor-heading-title > p {
-    text-align: center !important;
-    color: #6161ff !important;
-    font-family: Poppins, Sans-serif;
-    font-size: 12px;
-    font-weight: 400;
-}
-
 .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
     margin: 0px 0px 0px 75px;
     padding: 0px 0px 0px 0px;
