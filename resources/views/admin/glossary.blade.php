@@ -206,7 +206,7 @@
                                                 <div class="avatar-group ">
                                                     <a href="{{ route('admin.mentors.glossary.edit', [$glossaries->id])  }}" class="btn btn-block edit">Edit Letter
                                                         <i class="fa fa-edit"></i></a>
-                                                    <a href="{{ route('admin.mentors.glossary.delete', [$glossaries->id]) }}"
+                                                    <a href="{{ route('admin.mentors.glossary.content.edit', [$glossaries->id]) }}"
                                                         class="text-secondary font-weight-bold text-xs"
                                                         data-toggle="tooltip" data-original-title="Delete expertise">
                                                         Edit Term content

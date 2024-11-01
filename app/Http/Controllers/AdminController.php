@@ -708,7 +708,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
 
     public function content_edit($id) {
         
-
+        return view('admin.edit-content');
       
     }
 }
