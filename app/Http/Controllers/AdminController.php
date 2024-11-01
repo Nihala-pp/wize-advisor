@@ -634,7 +634,7 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
     }
 
     public function save_glossary(Request $request)
-    {
+    {2
 
         $data = [
             'letter' => $request->letter,
@@ -652,15 +652,28 @@ window.location.href = "https://wiseadvizor.com/admin/reviews";
             $terms = explode(",", $term['terms']);
 
             foreach ($terms as $value) {
-                $all_terms = [
+
+                $term_exist = GlossaryTerms::where('terms', $value)->first();
+
+                if(($request->row_id) && !($term_exist)) {
+
+                    if($value !== $term_exist) {
+                        GlossaryTerms::create([
+                            'terms' => $value,
+                            'slug' => Str::slug($value)
+                        ]);
+                    }
+                }
+                else {
+                   $all_terms = [
                     'terms' => $value,
                     'slug' => Str::slug($value)
-                ];
+                   ];
 
-                GlossaryTerms::updateOrCreate(
-                    ['id' => $request->row_id],
+                    GlossaryTerms::create(
                     $all_terms
-                );
+                   );
+                }
             }
         }
     }
