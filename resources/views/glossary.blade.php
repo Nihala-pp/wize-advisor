@@ -413,7 +413,6 @@
                                 if (response == "No Data") {
                                     expertise += '<p data-id=""> ' + response + '</p>';
                                 } else {
-
                                     response.forEach(function(value, key) {
                                         //process JSON
                                         expertise += '<p data-id="' + value.id +
@@ -422,11 +421,11 @@
                                 }
                                 resultDropdown.html(expertise);
                             }
-                        }
                     });
-            } else {
-                resultDropdown.empty();
-            }
+                }
+                else {
+                    resultDropdown.empty();
+                 }
         });
 
     $(document).on("click", ".result p", function() {
