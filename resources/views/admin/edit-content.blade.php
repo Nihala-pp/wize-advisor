@@ -212,9 +212,7 @@
                     'term': term
                 },
                 success: function(response) {
-                    for (var key in response) {
                         $("#desc").val(response);
-                    }
                 }
             });
         });
