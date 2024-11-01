@@ -481,6 +481,30 @@
 .elementor-5666 .elementor-element.elementor-element-bff9c11 .elementor-heading-title > a {
    color:#d4cecc !important;
 }
+
+i.fas.fa-chevron-down {
+    margin-top: -30px;
+    padding-left: 10px !important;
+    font-size: 9px !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-60f0ea5:not(.elementor-motion-effects-element-type-background),
+.elementor-32 .elementor-element.elementor-element-60f0ea5>.elementor-motion-effects-container>.elementor-motion-effects-layer {
+    background-color: #000;
+    background-image: linear-gradient(90deg, #000 0%, #000 100%);
+}
+
+i.fas.fa-bell.fa-2xl {
+    font-size: 32px !important;
+}
+
+.ehf-header #masthead {
+    /* margin-top: -35px; */
+    z-index: 99;
+    position: relative;
+}
 @media (max-width: 767px) {
     .elementor-5666 .elementor-element.elementor-element-53afbe6 {
         width: 50% !important;
