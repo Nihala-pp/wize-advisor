@@ -170,12 +170,6 @@
                                 <div class="input-group input-group-dynamic is-filled">
                                     <label for="exampleFormControlInput1" class="form-label">Letter</label>
                                     <input type="text" name="letter" class="form-control" value="{{ $glossary->letter }}" readonly>
-                                    <!-- <select class="select form-control letter" id="letter" name="letter" required>
-                                        <option value="">Choose any</option>
-                                        @foreach($glossary as $glossaries)
-                                        <option value="{{ $glossaries->letter }}">{{$glossaries->letter }}</option>
-                                        @endforeach
-                                    </select> -->
                                 </div>
                                 <div>
                                     <label>Terms</label>
