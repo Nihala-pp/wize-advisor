@@ -167,44 +167,16 @@
                             <form method="POST" enctype="multipart/form-data"
                                 action="{{ route('admin.mentors.glossary.save') }}">
                                 @csrf
-                                <input type="hidden" name="row_id" class="form-control" value="{{ $blogs->id }}">
+                                <input type="hidden" name="row_id" class="form-control" value="{{ $glossary->id }}">
                                 <div class="input-group input-group-static mb-4">
-                                    <label>Title</label>
-                                    <input type="text" name="title" class="form-control" value="{{ $blogs->title ?? '' }}">
+                                    <label>Letter</label>
+                                    <input type="text" name="letter" class="form-control"
+                                        value="{{ $glossary->letter ?? '' }}">
                                 </div>
-                                <!-- <div class="input-group input-group-static mb-4">
-                                    <label>Introduction</label>
-                                    <textarea id="summernote_1" name="introduction" class="form-control">{{ $blogs->intro ?? '' }}</textarea>
-                                </div> -->
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Description</label>
-                                    <textarea id="summernote" name="description" class="form-control">{{ $blogs->description ?? '' }}</textarea>
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Category</label>
-                                    <select class="select form-control" name="category_id" required>
-                                        @foreach ($category as $cat)
-                                        <option value="{{ $cat->id }}" {{ $blogs->category_id == $cat->id  ? 'selected' : '' }}>
-                                            {{ $cat->name }}
-                                        </option>
-                                        @endforeach
-                                    </select>
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Author Name</label>
-                                    <input type="text" name="author_name" class="form-control" value="{{ $blogs->author_name ?? '' }}">
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Time to read</label>
-                                    <input type="number" name="time_to_read" class="form-control" value="{{ $blogs->time_to_read ?? '' }}">
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Featured Image</label>
-                                    <input type="file" name="featured_image" class="form-control">
-                                </div>
-                                <div class="input-group input-group-static mb-4">
-                                    <label>Image</label>
-                                    <input type="file" name="image" class="form-control">
+                                <div>
+                                    <label class="form-label">Terms (Type and Press Enter)</label>
+                                    <input name="glossary[0][terms]" class="form-control" id="terms-tags"
+                                        data-color="dark" type="text" required>
                                 </div>
                                 <button type="submit" name="submitform" id="submitform" class="btn btn-primary"><i
                                         class="fa-solid mx-1 fa-floppy-disk"></i>{{ __('Save') }}</button>
@@ -214,11 +186,25 @@
                 </div>
             </div>
         </div>
-        <script>
-        $(document).ready(function() {
-            $('#summernote').summernote();
-            $('#summernote_1').summernote();
-        });
+        <script type="text/javascript">
+        if (document.getElementById('choices-button')) {
+            var element = document.getElementById('choices-button');
+            const example = new Choices(element, {});
+        }
+        var choicesTags = document.getElementById('terms-tags');
+        var color = choicesTags.dataset.color;
+        if (choicesTags) {
+            const example = new Choices(choicesTags, {
+                delimiter: ',',
+                editItems: true,
+                maxItemCount: 10,
+                removeItemButton: true,
+                addItems: true,
+                classNames: {
+                    item: 'badge rounded-pill choices-' + color + ' me-2'
+                }
+            });
+        }
         </script>
 </body>
 
