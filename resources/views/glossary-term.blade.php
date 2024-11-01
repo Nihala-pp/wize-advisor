@@ -447,7 +447,7 @@
                                             data-id="9f5ff1a" data-element_type="widget"
                                             data-widget_type="text-editor.default">
                                             <div class="elementor-widget-container">
-                                                <p>{{ Str::limit($related_mentor->metaData->bio_1, 113, (' ....')) }}
+                                                <p>{{ Str::limit($related_mentor->metaData->bio_1, 103, (' ....')) }}
                                                 </p>
                                             </div>
                                         </div>
