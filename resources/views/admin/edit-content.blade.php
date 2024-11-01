@@ -211,7 +211,7 @@
                         'term': term
                     },
                     success: function(response) {
-                        $(".summernote").summernote("code", response);
+                        $("#summernote").summernote("code", response);
                     }
                 });
             });
