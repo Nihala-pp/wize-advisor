@@ -175,7 +175,7 @@
                                 </div>
                                 <div>
                                     <label class="form-label">Terms (Type and Press Enter)</label>
-                                    @foreach ( $glossary->terms as $key => $term )
+                                    @foreach (json_decode($glossary->terms) as $key => $term )
 
                                     <input name="glossary[0][terms]" class="form-control" id="terms-tags"
                                         data-color="dark" type="text" required value="{{ $term ?? '' }}">
