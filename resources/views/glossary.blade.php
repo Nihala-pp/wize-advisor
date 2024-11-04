@@ -454,6 +454,34 @@
     color:#ffff !important;
 }
 
+.elementor-32 .elementor-element.elementor-element-7b6d864 .elementor-heading-title > a {
+    color:#ffff !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-aaf88ad .elementor-heading-title > a {
+    color:#ffff !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-b23aa07 .elementor-heading-title > a {
+    color:#ffff !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-269f902 .elementor-heading-title > a {
+    color:#ffff !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-32f5614 .elementor-heading-title > a {
+    color:#ffff !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-159e6db .elementor-heading-title > a {
+    color:#ffff !important;
+}
+
+.elementor-32 .elementor-element.elementor-element-5db6379 .elementor-heading-title > a {
+    color:#ffff !important;
+}
+
 .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
     margin: 0px 0px 0px 75px;
     padding: 0px 0px 0px 0px;
