@@ -449,6 +449,11 @@
 
 </html>
 <style>
+
+.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title {
+    color:#fff !important;
+}
+
 .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
     margin: 0px 0px 0px 75px;
     padding: 0px 0px 0px 0px;
