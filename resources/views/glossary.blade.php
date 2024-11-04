@@ -35,8 +35,8 @@
                         <div class="elementor-element elementor-element-2819e6c9 elementor-widget elementor-widget-heading"
                             data-id="2819e6c9" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <h4 class="elementor-heading-title elementor-size-default">Glossary
-                                    terms for Startups</h4>
+                                <h1 class="elementor-heading-title elementor-size-default">Glossary
+                                    terms for Startups</h1>
                             </div>
                         </div>
                         <div class="elementor-element elementor-element-6a08fa2 elementor-widget__width-initial elementor-widget elementor-widget-wpr-search"

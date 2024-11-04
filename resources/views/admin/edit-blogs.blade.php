@@ -156,10 +156,6 @@
                                     <h6 class="mb-0">Edit Blogs</h6>
                                 </div>
                                 <div class="col-6 text-end">
-                                    <!-- <button type="button" class="btn bg-gradient-primary" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">
-                                        + New Blogs
-                                    </button> -->
                                 </div>
                             </div>
                         </div>
