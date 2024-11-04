@@ -368,7 +368,7 @@
                         <div class="elementor-element elementor-element-6047abf elementor-widget elementor-widget-image"
                             data-id="6047abf" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img decoding="async" width="750" height="375"
+                                <img loading="lazy" decoding="async" width="750" height="375"
                                     src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $related_post->image }}"
                                     class="attachment-large size-large wp-image-6398 lazyload"
                                     alt="{{ $related_post->title }}"
