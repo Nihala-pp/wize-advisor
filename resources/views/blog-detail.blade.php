@@ -193,7 +193,7 @@
                         <div class="elementor-element elementor-element-476b628 elementor-widget elementor-widget-image"
                             data-id="476b628" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="967" height="384"
+                                <img loading="eager" decoding="async" width="967" height="384"
                                     src="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }}"
                                     class="attachment-full size-full wp-image-6396" alt="{{ $selectedBlog->title }}"
                                     srcset="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 967w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 300w, {{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }} 1300w"
@@ -435,7 +435,7 @@
     @include('partials.test')
     <link async rel='stylesheet' id='post-4349-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.min.css?ver=1717513898' media='all' />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    <link async href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     @include('partials.footer-web')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
