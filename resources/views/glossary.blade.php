@@ -450,7 +450,7 @@
 </html>
 <style>
 
-.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title {
+.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title > a {
     color:#ffff !important;
 }
 
