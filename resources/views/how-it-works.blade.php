@@ -568,7 +568,6 @@
         href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5225.css?ver=1722102336" media="all">
     @include('partials.test')
     @include('partials.footer-web')
-
     <script id="elementor-frontend-js-before">
     var elementorFrontendConfig = {
         "environmentMode": {
@@ -1030,5 +1029,4 @@ i.fas.fa-bell.fa-2xl {
     } */
 }
 </style>
-
 </html>
