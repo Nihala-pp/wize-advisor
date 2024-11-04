@@ -433,7 +433,7 @@
         </section>
     </div>
     @include('partials.test')
-    <link rel='stylesheet' id='post-4349-css'
+    <link async rel='stylesheet' id='post-4349-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.min.css?ver=1717513898' media='all' />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
