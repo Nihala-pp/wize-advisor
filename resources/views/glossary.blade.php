@@ -13,7 +13,7 @@
     <script async data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
-    <link rel="canonical" href="https://wiseadvizor.com/glossary/" />
+    <link rel="canonical" href="https://wiseadvizor.com/glossary">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
