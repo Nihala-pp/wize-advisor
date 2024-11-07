@@ -543,7 +543,7 @@
                                                     <a href="{{ route('register', [$token, $id]) }}"
                                                         class="text-primary text-gradient font-weight-bold">
                                                         @if(!empty($name))
-                                                        Register Here!<span class="text">and Schedule call with
+                                                        Register Here! <span class="text">and Schedule call with
                                                             {{ $name }}</span>
                                                         @elseif(!empty($token))
                                                         Create Account <span class="text">and Schedule call with
