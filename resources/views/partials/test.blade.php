@@ -24,7 +24,7 @@
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css?ver=5.15.3"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style" id="elementor-post-5-css"
-    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.css?ver=1699355418"
+    href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-5.min.css?ver=1699355418"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="preload" as="style"
     href="https://wiseadvizor.com/wp-content/plugins/sticky-header-effects-for-elementor/assets/css/she-header-style.min.css?ver=1.6.5"
