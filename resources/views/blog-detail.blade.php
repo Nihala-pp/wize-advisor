@@ -132,7 +132,7 @@
                                                     display: inline-block
                                                 }
                                                 </style> <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }}"
+                                                    src="{{ asset('wp-content/uploads/2024/05/BluePNG.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-5883"
                                                     alt="startup success"
                                                     srcset="{{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 150w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 700w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 650w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 1300w, {{ asset('wp-content/uploads/2024/05/BluePNG.jpg') }} 98w"
