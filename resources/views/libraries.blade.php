@@ -56,8 +56,8 @@
     </div>
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
     id="jquery-core-js"></script>
-    <!-- <link rel='stylesheet' id='elementor-post-2-css'
-        href='https://ivygroupco.com/wp-content/uploads/elementor/css/post-2.css?ver=1704468111' media='all' /> -->
+    <link rel='stylesheet' id='elementor-post-2-css'
+        href='https://ivygroupco.com/wp-content/uploads/elementor/css/post-2.css?ver=1704468111' media='all' />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
     @include('partials.test')
 
