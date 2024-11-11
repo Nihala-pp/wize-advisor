@@ -35,7 +35,6 @@
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-5666 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.7.1 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-5666">
     @include('partials.header-common')
@@ -463,7 +462,6 @@
     });
     </script>
 </body>
-
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title>a {
