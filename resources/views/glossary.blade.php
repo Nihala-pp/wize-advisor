@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -8,6 +7,24 @@
     <meta name="description"
         content="Explore our extensive startup glossary featuring vital entrepreneurship terms. Gain insights into the language of startups and elevate your business growth.">
     <meta name="keywords" content="entrepreneurship terms, startup glossary, startup terms">
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Book 1:1 call with top startup mentors on wiseAdvizor">
+    <meta property="og:description"
+        content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
+    <meta property="og:image"
+        content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+    <meta property="og:url"
+        content="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(string: Str::slug($data->name)) }}">
+    <meta property="og:site_name" content="wiseAdvizor" />
+    <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
+    <meta name="twitter:description"
+        content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
+    <meta name="twitter:url"
+        content="https://wiseadvizor.com/mentors/{{ $data->id }}/{{ ucfirst(Str::slug($data->name)) }}">
+    <meta name="twitter:image"
+        url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
+    <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content='max-image-preview:large' />
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async data-cfasync="false"
@@ -449,36 +466,36 @@
 
 </html>
 <style>
-.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title > a {
-    color:#ffff !important;
+.elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title>a {
+    color: #ffff !important;
 }
 
-.elementor-32 .elementor-element.elementor-element-7b6d864 .elementor-heading-title > a {
-    color:#ffff !important;
+.elementor-32 .elementor-element.elementor-element-7b6d864 .elementor-heading-title>a {
+    color: #ffff !important;
 }
 
-.elementor-32 .elementor-element.elementor-element-aaf88ad .elementor-heading-title > a {
-    color:#ffff !important;
+.elementor-32 .elementor-element.elementor-element-aaf88ad .elementor-heading-title>a {
+    color: #ffff !important;
 }
 
-.elementor-32 .elementor-element.elementor-element-b23aa07 .elementor-heading-title > a {
-    color:#ffff !important;
+.elementor-32 .elementor-element.elementor-element-b23aa07 .elementor-heading-title>a {
+    color: #ffff !important;
 }
 
-.elementor-32 .elementor-element.elementor-element-269f902 .elementor-heading-title > a {
-    color:#ffff !important;
+.elementor-32 .elementor-element.elementor-element-269f902 .elementor-heading-title>a {
+    color: #ffff !important;
 }
 
-.elementor-32 .elementor-element.elementor-element-32f5614 .elementor-heading-title > a {
-    color:#ffff !important;
+.elementor-32 .elementor-element.elementor-element-32f5614 .elementor-heading-title>a {
+    color: #ffff !important;
 }
 
-.elementor-32 .elementor-element.elementor-element-159e6db .elementor-heading-title > a {
-    color:#ffff !important;
+.elementor-32 .elementor-element.elementor-element-159e6db .elementor-heading-title>a {
+    color: #ffff !important;
 }
 
-.elementor-32 .elementor-element.elementor-element-5db6379 .elementor-heading-title > a {
-    color:#ffff !important;
+.elementor-32 .elementor-element.elementor-element-5db6379 .elementor-heading-title>a {
+    color: #ffff !important;
 }
 
 .elementor-5666 .elementor-element.elementor-element-6a08fa2>.elementor-widget-container {
@@ -510,8 +527,8 @@
     padding: 0px 0px 0px 0px;
 }
 
-.elementor-5666 .elementor-element.elementor-element-bff9c11 .elementor-heading-title > a {
-   color:#d4cecc !important;
+.elementor-5666 .elementor-element.elementor-element-bff9c11 .elementor-heading-title>a {
+    color: #d4cecc !important;
 }
 
 i.fas.fa-chevron-down {
@@ -537,6 +554,7 @@ i.fas.fa-bell.fa-2xl {
     z-index: 99;
     position: relative;
 }
+
 @media (max-width: 767px) {
     .elementor-5666 .elementor-element.elementor-element-53afbe6 {
         width: 50% !important;
