@@ -127,10 +127,10 @@
                                                 }
                                                 </style>
                                                 <img decoding="async" width="150" height="150"
-                                                    src="{{ asset('wp-content/uploads/2024/06/Ankur.jpg') }}"
+                                                    src="{{ asset('wp-content/uploads/2024/06/Ankur.webp') }}"
                                                     class="attachment-thumbnail size-thumbnail wp-image-5883"
                                                     alt="startup success"
-                                                    srcset="{{ asset('wp-content/uploads/2024/06/Ankur.jpg') }} 150w, {{ asset('wp-content/uploads/2024/06/Ankur.jpg') }} 700w, {{ asset('wp-content/uploads/2024/06/Ankur.jpg') }} 650w, {{ asset('wp-content/uploads/2024/06/Ankur.jpg') }} 1300w, {{ asset('wp-content/uploads/2024/06/Ankur.jpg') }} 98w"
+                                                    srcset="{{ asset('wp-content/uploads/2024/06/Ankur.webp') }} 150w, {{ asset('wp-content/uploads/2024/06/Ankur.webp') }} 700w, {{ asset('wp-content/uploads/2024/06/Ankur.webp') }} 650w, {{ asset('wp-content/uploads/2024/06/Ankur.webp') }} 1300w, {{ asset('wp-content/uploads/2024/06/Ankur.webp') }} 98w"
                                                     sizes="(max-width: 150px) 100vw, 150px"
                                                     style="width:100%;height:100%;max-width:40px" />
                                             </div>
