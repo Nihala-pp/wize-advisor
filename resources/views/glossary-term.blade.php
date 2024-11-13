@@ -405,7 +405,7 @@
                         <div class="elementor-element elementor-element-6047abf elementor-widget elementor-widget-image"
                             data-id="6047abf" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img decoding="async" width="750" height="375"
+                                <img loading="lazy" decoding="async" width="750" height="375"
                                     src="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }}"
                                     class="attachment-large size-large wp-image-6398 lazyload" alt="{{ $data->terms }}"
                                     srcset="{{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1024w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 300w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 768w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1536w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 2048w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1568w, {{ asset('wp-content/uploads/2024/02') }}/{{ $related_mentor->metaData->pro_pic_1 }} 1300w"
