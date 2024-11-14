@@ -435,6 +435,8 @@
         </section>
     </div>
     @include('partials.test')
+    <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
+        id="jquery-core-js"></script>
     <link async rel='stylesheet' id='post-4349-css'
         href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-4350.min.css?ver=1717513898' media='all' />
     <link defer href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -585,6 +587,7 @@
     });
     </script>
 </body>
+
 </html>
 <style>
 /* html,
