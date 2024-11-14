@@ -836,7 +836,7 @@
                                         href="{{ route('schedule-call', [$suggested_mentor->id, ucfirst(Str::slug($suggested_mentor->name))]) }}"
                                         style="background-color: #4285f4;">
                                         <span class="wpr-button-content">
-                                            <span class="wpr-button-text" style="padding-top:5px">Book
+                                            <span class="wpr-button-text" style="padding-top:10px">Book
                                                 Session</span>
                                         </span>
                                     </a>
