@@ -136,7 +136,7 @@ var elementorFrontendConfig = {
 </script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
     id="elementor-frontend-js"></script>
-<script id="elementor-pro-frontend-js-before">
+<!-- <script id="elementor-pro-frontend-js-before">
 var ElementorProFrontendConfig = {
     "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
     "nonce": "3a5ad37dc1",
@@ -220,8 +220,8 @@ var ElementorProFrontendConfig = {
         "defaultAnimationUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
     }
 };
-</script>
-<script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
+</script> -->
+<!-- <script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
     id="elementor-pro-frontend-js"></script>
 <script async src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
     id="pro-elements-handlers-js"></script>
@@ -229,7 +229,7 @@ var ElementorProFrontendConfig = {
 </script>
 <script
     src="{{ asset('public/wp-content/plugins/wpforms-lite/assets/js/integrations/elementor/frontend.min.js?ver=1.8.2.2') }}"
-    id="wpforms-elementor-js"></script>
+    id="wpforms-elementor-js"></script> -->
 <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
 </script>
 <script defer src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
