@@ -1429,6 +1429,11 @@
     border-width: 1px;
 }
 
+.elementor-7754 .elementor-element.elementor-element-00747b5 .wpr-button-wrap {
+    margin-left: 160px;
+    max-width: 100px;
+}
+
 .elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-title {
     font-family: "Helvetica", Sans-serif;
     font-size: 16px;
