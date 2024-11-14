@@ -1609,6 +1609,15 @@ i.fas.fa-bell.fa-2xl {
         margin-left: -75px;
     }
 
+    .elementor-7754 .elementor-element.elementor-element-89a31e1 .elementor-image-box-title {
+        margin-top: 20px;
+        margin-bottom: 0px;
+        color: #FFFFFF;
+        font-family: "Roboto", Sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
     #message {
         margin-top: 20px;
         padding-left: 10px
