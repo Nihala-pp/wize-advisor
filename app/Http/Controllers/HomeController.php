@@ -472,12 +472,15 @@ class HomeController extends Controller
         'duration' => 'once',
       ]);
       // }
-    } elseif ($data['discount_code'] == $referral_code_used) {
-      $discount_value = UserMeta::where('referral_code', $referral_code_used)->first() ? UserMeta::where('referral_code', $referral_code_used)->first()->referral_discount_value : '';
-      $coupon = $stripe->coupons->create([
-        'percent_off' => $discount_value,
-        'duration' => 'once',
-      ]);
+    } elseif (!empty($data['discount_code'])) {
+
+      if ($data['discount_code'] == $referral_code_used) {
+        $discount_value = UserMeta::where('referral_code', $referral_code_used)->first() ? UserMeta::where('referral_code', $referral_code_used)->first()->referral_discount_value : '';
+        $coupon = $stripe->coupons->create([
+          'percent_off' => $discount_value,
+          'duration' => 'once',
+        ]);
+      }
     }
     // else {
     //   $coupon = $stripe->coupons->create([
@@ -502,7 +505,7 @@ class HomeController extends Controller
             'quantity' => 1,
           ],
         ],
-        'discounts' => [['coupon' => $coupon['id'] ]],
+        'discounts' => [['coupon' => $coupon['id']]],
         'mode' => 'payment',
         'success_url' => route('success', [$call['id']]),
         'cancel_url' => route('cancel'),
@@ -514,8 +517,8 @@ class HomeController extends Controller
             'price_data' => [
               'currency' => 'usd',
               'product_data' => [
-                  'name' => $data['duration'] . ' Minute meeting with ' . $mentor->name,
-                ],
+                'name' => $data['duration'] . ' Minute meeting with ' . $mentor->name,
+              ],
               'unit_amount_decimal' => round($price)
             ],
             'quantity' => 1,
@@ -1072,8 +1075,8 @@ class HomeController extends Controller
         'amount' => $price_per_call,
         'paymentMethodNonce' => $nonceFromTheClient,
         'options' => [
-            'submitForSettlement' => True
-          ]
+          'submitForSettlement' => True
+        ]
       ]);
 
       try {
