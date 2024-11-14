@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -14,14 +15,12 @@
         content="wiseAdvizor connects you with experienced startup mentors who understand your startup. Get personalized mentorship to avoid costly mistakes, unlock sustainable growth, and achieve your business goals.">
     <meta property="og:image"
         content="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
-    <meta property="og:url"
-        content="https://wiseadvizor.com/glossary">
+    <meta property="og:url" content="https://wiseadvizor.com/glossary">
     <meta property="og:site_name" content="wiseAdvizor" />
     <meta name="twitter:title" content="Schedule a 1:1 session with top-tier mentors for your startup success">
     <meta name="twitter:description"
         content="Connect directly with entrepreneurs and industry leaders on wiseAdvizor. Seek guidance, discuss challenges, and get expert advice to grow your startup.">
-    <meta name="twitter:url"
-        content="https://wiseadvizor.com/mentors/glossary">
+    <meta name="twitter:url" content="https://wiseadvizor.com/mentors/glossary">
     <meta name="twitter:image"
         url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
     <meta name="twitter:card" content="summary_large_image">
@@ -35,6 +34,7 @@
     <meta name="generator"
         content="Elementor 3.24.7; features: additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-5666 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.7.1 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-5666">
     @include('partials.header-common')
@@ -396,6 +396,8 @@
     <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
     <script type="text/javascript">
     jQuery(document).ready(function() {
         $('#no_data').hide();
@@ -462,6 +464,7 @@
     });
     </script>
 </body>
+
 </html>
 <style>
 .elementor-32 .elementor-element.elementor-element-b84e421 .elementor-heading-title>a {
