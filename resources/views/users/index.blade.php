@@ -1411,7 +1411,7 @@
     min-width: 123px;
     border-width: 0px 0px 0px 0px;
     border-radius: 0px 0px 0px 0px;
-    min-height: 50px;
+    /* min-height: 50px; */
 }
 
 .elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-content {
@@ -1701,7 +1701,7 @@ i.fas.fa-bell.fa-2xl {
         background-color: #605BE5;
         border-color: #E8E8E8;
         min-width: 42px;
-        min-height: 43.5px;
+        /* min-height: 43.5px; */
         border-width: 0px 0px 0px 0px;
         border-radius: 0px 0px 0px 0px;
     }
