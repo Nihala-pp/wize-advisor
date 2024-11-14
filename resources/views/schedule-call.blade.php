@@ -45,7 +45,7 @@
         color: #fff !important;
     }
     </style>
-    @include('partials.web-style')
+    @include('partials.test')
 
     <script src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js">
     </script>
