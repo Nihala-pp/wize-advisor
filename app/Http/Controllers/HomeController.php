@@ -502,7 +502,7 @@ class HomeController extends Controller
             'quantity' => 1,
           ],
         ],
-        'discounts' => [['coupon' => $coupon_id ?: 0]],
+        'discounts' => [['coupon' => $coupon['id'] ]],
         'mode' => 'payment',
         'success_url' => route('success', [$call['id']]),
         'cancel_url' => route('cancel'),
