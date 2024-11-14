@@ -482,6 +482,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       $discount_value = 0;
       $coupon = null;
     }
+    dd($data['price']);
 
     $price = $data['price'] * 100;
 
