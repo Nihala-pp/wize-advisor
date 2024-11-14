@@ -489,7 +489,6 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     $price = $data['price'] * 100;
 
     if (!$coupon) {
-    dd("adsewr");
       $coupon_id = null;
     } else {
       $coupon_id = $coupon['id'];
