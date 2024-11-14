@@ -1603,6 +1603,11 @@ i.fas.fa-bell.fa-2xl {
         overflow-x: hidden;
     }
 
+    .elementor-7754 .elementor-element.elementor-element-ce8b0b8>.elementor-widget-container {
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 110px;
+    }
+
     .elementor-7754 .elementor-element.elementor-element-00747b5.wpr-button-icon-style-inline .wpr-button {
         height: 25px;
         padding: 0px 0px 5px 0px;
