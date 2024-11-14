@@ -1407,6 +1407,7 @@
     min-width: 123px;
     border-width: 0px 0px 0px 0px;
     border-radius: 0px 0px 0px 0px;
+    min-height: 50px;
 }
 
 .elementor-7754 .elementor-element.elementor-element-3b55da2 .elementor-tab-content {
