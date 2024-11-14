@@ -63,8 +63,8 @@
                                             class="form-control @error('password') is-invalid @enderror"
                                             name="password_confirmation" autocomplete="current-password">
                                     </div> -->
-                                    <button type="submit" name="submitform" id="submitform"
-                                        class="btn savePassword" style="background-color:#000 !important;color:#fff !important;text-transform:capitalize !important;" >{{ __('Save') }}</button>
+                                    <button type="submit" name="submitform" id="submitform" class="btn savePassword"
+                                        style="background-color:#000 !important;color:#fff !important;text-transform:capitalize !important;">{{ __('Save') }}</button>
                                 </form>
                             </div>
                         </div>
@@ -81,6 +81,8 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.bundle.min.js"></script>
+    <script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
     <script type="text/javascript">
     $(function() {
         // validate_pass();
@@ -198,8 +200,7 @@ h6 {
 
 button#submitform.btn.btn-primary.savePassword {
     background-color: #000 !important;
-    color:#fff !important
-    text-transform: capitalize !important;
+    color: #fff !important text-transform: capitalize !important;
 }
 
 .btn:hover {
@@ -405,4 +406,5 @@ button#submitform.btn.btn-primary.savePassword {
     content: "✖";
 }
 </style>
+
 </html>
