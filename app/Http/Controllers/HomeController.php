@@ -479,10 +479,12 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         'duration' => 'once',
       ]);
     } 
-    // else {
-    //   $discount_value = round(0);
-    //   $coupon = null;
-    // }
+    else {
+      $coupon = $stripe->coupons->create([
+        'percent_off' => 0,
+        'duration' => 'once',
+      ]);
+    }
 
     $price = $data['price'] * 100;
 
