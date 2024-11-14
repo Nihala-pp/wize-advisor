@@ -1364,7 +1364,7 @@
         <link rel='stylesheet' id='elementor-post-7754-css'
             href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7754.css?ver=1725863782' media='all' />
         <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
-        @include('partials.web-style')
+        @include('partials.test')
 
         @include('partials.footer-web')
 
