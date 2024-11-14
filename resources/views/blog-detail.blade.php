@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     @if($selectedBlog->keywords)
@@ -35,12 +36,14 @@
     <link rel="canonical"
         href="https://wiseadvizor.com/blogs/{{ $selectedBlog->id }}/{{ Str::slug($selectedBlog->title) }}">
     <link rel="preload" fetchpriority="high"
-        href="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }}" as="image" type="image/webp">    
+        href="{{ asset('public/wp-content/uploads/2024/06') }}/{{ $selectedBlog->image }}" as="image" type="image/webp">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
     <link rel="preload" as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
-    <script async data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
+    <script async data-cfasync="false"
+        src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-4349 page-child parent-pageid-18 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-4349">
     @include('partials.header-common')
@@ -439,6 +442,8 @@
     @include('partials.footer-web')
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1"
         id="jquery-core-js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+    </script>
     <script type="text/javascript">
     jQuery(document).ready(function() {
 
@@ -450,6 +455,7 @@
     });
     </script>
 </body>
+
 </html>
 <style>
 /* html,
