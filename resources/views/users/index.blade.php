@@ -1372,6 +1372,11 @@
 
 </html>
 <style>
+.elementor-7754 .elementor-element.elementor-element-ce8b0b8>.elementor-widget-container {
+    margin: 0px 0px 0px 185px;
+    padding: 0px 80px 0px 130px;
+}
+
 .elementor-7754 .elementor-element.elementor-element-22c27c7c .wpr-dual-title .second {
     padding-top: 5px;
     padding-left: 120px;
@@ -1902,13 +1907,15 @@ i.fas.fa-bell.fa-2xl {
         });
 
         $('#shareWithFb').click(function() {
-            var url ="https://www.facebook.com/sharer/sharer.php?u=" + copiedLink + "&t=" + formattedBody;
+            var url = "https://www.facebook.com/sharer/sharer.php?u=" + copiedLink + "&t=" +
+                formattedBody;
             window.open(url, 'facebook-share-dialog', "width=626, height=436");
         });
 
         $('#shareWithMail').click(function() {
             var link = document.getElementById("referral_link").value;
-            var message ="Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don't miss out—Sign up now!";
+            var message =
+                "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don't miss out—Sign up now!";
             var mailToLink = "mailto:?subject= " + message + link;
             window.location.href = mailToLink;
         });
