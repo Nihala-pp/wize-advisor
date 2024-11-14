@@ -1011,6 +1011,10 @@
     </script>
     <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
+    <script defer src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688661372') }}"
+        id="theplus-front-js-js"></script>
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
+        id="hfe-frontend-js-js"></script>
     <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
