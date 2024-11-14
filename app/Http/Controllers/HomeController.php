@@ -492,7 +492,6 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
       $coupon_id = null;
     } else {
       $coupon_id = $coupon['id'];
-
     }
 
     // $session = Session::create([
@@ -519,7 +518,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
           'quantity' => 1,
         ],
       ],
-      'discounts' => [['coupon' => $coupon_id]],
+      'discounts' => [['coupon' => $coupon_id ?: 0]],
       'mode' => 'payment',
       'success_url' => route('success', [$call['id']]),
       'cancel_url' => route('cancel'),
