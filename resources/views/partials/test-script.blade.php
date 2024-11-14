@@ -4,8 +4,6 @@
     id="wpr-addons-js-js"></script>
 <script defer src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688661372') }}"
     id="theplus-front-js-js"></script>
-<script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
-    id="hfe-frontend-js-js"></script>
 <script src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
     id="wpr-addons-js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/webpack.runtime.min.js') }}">
@@ -136,99 +134,7 @@ var elementorFrontendConfig = {
 </script>
 <script src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend.min.js?ver=3.14.1') }}"
     id="elementor-frontend-js"></script>
-<script defer
-    src="{{ asset('public/wp-content/plugins/qi-addons-for-elementor/inc/plugins/elementor/assets/js/elementor.min.js?ver=6.2.2') }}"
-    id="qi-addons-for-elementor-elementor-js"></script>
-<script id="elementor-pro-frontend-js-before">
-var ElementorProFrontendConfig = {
-    "ajaxurl": "https:\/\/wiseadvizor.com\/wp-admin\/admin-ajax.php",
-    "nonce": "3a5ad37dc1",
-    "urls": {
-        "assets": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/assets\/",
-        "rest": "https:\/\/wiseadvizor.com\/wp-json\/"
-    },
-    "i18n": {
-        "toc_no_headings_found": "No headings were found on this page."
-    },
-    "shareButtonsNetworks": {
-        "facebook": {
-            "title": "Facebook",
-            "has_counter": true
-        },
-        "twitter": {
-            "title": "Twitter"
-        },
-        "linkedin": {
-            "title": "LinkedIn",
-            "has_counter": true
-        },
-        "pinterest": {
-            "title": "Pinterest",
-            "has_counter": true
-        },
-        "reddit": {
-            "title": "Reddit",
-            "has_counter": true
-        },
-        "vk": {
-            "title": "VK",
-            "has_counter": true
-        },
-        "odnoklassniki": {
-            "title": "OK",
-            "has_counter": true
-        },
-        "tumblr": {
-            "title": "Tumblr"
-        },
-        "digg": {
-            "title": "Digg"
-        },
-        "skype": {
-            "title": "Skype"
-        },
-        "stumbleupon": {
-            "title": "StumbleUpon",
-            "has_counter": true
-        },
-        "mix": {
-            "title": "Mix"
-        },
-        "telegram": {
-            "title": "Telegram"
-        },
-        "pocket": {
-            "title": "Pocket",
-            "has_counter": true
-        },
-        "xing": {
-            "title": "XING",
-            "has_counter": true
-        },
-        "whatsapp": {
-            "title": "WhatsApp"
-        },
-        "email": {
-            "title": "Email"
-        },
-        "print": {
-            "title": "Print"
-        }
-    },
-    "facebook_sdk": {
-        "lang": "en_US",
-        "app_id": ""
-    },
-    "lottie": {
-        "defaultAnimationUrl": "https:\/\/wiseadvizor.com\/wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"
-    }
-};
-</script>
-<script src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/frontend.min.js?ver=3.5.0') }}"
-    id="elementor-pro-frontend-js"></script>
-<script async src="{{ asset('public/wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js?ver=3.5.0') }}"
-    id="pro-elements-handlers-js"></script>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
+<script async type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
 </script>
 <script defer src="{{ asset('public/assets/js/lazysizes.min.js') }}"></script>
 <!--Start of Tawk.to Script-->
