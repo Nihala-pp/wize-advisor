@@ -488,7 +488,7 @@ class HomeController extends Controller
 
     $price = $data['price'] * 100;
 
-    if (!$coupon) {
+    if (!empty($coupon)) {
       $session = Session::create([
         'line_items' => [
           [
