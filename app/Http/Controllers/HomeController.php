@@ -488,7 +488,7 @@ class HomeController extends Controller
 
     $price = $data['price'] * 100;
 
-    if ($coupon) {
+    if (!$coupon) {
       $session = Session::create([
         'line_items' => [
           [
@@ -502,7 +502,6 @@ class HomeController extends Controller
             'quantity' => 1,
           ],
         ],
-        'discounts' => [['coupon' => $coupon['id'] ]],
         'mode' => 'payment',
         'success_url' => route('success', [$call['id']]),
         'cancel_url' => route('cancel'),
@@ -521,6 +520,7 @@ class HomeController extends Controller
             'quantity' => 1,
           ],
         ],
+        'discounts' => [['coupon' => $coupon['id'] ]],
         'mode' => 'payment',
         'success_url' => route('success', [$call['id']]),
         'cancel_url' => route('cancel'),
