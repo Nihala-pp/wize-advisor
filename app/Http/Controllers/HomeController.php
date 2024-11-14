@@ -489,6 +489,7 @@ class HomeController extends Controller
     $price = $data['price'] * 100;
 
     if (!$coupon) {
+      dd("rtgrtry");
       $session = Session::create([
         'line_items' => [
           [
