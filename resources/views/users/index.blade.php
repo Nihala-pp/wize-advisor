@@ -17,10 +17,10 @@
         content="Elementor 3.21.6; features: e_optimized_assets_loading, e_optimized_css_loading, additional_custom_breakpoints; settings: css_print_method-external, google_font-enabled, font_display-swap">
 </head>
 
-<body
+<
     class="page-template page-template-elementor_canvas page page-id-7754 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.7.1 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-7754">
     @include('partials.header-common')
-    <div id="page" class="site">
+    < id="page" class="site">
         <div id="content" class="site-content">
             <div id="primary" class="content-area">
                 <main id="main" class="site-main">
@@ -705,7 +705,9 @@
                                     </div>
                                 </div>
                             </div>
+                        </section>
                     </div>
+                </main>
             </div>
         </div>
         </section>
@@ -1353,22 +1355,22 @@
                 </div>
             </div>
         </section>
-    </div>
+        </div>
 
-    <link rel="stylesheet" id="elementor-post-3007-css"
-        href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
-    <link rel='stylesheet' id='elementor-post-32-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1719392983' media='all' />
-    <link rel='stylesheet' id='elementor-post-7754-css'
-        href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7754.css?ver=1725863782' media='all' />
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
-    @include('partials.web-style')
+        <link rel="stylesheet" id="elementor-post-3007-css"
+            href="https://wiseadvizor.com/wp-content/uploads/elementor/css/post-3007.css?ver=1688644136" media="all">
+        <link rel='stylesheet' id='elementor-post-32-css'
+            href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-32.css?ver=1719392983' media='all' />
+        <link rel='stylesheet' id='elementor-post-7754-css'
+            href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7754.css?ver=1725863782' media='all' />
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css" rel="stylesheet" async>
+        @include('partials.web-style')
 
-    @include('partials.footer-web')
+        @include('partials.footer-web')
 
-    @include('partials.web-script')
-    </div>
-</body>
+        @include('partials.web-script')
+        </div>
+        </body>
 
 </html>
 <style>
@@ -1896,13 +1898,15 @@ i.fas.fa-bell.fa-2xl {
         });
 
         $('#shareWithFb').click(function() {
-            var url ="https://www.facebook.com/sharer/sharer.php?u=" + copiedLink + "&t=" + formattedBody;
+            var url = "https://www.facebook.com/sharer/sharer.php?u=" + copiedLink + "&t=" +
+                formattedBody;
             window.open(url, 'facebook-share-dialog', "width=626, height=436");
         });
 
         $('#shareWithMail').click(function() {
             var link = document.getElementById("referral_link").value;
-            var message ="Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don't miss out—Sign up now!";
+            var message =
+                "Sign up on wiseAdvizor with this link and get 35% off your first call with a mentor! 🎉  Connect 1: 1 with startup mentors, founders, and industry leaders for personalized guidance. Don't miss out—Sign up now!";
             var mailToLink = "mailto:?subject= " + message + link;
             window.location.href = mailToLink;
         });
