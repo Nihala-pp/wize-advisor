@@ -329,7 +329,7 @@
                                                     class="wpr-search-form"
                                                     action="{{ route('user.searchExpertise') }}">
                                                     <div class="wpr-search-form-input-wrap elementor-clearfix">
-                                                        <select name="expertise" class="wpr-search-form-input expertise"
+                                                        <select name="expertise" class="wpr-search-form-input form-control expertise"
                                                             placeholder="e.g. Idea Validation, Fund Raising"
                                                             aria-label="Search" type="search" title="Search" value=""
                                                             wpr-query-type="all" wpr-taxonomy-type=""
