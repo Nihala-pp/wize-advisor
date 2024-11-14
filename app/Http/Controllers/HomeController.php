@@ -109,10 +109,10 @@ class HomeController extends Controller
     $totalSessions = ScheduledCall::where('mentor_id', $data->id)->where('status', 'Approved')->get()->count();
 
     $myNonce = 'Devop@wise2023'; // determine the value for `$myNonce` however you want
- 
+
     $nonce = Vite::useCspNonce(nonce: $myNonce);
 
-    
+
     if (Auth::id() && auth()->user()->role_id == 3) {
       $notifications = auth()->user()->unreadNotifications;
     } else {
@@ -325,11 +325,11 @@ class HomeController extends Controller
     MentorJoinRequest::create($data);
 
     ?>
-<script type="text/javascript">
-alert("Be a Mentor Requested Successfully!");
-window.location.href = "https://wiseadvizor.com/be-a-mentor";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Be a Mentor Requested Successfully!");
+      window.location.href = "https://wiseadvizor.com/be-a-mentor";
+    </script>
+    <?php
   }
 
   public function scheduleCall(Request $request)
@@ -478,7 +478,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         'percent_off' => $discount_value,
         'duration' => 'once',
       ]);
-    } 
+    }
     // else {
     //   $coupon = $stripe->coupons->create([
     //     'percent_off' => 0,
@@ -488,10 +488,43 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
 
     $price = $data['price'] * 100;
 
-    if (!$coupon) {
-      $coupon_id = null;
+    if ($coupon) {
+      $session = Session::create([
+        'line_items' => [
+          [
+            'price_data' => [
+              'currency' => 'usd',
+              'product_data' => [
+                'name' => $data['duration'] . ' Minute meeting with ' . $mentor->name,
+              ],
+              'unit_amount_decimal' => round($price)
+            ],
+            'quantity' => 1,
+          ],
+        ],
+        'discounts' => [['coupon' => $coupon_id ?: 0]],
+        'mode' => 'payment',
+        'success_url' => route('success', [$call['id']]),
+        'cancel_url' => route('cancel'),
+      ]);
     } else {
-      $coupon_id = $coupon['id'];
+      $session = Session::create([
+        'line_items' => [
+          [
+            'price_data' => [
+              'currency' => 'usd',
+              'product_data' => [
+                  'name' => $data['duration'] . ' Minute meeting with ' . $mentor->name,
+                ],
+              'unit_amount_decimal' => round($price)
+            ],
+            'quantity' => 1,
+          ],
+        ],
+        'mode' => 'payment',
+        'success_url' => route('success', [$call['id']]),
+        'cancel_url' => route('cancel'),
+      ]);
     }
 
     // $session = Session::create([
@@ -505,24 +538,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     //   'cancel_url' => route('cancel'),
     // ]);
 
-    $session = Session::create([
-      'line_items' => [
-        [
-          'price_data' => [
-            'currency' => 'usd',
-            'product_data' => [
-              'name' => $data['duration'] . ' Minute meeting with ' . $mentor->name,
-            ],
-            'unit_amount_decimal' => round($price)
-          ],
-          'quantity' => 1,
-        ],
-      ],
-      'discounts' => [['coupon' => $coupon_id ?: 0]],
-      'mode' => 'payment',
-      'success_url' => route('success', [$call['id']]),
-      'cancel_url' => route('cancel'),
-    ]);
+
 
     return response()->json($session->url);
 
@@ -835,7 +851,7 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     }
 
     $myNonce = 'Devop@wise2023'; // determine the value for `$myNonce` however you want
- 
+
     $nonce = Vite::useCspNonce(nonce: $myNonce);
 
     return view('libraries', compact('notifications', 'nonce'));
@@ -1056,8 +1072,8 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
         'amount' => $price_per_call,
         'paymentMethodNonce' => $nonceFromTheClient,
         'options' => [
-          'submitForSettlement' => True
-        ]
+            'submitForSettlement' => True
+          ]
       ]);
 
       try {
@@ -1150,11 +1166,11 @@ window.location.href = "https://wiseadvizor.com/be-a-mentor";
     ]);
 
     ?>
-<script type="text/javascript">
-alert("Subscribed to the newsletter!");
-window.location.href = "https://wiseadvizor.com";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Subscribed to the newsletter!");
+      window.location.href = "https://wiseadvizor.com";
+    </script>
+    <?php
   }
 
   public function saveWebinar(Request $request)
@@ -1178,11 +1194,11 @@ window.location.href = "https://wiseadvizor.com";
     Mail::to($email)->send(new askQuestionMail($details));
 
     ?>
-<script type="text/javascript">
-alert("Your slot registration has been submitted!");
-window.location.href = "https://learning.wiseadvizor.com";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Your slot registration has been submitted!");
+      window.location.href = "https://learning.wiseadvizor.com";
+    </script>
+    <?php
   }
 
   public function ask_question(Request $request)
@@ -1206,11 +1222,11 @@ window.location.href = "https://learning.wiseadvizor.com";
     Mail::to($email)->send(new askQuestionMail($details));
 
     ?>
-<script type="text/javascript">
-alert("Your query has been submitted!");
-window.location.href = "https://wiseadvizor.com/faq";
-</script>
-<?php
+    <script type="text/javascript">
+      alert("Your query has been submitted!");
+      window.location.href = "https://wiseadvizor.com/faq";
+    </script>
+    <?php
   }
 
   public function blogCategories($id, $name)
@@ -1240,39 +1256,38 @@ window.location.href = "https://wiseadvizor.com/faq";
 
     $glossaries = Glossaries::get();
 
-     return view('glossary', data: compact('glossaries'));
+    return view('glossary', data: compact('glossaries'));
   }
 
   public function glossary_term($term = null)
   {
-      $data = GlossaryTerms::where('slug', $term)->first();
+    $data = GlossaryTerms::where('slug', $term)->first();
 
-      foreach(json_decode($data->mentors) as $mentors) {
-            foreach ($mentors as $key => $mentor) {
-               $related_mentors[] = User::find($mentor);
-            }
+    foreach (json_decode($data->mentors) as $mentors) {
+      foreach ($mentors as $key => $mentor) {
+        $related_mentors[] = User::find($mentor);
       }
+    }
 
-      return view('glossary-term', data: compact('data', 'related_mentors'));
+    return view('glossary-term', data: compact('data', 'related_mentors'));
   }
 
   public function search_term(Request $request)
   {
-       $glossaries =  GlossaryTerms::query()
+    $glossaries = GlossaryTerms::query()
       ->where('terms', 'LIKE', "{$request->name}%")
       ->get();
-    if(count($glossaries)) {
-      foreach($glossaries as $glossary) {
-         $term_data[] = [
-             'name' => $glossary->terms,
-             'id' => $glossary->id
-         ];
+    if (count($glossaries)) {
+      foreach ($glossaries as $glossary) {
+        $term_data[] = [
+          'name' => $glossary->terms,
+          'id' => $glossary->id
+        ];
       }
-    }
-     else {
-        $term_data = "No Data";
+    } else {
+      $term_data = "No Data";
     }
 
-      return $term_data;
+    return $term_data;
   }
 }
