@@ -1700,7 +1700,7 @@ i.fas.fa-bell.fa-2xl {
         color: #ffffff;
         background-color: #605BE5;
         border-color: #E8E8E8;
-        min-width: 42px;
+        /* min-width: 42px; */
         /* min-height: 43.5px; */
         border-width: 0px 0px 0px 0px;
         border-radius: 0px 0px 0px 0px;
