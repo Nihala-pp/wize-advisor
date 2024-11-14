@@ -1715,6 +1715,7 @@ i.fas.fa-bell.fa-2xl {
         border-width: 1px 1px 1px 1px;
         border-radius: 0px 0px 0px 0px !important;
         padding: 15px 0px 15px 10px;
+        min-height: 43px;
     }
 
     .elementor-7754 .elementor-element.elementor-element-49e1889:not(.elementor-motion-effects-element-type-background)>.elementor-widget-wrap,
