@@ -354,8 +354,7 @@
                                                 <div class="wpr-data-fetch">
                                                     <span class="wpr-close-search"></span>
                                                     <ul></ul>
-                                                    <p class="wpr-search-admin-notice">More than 2 results are available
-                                                        in the PRO version (This notice is only visible to admin users)
+                                                    <p class="wpr-search-admin-notice">
                                                     </p>
                                                 </div>
                                             </div>
