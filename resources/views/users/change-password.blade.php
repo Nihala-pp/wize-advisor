@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-@include('partials.web-header-new')
+@include('partials.test')
 
 <head>
 
@@ -405,5 +405,4 @@ button#submitform.btn.btn-primary.savePassword {
     content: "✖";
 }
 </style>
-
 </html>
