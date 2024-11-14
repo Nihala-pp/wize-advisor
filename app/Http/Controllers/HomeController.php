@@ -459,7 +459,7 @@ class HomeController extends Controller
 
     Stripe::setApiKey($clientSecret);
 
-    if ($voucher) {
+    if (!empty($voucher)) {
 
       // if($voucher->discount_type == "fixed") {
       //   $discount_value =  $voucher->discount_value;
@@ -489,7 +489,6 @@ class HomeController extends Controller
     $price = $data['price'] * 100;
 
     if (!$coupon) {
-      dd("rtgrtry");
       $session = Session::create([
         'line_items' => [
           [
