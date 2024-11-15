@@ -326,9 +326,8 @@
                                             <div class="elementor-widget-container">
 
                                                 <form name="searchForm" role="search" method="get"
-                                                    class="wpr-search-form"
-                                                    action="{{ route('user.searchExpertise') }}">
-                                                    <div class="wpr-search-form-input-wrap elementor-clearfix">
+                                                    class="wpr-search-form">name: 
+                                                    <div class="wpsearch-form-input-wrap elementor-clearfix">
                                                         <select name="expertise" class="wpr-search-form-input form-control expertise"
                                                             placeholder="e.g. Idea Validation, Fund Raising"
                                                             aria-label="Search" type="search" title="Search" value=""
@@ -1945,6 +1944,12 @@ i.fas.fa-bell.fa-2xl {
         $('#shareWithLinkedin').click(function() {
             var url = "https://www.linkedin.com/shareArticle?mini=true&url=" + copiedLink;
             window.open(url);
+        });
+
+        $(".expertise").onchange(function() {
+            var expertise= $(this).val();
+            window.open("https://wiseadvizor.com/BrowseMentors/" + expertise.toLowerCase().replace(
+                /[\*\^\'\!]/g, '').split(' ').join('-'), '_blank');
         });
     });
 }(jQuery));
