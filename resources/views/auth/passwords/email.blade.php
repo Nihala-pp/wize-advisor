@@ -32,7 +32,7 @@
   </div> -->
     <main class="main-content  mt-0">
         <div class="page-header align-items-start min-vh-100"
-            style="background-image: url('{{ asset('public/assets/img/reset-password.jpg') }}')">
+            style="background-color:#000;">
             <div class="container my-auto">
                 <div class="row">
                     <div class="col-lg-4 col-md-8 col-12 mx-auto">
