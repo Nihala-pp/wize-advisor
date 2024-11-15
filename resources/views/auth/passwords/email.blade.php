@@ -38,7 +38,7 @@
                     <div class="col-lg-4 col-md-8 col-12 mx-auto">
                         <div class="card z-index-0 fadeIn3 fadeInBottom" style="">
                             <div class="card-body" style="background-color: transparent;background-image: linear-gradient(180deg, #171414 0%, #0F071C 100%);border-style: solid;
-    border-color: #323232;border-radius: 20px 20px 20px 20px;">
+    border-color: #323232;border-radius: 11px 11px 11px 11px;">
                                 <h1 class="text-white font-weight-bolder text-center mt-2 mb-0">
                                     {{ __('Recover Your wiseAdvizor Password') }}
                                 </h1>
