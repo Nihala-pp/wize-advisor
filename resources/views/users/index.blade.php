@@ -344,11 +344,11 @@
                                                                 {{ $expertise_list->name }}</option>
                                                             @endforeach
                                                         </select>
-                                                        <button class="wpr-search-form-submit search"
+                                                        <!-- <button class="wpr-search-form-submit search"
                                                             aria-label="Search" type="submit"
                                                             style="background-color: #4285f4;">
                                                             <i class="fas fa-search"></i>
-                                                        </button>
+                                                        </button> -->
                                                     </div>
                                                 </form>
                                                 <div class="wpr-data-fetch">
