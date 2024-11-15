@@ -325,8 +325,7 @@
                                             data-widget_type="wpr-search.default">
                                             <div class="elementor-widget-container">
 
-                                                <form name="searchForm" role="search" method="get"
-                                                    class="wpr-search-form">
+                                                <form name="searchForm" role="search" method="get" class="wpr-search-form">
                                                     <div class="wpsearch-form-input-wrap elementor-clearfix">
                                                         <select name="expertise" class="wpr-search-form-input form-control expertise"
                                                             placeholder="e.g. Idea Validation, Fund Raising"
@@ -1946,7 +1945,7 @@ i.fas.fa-bell.fa-2xl {
             window.open(url);
         });
 
-        $(".expertise").onchange(function() {
+        $(".expertise").on('change', function() {
             var expertise= $(this).val();
             window.open("https://wiseadvizor.com/BrowseMentors/" + expertise.toLowerCase().replace(
                 /[\*\^\'\!]/g, '').split(' ').join('-'), '_blank');
