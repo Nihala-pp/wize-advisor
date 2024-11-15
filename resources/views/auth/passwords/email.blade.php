@@ -45,7 +45,7 @@
                                     </div>
                                 </div>
                             </div> -->
-                            <div class="card-body">
+                            <div class="card-body" style="background-color: transparent;background-image: linear-gradient(180deg, #171414 0%, #0F071C 100%);">
                                 <h1 class="text-white font-weight-bolder text-center mt-2 mb-0" style="color:#000 !important;">
                                     {{ __('Recover Your wiseAdvizor Password') }}</h1>
                                 @if (session('status'))
