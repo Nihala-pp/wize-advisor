@@ -46,6 +46,8 @@
                                 </div>
                             </div> -->
                             <div class="card-body">
+                                <h1 class="text-white font-weight-bolder text-center mt-2 mb-0">
+                                    {{ __('Recover Your wiseAdvizor Password') }}</h1>
                                 @if (session('status'))
                                 <div class="alert alert-success" role="alert">
                                     {{ session('status') }}
