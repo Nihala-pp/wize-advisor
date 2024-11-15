@@ -1947,8 +1947,7 @@ i.fas.fa-bell.fa-2xl {
 
         $(".expertise").on('change', function() {
             var expertise= $(this).val();
-            window.open("https://wiseadvizor.com/BrowseMentors/" + expertise.toLowerCase().replace(
-                /[\*\^\'\!]/g, '').split(' ').join('-'), '_blank');
+            window.open("https://wiseadvizor.com/BrowseMentors/" + expertise, '_blank');
         });
     });
 }(jQuery));
