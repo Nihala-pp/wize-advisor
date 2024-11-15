@@ -32,7 +32,7 @@
   </div> -->
     <main class="main-content  mt-0">
         <div class="page-header align-items-start min-vh-100"
-            style="background-color:#000;">
+            style="background-color: transparent;background-image: linear-gradient(180deg, #171414 0%, #0F071C 100%);">
             <div class="container my-auto">
                 <div class="row">
                     <div class="col-lg-4 col-md-8 col-12 mx-auto">
