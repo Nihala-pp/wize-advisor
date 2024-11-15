@@ -326,7 +326,7 @@
                                             <div class="elementor-widget-container">
 
                                                 <form name="searchForm" role="search" method="get"
-                                                    class="wpr-search-form">name: 
+                                                    class="wpr-search-form">
                                                     <div class="wpsearch-form-input-wrap elementor-clearfix">
                                                         <select name="expertise" class="wpr-search-form-input form-control expertise"
                                                             placeholder="e.g. Idea Validation, Fund Raising"
