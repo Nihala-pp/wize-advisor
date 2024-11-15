@@ -1713,7 +1713,7 @@ i.fas.fa-bell.fa-2xl {
         border-width: 1px 1px 1px 1px;
         border-radius: 0px 0px 0px 0px !important;
         padding: 15px 0px 15px 10px;
-        margin-left: -40px;
+        margin-left: -50px;
         /* min-height: 50px !important; */
     }
 
