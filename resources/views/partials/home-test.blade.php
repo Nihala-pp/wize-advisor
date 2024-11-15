@@ -10,7 +10,7 @@ gtag('js', new Date());
 
 gtag('config', 'G-QC47PPTD6T');
 </script>
-<script
+<script async
     src="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/js/frontend.min.js?ver=1.3.85"
     id="wpr-addons-js-js"></script>
 <!-- ewr -->
@@ -30,7 +30,7 @@ var qodefQiAddonsGlobal = {
 </script>
 <script async src="{{ asset('public/wp-includes/js/jquery/ui/slider.min.js?ver=1.13.2') }}" id="jquery-ui-slider-js">
 </script>
-<script  src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688661372') }}"
+<script defer src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688661372') }}"
     id="theplus-front-js-js"></script>
 <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
     id="hfe-frontend-js-js"></script>
