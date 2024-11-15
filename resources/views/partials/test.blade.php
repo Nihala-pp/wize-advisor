@@ -9,7 +9,7 @@
     as="style" id="hfe-widgets-style-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
 <link rel="stylesheet" as="style"
     href="https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/frontend-lite.min.css?ver=3.14.1"
-    id="elementor-frontend-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
+    id="elementor-frontend-css">
 <link rel='preload' as="style" id='elementor-pro-css'
     href="https://wiseadvizor.com/wp-content/plugins/elementor-pro/assets/css/frontend-lite.min.css?ver=3.8.2"
     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
