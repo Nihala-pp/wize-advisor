@@ -37,18 +37,14 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-8 col-12 mx-auto">
                         <div class="card z-index-0 fadeIn3 fadeInBottom">
-                            <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
+                            <!-- <div class="card-header p-0 position-relative mt-n4 mx-3 z-index-2">
                                 <div class="bg-gradient-primary shadow-primary border-radius-lg py-3 pe-1">
                                     <h1 class="text-white font-weight-bolder text-center mt-2 mb-0">
                                         {{ __('Recover Your wiseAdvizor Password') }}</h1>
                                     <div class="row mt-3">
-                                        <!-- <div class="col-2 text-center ms-auto"> -->
-                                        <!-- <a class="btn btn-link px-3" href="javascript:;">
-                        <i class="fa fa-facebook text-white text-lg"></i>
-                      </a> -->
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
                             <div class="card-body">
                                 @if (session('status'))
                                 <div class="alert alert-success" role="alert">
