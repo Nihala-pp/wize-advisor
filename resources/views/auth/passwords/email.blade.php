@@ -36,14 +36,16 @@
             <div class="container my-auto">
                 <div class="row">
                     <div class="col-lg-4 col-md-8 col-12 mx-auto">
-                        <div class="card z-index-0 fadeIn3 fadeInBottom" style="border-style: solid !important;border-color: #323232 !important;">
-                            <div class="card-body" style="background-color: transparent;background-image: linear-gradient(180deg, #171414 0%, #0F071C 100%);">
+                        <div class="card z-index-0 fadeIn3 fadeInBottom" style="">
+                            <div class="card-body" style="background-color: transparent;background-image: linear-gradient(180deg, #171414 0%, #0F071C 100%);border-style: solid;
+    border-color: #323232;">
                                 <h1 class="text-white font-weight-bolder text-center mt-2 mb-0">
-                                    {{ __('Recover Your wiseAdvizor Password') }}</h1>
+                                    {{ __('Recover Your wiseAdvizor Password') }}
+                                </h1>
                                 @if (session('status'))
-                                <div class="alert alert-success" role="alert">
-                                    {{ session('status') }}
-                                </div>
+                                    <div class="alert alert-success" role="alert">
+                                        {{ session('status') }}
+                                    </div>
                                 @endif
                                 <form method="POST" action="{{ route('password.email') }}">
                                     @csrf
@@ -53,9 +55,9 @@
                                             class="form-control @error('email') is-invalid @enderror" name="email"
                                             value="{{ old('email') }}" required autocomplete="email" autofocus>
                                         @error('email')
-                                        <span class="invalid-feedback" role="alert">
-                                            <strong>{{ $message }}</strong>
-                                        </span>
+                                            <span class="invalid-feedback" role="alert">
+                                                <strong>{{ $message }}</strong>
+                                            </span>
                                         @enderror
                                     </div>
                                     <div class="text-center">
@@ -74,8 +76,9 @@
                     <div class="row align-items-center justify-content-lg-between">
                         <div class="col-12 col-md-6 my-auto">
                             <div class="copyright text-center text-sm text-white text-lg-start">
-                                © <script>
-                                document.write(new Date().getFullYear())
+                                ©
+                                <script>
+                                    document.write(new Date().getFullYear())
                                 </script>,
                                 made with <i class="fa fa-heart" aria-hidden="true"></i> by
                                 <a href="" class="font-weight-bold text-white" target="_blank">IVY Investment LLC</a>
@@ -89,10 +92,11 @@
     </main>
 </body>
 <style>
-.font-weight-bolder {
-    font-weight: 700 !important;
-    font-size: 17px !important;
-    ;
-}
+    .font-weight-bolder {
+        font-weight: 700 !important;
+        font-size: 17px !important;
+        ;
+    }
 </style>
+
 </html>
