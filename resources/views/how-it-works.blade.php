@@ -409,11 +409,11 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img"><img decoding="async"
                                                             width="443" height="500"
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.png"
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.webp"
                                                             class="attachment-full size-full wp-image-5291"
                                                             alt="startup success"
                                                             style="width:100%;height:112.87%;max-width:443px"
-                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.png 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16-266x300.png 266w"
+                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.webp 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16-266x300.png 266w"
                                                             sizes="(max-width: 443px) 100vw, 443px" /></figure>
                                                     <div class="elementor-image-box-content">
                                                         <h3 class="elementor-image-box-title">Expert Guidance</h3>
