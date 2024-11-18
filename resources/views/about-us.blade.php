@@ -269,7 +269,7 @@
                                                     <div class="wpr-member-media">
                                                         <div class="wpr-member-image">
                                                             <img decoding="async"
-                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Ankur.jpg"
+                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Ankur.webp"
                                                                 alt="Ankur Sharma">
                                                         </div>
                                                     </div>
