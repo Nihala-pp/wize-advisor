@@ -233,7 +233,7 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.png"
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.webp"
                                                         alt="online meeting" width="10px" height="10px"
                                                         class="join_session">
                                                     <i aria-hidden="true" class=""></i></img>
