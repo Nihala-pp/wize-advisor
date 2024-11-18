@@ -27,7 +27,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
         id="bootstrap-css">
     <link rel="preload" fetchpriority="high"
-        href="{{ asset('wp-content/uploads/2024/06/Deep-Shikha.webp') }}"
+        href="{{ asset('wp-content/uploads/2024/06/Post-3.webp') }}"
         as="image" type="image/webp">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
