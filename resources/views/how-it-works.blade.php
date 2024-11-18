@@ -25,7 +25,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name='robots' content='max-image-preview:large' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link rel="preconnect" href="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp">
+    <link rel="preload" fetchpriority="high" href="{{ asset('wp-content/uploads/2024/02/4-768x768.webp"') }}" as="image"
+        type="image/webp">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
@@ -33,6 +34,7 @@
     <link rel="canonical" href="https://wiseadvizor.com/how-it-works" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 </head>
+
 <body
     class="page-template page-template-elementor_canvas page page-id-5225 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.7 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-5225">
 
@@ -697,9 +699,9 @@
     <script async src="{{ asset('public/wp-content/plugins/elementor/assets/js/frontend-modules.min.js') }}">
     </script>
     <script defer src="{{ asset('public/wp-content/uploads/theplus-addons/theplus.min.js?ver=1688661372') }}"
-    id="theplus-front-js-js"></script>
-<script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
-    id="hfe-frontend-js-js"></script>
+        id="theplus-front-js-js"></script>
+    <script src="{{ asset('public/wp-content/plugins/header-footer-elementor/inc/js/frontend.min.js?ver=1.6.14') }}"
+        id="hfe-frontend-js-js"></script>
     <script defer type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.js">
     </script>
 </body>
@@ -1033,4 +1035,5 @@ i.fas.fa-bell.fa-2xl {
     } */
 }
 </style>
+
 </html>
