@@ -25,7 +25,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name='robots' content='max-image-preview:large' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
-    <link rel="preconnect" href="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg">
+    <link rel="preconnect" href="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
