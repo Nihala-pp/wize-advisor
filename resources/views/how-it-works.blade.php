@@ -167,7 +167,7 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.webp"
+                                                    <img loading="lazy" src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.webp"
                                                         alt="business coach" width="40px" height="40px">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
@@ -185,7 +185,7 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/browse.webp"
+                                                    <img loading="lazy" src="https://wiseadvizor.com/wp-content/uploads/2024/02/browse.webp"
                                                         alt="browse mentors" width="20px" height="20px">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
@@ -202,7 +202,7 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/profile.webp"
+                                                    <img loading="lazy" src="https://wiseadvizor.com/wp-content/uploads/2024/02/profile.webp"
                                                         alt="business growth" width="20px" height="20px">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
@@ -219,7 +219,7 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/calendar.webp"
+                                                    <img loading="lazy" src="https://wiseadvizor.com/wp-content/uploads/2024/02/calendar.webp"
                                                         alt="schedule call" width="15px" height="15px" class="calender">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
@@ -236,7 +236,7 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.webp"
+                                                    <img loading="lazy" src="https://wiseadvizor.com/wp-content/uploads/2024/02/online-meeting.webp"
                                                         alt="online meeting" width="10px" height="10px"
                                                         class="join_session">
                                                     <i aria-hidden="true" class=""></i></img>
@@ -255,7 +255,7 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/review.webp"
+                                                    <img loading="lazy" src="https://wiseadvizor.com/wp-content/uploads/2024/02/review.webp"
                                                         alt="review" width="20px" height="20px" class="feedback">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
@@ -410,7 +410,7 @@
                                                 }
                                                 </style>
                                                 <div class="elementor-image-box-wrapper">
-                                                    <figure class="elementor-image-box-img"><img decoding="async"
+                                                    <figure class="elementor-image-box-img"><img loading="lazy" decoding="async"
                                                             width="443" height="500"
                                                             src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.webp"
                                                             class="attachment-full size-full wp-image-5291"
