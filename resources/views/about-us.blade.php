@@ -26,6 +26,9 @@
     <meta name='robots' content='max-image-preview:large' />
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet"
         id="bootstrap-css">
+    <link rel="preload" fetchpriority="high"
+        href="{{ asset('wp-content/uploads/2024/06/Deep-Shikha.webp') }}"
+        as="image" type="image/webp">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script data-cfasync="false" src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1"
         id="jquery-migrate-js">
@@ -333,29 +336,29 @@
                             <div class="slide"><img loading="lazy" alt="Startup Mentor" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp">
                             </div>
-                            <div class="slide"><img loading="lazy" alt="E-Commerce Strategy" width="147px;" height="147px;"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp">
+                            <div class="slide"><img loading="lazy" alt="E-Commerce Strategy" width="147px;"
+                                    height="147px;" src="https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp">
                             </div>
                             <div class="slide"><img loading="lazy" alt="Business Coach" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp">
                             </div>
-                            <div class="slide"><img loading="lazy" alt="Content Startegist" width="147px;" height="147px;"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp">
+                            <div class="slide"><img loading="lazy" alt="Content Startegist" width="147px;"
+                                    height="147px;" src="https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp">
                             </div>
-                            <div class="slide"><img loading="lazy" alt="Investment Partner" width="147px;" height="147px;"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp">
+                            <div class="slide"><img loading="lazy" alt="Investment Partner" width="147px;"
+                                    height="147px;" src="https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp">
                             </div>
-                            <div class="slide"><img loading="lazy" alt="Product Strategist" width="147px;" height="147px;"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp">
+                            <div class="slide"><img loading="lazy" alt="Product Strategist" width="147px;"
+                                    height="147px;" src="https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp">
                             </div>
-                            <div class="slide"><img loading="lazy" alt="Head of Marketing" width="147px;" height="147px;"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp">
+                            <div class="slide"><img loading="lazy" alt="Head of Marketing" width="147px;"
+                                    height="147px;" src="https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp">
                             </div>
-                            <div class="slide"><img loading="lazy" alt="Business Developer" width="147px;" height="147px;"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp">
+                            <div class="slide"><img loading="lazy" alt="Business Developer" width="147px;"
+                                    height="147px;" src="https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp">
                             </div>
-                            <div class="slide"><img loading="lazy" alt="Technology Mentor" width="147px;" height="147px;"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
+                            <div class="slide"><img loading="lazy" alt="Technology Mentor" width="147px;"
+                                    height="147px;" src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
                             </div>
                             <div class="slide"><img loading="lazy" alt="CMO Mentor" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp">
@@ -366,14 +369,14 @@
                             <div class="slide"><img loading="lazy" alt="AI Professional" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/12.webp">
                             </div>
-                            <div class="slide"><img loading="lazy" alt="Go to Market Strategy" width="147px;" height="147px;"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/13.webp">
+                            <div class="slide"><img loading="lazy" alt="Go to Market Strategy" width="147px;"
+                                    height="147px;" src="https://wiseadvizor.com/wp-content/uploads/2024/06/13.webp">
                             </div>
                             <div class="slide"><img loading="lazy" alt="Growth Mentor" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/14.webp">
                             </div>
-                            <div class="slide"><img loading="lazy" alt="Marketing Analyst" width="147px;" height="147px;"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/15.webp">
+                            <div class="slide"><img loading="lazy" alt="Marketing Analyst" width="147px;"
+                                    height="147px;" src="https://wiseadvizor.com/wp-content/uploads/2024/06/15.webp">
                             </div>
                             <div class="slide"><img loading="lazy" alt="Sales Mentor" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/16.webp">
