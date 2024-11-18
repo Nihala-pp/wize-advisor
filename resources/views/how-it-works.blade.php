@@ -413,7 +413,7 @@
                                                             class="attachment-full size-full wp-image-5291"
                                                             alt="startup success"
                                                             style="width:100%;height:112.87%;max-width:443px"
-                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.webp 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16-266x300.png 266w"
+                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16.webp 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-16-266x300.webp 266w"
                                                             sizes="(max-width: 443px) 100vw, 443px" /></figure>
                                                     <div class="elementor-image-box-content">
                                                         <h3 class="elementor-image-box-title">Expert Guidance</h3>
@@ -440,11 +440,11 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img"><img loading="lazy"
                                                             decoding="async" width="443" height="500"
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14.png"
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14.webp"
                                                             class="attachment-full size-full wp-image-5292"
                                                             alt="business coach"
                                                             style="width:100%;height:112.87%;max-width:443px"
-                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14.png 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14-266x300.png 266w"
+                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14.webp 443w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-14-266x300.webp 266w"
                                                             sizes="(max-width: 443px) 100vw, 443px" /></figure>
                                                     <div class="elementor-image-box-content">
                                                         <h3 class="elementor-image-box-title">Personalized Support</h3>
@@ -471,11 +471,11 @@
                                                 <div class="elementor-image-box-wrapper">
                                                     <figure class="elementor-image-box-img"><img loading="lazy"
                                                             decoding="async" width="442" height="500"
-                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15.png"
+                                                            src="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15.webp"
                                                             class="attachment-full size-full wp-image-5293"
                                                             alt="Networking"
                                                             style="width:100%;height:113.12%;max-width:442px"
-                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15.png 442w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15-265x300.png 265w"
+                                                            srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15.webp 442w, https://wiseadvizor.com/wp-content/uploads/2024/02/pic-15-265x300.webp 265w"
                                                             sizes="(max-width: 442px) 100vw, 442px" /></figure>
                                                     <div class="elementor-image-box-content">
                                                         <h3 class="elementor-image-box-title">Networking </h3>
