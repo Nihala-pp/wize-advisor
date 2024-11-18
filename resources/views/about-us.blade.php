@@ -330,52 +330,52 @@
                             data-widget_type="media-carousel.default">
                             <!-- <div class="elementor-widget-container"> -->
                             <!-- <div class="customer-logos slider"> -->
-                            <div class="slide"><img alt="Startup Mentor"
+                            <div class="slide"><img alt="Startup Mentor" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/1.webp">
                             </div>
-                            <div class="slide"><img alt="E-Commerce Strategy    "
+                            <div class="slide"><img alt="E-Commerce Strategy" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/2.webp">
                             </div>
-                            <div class="slide"><img alt="Business Coach"
+                            <div class="slide"><img alt="Business Coach" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/3.webp">
                             </div>
-                            <div class="slide"><img alt="Content Startegist"
+                            <div class="slide"><img alt="Content Startegist" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/4.webp">
                             </div>
-                            <div class="slide"><img alt="Investment Partner"
+                            <div class="slide"><img alt="Investment Partner" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/5.webp">
                             </div>
-                            <div class="slide"><img alt="Product Strategist"
+                            <div class="slide"><img alt="Product Strategist" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/6.webp">
                             </div>
-                            <div class="slide"><img alt="Head of Marketing"
+                            <div class="slide"><img alt="Head of Marketing" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/7.webp">
                             </div>
-                            <div class="slide"><img alt="Business Developer"
+                            <div class="slide"><img alt="Business Developer" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/8.webp">
                             </div>
-                            <div class="slide"><img alt="Technology Mentor"
+                            <div class="slide"><img alt="Technology Mentor" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/9.webp">
                             </div>
-                            <div class="slide"><img alt="CMO Mentor"
+                            <div class="slide"><img alt="CMO Mentor" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/10.webp">
                             </div>
-                            <div class="slide"><img alt="SEO"
+                            <div class="slide"><img alt="SEO" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/11.webp">
                             </div>
-                            <div class="slide"><img alt="AI Professional"
+                            <div class="slide"><img alt="AI Professional" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/12.webp">
                             </div>
-                            <div class="slide"><img alt="Go to Market Strategy"
+                            <div class="slide"><img alt="Go to Market Strategy" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/13.webp">
                             </div>
-                            <div class="slide"><img alt="Growth Mentor"
+                            <div class="slide"><img alt="Growth Mentor" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/14.webp">
                             </div>
-                            <div class="slide"><img alt="Marketing Analyst"
+                            <div class="slide"><img alt="Marketing Analyst" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/15.webp">
                             </div>
-                            <div class="slide"><img alt="Sales Mentor"
+                            <div class="slide"><img alt="Sales Mentor" width="147px;" height="147px;"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/06/16.webp">
                             </div>
                         </div>
