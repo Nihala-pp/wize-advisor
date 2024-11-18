@@ -25,6 +25,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name='robots' content='max-image-preview:large' />
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link rel="preconnect" href="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async data-cfasync="false"
         src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
@@ -164,7 +165,7 @@
                                             <div class="wpr-feature-list-icon-wrap"><span
                                                     class="wpr-feature-list-line"></span>
                                                 <div class="wpr-feature-list-icon-inner-wrap">
-                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.png"
+                                                    <img src="https://wiseadvizor.com/wp-content/uploads/2024/02/user.webp"
                                                         alt="business coach" width="40px" height="40px">
                                                     <i aria-hidden="true" class=""></i></img>
                                                 </div>
