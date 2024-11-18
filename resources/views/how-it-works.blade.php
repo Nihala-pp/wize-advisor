@@ -50,7 +50,7 @@
                         <div class="elementor-element elementor-element-8667dac elementor-widget elementor-widget-image elementor-hidden-mobile elementor-hidden-desktop"
                             data-id="8667dac" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img fetchpriority="high" decoding="async" width="750" height="750"
+                                <img loading="lazy" decoding="async" width="750" height="750"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp"
                                     class="attachment-medium_large size-medium_large wp-image-5468"
                                     alt="startup mentorship platform"
@@ -63,10 +63,10 @@
                             data-id="13909a7" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img decoding="async" width="750" height="618"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-768x633.png"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-768x633.webp"
                                     class="attachment-medium_large size-medium_large wp-image-5466"
                                     alt="Startup Mentors"
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-768x633.png 768w, https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-300x247.png 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1.png 864w"
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-768x633.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-300x247.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1.webp 864w"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:82.41%;max-width:864px" />
                             </div>
