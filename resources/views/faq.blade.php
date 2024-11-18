@@ -26,6 +26,8 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
+    <link rel="preload" fetchpriority="high" href="{{ asset('wp-content/uploads/2023/07/Neutral-Creative-Professional-LinkedIn-Article-Cover-Image-4.png') }}" as="image"
+        type="image/webp">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async src="https://wiseadvizor.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js">
     </script>
