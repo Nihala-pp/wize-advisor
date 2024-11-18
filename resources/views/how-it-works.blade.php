@@ -50,7 +50,7 @@
                         <div class="elementor-element elementor-element-8667dac elementor-widget elementor-widget-image elementor-hidden-mobile elementor-hidden-desktop"
                             data-id="8667dac" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img loading="lazy" decoding="async" width="750" height="750"
+                                <img fetchpriority="high" decoding="async" width="750" height="750"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp"
                                     class="attachment-medium_large size-medium_large wp-image-5468"
                                     alt="startup mentorship platform"
@@ -62,7 +62,7 @@
                         <div class="elementor-element elementor-element-13909a7 elementor-widget elementor-widget-image elementor-hidden-mobile"
                             data-id="13909a7" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
-                                <img decoding="async" width="750" height="618"
+                                <img loading="lazy" decoding="async" width="750" height="618"
                                     src="https://wiseadvizor.com/wp-content/uploads/2024/02/Where-mentorship-meets-startup-success-1-1-768x633.webp"
                                     class="attachment-medium_large size-medium_large wp-image-5466"
                                     alt="Startup Mentors"
