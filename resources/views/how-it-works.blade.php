@@ -50,10 +50,10 @@
                             data-id="8667dac" data-element_type="widget" data-widget_type="image.default">
                             <div class="elementor-widget-container">
                                 <img fetchpriority="high" decoding="async" width="750" height="750"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp"
                                     class="attachment-medium_large size-medium_large wp-image-5468"
                                     alt="startup mentorship platform"
-                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 768w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 1024w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.jpg"
+                                    srcset="https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp 768w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp 1024w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp 150w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp 450w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp 700w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp 650w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp 1300w, https://wiseadvizor.com/wp-content/uploads/2024/02/4-768x768.webp"
                                     sizes="(max-width: 750px) 100vw, 750px"
                                     style="width:100%;height:100%;max-width:1080px" />
                             </div>
