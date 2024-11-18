@@ -152,7 +152,7 @@
                                     display: inline-block
                                 }
                                 </style><img fetchpriority="high" decoding="async" width="300" height="200"
-                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/Post-3.jpg"
+                                    src="https://wiseadvizor.com/wp-content/uploads/2024/06/Post-3.webp"
                                     class="attachment-medium size-medium wp-image-7358" alt="mentor"
                                     style="width:100%;height:66.67%;max-width:900px" />
                             </div>
@@ -290,7 +290,7 @@
                                                     <div class="wpr-member-media">
                                                         <div class="wpr-member-image">
                                                             <img decoding="async"
-                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Nihala.jpg"
+                                                                src="https://wiseadvizor.com/wp-content/uploads/2024/06/Nihala.webp"
                                                                 alt="Nihala PP">
                                                         </div>
                                                     </div>
