@@ -122,7 +122,7 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>These terms and conditions (&#8220;Agreement&#8221;) govern the use of the
+                                <p loading="eager">These terms and conditions (&#8220;Agreement&#8221;) govern the use of the
                                     wiseAdvizor website (&#8220;Website&#8221; or &#8220;Service&#8221;) and any related
                                     products and services provided by wiseAdvizor (&#8220;we,&#8221; &#8220;us,&#8221;
                                     or &#8220;our&#8221;). By accessing or using the Website and Services, you agree to
