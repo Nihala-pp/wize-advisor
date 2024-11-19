@@ -957,7 +957,7 @@ html body .animated {
                                 </style>
                                 <div class="image">
                                     <a href="https://wiseadvizor.com/">
-                                        <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
+                                        <img alt="Logo" loading="eager" width="200" height="200" decoding="async"
                                             data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.webp') }}"
                                             style="color:transparent;">
                                     </a>
