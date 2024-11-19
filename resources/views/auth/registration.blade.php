@@ -24,6 +24,7 @@
 <meta name="twitter:image"
     url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
 <meta name="twitter:card" content="summary_large_image">
+<link rel="preload" fetchpriority="high" href="{{ asset('public/assets/img/WhitePNGNew.webp') }}" as="image" type="image/webp">
 @include('partials.header')
 <script>
 var theplus_ajax_url = "https://wiseadvizor.com/wp-admin/admin-ajax.php";
@@ -181,6 +182,7 @@ window._wpemojiSettings = {
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/common.min.css?ver=3.19.0' media='all' />
 <link rel='stylesheet' id='e-theme-ui-light-css'
     href='https://wiseadvizor.com/wp-content/plugins/elementor/assets/css/theme-light.min.css?ver=3.19.0' media='all' />
+    
 <style id='wp-emoji-styles-inline-css'>
 img.wp-smiley,
 img.emoji {
