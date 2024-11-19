@@ -1370,8 +1370,8 @@
 </html>
 <style>
 .elementor-7754 .elementor-element.elementor-element-ce8b0b8>.elementor-widget-container {
-    margin: 0px 0px 0px 185px;
-    padding: 0px 80px 0px 130px;
+    margin: 0px 0px 0px 75px;
+    padding: 0px 160px 0px 120px;
 }
 
 .elementor-7754 .elementor-element.elementor-element-22c27c7c .wpr-dual-title .second {
