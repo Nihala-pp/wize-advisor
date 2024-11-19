@@ -958,7 +958,7 @@ html body .animated {
                                 <div class="image">
                                     <a href="https://wiseadvizor.com/">
                                         <img alt="Logo" loading="lazy" width="200" height="200" decoding="async"
-                                            data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
+                                            data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.webp') }}"
                                             style="color:transparent;">
                                     </a>
                                     <!-- <h2 class="ml-6 text-white text-5xl font-bold">Syllaby</h2> -->
@@ -1101,7 +1101,7 @@ html body .animated {
                                 <div class="flex justify-center md:justify-start items-center">
                                     <a href="https://wiseadvizor.com/">
                                         <img alt="Logo" loading="lazy" width="180" height="180" decoding="async"
-                                            data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.png') }}"
+                                            data-nimg="1" src="{{ asset('public/assets/img/WhitePNGNew.webp') }}"
                                             style="visibility:hidden;color:transparent;">
                                     </a>
                                 </div>
