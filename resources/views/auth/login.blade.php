@@ -42,7 +42,7 @@
 <meta name="twitter:image"
     url="https://wiseadvizor.com/wp-content/uploads/2023/07/Book-11-call-with-world-top-mentors-on-wiseadvizor.com.webp">
 <link rel='stylesheet' id='elementor-post-7907-css'
-    href='https://web.wiseadvizor.com/wp-content/uploads/elementor/css/post-7907.css?ver=1729502695' media='all' />
+    href='https://wiseadvizor.com/wp-content/uploads/elementor/css/post-7907.min.css?ver=1729502695' media='all' />
 <meta name="twitter:card" content="summary_large_image">
 @include('partials.test')
 <meta name='robots' content='max-image-preview:large' />
