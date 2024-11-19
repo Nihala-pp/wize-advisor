@@ -123,7 +123,7 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>At wiseAdvizor, we are committed to protecting your privacy and ensuring the security
+                                <p fetchpriority="high">At wiseAdvizor, we are committed to protecting your privacy and ensuring the security
                                     of your personal information. This Privacy Policy explains how we collect, use, and
                                     disclose your information when you access and use our mentorship platform. By using
                                     wiseAdvizor, you acknowledge that you have read, understood, and agreed to the terms
