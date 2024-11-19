@@ -26,6 +26,9 @@
     <meta name="twitter:card" content="summary_large_image">
     <link rel="canonical" href="https://wiseadvizor.com/be-a-mentor">
     <meta name='robots' content='max-image-preview:large' />
+    <link rel="preload" fetchpriority="high"
+        href="{{ asset('wp-content/uploads/2024/01/map.webp') }}"
+        as="image" type="image/webp">
     <link rel="icon" type="image/png" href="{{ asset('public/assets/img/PNG-Blue.png') }}">
     <link rel="preload" async as="script" href="https://wiseadvizor.com/wp-includes/js/jquery/jquery.min.js?ver=3.7.1">
     <script async data-cfasync="false"
