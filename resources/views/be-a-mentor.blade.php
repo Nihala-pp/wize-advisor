@@ -315,7 +315,7 @@
                                                                 class="attachment-full size-full wp-image-7313"
                                                                 alt="how to be a mentor"
                                                                 style="width:100%;height:100%;max-width:512px"
-                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4.webp 512w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-300x300.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-150x150.png 150w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-700x700.webp 700w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-650x650.png 650w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-1300x1300.png 1300w"
+                                                                srcset="https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4.webp 512w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-300x300.webp 300w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-150x150.webp 150w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-700x700.webp 700w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-650x650.webp 650w, https://wiseadvizor.com/wp-content/uploads/2024/06/calendar-4-1300x1300.webp 1300w"
                                                                 sizes="(max-width: 512px) 100vw, 512px" /></a>
                                                     </figure>
                                                     <div class="elementor-image-box-content">
