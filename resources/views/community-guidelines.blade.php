@@ -123,7 +123,7 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p>Welcome to the wiseAdvizor community! We believe in creating a supportive and
+                                <p loading="eager">Welcome to the wiseAdvizor community! We believe in creating a supportive and
                                     respectful environment where mentors and mentees can connect, learn, and grow
                                     together. To ensure a positive experience for everyone, we have established the
                                     following community guidelines. By participating in wiseAdvizor, you agree to abide
