@@ -123,7 +123,6 @@
     }
     </style>
 </head>
-
 <body
     class="page-template page-template-elementor_canvas page page-id-8 wp-embed-responsive ehf-header ehf-footer ehf-template-twentytwentytwo ehf-stylesheet-twentytwentytwo qodef-qi--no-touch qi-addons-for-elementor-1.6.2 elementor-default elementor-template-canvas elementor-kit-5 elementor-page elementor-page-8">
 
@@ -268,7 +267,6 @@
             <!-- </div>
     </div> -->
         </section>
-
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-2bdeaec elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no"
             data-id="2bdeaec" data-element_type="section">
@@ -333,7 +331,6 @@
                 </div>
             </div>
         </section>
-
         <section
             class="elementor-section elementor-top-section elementor-element elementor-element-a9a15f2 elementor-section-boxed elementor-section-height-default elementor-section-height-default wpr-particle-no wpr-jarallax-no wpr-parallax-no wpr-sticky-section-no off-screen-parent"
             data-id="a9a15f2" data-element_type="section">
