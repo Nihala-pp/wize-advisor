@@ -188,7 +188,7 @@
                         <div class="elementor-element elementor-element-9ecb7fe elementor-widget elementor-widget-heading"
                             data-id="9ecb7fe" data-element_type="widget" data-widget_type="heading.default">
                             <div class="elementor-widget-container">
-                                <p class="elementor-heading-title elementor-size-default">
+                                <p loading="eager" class="elementor-heading-title elementor-size-default">
                                     Accelerate your growth by connecting 1:1 with successful founders and industry
                                     leaders. Learn proven strategies, avoid costly mistakes and scale faster.
                                 </p>
