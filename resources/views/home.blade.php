@@ -51,12 +51,12 @@
     <link rel="preload" as="style" id="qi-addons-for-elementor-helper-parts-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/helper-parts.min.css?ver=6.4.1"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload" as="style" id="qi-addons-for-elementor-style-css"
+    <link async rel="preload" as="style" id="qi-addons-for-elementor-style-css"
         href="https://wiseadvizor.com/wp-content/plugins/qi-addons-for-elementor/assets/css/main.min.css?ver=6.4.1"
         onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <link rel="preload" href="https://wiseadvizor.com/wp-content/uploads/theplus-addons/theplus.min.css?ver=1699364637"
         as="style" id="theplus-front-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
-    <link rel="preload"
+    <link async rel="preload"
         href="https://wiseadvizor.com/wp-content/plugins/royal-elementor-addons/assets/css/frontend.min.css?ver=1.3.85"
         as="style" id="wpr-addons-css-css" onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.4.1/mdb.min.css"> -->
