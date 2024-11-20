@@ -313,7 +313,7 @@
                                     display: inline-block
                                 }
                                 </style>
-                                <p style="text-align: center;"> Connect 1:1 with successful entrepreneurs and
+                                <p loading="eager" style="text-align: center;"> Connect 1:1 with successful entrepreneurs and
                                     industry leaders
                                     who&#8217;ve
                                     walked the path before you. <br />Gain direct access to their wisdom and
