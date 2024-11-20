@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-US">
-
 <head>
     <meta charset="UTF-8">
     <title>wiseAdvizor: Startup mentorship platform</title>
@@ -1361,7 +1360,7 @@
                             data-widget_type="ucaddon_uc_card_post_carousel.default">
                             <div class="elementor-widget-container">
                                 <!-- start Post Carousel Lite -->
-                                <link rel="preload" as="style" id="owl-carousel-css"
+                                <link async rel="preload" as="style" id="owl-carousel-css"
                                     href="{{ asset('public/wp-content/plugins/unlimited-elements-for-elementor/assets_libraries/owl-carousel-new/assets/owl.carousel.min.css') }}"
                                     onload="this.onload=null;this.rel='stylesheet'" crossorigin="anonymous">
                                 <style type="text/css">
